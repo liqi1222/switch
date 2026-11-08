@@ -1,0 +1,6 @@
+# Only track the two Octopath Traveler folders and repository documentation.
+/*
+!/.gitignore
+!/README.md
+!/八方旅人1/
+!/八方旅人2/

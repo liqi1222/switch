@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>歧路旅人 · 奥鲁斯特拉大陆全地图互动攻略</title>
+  <link rel="stylesheet" href="assets/style.css">
+  <link rel="stylesheet" href="assets/atlas.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="brand-mark">✦</span>
+      <div>
+        <h1>歧路旅人 <small>OCTOPATH TRAVELER</small></h1>
+        <p>奥鲁斯特拉大陆全地图互动攻略</p>
+      </div>
+    </div>
+    <div class="search-wrap">
+      <input id="globalSearch" type="search" placeholder="搜索地点 / NPC / 怪物 / 道具 / 支线…" autocomplete="off">
+      <div id="searchResults" class="search-results" hidden></div>
+    </div>
+    <nav class="top-actions">
+      <button class="btn ghost" data-global-tab="characters">角色</button>
+      <button class="btn ghost" data-global-tab="jobs">职业</button>
+      <button class="btn ghost" data-global-tab="finale">终章 / EX</button>
+      <button class="btn ghost" data-global-tab="routes">路线 / 技巧</button>
+    </nav>
+  </header>
+
+  <main class="layout">
+    <section class="map-pane">
+      <div class="map-toolbar">
+        <button id="btnWorld" class="btn" title="返回世界地图">⟲ 世界地图</button>
+        <div class="breadcrumb" id="breadcrumb">奥鲁斯特拉</div>
+        <div class="zoom-ctrl">
+          <button id="zoomIn" class="btn icon" title="放大">＋</button>
+          <button id="zoomOut" class="btn icon" title="缩小">－</button>
+        </div>
+      </div>
+      <div class="map-stage" id="mapStage">
+        <svg id="worldMap" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" role="img" aria-label="奥鲁斯特拉世界地图">
+          <defs>
+            <pattern id="wavePattern" width="60" height="30" patternUnits="userSpaceOnUse">
+              <path d="M0 15 Q15 5 30 15 T60 15" fill="none" stroke="rgba(255,255,255,0.07)" stroke-width="1.4"/>
+            </pattern>
+            <radialGradient id="oceanGrad" cx="50%" cy="45%" r="75%">
+              <stop offset="0%" stop-color="#1f5d8c"/>
+              <stop offset="100%" stop-color="#0c2a45"/>
+            </radialGradient>
+            <filter id="landShadow" x="-10%" y="-10%" width="120%" height="120%">
+              <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#001020" flood-opacity="0.55"/>
+            </filter>
+            <pattern id="landGrain" width="8" height="8" patternUnits="userSpaceOnUse">
+              <circle cx="2" cy="2" r="0.7" fill="rgba(60,40,10,0.12)"/>
+              <circle cx="6" cy="5" r="0.5" fill="rgba(255,255,255,0.12)"/>
+            </pattern>
+          </defs>
+          <g id="layerOcean"></g>
+          <g id="layerSea"></g>
+          <g id="layerShallow"></g>
+          <g id="layerLand"></g>
+          <g id="layerWater"></g>
+          <g id="layerCoast"></g>
+          <g id="layerDecor"></g>
+          <g id="layerRoads"></g>
+          <g id="layerLabels"></g>
+          <g id="layerMarkers"></g>
+        </svg>
+        <div id="mapTooltip" class="map-tooltip" hidden></div>
+        <div class="legend" id="legend"></div>
+        <div class="map-hint" id="mapHint">点击任意地区放大查看 · 滚轮缩放 · 拖拽平移</div>
+      </div>
+    </section>
+
+    <aside class="side-pane" id="sidePane">
+      <div id="panel"></div>
+    </aside>
+  </main>
+
+  <script src="data/core.js"></script>
+  <script src="data/global.js" onerror="void 0"></script>
+  <script src="data/woodlands.js" onerror="void 0"></script>
+  <script src="data/frostlands.js" onerror="void 0"></script>
+  <script src="data/flatlands.js" onerror="void 0"></script>
+  <script src="data/coastlands.js" onerror="void 0"></script>
+  <script src="data/highlands.js" onerror="void 0"></script>
+  <script src="data/sunlands.js" onerror="void 0"></script>
+  <script src="data/riverlands.js" onerror="void 0"></script>
+  <script src="data/cliftlands.js" onerror="void 0"></script>
+  <script src="data/detail/woodlands.js" onerror="void 0"></script>
+  <script src="data/detail/frostlands.js" onerror="void 0"></script>
+  <script src="data/detail/flatlands.js" onerror="void 0"></script>
+  <script src="data/detail/coastlands.js" onerror="void 0"></script>
+  <script src="data/detail/highlands.js" onerror="void 0"></script>
+  <script src="data/detail/sunlands.js" onerror="void 0"></script>
+  <script src="data/detail/riverlands.js" onerror="void 0"></script>
+  <script src="data/detail/cliftlands.js" onerror="void 0"></script>
+  <script src="data/access.js" onerror="void 0"></script>
+  <script src="assets/geo.js"></script>
+  <script src="data/encounters.js"></script>
+  <script src="assets/atlas.js"></script>
+  <script src="assets/detail.js"></script>
+  <script src="assets/app.js"></script>
+</body>
+</html>

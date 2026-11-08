@@ -1,0 +1,4491 @@
+{
+ "winterlands": [
+  {
+   "id": "frigit_isle",
+   "name": "弗里吉特监狱岛（大监狱/广场/采掘场）",
+   "type": "town",
+   "world": [
+    1063,
+    193.3
+   ],
+   "neighbors": [
+    {
+     "to": "frigit_isle_anchorage",
+     "name": "弗里吉特监狱岛入口/停泊所",
+     "dir": "南",
+     "kind": "road"
+    }
+   ],
+   "treasures": 2,
+   "npcs": 6,
+   "hasDetail": false
+  },
+  {
+   "id": "prison_underground_passage",
+   "name": "监狱地下道",
+   "type": "dungeon",
+   "world": [
+    1088.4,
+    208.6
+   ],
+   "neighbors": [
+    {
+     "to": "frigit_isle_anchorage",
+     "name": "弗里吉特监狱岛入口/停泊所",
+     "dir": "西",
+     "kind": "road"
+    }
+   ],
+   "treasures": 5,
+   "npcs": 1,
+   "hasDetail": false
+  },
+  {
+   "id": "frigit_isle_anchorage",
+   "name": "弗里吉特监狱岛入口/停泊所",
+   "type": "port",
+   "world": [
+    1068.2,
+    212.3
+   ],
+   "neighbors": [
+    {
+     "to": "frigit_isle",
+     "name": "弗里吉特监狱岛（大监狱/广场/采掘场）",
+     "dir": "北",
+     "kind": "road"
+    },
+    {
+     "to": "prison_underground_passage",
+     "name": "监狱地下道",
+     "dir": "东",
+     "kind": "road"
+    },
+    {
+     "to": "sundering_sea/anchorage_new_delsta",
+     "name": "新德尔斯塔港-停泊处（出航点）",
+     "dir": "南",
+     "kind": "sea"
+    }
+   ],
+   "treasures": 4,
+   "npcs": 0,
+   "hasDetail": false
+  },
+  {
+   "id": "cape_cold",
+   "name": "科尔德凯普",
+   "type": "town",
+   "world": [
+    1138.6,
+    286.4
+   ],
+   "neighbors": [
+    {
+     "to": "southern_cape_cold_snows",
+     "name": "南科尔德凯普雪道",
+     "dir": "西南",
+     "kind": "road"
+    }
+   ],
+   "treasures": 2,
+   "npcs": 9,
+   "hasDetail": false
+  },
+  {
+   "id": "southern_cape_cold_snows",
+   "name": "南科尔德凯普雪道",
+   "type": "field",
+   "world": [
+    1115.6,
+    318.8
+   ],
+   "neighbors": [
+    {
+     "to": "cape_cold",
+     "name": "科尔德凯普",
+     "dir": "东北",
+     "kind": "road"
+    },
+    {
+     "to": "eastern_cape_cold_snows",
+     "name": "东科尔德凯普雪道",
+     "dir": "东",
+     "kind": "road"
+    },
+    {
+     "to": "brightlands/nd_flats",
+     "name": "新德尔斯塔平原",
+     "dir": "南",
+     "kind": "link"
+    }
+   ],
+   "treasures": 4,
+   "npcs": 2,
+   "hasDetail": false
+  },
+  {
+   "id": "eastern_cape_cold_snows",
+   "name": "东科尔德凯普雪道",
+   "type": "field",
+   "world": [
+    1245.9,
+    302.8
+   ],
+   "neighbors": [
+    {
+     "to": "southern_cape_cold_snows",
+     "name": "南科尔德凯普雪道",
+     "dir": "西",
+     "kind": "road"
+    },
+    {
+     "to": "ruffians_hideout",
+     "name": "无赖据点",
+     "dir": "东",
+     "kind": "road"
+    },
+    {
+     "to": "western_winterbloom_snows",
+     "name": "西温特布鲁姆雪道",
+     "dir": "西北",
+     "kind": "road"
+    },
+    {
+     "to": "crestlands/eastern_flamechurch_pass",
+     "name": "东弗拉姆教堂山道",
+     "dir": "南",
+     "kind": "link"
+    }
+   ],
+   "treasures": 4,
+   "npcs": 1,
+   "hasDetail": false
+  },
+  {
+   "id": "ruffians_hideout",
+   "name": "无赖据点",
+   "type": "dungeon",
+   "world": [
+    1279.1,
+    296.9
+   ],
+   "neighbors": [
+    {
+     "to": "eastern_cape_cold_snows",
+     "name": "东科尔德凯普雪道",
+     "dir": "西",
+     "kind": "road"
+    }
+   ],
+   "treasures": 5,
+   "npcs": 1,
+   "hasDetail": false
+  },
+  {
+   "id": "western_winterbloom_snows",
+   "name": "西温特布鲁姆雪道",
+   "type": "field",
+   "world": [
+    1231.7,
+    274.4
+   ],
+   "neighbors": [
+    {
+     "to": "eastern_cape_cold_snows",
+     "name": "东科尔德凯普雪道",
+     "dir": "东南",
+     "kind": "road"
+    },
+    {
+     "to": "altar_of_the_scholarking",
+     "name": "学者王祭坛",
+     "dir": "北",
+     "kind": "road"
+    },
+    {
+     "to": "winterbloom",
+     "name": "温特布鲁姆",
+     "dir": "东",
+     "kind": "road"
+    }
+   ],
+   "treasures": 3,
+   "npcs": 1,
+   "hasDetail": false
+  },
+  {
+   "id": "altar_of_the_scholarking",
+   "name": "学者王祭坛",
+   "type": "shrine",
+   "world": [
+    1234.7,
+    255.4
+   ],
+   "neighbors": [
+    {
+     "to": "western_winterbloom_snows",
+     "name": "西温特布鲁姆雪道",
+     "dir": "南",
+     "kind": "road"
+    }
+   ],
+   "treasures": 0,
+   "npcs": 0,
+   "hasDetail": false
+  },
+  {
+   "id": "winterbloom",
+   "name": "温特布鲁姆",
+   "type": "town",
+   "world": [
+    1266.3,
+    273
+   ],
+   "neighbors": [
+    {
+     "to": "western_winterbloom_snows",
+     "name": "西温特布鲁姆雪道",
+     "dir": "西",
+     "kind": "road"
+    },
+    {
+     "to": "winterbloom_thieves_quarter",
+     "name": "温特布鲁姆：盗贼区",
+     "dir": "东北",
+     "kind": "road"
+    }
+   ],
+   "treasures": 4,
+   "npcs": 8,
+   "hasDetail": false
+  },
+  {
+   "id": "winterbloom_thieves_quarter",
+   "name": "温特布鲁姆：盗贼区",
+   "type": "town",
+   "world": [
+    1272.3,
+    262.2
+   ],
+   "neighbors": [
+    {
+     "to": "winterbloom",
+     "name": "温特布鲁姆",
+     "dir": "西南",
+     "kind": "road"
+    },
+    {
+     "to": "snowhares_den",
+     "name": "雪兔巢穴",
+     "dir": "东",
+     "kind": "road"
+    }
+   ],
+   "treasures": 1,
+   "npcs": 8,
+   "hasDetail": false
+  },
+  {
+   "id": "snowhares_den",
+   "name": "雪兔巢穴",
+   "type": "dungeon",
+   "world": [
+    1301.8,
+    273.6
+   ],
+   "neighbors": [
+    {
+     "to": "winterbloom_thieves_quarter",
+     "name": "温特布鲁姆：盗贼区",
+     "dir": "西",
+     "kind": "road"
+    }
+   ],
+   "treasures": 5,
+   "npcs": 0,
+   "hasDetail": false
+  },
+  {
+   "id": "southern_stormhail_snows",
+   "name": "南斯托姆黑尔雪道",
+   "type": "field",
+   "world": [
+    1392.3,
+    283.6
+   ],
+   "neighbors": [
+    {
+     "to": "stormhail",
+     "name": "斯托姆黑尔",
+     "dir": "北",
+     "kind": "road"
+    },
+    {
+     "to": "beneath_the_wall",
+     "name": "巨壁地下洞",
+     "dir": "西",
+     "kind": "road"
+    },
+    {
+     "to": "crestlands/northern_montwise_pass",
+     "name": "北蒙特维斯山道",
+     "dir": "南",
+     "kind": "link"
+    }
+   ],
+   "treasures": 5,
+   "npcs": 2,
+   "hasDetail": false
+  },
+  {
+   "id": "beneath_the_wall",
+   "name": "巨壁地下洞",
+   "type": "dungeon",
+   "world": [
+    1336.2,
+    287.9
+   ],
+   "neighbors": [
+    {
+     "to": "southern_stormhail_snows",
+     "name": "南斯托姆黑尔雪道",
+     "dir": "东",
+     "kind": "road"
+    },
+    {
+     "to": "infernal_castle",
+     "name": "奈落之城",
+     "dir": "东南",
+     "kind": "road"
+    }
+   ],
+   "treasures": 1,
+   "npcs": 0,
+   "hasDetail": false
+  },
+  {
+   "id": "infernal_castle",
+   "name": "奈落之城",
+   "type": "secret",
+   "world": [
+    1345.5,
+    295
+   ],
+   "neighbors": [
+    {
+     "to": "beneath_the_wall",
+     "name": "巨壁地下洞",
+     "dir": "西北",
+     "kind": "road"
+    }
+   ],
+   "treasures": 6,
+   "npcs": 0,
+   "hasDetail": false
+  },
+  {
+   "id": "stormhail",
+   "name": "斯托姆黑尔",
+   "type": "town",
+   "world": [
+    1385.1,
+    254.4
+   ],
+   "neighbors": [
+    {
+     "to": "southern_stormhail_snows",
+     "name": "南斯托姆黑尔雪道",
+     "dir": "南",
+     "kind": "road"
+    },
+    {
+     "to": "stormhail_sacred_guard_hq",
+     "name": "斯托姆黑尔：圣堂机关总部",
+     "dir": "东南",
+     "kind": "road"
+    },
+    {
+     "to": "sacred_peak_altahe",
+     "name": "灵峰阿尔塔赫",
+     "dir": "西北",
+     "kind": "road"
+    },
+    {
+     "to": "castle_mei",
+     "name": "梅城（斯托姆黑尔：大桥/梅城）",
+     "dir": "东",
+     "kind": "road"
+    }
+   ],
+   "treasures": 2,
+   "npcs": 8,
+   "hasDetail": false
+  },
+  {
+   "id": "stormhail_sacred_guard_hq",
+   "name": "斯托姆黑尔：圣堂机关总部",
+   "type": "town",
+   "world": [
+    1399,
+    267.4
+   ],
+   "neighbors": [
+    {
+     "to": "stormhail",
+     "name": "斯托姆黑尔",
+     "dir": "西北",
+     "kind": "road"
+    },
+    {
+     "to": "forbidden_shrine",
+     "name": "禁忌圣堂",
+     "dir": "东北",
+     "kind": "road"
+    }
+   ],
+   "treasures": 3,
+   "npcs": 7,
+   "hasDetail": false
+  },
+  {
+   "id": "forbidden_shrine",
+   "name": "禁忌圣堂",
+   "type": "dungeon",
+   "world": [
+    1408.7,
+    261
+   ],
+   "neighbors": [
+    {
+     "to": "stormhail_sacred_guard_hq",
+     "name": "斯托姆黑尔：圣堂机关总部",
+     "dir": "西南",
+     "kind": "road"
+    }
+   ],
+   "treasures": 5,
+   "npcs": 0,
+   "hasDetail": false
+  },
+  {
+   "id": "castle_mei",
+   "name": "梅城（斯托姆黑尔：大桥/梅城）",
+   "type": "town",
+   "world": [
+    1458.1,
+    249.7
+   ],
+   "neighbors": [
+    {
+     "to": "stormhail",
+     "name": "斯托姆黑尔",
+     "dir": "西",
+     "kind": "road"
+    },
+    {
+     "to": "castle_mei_east_tower",
+     "name": "梅城：东塔/处刑塔",
+     "dir": "北",
+     "kind": "road"
+    }
+   ],
+   "treasures": 2,
+   "npcs": 6,
+   "hasDetail": false
+  },
+  {
+   "id": "castle_mei_east_tower",
+   "name": "梅城：东塔/处刑塔",
+   "type": "dungeon",
+   "world": [
+    1460.6,
+    237.7
+   ],
+   "neighbors": [
+    {
+     "to": "castle_mei",
+     "name": "梅城（斯托姆黑尔：大桥/梅城）",
+     "dir": "南",
+     "kind": "road"
+    }
+   ],
+   "treasures": 5,
+   "npcs": 0,
+   "hasDetail": false
+  },
+  {
+   "id": "sacred_peak_altahe",
+   "name": "灵峰阿尔塔赫",
+   "type": "dungeon",
+   "world": [
+    1344.1,
+    213.3
+   ],
+   "neighbors": [
+    {
+     "to": "stormhail",
+     "name": "斯托姆黑尔",
+     "dir": "东南",
+     "kind": "road"
+    }
+   ],
+   "treasures": 4,
+   "npcs": 0,
+   "hasDetail": false
+  }
+ ],
+ "wildlands": [
+  {
+   "id": "oresrush",
+   "name": "欧兹拉修",
+   "type": "town",
+   "world": [
+    530.1,
+    412.9
+   ],
+   "neighbors": [
+    {
+     "to": "oresrush_foundry",
+     "name": "欧兹拉修铸造厂",
+     "dir": "西北",
+     "kind": "road"
+    },
+    {
+     "to": "silver_mine",
+     "name": "银矿 / 银矿遗址",
+     "dir": "东北",
+     "kind": "road"
+    },
+    {
+     "to": "south_oresrush_wilds",
+     "name": "南欧兹拉修荒道",
+     "dir": "南",
+     "kind": "road"
+    }
+   ],
+   "treasures": 5,
+   "npcs": 7,
+   "hasDetail": false
+  },
+  {
+   "id": "oresrush_foundry",
+   "name": "欧兹拉修铸造厂",
+   "type": "town",
+   "world": [
+    516.5,
+    405.1
+   ],
+   "neighbors": [
+    {
+     "to": "oresrush",
+     "name": "欧兹拉修",
+     "dir": "东南",
+     "kind": "road"
+    }
+   ],
+   "treasures": 1,
+   "npcs": 1,
+   "hasDetail": false
+  },
+  {
+   "id": "silver_mine",
+   "name": "银矿 / 银矿遗址",
+   "type": "field",
+   "world": [
+    564.7,
+    370.6
+   ],
+   "neighbors": [
+    {
+     "to": "oresrush",
+     "name": "欧兹拉修",
+     "dir": "西南",
+     "kind": "road"
+    },
+    {
+     "to": "giffs_manse",
+     "name": "吉夫宅邸",
+     "dir": "东北",
+     "kind": "road"
+    }
+   ],
+   "treasures": 5,
+   "npcs": 0,
+   "hasDetail": false
+  },
+  {
+   "id": "giffs_manse",
+   "name": "吉夫宅邸",
+   "type": "dungeon",
+   "world": [
+    572.5,
+    357.3
+   ],
+   "neighbors": [
+    {
+     "to": "silver_mine",
+     "name": "银矿 / 银矿遗址",
+     "dir": "西南",
+     "kind": "road"
+    }
+   ],
+   "treasures": 4,
+   "npcs": 0,
+   "hasDetail": false
+  },
+  {
+   "id": "south_oresrush_wilds",
+   "name": "南欧兹拉修荒道",
+   "type": "field",
+   "world": [
+    528.8,
+    433.2
+   ],
+   "neighbors": [
+    {
+     "to": "oresrush",
+     "name": "欧兹拉修",
+     "dir": "北",
+     "kind": "road"
+    },
+    {
+     "to": "leaflands/south_cropdale_trail",
+     "name": "南库罗普提尔森道",
+     "dir": "西北",
+     "kind": "link"
+    },
+    {
+     "to": "hinoeuma/northern_ryu_sands",
+     "name": "北琉砂道",
+     "dir": "西南",
+     "kind": "link"
+    }
+   ],
+   "treasures": 4,
+   "npcs": 1,
+   "hasDetail": false
+  },
+  {
+   "id": "crackridge_anchorage",
+   "name": "克拉克里奇港停泊所",
+   "type": "port",
+   "world": [
+    544.7,
+    343.2
+   ],
+   "neighbors": [
+    {
+     "to": "south_crackridge_wilds",
+     "name": "南克拉克里奇荒道",
+     "dir": "西北",
+     "kind": "road"
+    },
+    {
+     "to": "leaflands/east_cropdale_trail",
+     "name": "东库罗普提尔森道",
+     "dir": "西",
+     "kind": "link"
+    },
+    {
+     "to": "sundering_sea/anchorage_crackridge",
+     "name": "克拉克雷吉港-停泊处（出航点）",
+     "dir": "东南",
+     "kind": "sea"
+    }
+   ],
+   "treasures": 3,
+   "npcs": 2,
+   "hasDetail": false
+  },
+  {
+   "id": "south_crackridge_wilds",
+   "name": "南克拉克里奇荒道",
+   "type": "field",
+   "world": [
+    525.3,
+    311.7
+   ],
+   "neighbors": [
+    {
+     "to": "west_crackridge_wilds",
+     "name": "西克拉克里奇荒道",
+     "dir": "东北",
+     "kind": "road"
+    },
+    {
+     "to": "unfinished_tunnel",
+     "name": "未完成隧道",
+     "dir": "西",
+     "kind": "road"
+    },
+    {
+     "to": "altar_of_trader",
+     "name": "绅商伯祭坛",
+     "dir": "东",
+     "kind": "road"
+    },
+    {
+     "to": "crackridge_anchorage",
+     "name": "克拉克里奇港停泊所",
+     "dir": "东南",
+     "kind": "road"
+    }
+   ],
+   "treasures": 4,
+   "npcs": 1,
+   "hasDetail": false
+  },
+  {
+   "id": "unfinished_tunnel",
+   "name": "未完成隧道",
+   "type": "dungeon",
+   "world": [
+    499.3,
+    304.6
+   ],
+   "neighbors": [
+    {
+     "to": "south_crackridge_wilds",
+     "name": "南克拉克里奇荒道",
+     "dir": "东",
+     "kind": "road"
+    }
+   ],
+   "treasures": 7,
+   "npcs": 1,
+   "hasDetail": false
+  },
+  {
+   "id": "altar_of_trader",
+   "name": "绅商伯祭坛",
+   "type": "shrine",
+   "world": [
+    569.3,
+    306.5
+   ],
+   "neighbors": [
+    {
+     "to": "south_crackridge_wilds",
+     "name": "南克拉克里奇荒道",
+     "dir": "西",
+     "kind": "road"
+    }
+   ],
+   "treasures": 0,
+   "npcs": 0,
+   "hasDetail": false
+  },
+  {
+   "id": "west_crackridge_wilds",
+   "name": "西克拉克里奇荒道",
+   "type": "field",
+   "world": [
+    556.5,
+    271.6
+   ],
+   "neighbors": [
+    {
+     "to": "west_gravell_wilds",
+     "name": "西格拉维尔荒道",
+     "dir": "东北",
+     "kind": "road"
+    },
+    {
+     "to": "crackridge",
+     "name": "克拉克里奇",
+     "dir": "东",
+     "kind": "road"
+    },
+    {
+     "to": "south_crackridge_wilds",
+     "name": "南克拉克里奇荒道",
+     "dir": "西南",
+     "kind": "road"
+    }
+   ],
+   "treasures": 6,
+   "npcs": 3,
+   "hasDetail": false
+  },
+  {
+   "id": "crackridge",
+   "name": "克拉克里奇",
+   "type": "town",
+   "world": [
+    601.9,
+    266.8
+   ],
+   "neighbors": [
+    {
+     "to": "west_crackridge_wilds",
+     "name": "西克拉克里奇荒道",
+     "dir": "西",
+     "kind": "road"
+    },
+    {
+     "to": "abandoned_road",
+     "name": "废弃道路",
+     "dir": "东",
+     "kind": "road"
+    },
+    {
+     "to": "path_to_bed_of_titan",
+     "name": "通往地神寝床之路 / 地神寝床",
+     "dir": "南",
+     "kind": "road"
+    }
+   ],
+   "treasures": 4,
+   "npcs": 11,
+   "hasDetail": false
+  },
+  {
+   "id": "path_to_bed_of_titan",
+   "name": "通往地神寝床之路 / 地神寝床",
+   "type": "dungeon",
+   "world": [
+    608,
+    296.4
+   ],
+   "neighbors": [
+    {
+     "to": "crackridge",
+     "name": "克拉克里奇",
+     "dir": "北",
+     "kind": "road"
+    }
+   ],
+   "treasures": 4,
+   "npcs": 0,
+   "hasDetail": false
+  },
+  {
+   "id": "abandoned_road",
+   "name": "废弃道路",
+   "type": "field",
+   "world": [
+    640.6,
+    267.1
+   ],
+   "neighbors": [
+    {
+     "to": "crackridge",
+     "name": "克拉克里奇",
+     "dir": "西",
+     "kind": "road"
+    },
+    {
+     "to": "fellsun_ruins",
+     "name": "落日遗迹",
+     "dir": "东",
+     "kind": "road"
+    }
+   ],
+   "treasures": 3,
+   "npcs": 0,
+   "hasDetail": false
+  },
+  {
+   "id": "fellsun_ruins",
+   "name": "落日遗迹",
+   "type": "dungeon",
+   "world": [
+    676.7,
+    266
+   ],
+   "neighbors": [
+    {
+     "to": "abandoned_road",
+     "name": "废弃道路",
+     "dir": "西",
+     "kind": "road"
+    }
+   ],
+   "treasures": 3,
+   "npcs": 0,
+   "hasDetail": false
+  },
+  {
+   "id": "west_gravell_wilds",
+   "name": "西格拉维尔荒道",
+   "type": "field",
+   "world": [
+    648.1,
+    164
+   ],
+   "neighbors": [
+    {
+     "to": "gravell",
+     "name": "格拉维尔",
+     "dir": "东",
+     "kind": "road"
+    },
+    {
+     "to": "ivory_ravine",
+     "name": "白色幽谷",
+     "dir": "南",
+     "kind": "road"
+    },
+    {
+     "to": "west_crackridge_wilds",
+     "name": "西克拉克里奇荒道",
+     "dir": "西南",
+     "kind": "road"
+    }
+   ],
+   "treasures": 7,
+   "npcs": 1,
+   "hasDetail": false
+  },
+  {
+   "id": "ivory_ravine",
+   "name": "白色幽谷",
+   "type": "dungeon",
+   "world": [
+    651.6,
+    187.7
+   ],
+   "neighbors": [
+    {
+     "to": "west_gravell_wilds",
+     "name": "西格拉维尔荒道",
+     "dir": "北",
+     "kind": "road"
+    }
+   ],
+   "treasures": 4,
+   "npcs": 1,
+   "hasDetail": false
+  },
+  {
+   "id": "gravell",
+   "name": "格拉维尔",
+   "type": "town",
+   "world": [
+    733,
+    160.3
+   ],
+   "neighbors": [
+    {
+     "to": "west_gravell_wilds",
+     "name": "西格拉维尔荒道",
+     "dir": "西",
+     "kind": "road"
+    },
+    {
+     "to": "path_to_duskruin",
+     "name": "通往达斯克鲁因灵殿之路",
+     "dir": "东",
+     "kind": "road"
+    }
+   ],
+   "treasures": 3,
+   "npcs": 8,
+   "hasDetail": false
+  },
+  {
+   "id": "path_to_duskruin",
+   "name": "通往达斯克鲁因灵殿之路",
+   "type": "field",
+   "world": [
+    806.8,
+    155.4
+   ],
+   "neighbors": [
+    {
+     "to": "gravell",
+     "name": "格拉维尔",
+     "dir": "西",
+     "kind": "road"
+    },
+    {
+     "to": "duskruin_shrine",
+     "name": "达斯克鲁因灵殿（含最深处）",
+     "dir": "东",
+     "kind": "road"
+    }
+   ],
+   "treasures": 2,
+   "npcs": 0,
+   "hasDetail": false
+  },
+  {
+   "id": "duskruin_shrine",
+   "name": "达斯克鲁因灵殿（含最深处）",
+   "type": "dungeon",
+   "world": [
+    839.5,
+    161.8
+   ],
+   "neighbors": [
+    {
+     "to": "path_to_duskruin",
+     "name": "通往达斯克鲁因灵殿之路",
+     "dir": "西",
+     "kind": "road"
+    }
+   ],
+   "treasures": 8,
+   "npcs": 0,
+   "hasDetail": false
+  }
+ ],
+ "leaflands": [
+  {
+   "id": "cropdale",
+   "name": "库罗普提尔",
+   "type": "town",
+   "world": [
+    393.8,
+    330
+   ],
+   "neighbors": [
+    {
+     "to": "east_cropdale_trail",
+     "name": "东库罗普提尔森道",
+     "dir": "东",
+     "kind": "road"
+    },
+    {
+     "to": "forest_path",
+     "name": "森林小道",
+     "dir": "北",
+     "kind": "road"
+    }
+   ],
+   "treasures": 5,
+   "npcs": 8,
+   "hasDetail": false
+  },
+  {
+   "id": "festival_grounds",
+   "name": "祭典会场",
+   "type": "field",
+   "world": [
+    399.9,
+    275.8
+   ],
+   "neighbors": [
+    {
+     "to": "forest_path",
+     "name": "森林小道",
+     "dir": "南",
+     "kind": "road"
+    }
+   ],
+   "treasures": 1,
+   "npcs": 0,
+   "hasDetail": false
+  },
+  {
+   "id": "forest_path",
+   "name": "森林小道",
+   "type": "field",
+   "world": [
+    398,
+    288
+   ],
+   "neighbors": [
+    {
+     "to": "cropdale",
+     "name": "库罗普提尔",
+     "dir": "南",
+     "kind": "road"
+    },
+    {
+     "to": "festival_grounds",
+     "name": "祭典会场",
+     "dir": "北",
+     "kind": "road"
+    },
+    {
+     "to": "veil_of_trees",
+     "name": "薄暗之森",
+     "dir": "西",
+     "kind": "road"
+    },
+    {
+     "to": "animal_trail",
+     "name": "兽道",
+     "dir": "东",
+     "kind": "road"
+    }
+   ],
+   "treasures": 3,
+   "npcs": 1,
+   "hasDetail": false
+  },
+  {
+   "id": "veil_of_trees",
+   "name": "薄暗之森",
+   "type": "dungeon",
+   "world": [
+    361.9,
+    289.9
+   ],
+   "neighbors": [
+    {
+     "to": "forest_path",
+     "name": "森林小道",
+     "dir": "东",
+     "kind": "road"
+    }
+   ],
+   "treasures": 5,
+   "npcs": 0,
+   "hasDetail": false
+  },
+  {
+   "id": "animal_trail",
+   "name": "兽道",
+   "type": "dungeon",
+   "world": [
+    435.7,
+    294.4
+   ],
+   "neighbors": [
+    {
+     "to": "forest_path",
+     "name": "森林小道",
+     "dir": "西",
+     "kind": "road"
+    }
+   ],
+   "treasures": 1,
+   "npcs": 0,
+   "hasDetail": false
+  },
+  {
+   "id": "east_cropdale_trail",
+   "name": "东库罗普提尔森道",
+   "type": "field",
+   "world": [
+    437.5,
+    330.7
+   ],
+   "neighbors": [
+    {
+     "to": "wildlands/crackridge_anchorage",
+     "name": "克拉克里奇港停泊所",
+     "dir": "东",
+     "kind": "link"
+    },
+    {
+     "to": "south_cropdale_trail",
+     "name": "南库罗普提尔森道",
+     "dir": "西南",
+     "kind": "road"
+    },
+    {
+     "to": "cropdale",
+     "name": "库罗普提尔",
+     "dir": "西",
+     "kind": "road"
+    }
+   ],
+   "treasures": 4,
+   "npcs": 1,
+   "hasDetail": false
+  },
+  {
+   "id": "south_cropdale_trail",
+   "name": "南库罗普提尔森道",
+   "type": "field",
+   "world": [
+    417.6,
+    367.4
+   ],
+   "neighbors": [
+    {
+     "to": "wildlands/south_oresrush_wilds",
+     "name": "南欧兹拉修荒道",
+     "dir": "东南",
+     "kind": "link"
+    },
+    {
+     "to": "north_wellgrove_trail",
+     "name": "北韦尔格罗夫森道",
+     "dir": "西",
+     "kind": "road"
+    },
+    {
+     "to": "starfall_spring",
+     "name": "星落之泉",
+     "dir": "南",
+     "kind": "road"
+    },
+    {
+     "to": "east_cropdale_trail",
+     "name": "东库罗普提尔森道",
+     "dir": "东北",
+     "kind": "road"
+    }
+   ],
+   "treasures": 3,
+   "npcs": 0,
+   "hasDetail": false
+  },
+  {
+   "id": "starfall_spring",
+   "name": "星落之泉",
+   "type": "dungeon",
+   "world": [
+    414.5,
+    408.3
+   ],
+   "neighbors": [
+    {
+     "to": "south_cropdale_trail",
+     "name": "南库罗普提尔森道",
+     "dir": "北",
+     "kind": "road"
+    }
+   ],
+   "treasures": 5,
+   "npcs": 0,
+   "hasDetail": false
+  },
+  {
+   "id": "north_wellgrove_trail",
+   "name": "北韦尔格罗夫森道",
+   "type": "field",
+   "world": [
+    330.3,
+    383.4
+   ],
+   "neighbors": [
+    {
+     "to": "south_timberain_trail",
+     "name": "南汀巴雷因森道",
+     "dir": "西",
+     "kind": "road"
+    },
+    {
+     "to": "altar_lady_of_grace",
+     "name": "舞踏姬祭坛",
+     "dir": "西北",
+     "kind": "road"
+    },
+    {
+     "to": "south_cropdale_trail",
+     "name": "南库罗普提尔森道",
+     "dir": "东",
+     "kind": "road"
+    },
+    {
+     "to": "east_wellgrove_trail",
+     "name": "东韦尔格罗夫森道",
+     "dir": "南",
+     "kind": "road"
+    }
+   ],
+   "treasures": 5,
+   "npcs": 0,
+   "hasDetail": false
+  },
+  {
+   "id": "altar_lady_of_grace",
+   "name": "舞踏姬祭坛",
+   "type": "shrine",
+   "world": [
+    316.1,
+    351.3
+   ],
+   "neighbors": [
+    {
+     "to": "north_wellgrove_trail",
+     "name": "北韦尔格罗夫森道",
+     "dir": "东南",
+     "kind": "road"
+    }
+   ],
+   "treasures": 0,
+   "npcs": 0,
+   "hasDetail": false
+  },
+  {
+   "id": "east_wellgrove_trail",
+   "name": "东韦尔格罗夫森道",
+   "type": "field",
+   "world": [
+    313.1,
+    441.4
+   ],
+   "neighbors": [
+    {
+     "to": "north_wellgrove_trail",
+     "name": "北韦尔格罗夫森道",
+     "dir": "北",
+     "kind": "road"
+    },
+    {
+     "to": "wellgrove",
+     "name": "韦尔格罗夫",
+     "dir": "西",
+     "kind": "road"
+    },
+    {
+     "to": "hinoeuma/western_sai_sands",
+     "name": "西赛砂道",
+     "dir": "南",
+     "kind": "link"
+    }
+   ],
+   "treasures": 5,
+   "npcs": 1,
+   "hasDetail": false
+  },
+  {
+   "id": "wellgrove",
+   "name": "韦尔格罗夫",
+   "type": "town",
+   "world": [
+    258.3,
+    447.4
+   ],
+   "neighbors": [
+    {
+     "to": "east_wellgrove_trail",
+     "name": "东韦尔格罗夫森道",
+     "dir": "东",
+     "kind": "road"
+    },
+    {
+     "to": "alrond_estate",
+     "name": "阿尔隆德宅邸",
+     "dir": "东北",
+     "kind": "road"
+    },
+    {
+     "to": "secret_forest",
+     "name": "秘密之森",
+     "dir": "西",
+     "kind": "road"
+    },
+    {
+     "to": "road_to_mothers_garden",
+     "name": "通往母亲花园之路",
+     "dir": "南",
+     "kind": "road"
+    }
+   ],
+   "treasures": 2,
+   "npcs": 12,
+   "hasDetail": false
+  },
+  {
+   "id": "alrond_estate",
+   "name": "阿尔隆德宅邸",
+   "type": "town",
+   "world": [
+    272.5,
+    435.3
+   ],
+   "neighbors": [
+    {
+     "to": "wellgrove",
+     "name": "韦尔格罗夫",
+     "dir": "西南",
+     "kind": "road"
+    }
+   ],
+   "treasures": 2,
+   "npcs": 1,
+   "hasDetail": false
+  },
+  {
+   "id": "secret_forest",
+   "name": "秘密之森",
+   "type": "dungeon",
+   "world": [
+    205.4,
+    439.9
+   ],
+   "neighbors": [
+    {
+     "to": "wellgrove",
+     "name": "韦尔格罗夫",
+     "dir": "东",
+     "kind": "road"
+    }
+   ],
+   "treasures": 4,
+   "npcs": 0,
+   "hasDetail": false
+  },
+  {
+   "id": "road_to_mothers_garden",
+   "name": "通往母亲花园之路",
+   "type": "field",
+   "world": [
+    253.1,
+    488
+   ],
+   "neighbors": [
+    {
+     "to": "wellgrove",
+     "name": "韦尔格罗夫",
+     "dir": "北",
+     "kind": "road"
+    },
+    {
+     "to": "mothers_garden_orphanage",
+     "name": "母亲花园孤儿院",
+     "dir": "西南",
+     "kind": "road"
+    }
+   ],
+   "treasures": 5,
+   "npcs": 0,
+   "hasDetail": false
+  },
+  {
+   "id": "mothers_garden_orphanage",
+   "name": "母亲花园孤儿院",
+   "type": "town",
+   "world": [
+    231.9,
+    511.4
+   ],
+   "neighbors": [
+    {
+     "to": "road_to_mothers_garden",
+     "name": "通往母亲花园之路",
+     "dir": "东北",
+     "kind": "road"
+    },
+    {
+     "to": "mothers_garden",
+     "name": "母亲花园",
+     "dir": "西北",
+     "kind": "road"
+    }
+   ],
+   "treasures": 0,
+   "npcs": 1,
+   "hasDetail": false
+  },
+  {
+   "id": "mothers_garden",
+   "name": "母亲花园",
+   "type": "dungeon",
+   "world": [
+    216.4,
+    491.2
+   ],
+   "neighbors": [
+    {
+     "to": "mothers_garden_orphanage",
+     "name": "母亲花园孤儿院",
+     "dir": "东南",
+     "kind": "road"
+    }
+   ],
+   "treasures": 5,
+   "npcs": 0,
+   "hasDetail": false
+  },
+  {
+   "id": "south_timberain_trail",
+   "name": "南汀巴雷因森道",
+   "type": "field",
+   "world": [
+    250.8,
+    386.6
+   ],
+   "neighbors": [
+    {
+     "to": "timberain",
+     "name": "汀巴雷因",
+     "dir": "北",
+     "kind": "road"
+    },
+    {
+     "to": "house_wellows_manor",
+     "name": "韦罗兹家宅邸",
+     "dir": "西",
+     "kind": "road"
+    },
+    {
+     "to": "north_wellgrove_trail",
+     "name": "北韦尔格罗夫森道",
+     "dir": "东",
+     "kind": "road"
+    }
+   ],
+   "treasures": 5,
+   "npcs": 0,
+   "hasDetail": false
+  },
+  {
+   "id": "house_wellows_manor",
+   "name": "韦罗兹家宅邸",
+   "type": "dungeon",
+   "world": [
+    220,
+    392.6
+   ],
+   "neighbors": [
+    {
+     "to": "south_timberain_trail",
+     "name": "南汀巴雷因森道",
+     "dir": "东",
+     "kind": "road"
+    }
+   ],
+   "treasures": 4,
+   "npcs": 0,
+   "hasDetail": false
+  },
+  {
+   "id": "timberain",
+   "name": "汀巴雷因",
+   "type": "town",
+   "world": [
+    235.8,
+    344.6
+   ],
+   "neighbors": [
+    {
+     "to": "timberain_castle_square",
+     "name": "汀巴雷因城广场",
+     "dir": "东北",
+     "kind": "road"
+    },
+    {
+     "to": "timberain_castle",
+     "name": "汀巴雷因城（含屋顶）",
+     "dir": "北",
+     "kind": "road"
+    },
+    {
+     "to": "south_timberain_trail",
+     "name": "南汀巴雷因森道",
+     "dir": "南",
+     "kind": "road"
+    }
+   ],
+   "treasures": 5,
+   "npcs": 9,
+   "hasDetail": false
+  },
+  {
+   "id": "timberain_castle_square",
+   "name": "汀巴雷因城广场",
+   "type": "town",
+   "world": [
+    250.8,
+    332.1
+   ],
+   "neighbors": [
+    {
+     "to": "timberain",
+     "name": "汀巴雷因",
+     "dir": "西南",
+     "kind": "road"
+    }
+   ],
+   "treasures": 3,
+   "npcs": 5,
+   "hasDetail": false
+  },
+  {
+   "id": "timberain_castle",
+   "name": "汀巴雷因城（含屋顶）",
+   "type": "dungeon",
+   "world": [
+    246,
+    317.6
+   ],
+   "neighbors": [
+    {
+     "to": "timberain",
+     "name": "汀巴雷因",
+     "dir": "南",
+     "kind": "road"
+    }
+   ],
+   "treasures": 9,
+   "npcs": 0,
+   "hasDetail": false
+  }
+ ],
+ "harborlands": [
+  {
+   "id": "canalbrine",
+   "name": "卡纳尔布莱恩",
+   "type": "town",
+   "world": [
+    687.7,
+    494.9
+   ],
+   "neighbors": [
+    {
+     "to": "western_canalbrine_coast",
+     "name": "西卡纳尔布莱恩海道",
+     "dir": "西",
+     "kind": "road"
+    },
+    {
+     "to": "path_to_water_source",
+     "name": "通往卡纳尔布莱恩水源之路",
+     "dir": "南",
+     "kind": "road"
+    },
+    {
+     "to": "sacred_guard_ship",
+     "name": "圣堂机关之船",
+     "dir": "东",
+     "kind": "road"
+    },
+    {
+     "to": "sundering_sea/anchorage_canalbrine",
+     "name": "卡纳尔布来因（出航点）",
+     "dir": "东南",
+     "kind": "sea"
+    }
+   ],
+   "treasures": 3,
+   "npcs": 16,
+   "hasDetail": false
+  },
+  {
+   "id": "sacred_guard_ship",
+   "name": "圣堂机关之船",
+   "type": "dungeon",
+   "world": [
+    723.8,
+    481.1
+   ],
+   "neighbors": [
+    {
+     "to": "canalbrine",
+     "name": "卡纳尔布莱恩",
+     "dir": "西",
+     "kind": "road"
+    }
+   ],
+   "treasures": 5,
+   "npcs": 0,
+   "hasDetail": false
+  },
+  {
+   "id": "path_to_water_source",
+   "name": "通往卡纳尔布莱恩水源之路",
+   "type": "field",
+   "world": [
+    686.9,
+    513.1
+   ],
+   "neighbors": [
+    {
+     "to": "canalbrine",
+     "name": "卡纳尔布莱恩",
+     "dir": "北",
+     "kind": "road"
+    },
+    {
+     "to": "water_source",
+     "name": "卡纳尔布莱恩水源",
+     "dir": "东南",
+     "kind": "road"
+    }
+   ],
+   "treasures": 6,
+   "npcs": 0,
+   "hasDetail": false
+  },
+  {
+   "id": "water_source",
+   "name": "卡纳尔布莱恩水源",
+   "type": "dungeon",
+   "world": [
+    706.4,
+    522.2
+   ],
+   "neighbors": [
+    {
+     "to": "path_to_water_source",
+     "name": "通往卡纳尔布莱恩水源之路",
+     "dir": "西北",
+     "kind": "road"
+    }
+   ],
+   "treasures": 4,
+   "npcs": 1,
+   "hasDetail": false
+  },
+  {
+   "id": "western_canalbrine_coast",
+   "name": "西卡纳尔布莱恩海道",
+   "type": "field",
+   "world": [
+    631.9,
+    496.5
+   ],
+   "neighbors": [
+    {
+     "to": "canalbrine_bridge",
+     "name": "卡纳尔布莱恩大桥",
+     "dir": "西",
+     "kind": "road"
+    },
+    {
+     "to": "canalbrine",
+     "name": "卡纳尔布莱恩",
+     "dir": "东",
+     "kind": "road"
+    }
+   ],
+   "treasures": 6,
+   "npcs": 0,
+   "hasDetail": false
+  },
+  {
+   "id": "canalbrine_bridge",
+   "name": "卡纳尔布莱恩大桥",
+   "type": "field",
+   "world": [
+    584.6,
+    501.4
+   ],
+   "neighbors": [
+    {
+     "to": "western_canalbrine_coast",
+     "name": "西卡纳尔布莱恩海道",
+     "dir": "东",
+     "kind": "road"
+    },
+    {
+     "to": "lair_of_the_usurper",
+     "name": "篡夺者潜窟",
+     "dir": "东",
+     "kind": "road"
+    },
+    {
+     "to": "northern_conning_creek_coast",
+     "name": "北康宁湾海道",
+     "dir": "南",
+     "kind": "road"
+    },
+    {
+     "to": "hinoeuma/northern_ryu_sands",
+     "name": "北琉砂道",
+     "dir": "西",
+     "kind": "link"
+    }
+   ],
+   "treasures": 6,
+   "npcs": 3,
+   "hasDetail": false
+  },
+  {
+   "id": "lair_of_the_usurper",
+   "name": "篡夺者潜窟",
+   "type": "dungeon",
+   "world": [
+    602.2,
+    495.1
+   ],
+   "neighbors": [
+    {
+     "to": "canalbrine_bridge",
+     "name": "卡纳尔布莱恩大桥",
+     "dir": "西",
+     "kind": "road"
+    }
+   ],
+   "treasures": 7,
+   "npcs": 0,
+   "hasDetail": false
+  },
+  {
+   "id": "northern_conning_creek_coast",
+   "name": "北康宁湾海道",
+   "type": "field",
+   "world": [
+    569.1,
+    565.9
+   ],
+   "neighbors": [
+    {
+     "to": "canalbrine_bridge",
+     "name": "卡纳尔布莱恩大桥",
+     "dir": "北",
+     "kind": "road"
+    },
+    {
+     "to": "altar_of_the_charitable",
+     "name": "灵药公祭坛",
+     "dir": "东",
+     "kind": "road"
+    },
+    {
+     "to": "western_conning_creek_coast",
+     "name": "西康宁湾海道",
+     "dir": "西南",
+     "kind": "road"
+    }
+   ],
+   "treasures": 4,
+   "npcs": 1,
+   "hasDetail": false
+  },
+  {
+   "id": "altar_of_the_charitable",
+   "name": "灵药公祭坛",
+   "type": "shrine",
+   "world": [
+    647.5,
+    538.6
+   ],
+   "neighbors": [
+    {
+     "to": "northern_conning_creek_coast",
+     "name": "北康宁湾海道",
+     "dir": "西",
+     "kind": "road"
+    }
+   ],
+   "treasures": 0,
+   "npcs": 0,
+   "hasDetail": false
+  },
+  {
+   "id": "western_conning_creek_coast",
+   "name": "西康宁湾海道",
+   "type": "field",
+   "world": [
+    538.2,
+    623.4
+   ],
+   "neighbors": [
+    {
+     "to": "northern_conning_creek_coast",
+     "name": "北康宁湾海道",
+     "dir": "东北",
+     "kind": "road"
+    },
+    {
+     "to": "cavern_of_the_moon_and_sun",
+     "name": "月与太阳洞窟",
+     "dir": "北",
+     "kind": "road"
+    },
+    {
+     "to": "conning_creek",
+     "name": "康宁湾",
+     "dir": "东",
+     "kind": "road"
+    },
+    {
+     "to": "hinoeuma/eastern_sai_sands",
+     "name": "东赛砂道",
+     "dir": "西",
+     "kind": "link"
+    }
+   ],
+   "treasures": 4,
+   "npcs": 2,
+   "hasDetail": false
+  },
+  {
+   "id": "cavern_of_the_moon_and_sun",
+   "name": "月与太阳洞窟",
+   "type": "dungeon",
+   "world": [
+    535.6,
+    600
+   ],
+   "neighbors": [
+    {
+     "to": "western_conning_creek_coast",
+     "name": "西康宁湾海道",
+     "dir": "南",
+     "kind": "road"
+    }
+   ],
+   "treasures": 3,
+   "npcs": 0,
+   "hasDetail": false
+  },
+  {
+   "id": "conning_creek",
+   "name": "康宁湾",
+   "type": "town",
+   "world": [
+    567.7,
+    632.6
+   ],
+   "neighbors": [
+    {
+     "to": "western_conning_creek_coast",
+     "name": "西康宁湾海道",
+     "dir": "西",
+     "kind": "road"
+    },
+    {
+     "to": "guard_outpost",
+     "name": "卫兵队基地",
+     "dir": "东北",
+     "kind": "road"
+    },
+    {
+     "to": "cavern_of_the_sea_god",
+     "name": "海神洞窟",
+     "dir": "东北",
+     "kind": "road"
+    }
+   ],
+   "treasures": 5,
+   "npcs": 12,
+   "hasDetail": false
+  },
+  {
+   "id": "guard_outpost",
+   "name": "卫兵队基地",
+   "type": "dungeon",
+   "world": [
+    587.9,
+    616.4
+   ],
+   "neighbors": [
+    {
+     "to": "conning_creek",
+     "name": "康宁湾",
+     "dir": "西南",
+     "kind": "road"
+    }
+   ],
+   "treasures": 5,
+   "npcs": 0,
+   "hasDetail": false
+  },
+  {
+   "id": "cavern_of_the_sea_god",
+   "name": "海神洞窟",
+   "type": "dungeon",
+   "world": [
+    608.5,
+    612.7
+   ],
+   "neighbors": [
+    {
+     "to": "conning_creek",
+     "name": "康宁湾",
+     "dir": "西南",
+     "kind": "road"
+    }
+   ],
+   "treasures": 4,
+   "npcs": 0,
+   "hasDetail": false
+  },
+  {
+   "id": "curious_nest",
+   "name": "恶食之巢",
+   "type": "secret",
+   "world": [
+    638.4,
+    527.5
+   ],
+   "neighbors": [],
+   "treasures": 6,
+   "npcs": 0,
+   "hasDetail": false
+  },
+  {
+   "id": "roque_island_anchorage",
+   "name": "洛克岛停泊所",
+   "type": "port",
+   "world": [
+    748.1,
+    648.2
+   ],
+   "neighbors": [
+    {
+     "to": "roque_island",
+     "name": "洛克岛",
+     "dir": "北",
+     "kind": "road"
+    },
+    {
+     "to": "sundering_sea/anchorage_canalbrine",
+     "name": "卡纳尔布来因（出航点）",
+     "dir": "北",
+     "kind": "sea"
+    }
+   ],
+   "treasures": 3,
+   "npcs": 4,
+   "hasDetail": false
+  },
+  {
+   "id": "roque_island",
+   "name": "洛克岛",
+   "type": "town",
+   "world": [
+    744.6,
+    624.4
+   ],
+   "neighbors": [
+    {
+     "to": "roque_island_anchorage",
+     "name": "洛克岛停泊所",
+     "dir": "南",
+     "kind": "road"
+    },
+    {
+     "to": "roque_company",
+     "name": "洛克公司 西栋/东栋",
+     "dir": "北",
+     "kind": "road"
+    }
+   ],
+   "treasures": 4,
+   "npcs": 9,
+   "hasDetail": false
+  },
+  {
+   "id": "roque_company",
+   "name": "洛克公司 西栋/东栋",
+   "type": "dungeon",
+   "world": [
+    745.1,
+    606.2
+   ],
+   "neighbors": [
+    {
+     "to": "roque_island",
+     "name": "洛克岛",
+     "dir": "南",
+     "kind": "road"
+    }
+   ],
+   "treasures": 10,
+   "npcs": 0,
+   "hasDetail": false
+  }
+ ],
+ "hinoeuma": [
+  {
+   "id": "northern_ryu_sands",
+   "name": "北琉砂道",
+   "type": "field",
+   "world": [
+    482,
+    499.1
+   ],
+   "neighbors": [
+    {
+     "to": "wildlands/south_oresrush_wilds",
+     "name": "南欧兹拉修荒道",
+     "dir": "东北",
+     "kind": "link"
+    },
+    {
+     "to": "harborlands/canalbrine_bridge",
+     "name": "卡纳尔布莱恩大桥",
+     "dir": "东",
+     "kind": "link"
+    },
+    {
+     "to": "ryu",
+     "name": "琉驿",
+     "dir": "东南",
+     "kind": "road"
+    }
+   ],
+   "treasures": 3,
+   "npcs": 1,
+   "hasDetail": false
+  },
+  {
+   "id": "ryu",
+   "name": "琉驿",
+   "type": "town",
+   "world": [
+    492.3,
+    513.7
+   ],
+   "neighbors": [
+    {
+     "to": "northern_ryu_sands",
+     "name": "北琉砂道",
+     "dir": "西北",
+     "kind": "road"
+    }
+   ],
+   "treasures": 4,
+   "npcs": 8,
+   "hasDetail": false
+  },
+  {
+   "id": "sai",
+   "name": "赛之街",
+   "type": "town",
+   "world": [
+    405.2,
+    598.3
+   ],
+   "neighbors": [
+    {
+     "to": "sai_east",
+     "name": "赛之街 东区",
+     "dir": "东",
+     "kind": "road"
+    },
+    {
+     "to": "sandflow_pass",
+     "name": "砂流之道",
+     "dir": "西",
+     "kind": "road"
+    },
+    {
+     "to": "southern_sai_sands",
+     "name": "南赛砂道",
+     "dir": "南",
+     "kind": "road"
+    }
+   ],
+   "treasures": 4,
+   "npcs": 10,
+   "hasDetail": false
+  },
+  {
+   "id": "sai_east",
+   "name": "赛之街 东区",
+   "type": "town",
+   "world": [
+    421.9,
+    603.6
+   ],
+   "neighbors": [
+    {
+     "to": "sai",
+     "name": "赛之街",
+     "dir": "西",
+     "kind": "road"
+    },
+    {
+     "to": "dragonridge",
+     "name": "龙望之丘",
+     "dir": "东",
+     "kind": "road"
+    }
+   ],
+   "treasures": 5,
+   "npcs": 7,
+   "hasDetail": false
+  },
+  {
+   "id": "dragonridge",
+   "name": "龙望之丘",
+   "type": "dungeon",
+   "world": [
+    445,
+    607.6
+   ],
+   "neighbors": [
+    {
+     "to": "sai_east",
+     "name": "赛之街 东区",
+     "dir": "西",
+     "kind": "road"
+    }
+   ],
+   "treasures": 4,
+   "npcs": 0,
+   "hasDetail": false
+  },
+  {
+   "id": "sandflow_pass",
+   "name": "砂流之道",
+   "type": "field",
+   "world": [
+    377.1,
+    600.8
+   ],
+   "neighbors": [
+    {
+     "to": "sai",
+     "name": "赛之街",
+     "dir": "东",
+     "kind": "road"
+    },
+    {
+     "to": "old_campsite",
+     "name": "野营地遗迹",
+     "dir": "北",
+     "kind": "road"
+    }
+   ],
+   "treasures": 4,
+   "npcs": 1,
+   "hasDetail": false
+  },
+  {
+   "id": "old_campsite",
+   "name": "野营地遗迹",
+   "type": "field",
+   "world": [
+    377.1,
+    582.5
+   ],
+   "neighbors": [
+    {
+     "to": "sandflow_pass",
+     "name": "砂流之道",
+     "dir": "南",
+     "kind": "road"
+    },
+    {
+     "to": "sand_lions_den",
+     "name": "沙狮巢穴",
+     "dir": "东北",
+     "kind": "road"
+    }
+   ],
+   "treasures": 1,
+   "npcs": 0,
+   "hasDetail": false
+  },
+  {
+   "id": "sand_lions_den",
+   "name": "沙狮巢穴",
+   "type": "dungeon",
+   "world": [
+    386.6,
+    563.8
+   ],
+   "neighbors": [
+    {
+     "to": "old_campsite",
+     "name": "野营地遗迹",
+     "dir": "西南",
+     "kind": "road"
+    }
+   ],
+   "treasures": 3,
+   "npcs": 0,
+   "hasDetail": false
+  },
+  {
+   "id": "southern_sai_sands",
+   "name": "南赛砂道",
+   "type": "field",
+   "world": [
+    410.2,
+    617.2
+   ],
+   "neighbors": [
+    {
+     "to": "sai",
+     "name": "赛之街",
+     "dir": "北",
+     "kind": "road"
+    },
+    {
+     "to": "eastern_sai_sands",
+     "name": "东赛砂道",
+     "dir": "东",
+     "kind": "road"
+    },
+    {
+     "to": "western_sai_sands",
+     "name": "西赛砂道",
+     "dir": "西",
+     "kind": "road"
+    }
+   ],
+   "treasures": 4,
+   "npcs": 1,
+   "hasDetail": false
+  },
+  {
+   "id": "eastern_sai_sands",
+   "name": "东赛砂道",
+   "type": "field",
+   "world": [
+    478.2,
+    622.6
+   ],
+   "neighbors": [
+    {
+     "to": "harborlands/western_conning_creek_coast",
+     "name": "西康宁湾海道",
+     "dir": "东",
+     "kind": "link"
+    },
+    {
+     "to": "southern_sai_sands",
+     "name": "南赛砂道",
+     "dir": "西",
+     "kind": "road"
+    },
+    {
+     "to": "decaying_temple",
+     "name": "朽寺",
+     "dir": "北",
+     "kind": "road"
+    },
+    {
+     "to": "altar_thunderblade",
+     "name": "雷剑将祭坛",
+     "dir": "西南",
+     "kind": "road"
+    }
+   ],
+   "treasures": 4,
+   "npcs": 0,
+   "hasDetail": false
+  },
+  {
+   "id": "decaying_temple",
+   "name": "朽寺",
+   "type": "dungeon",
+   "world": [
+    483.2,
+    602.1
+   ],
+   "neighbors": [
+    {
+     "to": "eastern_sai_sands",
+     "name": "东赛砂道",
+     "dir": "南",
+     "kind": "road"
+    }
+   ],
+   "treasures": 4,
+   "npcs": 0,
+   "hasDetail": false
+  },
+  {
+   "id": "altar_thunderblade",
+   "name": "雷剑将祭坛",
+   "type": "shrine",
+   "world": [
+    467.4,
+    645
+   ],
+   "neighbors": [
+    {
+     "to": "eastern_sai_sands",
+     "name": "东赛砂道",
+     "dir": "东北",
+     "kind": "road"
+    }
+   ],
+   "treasures": 0,
+   "npcs": 0,
+   "hasDetail": false
+  },
+  {
+   "id": "western_sai_sands",
+   "name": "西赛砂道",
+   "type": "field",
+   "world": [
+    329.8,
+    604
+   ],
+   "neighbors": [
+    {
+     "to": "leaflands/east_wellgrove_trail",
+     "name": "东韦尔格罗夫森道",
+     "dir": "北",
+     "kind": "link"
+    },
+    {
+     "to": "southern_sai_sands",
+     "name": "南赛砂道",
+     "dir": "东",
+     "kind": "road"
+    },
+    {
+     "to": "quicksand_gaol",
+     "name": "流沙牢狱",
+     "dir": "西北",
+     "kind": "road"
+    },
+    {
+     "to": "eastern_ku_sands",
+     "name": "东库砂道",
+     "dir": "南",
+     "kind": "road"
+    }
+   ],
+   "treasures": 3,
+   "npcs": 0,
+   "hasDetail": false
+  },
+  {
+   "id": "quicksand_gaol",
+   "name": "流沙牢狱",
+   "type": "dungeon",
+   "world": [
+    309.1,
+    587.1
+   ],
+   "neighbors": [
+    {
+     "to": "western_sai_sands",
+     "name": "西赛砂道",
+     "dir": "东南",
+     "kind": "road"
+    }
+   ],
+   "treasures": 5,
+   "npcs": 0,
+   "hasDetail": false
+  },
+  {
+   "id": "eastern_ku_sands",
+   "name": "东库砂道",
+   "type": "field",
+   "world": [
+    316.1,
+    690.1
+   ],
+   "neighbors": [
+    {
+     "to": "western_sai_sands",
+     "name": "西赛砂道",
+     "dir": "北",
+     "kind": "road"
+    },
+    {
+     "to": "tranquil_grotto",
+     "name": "静谧洞窟",
+     "dir": "东",
+     "kind": "road"
+    },
+    {
+     "to": "southern_ku_sands",
+     "name": "南库砂道",
+     "dir": "西",
+     "kind": "road"
+    }
+   ],
+   "treasures": 5,
+   "npcs": 0,
+   "hasDetail": false
+  },
+  {
+   "id": "tranquil_grotto",
+   "name": "静谧洞窟",
+   "type": "dungeon",
+   "world": [
+    366.3,
+    690.1
+   ],
+   "neighbors": [
+    {
+     "to": "eastern_ku_sands",
+     "name": "东库砂道",
+     "dir": "西",
+     "kind": "road"
+    }
+   ],
+   "treasures": 4,
+   "npcs": 0,
+   "hasDetail": false
+  },
+  {
+   "id": "southern_ku_sands",
+   "name": "南库砂道",
+   "type": "field",
+   "world": [
+    246.1,
+    693.3
+   ],
+   "neighbors": [
+    {
+     "to": "eastern_ku_sands",
+     "name": "东库砂道",
+     "dir": "东",
+     "kind": "road"
+    },
+    {
+     "to": "ku_castle_town",
+     "name": "库国 城下町",
+     "dir": "北",
+     "kind": "road"
+    }
+   ],
+   "treasures": 4,
+   "npcs": 2,
+   "hasDetail": false
+  },
+  {
+   "id": "ku_castle_town",
+   "name": "库国 城下町",
+   "type": "town",
+   "world": [
+    245.3,
+    663.1
+   ],
+   "neighbors": [
+    {
+     "to": "southern_ku_sands",
+     "name": "南库砂道",
+     "dir": "南",
+     "kind": "road"
+    },
+    {
+     "to": "castle_ku",
+     "name": "库城（含库城入口）",
+     "dir": "东北",
+     "kind": "road"
+    }
+   ],
+   "treasures": 4,
+   "npcs": 10,
+   "hasDetail": false
+  },
+  {
+   "id": "castle_ku",
+   "name": "库城（含库城入口）",
+   "type": "dungeon",
+   "world": [
+    254.2,
+    648.1
+   ],
+   "neighbors": [
+    {
+     "to": "ku_castle_town",
+     "name": "库国 城下町",
+     "dir": "西南",
+     "kind": "road"
+    },
+    {
+     "to": "five_tiered_tower",
+     "name": "五重塔",
+     "dir": "东北",
+     "kind": "road"
+    }
+   ],
+   "treasures": 6,
+   "npcs": 7,
+   "hasDetail": false
+  },
+  {
+   "id": "five_tiered_tower",
+   "name": "五重塔",
+   "type": "dungeon",
+   "world": [
+    270.2,
+    641.1
+   ],
+   "neighbors": [
+    {
+     "to": "castle_ku",
+     "name": "库城（含库城入口）",
+     "dir": "西南",
+     "kind": "road"
+    }
+   ],
+   "treasures": 0,
+   "npcs": 0,
+   "hasDetail": false
+  }
+ ],
+ "brightlands": [
+  {
+   "id": "new_delsta",
+   "name": "新德尔斯塔",
+   "type": "town",
+   "world": [
+    1103.9,
+    479.8
+   ],
+   "neighbors": [
+    {
+     "to": "eastern_nd_highroad",
+     "name": "东新德尔斯塔街道",
+     "dir": "东北",
+     "kind": "road"
+    },
+    {
+     "to": "underground_waterway",
+     "name": "下水道",
+     "dir": "南",
+     "kind": "road"
+    },
+    {
+     "to": "theater_backstage",
+     "name": "大剧场-后台",
+     "dir": "北",
+     "kind": "road"
+    },
+    {
+     "to": "diamante_estate",
+     "name": "达蒙特宅邸",
+     "dir": "北",
+     "kind": "road"
+    }
+   ],
+   "treasures": 13,
+   "npcs": 20,
+   "hasDetail": false
+  },
+  {
+   "id": "underground_waterway",
+   "name": "下水道",
+   "type": "dungeon",
+   "world": [
+    1097.6,
+    523.3
+   ],
+   "neighbors": [
+    {
+     "to": "new_delsta",
+     "name": "新德尔斯塔",
+     "dir": "北",
+     "kind": "road"
+    },
+    {
+     "to": "deserted_highroad",
+     "name": "废弃街道",
+     "dir": "南",
+     "kind": "road"
+    }
+   ],
+   "treasures": 2,
+   "npcs": 0,
+   "hasDetail": false
+  },
+  {
+   "id": "diamante_estate",
+   "name": "达蒙特宅邸",
+   "type": "dungeon",
+   "world": [
+    1118,
+    441.7
+   ],
+   "neighbors": [
+    {
+     "to": "new_delsta",
+     "name": "新德尔斯塔",
+     "dir": "南",
+     "kind": "road"
+    }
+   ],
+   "treasures": 4,
+   "npcs": 0,
+   "hasDetail": false
+  },
+  {
+   "id": "theater_backstage",
+   "name": "大剧场-后台",
+   "type": "dungeon",
+   "world": [
+    1101.3,
+    454.1
+   ],
+   "neighbors": [
+    {
+     "to": "new_delsta",
+     "name": "新德尔斯塔",
+     "dir": "南",
+     "kind": "road"
+    }
+   ],
+   "treasures": 5,
+   "npcs": 0,
+   "hasDetail": false
+  },
+  {
+   "id": "eastern_nd_highroad",
+   "name": "东新德尔斯塔街道",
+   "type": "field",
+   "world": [
+    1146.7,
+    460.2
+   ],
+   "neighbors": [
+    {
+     "to": "new_delsta",
+     "name": "新德尔斯塔",
+     "dir": "西南",
+     "kind": "road"
+    },
+    {
+     "to": "nd_flats",
+     "name": "新德尔斯塔平原",
+     "dir": "北",
+     "kind": "road"
+    },
+    {
+     "to": "western_cb_highroad",
+     "name": "西轮敦街道",
+     "dir": "东",
+     "kind": "road"
+    }
+   ],
+   "treasures": 3,
+   "npcs": 2,
+   "hasDetail": false
+  },
+  {
+   "id": "nd_flats",
+   "name": "新德尔斯塔平原",
+   "type": "field",
+   "world": [
+    1117.4,
+    346.3
+   ],
+   "neighbors": [
+    {
+     "to": "winterlands/southern_cape_cold_snows",
+     "name": "南科尔德凯普雪道",
+     "dir": "北",
+     "kind": "link"
+    },
+    {
+     "to": "eastern_nd_highroad",
+     "name": "东新德尔斯塔街道",
+     "dir": "南",
+     "kind": "road"
+    },
+    {
+     "to": "nd_harbor",
+     "name": "新德尔斯塔港-停泊处",
+     "dir": "西",
+     "kind": "road"
+    },
+    {
+     "to": "abandoned_waterway",
+     "name": "被遗弃的水路",
+     "dir": "西北",
+     "kind": "road"
+    },
+    {
+     "to": "abandoned_village",
+     "name": "无人村",
+     "dir": "东",
+     "kind": "road"
+    }
+   ],
+   "treasures": 3,
+   "npcs": 3,
+   "hasDetail": false
+  },
+  {
+   "id": "nd_harbor",
+   "name": "新德尔斯塔港-停泊处",
+   "type": "port",
+   "world": [
+    1043.4,
+    362.3
+   ],
+   "neighbors": [
+    {
+     "to": "nd_flats",
+     "name": "新德尔斯塔平原",
+     "dir": "东",
+     "kind": "road"
+    },
+    {
+     "to": "sundering_sea/anchorage_new_delsta",
+     "name": "新德尔斯塔港-停泊处（出航点）",
+     "dir": "西北",
+     "kind": "sea"
+    }
+   ],
+   "treasures": 2,
+   "npcs": 0,
+   "hasDetail": false
+  },
+  {
+   "id": "abandoned_waterway",
+   "name": "被遗弃的水路",
+   "type": "dungeon",
+   "world": [
+    1091.6,
+    330.5
+   ],
+   "neighbors": [
+    {
+     "to": "nd_flats",
+     "name": "新德尔斯塔平原",
+     "dir": "东南",
+     "kind": "road"
+    }
+   ],
+   "treasures": 5,
+   "npcs": 0,
+   "hasDetail": false
+  },
+  {
+   "id": "abandoned_village",
+   "name": "无人村",
+   "type": "town",
+   "world": [
+    1150.8,
+    345.1
+   ],
+   "neighbors": [
+    {
+     "to": "nd_flats",
+     "name": "新德尔斯塔平原",
+     "dir": "西",
+     "kind": "road"
+    },
+    {
+     "to": "path_to_liphia",
+     "name": "通往利菲亚山的路",
+     "dir": "东北",
+     "kind": "road"
+    }
+   ],
+   "treasures": 2,
+   "npcs": 2,
+   "hasDetail": false
+  },
+  {
+   "id": "path_to_liphia",
+   "name": "通往利菲亚山的路",
+   "type": "field",
+   "world": [
+    1170.9,
+    335.6
+   ],
+   "neighbors": [
+    {
+     "to": "abandoned_village",
+     "name": "无人村",
+     "dir": "西南",
+     "kind": "road"
+    },
+    {
+     "to": "mount_liphia",
+     "name": "利菲亚山",
+     "dir": "东",
+     "kind": "road"
+    }
+   ],
+   "treasures": 0,
+   "npcs": 0,
+   "hasDetail": false
+  },
+  {
+   "id": "mount_liphia",
+   "name": "利菲亚山",
+   "type": "dungeon",
+   "world": [
+    1185.4,
+    338.2
+   ],
+   "neighbors": [
+    {
+     "to": "path_to_liphia",
+     "name": "通往利菲亚山的路",
+     "dir": "西",
+     "kind": "road"
+    }
+   ],
+   "treasures": 6,
+   "npcs": 0,
+   "hasDetail": false
+  },
+  {
+   "id": "western_cb_highroad",
+   "name": "西轮敦街道",
+   "type": "field",
+   "world": [
+    1242,
+    448.5
+   ],
+   "neighbors": [
+    {
+     "to": "eastern_nd_highroad",
+     "name": "东新德尔斯塔街道",
+     "dir": "西",
+     "kind": "road"
+    },
+    {
+     "to": "ships_maw",
+     "name": "噬船之口",
+     "dir": "南",
+     "kind": "road"
+    },
+    {
+     "to": "southern_cb_highroad",
+     "name": "南轮敦街道",
+     "dir": "东",
+     "kind": "road"
+    },
+    {
+     "to": "crestlands/eastern_flamechurch_pass",
+     "name": "东弗拉姆教堂山道",
+     "dir": "东北",
+     "kind": "link"
+    }
+   ],
+   "treasures": 3,
+   "npcs": 1,
+   "hasDetail": false
+  },
+  {
+   "id": "ships_maw",
+   "name": "噬船之口",
+   "type": "dungeon",
+   "world": [
+    1242,
+    470.3
+   ],
+   "neighbors": [
+    {
+     "to": "western_cb_highroad",
+     "name": "西轮敦街道",
+     "dir": "北",
+     "kind": "road"
+    }
+   ],
+   "treasures": 4,
+   "npcs": 1,
+   "hasDetail": false
+  },
+  {
+   "id": "southern_cb_highroad",
+   "name": "南轮敦街道",
+   "type": "field",
+   "world": [
+    1282,
+    453.6
+   ],
+   "neighbors": [
+    {
+     "to": "western_cb_highroad",
+     "name": "西轮敦街道",
+     "dir": "西",
+     "kind": "road"
+    },
+    {
+     "to": "clockbank",
+     "name": "轮敦",
+     "dir": "北",
+     "kind": "road"
+    },
+    {
+     "to": "altar_thief",
+     "name": "盗公子祭坛",
+     "dir": "东",
+     "kind": "road"
+    }
+   ],
+   "treasures": 4,
+   "npcs": 0,
+   "hasDetail": false
+  },
+  {
+   "id": "altar_thief",
+   "name": "盗公子祭坛",
+   "type": "shrine",
+   "world": [
+    1298,
+    450.9
+   ],
+   "neighbors": [
+    {
+     "to": "southern_cb_highroad",
+     "name": "南轮敦街道",
+     "dir": "西",
+     "kind": "road"
+    }
+   ],
+   "treasures": 0,
+   "npcs": 1,
+   "hasDetail": false
+  },
+  {
+   "id": "clockbank",
+   "name": "轮敦",
+   "type": "town",
+   "world": [
+    1280.7,
+    430.4
+   ],
+   "neighbors": [
+    {
+     "to": "southern_cb_highroad",
+     "name": "南轮敦街道",
+     "dir": "南",
+     "kind": "road"
+    },
+    {
+     "to": "clockbank_industrial",
+     "name": "轮敦-工厂街",
+     "dir": "东北",
+     "kind": "road"
+    },
+    {
+     "to": "old_clocktower",
+     "name": "旧钟楼",
+     "dir": "西北",
+     "kind": "road"
+    }
+   ],
+   "treasures": 5,
+   "npcs": 8,
+   "hasDetail": false
+  },
+  {
+   "id": "clockbank_industrial",
+   "name": "轮敦-工厂街",
+   "type": "town",
+   "world": [
+    1288.9,
+    419.9
+   ],
+   "neighbors": [
+    {
+     "to": "clockbank",
+     "name": "轮敦",
+     "dir": "西南",
+     "kind": "road"
+    },
+    {
+     "to": "roque_factory",
+     "name": "洛克公司-工厂",
+     "dir": "西",
+     "kind": "road"
+    }
+   ],
+   "treasures": 3,
+   "npcs": 9,
+   "hasDetail": false
+  },
+  {
+   "id": "roque_factory",
+   "name": "洛克公司-工厂",
+   "type": "dungeon",
+   "world": [
+    1246.6,
+    415.1
+   ],
+   "neighbors": [
+    {
+     "to": "clockbank_industrial",
+     "name": "轮敦-工厂街",
+     "dir": "东",
+     "kind": "road"
+    }
+   ],
+   "treasures": 3,
+   "npcs": 0,
+   "hasDetail": false
+  },
+  {
+   "id": "old_clocktower",
+   "name": "旧钟楼",
+   "type": "dungeon",
+   "world": [
+    1273.3,
+    417.2
+   ],
+   "neighbors": [
+    {
+     "to": "clockbank",
+     "name": "轮敦",
+     "dir": "东南",
+     "kind": "road"
+    }
+   ],
+   "treasures": 2,
+   "npcs": 0,
+   "hasDetail": false
+  },
+  {
+   "id": "deserted_highroad",
+   "name": "废弃街道",
+   "type": "field",
+   "world": [
+    1111.1,
+    567.2
+   ],
+   "neighbors": [
+    {
+     "to": "underground_waterway",
+     "name": "下水道",
+     "dir": "北",
+     "kind": "road"
+    },
+    {
+     "to": "lostseed",
+     "name": "洛斯特席德",
+     "dir": "西",
+     "kind": "road"
+    }
+   ],
+   "treasures": 4,
+   "npcs": 0,
+   "hasDetail": false
+  },
+  {
+   "id": "lostseed",
+   "name": "洛斯特席德",
+   "type": "town",
+   "world": [
+    1067.7,
+    576.7
+   ],
+   "neighbors": [
+    {
+     "to": "deserted_highroad",
+     "name": "废弃街道",
+     "dir": "东",
+     "kind": "road"
+    },
+    {
+     "to": "lostseed_castle",
+     "name": "洛斯特席德城",
+     "dir": "北",
+     "kind": "road"
+    }
+   ],
+   "treasures": 3,
+   "npcs": 2,
+   "hasDetail": false
+  },
+  {
+   "id": "lostseed_castle",
+   "name": "洛斯特席德城",
+   "type": "dungeon",
+   "world": [
+    1090.5,
+    513.6
+   ],
+   "neighbors": [
+    {
+     "to": "lostseed",
+     "name": "洛斯特席德",
+     "dir": "南",
+     "kind": "road"
+    }
+   ],
+   "treasures": 9,
+   "npcs": 0,
+   "hasDetail": false
+  }
+ ],
+ "crestlands": [
+  {
+   "id": "flamechurch",
+   "name": "弗拉姆教堂",
+   "type": "town",
+   "world": [
+    1215.7,
+    386.8
+   ],
+   "neighbors": [
+    {
+     "to": "flamechurch_pilgrims_way",
+     "name": "弗拉姆教堂巡礼路",
+     "dir": "北",
+     "kind": "road"
+    },
+    {
+     "to": "eastern_flamechurch_pass",
+     "name": "东弗拉姆教堂山道",
+     "dir": "东",
+     "kind": "road"
+    }
+   ],
+   "treasures": 6,
+   "npcs": 8,
+   "hasDetail": false
+  },
+  {
+   "id": "flamechurch_pilgrims_way",
+   "name": "弗拉姆教堂巡礼路",
+   "type": "field",
+   "world": [
+    1214.3,
+    367.1
+   ],
+   "neighbors": [
+    {
+     "to": "flamechurch",
+     "name": "弗拉姆教堂",
+     "dir": "南",
+     "kind": "road"
+    },
+    {
+     "to": "flamechurch_cathedral_entrance",
+     "name": "弗拉姆教堂·大圣堂前",
+     "dir": "东北",
+     "kind": "road"
+    }
+   ],
+   "treasures": 4,
+   "npcs": 0,
+   "hasDetail": false
+  },
+  {
+   "id": "flamechurch_cathedral_entrance",
+   "name": "弗拉姆教堂·大圣堂前",
+   "type": "town",
+   "world": [
+    1222.9,
+    351.1
+   ],
+   "neighbors": [
+    {
+     "to": "flamechurch_pilgrims_way",
+     "name": "弗拉姆教堂巡礼路",
+     "dir": "西南",
+     "kind": "road"
+    },
+    {
+     "to": "flamechurch_cathedral",
+     "name": "弗拉姆教堂·大圣堂",
+     "dir": "东北",
+     "kind": "road"
+    },
+    {
+     "to": "cathedral_cellars",
+     "name": "大圣堂地下",
+     "dir": "东北",
+     "kind": "road"
+    }
+   ],
+   "treasures": 4,
+   "npcs": 7,
+   "hasDetail": false
+  },
+  {
+   "id": "flamechurch_cathedral",
+   "name": "弗拉姆教堂·大圣堂",
+   "type": "town",
+   "world": [
+    1232.9,
+    338.4
+   ],
+   "neighbors": [
+    {
+     "to": "flamechurch_cathedral_entrance",
+     "name": "弗拉姆教堂·大圣堂前",
+     "dir": "西南",
+     "kind": "road"
+    }
+   ],
+   "treasures": 5,
+   "npcs": 5,
+   "hasDetail": false
+  },
+  {
+   "id": "cathedral_cellars",
+   "name": "大圣堂地下",
+   "type": "dungeon",
+   "world": [
+    1252.8,
+    324.4
+   ],
+   "neighbors": [
+    {
+     "to": "flamechurch_cathedral_entrance",
+     "name": "弗拉姆教堂·大圣堂前",
+     "dir": "西南",
+     "kind": "road"
+    }
+   ],
+   "treasures": 3,
+   "npcs": 0,
+   "hasDetail": false
+  },
+  {
+   "id": "eastern_flamechurch_pass",
+   "name": "东弗拉姆教堂山道",
+   "type": "field",
+   "world": [
+    1271.3,
+    380.4
+   ],
+   "neighbors": [
+    {
+     "to": "winterlands/eastern_cape_cold_snows",
+     "name": "东科尔德凯普雪道",
+     "dir": "北",
+     "kind": "link"
+    },
+    {
+     "to": "brightlands/western_cb_highroad",
+     "name": "西轮敦街道",
+     "dir": "西南",
+     "kind": "link"
+    },
+    {
+     "to": "flamechurch",
+     "name": "弗拉姆教堂",
+     "dir": "西",
+     "kind": "road"
+    },
+    {
+     "to": "borderfall",
+     "name": "国境大瀑布",
+     "dir": "东",
+     "kind": "road"
+    }
+   ],
+   "treasures": 4,
+   "npcs": 0,
+   "hasDetail": false
+  },
+  {
+   "id": "borderfall",
+   "name": "国境大瀑布",
+   "type": "field",
+   "world": [
+    1337.1,
+    369.5
+   ],
+   "neighbors": [
+    {
+     "to": "eastern_flamechurch_pass",
+     "name": "东弗拉姆教堂山道",
+     "dir": "西",
+     "kind": "road"
+    },
+    {
+     "to": "altar_of_the_flamebringer",
+     "name": "圣火神祭坛",
+     "dir": "西北",
+     "kind": "road"
+    },
+    {
+     "to": "seat_of_the_water_sprite",
+     "name": "水灵之座",
+     "dir": "东北",
+     "kind": "road"
+    },
+    {
+     "to": "western_montwise_pass",
+     "name": "西蒙特维斯山道",
+     "dir": "东",
+     "kind": "road"
+    }
+   ],
+   "treasures": 4,
+   "npcs": 2,
+   "hasDetail": false
+  },
+  {
+   "id": "altar_of_the_flamebringer",
+   "name": "圣火神祭坛",
+   "type": "shrine",
+   "world": [
+    1318.6,
+    353.8
+   ],
+   "neighbors": [
+    {
+     "to": "borderfall",
+     "name": "国境大瀑布",
+     "dir": "东南",
+     "kind": "road"
+    }
+   ],
+   "treasures": 0,
+   "npcs": 0,
+   "hasDetail": false
+  },
+  {
+   "id": "seat_of_the_water_sprite",
+   "name": "水灵之座",
+   "type": "dungeon",
+   "world": [
+    1363.2,
+    357
+   ],
+   "neighbors": [
+    {
+     "to": "borderfall",
+     "name": "国境大瀑布",
+     "dir": "西南",
+     "kind": "road"
+    }
+   ],
+   "treasures": 7,
+   "npcs": 0,
+   "hasDetail": false
+  },
+  {
+   "id": "western_montwise_pass",
+   "name": "西蒙特维斯山道",
+   "type": "field",
+   "world": [
+    1391.3,
+    360.1
+   ],
+   "neighbors": [
+    {
+     "to": "borderfall",
+     "name": "国境大瀑布",
+     "dir": "西",
+     "kind": "road"
+    },
+    {
+     "to": "northern_montwise_pass",
+     "name": "北蒙特维斯山道",
+     "dir": "北",
+     "kind": "road"
+    },
+    {
+     "to": "montwise",
+     "name": "蒙特维斯",
+     "dir": "东",
+     "kind": "road"
+    },
+    {
+     "to": "western_merry_hills_pass",
+     "name": "西梅里希尔斯山道",
+     "dir": "东南",
+     "kind": "road"
+    }
+   ],
+   "treasures": 3,
+   "npcs": 1,
+   "hasDetail": false
+  },
+  {
+   "id": "northern_montwise_pass",
+   "name": "北蒙特维斯山道",
+   "type": "field",
+   "world": [
+    1392,
+    319.4
+   ],
+   "neighbors": [
+    {
+     "to": "winterlands/southern_stormhail_snows",
+     "name": "南斯托姆黑尔雪道",
+     "dir": "北",
+     "kind": "link"
+    },
+    {
+     "to": "western_montwise_pass",
+     "name": "西蒙特维斯山道",
+     "dir": "南",
+     "kind": "road"
+    }
+   ],
+   "treasures": 6,
+   "npcs": 0,
+   "hasDetail": false
+  },
+  {
+   "id": "montwise",
+   "name": "蒙特维斯",
+   "type": "town",
+   "world": [
+    1426,
+    346.1
+   ],
+   "neighbors": [
+    {
+     "to": "western_montwise_pass",
+     "name": "西蒙特维斯山道",
+     "dir": "西",
+     "kind": "road"
+    },
+    {
+     "to": "montwise_library",
+     "name": "蒙特维斯·图书馆",
+     "dir": "东北",
+     "kind": "road"
+    },
+    {
+     "to": "montwise_arena",
+     "name": "蒙特维斯·地下竞技场",
+     "dir": "东南",
+     "kind": "road"
+    },
+    {
+     "to": "forsaken_graveyard",
+     "name": "无缘墓地",
+     "dir": "南",
+     "kind": "road"
+    },
+    {
+     "to": "abandoned_traverse",
+     "name": "荒凉山道",
+     "dir": "东",
+     "kind": "road"
+    }
+   ],
+   "treasures": 6,
+   "npcs": 8,
+   "hasDetail": false
+  },
+  {
+   "id": "montwise_library",
+   "name": "蒙特维斯·图书馆",
+   "type": "town",
+   "world": [
+    1436.6,
+    334.5
+   ],
+   "neighbors": [
+    {
+     "to": "montwise",
+     "name": "蒙特维斯",
+     "dir": "西南",
+     "kind": "road"
+    },
+    {
+     "to": "underground_laboratory",
+     "name": "地下研究室",
+     "dir": "东北",
+     "kind": "road"
+    }
+   ],
+   "treasures": 4,
+   "npcs": 10,
+   "hasDetail": false
+  },
+  {
+   "id": "montwise_arena",
+   "name": "蒙特维斯·地下竞技场",
+   "type": "town",
+   "world": [
+    1438.3,
+    352.4
+   ],
+   "neighbors": [
+    {
+     "to": "montwise",
+     "name": "蒙特维斯",
+     "dir": "西北",
+     "kind": "road"
+    }
+   ],
+   "treasures": 3,
+   "npcs": 5,
+   "hasDetail": false
+  },
+  {
+   "id": "forsaken_graveyard",
+   "name": "无缘墓地",
+   "type": "dungeon",
+   "world": [
+    1433.5,
+    377.8
+   ],
+   "neighbors": [
+    {
+     "to": "montwise",
+     "name": "蒙特维斯",
+     "dir": "北",
+     "kind": "road"
+    }
+   ],
+   "treasures": 5,
+   "npcs": 0,
+   "hasDetail": false
+  },
+  {
+   "id": "underground_laboratory",
+   "name": "地下研究室",
+   "type": "dungeon",
+   "world": [
+    1446.9,
+    324
+   ],
+   "neighbors": [
+    {
+     "to": "montwise_library",
+     "name": "蒙特维斯·图书馆",
+     "dir": "西南",
+     "kind": "road"
+    }
+   ],
+   "treasures": 3,
+   "npcs": 0,
+   "hasDetail": false
+  },
+  {
+   "id": "abandoned_traverse",
+   "name": "荒凉山道",
+   "type": "field",
+   "world": [
+    1461.3,
+    347.8
+   ],
+   "neighbors": [
+    {
+     "to": "montwise",
+     "name": "蒙特维斯",
+     "dir": "西",
+     "kind": "road"
+    },
+    {
+     "to": "abandoned_church",
+     "name": "废教会",
+     "dir": "东北",
+     "kind": "road"
+    }
+   ],
+   "treasures": 4,
+   "npcs": 0,
+   "hasDetail": false
+  },
+  {
+   "id": "abandoned_church",
+   "name": "废教会",
+   "type": "dungeon",
+   "world": [
+    1483.9,
+    338.4
+   ],
+   "neighbors": [
+    {
+     "to": "abandoned_traverse",
+     "name": "荒凉山道",
+     "dir": "西南",
+     "kind": "road"
+    }
+   ],
+   "treasures": 4,
+   "npcs": 0,
+   "hasDetail": false
+  },
+  {
+   "id": "western_merry_hills_pass",
+   "name": "西梅里希尔斯山道",
+   "type": "field",
+   "world": [
+    1415.7,
+    415.2
+   ],
+   "neighbors": [
+    {
+     "to": "western_montwise_pass",
+     "name": "西蒙特维斯山道",
+     "dir": "西北",
+     "kind": "road"
+    },
+    {
+     "to": "merry_hills",
+     "name": "梅里希尔斯",
+     "dir": "东",
+     "kind": "road"
+    }
+   ],
+   "treasures": 4,
+   "npcs": 0,
+   "hasDetail": false
+  },
+  {
+   "id": "merry_hills",
+   "name": "梅里希尔斯",
+   "type": "town",
+   "world": [
+    1461.3,
+    426.1
+   ],
+   "neighbors": [
+    {
+     "to": "western_merry_hills_pass",
+     "name": "西梅里希尔斯山道",
+     "dir": "西",
+     "kind": "road"
+    },
+    {
+     "to": "merry_hills_shrine_entrance",
+     "name": "梅里希尔斯·祭殿入口",
+     "dir": "西北",
+     "kind": "road"
+    }
+   ],
+   "treasures": 5,
+   "npcs": 8,
+   "hasDetail": false
+  },
+  {
+   "id": "merry_hills_shrine_entrance",
+   "name": "梅里希尔斯·祭殿入口",
+   "type": "town",
+   "world": [
+    1449,
+    416.1
+   ],
+   "neighbors": [
+    {
+     "to": "merry_hills",
+     "name": "梅里希尔斯",
+     "dir": "东南",
+     "kind": "road"
+    },
+    {
+     "to": "shrine_of_ulsterra",
+     "name": "乌尔斯特拉祭殿",
+     "dir": "东北",
+     "kind": "road"
+    }
+   ],
+   "treasures": 4,
+   "npcs": 7,
+   "hasDetail": false
+  },
+  {
+   "id": "shrine_of_ulsterra",
+   "name": "乌尔斯特拉祭殿",
+   "type": "dungeon",
+   "world": [
+    1454.4,
+    403.8
+   ],
+   "neighbors": [
+    {
+     "to": "merry_hills_shrine_entrance",
+     "name": "梅里希尔斯·祭殿入口",
+     "dir": "西南",
+     "kind": "road"
+    },
+    {
+     "to": "stage_of_the_moon_and_sun",
+     "name": "月与太阳的舞台",
+     "dir": "东",
+     "kind": "road"
+    }
+   ],
+   "treasures": 4,
+   "npcs": 0,
+   "hasDetail": false
+  },
+  {
+   "id": "stage_of_the_moon_and_sun",
+   "name": "月与太阳的舞台",
+   "type": "dungeon",
+   "world": [
+    1466.1,
+    402.1
+   ],
+   "neighbors": [
+    {
+     "to": "shrine_of_ulsterra",
+     "name": "乌尔斯特拉祭殿",
+     "dir": "西",
+     "kind": "road"
+    }
+   ],
+   "treasures": 1,
+   "npcs": 0,
+   "hasDetail": false
+  }
+ ],
+ "totohaha": [
+  {
+   "id": "beasting_bay_anchorage",
+   "name": "兽人海滩停泊所",
+   "type": "port",
+   "world": [
+    916.2,
+    667.3
+   ],
+   "neighbors": [
+    {
+     "to": "north_beasting_traverse",
+     "name": "北兽人古道",
+     "dir": "南",
+     "kind": "road"
+    },
+    {
+     "to": "cavern_of_waves",
+     "name": "海鸣洞穴",
+     "dir": "东北",
+     "kind": "road"
+    },
+    {
+     "to": "western_tropuhopu_traverse",
+     "name": "西特洛甫霍普古道",
+     "dir": "东",
+     "kind": "road"
+    },
+    {
+     "to": "sundering_sea/anchorage_beasting_bay",
+     "name": "兽人之滨-停泊处（出航点）",
+     "dir": "西北",
+     "kind": "sea"
+    }
+   ],
+   "treasures": 2,
+   "npcs": 2,
+   "hasDetail": false
+  },
+  {
+   "id": "north_beasting_traverse",
+   "name": "北兽人古道",
+   "type": "field",
+   "world": [
+    921.3,
+    694.1
+   ],
+   "neighbors": [
+    {
+     "to": "beasting_bay_anchorage",
+     "name": "兽人海滩停泊所",
+     "dir": "北",
+     "kind": "road"
+    },
+    {
+     "to": "beasting_village",
+     "name": "兽人村",
+     "dir": "西南",
+     "kind": "road"
+    }
+   ],
+   "treasures": 4,
+   "npcs": 0,
+   "hasDetail": false
+  },
+  {
+   "id": "beasting_village",
+   "name": "兽人村",
+   "type": "town",
+   "world": [
+    910.6,
+    707.9
+   ],
+   "neighbors": [
+    {
+     "to": "north_beasting_traverse",
+     "name": "北兽人古道",
+     "dir": "东北",
+     "kind": "road"
+    },
+    {
+     "to": "path_to_the_tombs",
+     "name": "通往主兽墓所之路",
+     "dir": "南",
+     "kind": "road"
+    }
+   ],
+   "treasures": 3,
+   "npcs": 11,
+   "hasDetail": false
+  },
+  {
+   "id": "path_to_the_tombs",
+   "name": "通往主兽墓所之路",
+   "type": "field",
+   "world": [
+    911.5,
+    724.6
+   ],
+   "neighbors": [
+    {
+     "to": "beasting_village",
+     "name": "兽人村",
+     "dir": "北",
+     "kind": "road"
+    },
+    {
+     "to": "tombs_of_the_wardenbeasts",
+     "name": "主兽墓所",
+     "dir": "东",
+     "kind": "road"
+    },
+    {
+     "to": "summit_of_strife",
+     "name": "决战之丘",
+     "dir": "西",
+     "kind": "road"
+    }
+   ],
+   "treasures": 3,
+   "npcs": 0,
+   "hasDetail": false
+  },
+  {
+   "id": "tombs_of_the_wardenbeasts",
+   "name": "主兽墓所",
+   "type": "dungeon",
+   "world": [
+    939.6,
+    720.7
+   ],
+   "neighbors": [
+    {
+     "to": "path_to_the_tombs",
+     "name": "通往主兽墓所之路",
+     "dir": "西",
+     "kind": "road"
+    }
+   ],
+   "treasures": 3,
+   "npcs": 0,
+   "hasDetail": false
+  },
+  {
+   "id": "summit_of_strife",
+   "name": "决战之丘",
+   "type": "dungeon",
+   "world": [
+    885.6,
+    729.1
+   ],
+   "neighbors": [
+    {
+     "to": "path_to_the_tombs",
+     "name": "通往主兽墓所之路",
+     "dir": "东",
+     "kind": "road"
+    },
+    {
+     "to": "verdant_wood",
+     "name": "深绿之森",
+     "dir": "东",
+     "kind": "road"
+    }
+   ],
+   "treasures": 0,
+   "npcs": 0,
+   "hasDetail": false
+  },
+  {
+   "id": "verdant_wood",
+   "name": "深绿之森",
+   "type": "dungeon",
+   "world": [
+    892.1,
+    729.1
+   ],
+   "neighbors": [
+    {
+     "to": "summit_of_strife",
+     "name": "决战之丘",
+     "dir": "西",
+     "kind": "road"
+    },
+    {
+     "to": "stormy_cape",
+     "name": "怒涛之岬",
+     "dir": "西南",
+     "kind": "road"
+    }
+   ],
+   "treasures": 1,
+   "npcs": 0,
+   "hasDetail": false
+  },
+  {
+   "id": "stormy_cape",
+   "name": "怒涛之岬",
+   "type": "dungeon",
+   "world": [
+    885.6,
+    735.8
+   ],
+   "neighbors": [
+    {
+     "to": "verdant_wood",
+     "name": "深绿之森",
+     "dir": "东北",
+     "kind": "road"
+    },
+    {
+     "to": "moonview_cliff",
+     "name": "望月断崖",
+     "dir": "东",
+     "kind": "road"
+    }
+   ],
+   "treasures": 4,
+   "npcs": 0,
+   "hasDetail": false
+  },
+  {
+   "id": "moonview_cliff",
+   "name": "望月断崖",
+   "type": "dungeon",
+   "world": [
+    892.1,
+    735.8
+   ],
+   "neighbors": [
+    {
+     "to": "stormy_cape",
+     "name": "怒涛之岬",
+     "dir": "西",
+     "kind": "road"
+    }
+   ],
+   "treasures": 0,
+   "npcs": 0,
+   "hasDetail": false
+  },
+  {
+   "id": "western_tropuhopu_traverse",
+   "name": "西特洛甫霍普古道",
+   "type": "field",
+   "world": [
+    958.3,
+    674
+   ],
+   "neighbors": [
+    {
+     "to": "beasting_bay_anchorage",
+     "name": "兽人海滩停泊所",
+     "dir": "西",
+     "kind": "road"
+    },
+    {
+     "to": "tropuhopu",
+     "name": "特洛甫霍普",
+     "dir": "东",
+     "kind": "road"
+    },
+    {
+     "to": "altar_of_the_huntress",
+     "name": "狩王女祭坛",
+     "dir": "东南",
+     "kind": "road"
+    },
+    {
+     "to": "southern_nameless_traverse",
+     "name": "南无名古道",
+     "dir": "东北",
+     "kind": "road"
+    }
+   ],
+   "treasures": 5,
+   "npcs": 2,
+   "hasDetail": false
+  },
+  {
+   "id": "altar_of_the_huntress",
+   "name": "狩王女祭坛",
+   "type": "shrine",
+   "world": [
+    978.6,
+    691.7
+   ],
+   "neighbors": [
+    {
+     "to": "western_tropuhopu_traverse",
+     "name": "西特洛甫霍普古道",
+     "dir": "西北",
+     "kind": "road"
+    }
+   ],
+   "treasures": 0,
+   "npcs": 0,
+   "hasDetail": false
+  },
+  {
+   "id": "tropuhopu",
+   "name": "特洛甫霍普",
+   "type": "town",
+   "world": [
+    1005.8,
+    665.9
+   ],
+   "neighbors": [
+    {
+     "to": "western_tropuhopu_traverse",
+     "name": "西特洛甫霍普古道",
+     "dir": "西",
+     "kind": "road"
+    }
+   ],
+   "treasures": 6,
+   "npcs": 13,
+   "hasDetail": false
+  },
+  {
+   "id": "cavern_of_waves",
+   "name": "海鸣洞穴",
+   "type": "dungeon",
+   "world": [
+    931.5,
+    658.2
+   ],
+   "neighbors": [
+    {
+     "to": "beasting_bay_anchorage",
+     "name": "兽人海滩停泊所",
+     "dir": "西南",
+     "kind": "road"
+    }
+   ],
+   "treasures": 6,
+   "npcs": 0,
+   "hasDetail": false
+  },
+  {
+   "id": "southern_nameless_traverse",
+   "name": "南无名古道",
+   "type": "field",
+   "world": [
+    972.7,
+    648.7
+   ],
+   "neighbors": [
+    {
+     "to": "western_tropuhopu_traverse",
+     "name": "西特洛甫霍普古道",
+     "dir": "西南",
+     "kind": "road"
+    },
+    {
+     "to": "sinking_ruins",
+     "name": "沉没遗迹",
+     "dir": "西北",
+     "kind": "road"
+    },
+    {
+     "to": "nameless_village",
+     "name": "无名村",
+     "dir": "北",
+     "kind": "road"
+    }
+   ],
+   "treasures": 4,
+   "npcs": 0,
+   "hasDetail": false
+  },
+  {
+   "id": "sinking_ruins",
+   "name": "沉没遗迹",
+   "type": "dungeon",
+   "world": [
+    958.3,
+    639
+   ],
+   "neighbors": [
+    {
+     "to": "southern_nameless_traverse",
+     "name": "南无名古道",
+     "dir": "东南",
+     "kind": "road"
+    }
+   ],
+   "treasures": 6,
+   "npcs": 0,
+   "hasDetail": false
+  },
+  {
+   "id": "nameless_village",
+   "name": "无名村",
+   "type": "town",
+   "world": [
+    966.6,
+    616.2
+   ],
+   "neighbors": [
+    {
+     "to": "southern_nameless_traverse",
+     "name": "南无名古道",
+     "dir": "南",
+     "kind": "road"
+    },
+    {
+     "to": "wandering_wood",
+     "name": "迷失之森",
+     "dir": "东北",
+     "kind": "road"
+    }
+   ],
+   "treasures": 6,
+   "npcs": 7,
+   "hasDetail": false
+  },
+  {
+   "id": "wandering_wood",
+   "name": "迷失之森",
+   "type": "dungeon",
+   "world": [
+    973.4,
+    601.8
+   ],
+   "neighbors": [
+    {
+     "to": "nameless_village",
+     "name": "无名村",
+     "dir": "西南",
+     "kind": "road"
+    },
+    {
+     "to": "rifted_rock",
+     "name": "裂岩",
+     "dir": "东北",
+     "kind": "road"
+    }
+   ],
+   "treasures": 5,
+   "npcs": 0,
+   "hasDetail": false
+  },
+  {
+   "id": "rifted_rock",
+   "name": "裂岩",
+   "type": "dungeon",
+   "world": [
+    977.6,
+    596.9
+   ],
+   "neighbors": [
+    {
+     "to": "wandering_wood",
+     "name": "迷失之森",
+     "dir": "西南",
+     "kind": "road"
+    }
+   ],
+   "treasures": 3,
+   "npcs": 0,
+   "hasDetail": false
+  }
+ ],
+ "sundering_sea": [
+  {
+   "id": "anchorage_crackridge",
+   "name": "克拉克雷吉港-停泊处（出航点）",
+   "type": "port",
+   "world": [
+    576,
+    386
+   ],
+   "neighbors": [
+    {
+     "to": "wildlands/crackridge_anchorage",
+     "name": "克拉克里奇港停泊所",
+     "dir": "西北",
+     "kind": "sea"
+    }
+   ],
+   "treasures": 0,
+   "npcs": 0,
+   "hasDetail": false
+  },
+  {
+   "id": "anchorage_new_delsta",
+   "name": "新德尔斯塔港-停泊处（出航点）",
+   "type": "port",
+   "world": [
+    1020,
+    352
+   ],
+   "neighbors": [
+    {
+     "to": "anchorage_beasting_bay",
+     "name": "兽人之滨-停泊处（出航点）",
+     "dir": "西南",
+     "kind": "road"
+    },
+    {
+     "to": "brightlands/nd_harbor",
+     "name": "新德尔斯塔港-停泊处",
+     "dir": "东南",
+     "kind": "sea"
+    },
+    {
+     "to": "winterlands/frigit_isle_anchorage",
+     "name": "弗里吉特监狱岛入口/停泊所",
+     "dir": "北",
+     "kind": "sea"
+    }
+   ],
+   "treasures": 0,
+   "npcs": 0,
+   "hasDetail": false
+  },
+  {
+   "id": "anchorage_canalbrine",
+   "name": "卡纳尔布来因（出航点）",
+   "type": "port",
+   "world": [
+    716,
+    512
+   ],
+   "neighbors": [
+    {
+     "to": "anchorage_beasting_bay",
+     "name": "兽人之滨-停泊处（出航点）",
+     "dir": "东南",
+     "kind": "road"
+    },
+    {
+     "to": "harborlands/canalbrine",
+     "name": "卡纳尔布莱恩",
+     "dir": "西北",
+     "kind": "sea"
+    },
+    {
+     "to": "harborlands/roque_island_anchorage",
+     "name": "洛克岛停泊所",
+     "dir": "南",
+     "kind": "sea"
+    }
+   ],
+   "treasures": 0,
+   "npcs": 0,
+   "hasDetail": false
+  },
+  {
+   "id": "anchorage_beasting_bay",
+   "name": "兽人之滨-停泊处（出航点）",
+   "type": "port",
+   "world": [
+    890,
+    650
+   ],
+   "neighbors": [
+    {
+     "to": "anchorage_canalbrine",
+     "name": "卡纳尔布来因（出航点）",
+     "dir": "西北",
+     "kind": "road"
+    },
+    {
+     "to": "anchorage_new_delsta",
+     "name": "新德尔斯塔港-停泊处（出航点）",
+     "dir": "东北",
+     "kind": "road"
+    },
+    {
+     "to": "totohaha/beasting_bay_anchorage",
+     "name": "兽人海滩停泊所",
+     "dir": "东南",
+     "kind": "sea"
+    }
+   ],
+   "treasures": 0,
+   "npcs": 0,
+   "hasDetail": false
+  },
+  {
+   "id": "on_the_water",
+   "name": "海上",
+   "type": "field",
+   "world": [
+    870,
+    320
+   ],
+   "neighbors": [],
+   "treasures": 14,
+   "npcs": 0,
+   "hasDetail": false
+  },
+  {
+   "id": "lighthouse_island",
+   "name": "灯塔守卫之岛",
+   "type": "field",
+   "world": [
+    964,
+    229
+   ],
+   "neighbors": [],
+   "treasures": 2,
+   "npcs": 2,
+   "hasDetail": false
+  },
+  {
+   "id": "shipwreck_empress",
+   "name": "女帝的船骸",
+   "type": "dungeon",
+   "world": [
+    732,
+    338
+   ],
+   "neighbors": [],
+   "treasures": 6,
+   "npcs": 0,
+   "hasDetail": false
+  },
+  {
+   "id": "vidania",
+   "name": "维达尼亚岛",
+   "type": "dungeon",
+   "world": [
+    836,
+    424
+   ],
+   "neighbors": [],
+   "treasures": 0,
+   "npcs": 0,
+   "hasDetail": false
+  },
+  {
+   "id": "nameless_isle",
+   "name": "无名孤岛",
+   "type": "dungeon",
+   "world": [
+    874,
+    567
+   ],
+   "neighbors": [],
+   "treasures": 4,
+   "npcs": 2,
+   "hasDetail": false
+  },
+  {
+   "id": "shark_bay",
+   "name": "海湾入口的鲨鱼鳍",
+   "type": "field",
+   "world": [
+    678,
+    624
+   ],
+   "neighbors": [],
+   "treasures": 1,
+   "npcs": 0,
+   "hasDetail": false
+  },
+  {
+   "id": "curious_nest",
+   "name": "恶食之巢",
+   "type": "dungeon",
+   "world": [
+    612,
+    560
+   ],
+   "neighbors": [],
+   "treasures": 5,
+   "npcs": 0,
+   "hasDetail": false
+  },
+  {
+   "id": "whirlpool",
+   "name": "大漩涡（海坊主）",
+   "type": "field",
+   "world": [
+    1080,
+    640
+   ],
+   "neighbors": [],
+   "treasures": 5,
+   "npcs": 0,
+   "hasDetail": false
+  },
+  {
+   "id": "lost_isle",
+   "name": "魔途之岛",
+   "type": "secret",
+   "world": [
+    1338,
+    542
+   ],
+   "neighbors": [],
+   "treasures": 7,
+   "npcs": 1,
+   "hasDetail": false
+  },
+  {
+   "id": "gate_of_finis",
+   "name": "？？？（异界之门）",
+   "type": "secret",
+   "world": [
+    1187,
+    701
+   ],
+   "neighbors": [],
+   "treasures": 3,
+   "npcs": 1,
+   "hasDetail": false
+  }
+ ]
+}
