@@ -198,89 +198,1325 @@ OT2.addDetail("winterlands", {
 OT2.addDetail("winterlands", {
   "southern_cape_cold_snows": {
     "theme": "snow",
-    "size": [100, 70],
-    "note": "东北口来自科尔德凯普，北段路边可遇奥斯瓦尔德；中央存档点向东分出往东科尔德凯普雪道的路，向南连续过两座桥到新德尔斯塔平原。东南是一片可乘独木舟的水域，北上与西进（穿过桥下）各有码头。",
+    "size": [
+      100,
+      70
+    ],
+    "note": "从科尔德凯普沿北段道路南下，北段岔路向东通往东科尔德凯普雪道；到中央存档点后继续南行过两座桥去新德尔斯塔平原。第一座桥南端可分去独木舟码头，北航取橄榄，西航穿桥下取长袍。",
     "zones": [
-      { "kind": "cliff", "poly": [[0, 0], [50, 0], [44, 8], [24, 14], [0, 18]] },
-      { "kind": "water", "poly": [[14, 45], [64, 44], [64, 53], [14, 52]] },
-      { "kind": "water", "poly": [[62, 34], [100, 32], [100, 70], [60, 70], [58, 56], [64, 53], [64, 44]] },
-      { "kind": "water", "poly": [[30, 52], [35, 52], [36, 70], [29, 70]] },
-      { "kind": "forest", "rect": [2, 56, 22, 12] },
-      { "kind": "deck", "rect": [59, 56, 5, 3] },
-      { "kind": "deck", "rect": [74, 40, 5, 3] },
-      { "kind": "deck", "rect": [23, 45, 6, 2] }
+      {
+        "kind": "cliff",
+        "poly": [
+          [
+            0,
+            0
+          ],
+          [
+            50,
+            0
+          ],
+          [
+            44,
+            8
+          ],
+          [
+            24,
+            14
+          ],
+          [
+            0,
+            18
+          ]
+        ]
+      },
+      {
+        "kind": "water",
+        "poly": [
+          [
+            14,
+            45
+          ],
+          [
+            64,
+            44
+          ],
+          [
+            64,
+            53
+          ],
+          [
+            14,
+            52
+          ]
+        ]
+      },
+      {
+        "kind": "water",
+        "poly": [
+          [
+            62,
+            34
+          ],
+          [
+            100,
+            32
+          ],
+          [
+            100,
+            70
+          ],
+          [
+            60,
+            70
+          ],
+          [
+            58,
+            56
+          ],
+          [
+            64,
+            53
+          ],
+          [
+            64,
+            44
+          ]
+        ]
+      },
+      {
+        "kind": "water",
+        "poly": [
+          [
+            30,
+            52
+          ],
+          [
+            35,
+            52
+          ],
+          [
+            36,
+            70
+          ],
+          [
+            29,
+            70
+          ]
+        ]
+      },
+      {
+        "kind": "forest",
+        "rect": [
+          2,
+          56,
+          22,
+          12
+        ]
+      },
+      {
+        "kind": "deck",
+        "rect": [
+          59,
+          56,
+          5,
+          3
+        ]
+      },
+      {
+        "kind": "deck",
+        "rect": [
+          74,
+          40,
+          5,
+          3
+        ]
+      },
+      {
+        "kind": "deck",
+        "rect": [
+          23,
+          45,
+          6,
+          2
+        ]
+      }
     ],
     "paths": [
-      { "kind": "main", "pts": [[94, 4], [82, 10], [70, 18], [58, 26], [52, 30]], "label": "北段（往科尔德凯普）" },
-      { "kind": "main", "pts": [[70, 18], [84, 22], [98, 26]], "label": "往东科尔德凯普雪道" },
-      { "kind": "minor", "pts": [[52, 30], [44, 30]], "label": "存档点稍西" },
-      { "kind": "main", "pts": [[52, 30], [48, 38], [46, 44]] },
-      { "kind": "bridge", "pts": [[46, 44], [46, 54]], "label": "北侧的桥" },
-      { "kind": "main", "pts": [[46, 54], [42, 56], [37, 58]] },
-      { "kind": "bridge", "pts": [[37, 58], [28, 61]], "label": "南侧的桥" },
-      { "kind": "main", "pts": [[28, 61], [22, 68]], "label": "往新德尔斯塔平原" },
-      { "kind": "minor", "pts": [[42, 56], [44, 64]], "label": "两座桥之间往南的小空地" },
-      { "kind": "minor", "pts": [[46, 54], [54, 57], [62, 58]], "label": "独木舟码头" },
-      { "kind": "boat", "pts": [[62, 58], [70, 50], [76, 41]], "label": "乘独木舟向北" },
-      { "kind": "boat", "pts": [[62, 58], [56, 49], [46, 49], [28, 48]], "label": "向西穿过桥下" }
+      {
+        "kind": "main",
+        "pts": [
+          [
+            94,
+            4
+          ],
+          [
+            82,
+            10
+          ],
+          [
+            70,
+            18
+          ],
+          [
+            58,
+            26
+          ],
+          [
+            52,
+            30
+          ]
+        ],
+        "label": "村口至中央存档点",
+        "route": {
+          "from": "科尔德凯普村口",
+          "to": "中央存档点",
+          "steps": [
+            "从村口沿北段主路离开",
+            "经过奥斯瓦尔德所在一带",
+            "到中央存档点确认方向"
+          ],
+          "sources": [
+            {
+              "label": "ArrPeeGeeZ · 南科尔德凯普雪道",
+              "url": "https://www.arrpeegeez.com/2023/02/octopath-traveler-ii-walkthrough-area_24.html"
+            },
+            {
+              "label": "NightlyGamingBinge · 雪道宝箱参照",
+              "url": "https://nightlygamingbinge.com/octopath-traveler-ii-winterlands-southern-cape-cold-snows/"
+            }
+          ]
+        }
+      },
+      {
+        "kind": "main",
+        "pts": [
+          [
+            70,
+            18
+          ],
+          [
+            84,
+            22
+          ],
+          [
+            98,
+            26
+          ]
+        ],
+        "label": "东科尔德凯普雪道支路",
+        "route": {
+          "from": "北段岔路 A",
+          "to": "东科尔德凯普雪道出口",
+          "steps": [
+            "在北段道路的分岔向东",
+            "沿支路进入东科尔德凯普雪道"
+          ],
+          "sources": [
+            {
+              "label": "ArrPeeGeeZ · 南科尔德凯普雪道",
+              "url": "https://www.arrpeegeez.com/2023/02/octopath-traveler-ii-walkthrough-area_24.html"
+            },
+            {
+              "label": "NightlyGamingBinge · 雪道宝箱参照",
+              "url": "https://nightlygamingbinge.com/octopath-traveler-ii-winterlands-southern-cape-cold-snows/"
+            }
+          ],
+          "caution": "不要把东行陆路出口与下方独木舟水路混淆"
+        }
+      },
+      {
+        "kind": "minor",
+        "pts": [
+          [
+            52,
+            30
+          ],
+          [
+            44,
+            30
+          ]
+        ],
+        "label": "存档点往西取荔枝",
+        "route": {
+          "from": "中央存档点",
+          "to": "底力回复荔枝宝箱",
+          "steps": [
+            "以存档点为起点向西走一小段",
+            "取箱后回到存档点"
+          ],
+          "sources": [
+            {
+              "label": "ArrPeeGeeZ · 南科尔德凯普雪道",
+              "url": "https://www.arrpeegeez.com/2023/02/octopath-traveler-ii-walkthrough-area_24.html"
+            },
+            {
+              "label": "NightlyGamingBinge · 雪道宝箱参照",
+              "url": "https://nightlygamingbinge.com/octopath-traveler-ii-winterlands-southern-cape-cold-snows/"
+            }
+          ]
+        }
+      },
+      {
+        "kind": "main",
+        "pts": [
+          [
+            52,
+            30
+          ],
+          [
+            48,
+            38
+          ],
+          [
+            46,
+            44
+          ]
+        ],
+        "label": "存档点至第一座桥",
+        "route": {
+          "from": "中央存档点",
+          "to": "第一座桥北端",
+          "steps": [
+            "从存档点沿南下主路走",
+            "到第一座桥前确认仍在陆路上"
+          ],
+          "sources": [
+            {
+              "label": "ArrPeeGeeZ · 南科尔德凯普雪道",
+              "url": "https://www.arrpeegeez.com/2023/02/octopath-traveler-ii-walkthrough-area_24.html"
+            },
+            {
+              "label": "NightlyGamingBinge · 雪道宝箱参照",
+              "url": "https://nightlygamingbinge.com/octopath-traveler-ii-winterlands-southern-cape-cold-snows/"
+            }
+          ]
+        }
+      },
+      {
+        "kind": "bridge",
+        "pts": [
+          [
+            46,
+            44
+          ],
+          [
+            46,
+            54
+          ]
+        ],
+        "label": "步行过第一座桥",
+        "route": {
+          "from": "第一座桥北端",
+          "to": "桥南端岔路 B",
+          "steps": [
+            "从桥面向南通过第一座桥",
+            "到桥南端分岔处"
+          ],
+          "sources": [
+            {
+              "label": "ArrPeeGeeZ · 南科尔德凯普雪道",
+              "url": "https://www.arrpeegeez.com/2023/02/octopath-traveler-ii-walkthrough-area_24.html"
+            },
+            {
+              "label": "NightlyGamingBinge · 雪道宝箱参照",
+              "url": "https://nightlygamingbinge.com/octopath-traveler-ii-winterlands-southern-cape-cold-snows/"
+            }
+          ],
+          "caution": "桥面与西行独木舟航线分层，交叉处不能换层"
+        }
+      },
+      {
+        "kind": "main",
+        "pts": [
+          [
+            46,
+            54
+          ],
+          [
+            42,
+            56
+          ],
+          [
+            37,
+            58
+          ]
+        ],
+        "label": "两桥之间的连接路",
+        "route": {
+          "from": "岔路 B",
+          "to": "第二座桥东端",
+          "steps": [
+            "沿两座桥之间的短路向西南走",
+            "途中另有向南取李子的分支"
+          ],
+          "sources": [
+            {
+              "label": "ArrPeeGeeZ · 南科尔德凯普雪道",
+              "url": "https://www.arrpeegeez.com/2023/02/octopath-traveler-ii-walkthrough-area_24.html"
+            },
+            {
+              "label": "NightlyGamingBinge · 雪道宝箱参照",
+              "url": "https://nightlygamingbinge.com/octopath-traveler-ii-winterlands-southern-cape-cold-snows/"
+            }
+          ]
+        }
+      },
+      {
+        "kind": "bridge",
+        "pts": [
+          [
+            37,
+            58
+          ],
+          [
+            28,
+            61
+          ]
+        ],
+        "label": "步行过第二座桥",
+        "route": {
+          "from": "第二座桥东端",
+          "to": "第二座桥西端",
+          "steps": [
+            "沿桥面通过第二座桥",
+            "向新德尔斯塔平原方向继续"
+          ],
+          "sources": [
+            {
+              "label": "ArrPeeGeeZ · 南科尔德凯普雪道",
+              "url": "https://www.arrpeegeez.com/2023/02/octopath-traveler-ii-walkthrough-area_24.html"
+            },
+            {
+              "label": "NightlyGamingBinge · 雪道宝箱参照",
+              "url": "https://nightlygamingbinge.com/octopath-traveler-ii-winterlands-southern-cape-cold-snows/"
+            }
+          ]
+        }
+      },
+      {
+        "kind": "main",
+        "pts": [
+          [
+            28,
+            61
+          ],
+          [
+            22,
+            68
+          ]
+        ],
+        "label": "第二座桥至平原出口",
+        "route": {
+          "from": "第二座桥西端",
+          "to": "新德尔斯塔平原出口",
+          "steps": [
+            "离开第二座桥后沿主路继续",
+            "从南侧出口进入新德尔斯塔平原"
+          ],
+          "sources": [
+            {
+              "label": "ArrPeeGeeZ · 南科尔德凯普雪道",
+              "url": "https://www.arrpeegeez.com/2023/02/octopath-traveler-ii-walkthrough-area_24.html"
+            },
+            {
+              "label": "NightlyGamingBinge · 雪道宝箱参照",
+              "url": "https://nightlygamingbinge.com/octopath-traveler-ii-winterlands-southern-cape-cold-snows/"
+            }
+          ]
+        }
+      },
+      {
+        "kind": "minor",
+        "pts": [
+          [
+            42,
+            56
+          ],
+          [
+            44,
+            64
+          ]
+        ],
+        "label": "两桥间向南取李子",
+        "route": {
+          "from": "两桥之间的短路",
+          "to": "醒神李子（大）宝箱",
+          "steps": [
+            "在两座桥之间转向南边小空地",
+            "取箱后返回两桥之间的路"
+          ],
+          "sources": [
+            {
+              "label": "ArrPeeGeeZ · 南科尔德凯普雪道",
+              "url": "https://www.arrpeegeez.com/2023/02/octopath-traveler-ii-walkthrough-area_24.html"
+            },
+            {
+              "label": "NightlyGamingBinge · 雪道宝箱参照",
+              "url": "https://nightlygamingbinge.com/octopath-traveler-ii-winterlands-southern-cape-cold-snows/"
+            }
+          ]
+        }
+      },
+      {
+        "kind": "minor",
+        "pts": [
+          [
+            46,
+            54
+          ],
+          [
+            54,
+            57
+          ],
+          [
+            62,
+            58
+          ]
+        ],
+        "label": "陆路至独木舟码头",
+        "route": {
+          "from": "岔路 B",
+          "to": "独木舟码头 C",
+          "steps": [
+            "从第一座桥南端分出的小路走向水边",
+            "到码头后才能切换为独木舟"
+          ],
+          "sources": [
+            {
+              "label": "ArrPeeGeeZ · 南科尔德凯普雪道",
+              "url": "https://www.arrpeegeez.com/2023/02/octopath-traveler-ii-walkthrough-area_24.html"
+            },
+            {
+              "label": "NightlyGamingBinge · 雪道宝箱参照",
+              "url": "https://nightlygamingbinge.com/octopath-traveler-ii-winterlands-southern-cape-cold-snows/"
+            }
+          ],
+          "caution": "若只去平原，不需要走这段码头支路"
+        }
+      },
+      {
+        "kind": "boat",
+        "pts": [
+          [
+            62,
+            58
+          ],
+          [
+            70,
+            50
+          ],
+          [
+            76,
+            41
+          ]
+        ],
+        "label": "码头北行取橄榄",
+        "route": {
+          "from": "独木舟码头 C",
+          "to": "北侧码头／还魂橄榄宝箱",
+          "steps": [
+            "从码头乘独木舟向北",
+            "在另一处码头上岸",
+            "取还魂橄榄（大）"
+          ],
+          "sources": [
+            {
+              "label": "ArrPeeGeeZ · 南科尔德凯普雪道",
+              "url": "https://www.arrpeegeez.com/2023/02/octopath-traveler-ii-walkthrough-area_24.html"
+            },
+            {
+              "label": "NightlyGamingBinge · 雪道宝箱参照",
+              "url": "https://nightlygamingbinge.com/octopath-traveler-ii-winterlands-southern-cape-cold-snows/"
+            }
+          ],
+          "mode": "乘独木舟"
+        }
+      },
+      {
+        "kind": "boat",
+        "pts": [
+          [
+            62,
+            58
+          ],
+          [
+            56,
+            49
+          ],
+          [
+            46,
+            49
+          ],
+          [
+            28,
+            48
+          ]
+        ],
+        "label": "码头西行穿桥取长袍",
+        "route": {
+          "from": "独木舟码头 C",
+          "to": "桥西侧第三个码头",
+          "steps": [
+            "从同一码头乘舟向西绕行",
+            "沿水面穿过桥下",
+            "在第三个码头上岸取朝圣者长袍"
+          ],
+          "sources": [
+            {
+              "label": "ArrPeeGeeZ · 南科尔德凯普雪道",
+              "url": "https://www.arrpeegeez.com/2023/02/octopath-traveler-ii-walkthrough-area_24.html"
+            },
+            {
+              "label": "NightlyGamingBinge · 雪道宝箱参照",
+              "url": "https://nightlygamingbinge.com/octopath-traveler-ii-winterlands-southern-cape-cold-snows/"
+            }
+          ],
+          "mode": "乘独木舟",
+          "caution": "桥下航线不与桥面相接，需要从码头上下船"
+        }
+      }
     ],
     "pois": [
-      { "kind": "exit", "at": [94, 4], "to": "cape_cold", "label": "往科尔德凯普", "lp": "l", "dir": "东北" },
-      { "kind": "exit", "at": [98, 26], "to": "eastern_cape_cold_snows", "label": "往东科尔德凯普雪道", "lp": "l", "dir": "东" },
-      { "kind": "exit", "at": [22, 68], "to": "brightlands/nd_flats", "label": "往新德尔斯塔平原", "lp": "r", "dir": "南" },
-      { "kind": "npc", "at": [74, 15], "label": "奥斯瓦尔德（非开局时）", "npc": [0], "lp": "r" },
-      { "kind": "npc", "at": [60, 25], "label": "阿尔（奥斯瓦尔德开局）", "npc": [1], "lp": "t", "note": "支线「旅人的行囊」；夜晚雪道上还有面色阴沉的男人。" },
-      { "kind": "save", "at": [52, 30], "label": "存档点", "lp": "r" },
-      { "kind": "chest", "at": [44, 30], "tr": [0], "label": "底力回复荔枝", "lp": "l" },
-      { "kind": "chest", "at": [44, 64], "tr": [1], "label": "醒神李子（大）", "lp": "r" },
-      { "kind": "landmark", "at": [62, 58], "label": "独木舟码头", "lp": "b" },
-      { "kind": "chest", "at": [76, 41], "tr": [2], "label": "还魂橄榄（大）", "lp": "r", "note": "乘独木舟向北，在另一处码头上岸。" },
-      { "kind": "chest", "at": [26, 48], "tr": [3], "label": "朝圣者长袍", "lp": "t", "note": "同一水域向西，绕到桥下的第三个码头。" }
+      {
+        "kind": "exit",
+        "at": [
+          94,
+          4
+        ],
+        "to": "cape_cold",
+        "label": "往科尔德凯普",
+        "lp": "l",
+        "dir": "东北"
+      },
+      {
+        "kind": "exit",
+        "at": [
+          98,
+          26
+        ],
+        "to": "eastern_cape_cold_snows",
+        "label": "往东科尔德凯普雪道",
+        "lp": "l",
+        "dir": "东"
+      },
+      {
+        "kind": "exit",
+        "at": [
+          22,
+          68
+        ],
+        "to": "brightlands/nd_flats",
+        "label": "往新德尔斯塔平原",
+        "lp": "r",
+        "dir": "南"
+      },
+      {
+        "kind": "npc",
+        "at": [
+          74,
+          15
+        ],
+        "label": "奥斯瓦尔德（非开局时）",
+        "npc": [
+          0
+        ],
+        "lp": "r"
+      },
+      {
+        "kind": "npc",
+        "at": [
+          60,
+          25
+        ],
+        "label": "阿尔（奥斯瓦尔德开局）",
+        "npc": [
+          1
+        ],
+        "lp": "t",
+        "note": "支线「旅人的行囊」；夜晚雪道上还有面色阴沉的男人。"
+      },
+      {
+        "kind": "save",
+        "at": [
+          52,
+          30
+        ],
+        "label": "存档点",
+        "lp": "r"
+      },
+      {
+        "kind": "chest",
+        "at": [
+          44,
+          30
+        ],
+        "tr": [
+          0
+        ],
+        "label": "底力回复荔枝",
+        "lp": "l"
+      },
+      {
+        "kind": "chest",
+        "at": [
+          44,
+          64
+        ],
+        "tr": [
+          1
+        ],
+        "label": "醒神李子（大）",
+        "lp": "r"
+      },
+      {
+        "kind": "landmark",
+        "at": [
+          62,
+          58
+        ],
+        "label": "独木舟码头",
+        "lp": "b"
+      },
+      {
+        "kind": "chest",
+        "at": [
+          76,
+          41
+        ],
+        "tr": [
+          2
+        ],
+        "label": "还魂橄榄（大）",
+        "lp": "r",
+        "note": "乘独木舟向北，在另一处码头上岸。"
+      },
+      {
+        "kind": "chest",
+        "at": [
+          26,
+          48
+        ],
+        "tr": [
+          3
+        ],
+        "label": "朝圣者长袍",
+        "lp": "t",
+        "note": "同一水域向西，绕到桥下的第三个码头。"
+      }
+    ],
+    "sources": [
+      {
+        "label": "ArrPeeGeeZ · 南科尔德凯普雪道",
+        "url": "https://www.arrpeegeez.com/2023/02/octopath-traveler-ii-walkthrough-area_24.html"
+      },
+      {
+        "label": "NightlyGamingBinge · 雪道宝箱参照",
+        "url": "https://nightlygamingbinge.com/octopath-traveler-ii-winterlands-southern-cape-cold-snows/"
+      }
+    ],
+    "junctions": [
+      {
+        "label": "A",
+        "at": [
+          70,
+          18
+        ],
+        "roads": [
+          0,
+          1
+        ],
+        "note": "村口与存档点之间的陆路分岔：东去相邻雪道，另一边仍通中央存档点。"
+      },
+      {
+        "label": "B",
+        "at": [
+          46,
+          54
+        ],
+        "roads": [
+          4,
+          5,
+          9
+        ],
+        "note": "第一座桥南端：沿陆路去第二座桥，或走支路到独木舟码头。"
+      },
+      {
+        "label": "C",
+        "at": [
+          62,
+          58
+        ],
+        "roads": [
+          9,
+          10,
+          11
+        ],
+        "note": "独木舟码头：北行取橄榄，西行绕桥下取长袍。",
+        "labelAt": [
+          65,
+          62
+        ]
+      }
+    ],
+    "crossings": [
+      {
+        "at": [
+          46,
+          49
+        ],
+        "labelAt": [
+          33,
+          39
+        ],
+        "over": 4,
+        "under": 11,
+        "note": "桥面／桥下不相通"
+      }
     ]
   },
   "eastern_cape_cold_snows": {
     "theme": "snow",
-    "size": [100, 70],
+    "size": [
+      100,
+      70
+    ],
     "note": "四通八达的中继雪道：西接南科尔德凯普雪道，西北上山到西温特布鲁姆雪道，过桥后东去无赖据点、南下纹之地。存档点居中，西北路标旁有行商；桥东有码头可乘船直达无赖据点，西南水域可划独木舟。尖锋匕首的具体位置攻略未写明，图中为示意。",
     "zones": [
-      { "kind": "water", "poly": [[62, 0], [100, 0], [100, 24], [82, 30], [71, 28], [70, 70], [62, 70], [63, 30]] },
-      { "kind": "water", "poly": [[16, 52], [56, 50], [63, 54], [63, 62], [18, 66]] },
-      { "kind": "cliff", "poly": [[0, 0], [4, 0], [12, 10], [22, 20], [12, 26], [0, 22]] },
-      { "kind": "wall", "rect": [36, 43, 9, 6] },
-      { "kind": "forest", "rect": [84, 44, 14, 16] },
-      { "kind": "deck", "rect": [74, 29, 5, 3] },
-      { "kind": "deck", "rect": [57, 51, 5, 3] }
+      {
+        "kind": "water",
+        "poly": [
+          [
+            62,
+            0
+          ],
+          [
+            100,
+            0
+          ],
+          [
+            100,
+            24
+          ],
+          [
+            82,
+            30
+          ],
+          [
+            71,
+            28
+          ],
+          [
+            70,
+            70
+          ],
+          [
+            62,
+            70
+          ],
+          [
+            63,
+            30
+          ]
+        ]
+      },
+      {
+        "kind": "water",
+        "poly": [
+          [
+            16,
+            52
+          ],
+          [
+            56,
+            50
+          ],
+          [
+            63,
+            54
+          ],
+          [
+            63,
+            62
+          ],
+          [
+            18,
+            66
+          ]
+        ]
+      },
+      {
+        "kind": "cliff",
+        "poly": [
+          [
+            0,
+            0
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            12,
+            10
+          ],
+          [
+            22,
+            20
+          ],
+          [
+            12,
+            26
+          ],
+          [
+            0,
+            22
+          ]
+        ]
+      },
+      {
+        "kind": "wall",
+        "rect": [
+          36,
+          43,
+          9,
+          6
+        ]
+      },
+      {
+        "kind": "forest",
+        "rect": [
+          84,
+          44,
+          14,
+          16
+        ]
+      },
+      {
+        "kind": "deck",
+        "rect": [
+          74,
+          29,
+          5,
+          3
+        ]
+      },
+      {
+        "kind": "deck",
+        "rect": [
+          57,
+          51,
+          5,
+          3
+        ]
+      }
     ],
     "paths": [
-      { "kind": "main", "pts": [[2, 44], [20, 42], [36, 40], [44, 39], [50, 38], [62, 36]], "label": "往南科尔德凯普雪道" },
-      { "kind": "bridge", "pts": [[62, 36], [71, 36]], "label": "桥" },
-      { "kind": "main", "pts": [[71, 36], [78, 36], [86, 36], [98, 36]], "label": "往无赖据点（门口有无赖挡路）" },
-      { "kind": "main", "pts": [[36, 40], [28, 26], [16, 14], [6, 4]], "label": "往西温特布鲁姆雪道" },
-      { "kind": "main", "pts": [[78, 36], [80, 52], [80, 68]], "label": "往东弗雷姆丘奇山道" },
-      { "kind": "minor", "pts": [[44, 39], [42, 33]], "label": "路标" },
-      { "kind": "minor", "pts": [[44, 39], [40, 45]], "label": "存档点西侧小围栏" },
-      { "kind": "minor", "pts": [[50, 38], [54, 30], [56, 22]], "label": "存档点东北小路" },
-      { "kind": "minor", "pts": [[28, 26], [38, 20]] },
-      { "kind": "minor", "pts": [[71, 36], [76, 29]], "label": "过桥向东的码头" },
-      { "kind": "boat", "pts": [[76, 29], [88, 20], [98, 16]], "label": "乘船直达无赖据点" },
-      { "kind": "minor", "pts": [[50, 38], [56, 46], [60, 52]], "label": "独木舟码头" },
-      { "kind": "boat", "pts": [[60, 53], [40, 58], [20, 58]], "label": "乘独木舟向西" }
+      {
+        "kind": "main",
+        "pts": [
+          [
+            2,
+            44
+          ],
+          [
+            20,
+            42
+          ],
+          [
+            36,
+            40
+          ],
+          [
+            44,
+            39
+          ],
+          [
+            50,
+            38
+          ],
+          [
+            62,
+            36
+          ]
+        ],
+        "label": "往南科尔德凯普雪道"
+      },
+      {
+        "kind": "bridge",
+        "pts": [
+          [
+            62,
+            36
+          ],
+          [
+            71,
+            36
+          ]
+        ],
+        "label": "桥"
+      },
+      {
+        "kind": "main",
+        "pts": [
+          [
+            71,
+            36
+          ],
+          [
+            78,
+            36
+          ],
+          [
+            86,
+            36
+          ],
+          [
+            98,
+            36
+          ]
+        ],
+        "label": "往无赖据点（门口有无赖挡路）"
+      },
+      {
+        "kind": "main",
+        "pts": [
+          [
+            36,
+            40
+          ],
+          [
+            28,
+            26
+          ],
+          [
+            16,
+            14
+          ],
+          [
+            6,
+            4
+          ]
+        ],
+        "label": "往西温特布鲁姆雪道"
+      },
+      {
+        "kind": "main",
+        "pts": [
+          [
+            78,
+            36
+          ],
+          [
+            80,
+            52
+          ],
+          [
+            80,
+            68
+          ]
+        ],
+        "label": "往东弗雷姆丘奇山道"
+      },
+      {
+        "kind": "minor",
+        "pts": [
+          [
+            44,
+            39
+          ],
+          [
+            42,
+            33
+          ]
+        ],
+        "label": "路标"
+      },
+      {
+        "kind": "minor",
+        "pts": [
+          [
+            44,
+            39
+          ],
+          [
+            40,
+            45
+          ]
+        ],
+        "label": "存档点西侧小围栏"
+      },
+      {
+        "kind": "minor",
+        "pts": [
+          [
+            50,
+            38
+          ],
+          [
+            54,
+            30
+          ],
+          [
+            56,
+            22
+          ]
+        ],
+        "label": "存档点东北小路"
+      },
+      {
+        "kind": "minor",
+        "pts": [
+          [
+            28,
+            26
+          ],
+          [
+            38,
+            20
+          ]
+        ]
+      },
+      {
+        "kind": "minor",
+        "pts": [
+          [
+            71,
+            36
+          ],
+          [
+            76,
+            29
+          ]
+        ],
+        "label": "过桥向东的码头"
+      },
+      {
+        "kind": "boat",
+        "pts": [
+          [
+            76,
+            29
+          ],
+          [
+            88,
+            20
+          ],
+          [
+            98,
+            16
+          ]
+        ],
+        "label": "乘船直达无赖据点"
+      },
+      {
+        "kind": "minor",
+        "pts": [
+          [
+            50,
+            38
+          ],
+          [
+            56,
+            46
+          ],
+          [
+            60,
+            52
+          ]
+        ],
+        "label": "独木舟码头"
+      },
+      {
+        "kind": "boat",
+        "pts": [
+          [
+            60,
+            53
+          ],
+          [
+            40,
+            58
+          ],
+          [
+            20,
+            58
+          ]
+        ],
+        "label": "乘独木舟向西"
+      }
     ],
     "pois": [
-      { "kind": "exit", "at": [2, 44], "to": "southern_cape_cold_snows", "label": "往南科尔德凯普雪道", "lp": "r", "dir": "西" },
-      { "kind": "exit", "at": [6, 4], "to": "western_winterbloom_snows", "label": "往西温特布鲁姆雪道", "lp": "r", "dir": "西北" },
-      { "kind": "exit", "at": [98, 36], "to": "ruffians_hideout", "label": "无赖据点", "lp": "l", "dir": "东" },
-      { "kind": "exit", "at": [80, 68], "to": "crestlands/eastern_flamechurch_pass", "label": "往东弗雷姆丘奇山道", "lp": "l", "dir": "南" },
-      { "kind": "ship", "at": [98, 16], "to": "ruffians_hideout", "label": "乘船直达无赖据点", "lp": "l", "dir": "东" },
-      { "kind": "danger", "at": [82, 36], "label": "门口的无赖", "lp": "b", "note": "从存档点往东会被他挡路，可挑战/偷袭；或改走码头乘船进入。" },
-      { "kind": "landmark", "at": [76, 29], "label": "码头", "lp": "b" },
-      { "kind": "save", "at": [50, 38], "label": "存档点", "lp": "b" },
-      { "kind": "peddler", "at": [42, 33], "label": "行商（路标旁）", "npc": [0], "lp": "t", "note": "支线「无赖的据点」委托人。" },
-      { "kind": "chest", "at": [40, 45], "tr": [2], "label": "600叶", "lp": "b" },
-      { "kind": "chest", "at": [56, 22], "tr": [1], "label": "冰之精灵石", "lp": "r" },
-      { "kind": "chest", "at": [38, 20], "tr": [3], "label": "尖锋匕首", "lp": "r", "note": "攻略只写「雪道内宝箱」，具体位置未确认，此处为示意。" },
-      { "kind": "landmark", "at": [60, 53], "label": "独木舟", "lp": "r" },
-      { "kind": "chest", "at": [20, 58], "tr": [0], "label": "毛皮帽子", "lp": "t" }
+      {
+        "kind": "exit",
+        "at": [
+          2,
+          44
+        ],
+        "to": "southern_cape_cold_snows",
+        "label": "往南科尔德凯普雪道",
+        "lp": "r",
+        "dir": "西"
+      },
+      {
+        "kind": "exit",
+        "at": [
+          6,
+          4
+        ],
+        "to": "western_winterbloom_snows",
+        "label": "往西温特布鲁姆雪道",
+        "lp": "r",
+        "dir": "西北"
+      },
+      {
+        "kind": "exit",
+        "at": [
+          98,
+          36
+        ],
+        "to": "ruffians_hideout",
+        "label": "无赖据点",
+        "lp": "l",
+        "dir": "东"
+      },
+      {
+        "kind": "exit",
+        "at": [
+          80,
+          68
+        ],
+        "to": "crestlands/eastern_flamechurch_pass",
+        "label": "往东弗雷姆丘奇山道",
+        "lp": "l",
+        "dir": "南"
+      },
+      {
+        "kind": "ship",
+        "at": [
+          98,
+          16
+        ],
+        "to": "ruffians_hideout",
+        "label": "乘船直达无赖据点",
+        "lp": "l",
+        "dir": "东"
+      },
+      {
+        "kind": "danger",
+        "at": [
+          82,
+          36
+        ],
+        "label": "门口的无赖",
+        "lp": "b",
+        "note": "从存档点往东会被他挡路，可挑战/偷袭；或改走码头乘船进入。"
+      },
+      {
+        "kind": "landmark",
+        "at": [
+          76,
+          29
+        ],
+        "label": "码头",
+        "lp": "b"
+      },
+      {
+        "kind": "save",
+        "at": [
+          50,
+          38
+        ],
+        "label": "存档点",
+        "lp": "b"
+      },
+      {
+        "kind": "peddler",
+        "at": [
+          42,
+          33
+        ],
+        "label": "行商（路标旁）",
+        "npc": [
+          0
+        ],
+        "lp": "t",
+        "note": "支线「无赖的据点」委托人。"
+      },
+      {
+        "kind": "chest",
+        "at": [
+          40,
+          45
+        ],
+        "tr": [
+          2
+        ],
+        "label": "600叶",
+        "lp": "b"
+      },
+      {
+        "kind": "chest",
+        "at": [
+          56,
+          22
+        ],
+        "tr": [
+          1
+        ],
+        "label": "冰之精灵石",
+        "lp": "r"
+      },
+      {
+        "kind": "chest",
+        "at": [
+          38,
+          20
+        ],
+        "tr": [
+          3
+        ],
+        "label": "尖锋匕首",
+        "lp": "r",
+        "note": "攻略只写「雪道内宝箱」，具体位置未确认，此处为示意。"
+      },
+      {
+        "kind": "landmark",
+        "at": [
+          60,
+          53
+        ],
+        "label": "独木舟",
+        "lp": "r"
+      },
+      {
+        "kind": "chest",
+        "at": [
+          20,
+          58
+        ],
+        "tr": [
+          0
+        ],
+        "label": "毛皮帽子",
+        "lp": "t"
+      },
+      {
+        "kind": "landmark",
+        "navigation": "signpost",
+        "at": [
+          44,
+          35
+        ],
+        "label": "路标（存档点西北）",
+        "lp": "l",
+        "note": "存档点西北的实体路牌，旁边是行商；去无赖据点应从存档点向东。相对位置示意。"
+      }
+    ],
+    "sources": [
+      {
+        "label": "ArrPeeGeeZ · 路牌旁行商",
+        "url": "https://www.arrpeegeez.com/2023/03/octopath-traveler-ii-walkthrough-side_14.html"
+      }
     ]
   },
   "ruffians_hideout": {

@@ -1,0 +1,6024 @@
+{
+  "meta": {
+    "version": "2025 HD-2D DQII",
+    "verifiedDate": "2026-11-08",
+    "coverageZh": "野外分组改由279个怪物详细页的明确出现场所构建；城镇周边聚合表已降级为未采用候选。",
+    "coverageSummary": {
+      "groups": 50,
+      "enemyAppearanceFacts": 278,
+      "individualMonsterRecords": 270,
+      "fetchFailures": 0,
+      "regionalMapImages": 4
+    }
+  },
+  "monsters": [
+    {
+      "nameJa": "スライム",
+      "sourceUrl": "https://gamewith.jp/dq1-2/481478",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "ローレシアの城周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481478",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481348"
+          ]
+        },
+        {
+          "labelJa": "リリザの町周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481478",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481347"
+          ]
+        },
+        {
+          "labelJa": "アレフガルド北部",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481478",
+          "mapSourceUrls": []
+        },
+        {
+          "labelJa": "北のお告げ所周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481478",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/482180"
+          ]
+        },
+        {
+          "labelJa": "スライム島",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481478",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/527906"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "おおがらす",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528012",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "ローレシアの城周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528012",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481348"
+          ]
+        },
+        {
+          "labelJa": "リリザの町周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528012",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481347"
+          ]
+        },
+        {
+          "labelJa": "北のお告げ所周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528012",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/482180"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "いっかくうさぎ",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528013",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "ローレシアの城周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528013",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481348"
+          ]
+        },
+        {
+          "labelJa": "リリザの町周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528013",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481347"
+          ]
+        },
+        {
+          "labelJa": "サマルトリアの城周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528013",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481346"
+          ]
+        },
+        {
+          "labelJa": "北のお告げ所周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528013",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/482180"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "おおなめくじ",
+      "sourceUrl": "https://gamewith.jp/dq1-2/481476",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "ローレシアの城周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481476",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481348"
+          ]
+        },
+        {
+          "labelJa": "リリザの町周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481476",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481347"
+          ]
+        },
+        {
+          "labelJa": "サマルトリアの城周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481476",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481346"
+          ]
+        },
+        {
+          "labelJa": "北のお告げ所周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481476",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/482180"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "アイアンアント",
+      "sourceUrl": "https://gamewith.jp/dq1-2/481477",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "ローレシアの城周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481477",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481348"
+          ]
+        },
+        {
+          "labelJa": "リリザの町周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481477",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481347"
+          ]
+        },
+        {
+          "labelJa": "サマルトリアの城周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481477",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481346"
+          ]
+        },
+        {
+          "labelJa": "北のお告げ所周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481477",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/482180"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "ゴースト",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528014",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "リリザの町周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528014",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481347"
+          ]
+        },
+        {
+          "labelJa": "サマルトリアの城周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528014",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481346"
+          ]
+        },
+        {
+          "labelJa": "ロトの洞窟",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528014",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/527235"
+          ]
+        },
+        {
+          "labelJa": "北のお告げ所周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528014",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/482180"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "ドラキー",
+      "sourceUrl": "https://gamewith.jp/dq1-2/481475",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "ローレシアの城周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481475",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481348"
+          ]
+        },
+        {
+          "labelJa": "勇者の泉の洞窟周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481475",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481360"
+          ]
+        },
+        {
+          "labelJa": "アレフガルド北部",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481475",
+          "mapSourceUrls": []
+        },
+        {
+          "labelJa": "ロトの洞窟",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481475",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/527235"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "やまねずみ",
+      "sourceUrl": "https://gamewith.jp/dq1-2/481474",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "ローレシアの城周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481474",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481348"
+          ]
+        },
+        {
+          "labelJa": "勇者の泉の洞窟周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481474",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481360"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "ゆうれい",
+      "sourceUrl": "https://gamewith.jp/dq1-2/481473",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "ローレシアの城周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481473",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481348"
+          ]
+        },
+        {
+          "labelJa": "勇者の泉の洞窟周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481473",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481360"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "バブルスライム",
+      "sourceUrl": "https://gamewith.jp/dq1-2/481471",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "勇者の泉の洞窟周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481471",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481360"
+          ]
+        },
+        {
+          "labelJa": "勇者の泉の洞窟",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481471",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481360"
+          ]
+        },
+        {
+          "labelJa": "ロトの洞窟",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481471",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/527235"
+          ]
+        },
+        {
+          "labelJa": "スライム島",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481471",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/527906"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "まじゅつし",
+      "sourceUrl": "https://gamewith.jp/dq1-2/481469",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "勇者の泉の洞窟周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481469",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481360"
+          ]
+        },
+        {
+          "labelJa": "勇者の泉の洞窟",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481469",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481360"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "おおさそり",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528015",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "勇者の泉の洞窟周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528015",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481360"
+          ]
+        },
+        {
+          "labelJa": "勇者の泉の洞窟",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528015",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481360"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "メーダ",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528016",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "勇者の泉の洞窟",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528016",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481360"
+          ]
+        },
+        {
+          "labelJa": "ロトの洞窟",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528016",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/527235"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "おおありくい",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528017",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "勇者の泉の洞窟",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528017",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481360"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "ホイミスライム",
+      "sourceUrl": "https://gamewith.jp/dq1-2/481467",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "勇者の泉の洞窟",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481467",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481360"
+          ]
+        },
+        {
+          "labelJa": "湖の洞窟周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481467",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481359"
+          ]
+        },
+        {
+          "labelJa": "スライム島",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481467",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/527906"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "キャタピラー",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528020",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "湖の洞窟周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528020",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481359"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "あやしいかげ",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528018",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "湖の洞窟周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528018",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481359"
+          ]
+        },
+        {
+          "labelJa": "ローレシア大陸西の陸地",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528018",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481348"
+          ]
+        },
+        {
+          "labelJa": "湖の洞窟",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528018",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481359"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "ぐんたいアリ",
+      "sourceUrl": "https://gamewith.jp/dq1-2/481472",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "湖の洞窟周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481472",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481359"
+          ]
+        },
+        {
+          "labelJa": "湖の洞窟",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481472",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481359"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "さそりばち",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528019",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "湖の洞窟周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528019",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481359"
+          ]
+        },
+        {
+          "labelJa": "湖の洞窟",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528019",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481359"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "メトロゴースト",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528021",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "湖の洞窟周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528021",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481359"
+          ]
+        },
+        {
+          "labelJa": "ローラの門・地下通路",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528021",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481358"
+          ]
+        },
+        {
+          "labelJa": "湖の洞窟",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528021",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481359"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "アルミラージ",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528027",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "湖の洞窟",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528027",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481359"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "ドロル",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528022",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "ローラの門・地下通路",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528022",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481358"
+          ]
+        },
+        {
+          "labelJa": "湖の洞窟",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528022",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481359"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "おばけありくい",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528026",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "湖の洞窟",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528026",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481359"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "おおねずみ",
+      "sourceUrl": "https://gamewith.jp/dq1-2/481468",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "ローラの門・地下通路",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481468",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481358"
+          ]
+        },
+        {
+          "labelJa": "ムーンペタ北部",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481468",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481345"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "キングコブラ",
+      "sourceUrl": "https://gamewith.jp/dq1-2/481470",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "ローラの門・地下通路",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481470",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481358"
+          ]
+        },
+        {
+          "labelJa": "ムーンペタ北部",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481470",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481345"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "よろいムカデ",
+      "sourceUrl": "https://gamewith.jp/dq1-2/481465",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "ローラの門・地下通路",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481465",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481358"
+          ]
+        },
+        {
+          "labelJa": "ムーンペタ北部",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481465",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481345"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "タホドラキー",
+      "sourceUrl": "https://gamewith.jp/dq1-2/481464",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "ムーンペタ北部",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481464",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481345"
+          ]
+        },
+        {
+          "labelJa": "ムーンペタ南部",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481464",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481345"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "まどうし",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528033",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "ムーンペタ北部",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528033",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481345"
+          ]
+        },
+        {
+          "labelJa": "ムーンペタ南部",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528033",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481345"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "リビングデッド",
+      "sourceUrl": "https://gamewith.jp/dq1-2/481460",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "ムーンペタ北部",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481460",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481345"
+          ]
+        },
+        {
+          "labelJa": "ムーンペタ南部",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481460",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481345"
+          ]
+        },
+        {
+          "labelJa": "ムーンブルク城",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481460",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481357"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "おばけキノコ",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528034",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "ムーンペタ南部",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528034",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481345"
+          ]
+        },
+        {
+          "labelJa": "ムーンブルク周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528034",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481357"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "リザードフライ",
+      "sourceUrl": "https://gamewith.jp/dq1-2/481462",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "ムーンペタ南部",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481462",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481345"
+          ]
+        },
+        {
+          "labelJa": "ムーンブルク周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481462",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481357"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "スモーク",
+      "sourceUrl": "https://gamewith.jp/dq1-2/481463",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "ムーンブルク周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481463",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481357"
+          ]
+        },
+        {
+          "labelJa": "ムーンブルク城",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481463",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481357"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "マンドリル",
+      "sourceUrl": "https://gamewith.jp/dq1-2/481461",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "ムーンペタ南部",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481461",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481345"
+          ]
+        },
+        {
+          "labelJa": "ムーンブルク周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481461",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481357"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "ラリホーアント",
+      "sourceUrl": "https://gamewith.jp/dq1-2/481466",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "ムーンブルク周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481466",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481357"
+          ]
+        },
+        {
+          "labelJa": "風の塔周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481466",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481356"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "ギズモ",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528039",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "ムーンブルク周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528039",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481357"
+          ]
+        },
+        {
+          "labelJa": "ムーンブルク城",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528039",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481357"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "しりょう",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528040",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "ムーンブルク周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528040",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481357"
+          ]
+        },
+        {
+          "labelJa": "ムーンブルク城",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528040",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481357"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "どくイモムシ",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528041",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "ムーンブルク城",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528041",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481357"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "さまようよろい",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528035",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "風の塔周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528035",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481356"
+          ]
+        },
+        {
+          "labelJa": "ムーンブルク城",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528035",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481357"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "キラービー",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528036",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "風の塔周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528036",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481356"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "リカント",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528037",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "風の塔周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528037",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481356"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "ぐんたいガニ",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528038",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "風の塔周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528038",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481356"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "メイジドラキー",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528042",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "風の塔",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528042",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481356"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "デスフラッター",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528043",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "風の塔",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528043",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481356"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "おばけねずみ",
+      "sourceUrl": "https://gamewith.jp/dq1-2/481457",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "風の塔",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481457",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481356"
+          ]
+        },
+        {
+          "labelJa": "オアシス東部",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481457",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/527056"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "わらいぶくろ",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528044",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "オアシス東部",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528044",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/527056"
+          ]
+        },
+        {
+          "labelJa": "オアシス周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528044",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/527056"
+          ]
+        },
+        {
+          "labelJa": "アレフガルド南東の島",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528044",
+          "mapSourceUrls": []
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "かぶとムカデ",
+      "sourceUrl": "https://gamewith.jp/dq1-2/481458",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "オアシス東部",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481458",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/527056"
+          ]
+        },
+        {
+          "labelJa": "オアシス周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481458",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/527056"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "しにがみ",
+      "sourceUrl": "https://gamewith.jp/dq1-2/481453",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "オアシス東部",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481453",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/527056"
+          ]
+        },
+        {
+          "labelJa": "オアシス周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481453",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/527056"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "キメラ",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528045",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "オアシス東部",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528045",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/527056"
+          ]
+        },
+        {
+          "labelJa": "オアシス周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528045",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/527056"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "あばれザル",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528046",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "オアシス東部",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528046",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/527056"
+          ]
+        },
+        {
+          "labelJa": "オアシス周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528046",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/527056"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "ミイラおとこ",
+      "sourceUrl": "https://gamewith.jp/dq1-2/481455",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "オアシス周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481455",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/527056"
+          ]
+        },
+        {
+          "labelJa": "ドラゴンの角・南周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481455",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481355"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "てつのさそり",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528047",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "オアシス周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528047",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/527056"
+          ]
+        },
+        {
+          "labelJa": "ドラゴンの角・南周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528047",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481355"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "じごくのハサミ",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528048",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "オアシス周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528048",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/527056"
+          ]
+        },
+        {
+          "labelJa": "ドラゴンの角・南周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528048",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481355"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "マンイーター",
+      "sourceUrl": "https://gamewith.jp/dq1-2/481456",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "ドラゴンの角・南周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481456",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481355"
+          ]
+        },
+        {
+          "labelJa": "ドラゴンの角・南・1階〜2階",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481456",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481355"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "しりょうのきし",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528049",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "ドラゴンの角・南周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528049",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481355"
+          ]
+        },
+        {
+          "labelJa": "ドラゴンの角・南・1階〜2階",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528049",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481355"
+          ]
+        },
+        {
+          "labelJa": "ドラゴンの角・北",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528049",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481355"
+          ]
+        },
+        {
+          "labelJa": "アレフガルド南西部",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528049",
+          "mapSourceUrls": []
+        },
+        {
+          "labelJa": "沼地の洞窟",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528049",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/482025"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "どろにんぎょう",
+      "sourceUrl": "https://gamewith.jp/dq1-2/481451",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "ドラゴンの角・南周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481451",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481355"
+          ]
+        },
+        {
+          "labelJa": "ルプガナ周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481451",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481344"
+          ]
+        },
+        {
+          "labelJa": "ドラゴンの角・南・1階〜2階",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481451",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481355"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "メドーサボール",
+      "sourceUrl": "https://gamewith.jp/dq1-2/481452",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "ドラゴンの角・南・1階〜2階",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481452",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481355"
+          ]
+        },
+        {
+          "labelJa": "ドラゴンの角・北",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481452",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481355"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "バピラス",
+      "sourceUrl": "https://gamewith.jp/dq1-2/481425",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "ドラゴンの角・南・1階〜2階",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481425",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481355"
+          ]
+        },
+        {
+          "labelJa": "ドラゴンの角・北",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481425",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481355"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "キャットフライ",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528053",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "ドラゴンの角・南・1階〜2階",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528053",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481355"
+          ]
+        },
+        {
+          "labelJa": "ドラゴンの角・北",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528053",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481355"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "きとうし",
+      "sourceUrl": "https://gamewith.jp/dq1-2/481454",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "ドラゴンの角・南・1階〜2階",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481454",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481355"
+          ]
+        },
+        {
+          "labelJa": "ドラゴンの角・北",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481454",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481355"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "ホークマン",
+      "sourceUrl": "https://gamewith.jp/dq1-2/481447",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "ドラゴンの角・北",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481447",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481355"
+          ]
+        },
+        {
+          "labelJa": "海上・ルプガナ&アレフガルド周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481447",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481344"
+          ]
+        },
+        {
+          "labelJa": "大灯台・1階〜3階",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481447",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481353"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "バブーン",
+      "sourceUrl": "https://gamewith.jp/dq1-2/481450",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "ルプガナ周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481450",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481344"
+          ]
+        },
+        {
+          "labelJa": "ドラゴンの角・北",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481450",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481355"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "マタンゴ",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528050",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "ルプガナ周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528050",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481344"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "ひとくいが",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528052",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "ルプガナ周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528052",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481344"
+          ]
+        },
+        {
+          "labelJa": "アレフガルド南西部",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528052",
+          "mapSourceUrls": []
+        },
+        {
+          "labelJa": "ドムドーラ",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528052",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/527247"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "マッドオックス",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528051",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "ルプガナ周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528051",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481344"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "マミー",
+      "sourceUrl": "https://gamewith.jp/dq1-2/481424",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "ルプガナ周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481424",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481344"
+          ]
+        },
+        {
+          "labelJa": "アレフガルド南西部",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481424",
+          "mapSourceUrls": []
+        },
+        {
+          "labelJa": "ドムドーラ",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481424",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/527247"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "スライムベス",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528070",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "アレフガルド北部",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528070",
+          "mapSourceUrls": []
+        },
+        {
+          "labelJa": "スライム島",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528070",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/527906"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "がいこつ",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528071",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "アレフガルド北部",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528071",
+          "mapSourceUrls": []
+        },
+        {
+          "labelJa": "ロトの洞窟",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528071",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/527235"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "リカントマムル",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528072",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "アレフガルド北部",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528072",
+          "mapSourceUrls": []
+        },
+        {
+          "labelJa": "アレフガルド南西部",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528072",
+          "mapSourceUrls": []
+        },
+        {
+          "labelJa": "アレフガルド南東部",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528072",
+          "mapSourceUrls": []
+        },
+        {
+          "labelJa": "竜王の城・1階〜地下3階",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528072",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481354"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "スライムつむり",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528073",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "アレフガルド北部",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528073",
+          "mapSourceUrls": []
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "メイジキメラ",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528054",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "海上・ルプガナ&アレフガルド周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528054",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481344"
+          ]
+        },
+        {
+          "labelJa": "アレフガルド南西部",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528054",
+          "mapSourceUrls": []
+        },
+        {
+          "labelJa": "雨のほこら",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528054",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/527768"
+          ]
+        },
+        {
+          "labelJa": "アレフガルド南東部",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528054",
+          "mapSourceUrls": []
+        },
+        {
+          "labelJa": "竜王の城・1階〜地下3階",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528054",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481354"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "ヒートギズモ",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528074",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "アレフガルド南西部",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528074",
+          "mapSourceUrls": []
+        },
+        {
+          "labelJa": "雨のほこら",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528074",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/527768"
+          ]
+        },
+        {
+          "labelJa": "ドムドーラ",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528074",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/527247"
+          ]
+        },
+        {
+          "labelJa": "炎のほこら周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528074",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481338"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "よろいのきし",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528075",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "アレフガルド南西部",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528075",
+          "mapSourceUrls": []
+        },
+        {
+          "labelJa": "ドムドーラ",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528075",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/527247"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "メタルスライム",
+      "sourceUrl": "https://gamewith.jp/dq1-2/481459",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "▼ドムドーラ",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481459",
+          "mapSourceUrls": [
+            "#loca1"
+          ]
+        },
+        {
+          "labelJa": "船入手後",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481459",
+          "mapSourceUrls": []
+        },
+        {
+          "labelJa": "▼デルコンダル周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481459",
+          "mapSourceUrls": [
+            "#loca2"
+          ]
+        },
+        {
+          "labelJa": "▼スライム島",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481459",
+          "mapSourceUrls": [
+            "#loca3"
+          ]
+        },
+        {
+          "labelJa": "月のかけら入手後",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481459",
+          "mapSourceUrls": []
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "かげのきし",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528088",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "ドムドーラ",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528088",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/527247"
+          ]
+        },
+        {
+          "labelJa": "アレフガルド南東部",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528088",
+          "mapSourceUrls": []
+        },
+        {
+          "labelJa": "竜王の城・1階〜地下3階",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528088",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481354"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "ベビーサタン",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528089",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "アレフガルド南東部",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528089",
+          "mapSourceUrls": []
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "さつじんき",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528090",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "アレフガルド南東部",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528090",
+          "mapSourceUrls": []
+        },
+        {
+          "labelJa": "竜王の城・1階〜地下3階",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528090",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481354"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "まほうつかい",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528076",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "ロトの洞窟",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528076",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/527235"
+          ]
+        },
+        {
+          "labelJa": "北のお告げ所周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528076",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/482180"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "マージマタンゴ",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528086",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "沼地の洞窟",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528086",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/482025"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "メーダロード",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528077",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "雨のほこら",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528077",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/527768"
+          ]
+        },
+        {
+          "labelJa": "岩山の洞窟",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528077",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/527243"
+          ]
+        },
+        {
+          "labelJa": "沼地の洞窟",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528077",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/482025"
+          ]
+        },
+        {
+          "labelJa": "竜王の城・地下4階〜地下6階",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528077",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481354"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "ドロルメイジ",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528087",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "沼地の洞窟",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528087",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/482025"
+          ]
+        },
+        {
+          "labelJa": "竜王の城・地下4階〜地下6階",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528087",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481354"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "ドラキーマ",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528083",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "岩山の洞窟",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528083",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/527243"
+          ]
+        },
+        {
+          "labelJa": "沼地の洞窟",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528083",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/482025"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "マドハンド",
+      "sourceUrl": "https://gamewith.jp/dq1-2/481431",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "沼地の洞窟",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481431",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/482025"
+          ]
+        },
+        {
+          "labelJa": "ペルポイ周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481431",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481336"
+          ]
+        },
+        {
+          "labelJa": "世界樹の森",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481431",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/527251"
+          ]
+        },
+        {
+          "labelJa": "炎のほこら周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481431",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481338"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "キャットバット",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528084",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "岩山の洞窟",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528084",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/527243"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "アントベア",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528085",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "岩山の洞窟",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528085",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/527243"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "ようじゅつし",
+      "sourceUrl": "https://gamewith.jp/dq1-2/481428",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "妖精の城",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481428",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/527721"
+          ]
+        },
+        {
+          "labelJa": "岩山の洞窟",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481428",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/527243"
+          ]
+        },
+        {
+          "labelJa": "ペルポイ周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481428",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481336"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "キラーアーマー",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528078",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "雨のほこら",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528078",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/527768"
+          ]
+        },
+        {
+          "labelJa": "竜王の城・地下4階〜地下6階",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528078",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481354"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "ドラゴン",
+      "sourceUrl": "https://gamewith.jp/dq1-2/481413",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "竜王の城・1階〜地下3階",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481413",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481354"
+          ]
+        },
+        {
+          "labelJa": "竜王の城・地下4階〜地下6階",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481413",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481354"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "ヘルゴースト",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528096",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "竜王の城・地下4階〜地下6階",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528096",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481354"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "ひとくいばこ",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528108",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "大灯台",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528108",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481353"
+          ]
+        },
+        {
+          "labelJa": "竜王の城",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528108",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481354"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "ドルイド",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528095",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "竜王の城・1階〜地下3階",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528095",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481354"
+          ]
+        },
+        {
+          "labelJa": "北のお告げ所周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528095",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/482180"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "げんじゅつし",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528079",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "雨のほこら",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528079",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/527768"
+          ]
+        },
+        {
+          "labelJa": "北のお告げ所周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528079",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/482180"
+          ]
+        },
+        {
+          "labelJa": "ローレシア南のほこら周辺/勇者の泉の洞窟東の島々",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528079",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481534"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "ストーンマン",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528080",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "雨のほこら",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528080",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/527768"
+          ]
+        },
+        {
+          "labelJa": "アレフガルド南東の島",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528080",
+          "mapSourceUrls": []
+        },
+        {
+          "labelJa": "ローレシア南のほこら周辺/勇者の泉の洞窟東の島々",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528080",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481534"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "まじょ",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528102",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "北のお告げ所周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528102",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/482180"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "シャーマン",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528103",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "ローレシア南のほこら周辺/勇者の泉の洞窟東の島々",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528103",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481534"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "ゴートドン",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528104",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "ローレシア南のほこら周辺/勇者の泉の洞窟東の島々",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528104",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481534"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "しびれあげは",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528097",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "大灯台・1階〜3階",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528097",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481353"
+          ]
+        },
+        {
+          "labelJa": "ペルポイ周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528097",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481336"
+          ]
+        },
+        {
+          "labelJa": "ザハン周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528097",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481337"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "アンデッドマン",
+      "sourceUrl": "https://gamewith.jp/dq1-2/481439",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "岩山の洞窟",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481439",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/527243"
+          ]
+        },
+        {
+          "labelJa": "大灯台・1階〜3階",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481439",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481353"
+          ]
+        },
+        {
+          "labelJa": "ベラヌール周辺/ベラヌール北のほこら周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481439",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481532"
+          ]
+        },
+        {
+          "labelJa": "ペルポイ周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481439",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481336"
+          ]
+        },
+        {
+          "labelJa": "幽霊船",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481439",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/527927"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "ドラゴンフライ",
+      "sourceUrl": "https://gamewith.jp/dq1-2/481440",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "大灯台・1階〜3階",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481440",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481353"
+          ]
+        },
+        {
+          "labelJa": "炎のほこら周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481440",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481338"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "ゴーゴンヘッド",
+      "sourceUrl": "https://gamewith.jp/dq1-2/481442",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "大灯台・1階〜3階",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481442",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481353"
+          ]
+        },
+        {
+          "labelJa": "炎のほこら周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481442",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481338"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "ガルーダ",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528098",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "大灯台・1階〜3階",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528098",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481353"
+          ]
+        },
+        {
+          "labelJa": "ロンダルキア南の島",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528098",
+          "mapSourceUrls": []
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "くさったしたい",
+      "sourceUrl": "https://gamewith.jp/dq1-2/481430",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "ペルポイ周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481430",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481336"
+          ]
+        },
+        {
+          "labelJa": "デルコンダル周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481430",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481339"
+          ]
+        },
+        {
+          "labelJa": "幽霊船",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481430",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/527927"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "サーベルウルフ",
+      "sourceUrl": "https://gamewith.jp/dq1-2/481445",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "ペルポイ周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481445",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481336"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "ガメゴン",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528101",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "ロンダルキア南の島",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528101",
+          "mapSourceUrls": []
+        },
+        {
+          "labelJa": "ペルポイ周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528101",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481336"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "じんめんじゅ",
+      "sourceUrl": "https://gamewith.jp/dq1-2/481436",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "ベラヌール周辺/ベラヌール北のほこら周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481436",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481532"
+          ]
+        },
+        {
+          "labelJa": "世界樹の森",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481436",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/527251"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "オーク",
+      "sourceUrl": "https://gamewith.jp/dq1-2/481443",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "ベラヌール周辺/ベラヌール北のほこら周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481443",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481532"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "バシリスク",
+      "sourceUrl": "https://gamewith.jp/dq1-2/481441",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "ベラヌール周辺/ベラヌール北のほこら周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481441",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481532"
+          ]
+        },
+        {
+          "labelJa": "世界樹の森",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481441",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/527251"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "ハンターフライ",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528099",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "ベラヌール周辺/ベラヌール北のほこら周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528099",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481532"
+          ]
+        },
+        {
+          "labelJa": "世界樹の森",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528099",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/527251"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "しのさそり",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528100",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "ベラヌール周辺/ベラヌール北のほこら周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528100",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481532"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "ポイズンキッス",
+      "sourceUrl": "https://gamewith.jp/dq1-2/481444",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "世界樹の森",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481444",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/527251"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "ガスト",
+      "sourceUrl": "https://gamewith.jp/dq1-2/481429",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "デルコンダル周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481429",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481339"
+          ]
+        },
+        {
+          "labelJa": "幽霊船",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481429",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/527927"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "ビッグホーン",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528113",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "デルコンダル周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528113",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481339"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "キラーエイプ",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528114",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "デルコンダル周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528114",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481339"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "ベホマスライム",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528115",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "デルコンダル周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528115",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481339"
+          ]
+        },
+        {
+          "labelJa": "スライム島",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528115",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/527906"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "パペットマン",
+      "sourceUrl": "https://gamewith.jp/dq1-2/481435",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "デルコンダル周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481435",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481339"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "あくまのめだま",
+      "sourceUrl": "https://gamewith.jp/dq1-2/481426",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "妖精の城",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481426",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/527721"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "シャドー",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528023",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "幽霊船",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528023",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/527927"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "エリミネーター",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528024",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "妖精の城",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528024",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/527721"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "きめんどうし",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528025",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "妖精の城",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528025",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/527721"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "がいこつけんし",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528028",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "なぞの海底基地・地下1階",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528028",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/527928"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "まほうおばば",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528136",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "なぞの海底基地・地下1階",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528136",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/527928"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "ディープバイター",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528137",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "なぞの海底基地・地下1階",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528137",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/527928"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "オーシャンナーガ",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528138",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "なぞの海底基地・地下1階",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528138",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/527928"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "だいまどう",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528117",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "テパ南西部",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528117",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481341"
+          ]
+        },
+        {
+          "labelJa": "なぞの海底基地・地下1階",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528117",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/527928"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "じごくのよろい",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528118",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "テパ南西部",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528118",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481341"
+          ]
+        },
+        {
+          "labelJa": "なぞの海底基地・地下1階",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528118",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/527928"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "ウドラー",
+      "sourceUrl": "https://gamewith.jp/dq1-2/481427",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "テパ南西部",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481427",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481341"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "ヒババンゴ",
+      "sourceUrl": "https://gamewith.jp/dq1-2/481434",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "テパ周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481434",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481341"
+          ]
+        },
+        {
+          "labelJa": "テパ南西部",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481434",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481341"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "ゴールドオーク",
+      "sourceUrl": "https://gamewith.jp/dq1-2/481438",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "テパ周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481438",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481341"
+          ]
+        },
+        {
+          "labelJa": "テパ南西部",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481438",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481341"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "どくどくゾンビ",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528029",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "テパ周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528029",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481341"
+          ]
+        },
+        {
+          "labelJa": "テパ南西部",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528029",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481341"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "おどるほうせき",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528091",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "アレフガルド南東の島",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528091",
+          "mapSourceUrls": []
+        },
+        {
+          "labelJa": "テパ周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528091",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481341"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "くびかりぞく",
+      "sourceUrl": "https://gamewith.jp/dq1-2/481432",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "テパ周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481432",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481341"
+          ]
+        },
+        {
+          "labelJa": "満月の塔・1階〜5階",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481432",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481352"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "ミニデーモン",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528116",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "テパ周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528116",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481341"
+          ]
+        },
+        {
+          "labelJa": "満月の塔・1階〜5階",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528116",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481352"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "じごくのつかい",
+      "sourceUrl": "https://gamewith.jp/dq1-2/481402",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "テパ周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481402",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481341"
+          ]
+        },
+        {
+          "labelJa": "満月の塔・1階〜5階",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481402",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481352"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "スターキメラ",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528119",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "満月の塔・1階〜5階",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528119",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481352"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "ばくだんいわ",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528120",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "満月の塔・1階〜5階",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528120",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481352"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "コング",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528031",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "満月の塔・1階〜5階",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528031",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481352"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "ミミック",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528107",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "満月の塔",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528107",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481352"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "メタルハンター",
+      "sourceUrl": "https://gamewith.jp/dq1-2/481422",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "海底火山の洞窟・地下1階〜地下5階",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481422",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481351"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "うごくせきぞう",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528139",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "海底火山の洞窟・地下1階〜地下5階",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528139",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481351"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "ようがんまじん",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528140",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "海底火山の洞窟・地下1階〜地下5階",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528140",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481351"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "ブラッドハンド",
+      "sourceUrl": "https://gamewith.jp/dq1-2/481433",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "ガライの墓",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481433",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/527730"
+          ]
+        },
+        {
+          "labelJa": "海底火山の洞窟・地下1階〜地下5階",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481433",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481351"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "フレイム",
+      "sourceUrl": "https://gamewith.jp/dq1-2/481420",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "ガライの墓",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481420",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/527730"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "グール",
+      "sourceUrl": "https://gamewith.jp/dq1-2/481423",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "ガライの墓",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481423",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/527730"
+          ]
+        },
+        {
+          "labelJa": "海底火山の洞窟・地下1階〜地下5階",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481423",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481351"
+          ]
+        },
+        {
+          "labelJa": "ロンダルキアへの洞窟・地下1階",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481423",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481350"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "スカルナイト",
+      "sourceUrl": "https://gamewith.jp/dq1-2/481421",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "ガライの墓",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481421",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/527730"
+          ]
+        },
+        {
+          "labelJa": "海底火山の洞窟・地下1階〜地下5階",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481421",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481351"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "ソードイド",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528081",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "ガライの墓",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528081",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/527730"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "ゾンビマスター",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528157",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "ガライの墓",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528157",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/527730"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "スカルゴン",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528082",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "ガライの墓",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528082",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/527730"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "サイクロプス",
+      "sourceUrl": "https://gamewith.jp/dq1-2/481410",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "ロンダルキアへの洞窟周辺/ロンダルキア北",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481410",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481350"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "オークキング",
+      "sourceUrl": "https://gamewith.jp/dq1-2/481412",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "ロンダルキアへの洞窟周辺/ロンダルキア北",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481412",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481350"
+          ]
+        },
+        {
+          "labelJa": "ロンダルキアへの洞窟・1階〜3階",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481412",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481350"
+          ]
+        },
+        {
+          "labelJa": "ロンダルキアへの洞窟・4階〜5階",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481412",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481350"
+          ]
+        },
+        {
+          "labelJa": "ロンダルキアへの洞窟・6階",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481412",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481350"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "デスストーカー",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528141",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "ロンダルキアへの洞窟周辺/ロンダルキア北",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528141",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481350"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "バーサーカー",
+      "sourceUrl": "https://gamewith.jp/dq1-2/481417",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "ロンダルキアへの洞窟周辺/ロンダルキア北",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481417",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481350"
+          ]
+        },
+        {
+          "labelJa": "ロンダルキアへの洞窟・1階〜3階",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481417",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481350"
+          ]
+        },
+        {
+          "labelJa": "ロンダルキアへの洞窟・4階〜5階",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481417",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481350"
+          ]
+        },
+        {
+          "labelJa": "ロンダルキアへの洞窟・6階",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481417",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481350"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "トロル",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528142",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "ロンダルキアへの洞窟周辺/ロンダルキア北",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528142",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481350"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "はぐれメタル",
+      "sourceUrl": "https://gamewith.jp/dq1-2/481437",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "▼スライム島",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481437",
+          "mapSourceUrls": [
+            "#loca1"
+          ]
+        },
+        {
+          "labelJa": "満月の塔クリア後",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481437",
+          "mapSourceUrls": []
+        },
+        {
+          "labelJa": "▼ロンダルキアへの洞窟・4階〜5階",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481437",
+          "mapSourceUrls": [
+            "#loca2"
+          ]
+        },
+        {
+          "labelJa": "▼謎の塔",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481437",
+          "mapSourceUrls": [
+            "#loca3"
+          ]
+        },
+        {
+          "labelJa": "クリア後",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481437",
+          "mapSourceUrls": []
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "メイジバピラス",
+      "sourceUrl": "https://gamewith.jp/dq1-2/481416",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "ロンダルキアへの洞窟・1階〜3階",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481416",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481350"
+          ]
+        },
+        {
+          "labelJa": "ロンダルキアへの洞窟・4階〜5階",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481416",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481350"
+          ]
+        },
+        {
+          "labelJa": "ロンダルキアへの洞窟・6階",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481416",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481350"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "キラーリカント",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528143",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "ロンダルキアへの洞窟・1階〜3階",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528143",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481350"
+          ]
+        },
+        {
+          "labelJa": "ロンダルキアへの洞窟・4階〜5階",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528143",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481350"
+          ]
+        },
+        {
+          "labelJa": "ロンダルキアへの洞窟・6階",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528143",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481350"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "じごくのきし",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528144",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "ロンダルキアへの洞窟・1階〜3階",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528144",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481350"
+          ]
+        },
+        {
+          "labelJa": "ロンダルキアへの洞窟・4階〜5階",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528144",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481350"
+          ]
+        },
+        {
+          "labelJa": "ロンダルキアへの洞窟・6階",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528144",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481350"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "ダークアイ",
+      "sourceUrl": "https://gamewith.jp/dq1-2/481419",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "ロンダルキアへの洞窟・1階〜3階",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481419",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481350"
+          ]
+        },
+        {
+          "labelJa": "ロンダルキアへの洞窟・4階〜5階",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481419",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481350"
+          ]
+        },
+        {
+          "labelJa": "ロンダルキアへの洞窟・6階",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481419",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481350"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "シルバーデビル",
+      "sourceUrl": "https://gamewith.jp/dq1-2/481415",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "ロンダルキアへの洞窟・1階〜3階",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481415",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481350"
+          ]
+        },
+        {
+          "labelJa": "ロンダルキアへの洞窟・4階〜5階",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481415",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481350"
+          ]
+        },
+        {
+          "labelJa": "ロンダルキアへの洞窟・6階",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481415",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481350"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "ギガンテス",
+      "sourceUrl": "https://gamewith.jp/dq1-2/481408",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "ロンダルキア東部",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481408",
+          "mapSourceUrls": []
+        },
+        {
+          "labelJa": "ロンダルキア西部",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481408",
+          "mapSourceUrls": []
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "キラーマシン",
+      "sourceUrl": "https://gamewith.jp/dq1-2/481414",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "ロンダルキア東部",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481414",
+          "mapSourceUrls": []
+        },
+        {
+          "labelJa": "ロンダルキア西部",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481414",
+          "mapSourceUrls": []
+        },
+        {
+          "labelJa": "海底宝物庫",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481414",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/527802"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "ブリザード",
+      "sourceUrl": "https://gamewith.jp/dq1-2/481411",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "ロンダルキア東部",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481411",
+          "mapSourceUrls": []
+        },
+        {
+          "labelJa": "ロンダルキア西部",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481411",
+          "mapSourceUrls": []
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "ひょうがまじん",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528145",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "ロンダルキア東部",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528145",
+          "mapSourceUrls": []
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "フロストギズモ",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528146",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "ロンダルキア東部",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528146",
+          "mapSourceUrls": []
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "アークデーモン",
+      "sourceUrl": "https://gamewith.jp/dq1-2/481407",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "ロンダルキア西部",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481407",
+          "mapSourceUrls": []
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "デビルロード",
+      "sourceUrl": "https://gamewith.jp/dq1-2/481409",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "ロンダルキア西部",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481409",
+          "mapSourceUrls": []
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "キースドラゴン",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528147",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "ロンダルキア西部",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528147",
+          "mapSourceUrls": []
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "あくましんかん(ボス)",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528644",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "source-no-explicit-appearance-table"
+    },
+    {
+      "nameJa": "あくましんかん",
+      "sourceUrl": "https://gamewith.jp/dq1-2/481404",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "ハーゴンの神殿・2階〜5階",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481404",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481349"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "まおうのかげ",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528149",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "ハーゴンの神殿・2階〜5階",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528149",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481349"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "だいまじん",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528148",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "ハーゴンの神殿・2階〜5階",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528148",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481349"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "ハーゴンのきし",
+      "sourceUrl": "https://gamewith.jp/dq1-2/481418",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "ハーゴンの神殿・2階〜5階",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481418",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481349"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "ダースドラゴン",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528151",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "ハーゴンの神殿・2階〜5階",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528151",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481349"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "しにがみのきし",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528152",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "ハーゴンの神殿・2階〜5階",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528152",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481349"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "ドラゴンゾンビ",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528150",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "ハーゴンの神殿・2階〜5階",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528150",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481349"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "ゴールドマン",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528092",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "アレフガルド南東の島",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528092",
+          "mapSourceUrls": []
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "あんこくまじん",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528093",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "アレフガルド南東の島",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528093",
+          "mapSourceUrls": []
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "おうごんまじん",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528094",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "アレフガルド南東の島",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528094",
+          "mapSourceUrls": []
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "ダークトロル",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528105",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "ローレシア南の島",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528105",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481348"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "デーモンソード",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528110",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "ローレシア南の島",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528110",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481348"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "海のまもりガメ",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528112",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "ローレシア南の島",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528112",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481348"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "デーモンアミゴ",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528106",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "ローレシア南の島",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528106",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481348"
+          ]
+        },
+        {
+          "labelJa": "無限の回廊",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528106",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/527800"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "はめつの使者",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528111",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "ローレシア南の島",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528111",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481348"
+          ]
+        },
+        {
+          "labelJa": "無限の回廊",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528111",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/527800"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "キラーマシン2",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528032",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "ローレシア南の島",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528032",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481348"
+          ]
+        },
+        {
+          "labelJa": "海底宝物庫・北海",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528032",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/527802"
+          ]
+        },
+        {
+          "labelJa": "無限の回廊",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528032",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/527800"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "パンドラボックス",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528109",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "幽霊船",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528109",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/527927"
+          ]
+        },
+        {
+          "labelJa": "無限の回廊",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528109",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/527800"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "ほうおう",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528158",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "謎の塔",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528158",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/527797"
+          ]
+        },
+        {
+          "labelJa": "無限の回廊",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528158",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/527800"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "メタルキメラ",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528159",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "謎の塔",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528159",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/527797"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "てんのもんばん",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528155",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "謎の塔",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528155",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/527797"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "バラモスエビル",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528156",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "謎の塔",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528156",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/527797"
+          ]
+        },
+        {
+          "labelJa": "無限の回廊",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528156",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/527800"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "ダースギズモ",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528154",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "無限の回廊",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528154",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/527800"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "メタルハンド",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528153",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "無限の回廊",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528153",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/527800"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "アイアンナイト",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528160",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "無限の回廊",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528160",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/527800"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "はがねのきょぞう",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528161",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "無限の回廊",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528161",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/527800"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "キングヒドラ",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528162",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "source-no-explicit-appearance-table"
+    },
+    {
+      "nameJa": "キラーマジンガ",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528710",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "source-no-explicit-appearance-table"
+    },
+    {
+      "nameJa": "マリンスライム",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528055",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "海上・ルプガナ&アレフガルド周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528055",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481344"
+          ]
+        },
+        {
+          "labelJa": "海上・ザハン周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528055",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481337"
+          ]
+        },
+        {
+          "labelJa": "海上・ベラヌール&デルコンダル周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528055",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481339"
+          ]
+        },
+        {
+          "labelJa": "ロンダルキア南の島",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528055",
+          "mapSourceUrls": []
+        },
+        {
+          "labelJa": "ザハン周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528055",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481337"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "しびれくらげ",
+      "sourceUrl": "https://gamewith.jp/dq1-2/481449",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "海上・ルプガナ&アレフガルド周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481449",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481344"
+          ]
+        },
+        {
+          "labelJa": "海上・ザハン周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481449",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481337"
+          ]
+        },
+        {
+          "labelJa": "大灯台・1階〜3階",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481449",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481353"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "うみうし",
+      "sourceUrl": "https://gamewith.jp/dq1-2/481448",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "海上・ルプガナ&アレフガルド周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481448",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481344"
+          ]
+        },
+        {
+          "labelJa": "海上・ザハン周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481448",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481337"
+          ]
+        },
+        {
+          "labelJa": "ロンダルキア南の島",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481448",
+          "mapSourceUrls": []
+        },
+        {
+          "labelJa": "ザハン周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481448",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481337"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "ガーゴイル",
+      "sourceUrl": "https://gamewith.jp/dq1-2/481446",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "海上・ザハン周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481446",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481337"
+          ]
+        },
+        {
+          "labelJa": "海上・ベラヌール&デルコンダル周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481446",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481339"
+          ]
+        },
+        {
+          "labelJa": "ロンダルキア南の島",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481446",
+          "mapSourceUrls": []
+        },
+        {
+          "labelJa": "炎のほこら周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481446",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481338"
+          ]
+        },
+        {
+          "labelJa": "ザハン周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481446",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481337"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "マーマン",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528056",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "海上・ザハン周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528056",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481337"
+          ]
+        },
+        {
+          "labelJa": "海上・ベラヌール&デルコンダル周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528056",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481339"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "だいおうイカ",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528057",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "海上・ザハン周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528057",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481337"
+          ]
+        },
+        {
+          "labelJa": "海上・ベラヌール&デルコンダル周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528057",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481339"
+          ]
+        },
+        {
+          "labelJa": "海底",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528057",
+          "mapSourceUrls": []
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "ウィングスネーク",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528058",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "海上・ベラヌール&デルコンダル周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528058",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481339"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "ブリザーロック",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528060",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "海上・ベラヌール&デルコンダル周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528060",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481339"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "ガニラス",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528059",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "海上・テパ周辺の川",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528059",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481341"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "ふねくいイソメ",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528061",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "海上・テパ周辺の川",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528061",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481341"
+          ]
+        },
+        {
+          "labelJa": "海上・ローレシア南西の大海",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528061",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481348"
+          ]
+        },
+        {
+          "labelJa": "沈没船・地下1階〜1階",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528061",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/527930"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "テンタクルス",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528062",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "海上・テパ周辺の川",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528062",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481341"
+          ]
+        },
+        {
+          "labelJa": "海上・ローレシア南西の大海",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528062",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481348"
+          ]
+        },
+        {
+          "labelJa": "海底・ローレシア南西",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528062",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481348"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "ヘルコンドル",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528030",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "海上・テパ周辺の川",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528030",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481341"
+          ]
+        },
+        {
+          "labelJa": "デルコンダル城",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528030",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481339"
+          ]
+        },
+        {
+          "labelJa": "テパ南西部",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528030",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481341"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "シルエト",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528063",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "海上・テパ周辺の川",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528063",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481341"
+          ]
+        },
+        {
+          "labelJa": "海上・ローレシア南西の大海",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528063",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481348"
+          ]
+        },
+        {
+          "labelJa": "テパ周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528063",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481341"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "マーマンダイン",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528064",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "海上・ローレシア南西の大海",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528064",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481348"
+          ]
+        },
+        {
+          "labelJa": "海底",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528064",
+          "mapSourceUrls": []
+        },
+        {
+          "labelJa": "人魚の聖域・1階〜地下4階",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528064",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/527929"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "なみさそり",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528065",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "海上・ローレシア南西の大海",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528065",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481348"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "キングマーマン",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528066",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "海上・ムーンブルク南の内湾",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528066",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481357"
+          ]
+        },
+        {
+          "labelJa": "海底・テパ東",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528066",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481341"
+          ]
+        },
+        {
+          "labelJa": "深海",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528066",
+          "mapSourceUrls": []
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "ごくらくちょう",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528067",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "海上・ムーンブルク南の内湾",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528067",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481357"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "グレートオーラス",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528068",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "海上・ムーンブルク南の内湾",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528068",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481357"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "クラーゴン",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528069",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "海上・ムーンブルク南の内湾",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528069",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481357"
+          ]
+        },
+        {
+          "labelJa": "海底・テパ東",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528069",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481341"
+          ]
+        },
+        {
+          "labelJa": "深海",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528069",
+          "mapSourceUrls": []
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "たこつぼこぞう",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528121",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "海底",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528121",
+          "mapSourceUrls": []
+        },
+        {
+          "labelJa": "人魚の聖域・1階〜地下4階",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528121",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/527929"
+          ]
+        },
+        {
+          "labelJa": "幽霊船",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528121",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/527927"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "ウバナマコ",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528122",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "海底",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528122",
+          "mapSourceUrls": []
+        },
+        {
+          "labelJa": "沈没船・地下1階〜1階",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528122",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/527930"
+          ]
+        },
+        {
+          "labelJa": "幽霊船",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528122",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/527927"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "ディープドロル",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528123",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "海底",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528123",
+          "mapSourceUrls": []
+        },
+        {
+          "labelJa": "人魚の聖域・1階〜地下4階",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528123",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/527929"
+          ]
+        },
+        {
+          "labelJa": "沈没船・地下1階〜1階",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528123",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/527930"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "キバギンチャク",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528130",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "海底・ルプガナ&アレフガルド周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528130",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481344"
+          ]
+        },
+        {
+          "labelJa": "沈没船・地下1階〜1階",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528130",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/527930"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "コブラアナゴ",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528131",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "海底・ルプガナ&アレフガルド周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528131",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481344"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "くびながりゅう",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528132",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "海底・ルプガナ&アレフガルド周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528132",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481344"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "エビルタートル",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528133",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "海底・ルプガナ&アレフガルド周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528133",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481344"
+          ]
+        },
+        {
+          "labelJa": "人魚の聖域・1階〜地下4階",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528133",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/527929"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "トドマン",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528134",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "海底・ルプガナ&アレフガルド周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528134",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481344"
+          ]
+        },
+        {
+          "labelJa": "人魚の聖域・1階〜地下4階",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528134",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/527929"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "ヘルパイレーツ",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528135",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "海底・ルプガナ&アレフガルド周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528135",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481344"
+          ]
+        },
+        {
+          "labelJa": "人魚の聖域・1階〜地下4階",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528135",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/527929"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "ガメゴンロード",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528124",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "海底・ローレシア南西",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528124",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481348"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "まかいサンゴ",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528125",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "海底・ローレシア南西",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528125",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481348"
+          ]
+        },
+        {
+          "labelJa": "海底・テパ東",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528125",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481341"
+          ]
+        },
+        {
+          "labelJa": "深海",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528125",
+          "mapSourceUrls": []
+        },
+        {
+          "labelJa": "沈没船・地下1階〜1階",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528125",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/527930"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "プレシオドン",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528126",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "海底・ローレシア南西",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528126",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481348"
+          ]
+        },
+        {
+          "labelJa": "海底・テパ東",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528126",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481341"
+          ]
+        },
+        {
+          "labelJa": "深海",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528126",
+          "mapSourceUrls": []
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "アクアハンター",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528127",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "海底・ローレシア南西",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528127",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481348"
+          ]
+        },
+        {
+          "labelJa": "沈没船・地下1階〜1階",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528127",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/527930"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "キルゲータ",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528128",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "海底・テパ東",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528128",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481341"
+          ]
+        },
+        {
+          "labelJa": "深海",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528128",
+          "mapSourceUrls": []
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "オクトセントリー",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528129",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "海底・テパ東",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528129",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481341"
+          ]
+        },
+        {
+          "labelJa": "深海",
+          "sourceUrl": "https://gamewith.jp/dq1-2/528129",
+          "mapSourceUrls": []
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "カタブーラ",
+      "sourceUrl": "https://gamewith.jp/dq1-2/526745",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "source-no-explicit-appearance-table"
+    },
+    {
+      "nameJa": "まどう老師",
+      "sourceUrl": "https://gamewith.jp/dq1-2/526744",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "source-no-explicit-appearance-table"
+    },
+    {
+      "nameJa": "グレムリン",
+      "sourceUrl": "https://gamewith.jp/dq1-2/481406",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [
+        {
+          "labelJa": "ラダトームの城周辺",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481406",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481343"
+          ]
+        },
+        {
+          "labelJa": "竜王の城",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481406",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481354"
+          ]
+        },
+        {
+          "labelJa": "大灯台",
+          "sourceUrl": "https://gamewith.jp/dq1-2/481406",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481353"
+          ]
+        }
+      ],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "verified-individual-appearance-labels"
+    },
+    {
+      "nameJa": "シザース",
+      "sourceUrl": "https://gamewith.jp/dq1-2/526796",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "source-no-explicit-appearance-table"
+    },
+    {
+      "nameJa": "レッドマーマン",
+      "sourceUrl": "https://gamewith.jp/dq1-2/527733",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "source-no-explicit-appearance-table"
+    },
+    {
+      "nameJa": "フラフーラ",
+      "sourceUrl": "https://gamewith.jp/dq1-2/527735",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "source-no-explicit-appearance-table"
+    },
+    {
+      "nameJa": "ガーゴフライ",
+      "sourceUrl": "https://gamewith.jp/dq1-2/527252",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "source-no-explicit-appearance-table"
+    },
+    {
+      "nameJa": "ヘルサイス",
+      "sourceUrl": "https://gamewith.jp/dq1-2/527254",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "source-no-explicit-appearance-table"
+    },
+    {
+      "nameJa": "パープルライノ",
+      "sourceUrl": "https://gamewith.jp/dq1-2/527256",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "source-no-explicit-appearance-table"
+    },
+    {
+      "nameJa": "アルコンバルサ",
+      "sourceUrl": "https://gamewith.jp/dq1-2/527257",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "source-no-explicit-appearance-table"
+    },
+    {
+      "nameJa": "ファットバット",
+      "sourceUrl": "https://gamewith.jp/dq1-2/527262",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "source-no-explicit-appearance-table"
+    },
+    {
+      "nameJa": "ネコノマンサー",
+      "sourceUrl": "https://gamewith.jp/dq1-2/527732",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "source-no-explicit-appearance-table"
+    },
+    {
+      "nameJa": "ノスフェイラ",
+      "sourceUrl": "https://gamewith.jp/dq1-2/527734",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "source-no-explicit-appearance-table"
+    },
+    {
+      "nameJa": "キラータイガー",
+      "sourceUrl": "https://gamewith.jp/dq1-2/481405",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "source-no-explicit-appearance-table"
+    },
+    {
+      "nameJa": "ベリアル(1回目)",
+      "sourceUrl": "https://gamewith.jp/dq1-2/481399",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "source-no-explicit-appearance-table"
+    },
+    {
+      "nameJa": "オクタヌス",
+      "sourceUrl": "https://gamewith.jp/dq1-2/527914",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "source-no-explicit-appearance-table"
+    },
+    {
+      "nameJa": "イエローフィン",
+      "sourceUrl": "https://gamewith.jp/dq1-2/527915",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "source-no-explicit-appearance-table"
+    },
+    {
+      "nameJa": "ヨミフラシ",
+      "sourceUrl": "https://gamewith.jp/dq1-2/527916",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "source-no-explicit-appearance-table"
+    },
+    {
+      "nameJa": "アクロナイト",
+      "sourceUrl": "https://gamewith.jp/dq1-2/527932",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "source-no-explicit-appearance-table"
+    },
+    {
+      "nameJa": "ビーストボーンズ",
+      "sourceUrl": "https://gamewith.jp/dq1-2/527933",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "source-no-explicit-appearance-table"
+    },
+    {
+      "nameJa": "ミリエラ(1回目)",
+      "sourceUrl": "https://gamewith.jp/dq1-2/527934",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "source-no-explicit-appearance-table"
+    },
+    {
+      "nameJa": "やみぼうし",
+      "sourceUrl": "https://gamewith.jp/dq1-2/527940",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "source-no-explicit-appearance-table"
+    },
+    {
+      "nameJa": "ベビル",
+      "sourceUrl": "https://gamewith.jp/dq1-2/481403",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "source-no-explicit-appearance-table"
+    },
+    {
+      "nameJa": "はかいの神父",
+      "sourceUrl": "https://gamewith.jp/dq1-2/527939",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "source-no-explicit-appearance-table"
+    },
+    {
+      "nameJa": "ホーンウィザード",
+      "sourceUrl": "https://gamewith.jp/dq1-2/527953",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "source-no-explicit-appearance-table"
+    },
+    {
+      "nameJa": "クレセンス",
+      "sourceUrl": "https://gamewith.jp/dq1-2/527971",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "source-no-explicit-appearance-table"
+    },
+    {
+      "nameJa": "バズズ(1回目)",
+      "sourceUrl": "https://gamewith.jp/dq1-2/481400",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "source-no-explicit-appearance-table"
+    },
+    {
+      "nameJa": "デルコンダル王",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528007",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "source-no-explicit-appearance-table"
+    },
+    {
+      "nameJa": "アトラス(1回目)",
+      "sourceUrl": "https://gamewith.jp/dq1-2/481401",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "source-no-explicit-appearance-table"
+    },
+    {
+      "nameJa": "カースビエル",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528165",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "source-no-explicit-appearance-table"
+    },
+    {
+      "nameJa": "ベリアル(2回目)",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528407",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "source-no-explicit-appearance-table"
+    },
+    {
+      "nameJa": "ミリエラ(2回目)",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528449",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "source-no-explicit-appearance-table"
+    },
+    {
+      "nameJa": "アトラス(2回目)",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528458",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "source-no-explicit-appearance-table"
+    },
+    {
+      "nameJa": "バズズ(2回目)",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528475",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "source-no-explicit-appearance-table"
+    },
+    {
+      "nameJa": "ベリアル(3回目)",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528499",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "source-no-explicit-appearance-table"
+    },
+    {
+      "nameJa": "ハーゴン",
+      "sourceUrl": "https://gamewith.jp/dq1-2/481398",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "source-no-explicit-appearance-table"
+    },
+    {
+      "nameJa": "シドー",
+      "sourceUrl": "https://gamewith.jp/dq1-2/481397",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "source-no-explicit-appearance-table"
+    },
+    {
+      "nameJa": "アルゴノート",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528519",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "source-no-explicit-appearance-table"
+    },
+    {
+      "nameJa": "アビスファング",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528617",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "source-no-explicit-appearance-table"
+    },
+    {
+      "nameJa": "オクトネイビー",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528535",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "source-no-explicit-appearance-table"
+    },
+    {
+      "nameJa": "しんりゅう",
+      "sourceUrl": "https://gamewith.jp/dq1-2/527775",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "source-no-explicit-appearance-table"
+    },
+    {
+      "nameJa": "竜王のひ孫(変身後)",
+      "sourceUrl": "https://gamewith.jp/dq1-2/481243",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "source-no-explicit-appearance-table"
+    },
+    {
+      "nameJa": "マガシドー",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528619",
+      "version": "2025 HD-2D DQII",
+      "verifiedDate": "2026-11-08",
+      "appearances": [],
+      "stats": {},
+      "dropsAndStealJa": [],
+      "coverage": "source-no-explicit-appearance-table"
+    }
+  ],
+  "fetchFailures": []
+}

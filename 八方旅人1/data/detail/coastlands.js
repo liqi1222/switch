@@ -134,32 +134,544 @@ OT2.addDetail("coastlands", {
   },
   "north_rippletide_coast": {
     "theme": "field",
-    "size": [100, 70],
-    "note": "北口接东阿特拉斯达姆平原，海滨大道沿西侧内海向东南通往东利布尔泰德海道。存档点正南小斜坡下到沙滩，沙滩小路向东折返回主路；插旗斜坡处向右、绕到东北小山丘背后即是隐蔽的波隐岩窟入口。",
+    "size": [
+      100,
+      70
+    ],
+    "note": "主路连接东阿特拉斯达姆平原与东利布尔泰德海道。存档点正南的小斜坡下到沙滩取葡萄；下层沙滩折返处有还魂橄榄，沿同一沙滩向北绕到岩石背后可进入波隐岩窟。岔路 A 是攻略导航参照，非实体路牌。",
     "zones": [
-      { "kind": "water", "poly": [[0, 0], [30, 0], [32, 20], [38, 36], [30, 56], [40, 64], [60, 70], [0, 70]] },
-      { "kind": "sand", "poly": [[30, 56], [38, 48], [56, 50], [76, 54], [90, 58], [100, 60], [100, 70], [60, 70], [40, 64]], "label": "沙滩" },
-      { "kind": "grass", "rect": [44, 6, 18, 16], "label": "草地" },
-      { "kind": "rock", "poly": [[64, 18], [76, 14], [88, 18], [86, 28], [72, 30], [62, 26]], "label": "小山丘" },
-      { "kind": "cliff", "poly": [[78, 0], [100, 0], [100, 12], [92, 8], [84, 6]] }
+      {
+        "kind": "water",
+        "poly": [
+          [
+            0,
+            0
+          ],
+          [
+            30,
+            0
+          ],
+          [
+            32,
+            20
+          ],
+          [
+            38,
+            36
+          ],
+          [
+            30,
+            56
+          ],
+          [
+            40,
+            64
+          ],
+          [
+            60,
+            70
+          ],
+          [
+            0,
+            70
+          ]
+        ]
+      },
+      {
+        "kind": "sand",
+        "poly": [
+          [
+            30,
+            56
+          ],
+          [
+            38,
+            48
+          ],
+          [
+            56,
+            50
+          ],
+          [
+            76,
+            54
+          ],
+          [
+            90,
+            58
+          ],
+          [
+            100,
+            60
+          ],
+          [
+            100,
+            70
+          ],
+          [
+            60,
+            70
+          ],
+          [
+            40,
+            64
+          ]
+        ],
+        "label": "沙滩"
+      },
+      {
+        "kind": "grass",
+        "rect": [
+          44,
+          6,
+          18,
+          16
+        ],
+        "label": "草地"
+      },
+      {
+        "kind": "rock",
+        "poly": [
+          [
+            64,
+            18
+          ],
+          [
+            76,
+            14
+          ],
+          [
+            88,
+            18
+          ],
+          [
+            86,
+            28
+          ],
+          [
+            72,
+            30
+          ],
+          [
+            62,
+            26
+          ]
+        ],
+        "label": "小山丘"
+      },
+      {
+        "kind": "cliff",
+        "poly": [
+          [
+            78,
+            0
+          ],
+          [
+            100,
+            0
+          ],
+          [
+            100,
+            12
+          ],
+          [
+            92,
+            8
+          ],
+          [
+            84,
+            6
+          ]
+        ]
+      }
     ],
     "paths": [
-      { "kind": "main", "pts": [[40, 2], [40, 12], [44, 24], [52, 34], [62, 40], [74, 46], [86, 50], [97, 64]] },
-      { "kind": "stairs", "pts": [[52, 34], [48, 44], [46, 54]], "label": "存档点正南小斜坡" },
-      { "kind": "minor", "pts": [[46, 54], [60, 58], [76, 60], [88, 58], [86, 50]], "label": "沙滩小路（折返处）" },
-      { "kind": "minor", "pts": [[62, 40], [78, 34], [94, 30]], "label": "插旗斜坡后向右" },
-      { "kind": "hidden", "pts": [[94, 30], [97, 18], [88, 10], [86, 2]], "label": "绕到山丘北侧进岩壁" },
-      { "kind": "minor", "pts": [[40,12],[45,8]] }
+      {
+        "kind": "main",
+        "pts": [
+          [
+            40,
+            2
+          ],
+          [
+            40,
+            12
+          ],
+          [
+            44,
+            24
+          ],
+          [
+            52,
+            34
+          ],
+          [
+            62,
+            40
+          ],
+          [
+            74,
+            46
+          ],
+          [
+            86,
+            50
+          ],
+          [
+            97,
+            64
+          ]
+        ],
+        "label": "平原至东海道主路",
+        "route": {
+          "from": "东阿特拉斯达姆平原出口",
+          "to": "东利布尔泰德海道出口",
+          "steps": [
+            "从平原方向沿主路前进",
+            "经过存档点与上下层岔路",
+            "沿主路继续到东利布尔泰德海道"
+          ],
+          "sources": [
+            {
+              "label": "ArrPeeGeeZ · 利布尔泰德海道",
+              "url": "https://www.arrpeegeez.com/2022/05/octopath-traveler-walkthrough-east-and.html"
+            },
+            {
+              "label": "Gamer Guides · 海滩隐藏入口",
+              "url": "https://www.gamerguides.com/octopath-traveler/guide/walkthrough/chapter-1/onward-to-rippletide/"
+            },
+            {
+              "label": "Neoseeker · 岩石后入口",
+              "url": "https://www.neoseeker.com/octopath-traveler/walkthrough/WE_Tressa"
+            }
+          ]
+        }
+      },
+      {
+        "kind": "stairs",
+        "pts": [
+          [
+            52,
+            34
+          ],
+          [
+            48,
+            44
+          ],
+          [
+            46,
+            54
+          ]
+        ],
+        "label": "存档点下坡取葡萄",
+        "route": {
+          "from": "存档点",
+          "to": "南侧沙滩／治愈葡萄宝箱",
+          "steps": [
+            "在存档点正南找到小斜坡",
+            "沿坡下到沙滩",
+            "在坡下取治愈葡萄"
+          ],
+          "sources": [
+            {
+              "label": "ArrPeeGeeZ · 利布尔泰德海道",
+              "url": "https://www.arrpeegeez.com/2022/05/octopath-traveler-walkthrough-east-and.html"
+            },
+            {
+              "label": "Gamer Guides · 海滩隐藏入口",
+              "url": "https://www.gamerguides.com/octopath-traveler/guide/walkthrough/chapter-1/onward-to-rippletide/"
+            },
+            {
+              "label": "Neoseeker · 岩石后入口",
+              "url": "https://www.neoseeker.com/octopath-traveler/walkthrough/WE_Tressa"
+            }
+          ]
+        }
+      },
+      {
+        "kind": "minor",
+        "pts": [
+          [
+            46,
+            54
+          ],
+          [
+            60,
+            58
+          ],
+          [
+            76,
+            60
+          ],
+          [
+            88,
+            58
+          ],
+          [
+            86,
+            50
+          ]
+        ],
+        "label": "沙滩折返取橄榄",
+        "route": {
+          "from": "存档点下方沙滩",
+          "to": "下层沙滩岔路 A",
+          "steps": [
+            "沿下层沙滩小路走到折返处",
+            "取还魂橄榄",
+            "沿同一沙滩寻找通往岩壁背面的支路"
+          ],
+          "sources": [
+            {
+              "label": "ArrPeeGeeZ · 利布尔泰德海道",
+              "url": "https://www.arrpeegeez.com/2022/05/octopath-traveler-walkthrough-east-and.html"
+            },
+            {
+              "label": "Gamer Guides · 海滩隐藏入口",
+              "url": "https://www.gamerguides.com/octopath-traveler/guide/walkthrough/chapter-1/onward-to-rippletide/"
+            },
+            {
+              "label": "Neoseeker · 岩石后入口",
+              "url": "https://www.neoseeker.com/octopath-traveler/walkthrough/WE_Tressa"
+            }
+          ]
+        }
+      },
+      {
+        "kind": "minor",
+        "pts": [
+          [
+            86,
+            50
+          ],
+          [
+            94,
+            42
+          ],
+          [
+            94,
+            30
+          ]
+        ],
+        "label": "下层沙滩绕岩石",
+        "route": {
+          "from": "岔路 A",
+          "to": "岩石后方小路",
+          "steps": [
+            "从下层海滩向北绕到大岩石后侧",
+            "沿岩壁检查隐藏通道"
+          ],
+          "sources": [
+            {
+              "label": "ArrPeeGeeZ · 利布尔泰德海道",
+              "url": "https://www.arrpeegeez.com/2022/05/octopath-traveler-walkthrough-east-and.html"
+            },
+            {
+              "label": "Gamer Guides · 海滩隐藏入口",
+              "url": "https://www.gamerguides.com/octopath-traveler/guide/walkthrough/chapter-1/onward-to-rippletide/"
+            },
+            {
+              "label": "Neoseeker · 岩石后入口",
+              "url": "https://www.neoseeker.com/octopath-traveler/walkthrough/WE_Tressa"
+            }
+          ],
+          "caution": "岩窟入口在海滩岩石后方，不是大道旁显眼的洞口"
+        }
+      },
+      {
+        "kind": "hidden",
+        "pts": [
+          [
+            94,
+            30
+          ],
+          [
+            97,
+            18
+          ],
+          [
+            88,
+            10
+          ],
+          [
+            86,
+            2
+          ]
+        ],
+        "label": "岩壁背面隐藏入口",
+        "route": {
+          "from": "岩石后方小路",
+          "to": "波隐岩窟入口",
+          "steps": [
+            "沿岩石后方的隐蔽小路靠近岩壁",
+            "进入波隐岩窟"
+          ],
+          "sources": [
+            {
+              "label": "ArrPeeGeeZ · 利布尔泰德海道",
+              "url": "https://www.arrpeegeez.com/2022/05/octopath-traveler-walkthrough-east-and.html"
+            },
+            {
+              "label": "Gamer Guides · 海滩隐藏入口",
+              "url": "https://www.gamerguides.com/octopath-traveler/guide/walkthrough/chapter-1/onward-to-rippletide/"
+            },
+            {
+              "label": "Neoseeker · 岩石后入口",
+              "url": "https://www.neoseeker.com/octopath-traveler/walkthrough/WE_Tressa"
+            }
+          ],
+          "caution": "岩窟危险等级较高；本图为相对位置示意"
+        }
+      },
+      {
+        "kind": "minor",
+        "pts": [
+          [
+            40,
+            12
+          ],
+          [
+            45,
+            8
+          ]
+        ],
+        "label": "平原出口旁宝箱",
+        "route": {
+          "from": "东阿特拉斯达姆平原出口附近",
+          "to": "锋芒坚果宝箱",
+          "steps": [
+            "在离开海道进入平原前查看路旁宝箱",
+            "取箱后回到主路"
+          ],
+          "sources": [
+            {
+              "label": "ArrPeeGeeZ · 利布尔泰德海道",
+              "url": "https://www.arrpeegeez.com/2022/05/octopath-traveler-walkthrough-east-and.html"
+            },
+            {
+              "label": "Gamer Guides · 海滩隐藏入口",
+              "url": "https://www.gamerguides.com/octopath-traveler/guide/walkthrough/chapter-1/onward-to-rippletide/"
+            },
+            {
+              "label": "Neoseeker · 岩石后入口",
+              "url": "https://www.neoseeker.com/octopath-traveler/walkthrough/WE_Tressa"
+            }
+          ]
+        }
+      }
     ],
     "pois": [
-      { "kind": "exit", "at": [40, 2], "to": "flatlands/east_atlasdam_flats", "label": "往东阿特拉斯达姆平原", "lp": "l" },
-      { "kind": "exit", "at": [86, 2], "to": "undertow_cove", "label": "波隐岩窟入口（隐蔽）", "lp": "l", "dir": "东北" },
-      { "kind": "exit", "at": [97, 64], "to": "east_rippletide_coast", "label": "往东利布尔泰德海道", "lp": "l" },
-      { "kind": "chest_red", "at": [45, 8], "tr": [0], "lp": "r" },
-      { "kind": "save", "at": [52, 34], "label": "存档点", "lp": "l" },
-      { "kind": "chest", "at": [46, 54], "tr": [1], "lp": "b" },
-      { "kind": "chest", "at": [88, 58], "tr": [2], "lp": "t" },
-      { "kind": "landmark", "at": [64, 44], "label": "插旗的斜坡", "lp": "b" }
+      {
+        "kind": "exit",
+        "at": [
+          40,
+          2
+        ],
+        "to": "flatlands/east_atlasdam_flats",
+        "label": "往东阿特拉斯达姆平原",
+        "lp": "l"
+      },
+      {
+        "kind": "exit",
+        "at": [
+          86,
+          2
+        ],
+        "to": "undertow_cove",
+        "label": "波隐岩窟入口（隐蔽）",
+        "lp": "l",
+        "dir": "东北"
+      },
+      {
+        "kind": "exit",
+        "at": [
+          97,
+          64
+        ],
+        "to": "east_rippletide_coast",
+        "label": "往东利布尔泰德海道",
+        "lp": "l"
+      },
+      {
+        "kind": "chest_red",
+        "at": [
+          45,
+          8
+        ],
+        "tr": [
+          0
+        ],
+        "lp": "r"
+      },
+      {
+        "kind": "save",
+        "at": [
+          52,
+          34
+        ],
+        "label": "存档点",
+        "lp": "l"
+      },
+      {
+        "kind": "chest",
+        "at": [
+          46,
+          54
+        ],
+        "tr": [
+          1
+        ],
+        "lp": "b"
+      },
+      {
+        "kind": "chest",
+        "at": [
+          88,
+          58
+        ],
+        "tr": [
+          2
+        ],
+        "lp": "t"
+      },
+      {
+        "kind": "landmark",
+        "at": [
+          64,
+          44
+        ],
+        "label": "插旗的斜坡",
+        "lp": "b"
+      }
+    ],
+    "sources": [
+      {
+        "label": "ArrPeeGeeZ · 利布尔泰德海道",
+        "url": "https://www.arrpeegeez.com/2022/05/octopath-traveler-walkthrough-east-and.html"
+      },
+      {
+        "label": "Gamer Guides · 海滩隐藏入口",
+        "url": "https://www.gamerguides.com/octopath-traveler/guide/walkthrough/chapter-1/onward-to-rippletide/"
+      },
+      {
+        "label": "Neoseeker · 岩石后入口",
+        "url": "https://www.neoseeker.com/octopath-traveler/walkthrough/WE_Tressa"
+      }
+    ],
+    "junctions": [
+      {
+        "label": "A",
+        "at": [
+          86,
+          50
+        ],
+        "roads": [
+          0,
+          2,
+          3
+        ],
+        "note": "海滩小路与主路相接处；向北绕岩石走隐藏入口，另一侧通沙滩折返宝箱。"
+      }
     ]
   },
   "undertow_cove": {
@@ -212,36 +724,697 @@ OT2.addDetail("coastlands", {
   },
   "east_rippletide_coast": {
     "theme": "field",
-    "size": [100, 70],
+    "size": [
+      100,
+      70
+    ],
     "note": "西北角同时连着利布尔泰德镇口与北利布尔泰德海道，主路向东南经存档点过桥，再南下到北鹅卵石村山道。存档点南侧阶梯下到沙滩（桥左），桥右长石坡也通沙滩；主路靠近南口右拐时向左可绕到斜坡另一侧。",
     "zones": [
-      { "kind": "water", "poly": [[52, 0], [60, 0], [60, 28], [56, 42], [52, 50], [44, 54], [38, 52], [48, 44], [52, 30]] },
-      { "kind": "water", "poly": [[0, 58], [30, 54], [44, 54], [52, 50], [58, 58], [50, 70], [0, 70]] },
-      { "kind": "sand", "poly": [[0, 46], [30, 42], [44, 46], [48, 44], [38, 52], [30, 54], [0, 58]], "label": "沙滩" },
-      { "kind": "sand", "poly": [[58, 46], [66, 48], [68, 58], [58, 58], [54, 52]] },
-      { "kind": "cliff", "poly": [[72, 0], [100, 0], [100, 40], [90, 36], [84, 28], [76, 20], [70, 10]] },
-      { "kind": "rock", "poly": [[82, 48], [92, 46], [96, 54], [86, 56]], "label": "斜坡" }
+      {
+        "kind": "water",
+        "poly": [
+          [
+            52,
+            0
+          ],
+          [
+            60,
+            0
+          ],
+          [
+            60,
+            28
+          ],
+          [
+            56,
+            42
+          ],
+          [
+            52,
+            50
+          ],
+          [
+            44,
+            54
+          ],
+          [
+            38,
+            52
+          ],
+          [
+            48,
+            44
+          ],
+          [
+            52,
+            30
+          ]
+        ]
+      },
+      {
+        "kind": "water",
+        "poly": [
+          [
+            0,
+            58
+          ],
+          [
+            30,
+            54
+          ],
+          [
+            44,
+            54
+          ],
+          [
+            52,
+            50
+          ],
+          [
+            58,
+            58
+          ],
+          [
+            50,
+            70
+          ],
+          [
+            0,
+            70
+          ]
+        ]
+      },
+      {
+        "kind": "sand",
+        "poly": [
+          [
+            0,
+            46
+          ],
+          [
+            30,
+            42
+          ],
+          [
+            44,
+            46
+          ],
+          [
+            48,
+            44
+          ],
+          [
+            38,
+            52
+          ],
+          [
+            30,
+            54
+          ],
+          [
+            0,
+            58
+          ]
+        ],
+        "label": "沙滩"
+      },
+      {
+        "kind": "sand",
+        "poly": [
+          [
+            58,
+            46
+          ],
+          [
+            66,
+            48
+          ],
+          [
+            68,
+            58
+          ],
+          [
+            58,
+            58
+          ],
+          [
+            54,
+            52
+          ]
+        ]
+      },
+      {
+        "kind": "cliff",
+        "poly": [
+          [
+            72,
+            0
+          ],
+          [
+            100,
+            0
+          ],
+          [
+            100,
+            40
+          ],
+          [
+            90,
+            36
+          ],
+          [
+            84,
+            28
+          ],
+          [
+            76,
+            20
+          ],
+          [
+            70,
+            10
+          ]
+        ]
+      },
+      {
+        "kind": "rock",
+        "poly": [
+          [
+            82,
+            48
+          ],
+          [
+            92,
+            46
+          ],
+          [
+            96,
+            54
+          ],
+          [
+            86,
+            56
+          ]
+        ],
+        "label": "斜坡"
+      }
     ],
     "paths": [
-      { "kind": "minor", "pts": [[2, 26], [10, 22], [18, 18]], "label": "利布尔泰德镇口" },
-      { "kind": "main", "pts": [[14, 2], [18, 18]] },
-      { "kind": "main", "pts": [[18, 18], [30, 24], [42, 28], [50, 32]] },
-      { "kind": "bridge", "pts": [[50, 32], [62, 32]] },
-      { "kind": "main", "pts": [[62, 32], [74, 40], [80, 50], [72, 58], [64, 68]] },
-      { "kind": "stairs", "pts": [[42, 28], [42, 38], [44, 45]], "label": "存档点以南下阶梯" },
-      { "kind": "stairs", "pts": [[62, 32], [66, 42], [62, 52]], "label": "桥右侧长石坡" },
-      { "kind": "minor", "pts": [[80, 50], [88, 58], [90, 62]], "label": "右拐时向左" },
-      { "kind": "minor", "pts": [[30,24],[28,27]] }
+      {
+        "kind": "bridge",
+        "pts": [
+          [
+            2,
+            26
+          ],
+          [
+            10,
+            22
+          ],
+          [
+            18,
+            18
+          ]
+        ],
+        "label": "镇口桥至北侧汇合处",
+        "route": {
+          "from": "利布尔泰德镇口",
+          "to": "岔路 A",
+          "steps": [
+            "从镇口出城过镇口桥，沿连接路到岔路 A",
+            "北边通北利布尔泰德海道，东南侧去存档点"
+          ],
+          "sources": [
+            {
+              "label": "ArrPeeGeeZ · 利布尔泰德海道",
+              "url": "https://www.arrpeegeez.com/2022/05/octopath-traveler-walkthrough-east-and.html"
+            },
+            {
+              "label": "Neoseeker · 海道探索",
+              "url": "https://www.neoseeker.com/octopath-traveler/walkthrough/WE_Tressa"
+            },
+            {
+              "label": "SteamAH · 沙滩与存档点参照",
+              "url": "https://steamah.com/octopath-traveler-all-treasure-chest-locations/"
+            }
+          ]
+        }
+      },
+      {
+        "kind": "main",
+        "pts": [
+          [
+            14,
+            2
+          ],
+          [
+            18,
+            18
+          ]
+        ],
+        "label": "北海道至汇合处",
+        "route": {
+          "from": "北利布尔泰德海道出口",
+          "to": "岔路 A",
+          "steps": [
+            "从北侧出口沿主路南下",
+            "在岔路 A 与镇口道路汇合"
+          ],
+          "sources": [
+            {
+              "label": "ArrPeeGeeZ · 利布尔泰德海道",
+              "url": "https://www.arrpeegeez.com/2022/05/octopath-traveler-walkthrough-east-and.html"
+            },
+            {
+              "label": "Neoseeker · 海道探索",
+              "url": "https://www.neoseeker.com/octopath-traveler/walkthrough/WE_Tressa"
+            },
+            {
+              "label": "SteamAH · 沙滩与存档点参照",
+              "url": "https://steamah.com/octopath-traveler-all-treasure-chest-locations/"
+            }
+          ]
+        }
+      },
+      {
+        "kind": "main",
+        "pts": [
+          [
+            18,
+            18
+          ],
+          [
+            30,
+            24
+          ],
+          [
+            42,
+            28
+          ],
+          [
+            50,
+            32
+          ]
+        ],
+        "label": "汇合处至存档点桥头",
+        "route": {
+          "from": "岔路 A",
+          "to": "存档点／桥西头",
+          "steps": [
+            "从岔路向东南前进到存档点",
+            "过桥前先查看南侧下沙滩的阶梯"
+          ],
+          "sources": [
+            {
+              "label": "ArrPeeGeeZ · 利布尔泰德海道",
+              "url": "https://www.arrpeegeez.com/2022/05/octopath-traveler-walkthrough-east-and.html"
+            },
+            {
+              "label": "Neoseeker · 海道探索",
+              "url": "https://www.neoseeker.com/octopath-traveler/walkthrough/WE_Tressa"
+            },
+            {
+              "label": "SteamAH · 沙滩与存档点参照",
+              "url": "https://steamah.com/octopath-traveler-all-treasure-chest-locations/"
+            }
+          ]
+        }
+      },
+      {
+        "kind": "bridge",
+        "pts": [
+          [
+            50,
+            32
+          ],
+          [
+            62,
+            32
+          ]
+        ],
+        "label": "跨桥主路",
+        "route": {
+          "from": "存档点／桥西头",
+          "to": "桥东头岔路 C",
+          "steps": [
+            "沿桥面过桥",
+            "桥右侧还有下沙滩的长石坡，不必与南行主路混走"
+          ],
+          "sources": [
+            {
+              "label": "ArrPeeGeeZ · 利布尔泰德海道",
+              "url": "https://www.arrpeegeez.com/2022/05/octopath-traveler-walkthrough-east-and.html"
+            },
+            {
+              "label": "Neoseeker · 海道探索",
+              "url": "https://www.neoseeker.com/octopath-traveler/walkthrough/WE_Tressa"
+            },
+            {
+              "label": "SteamAH · 沙滩与存档点参照",
+              "url": "https://steamah.com/octopath-traveler-all-treasure-chest-locations/"
+            }
+          ]
+        }
+      },
+      {
+        "kind": "main",
+        "pts": [
+          [
+            62,
+            32
+          ],
+          [
+            74,
+            40
+          ],
+          [
+            80,
+            50
+          ],
+          [
+            72,
+            58
+          ],
+          [
+            64,
+            68
+          ]
+        ],
+        "label": "桥东至南侧山道出口",
+        "route": {
+          "from": "岔路 C",
+          "to": "北鹅卵石村山道出口",
+          "steps": [
+            "过桥后沿主路向南",
+            "接近出口的斜坡处另有风之精灵石小路",
+            "继续南行离开海道"
+          ],
+          "sources": [
+            {
+              "label": "ArrPeeGeeZ · 利布尔泰德海道",
+              "url": "https://www.arrpeegeez.com/2022/05/octopath-traveler-walkthrough-east-and.html"
+            },
+            {
+              "label": "Neoseeker · 海道探索",
+              "url": "https://www.neoseeker.com/octopath-traveler/walkthrough/WE_Tressa"
+            },
+            {
+              "label": "SteamAH · 沙滩与存档点参照",
+              "url": "https://steamah.com/octopath-traveler-all-treasure-chest-locations/"
+            }
+          ]
+        }
+      },
+      {
+        "kind": "stairs",
+        "pts": [
+          [
+            42,
+            28
+          ],
+          [
+            42,
+            38
+          ],
+          [
+            44,
+            45
+          ]
+        ],
+        "label": "桥左下阶梯取坚果",
+        "route": {
+          "from": "存档点",
+          "to": "桥左侧沙滩宝箱",
+          "steps": [
+            "从存档点以南的阶梯下行",
+            "到桥左侧沙滩取魔导坚果",
+            "从同一阶梯回到桥头"
+          ],
+          "sources": [
+            {
+              "label": "ArrPeeGeeZ · 利布尔泰德海道",
+              "url": "https://www.arrpeegeez.com/2022/05/octopath-traveler-walkthrough-east-and.html"
+            },
+            {
+              "label": "Neoseeker · 海道探索",
+              "url": "https://www.neoseeker.com/octopath-traveler/walkthrough/WE_Tressa"
+            },
+            {
+              "label": "SteamAH · 沙滩与存档点参照",
+              "url": "https://steamah.com/octopath-traveler-all-treasure-chest-locations/"
+            }
+          ]
+        }
+      },
+      {
+        "kind": "stairs",
+        "pts": [
+          [
+            62,
+            32
+          ],
+          [
+            66,
+            42
+          ],
+          [
+            62,
+            52
+          ]
+        ],
+        "label": "桥右长石坡取李子",
+        "route": {
+          "from": "岔路 C／桥东头",
+          "to": "桥右侧沙滩宝箱",
+          "steps": [
+            "从桥右侧沿长石坡下到另一片沙滩",
+            "取醒神李子",
+            "沿石坡返回桥头"
+          ],
+          "sources": [
+            {
+              "label": "ArrPeeGeeZ · 利布尔泰德海道",
+              "url": "https://www.arrpeegeez.com/2022/05/octopath-traveler-walkthrough-east-and.html"
+            },
+            {
+              "label": "Neoseeker · 海道探索",
+              "url": "https://www.neoseeker.com/octopath-traveler/walkthrough/WE_Tressa"
+            },
+            {
+              "label": "SteamAH · 沙滩与存档点参照",
+              "url": "https://steamah.com/octopath-traveler-all-treasure-chest-locations/"
+            }
+          ]
+        }
+      },
+      {
+        "kind": "minor",
+        "pts": [
+          [
+            80,
+            50
+          ],
+          [
+            88,
+            58
+          ],
+          [
+            90,
+            62
+          ]
+        ],
+        "label": "南口斜坡反向小路",
+        "route": {
+          "from": "南段主路斜坡",
+          "to": "风之精灵石宝箱",
+          "steps": [
+            "接近山道出口时，主路转弯处查看左侧小路",
+            "绕到斜坡另一侧取箱",
+            "返回主路再去出口"
+          ],
+          "sources": [
+            {
+              "label": "ArrPeeGeeZ · 利布尔泰德海道",
+              "url": "https://www.arrpeegeez.com/2022/05/octopath-traveler-walkthrough-east-and.html"
+            },
+            {
+              "label": "Neoseeker · 海道探索",
+              "url": "https://www.neoseeker.com/octopath-traveler/walkthrough/WE_Tressa"
+            },
+            {
+              "label": "SteamAH · 沙滩与存档点参照",
+              "url": "https://steamah.com/octopath-traveler-all-treasure-chest-locations/"
+            }
+          ]
+        }
+      },
+      {
+        "kind": "minor",
+        "pts": [
+          [
+            30,
+            24
+          ],
+          [
+            28,
+            27
+          ]
+        ],
+        "label": "镇口附近青年支路",
+        "route": {
+          "from": "镇口外主路",
+          "to": "旅行青年所在路边",
+          "steps": [
+            "从镇口外主路走到路边青年处",
+            "支线触发取决于开局角色与进度"
+          ],
+          "sources": [
+            {
+              "label": "ArrPeeGeeZ · 利布尔泰德海道",
+              "url": "https://www.arrpeegeez.com/2022/05/octopath-traveler-walkthrough-east-and.html"
+            },
+            {
+              "label": "Neoseeker · 海道探索",
+              "url": "https://www.neoseeker.com/octopath-traveler/walkthrough/WE_Tressa"
+            },
+            {
+              "label": "SteamAH · 沙滩与存档点参照",
+              "url": "https://steamah.com/octopath-traveler-all-treasure-chest-locations/"
+            }
+          ]
+        }
+      }
     ],
     "pois": [
-      { "kind": "exit", "at": [2, 26], "to": "rippletide", "label": "往利布尔泰德", "lp": "r", "dir": "西北" },
-      { "kind": "exit", "at": [14, 2], "to": "north_rippletide_coast", "label": "往北利布尔泰德海道", "lp": "r", "dir": "西北" },
-      { "kind": "exit", "at": [64, 68], "to": "highlands/north_cobbleston_gap", "label": "往北鹅卵石村山道", "lp": "r" },
-      { "kind": "save", "at": [42, 28], "label": "存档点", "lp": "t" },
-      { "kind": "chest_red", "at": [44, 45], "tr": [0], "lp": "l" },
-      { "kind": "chest", "at": [62, 52], "tr": [1], "lp": "r" },
-      { "kind": "chest", "at": [90, 62], "tr": [2], "lp": "l" },
-      { "kind": "npc", "at": [28, 27], "label": "旅行青年克里斯", "npc": [0], "lp": "b", "note": "仅以特蕾莎为开局主角时出现。" }
+      {
+        "kind": "exit",
+        "at": [
+          2,
+          26
+        ],
+        "to": "rippletide",
+        "label": "往利布尔泰德",
+        "lp": "r",
+        "dir": "西北"
+      },
+      {
+        "kind": "exit",
+        "at": [
+          14,
+          2
+        ],
+        "to": "north_rippletide_coast",
+        "label": "往北利布尔泰德海道",
+        "lp": "r",
+        "dir": "西北"
+      },
+      {
+        "kind": "exit",
+        "at": [
+          64,
+          68
+        ],
+        "to": "highlands/north_cobbleston_gap",
+        "label": "往北鹅卵石村山道",
+        "lp": "r"
+      },
+      {
+        "kind": "save",
+        "at": [
+          42,
+          28
+        ],
+        "label": "存档点",
+        "lp": "t"
+      },
+      {
+        "kind": "chest_red",
+        "at": [
+          44,
+          45
+        ],
+        "tr": [
+          0
+        ],
+        "lp": "l"
+      },
+      {
+        "kind": "chest",
+        "at": [
+          62,
+          52
+        ],
+        "tr": [
+          1
+        ],
+        "lp": "r"
+      },
+      {
+        "kind": "chest",
+        "at": [
+          90,
+          62
+        ],
+        "tr": [
+          2
+        ],
+        "lp": "l"
+      },
+      {
+        "kind": "npc",
+        "at": [
+          28,
+          27
+        ],
+        "label": "旅行青年克里斯",
+        "npc": [
+          0
+        ],
+        "lp": "b",
+        "note": "仅以特蕾莎为开局主角时出现。"
+      }
+    ],
+    "sources": [
+      {
+        "label": "ArrPeeGeeZ · 利布尔泰德海道",
+        "url": "https://www.arrpeegeez.com/2022/05/octopath-traveler-walkthrough-east-and.html"
+      },
+      {
+        "label": "Neoseeker · 海道探索",
+        "url": "https://www.neoseeker.com/octopath-traveler/walkthrough/WE_Tressa"
+      },
+      {
+        "label": "SteamAH · 沙滩与存档点参照",
+        "url": "https://steamah.com/octopath-traveler-all-treasure-chest-locations/"
+      }
+    ],
+    "junctions": [
+      {
+        "label": "A",
+        "at": [
+          18,
+          18
+        ],
+        "roads": [
+          0,
+          1,
+          2
+        ],
+        "note": "镇口与北海道道路汇合；沿东南主路去存档点和桥。"
+      },
+      {
+        "label": "C",
+        "at": [
+          62,
+          32
+        ],
+        "roads": [
+          3,
+          4,
+          6
+        ],
+        "note": "桥东侧分岔：主路向南去山道，长石坡下到桥右沙滩。"
+      }
     ]
   }
 });

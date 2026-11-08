@@ -191,39 +191,612 @@ OT2.addDetail("harborlands", {
   },
   "western_canalbrine_coast": {
     "theme": "field",
-    "size": [100, 70],
+    "size": [
+      100,
+      70
+    ],
     "note": "沿北侧海岸东西走向：出城口有存档点，其左侧几步一箱；第一个岔路北行穿过小洞窟到码头，可划船去两座小岛；中段岔路楼梯上方再左下台阶一箱；西端分南北两岔，主路向西通往大桥。",
     "zones": [
-      { "kind": "water", "poly": [[0, 0], [100, 0], [100, 14], [76, 16], [66, 17], [40, 13], [24, 15], [0, 12]] },
-      { "kind": "grass", "circle": [52, 5, 3] },
-      { "kind": "grass", "circle": [88, 10, 3] },
-      { "kind": "rock", "rect": [64, 21, 10, 8], "label": "小洞窟" },
-      { "kind": "cliff", "poly": [[36, 24], [56, 22], [56, 30], [36, 30]] },
-      { "kind": "grass", "rect": [4, 48, 30, 18] }
+      {
+        "kind": "water",
+        "poly": [
+          [
+            0,
+            0
+          ],
+          [
+            100,
+            0
+          ],
+          [
+            100,
+            14
+          ],
+          [
+            76,
+            16
+          ],
+          [
+            66,
+            17
+          ],
+          [
+            40,
+            13
+          ],
+          [
+            24,
+            15
+          ],
+          [
+            0,
+            12
+          ]
+        ]
+      },
+      {
+        "kind": "grass",
+        "circle": [
+          52,
+          5,
+          3
+        ]
+      },
+      {
+        "kind": "grass",
+        "circle": [
+          88,
+          10,
+          3
+        ]
+      },
+      {
+        "kind": "rock",
+        "rect": [
+          64,
+          21,
+          10,
+          8
+        ],
+        "label": "小洞窟"
+      },
+      {
+        "kind": "cliff",
+        "poly": [
+          [
+            36,
+            24
+          ],
+          [
+            56,
+            22
+          ],
+          [
+            56,
+            30
+          ],
+          [
+            36,
+            30
+          ]
+        ]
+      },
+      {
+        "kind": "grass",
+        "rect": [
+          4,
+          48,
+          30,
+          18
+        ]
+      }
     ],
     "paths": [
-      { "kind": "main", "pts": [[98, 42], [86, 42], [72, 40], [50, 42], [30, 44], [16, 40], [2, 36]] },
-      { "kind": "minor", "pts": [[86, 42], [84, 50]], "label": "出城不远路左侧" },
-      { "kind": "minor", "pts": [[72, 40], [70, 28], [68, 18]], "label": "第一个岔路北行（穿过小洞窟）" },
-      { "kind": "boat", "pts": [[68, 18], [60, 10], [53, 6]], "label": "向北划到小岛" },
-      { "kind": "boat", "pts": [[60, 10], [76, 6], [87, 9]], "label": "再往东、往南的小岛" },
-      { "kind": "stairs", "pts": [[50, 42], [48, 32]], "label": "岔路楼梯" },
-      { "kind": "stairs", "pts": [[48, 32], [38, 35]], "label": "左侧下台阶" },
-      { "kind": "minor", "pts": [[16, 40], [16, 56], [12, 60]], "label": "西端岔路向南" },
-      { "kind": "minor", "pts": [[16, 40], [20, 30], [26, 26]], "label": "西端岔路向北" }
+      {
+        "kind": "main",
+        "pts": [
+          [
+            98,
+            42
+          ],
+          [
+            86,
+            42
+          ],
+          [
+            72,
+            40
+          ],
+          [
+            50,
+            42
+          ],
+          [
+            30,
+            44
+          ],
+          [
+            16,
+            40
+          ],
+          [
+            2,
+            36
+          ]
+        ],
+        "label": "城镇至大桥主路",
+        "route": {
+          "from": "卡纳尔布莱恩西口／存档点",
+          "to": "卡纳尔布莱恩大桥出口",
+          "steps": [
+            "从城镇口沿主路向西",
+            "先经过北上洞窟的岔路 A，再经过中段台阶",
+            "到西端岔路 C 后继续向西去大桥"
+          ],
+          "sources": [
+            {
+              "label": "ArrPeeGeeZ · 西卡纳尔布莱恩海道",
+              "url": "https://www.arrpeegeez.com/2023/02/octopath-traveler-ii-walkthrough-area_99.html"
+            },
+            {
+              "label": "Game8 · 海道地图",
+              "url": "https://game8.jp/octopathtraveler2/515151"
+            }
+          ]
+        }
+      },
+      {
+        "kind": "minor",
+        "pts": [
+          [
+            86,
+            42
+          ],
+          [
+            84,
+            50
+          ]
+        ],
+        "label": "出城口旁的宝箱支路",
+        "route": {
+          "from": "出城口附近主路",
+          "to": "治愈葡萄（大）宝箱",
+          "steps": [
+            "从城镇口出来，在存档点左侧不远查看路旁",
+            "取箱后返回主路"
+          ],
+          "sources": [
+            {
+              "label": "ArrPeeGeeZ · 西卡纳尔布莱恩海道",
+              "url": "https://www.arrpeegeez.com/2023/02/octopath-traveler-ii-walkthrough-area_99.html"
+            },
+            {
+              "label": "Game8 · 海道地图",
+              "url": "https://game8.jp/octopathtraveler2/515151"
+            }
+          ]
+        }
+      },
+      {
+        "kind": "minor",
+        "pts": [
+          [
+            72,
+            40
+          ],
+          [
+            70,
+            28
+          ],
+          [
+            68,
+            18
+          ]
+        ],
+        "label": "北行穿洞到码头",
+        "route": {
+          "from": "岔路 A",
+          "to": "海岸码头",
+          "steps": [
+            "在出城后的第一处岔路转向北",
+            "穿过小洞窟",
+            "从另一侧走到码头"
+          ],
+          "sources": [
+            {
+              "label": "ArrPeeGeeZ · 西卡纳尔布莱恩海道",
+              "url": "https://www.arrpeegeez.com/2023/02/octopath-traveler-ii-walkthrough-area_99.html"
+            },
+            {
+              "label": "Game8 · 海道地图",
+              "url": "https://game8.jp/octopathtraveler2/515151"
+            }
+          ],
+          "caution": "码头后续路线需要独木舟"
+        }
+      },
+      {
+        "kind": "boat",
+        "pts": [
+          [
+            68,
+            18
+          ],
+          [
+            60,
+            10
+          ],
+          [
+            53,
+            6
+          ]
+        ],
+        "label": "码头北行至第一座岛",
+        "route": {
+          "from": "海岸码头",
+          "to": "熟睡草小岛",
+          "steps": [
+            "从码头乘独木舟向北",
+            "在第一座小岛找到熟睡草宝箱"
+          ],
+          "sources": [
+            {
+              "label": "ArrPeeGeeZ · 西卡纳尔布莱恩海道",
+              "url": "https://www.arrpeegeez.com/2023/02/octopath-traveler-ii-walkthrough-area_99.html"
+            },
+            {
+              "label": "Game8 · 海道地图",
+              "url": "https://game8.jp/octopathtraveler2/515151"
+            }
+          ],
+          "mode": "乘独木舟"
+        }
+      },
+      {
+        "kind": "boat",
+        "pts": [
+          [
+            53,
+            6
+          ],
+          [
+            76,
+            6
+          ],
+          [
+            87,
+            9
+          ]
+        ],
+        "label": "第一座岛往东再往南",
+        "route": {
+          "from": "熟睡草小岛",
+          "to": "旅人之弓小岛",
+          "steps": [
+            "从第一座小岛继续向东划",
+            "随后向南绕至第二座小岛",
+            "取旅人之弓"
+          ],
+          "sources": [
+            {
+              "label": "ArrPeeGeeZ · 西卡纳尔布莱恩海道",
+              "url": "https://www.arrpeegeez.com/2023/02/octopath-traveler-ii-walkthrough-area_99.html"
+            },
+            {
+              "label": "Game8 · 海道地图",
+              "url": "https://game8.jp/octopathtraveler2/515151"
+            }
+          ],
+          "mode": "乘独木舟"
+        }
+      },
+      {
+        "kind": "stairs",
+        "pts": [
+          [
+            50,
+            42
+          ],
+          [
+            48,
+            32
+          ]
+        ],
+        "label": "主路上台阶",
+        "route": {
+          "from": "中段主路",
+          "to": "台阶上方岔路 B",
+          "steps": [
+            "返回主路",
+            "从中段的楼梯上行到另一处岔路"
+          ],
+          "sources": [
+            {
+              "label": "ArrPeeGeeZ · 西卡纳尔布莱恩海道",
+              "url": "https://www.arrpeegeez.com/2023/02/octopath-traveler-ii-walkthrough-area_99.html"
+            },
+            {
+              "label": "Game8 · 海道地图",
+              "url": "https://game8.jp/octopathtraveler2/515151"
+            }
+          ],
+          "caution": "这里是通往李子宝箱的台阶，不是北侧洞窟"
+        }
+      },
+      {
+        "kind": "stairs",
+        "pts": [
+          [
+            48,
+            32
+          ],
+          [
+            38,
+            35
+          ]
+        ],
+        "label": "台阶上方转左下行",
+        "route": {
+          "from": "岔路 B",
+          "to": "醒神李子（大）宝箱",
+          "steps": [
+            "在台阶上方岔路转向左",
+            "沿下行台阶到宝箱",
+            "取完原路回到主路"
+          ],
+          "sources": [
+            {
+              "label": "ArrPeeGeeZ · 西卡纳尔布莱恩海道",
+              "url": "https://www.arrpeegeez.com/2023/02/octopath-traveler-ii-walkthrough-area_99.html"
+            },
+            {
+              "label": "Game8 · 海道地图",
+              "url": "https://game8.jp/octopathtraveler2/515151"
+            }
+          ]
+        }
+      },
+      {
+        "kind": "minor",
+        "pts": [
+          [
+            16,
+            40
+          ],
+          [
+            16,
+            56
+          ],
+          [
+            12,
+            60
+          ]
+        ],
+        "label": "西端分岔向南",
+        "route": {
+          "from": "岔路 C",
+          "to": "1500叶宝箱",
+          "steps": [
+            "到达主路西端的最后一处分岔",
+            "转向南走到尽头",
+            "取箱后返回岔路 C"
+          ],
+          "sources": [
+            {
+              "label": "ArrPeeGeeZ · 西卡纳尔布莱恩海道",
+              "url": "https://www.arrpeegeez.com/2023/02/octopath-traveler-ii-walkthrough-area_99.html"
+            },
+            {
+              "label": "Game8 · 海道地图",
+              "url": "https://game8.jp/octopathtraveler2/515151"
+            }
+          ]
+        }
+      },
+      {
+        "kind": "minor",
+        "pts": [
+          [
+            16,
+            40
+          ],
+          [
+            20,
+            30
+          ],
+          [
+            26,
+            26
+          ]
+        ],
+        "label": "西端分岔向北",
+        "route": {
+          "from": "岔路 C",
+          "to": "黏着之花宝箱",
+          "steps": [
+            "在西端岔路向北",
+            "查看前往大桥方向右侧的宝箱",
+            "取完回到主路去大桥"
+          ],
+          "sources": [
+            {
+              "label": "ArrPeeGeeZ · 西卡纳尔布莱恩海道",
+              "url": "https://www.arrpeegeez.com/2023/02/octopath-traveler-ii-walkthrough-area_99.html"
+            },
+            {
+              "label": "Game8 · 海道地图",
+              "url": "https://game8.jp/octopathtraveler2/515151"
+            }
+          ]
+        }
+      }
     ],
     "pois": [
-      { "kind": "exit", "at": [98, 42], "to": "canalbrine", "label": "往卡纳尔布莱恩", "lp": "t" },
-      { "kind": "save", "at": [92, 42], "label": "存档点", "lp": "t", "note": "靠近卡纳尔布莱恩出口；治愈葡萄（大）箱在其左侧不远。" },
-      { "kind": "exit", "at": [2, 36], "to": "canalbrine_bridge", "label": "往大桥", "lp": "b" },
-      { "kind": "chest", "at": [84, 50], "tr": [0], "lp": "r" },
-      { "kind": "landmark", "at": [68, 18], "label": "码头", "lp": "r" },
-      { "kind": "chest", "at": [53, 6], "tr": [1], "lp": "l" },
-      { "kind": "chest", "at": [87, 9], "tr": [2], "lp": "l" },
-      { "kind": "chest", "at": [38, 35], "tr": [3], "lp": "l" },
-      { "kind": "chest", "at": [12, 60], "tr": [4], "lp": "r" },
-      { "kind": "chest", "at": [26, 26], "tr": [5], "lp": "r", "note": "西端岔路向北，往大桥方向的右侧。" },
-      { "kind": "npc", "at": [31, 46], "label": "阴沉的男人（支线·夜）", "note": "卡丝蒂开局完成第1章后的支线「旅人的行囊」。", "lp": "r" }
+      {
+        "kind": "exit",
+        "at": [
+          98,
+          42
+        ],
+        "to": "canalbrine",
+        "label": "往卡纳尔布莱恩",
+        "lp": "t"
+      },
+      {
+        "kind": "save",
+        "at": [
+          92,
+          42
+        ],
+        "label": "存档点",
+        "lp": "t",
+        "note": "靠近卡纳尔布莱恩出口；治愈葡萄（大）箱在其左侧不远。"
+      },
+      {
+        "kind": "exit",
+        "at": [
+          2,
+          36
+        ],
+        "to": "canalbrine_bridge",
+        "label": "往大桥",
+        "lp": "b"
+      },
+      {
+        "kind": "chest",
+        "at": [
+          84,
+          50
+        ],
+        "tr": [
+          0
+        ],
+        "lp": "r"
+      },
+      {
+        "kind": "landmark",
+        "at": [
+          68,
+          18
+        ],
+        "label": "码头",
+        "lp": "r"
+      },
+      {
+        "kind": "chest",
+        "at": [
+          53,
+          6
+        ],
+        "tr": [
+          1
+        ],
+        "lp": "l"
+      },
+      {
+        "kind": "chest",
+        "at": [
+          87,
+          9
+        ],
+        "tr": [
+          2
+        ],
+        "lp": "l"
+      },
+      {
+        "kind": "chest",
+        "at": [
+          38,
+          35
+        ],
+        "tr": [
+          3
+        ],
+        "lp": "l"
+      },
+      {
+        "kind": "chest",
+        "at": [
+          12,
+          60
+        ],
+        "tr": [
+          4
+        ],
+        "lp": "r"
+      },
+      {
+        "kind": "chest",
+        "at": [
+          26,
+          26
+        ],
+        "tr": [
+          5
+        ],
+        "lp": "r",
+        "note": "西端岔路向北，往大桥方向的右侧。"
+      },
+      {
+        "kind": "npc",
+        "at": [
+          31,
+          46
+        ],
+        "label": "阴沉的男人（支线·夜）",
+        "note": "卡丝蒂开局完成第1章后的支线「旅人的行囊」。",
+        "lp": "r"
+      }
+    ],
+    "sources": [
+      {
+        "label": "ArrPeeGeeZ · 西卡纳尔布莱恩海道",
+        "url": "https://www.arrpeegeez.com/2023/02/octopath-traveler-ii-walkthrough-area_99.html"
+      },
+      {
+        "label": "Game8 · 海道地图",
+        "url": "https://game8.jp/octopathtraveler2/515151"
+      }
+    ],
+    "junctions": [
+      {
+        "label": "A",
+        "at": [
+          72,
+          40
+        ],
+        "roads": [
+          0,
+          2
+        ],
+        "note": "由城镇向西遇到的第一处主要岔路：北行穿洞到码头，西行仍是主路。"
+      },
+      {
+        "label": "B",
+        "at": [
+          48,
+          32
+        ],
+        "roads": [
+          5,
+          6
+        ],
+        "note": "先从主路上台阶，再转左下另一段台阶取李子；不是向北去海岸码头。"
+      },
+      {
+        "label": "C",
+        "at": [
+          16,
+          40
+        ],
+        "roads": [
+          0,
+          7,
+          8
+        ],
+        "note": "西端分岔：南边1500叶、北边黏着之花；主路西行去大桥。"
+      }
     ]
   }
 });
@@ -231,46 +804,761 @@ OT2.addDetail("harborlands", {
 OT2.addDetail("harborlands", {
   "canalbrine_bridge": {
     "theme": "field",
-    "size": [100, 70],
+    "size": [
+      100,
+      70
+    ],
     "note": "东西向跨海大桥：东端接西卡纳尔布莱恩海道（右端有存档点），西端接北琉砂道并有南下道路往北康宁湾海道（南侧出口附近路旁有治愈葡萄串）。桥左侧梯子下到水面码头，可划独木舟：向右到平台、向南到小岛、穿过桥墩缺口北上到废灯塔与半截塔所在的小岛（篡夺者潜窟入口）。",
     "zones": [
-      { "kind": "water", "rect": [14, 0, 86, 70] },
-      { "kind": "sand", "rect": [0, 0, 14, 70] },
-      { "kind": "sand", "rect": [88, 30, 12, 18] },
-      { "kind": "sand", "poly": [[60, 4], [90, 2], [99, 6], [99, 18], [66, 20]] },
-      { "kind": "rock", "rect": [66, 3, 10, 9], "label": "废灯塔" },
-      { "kind": "rock", "rect": [86, 6, 11, 9], "label": "半截塔" },
-      { "kind": "sand", "circle": [58, 60, 4], "label": "南侧小岛" },
-      { "kind": "deck", "rect": [35, 50, 8, 5], "label": "平台" }
+      {
+        "kind": "water",
+        "rect": [
+          14,
+          0,
+          86,
+          70
+        ]
+      },
+      {
+        "kind": "sand",
+        "rect": [
+          0,
+          0,
+          14,
+          70
+        ]
+      },
+      {
+        "kind": "sand",
+        "rect": [
+          88,
+          30,
+          12,
+          18
+        ]
+      },
+      {
+        "kind": "sand",
+        "poly": [
+          [
+            60,
+            4
+          ],
+          [
+            90,
+            2
+          ],
+          [
+            99,
+            6
+          ],
+          [
+            99,
+            18
+          ],
+          [
+            66,
+            20
+          ]
+        ]
+      },
+      {
+        "kind": "rock",
+        "rect": [
+          66,
+          3,
+          10,
+          9
+        ],
+        "label": "废灯塔"
+      },
+      {
+        "kind": "rock",
+        "rect": [
+          86,
+          6,
+          11,
+          9
+        ],
+        "label": "半截塔"
+      },
+      {
+        "kind": "sand",
+        "circle": [
+          58,
+          60,
+          4
+        ],
+        "label": "南侧小岛"
+      },
+      {
+        "kind": "deck",
+        "rect": [
+          35,
+          50,
+          8,
+          5
+        ],
+        "label": "平台"
+      }
     ],
     "paths": [
-      { "kind": "main", "pts": [[98, 40], [86, 38]] },
-      { "kind": "bridge", "pts": [[86, 38], [50, 38], [16, 38]], "label": "卡纳尔布莱恩大桥" },
-      { "kind": "main", "pts": [[16, 38], [8, 36], [2, 34]] },
-      { "kind": "main", "pts": [[8, 36], [10, 52], [10, 68]], "label": "南下道路" },
-      { "kind": "ladder", "pts": [[20, 38], [20, 47]], "label": "桥左侧梯子" },
-      { "kind": "boat", "pts": [[20, 47], [30, 52], [38, 52]], "label": "向右划到平台" },
-      { "kind": "boat", "pts": [[30, 52], [48, 58], [56, 60]], "label": "划到南侧小岛" },
-      { "kind": "boat", "pts": [[20, 47], [30, 42], [36, 38], [44, 28], [56, 18], [64, 16]], "label": "穿过桥墩缺口北上" },
-      { "kind": "stairs", "pts": [[64, 16], [70, 9], [72, 4]], "label": "登上废灯塔" },
-      { "kind": "minor", "pts": [[64, 16], [80, 14], [96, 12]], "label": "往半截塔" }
+      {
+        "kind": "main",
+        "pts": [
+          [
+            98,
+            40
+          ],
+          [
+            86,
+            38
+          ]
+        ],
+        "label": "东端存档点至桥头",
+        "route": {
+          "from": "东口／存档点",
+          "to": "大桥东侧桥头",
+          "steps": [
+            "从西卡纳尔布莱恩海道进入",
+            "经过存档点与附近免疫之叶宝箱，向西上桥"
+          ],
+          "sources": [
+            {
+              "label": "Neoseeker · 港湾之地路线",
+              "url": "https://www.neoseeker.com/octopath-traveler-ii/walkthrough/WE_Castti"
+            },
+            {
+              "label": "Game8 · 大桥地图",
+              "url": "https://game8.jp/octopathtraveler2/515151"
+            },
+            {
+              "label": "AppMedia · 桥下北行至潜窟",
+              "url": "https://appmedia.jp/octopathtraveler2/76519139"
+            }
+          ]
+        }
+      },
+      {
+        "kind": "bridge",
+        "pts": [
+          [
+            86,
+            38
+          ],
+          [
+            50,
+            38
+          ],
+          [
+            16,
+            38
+          ]
+        ],
+        "label": "桥面东西通行",
+        "route": {
+          "from": "大桥东侧桥头",
+          "to": "大桥西端",
+          "steps": [
+            "沿桥面向西穿过大桥",
+            "寻找西侧通往桥底的梯子"
+          ],
+          "sources": [
+            {
+              "label": "Neoseeker · 港湾之地路线",
+              "url": "https://www.neoseeker.com/octopath-traveler-ii/walkthrough/WE_Castti"
+            },
+            {
+              "label": "Game8 · 大桥地图",
+              "url": "https://game8.jp/octopathtraveler2/515151"
+            },
+            {
+              "label": "AppMedia · 桥下北行至潜窟",
+              "url": "https://appmedia.jp/octopathtraveler2/76519139"
+            }
+          ],
+          "caution": "桥下航线与桥面分层；图上交叉处不能直接上下桥"
+        }
+      },
+      {
+        "kind": "main",
+        "pts": [
+          [
+            16,
+            38
+          ],
+          [
+            8,
+            36
+          ],
+          [
+            2,
+            34
+          ]
+        ],
+        "label": "西端陆路出口",
+        "route": {
+          "from": "大桥西端",
+          "to": "北琉砂道出口",
+          "steps": [
+            "到西端岔路 A",
+            "继续向西去北琉砂道，向南则是另一条道路"
+          ],
+          "sources": [
+            {
+              "label": "Neoseeker · 港湾之地路线",
+              "url": "https://www.neoseeker.com/octopath-traveler-ii/walkthrough/WE_Castti"
+            },
+            {
+              "label": "Game8 · 大桥地图",
+              "url": "https://game8.jp/octopathtraveler2/515151"
+            },
+            {
+              "label": "AppMedia · 桥下北行至潜窟",
+              "url": "https://appmedia.jp/octopathtraveler2/76519139"
+            }
+          ]
+        }
+      },
+      {
+        "kind": "main",
+        "pts": [
+          [
+            8,
+            36
+          ],
+          [
+            10,
+            52
+          ],
+          [
+            10,
+            68
+          ]
+        ],
+        "label": "西端南下陆路",
+        "route": {
+          "from": "岔路 A",
+          "to": "北康宁湾海道出口",
+          "steps": [
+            "从西端岔路向南走",
+            "沿路可取治愈葡萄串",
+            "继续南下离开本区"
+          ],
+          "sources": [
+            {
+              "label": "Neoseeker · 港湾之地路线",
+              "url": "https://www.neoseeker.com/octopath-traveler-ii/walkthrough/WE_Castti"
+            },
+            {
+              "label": "Game8 · 大桥地图",
+              "url": "https://game8.jp/octopathtraveler2/515151"
+            },
+            {
+              "label": "AppMedia · 桥下北行至潜窟",
+              "url": "https://appmedia.jp/octopathtraveler2/76519139"
+            }
+          ],
+          "caution": "这条陆路不需要乘船，不要误走桥底航线"
+        }
+      },
+      {
+        "kind": "ladder",
+        "pts": [
+          [
+            20,
+            38
+          ],
+          [
+            20,
+            47
+          ]
+        ],
+        "label": "下梯至桥底码头",
+        "route": {
+          "from": "桥面西侧梯子",
+          "to": "桥底码头 B",
+          "steps": [
+            "找到桥西侧梯子并下到桥底",
+            "梯子脚下附近可取冰之精灵石",
+            "在码头换乘独木舟"
+          ],
+          "sources": [
+            {
+              "label": "Neoseeker · 港湾之地路线",
+              "url": "https://www.neoseeker.com/octopath-traveler-ii/walkthrough/WE_Castti"
+            },
+            {
+              "label": "Game8 · 大桥地图",
+              "url": "https://game8.jp/octopathtraveler2/515151"
+            },
+            {
+              "label": "AppMedia · 桥下北行至潜窟",
+              "url": "https://appmedia.jp/octopathtraveler2/76519139"
+            }
+          ],
+          "caution": "从桥面到水面的换层点是梯子"
+        }
+      },
+      {
+        "kind": "boat",
+        "pts": [
+          [
+            20,
+            47
+          ],
+          [
+            30,
+            52
+          ],
+          [
+            38,
+            52
+          ]
+        ],
+        "label": "码头向东到平台",
+        "route": {
+          "from": "桥底码头 B",
+          "to": "桥下东侧平台",
+          "steps": [
+            "在码头乘独木舟",
+            "沿水面向右划",
+            "到平台处取骑枪"
+          ],
+          "sources": [
+            {
+              "label": "Neoseeker · 港湾之地路线",
+              "url": "https://www.neoseeker.com/octopath-traveler-ii/walkthrough/WE_Castti"
+            },
+            {
+              "label": "Game8 · 大桥地图",
+              "url": "https://game8.jp/octopathtraveler2/515151"
+            },
+            {
+              "label": "AppMedia · 桥下北行至潜窟",
+              "url": "https://appmedia.jp/octopathtraveler2/76519139"
+            }
+          ],
+          "mode": "乘独木舟"
+        }
+      },
+      {
+        "kind": "boat",
+        "pts": [
+          [
+            30,
+            52
+          ],
+          [
+            48,
+            58
+          ],
+          [
+            56,
+            60
+          ]
+        ],
+        "label": "水路转向南侧小岛",
+        "route": {
+          "from": "东行航线分叉",
+          "to": "南侧小岛",
+          "steps": [
+            "从桥底东行水路的分叉向南划",
+            "到南侧小岛取回春果酱"
+          ],
+          "sources": [
+            {
+              "label": "Neoseeker · 港湾之地路线",
+              "url": "https://www.neoseeker.com/octopath-traveler-ii/walkthrough/WE_Castti"
+            },
+            {
+              "label": "Game8 · 大桥地图",
+              "url": "https://game8.jp/octopathtraveler2/515151"
+            },
+            {
+              "label": "AppMedia · 桥下北行至潜窟",
+              "url": "https://appmedia.jp/octopathtraveler2/76519139"
+            }
+          ],
+          "mode": "乘独木舟"
+        }
+      },
+      {
+        "kind": "boat",
+        "pts": [
+          [
+            20,
+            47
+          ],
+          [
+            30,
+            42
+          ],
+          [
+            36,
+            38
+          ],
+          [
+            44,
+            28
+          ],
+          [
+            56,
+            18
+          ],
+          [
+            64,
+            16
+          ]
+        ],
+        "label": "桥下穿行至北岛",
+        "route": {
+          "from": "桥底码头 B",
+          "to": "北侧小岛上岸处 C",
+          "steps": [
+            "在码头乘独木舟向北",
+            "从桥墩缺口穿过桥下",
+            "继续北上，在废灯塔所在小岛靠岸"
+          ],
+          "sources": [
+            {
+              "label": "Neoseeker · 港湾之地路线",
+              "url": "https://www.neoseeker.com/octopath-traveler-ii/walkthrough/WE_Castti"
+            },
+            {
+              "label": "Game8 · 大桥地图",
+              "url": "https://game8.jp/octopathtraveler2/515151"
+            },
+            {
+              "label": "AppMedia · 桥下北行至潜窟",
+              "url": "https://appmedia.jp/octopathtraveler2/76519139"
+            }
+          ],
+          "mode": "乘独木舟",
+          "caution": "经过的是桥下水路；不能在桥墩缺口直接登上桥面"
+        }
+      },
+      {
+        "kind": "ladder",
+        "pts": [
+          [
+            64,
+            16
+          ],
+          [
+            70,
+            9
+          ],
+          [
+            72,
+            4
+          ]
+        ],
+        "label": "上梯取灯塔顶宝箱",
+        "route": {
+          "from": "北侧小岛上岸处 C",
+          "to": "废灯塔顶部",
+          "steps": [
+            "上岸后寻找废灯塔的梯子",
+            "爬到顶部取银制剑",
+            "取完回到岛上分岔处"
+          ],
+          "sources": [
+            {
+              "label": "Neoseeker · 港湾之地路线",
+              "url": "https://www.neoseeker.com/octopath-traveler-ii/walkthrough/WE_Castti"
+            },
+            {
+              "label": "Game8 · 大桥地图",
+              "url": "https://game8.jp/octopathtraveler2/515151"
+            },
+            {
+              "label": "AppMedia · 桥下北行至潜窟",
+              "url": "https://appmedia.jp/octopathtraveler2/76519139"
+            }
+          ]
+        }
+      },
+      {
+        "kind": "minor",
+        "pts": [
+          [
+            64,
+            16
+          ],
+          [
+            80,
+            14
+          ],
+          [
+            96,
+            12
+          ]
+        ],
+        "label": "半截塔与潜窟入口",
+        "route": {
+          "from": "北侧小岛上岸处 C",
+          "to": "篡夺者潜窟入口",
+          "steps": [
+            "从上岸处向东走到半截塔",
+            "进入塔内，沿入口下到篡夺者潜窟"
+          ],
+          "sources": [
+            {
+              "label": "Neoseeker · 港湾之地路线",
+              "url": "https://www.neoseeker.com/octopath-traveler-ii/walkthrough/WE_Castti"
+            },
+            {
+              "label": "Game8 · 大桥地图",
+              "url": "https://game8.jp/octopathtraveler2/515151"
+            },
+            {
+              "label": "AppMedia · 桥下北行至潜窟",
+              "url": "https://appmedia.jp/octopathtraveler2/76519139"
+            }
+          ],
+          "caution": "不要把取银制剑的灯塔顶当成潜窟入口"
+        }
+      }
     ],
     "pois": [
-      { "kind": "exit", "at": [98, 40], "to": "western_canalbrine_coast", "label": "往西卡纳尔布莱恩海道", "lp": "b" },
-      { "kind": "exit", "at": [2, 34], "to": "hinoeuma/northern_ryu_sands", "label": "往北琉砂道", "lp": "t" },
-      { "kind": "exit", "at": [10, 68], "to": "northern_conning_creek_coast", "label": "往北康宁湾海道", "lp": "r" },
-      { "kind": "exit", "at": [96, 12], "to": "lair_of_the_usurper", "label": "篡夺者潜窟（半截塔内）", "lp": "b" },
-      { "kind": "chest", "at": [84, 38], "tr": [3], "lp": "t", "note": "大桥右端。" },
-      { "kind": "chest", "at": [20, 47], "tr": [4], "lp": "l" },
-      { "kind": "chest", "at": [38, 52], "tr": [2], "lp": "b" },
-      { "kind": "chest", "at": [56, 60], "tr": [1], "lp": "r" },
-      { "kind": "chest", "at": [10, 61], "tr": [5], "lp": "r", "note": "南侧出口（往北康宁湾海道）附近的路旁，不需乘船。" },
-      { "kind": "save", "at": [91, 39], "label": "存档点", "lp": "b", "note": "桥右端；免疫之叶宝箱在其附近。" },
-      { "kind": "chest_red", "at": [72, 4], "tr": [0], "lp": "l", "note": "废灯塔顶部，前期强力剑。" },
-      { "kind": "landmark", "at": [36, 40], "label": "桥墩缺口", "lp": "b" },
-      { "kind": "npc", "at": [28, 36], "label": "造桥工", "npc": [1], "lp": "t" },
-      { "kind": "npc", "at": [44, 36], "label": "工头", "npc": [2], "lp": "t" },
-      { "kind": "npc", "at": [56, 36], "label": "新手造桥工", "npc": [0], "lp": "t" }
+      {
+        "kind": "exit",
+        "at": [
+          98,
+          40
+        ],
+        "to": "western_canalbrine_coast",
+        "label": "往西卡纳尔布莱恩海道",
+        "lp": "b"
+      },
+      {
+        "kind": "exit",
+        "at": [
+          2,
+          34
+        ],
+        "to": "hinoeuma/northern_ryu_sands",
+        "label": "往北琉砂道",
+        "lp": "t"
+      },
+      {
+        "kind": "exit",
+        "at": [
+          10,
+          68
+        ],
+        "to": "northern_conning_creek_coast",
+        "label": "往北康宁湾海道",
+        "lp": "r"
+      },
+      {
+        "kind": "exit",
+        "at": [
+          96,
+          12
+        ],
+        "to": "lair_of_the_usurper",
+        "label": "篡夺者潜窟（半截塔内）",
+        "lp": "b"
+      },
+      {
+        "kind": "chest",
+        "at": [
+          84,
+          38
+        ],
+        "tr": [
+          3
+        ],
+        "lp": "t",
+        "note": "大桥右端。"
+      },
+      {
+        "kind": "chest",
+        "at": [
+          20,
+          47
+        ],
+        "tr": [
+          4
+        ],
+        "lp": "l"
+      },
+      {
+        "kind": "chest",
+        "at": [
+          38,
+          52
+        ],
+        "tr": [
+          2
+        ],
+        "lp": "b"
+      },
+      {
+        "kind": "chest",
+        "at": [
+          56,
+          60
+        ],
+        "tr": [
+          1
+        ],
+        "lp": "r"
+      },
+      {
+        "kind": "chest",
+        "at": [
+          10,
+          61
+        ],
+        "tr": [
+          5
+        ],
+        "lp": "r",
+        "note": "南侧出口（往北康宁湾海道）附近的路旁，不需乘船。"
+      },
+      {
+        "kind": "save",
+        "at": [
+          91,
+          39
+        ],
+        "label": "存档点",
+        "lp": "b",
+        "note": "桥右端；免疫之叶宝箱在其附近。"
+      },
+      {
+        "kind": "chest_red",
+        "at": [
+          72,
+          4
+        ],
+        "tr": [
+          0
+        ],
+        "lp": "l",
+        "note": "废灯塔顶部，前期强力剑。"
+      },
+      {
+        "kind": "landmark",
+        "at": [
+          36,
+          40
+        ],
+        "label": "桥墩缺口",
+        "lp": "b"
+      },
+      {
+        "kind": "npc",
+        "at": [
+          28,
+          36
+        ],
+        "label": "造桥工",
+        "npc": [
+          1
+        ],
+        "lp": "t"
+      },
+      {
+        "kind": "npc",
+        "at": [
+          44,
+          36
+        ],
+        "label": "工头",
+        "npc": [
+          2
+        ],
+        "lp": "t"
+      },
+      {
+        "kind": "npc",
+        "at": [
+          56,
+          36
+        ],
+        "label": "新手造桥工",
+        "npc": [
+          0
+        ],
+        "lp": "t"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Neoseeker · 港湾之地路线",
+        "url": "https://www.neoseeker.com/octopath-traveler-ii/walkthrough/WE_Castti"
+      },
+      {
+        "label": "Game8 · 大桥地图",
+        "url": "https://game8.jp/octopathtraveler2/515151"
+      },
+      {
+        "label": "AppMedia · 桥下北行至潜窟",
+        "url": "https://appmedia.jp/octopathtraveler2/76519139"
+      }
+    ],
+    "junctions": [
+      {
+        "label": "A",
+        "at": [
+          8,
+          36
+        ],
+        "roads": [
+          2,
+          3
+        ],
+        "note": "桥西端陆路分岔：西去北琉砂道，南去北康宁湾海道。"
+      },
+      {
+        "label": "B",
+        "at": [
+          20,
+          47
+        ],
+        "roads": [
+          4,
+          5,
+          7
+        ],
+        "note": "梯子脚下的桥底码头：从这里换乘独木舟，分走东侧平台或北侧灯塔岛。",
+        "labelAt": [
+          25,
+          45
+        ]
+      },
+      {
+        "label": "C",
+        "at": [
+          64,
+          16
+        ],
+        "roads": [
+          7,
+          8,
+          9
+        ],
+        "note": "北岛上岸后的分岔：向上爬灯塔取剑，向东进入半截塔找潜窟入口。"
+      }
+    ],
+    "crossings": [
+      {
+        "at": [
+          36,
+          38
+        ],
+        "labelAt": [
+          42,
+          46
+        ],
+        "over": 1,
+        "under": 7,
+        "note": "桥面／桥下不相通"
+      }
     ]
   },
   "lair_of_the_usurper": {
@@ -317,33 +1605,482 @@ OT2.addDetail("harborlands", {
   },
   "northern_conning_creek_coast": {
     "theme": "field",
-    "size": [100, 70],
+    "size": [
+      100,
+      70
+    ],
     "note": "北端接大桥南下道路，主路斜向西南通往西康宁湾海道。西北角有水池，西侧沙洲被等待中的女人挡住；中段向东伸出通往灵药公祭坛的长沙洲，途中北侧小岛与南侧小支路各有一箱。",
     "zones": [
-      { "kind": "water", "poly": [[50, 0], [100, 0], [100, 70], [60, 70], [54, 50], [46, 30]] },
-      { "kind": "water", "circle": [12, 12, 6], "label": "水池" },
-      { "kind": "sand", "rect": [2, 36, 22, 8], "label": "西侧沙洲" },
-      { "kind": "sand", "poly": [[44, 30], [98, 30], [98, 38], [44, 38]] },
-      { "kind": "sand", "circle": [66, 22, 4], "label": "小岛" },
-      { "kind": "sand", "circle": [78, 44, 3] }
+      {
+        "kind": "water",
+        "poly": [
+          [
+            50,
+            0
+          ],
+          [
+            100,
+            0
+          ],
+          [
+            100,
+            70
+          ],
+          [
+            60,
+            70
+          ],
+          [
+            54,
+            50
+          ],
+          [
+            46,
+            30
+          ]
+        ]
+      },
+      {
+        "kind": "water",
+        "circle": [
+          12,
+          12,
+          6
+        ],
+        "label": "水池"
+      },
+      {
+        "kind": "sand",
+        "rect": [
+          2,
+          36,
+          22,
+          8
+        ],
+        "label": "西侧沙洲"
+      },
+      {
+        "kind": "sand",
+        "poly": [
+          [
+            44,
+            30
+          ],
+          [
+            98,
+            30
+          ],
+          [
+            98,
+            38
+          ],
+          [
+            44,
+            38
+          ]
+        ]
+      },
+      {
+        "kind": "sand",
+        "circle": [
+          66,
+          22,
+          4
+        ],
+        "label": "小岛"
+      },
+      {
+        "kind": "sand",
+        "circle": [
+          78,
+          44,
+          3
+        ]
+      }
     ],
     "paths": [
-      { "kind": "main", "pts": [[40, 2], [40, 18], [36, 30], [30, 44], [20, 56], [4, 66]] },
-      { "kind": "minor", "pts": [[40, 18], [24, 14], [14, 12]], "label": "往西北角水池" },
-      { "kind": "minor", "pts": [[36, 30], [22, 40], [6, 40]], "label": "西侧沙洲" },
-      { "kind": "main", "pts": [[36, 30], [50, 34], [62, 34], [74, 34], [86, 34], [98, 34]], "label": "通往祭坛的沙洲" },
-      { "kind": "minor", "pts": [[62, 34], [66, 26], [66, 22]], "label": "东侧小岛" },
-      { "kind": "minor", "pts": [[74, 34], [78, 44]], "label": "小岛南面的小支路" }
+      {
+        "kind": "main",
+        "pts": [
+          [
+            40,
+            2
+          ],
+          [
+            40,
+            18
+          ],
+          [
+            36,
+            30
+          ],
+          [
+            30,
+            44
+          ],
+          [
+            20,
+            56
+          ],
+          [
+            4,
+            66
+          ]
+        ],
+        "label": "大桥至康宁湾方向主路",
+        "route": {
+          "from": "北口（来自大桥）",
+          "to": "西康宁湾海道出口",
+          "steps": [
+            "从大桥南下进入",
+            "沿主路走到岔路 A",
+            "不去祭坛时继续向西南走到西康宁湾海道"
+          ],
+          "sources": [
+            {
+              "label": "ArrPeeGeeZ · 北康宁湾海道",
+              "url": "https://www.arrpeegeez.com/2023/02/octopath-traveler-ii-walkthrough-area_31.html"
+            },
+            {
+              "label": "Game8 · 康宁湾周边地图",
+              "url": "https://game8.jp/octopathtraveler2/515156"
+            }
+          ]
+        }
+      },
+      {
+        "kind": "minor",
+        "pts": [
+          [
+            40,
+            18
+          ],
+          [
+            24,
+            14
+          ],
+          [
+            14,
+            12
+          ]
+        ],
+        "label": "北段往西北水池",
+        "route": {
+          "from": "北段主路",
+          "to": "西北角水池宝箱",
+          "steps": [
+            "从北段主路向西北绕",
+            "查看水池中的宝箱，取得活力石榴"
+          ],
+          "sources": [
+            {
+              "label": "ArrPeeGeeZ · 北康宁湾海道",
+              "url": "https://www.arrpeegeez.com/2023/02/octopath-traveler-ii-walkthrough-area_31.html"
+            },
+            {
+              "label": "Game8 · 康宁湾周边地图",
+              "url": "https://game8.jp/octopathtraveler2/515156"
+            }
+          ],
+          "caution": "攻略明确了水池位置，池边细部通行仍待截图校准"
+        }
+      },
+      {
+        "kind": "minor",
+        "pts": [
+          [
+            36,
+            30
+          ],
+          [
+            22,
+            40
+          ],
+          [
+            6,
+            40
+          ]
+        ],
+        "label": "西侧沙洲与挡路人",
+        "route": {
+          "from": "岔路 A",
+          "to": "等待中的女人后方宝箱",
+          "steps": [
+            "从主路向西走上细长沙洲",
+            "先处理挡路的等待中的女人",
+            "越过她后取三叉戟"
+          ],
+          "sources": [
+            {
+              "label": "ArrPeeGeeZ · 北康宁湾海道",
+              "url": "https://www.arrpeegeez.com/2023/02/octopath-traveler-ii-walkthrough-area_31.html"
+            },
+            {
+              "label": "Game8 · 康宁湾周边地图",
+              "url": "https://game8.jp/octopathtraveler2/515156"
+            }
+          ],
+          "caution": "需要清除挡路 NPC，不能只沿着主路直接走到宝箱"
+        }
+      },
+      {
+        "kind": "main",
+        "pts": [
+          [
+            36,
+            30
+          ],
+          [
+            50,
+            34
+          ],
+          [
+            62,
+            34
+          ],
+          [
+            74,
+            34
+          ],
+          [
+            86,
+            34
+          ],
+          [
+            98,
+            34
+          ]
+        ],
+        "label": "向东走长沙洲去祭坛",
+        "route": {
+          "from": "岔路 A",
+          "to": "灵药公祭坛入口",
+          "steps": [
+            "在主路中段转向东",
+            "沿长沙洲前进",
+            "经过两个宝箱分支后继续到祭坛"
+          ],
+          "sources": [
+            {
+              "label": "ArrPeeGeeZ · 北康宁湾海道",
+              "url": "https://www.arrpeegeez.com/2023/02/octopath-traveler-ii-walkthrough-area_31.html"
+            },
+            {
+              "label": "Game8 · 康宁湾周边地图",
+              "url": "https://game8.jp/octopathtraveler2/515156"
+            }
+          ],
+          "caution": "这是沙洲步行路线，不是桥下独木舟航线"
+        }
+      },
+      {
+        "kind": "minor",
+        "pts": [
+          [
+            62,
+            34
+          ],
+          [
+            66,
+            26
+          ],
+          [
+            66,
+            22
+          ]
+        ],
+        "label": "祭坛路北侧小岛",
+        "route": {
+          "from": "岔路 B",
+          "to": "风之精灵石（大）宝箱",
+          "steps": [
+            "沿祭坛沙洲到岔路 B",
+            "转往北侧伸出的小岛支路",
+            "取箱后返回同一条沙洲"
+          ],
+          "sources": [
+            {
+              "label": "ArrPeeGeeZ · 北康宁湾海道",
+              "url": "https://www.arrpeegeez.com/2023/02/octopath-traveler-ii-walkthrough-area_31.html"
+            },
+            {
+              "label": "Game8 · 康宁湾周边地图",
+              "url": "https://game8.jp/octopathtraveler2/515156"
+            }
+          ]
+        }
+      },
+      {
+        "kind": "minor",
+        "pts": [
+          [
+            74,
+            34
+          ],
+          [
+            78,
+            44
+          ]
+        ],
+        "label": "祭坛路南侧支路",
+        "route": {
+          "from": "岔路 C",
+          "to": "破盔之斧宝箱",
+          "steps": [
+            "继续沿祭坛沙洲向东",
+            "在小岛南面另一条分支向南走",
+            "取箱后返回沙洲"
+          ],
+          "sources": [
+            {
+              "label": "ArrPeeGeeZ · 北康宁湾海道",
+              "url": "https://www.arrpeegeez.com/2023/02/octopath-traveler-ii-walkthrough-area_31.html"
+            },
+            {
+              "label": "Game8 · 康宁湾周边地图",
+              "url": "https://game8.jp/octopathtraveler2/515156"
+            }
+          ]
+        }
+      }
     ],
     "pois": [
-      { "kind": "exit", "at": [40, 2], "to": "canalbrine_bridge", "label": "往卡纳尔布莱恩大桥", "lp": "r" },
-      { "kind": "exit", "at": [4, 66], "to": "western_conning_creek_coast", "label": "往西康宁湾海道", "lp": "r" },
-      { "kind": "exit", "at": [98, 34], "to": "altar_of_the_charitable", "label": "灵药公祭坛", "lp": "b" },
-      { "kind": "chest", "at": [12, 12], "tr": [0], "lp": "b" },
-      { "kind": "npc", "at": [16, 40], "label": "等待中的女人", "npc": [0], "lp": "t" },
-      { "kind": "chest", "at": [6, 40], "tr": [3], "lp": "b", "note": "需击倒挡路的等待中的女人。" },
-      { "kind": "chest", "at": [66, 22], "tr": [1], "lp": "r" },
-      { "kind": "chest", "at": [78, 44], "tr": [2], "lp": "r" }
+      {
+        "kind": "exit",
+        "at": [
+          40,
+          2
+        ],
+        "to": "canalbrine_bridge",
+        "label": "往卡纳尔布莱恩大桥",
+        "lp": "r"
+      },
+      {
+        "kind": "exit",
+        "at": [
+          4,
+          66
+        ],
+        "to": "western_conning_creek_coast",
+        "label": "往西康宁湾海道",
+        "lp": "r"
+      },
+      {
+        "kind": "exit",
+        "at": [
+          98,
+          34
+        ],
+        "to": "altar_of_the_charitable",
+        "label": "灵药公祭坛",
+        "lp": "b"
+      },
+      {
+        "kind": "chest",
+        "at": [
+          12,
+          12
+        ],
+        "tr": [
+          0
+        ],
+        "lp": "b"
+      },
+      {
+        "kind": "npc",
+        "at": [
+          16,
+          40
+        ],
+        "label": "等待中的女人",
+        "npc": [
+          0
+        ],
+        "lp": "t"
+      },
+      {
+        "kind": "chest",
+        "at": [
+          6,
+          40
+        ],
+        "tr": [
+          3
+        ],
+        "lp": "b",
+        "note": "需击倒挡路的等待中的女人。"
+      },
+      {
+        "kind": "chest",
+        "at": [
+          66,
+          22
+        ],
+        "tr": [
+          1
+        ],
+        "lp": "r"
+      },
+      {
+        "kind": "chest",
+        "at": [
+          78,
+          44
+        ],
+        "tr": [
+          2
+        ],
+        "lp": "r"
+      }
+    ],
+    "sources": [
+      {
+        "label": "ArrPeeGeeZ · 北康宁湾海道",
+        "url": "https://www.arrpeegeez.com/2023/02/octopath-traveler-ii-walkthrough-area_31.html"
+      },
+      {
+        "label": "Game8 · 康宁湾周边地图",
+        "url": "https://game8.jp/octopathtraveler2/515156"
+      }
+    ],
+    "junctions": [
+      {
+        "label": "A",
+        "at": [
+          36,
+          30
+        ],
+        "roads": [
+          0,
+          2,
+          3
+        ],
+        "note": "主路中段分岔：西侧沙洲有挡路女人，东侧长沙洲去祭坛；主路继续往西南。"
+      },
+      {
+        "label": "B",
+        "at": [
+          62,
+          34
+        ],
+        "roads": [
+          3,
+          4
+        ],
+        "note": "祭坛路第一处分支，向北取风之精灵石（大）。"
+      },
+      {
+        "label": "C",
+        "at": [
+          74,
+          34
+        ],
+        "roads": [
+          3,
+          5
+        ],
+        "note": "祭坛路另一处分支，向南取破盔之斧；直行向东仍去祭坛。"
+      }
     ]
   },
   "altar_of_the_charitable": {

@@ -1,0 +1,6364 @@
+{
+  "metadata": {
+    "game": "Dragon Quest 2 HD-2D (2025)",
+    "source": "Game8 public map tool",
+    "sourcePage": "https://game8.jp/dq2/140906",
+    "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+    "retrievedAt": "2026-11-08T09:59:51.766909+00:00",
+    "toolStructuralMappingId": 358,
+    "sourceUpdatedAt": 1762439023,
+    "worldImage": {
+      "file": "world-map.jpg",
+      "sourceUrl": "https://assets.game8.jp/uploads/ufbD60BSwiIQbNhMFLmosukY4N6zE6.jpg",
+      "width": 1400,
+      "height": 1424,
+      "sha256": "148cf003749fa36777d75c2e50f54b11672d60a22875d6bbb22b6e8b88c292d0"
+    },
+    "coordinateSystem": {
+      "sourceOrder": "lat,lng",
+      "sourceRange": [
+        0,
+        256
+      ],
+      "renderCRS": "Leaflet CRS.Simple",
+      "renderBounds": [
+        [
+          0,
+          0
+        ],
+        [
+          187.5,
+          187.5
+        ]
+      ],
+      "sourceToRender": "floor(value * (187.5 / 256) * 100) / 100",
+      "imageX": "renderLng / 187.5 * imageWidth",
+      "imageY": "(1 - renderLat / 187.5) * imageHeight",
+      "origin": "top left in normalized and image coordinates",
+      "axisDirections": {
+        "x": "right",
+        "y": "down"
+      },
+      "sourceEvidence": [
+        "https://assets.game8.jp/vite/assets/Index-JJ5WAx_r.js",
+        "https://assets.game8.jp/vite/assets/cursorPinCalculation-CuNOaY1B.js"
+      ],
+      "sourceEvidenceFacts": [
+        "Index module declares BoundLength=187.5, bounds=[[0,0],[187.5,187.5]], CRS.Simple; passes coordinates split by comma through helper before rendering.",
+        "cursor helper maps source value using floor(value*(boundLength/256)*100)/100."
+      ]
+    },
+    "counts": {
+      "rawRows": 143,
+      "locatedMarkers": 143,
+      "unlocatedRows": 0,
+      "locatedCategories": {
+        "キラキラ": 107,
+        "ひみつの場所": 36
+      },
+      "downloadedAssets": 144
+    },
+    "limitations": [
+      "This tool exposes one world area only; no local town/dungeon map layers.",
+      "Unlocated rows have no usable coordinates and are preserved separately. Never plot them at guessed positions.",
+      "Marker url fields are blank in source; sourcePage is attribution and verification link.",
+      "Raw marker titles/descriptions/item names are Japanese source data. No translations were invented.",
+      "World map and popup screenshots remain copyright of their respective owners; retain attribution."
+    ],
+    "downloadErrors": []
+  },
+  "markers": [
+    {
+      "id": "1828046",
+      "title": "キラキラ107",
+      "description": "船で海中に潜れるようになった後",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "211.27,22.51",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11962364/61d247333303360f177029dc06241323.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 211.27,
+        "lng": 22.51
+      },
+      "leafletCoordinate": {
+        "lat": 154.73,
+        "lng": 16.48
+      },
+      "imageCoordinate": {
+        "x": 123.05066666666667,
+        "y": 248.87722666666667
+      },
+      "normalizedCoordinate": {
+        "x": 0.08789333333333334,
+        "y": 0.17477333333333334
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11962364.webp",
+      "percentCoordinate": {
+        "x": 8.789333333333333,
+        "y": 17.477333333333334
+      }
+    },
+    {
+      "id": "1828047",
+      "title": "キラキラ106",
+      "description": "人魚の耳飾り入手後",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "241.15,54.94",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11962320/264b9411be75d866ff74d4e5225a2152.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 241.15,
+        "lng": 54.94
+      },
+      "leafletCoordinate": {
+        "lat": 176.62,
+        "lng": 40.23
+      },
+      "imageCoordinate": {
+        "x": 300.38399999999996,
+        "y": 82.62997333333334
+      },
+      "normalizedCoordinate": {
+        "x": 0.21455999999999997,
+        "y": 0.05802666666666667
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11962320.webp",
+      "percentCoordinate": {
+        "x": 21.455999999999996,
+        "y": 5.802666666666667
+      }
+    },
+    {
+      "id": "1828048",
+      "title": "キラキラ105",
+      "description": "船入手後",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "18.26,103.41",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11962111/75d0936dd1cd1f7b56ba04b95b13dc6e.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 18.26,
+        "lng": 103.41
+      },
+      "leafletCoordinate": {
+        "lat": 13.37,
+        "lng": 75.73
+      },
+      "imageCoordinate": {
+        "x": 565.4506666666667,
+        "y": 1322.4593066666666
+      },
+      "normalizedCoordinate": {
+        "x": 0.4038933333333334,
+        "y": 0.9286933333333334
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11962111.webp",
+      "percentCoordinate": {
+        "x": 40.38933333333334,
+        "y": 92.86933333333334
+      }
+    },
+    {
+      "id": "1828049",
+      "title": "キラキラ104",
+      "description": "船入手後",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "215.55,232.09",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11962050/eeb07c5f3f4963b0de2f47ad0197f5ee.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 215.55,
+        "lng": 232.09
+      },
+      "leafletCoordinate": {
+        "lat": 157.87,
+        "lng": 169.98
+      },
+      "imageCoordinate": {
+        "x": 1269.184,
+        "y": 225.02997333333332
+      },
+      "normalizedCoordinate": {
+        "x": 0.9065599999999999,
+        "y": 0.15802666666666665
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11962050.webp",
+      "percentCoordinate": {
+        "x": 90.65599999999999,
+        "y": 15.802666666666665
+      }
+    },
+    {
+      "id": "1828050",
+      "title": "キラキラ103",
+      "description": "船で海中に潜れるようになった後",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "189.61,232.09",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11960174/c403ba7559923794b62b97d6c9e2e35a.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 189.61,
+        "lng": 232.09
+      },
+      "leafletCoordinate": {
+        "lat": 138.87,
+        "lng": 169.98
+      },
+      "imageCoordinate": {
+        "x": 1269.184,
+        "y": 369.3286399999999
+      },
+      "normalizedCoordinate": {
+        "x": 0.9065599999999999,
+        "y": 0.2593599999999999
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11960174.webp",
+      "percentCoordinate": {
+        "x": 90.65599999999999,
+        "y": 25.935999999999993
+      }
+    },
+    {
+      "id": "1828051",
+      "title": "キラキラ102",
+      "description": "人魚の耳飾り入手後",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "172.29,116.21",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11945580/3cac48cd647f321473e7cb46d2725d10.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 172.29,
+        "lng": 116.21
+      },
+      "leafletCoordinate": {
+        "lat": 126.18,
+        "lng": 85.11
+      },
+      "imageCoordinate": {
+        "x": 635.4879999999999,
+        "y": 465.70495999999997
+      },
+      "normalizedCoordinate": {
+        "x": 0.45392,
+        "y": 0.32704
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11945580.webp",
+      "percentCoordinate": {
+        "x": 45.391999999999996,
+        "y": 32.704
+      }
+    },
+    {
+      "id": "1828052",
+      "title": "キラキラ101",
+      "description": "人魚の耳飾り入手後",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "73.08,221.17",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11944950/51bc223ab792ad0b082dd77937814db1.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 73.08,
+        "lng": 221.17
+      },
+      "leafletCoordinate": {
+        "lat": 53.52,
+        "lng": 161.98
+      },
+      "imageCoordinate": {
+        "x": 1209.4506666666666,
+        "y": 1017.5334399999999
+      },
+      "normalizedCoordinate": {
+        "x": 0.8638933333333333,
+        "y": 0.71456
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11944950.webp",
+      "percentCoordinate": {
+        "x": 86.38933333333333,
+        "y": 71.456
+      }
+    },
+    {
+      "id": "1828053",
+      "title": "ひみつの場所36",
+      "description": "ベリアルを倒したあと",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720799/9f7d3e059104a71fd290339b0b1f111d.png/show",
+      "coordinate": "75.33,92.97",
+      "classification": "ひみつの場所",
+      "popupImage": "https://img.game8.jp/11935146/d432b700164f0f4163304ee07de2f402.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 75.33,
+        "lng": 92.97
+      },
+      "leafletCoordinate": {
+        "lat": 55.17,
+        "lng": 68.09
+      },
+      "imageCoordinate": {
+        "x": 508.4053333333333,
+        "y": 1005.0022399999999
+      },
+      "normalizedCoordinate": {
+        "x": 0.3631466666666667,
+        "y": 0.7057599999999999
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720799.png",
+      "popupImageLocal": "popups/11935146.webp",
+      "percentCoordinate": {
+        "x": 36.31466666666667,
+        "y": 70.576
+      }
+    },
+    {
+      "id": "1828054",
+      "title": "ひみつの場所35",
+      "description": "ベリアルを倒したあと",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720799/9f7d3e059104a71fd290339b0b1f111d.png/show",
+      "coordinate": "97.18,141.62",
+      "classification": "ひみつの場所",
+      "popupImage": "https://img.game8.jp/11935085/b4292ac7256e476e78ebe98c63fa05c6.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 97.18,
+        "lng": 141.62
+      },
+      "leafletCoordinate": {
+        "lat": 71.17,
+        "lng": 103.72
+      },
+      "imageCoordinate": {
+        "x": 774.4426666666666,
+        "y": 883.4875733333333
+      },
+      "normalizedCoordinate": {
+        "x": 0.5531733333333333,
+        "y": 0.6204266666666667
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720799.png",
+      "popupImageLocal": "popups/11935085.webp",
+      "percentCoordinate": {
+        "x": 55.31733333333333,
+        "y": 62.04266666666667
+      }
+    },
+    {
+      "id": "1828055",
+      "title": "ひみつの場所34",
+      "description": "船入手後",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720799/9f7d3e059104a71fd290339b0b1f111d.png/show",
+      "coordinate": "112.03,128.47",
+      "classification": "ひみつの場所",
+      "popupImage": "https://img.game8.jp/11935055/493e5254f8fa20566d1498ebdb591c74.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 112.03,
+        "lng": 128.47
+      },
+      "leafletCoordinate": {
+        "lat": 82.05,
+        "lng": 94.09
+      },
+      "imageCoordinate": {
+        "x": 702.5386666666667,
+        "y": 800.8576
+      },
+      "normalizedCoordinate": {
+        "x": 0.5018133333333333,
+        "y": 0.5624
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720799.png",
+      "popupImageLocal": "popups/11935055.webp",
+      "percentCoordinate": {
+        "x": 50.181333333333335,
+        "y": 56.24
+      }
+    },
+    {
+      "id": "1828056",
+      "title": "ひみつの場所33",
+      "description": "船入手後",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720799/9f7d3e059104a71fd290339b0b1f111d.png/show",
+      "coordinate": "105.58,66.75",
+      "classification": "ひみつの場所",
+      "popupImage": "https://img.game8.jp/11934266/c9a604fbb6415f0c079210bc362eb62e.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 105.58,
+        "lng": 66.75
+      },
+      "leafletCoordinate": {
+        "lat": 77.32,
+        "lng": 48.88
+      },
+      "imageCoordinate": {
+        "x": 364.97066666666666,
+        "y": 836.7803733333334
+      },
+      "normalizedCoordinate": {
+        "x": 0.26069333333333333,
+        "y": 0.5876266666666667
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720799.png",
+      "popupImageLocal": "popups/11934266.webp",
+      "percentCoordinate": {
+        "x": 26.069333333333333,
+        "y": 58.762666666666675
+      }
+    },
+    {
+      "id": "1828057",
+      "title": "ひみつの場所32",
+      "description": "船入手後",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720799/9f7d3e059104a71fd290339b0b1f111d.png/show",
+      "coordinate": "95.94,213.7",
+      "classification": "ひみつの場所",
+      "popupImage": "https://img.game8.jp/11934098/058b82af9ead359e5b5388bdaa018422.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 95.94,
+        "lng": 213.7
+      },
+      "leafletCoordinate": {
+        "lat": 70.26,
+        "lng": 156.51
+      },
+      "imageCoordinate": {
+        "x": 1168.608,
+        "y": 890.3987199999999
+      },
+      "normalizedCoordinate": {
+        "x": 0.8347199999999999,
+        "y": 0.62528
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720799.png",
+      "popupImageLocal": "popups/11934098.webp",
+      "percentCoordinate": {
+        "x": 83.472,
+        "y": 62.52799999999999
+      }
+    },
+    {
+      "id": "1828058",
+      "title": "ひみつの場所31",
+      "description": "船入手後",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720799/9f7d3e059104a71fd290339b0b1f111d.png/show",
+      "coordinate": "159,216.71",
+      "classification": "ひみつの場所",
+      "popupImage": "https://img.game8.jp/11933278/3dedaa5be35a641d4369e084e7d4516c.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 159.0,
+        "lng": 216.71
+      },
+      "leafletCoordinate": {
+        "lat": 116.45,
+        "lng": 158.72
+      },
+      "imageCoordinate": {
+        "x": 1185.1093333333333,
+        "y": 539.6010666666667
+      },
+      "normalizedCoordinate": {
+        "x": 0.8465066666666666,
+        "y": 0.37893333333333334
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720799.png",
+      "popupImageLocal": "popups/11933278.webp",
+      "percentCoordinate": {
+        "x": 84.65066666666667,
+        "y": 37.89333333333333
+      }
+    },
+    {
+      "id": "1828059",
+      "title": "ひみつの場所30",
+      "description": "船で北の小島に上陸",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720799/9f7d3e059104a71fd290339b0b1f111d.png/show",
+      "coordinate": "42.32,177.16",
+      "classification": "ひみつの場所",
+      "popupImage": "https://img.game8.jp/11933149/94fd111f1b4a5401ea369f6284f84d14.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 42.32,
+        "lng": 177.16
+      },
+      "leafletCoordinate": {
+        "lat": 30.99,
+        "lng": 129.75
+      },
+      "imageCoordinate": {
+        "x": 968.8,
+        "y": 1188.64128
+      },
+      "normalizedCoordinate": {
+        "x": 0.692,
+        "y": 0.83472
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720799.png",
+      "popupImageLocal": "popups/11933149.webp",
+      "percentCoordinate": {
+        "x": 69.19999999999999,
+        "y": 83.47200000000001
+      }
+    },
+    {
+      "id": "1828060",
+      "title": "ひみつの場所29",
+      "description": "船入手後",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720799/9f7d3e059104a71fd290339b0b1f111d.png/show",
+      "coordinate": "54.39,142.26",
+      "classification": "ひみつの場所",
+      "popupImage": "https://img.game8.jp/11933097/27c14c52b7c270cda1376de1970c7d37.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 54.39,
+        "lng": 142.26
+      },
+      "leafletCoordinate": {
+        "lat": 39.83,
+        "lng": 104.19
+      },
+      "imageCoordinate": {
+        "x": 777.9519999999999,
+        "y": 1121.5044266666666
+      },
+      "normalizedCoordinate": {
+        "x": 0.55568,
+        "y": 0.7875733333333333
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720799.png",
+      "popupImageLocal": "popups/11933097.webp",
+      "percentCoordinate": {
+        "x": 55.568,
+        "y": 78.75733333333334
+      }
+    },
+    {
+      "id": "1828061",
+      "title": "ひみつの場所28",
+      "description": "船入手後",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720799/9f7d3e059104a71fd290339b0b1f111d.png/show",
+      "coordinate": "72.94,66.45",
+      "classification": "ひみつの場所",
+      "popupImage": "https://img.game8.jp/11933062/ee2c89239f3acd36302d6648c2ee7162.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 72.94,
+        "lng": 66.45
+      },
+      "leafletCoordinate": {
+        "lat": 53.42,
+        "lng": 48.66
+      },
+      "imageCoordinate": {
+        "x": 363.328,
+        "y": 1018.2929066666667
+      },
+      "normalizedCoordinate": {
+        "x": 0.25952,
+        "y": 0.7150933333333334
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720799.png",
+      "popupImageLocal": "popups/11933062.webp",
+      "percentCoordinate": {
+        "x": 25.951999999999998,
+        "y": 71.50933333333333
+      }
+    },
+    {
+      "id": "1828062",
+      "title": "ひみつの場所27",
+      "description": "月のかけら入手後、船で上陸",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720799/9f7d3e059104a71fd290339b0b1f111d.png/show",
+      "coordinate": "154.82,109.7",
+      "classification": "ひみつの場所",
+      "popupImage": "https://img.game8.jp/11932979/726b8591c252fc93e7a13998ab209de2.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 154.82,
+        "lng": 109.7
+      },
+      "leafletCoordinate": {
+        "lat": 113.39,
+        "lng": 80.34
+      },
+      "imageCoordinate": {
+        "x": 599.8720000000001,
+        "y": 562.8407466666666
+      },
+      "normalizedCoordinate": {
+        "x": 0.42848,
+        "y": 0.39525333333333335
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720799.png",
+      "popupImageLocal": "popups/11932979.webp",
+      "percentCoordinate": {
+        "x": 42.848000000000006,
+        "y": 39.525333333333336
+      }
+    },
+    {
+      "id": "1828063",
+      "title": "ひみつの場所26",
+      "description": "船入手後",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720799/9f7d3e059104a71fd290339b0b1f111d.png/show",
+      "coordinate": "195.32,88.11",
+      "classification": "ひみつの場所",
+      "popupImage": "https://img.game8.jp/11930895/ad864418ece48f07a5b6f7ccb322e097.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 195.32,
+        "lng": 88.11
+      },
+      "leafletCoordinate": {
+        "lat": 143.05,
+        "lng": 64.53
+      },
+      "imageCoordinate": {
+        "x": 481.824,
+        "y": 337.5829333333333
+      },
+      "normalizedCoordinate": {
+        "x": 0.34416,
+        "y": 0.23706666666666665
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720799.png",
+      "popupImageLocal": "popups/11930895.webp",
+      "percentCoordinate": {
+        "x": 34.416000000000004,
+        "y": 23.706666666666663
+      }
+    },
+    {
+      "id": "1828064",
+      "title": "ひみつの場所25",
+      "description": "船入手後",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720799/9f7d3e059104a71fd290339b0b1f111d.png/show",
+      "coordinate": "195.48,46.43",
+      "classification": "ひみつの場所",
+      "popupImage": "https://img.game8.jp/11930814/f0b7b41fa6d59c6b8b004445e2c7fc76.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 195.48,
+        "lng": 46.43
+      },
+      "leafletCoordinate": {
+        "lat": 143.17,
+        "lng": 34.0
+      },
+      "imageCoordinate": {
+        "x": 253.86666666666667,
+        "y": 336.6715733333335
+      },
+      "normalizedCoordinate": {
+        "x": 0.18133333333333335,
+        "y": 0.23642666666666678
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720799.png",
+      "popupImageLocal": "popups/11930814.webp",
+      "percentCoordinate": {
+        "x": 18.133333333333333,
+        "y": 23.642666666666678
+      }
+    },
+    {
+      "id": "1828065",
+      "title": "ひみつの場所24",
+      "description": "船入手後",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720799/9f7d3e059104a71fd290339b0b1f111d.png/show",
+      "coordinate": "167.75,60.47",
+      "classification": "ひみつの場所",
+      "popupImage": "https://img.game8.jp/11930650/0b9c442d3872ea2f4b3c02c8d8f0112d.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 167.75,
+        "lng": 60.47
+      },
+      "leafletCoordinate": {
+        "lat": 122.86,
+        "lng": 44.28
+      },
+      "imageCoordinate": {
+        "x": 330.624,
+        "y": 490.9192533333333
+      },
+      "normalizedCoordinate": {
+        "x": 0.23616,
+        "y": 0.34474666666666665
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720799.png",
+      "popupImageLocal": "popups/11930650.webp",
+      "percentCoordinate": {
+        "x": 23.616,
+        "y": 34.474666666666664
+      }
+    },
+    {
+      "id": "1828066",
+      "title": "ひみつの場所23",
+      "description": "船で毒沼付近から上陸し、周り込む",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720799/9f7d3e059104a71fd290339b0b1f111d.png/show",
+      "coordinate": "111.01,88.25",
+      "classification": "ひみつの場所",
+      "popupImage": "https://img.game8.jp/11929418/e6b4d21a1aa56f526c0df2dcd2811eb4.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 111.01,
+        "lng": 88.25
+      },
+      "leafletCoordinate": {
+        "lat": 81.3,
+        "lng": 64.63
+      },
+      "imageCoordinate": {
+        "x": 482.5706666666666,
+        "y": 806.5536000000001
+      },
+      "normalizedCoordinate": {
+        "x": 0.3446933333333333,
+        "y": 0.5664
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720799.png",
+      "popupImageLocal": "popups/11929418.webp",
+      "percentCoordinate": {
+        "x": 34.46933333333333,
+        "y": 56.64
+      }
+    },
+    {
+      "id": "1828067",
+      "title": "ひみつの場所22",
+      "description": "船でしか来られない場所",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720799/9f7d3e059104a71fd290339b0b1f111d.png/show",
+      "coordinate": "218.53,70.6",
+      "classification": "ひみつの場所",
+      "popupImage": "https://img.game8.jp/11929018/c89abba34d16a92912cc7c8903857070.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 218.53,
+        "lng": 70.6
+      },
+      "leafletCoordinate": {
+        "lat": 160.05,
+        "lng": 51.7
+      },
+      "imageCoordinate": {
+        "x": 386.02666666666664,
+        "y": 208.47359999999998
+      },
+      "normalizedCoordinate": {
+        "x": 0.27573333333333333,
+        "y": 0.14639999999999997
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720799.png",
+      "popupImageLocal": "popups/11929018.webp",
+      "percentCoordinate": {
+        "x": 27.573333333333334,
+        "y": 14.639999999999997
+      }
+    },
+    {
+      "id": "1828068",
+      "title": "ひみつの場所21",
+      "description": "船入手後",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720799/9f7d3e059104a71fd290339b0b1f111d.png/show",
+      "coordinate": "229.03,104.69",
+      "classification": "ひみつの場所",
+      "popupImage": "https://img.game8.jp/11928878/ee245ff027f7257171e6839615fe16fe.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 229.03,
+        "lng": 104.69
+      },
+      "leafletCoordinate": {
+        "lat": 167.74,
+        "lng": 76.67
+      },
+      "imageCoordinate": {
+        "x": 572.4693333333333,
+        "y": 150.07061333333328
+      },
+      "normalizedCoordinate": {
+        "x": 0.4089066666666667,
+        "y": 0.10538666666666663
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720799.png",
+      "popupImageLocal": "popups/11928878.webp",
+      "percentCoordinate": {
+        "x": 40.89066666666667,
+        "y": 10.538666666666662
+      }
+    },
+    {
+      "id": "1828069",
+      "title": "ひみつの場所20",
+      "description": "船入手後",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720799/9f7d3e059104a71fd290339b0b1f111d.png/show",
+      "coordinate": "214.69,221.77",
+      "classification": "ひみつの場所",
+      "popupImage": "https://img.game8.jp/11928730/69d51685f2235926b280cb2706042eeb.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 214.69,
+        "lng": 221.77
+      },
+      "leafletCoordinate": {
+        "lat": 157.24,
+        "lng": 162.42
+      },
+      "imageCoordinate": {
+        "x": 1212.7359999999999,
+        "y": 229.8146133333332
+      },
+      "normalizedCoordinate": {
+        "x": 0.8662399999999999,
+        "y": 0.16138666666666657
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720799.png",
+      "popupImageLocal": "popups/11928730.webp",
+      "percentCoordinate": {
+        "x": 86.624,
+        "y": 16.13866666666666
+      }
+    },
+    {
+      "id": "1828070",
+      "title": "ひみつの場所19",
+      "description": "船入手後",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720799/9f7d3e059104a71fd290339b0b1f111d.png/show",
+      "coordinate": "130.55,211.87",
+      "classification": "ひみつの場所",
+      "popupImage": "https://img.game8.jp/11928243/7232a918f87f716f40e0d0ea18375cb4.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 130.55,
+        "lng": 211.87
+      },
+      "leafletCoordinate": {
+        "lat": 95.61,
+        "lng": 155.17
+      },
+      "imageCoordinate": {
+        "x": 1158.6026666666667,
+        "y": 697.87392
+      },
+      "normalizedCoordinate": {
+        "x": 0.8275733333333333,
+        "y": 0.49007999999999996
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720799.png",
+      "popupImageLocal": "popups/11928243.webp",
+      "percentCoordinate": {
+        "x": 82.75733333333332,
+        "y": 49.007999999999996
+      }
+    },
+    {
+      "id": "1828071",
+      "title": "ひみつの場所18",
+      "description": "船入手後",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720799/9f7d3e059104a71fd290339b0b1f111d.png/show",
+      "coordinate": "34.76,155.66",
+      "classification": "ひみつの場所",
+      "popupImage": "https://img.game8.jp/11927824/676d6a6def832a30c700716e95e02fe7.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 34.76,
+        "lng": 155.66
+      },
+      "leafletCoordinate": {
+        "lat": 25.45,
+        "lng": 114.0
+      },
+      "imageCoordinate": {
+        "x": 851.1999999999999,
+        "y": 1230.7157333333334
+      },
+      "normalizedCoordinate": {
+        "x": 0.608,
+        "y": 0.8642666666666667
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720799.png",
+      "popupImageLocal": "popups/11927824.webp",
+      "percentCoordinate": {
+        "x": 60.8,
+        "y": 86.42666666666668
+      }
+    },
+    {
+      "id": "1828072",
+      "title": "ひみつの場所17",
+      "description": "船入手後",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720799/9f7d3e059104a71fd290339b0b1f111d.png/show",
+      "coordinate": "40.35,46.01",
+      "classification": "ひみつの場所",
+      "popupImage": "https://img.game8.jp/11927195/0ac44ef1e12cd0bc1f2d4e64e87873b0.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 40.35,
+        "lng": 46.01
+      },
+      "leafletCoordinate": {
+        "lat": 29.55,
+        "lng": 33.69
+      },
+      "imageCoordinate": {
+        "x": 251.55199999999996,
+        "y": 1199.5776
+      },
+      "normalizedCoordinate": {
+        "x": 0.17967999999999998,
+        "y": 0.8424
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720799.png",
+      "popupImageLocal": "popups/11927195.webp",
+      "percentCoordinate": {
+        "x": 17.967999999999996,
+        "y": 84.24000000000001
+      }
+    },
+    {
+      "id": "1828073",
+      "title": "ひみつの場所16",
+      "description": "船入手後",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720799/9f7d3e059104a71fd290339b0b1f111d.png/show",
+      "coordinate": "164.6,34.26",
+      "classification": "ひみつの場所",
+      "popupImage": "https://img.game8.jp/11926294/16260734790f25ec3a401308d0bef067.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 164.6,
+        "lng": 34.26
+      },
+      "leafletCoordinate": {
+        "lat": 120.55,
+        "lng": 25.09
+      },
+      "imageCoordinate": {
+        "x": 187.33866666666668,
+        "y": 508.4629333333333
+      },
+      "normalizedCoordinate": {
+        "x": 0.13381333333333334,
+        "y": 0.35706666666666664
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720799.png",
+      "popupImageLocal": "popups/11926294.webp",
+      "percentCoordinate": {
+        "x": 13.381333333333334,
+        "y": 35.70666666666666
+      }
+    },
+    {
+      "id": "1828074",
+      "title": "ひみつの場所15",
+      "description": "",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720799/9f7d3e059104a71fd290339b0b1f111d.png/show",
+      "coordinate": "185.63,21.55",
+      "classification": "ひみつの場所",
+      "popupImage": "https://img.game8.jp/11926060/564ed4758f5c5cc6b15ff65e6ef3cbdf.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 185.63,
+        "lng": 21.55
+      },
+      "leafletCoordinate": {
+        "lat": 135.95,
+        "lng": 15.78
+      },
+      "imageCoordinate": {
+        "x": 117.824,
+        "y": 391.5050666666667
+      },
+      "normalizedCoordinate": {
+        "x": 0.08416,
+        "y": 0.27493333333333336
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720799.png",
+      "popupImageLocal": "popups/11926060.webp",
+      "percentCoordinate": {
+        "x": 8.416,
+        "y": 27.493333333333336
+      }
+    },
+    {
+      "id": "1828075",
+      "title": "ひみつの場所14",
+      "description": "",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720799/9f7d3e059104a71fd290339b0b1f111d.png/show",
+      "coordinate": "134.22,58.6",
+      "classification": "ひみつの場所",
+      "popupImage": "https://img.game8.jp/11925532/78f8e123736ec30852dcc7f0400211a1.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 134.22,
+        "lng": 58.6
+      },
+      "leafletCoordinate": {
+        "lat": 98.3,
+        "lng": 42.91
+      },
+      "imageCoordinate": {
+        "x": 320.39466666666664,
+        "y": 677.4442666666666
+      },
+      "normalizedCoordinate": {
+        "x": 0.22885333333333333,
+        "y": 0.47573333333333334
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720799.png",
+      "popupImageLocal": "popups/11925532.webp",
+      "percentCoordinate": {
+        "x": 22.88533333333333,
+        "y": 47.57333333333334
+      }
+    },
+    {
+      "id": "1828076",
+      "title": "ひみつの場所13",
+      "description": "",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720799/9f7d3e059104a71fd290339b0b1f111d.png/show",
+      "coordinate": "145.31,156.45",
+      "classification": "ひみつの場所",
+      "popupImage": "https://img.game8.jp/11925128/5228b7694966689b460dabcd885c12ba.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 145.31,
+        "lng": 156.45
+      },
+      "leafletCoordinate": {
+        "lat": 106.42,
+        "lng": 114.58
+      },
+      "imageCoordinate": {
+        "x": 855.5306666666668,
+        "y": 615.7755733333332
+      },
+      "normalizedCoordinate": {
+        "x": 0.6110933333333334,
+        "y": 0.4324266666666666
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720799.png",
+      "popupImageLocal": "popups/11925128.webp",
+      "percentCoordinate": {
+        "x": 61.10933333333334,
+        "y": 43.242666666666665
+      }
+    },
+    {
+      "id": "1828077",
+      "title": "ひみつの場所12",
+      "description": "",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720799/9f7d3e059104a71fd290339b0b1f111d.png/show",
+      "coordinate": "123.68,143.29",
+      "classification": "ひみつの場所",
+      "popupImage": "https://img.game8.jp/11925094/15bc755f50159e7504b96afdf3935f46.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 123.68,
+        "lng": 143.29
+      },
+      "leafletCoordinate": {
+        "lat": 90.58,
+        "lng": 104.94
+      },
+      "imageCoordinate": {
+        "x": 783.5519999999999,
+        "y": 736.0750933333333
+      },
+      "normalizedCoordinate": {
+        "x": 0.55968,
+        "y": 0.5169066666666666
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720799.png",
+      "popupImageLocal": "popups/11925094.webp",
+      "percentCoordinate": {
+        "x": 55.967999999999996,
+        "y": 51.690666666666665
+      }
+    },
+    {
+      "id": "1828078",
+      "title": "ひみつの場所11",
+      "description": "",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720799/9f7d3e059104a71fd290339b0b1f111d.png/show",
+      "coordinate": "129.87,93.83",
+      "classification": "ひみつの場所",
+      "popupImage": "https://img.game8.jp/11924511/be5c4caef05730112a28583e361b1519.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 129.87,
+        "lng": 93.83
+      },
+      "leafletCoordinate": {
+        "lat": 95.11,
+        "lng": 68.72
+      },
+      "imageCoordinate": {
+        "x": 513.1093333333333,
+        "y": 701.6712533333333
+      },
+      "normalizedCoordinate": {
+        "x": 0.36650666666666665,
+        "y": 0.49274666666666667
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720799.png",
+      "popupImageLocal": "popups/11924511.webp",
+      "percentCoordinate": {
+        "x": 36.650666666666666,
+        "y": 49.27466666666667
+      }
+    },
+    {
+      "id": "1828079",
+      "title": "ひみつの場所10",
+      "description": "",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720799/9f7d3e059104a71fd290339b0b1f111d.png/show",
+      "coordinate": "137.63,123.23",
+      "classification": "ひみつの場所",
+      "popupImage": "https://img.game8.jp/11924338/0616d974d602d500eac0ddf78ea00038.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 137.63,
+        "lng": 123.23
+      },
+      "leafletCoordinate": {
+        "lat": 100.8,
+        "lng": 90.25
+      },
+      "imageCoordinate": {
+        "x": 673.8666666666667,
+        "y": 658.4576000000001
+      },
+      "normalizedCoordinate": {
+        "x": 0.48133333333333334,
+        "y": 0.46240000000000003
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720799.png",
+      "popupImageLocal": "popups/11924338.webp",
+      "percentCoordinate": {
+        "x": 48.13333333333333,
+        "y": 46.24
+      }
+    },
+    {
+      "id": "1828080",
+      "title": "ひみつの場所9",
+      "description": "",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720799/9f7d3e059104a71fd290339b0b1f111d.png/show",
+      "coordinate": "155.81,146.96",
+      "classification": "ひみつの場所",
+      "popupImage": "https://img.game8.jp/11924284/78b7ea6471a46216ff921e117a72ecb8.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 155.81,
+        "lng": 146.96
+      },
+      "leafletCoordinate": {
+        "lat": 114.11,
+        "lng": 107.63
+      },
+      "imageCoordinate": {
+        "x": 803.6373333333333,
+        "y": 557.3725866666667
+      },
+      "normalizedCoordinate": {
+        "x": 0.5740266666666667,
+        "y": 0.3914133333333334
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720799.png",
+      "popupImageLocal": "popups/11924284.webp",
+      "percentCoordinate": {
+        "x": 57.40266666666667,
+        "y": 39.141333333333336
+      }
+    },
+    {
+      "id": "1828081",
+      "title": "ひみつの場所8",
+      "description": "",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720799/9f7d3e059104a71fd290339b0b1f111d.png/show",
+      "coordinate": "179.1,133.92",
+      "classification": "ひみつの場所",
+      "popupImage": "https://img.game8.jp/11924207/87cf59541cfa40b6b87099ba8d77ba0d.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 179.1,
+        "lng": 133.92
+      },
+      "leafletCoordinate": {
+        "lat": 131.17,
+        "lng": 98.08
+      },
+      "imageCoordinate": {
+        "x": 732.3306666666666,
+        "y": 427.80757333333344
+      },
+      "normalizedCoordinate": {
+        "x": 0.5230933333333333,
+        "y": 0.30042666666666673
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720799.png",
+      "popupImageLocal": "popups/11924207.webp",
+      "percentCoordinate": {
+        "x": 52.30933333333333,
+        "y": 30.042666666666673
+      }
+    },
+    {
+      "id": "1828082",
+      "title": "ひみつの場所7",
+      "description": "",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720799/9f7d3e059104a71fd290339b0b1f111d.png/show",
+      "coordinate": "219.72,133.32",
+      "classification": "ひみつの場所",
+      "popupImage": "https://img.game8.jp/11924059/976a199d9ac5e5c5d47c0914b752b293.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 219.72,
+        "lng": 133.32
+      },
+      "leafletCoordinate": {
+        "lat": 160.92,
+        "lng": 97.64
+      },
+      "imageCoordinate": {
+        "x": 729.0453333333334,
+        "y": 201.86624000000015
+      },
+      "normalizedCoordinate": {
+        "x": 0.5207466666666667,
+        "y": 0.1417600000000001
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720799.png",
+      "popupImageLocal": "popups/11924059.webp",
+      "percentCoordinate": {
+        "x": 52.07466666666667,
+        "y": 14.17600000000001
+      }
+    },
+    {
+      "id": "1828083",
+      "title": "ひみつの場所6",
+      "description": "",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720799/9f7d3e059104a71fd290339b0b1f111d.png/show",
+      "coordinate": "196.64,116.79",
+      "classification": "ひみつの場所",
+      "popupImage": "https://img.game8.jp/11923941/1ed745d4b6e7fbe3c3ab271b843a483b.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 196.64,
+        "lng": 116.79
+      },
+      "leafletCoordinate": {
+        "lat": 144.02,
+        "lng": 85.53
+      },
+      "imageCoordinate": {
+        "x": 638.624,
+        "y": 330.2161066666666
+      },
+      "normalizedCoordinate": {
+        "x": 0.45616,
+        "y": 0.23189333333333328
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720799.png",
+      "popupImageLocal": "popups/11923941.webp",
+      "percentCoordinate": {
+        "x": 45.616,
+        "y": 23.18933333333333
+      }
+    },
+    {
+      "id": "1828084",
+      "title": "ひみつの場所5",
+      "description": "",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720799/9f7d3e059104a71fd290339b0b1f111d.png/show",
+      "coordinate": "216.86,209.81",
+      "classification": "ひみつの場所",
+      "popupImage": "https://img.game8.jp/11923783/9c612e510e2ba90f5b19f5b3ff5e4822.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 216.86,
+        "lng": 209.81
+      },
+      "leafletCoordinate": {
+        "lat": 158.83,
+        "lng": 153.66
+      },
+      "imageCoordinate": {
+        "x": 1147.328,
+        "y": 217.7390933333333
+      },
+      "normalizedCoordinate": {
+        "x": 0.81952,
+        "y": 0.15290666666666664
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720799.png",
+      "popupImageLocal": "popups/11923783.webp",
+      "percentCoordinate": {
+        "x": 81.952,
+        "y": 15.290666666666663
+      }
+    },
+    {
+      "id": "1828085",
+      "title": "ひみつの場所4",
+      "description": "",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720799/9f7d3e059104a71fd290339b0b1f111d.png/show",
+      "coordinate": "211.1,181.3",
+      "classification": "ひみつの場所",
+      "popupImage": "https://img.game8.jp/11923731/0f54fae94445e5f9c731fb95455f23de.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 211.1,
+        "lng": 181.3
+      },
+      "leafletCoordinate": {
+        "lat": 154.61,
+        "lng": 132.78
+      },
+      "imageCoordinate": {
+        "x": 991.424,
+        "y": 249.78858666666665
+      },
+      "normalizedCoordinate": {
+        "x": 0.70816,
+        "y": 0.1754133333333333
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720799.png",
+      "popupImageLocal": "popups/11923731.webp",
+      "percentCoordinate": {
+        "x": 70.816,
+        "y": 17.54133333333333
+      }
+    },
+    {
+      "id": "1828086",
+      "title": "ひみつの場所3",
+      "description": "",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720799/9f7d3e059104a71fd290339b0b1f111d.png/show",
+      "coordinate": "200.22,153.44",
+      "classification": "ひみつの場所",
+      "popupImage": "https://img.game8.jp/11927139/1d173ed5531b4189918ffff0558adc4d.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 200.22,
+        "lng": 153.44
+      },
+      "leafletCoordinate": {
+        "lat": 146.64,
+        "lng": 112.38
+      },
+      "imageCoordinate": {
+        "x": 839.104,
+        "y": 310.3180800000002
+      },
+      "normalizedCoordinate": {
+        "x": 0.59936,
+        "y": 0.2179200000000001
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720799.png",
+      "popupImageLocal": "popups/11927139.webp",
+      "percentCoordinate": {
+        "x": 59.936,
+        "y": 21.792000000000012
+      }
+    },
+    {
+      "id": "1828087",
+      "title": "ひみつの場所2",
+      "description": "",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720799/9f7d3e059104a71fd290339b0b1f111d.png/show",
+      "coordinate": "190.96,199.57",
+      "classification": "ひみつの場所",
+      "popupImage": "https://img.game8.jp/11923090/d89a8cef9ae8ab655643c65bd8e33211.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 190.96,
+        "lng": 199.57
+      },
+      "leafletCoordinate": {
+        "lat": 139.86,
+        "lng": 146.16
+      },
+      "imageCoordinate": {
+        "x": 1091.328,
+        "y": 361.80992
+      },
+      "normalizedCoordinate": {
+        "x": 0.77952,
+        "y": 0.25408
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720799.png",
+      "popupImageLocal": "popups/11923090.webp",
+      "percentCoordinate": {
+        "x": 77.952,
+        "y": 25.407999999999998
+      }
+    },
+    {
+      "id": "1828088",
+      "title": "ひみつの場所1",
+      "description": "",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720799/9f7d3e059104a71fd290339b0b1f111d.png/show",
+      "coordinate": "178.72,173.45",
+      "classification": "ひみつの場所",
+      "popupImage": "https://img.game8.jp/11923024/0a04afac833484927dd6ee8937629216.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 178.72,
+        "lng": 173.45
+      },
+      "leafletCoordinate": {
+        "lat": 130.89,
+        "lng": 127.03
+      },
+      "imageCoordinate": {
+        "x": 948.4906666666667,
+        "y": 429.9340800000001
+      },
+      "normalizedCoordinate": {
+        "x": 0.6774933333333334,
+        "y": 0.3019200000000001
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720799.png",
+      "popupImageLocal": "popups/11923024.webp",
+      "percentCoordinate": {
+        "x": 67.74933333333334,
+        "y": 30.192000000000007
+      }
+    },
+    {
+      "id": "1828089",
+      "title": "キラキラ100",
+      "description": "人魚の耳飾り入手後",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "152.52,238.23",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11944916/8b4719217dba82ffde2b78184d300ce9.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 152.52,
+        "lng": 238.23
+      },
+      "leafletCoordinate": {
+        "lat": 111.7,
+        "lng": 174.48
+      },
+      "imageCoordinate": {
+        "x": 1302.7839999999999,
+        "y": 575.6757333333334
+      },
+      "normalizedCoordinate": {
+        "x": 0.9305599999999999,
+        "y": 0.40426666666666666
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11944916.webp",
+      "percentCoordinate": {
+        "x": 93.056,
+        "y": 40.42666666666667
+      }
+    },
+    {
+      "id": "1828090",
+      "title": "キラキラ99",
+      "description": "人魚の耳飾り入手後",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "69.91,9.88",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11944841/0352c45a8759d295ecc33aed24c278ad.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 69.91,
+        "lng": 9.88
+      },
+      "leafletCoordinate": {
+        "lat": 51.2,
+        "lng": 7.23
+      },
+      "imageCoordinate": {
+        "x": 53.98400000000001,
+        "y": 1035.1530666666667
+      },
+      "normalizedCoordinate": {
+        "x": 0.038560000000000004,
+        "y": 0.7269333333333333
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11944841.webp",
+      "percentCoordinate": {
+        "x": 3.8560000000000003,
+        "y": 72.69333333333333
+      }
+    },
+    {
+      "id": "1828091",
+      "title": "キラキラ98",
+      "description": "人魚の耳飾り入手後",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "15,24.39",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11944410/322e315bc8c3b472f0014114c6634b9d.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 15.0,
+        "lng": 24.39
+      },
+      "leafletCoordinate": {
+        "lat": 10.98,
+        "lng": 17.86
+      },
+      "imageCoordinate": {
+        "x": 133.35466666666667,
+        "y": 1340.61056
+      },
+      "normalizedCoordinate": {
+        "x": 0.09525333333333333,
+        "y": 0.94144
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11944410.webp",
+      "percentCoordinate": {
+        "x": 9.525333333333332,
+        "y": 94.144
+      }
+    },
+    {
+      "id": "1828092",
+      "title": "キラキラ97",
+      "description": "人魚の耳飾り入手後",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "17.38,71.16",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11941961/028916732439728ac202fd29f8bd7871.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 17.38,
+        "lng": 71.16
+      },
+      "leafletCoordinate": {
+        "lat": 12.72,
+        "lng": 52.11
+      },
+      "imageCoordinate": {
+        "x": 389.088,
+        "y": 1327.39584
+      },
+      "normalizedCoordinate": {
+        "x": 0.27792,
+        "y": 0.93216
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11941961.webp",
+      "percentCoordinate": {
+        "x": 27.792,
+        "y": 93.216
+      }
+    },
+    {
+      "id": "1828093",
+      "title": "キラキラ96",
+      "description": "人魚の耳飾り入手後",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "18.56,108.02",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11941961/028916732439728ac202fd29f8bd7871.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 18.56,
+        "lng": 108.02
+      },
+      "leafletCoordinate": {
+        "lat": 13.59,
+        "lng": 79.11
+      },
+      "imageCoordinate": {
+        "x": 590.688,
+        "y": 1320.78848
+      },
+      "normalizedCoordinate": {
+        "x": 0.42192,
+        "y": 0.92752
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11941961.webp",
+      "percentCoordinate": {
+        "x": 42.192,
+        "y": 92.752
+      }
+    },
+    {
+      "id": "1828094",
+      "title": "キラキラ95",
+      "description": "人魚の耳飾り入手後",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "148.49,172.35",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11944981/bdacf0ca906b6a44a8c61702208c1a27.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 148.49,
+        "lng": 172.35
+      },
+      "leafletCoordinate": {
+        "lat": 108.75,
+        "lng": 126.23
+      },
+      "imageCoordinate": {
+        "x": 942.5173333333333,
+        "y": 598.08
+      },
+      "normalizedCoordinate": {
+        "x": 0.6732266666666666,
+        "y": 0.42000000000000004
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11944981.webp",
+      "percentCoordinate": {
+        "x": 67.32266666666666,
+        "y": 42.00000000000001
+      }
+    },
+    {
+      "id": "1828095",
+      "title": "キラキラ94",
+      "description": "人魚の耳飾り入手後",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "21.51,174.4",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11945367/c5930f718424d2142b483408a00abdeb.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 21.51,
+        "lng": 174.4
+      },
+      "leafletCoordinate": {
+        "lat": 15.75,
+        "lng": 127.73
+      },
+      "imageCoordinate": {
+        "x": 953.7173333333333,
+        "y": 1304.384
+      },
+      "normalizedCoordinate": {
+        "x": 0.6812266666666666,
+        "y": 0.916
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11945367.webp",
+      "percentCoordinate": {
+        "x": 68.12266666666666,
+        "y": 91.60000000000001
+      }
+    },
+    {
+      "id": "1828096",
+      "title": "キラキラ93",
+      "description": "月のかけら入手後、マイラから岩礁を壊して入った海中（中層）",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "190.46,100.85",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11945568/d8162a7bac3f3a8238478085fc1aeaf2.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 190.46,
+        "lng": 100.85
+      },
+      "leafletCoordinate": {
+        "lat": 139.49,
+        "lng": 73.86
+      },
+      "imageCoordinate": {
+        "x": 551.4879999999999,
+        "y": 364.6199466666665
+      },
+      "normalizedCoordinate": {
+        "x": 0.39392,
+        "y": 0.25605333333333324
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11945568.webp",
+      "percentCoordinate": {
+        "x": 39.391999999999996,
+        "y": 25.605333333333324
+      }
+    },
+    {
+      "id": "1828097",
+      "title": "キラキラ92",
+      "description": "船で海中に潜れるようになった後",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "172.72,155.63",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11945334/71a11a729c0a1d8b226f56b7e5b9dc02.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 172.72,
+        "lng": 155.63
+      },
+      "leafletCoordinate": {
+        "lat": 126.5,
+        "lng": 113.98
+      },
+      "imageCoordinate": {
+        "x": 851.0506666666668,
+        "y": 463.2746666666667
+      },
+      "normalizedCoordinate": {
+        "x": 0.6078933333333334,
+        "y": 0.32533333333333336
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11945334.webp",
+      "percentCoordinate": {
+        "x": 60.78933333333334,
+        "y": 32.53333333333334
+      }
+    },
+    {
+      "id": "1828098",
+      "title": "キラキラ91",
+      "description": "船で海中に潜れるようになった後",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "227.95,117.74",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11944695/b636a5cf6f53322fe007da4e4bd6e49e.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 227.95,
+        "lng": 117.74
+      },
+      "leafletCoordinate": {
+        "lat": 166.95,
+        "lng": 86.23
+      },
+      "imageCoordinate": {
+        "x": 643.8506666666667,
+        "y": 156.07040000000003
+      },
+      "normalizedCoordinate": {
+        "x": 0.4598933333333334,
+        "y": 0.10960000000000003
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11944695.webp",
+      "percentCoordinate": {
+        "x": 45.989333333333335,
+        "y": 10.960000000000003
+      }
+    },
+    {
+      "id": "1828099",
+      "title": "キラキラ90",
+      "description": "船で海中に潜れるようになった後",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "23.52,41.97",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11944451/7b67c343f3787c2d30a99be8d472e6e2.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 23.52,
+        "lng": 41.97
+      },
+      "leafletCoordinate": {
+        "lat": 17.22,
+        "lng": 30.73
+      },
+      "imageCoordinate": {
+        "x": 229.45066666666668,
+        "y": 1293.21984
+      },
+      "normalizedCoordinate": {
+        "x": 0.16389333333333334,
+        "y": 0.90816
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11944451.webp",
+      "percentCoordinate": {
+        "x": 16.389333333333333,
+        "y": 90.816
+      }
+    },
+    {
+      "id": "1828100",
+      "title": "キラキラ89",
+      "description": "月のかけら入手後、ムーンブルク西のほこらから岩礁を壊して入る",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "110.34,113.82",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11943763/580550b1165ae09720d4cbf951994fed.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 110.34,
+        "lng": 113.82
+      },
+      "leafletCoordinate": {
+        "lat": 80.81,
+        "lng": 83.36
+      },
+      "imageCoordinate": {
+        "x": 622.4213333333333,
+        "y": 810.2749866666667
+      },
+      "normalizedCoordinate": {
+        "x": 0.4445866666666667,
+        "y": 0.5690133333333334
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11943763.webp",
+      "percentCoordinate": {
+        "x": 44.458666666666666,
+        "y": 56.90133333333334
+      }
+    },
+    {
+      "id": "1828101",
+      "title": "キラキラ88",
+      "description": "月のかけらで岩礁を壊せるようになった後",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "72.97,177.99",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11941820/e7896fb324b48e8102797c7a0a49134b.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 72.97,
+        "lng": 177.99
+      },
+      "leafletCoordinate": {
+        "lat": 53.44,
+        "lng": 130.36
+      },
+      "imageCoordinate": {
+        "x": 973.3546666666667,
+        "y": 1018.1410133333334
+      },
+      "normalizedCoordinate": {
+        "x": 0.6952533333333334,
+        "y": 0.7149866666666667
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11941820.webp",
+      "percentCoordinate": {
+        "x": 69.52533333333334,
+        "y": 71.49866666666667
+      }
+    },
+    {
+      "id": "1828102",
+      "title": "キラキラ87",
+      "description": "船で海中に潜れるようになった後",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "59.32,78.32",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11941563/4fc6972a5aa10fb13f1e5a14f3c90866.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 59.32,
+        "lng": 78.32
+      },
+      "leafletCoordinate": {
+        "lat": 43.44,
+        "lng": 57.36
+      },
+      "imageCoordinate": {
+        "x": 428.28799999999995,
+        "y": 1094.08768
+      },
+      "normalizedCoordinate": {
+        "x": 0.30591999999999997,
+        "y": 0.76832
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11941563.webp",
+      "percentCoordinate": {
+        "x": 30.592,
+        "y": 76.832
+      }
+    },
+    {
+      "id": "1828103",
+      "title": "キラキラ86",
+      "description": "船で海中に潜れるようになった後",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "135.44,228.67",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11940503/3b5c8b8dc3db41461430ba16bbfe157b.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 135.44,
+        "lng": 228.67
+      },
+      "leafletCoordinate": {
+        "lat": 99.19,
+        "lng": 167.48
+      },
+      "imageCoordinate": {
+        "x": 1250.5173333333332,
+        "y": 670.6850133333334
+      },
+      "normalizedCoordinate": {
+        "x": 0.8932266666666666,
+        "y": 0.47098666666666666
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11940503.webp",
+      "percentCoordinate": {
+        "x": 89.32266666666666,
+        "y": 47.09866666666667
+      }
+    },
+    {
+      "id": "1828104",
+      "title": "キラキラ85",
+      "description": "船で海中に潜れるようになった後",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "139.19,19.78",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11940456/991ddc7b2db8e9a9974a6ce986216cec.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 139.19,
+        "lng": 19.78
+      },
+      "leafletCoordinate": {
+        "lat": 101.94,
+        "lng": 14.48
+      },
+      "imageCoordinate": {
+        "x": 108.11733333333333,
+        "y": 649.7996800000001
+      },
+      "normalizedCoordinate": {
+        "x": 0.07722666666666667,
+        "y": 0.45632000000000006
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11940456.webp",
+      "percentCoordinate": {
+        "x": 7.722666666666667,
+        "y": 45.632000000000005
+      }
+    },
+    {
+      "id": "1828105",
+      "title": "キラキラ84",
+      "description": "船で海中に潜れるようになった後",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "120.17,173.9",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11939481/42d521ef82c0e8ff2b3119452d43aeca.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 120.17,
+        "lng": 173.9
+      },
+      "leafletCoordinate": {
+        "lat": 88.01,
+        "lng": 127.36
+      },
+      "imageCoordinate": {
+        "x": 950.9546666666668,
+        "y": 755.5933866666668
+      },
+      "normalizedCoordinate": {
+        "x": 0.6792533333333334,
+        "y": 0.5306133333333334
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11939481.webp",
+      "percentCoordinate": {
+        "x": 67.92533333333334,
+        "y": 53.06133333333334
+      }
+    },
+    {
+      "id": "1828106",
+      "title": "キラキラ83",
+      "description": "船で海中に潜れるようになった後",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "146.14,66.88",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11937466/d6509115d33e254a08aa04e6426d9cde.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 146.14,
+        "lng": 66.88
+      },
+      "leafletCoordinate": {
+        "lat": 107.03,
+        "lng": 48.98
+      },
+      "imageCoordinate": {
+        "x": 365.71733333333333,
+        "y": 611.1428266666666
+      },
+      "normalizedCoordinate": {
+        "x": 0.26122666666666666,
+        "y": 0.4291733333333333
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11937466.webp",
+      "percentCoordinate": {
+        "x": 26.122666666666667,
+        "y": 42.91733333333333
+      }
+    },
+    {
+      "id": "1828107",
+      "title": "キラキラ82",
+      "description": "ベリアルを倒したあと",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "74.23,96.18",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11935127/1abd4589251f0df346a433aa2b47bfeb.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 74.23,
+        "lng": 96.18
+      },
+      "leafletCoordinate": {
+        "lat": 54.36,
+        "lng": 70.44
+      },
+      "imageCoordinate": {
+        "x": 525.952,
+        "y": 1011.1539200000001
+      },
+      "normalizedCoordinate": {
+        "x": 0.37568,
+        "y": 0.71008
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11935127.webp",
+      "percentCoordinate": {
+        "x": 37.568,
+        "y": 71.00800000000001
+      }
+    },
+    {
+      "id": "1828108",
+      "title": "キラキラ81",
+      "description": "ベリアルを倒したあと",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "82.54,115.5",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11935115/a1c40a3f1457b80d3fa45bd459a05a6c.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 82.54,
+        "lng": 115.5
+      },
+      "leafletCoordinate": {
+        "lat": 60.45,
+        "lng": 84.59
+      },
+      "imageCoordinate": {
+        "x": 631.6053333333334,
+        "y": 964.9024
+      },
+      "normalizedCoordinate": {
+        "x": 0.4511466666666667,
+        "y": 0.6776
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11935115.webp",
+      "percentCoordinate": {
+        "x": 45.11466666666667,
+        "y": 67.75999999999999
+      }
+    },
+    {
+      "id": "1828109",
+      "title": "キラキラ80",
+      "description": "ベリアルを倒したあと",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "89.25,127.75",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11935068/dee5101c3f6de8e390753999d99296e7.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 89.25,
+        "lng": 127.75
+      },
+      "leafletCoordinate": {
+        "lat": 65.36,
+        "lng": 93.56
+      },
+      "imageCoordinate": {
+        "x": 698.5813333333334,
+        "y": 927.6125866666667
+      },
+      "normalizedCoordinate": {
+        "x": 0.4989866666666667,
+        "y": 0.6514133333333334
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11935068.webp",
+      "percentCoordinate": {
+        "x": 49.89866666666667,
+        "y": 65.14133333333334
+      }
+    },
+    {
+      "id": "1828110",
+      "title": "キラキラ79",
+      "description": "船で上陸して入手",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "111.65,141.2",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11935044/1814273f047e825627c761f5a9e2e431.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 111.65,
+        "lng": 141.2
+      },
+      "leafletCoordinate": {
+        "lat": 81.77,
+        "lng": 103.41
+      },
+      "imageCoordinate": {
+        "x": 772.128,
+        "y": 802.9841066666667
+      },
+      "normalizedCoordinate": {
+        "x": 0.55152,
+        "y": 0.5638933333333334
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11935044.webp",
+      "percentCoordinate": {
+        "x": 55.152,
+        "y": 56.38933333333333
+      }
+    },
+    {
+      "id": "1828111",
+      "title": "キラキラ78",
+      "description": "船で上陸して入手",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "105.37,158.05",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11935041/19d87e28fcef42adf88c16ef9fb93603.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 105.37,
+        "lng": 158.05
+      },
+      "leafletCoordinate": {
+        "lat": 77.17,
+        "lng": 115.75
+      },
+      "imageCoordinate": {
+        "x": 864.2666666666667,
+        "y": 837.9195733333333
+      },
+      "normalizedCoordinate": {
+        "x": 0.6173333333333333,
+        "y": 0.5884266666666667
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11935041.webp",
+      "percentCoordinate": {
+        "x": 61.73333333333333,
+        "y": 58.842666666666666
+      }
+    },
+    {
+      "id": "1828112",
+      "title": "キラキラ77",
+      "description": "ベリアルを倒したあと",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "76.11,129.14",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11935022/fc873caa3ac9a42628d513396c83f59b.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 76.11,
+        "lng": 129.14
+      },
+      "leafletCoordinate": {
+        "lat": 55.74,
+        "lng": 94.58
+      },
+      "imageCoordinate": {
+        "x": 706.1973333333334,
+        "y": 1000.67328
+      },
+      "normalizedCoordinate": {
+        "x": 0.5044266666666667,
+        "y": 0.70272
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11935022.webp",
+      "percentCoordinate": {
+        "x": 50.44266666666667,
+        "y": 70.272
+      }
+    },
+    {
+      "id": "1828113",
+      "title": "キラキラ76",
+      "description": "水門を解放したあと",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "101.18,86.31",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11934389/e7fd67f7248bc185326baf5177e4a113.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 101.18,
+        "lng": 86.31
+      },
+      "leafletCoordinate": {
+        "lat": 74.1,
+        "lng": 63.21
+      },
+      "imageCoordinate": {
+        "x": 471.968,
+        "y": 861.2352
+      },
+      "normalizedCoordinate": {
+        "x": 0.33712000000000003,
+        "y": 0.6048
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11934389.webp",
+      "percentCoordinate": {
+        "x": 33.712,
+        "y": 60.480000000000004
+      }
+    },
+    {
+      "id": "1828114",
+      "title": "キラキラ75",
+      "description": "船で上陸して入手",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "115.95,56.25",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11934286/0d16c629913efa3f8039b262dfefa896.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 115.95,
+        "lng": 56.25
+      },
+      "leafletCoordinate": {
+        "lat": 84.92,
+        "lng": 41.19
+      },
+      "imageCoordinate": {
+        "x": 307.55199999999996,
+        "y": 779.0609066666666
+      },
+      "normalizedCoordinate": {
+        "x": 0.21968,
+        "y": 0.5470933333333333
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11934286.webp",
+      "percentCoordinate": {
+        "x": 21.968,
+        "y": 54.70933333333333
+      }
+    },
+    {
+      "id": "1828115",
+      "title": "キラキラ74",
+      "description": "船で上陸して入手",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "87.4,73.91",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11934254/c2d9cef31d22272ee6367a05aa93acff.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 87.4,
+        "lng": 73.91
+      },
+      "leafletCoordinate": {
+        "lat": 64.01,
+        "lng": 54.13
+      },
+      "imageCoordinate": {
+        "x": 404.1706666666667,
+        "y": 937.8653866666666
+      },
+      "normalizedCoordinate": {
+        "x": 0.28869333333333336,
+        "y": 0.6586133333333333
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11934254.webp",
+      "percentCoordinate": {
+        "x": 28.869333333333337,
+        "y": 65.86133333333333
+      }
+    },
+    {
+      "id": "1828116",
+      "title": "キラキラ73",
+      "description": "船で上陸して入手",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "79.42,80.51",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11934243/f4adcc13f1b9d9b711c9d9daf45f43ee.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 79.42,
+        "lng": 80.51
+      },
+      "leafletCoordinate": {
+        "lat": 58.16,
+        "lng": 58.96
+      },
+      "imageCoordinate": {
+        "x": 440.2346666666667,
+        "y": 982.2941866666667
+      },
+      "normalizedCoordinate": {
+        "x": 0.31445333333333336,
+        "y": 0.6898133333333334
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11934243.webp",
+      "percentCoordinate": {
+        "x": 31.445333333333338,
+        "y": 68.98133333333334
+      }
+    },
+    {
+      "id": "1828117",
+      "title": "キラキラ72",
+      "description": "船で上陸して入手",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "86.46,58.05",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11934229/3a27348638ae3ff454555b890900a9ea.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 86.46,
+        "lng": 58.05
+      },
+      "leafletCoordinate": {
+        "lat": 63.32,
+        "lng": 42.51
+      },
+      "imageCoordinate": {
+        "x": 317.40799999999996,
+        "y": 943.1057066666667
+      },
+      "normalizedCoordinate": {
+        "x": 0.22671999999999998,
+        "y": 0.6622933333333334
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11934229.webp",
+      "percentCoordinate": {
+        "x": 22.671999999999997,
+        "y": 66.22933333333334
+      }
+    },
+    {
+      "id": "1828118",
+      "title": "キラキラ71",
+      "description": "船で上陸して入手",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "101.36,57.02",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11934218/371695cad781f82da607d1be4d28b60e.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 101.36,
+        "lng": 57.02
+      },
+      "leafletCoordinate": {
+        "lat": 74.23,
+        "lng": 41.76
+      },
+      "imageCoordinate": {
+        "x": 311.808,
+        "y": 860.2478933333332
+      },
+      "normalizedCoordinate": {
+        "x": 0.22272,
+        "y": 0.6041066666666666
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11934218.webp",
+      "percentCoordinate": {
+        "x": 22.272,
+        "y": 60.41066666666666
+      }
+    },
+    {
+      "id": "1828119",
+      "title": "キラキラ70",
+      "description": "船入手後",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "116.29,44.78",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11934202/25da9456c26b95c8fb32adf0c7c2f243.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 116.29,
+        "lng": 44.78
+      },
+      "leafletCoordinate": {
+        "lat": 85.17,
+        "lng": 32.79
+      },
+      "imageCoordinate": {
+        "x": 244.83200000000002,
+        "y": 777.16224
+      },
+      "normalizedCoordinate": {
+        "x": 0.17488,
+        "y": 0.54576
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11934202.webp",
+      "percentCoordinate": {
+        "x": 17.488,
+        "y": 54.576
+      }
+    },
+    {
+      "id": "1828120",
+      "title": "キラキラ69",
+      "description": "船入手後",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "117.48,69.14",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11934171/2d7c9fdfc237939be63a816b9b0cb90c.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 117.48,
+        "lng": 69.14
+      },
+      "leafletCoordinate": {
+        "lat": 86.04,
+        "lng": 50.63
+      },
+      "imageCoordinate": {
+        "x": 378.0373333333334,
+        "y": 770.55488
+      },
+      "normalizedCoordinate": {
+        "x": 0.2700266666666667,
+        "y": 0.54112
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11934171.webp",
+      "percentCoordinate": {
+        "x": 27.00266666666667,
+        "y": 54.112
+      }
+    },
+    {
+      "id": "1828121",
+      "title": "キラキラ68",
+      "description": "船入手後",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "103.87,214.58",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11934125/043b8a065788a87319ab6f328a95c0d6.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 103.87,
+        "lng": 214.58
+      },
+      "leafletCoordinate": {
+        "lat": 76.07,
+        "lng": 157.16
+      },
+      "imageCoordinate": {
+        "x": 1173.4613333333332,
+        "y": 846.2737066666667
+      },
+      "normalizedCoordinate": {
+        "x": 0.8381866666666666,
+        "y": 0.5942933333333333
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11934125.webp",
+      "percentCoordinate": {
+        "x": 83.81866666666666,
+        "y": 59.42933333333333
+      }
+    },
+    {
+      "id": "1828122",
+      "title": "キラキラ67",
+      "description": "船入手後",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "94.75,199.18",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11934055/e930ecbd07f1dd242e4c80c98db63b62.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 94.75,
+        "lng": 199.18
+      },
+      "leafletCoordinate": {
+        "lat": 69.39,
+        "lng": 145.88
+      },
+      "imageCoordinate": {
+        "x": 1089.2373333333333,
+        "y": 897.00608
+      },
+      "normalizedCoordinate": {
+        "x": 0.7780266666666666,
+        "y": 0.62992
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11934055.webp",
+      "percentCoordinate": {
+        "x": 77.80266666666667,
+        "y": 62.992000000000004
+      }
+    },
+    {
+      "id": "1828123",
+      "title": "キラキラ66",
+      "description": "船入手後",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "118.44,22.43",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11933360/5ee7eed3ab74ec7617257f71fe0fb1be.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 118.44,
+        "lng": 22.43
+      },
+      "leafletCoordinate": {
+        "lat": 86.74,
+        "lng": 16.42
+      },
+      "imageCoordinate": {
+        "x": 122.60266666666666,
+        "y": 765.2386133333333
+      },
+      "normalizedCoordinate": {
+        "x": 0.08757333333333334,
+        "y": 0.5373866666666667
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11933360.webp",
+      "percentCoordinate": {
+        "x": 8.757333333333333,
+        "y": 53.73866666666667
+      }
+    },
+    {
+      "id": "1828124",
+      "title": "キラキラ65",
+      "description": "船入手後",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "162.13,208.34",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11933258/82e62aaea684aeab24d813d173e36e69.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 162.13,
+        "lng": 208.34
+      },
+      "leafletCoordinate": {
+        "lat": 118.74,
+        "lng": 152.59
+      },
+      "imageCoordinate": {
+        "x": 1139.3386666666668,
+        "y": 522.20928
+      },
+      "normalizedCoordinate": {
+        "x": 0.8138133333333334,
+        "y": 0.36672000000000005
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11933258.webp",
+      "percentCoordinate": {
+        "x": 81.38133333333334,
+        "y": 36.672000000000004
+      }
+    },
+    {
+      "id": "1828125",
+      "title": "キラキラ64",
+      "description": "船入手後",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "152.48,202.42",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11933249/7ae6b0a2ec3084d5ebf0d005bacc5c98.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 152.48,
+        "lng": 202.42
+      },
+      "leafletCoordinate": {
+        "lat": 111.67,
+        "lng": 148.25
+      },
+      "imageCoordinate": {
+        "x": 1106.9333333333334,
+        "y": 575.9035733333334
+      },
+      "normalizedCoordinate": {
+        "x": 0.7906666666666666,
+        "y": 0.4044266666666667
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11933249.webp",
+      "percentCoordinate": {
+        "x": 79.06666666666666,
+        "y": 40.44266666666667
+      }
+    },
+    {
+      "id": "1828126",
+      "title": "キラキラ63",
+      "description": "船入手後",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "149.36,216.71",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11933240/1eff5fdc9e220a9d9890a0531578d93e.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 149.36,
+        "lng": 216.71
+      },
+      "leafletCoordinate": {
+        "lat": 109.39,
+        "lng": 158.72
+      },
+      "imageCoordinate": {
+        "x": 1185.1093333333333,
+        "y": 593.2194133333334
+      },
+      "normalizedCoordinate": {
+        "x": 0.8465066666666666,
+        "y": 0.41658666666666666
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11933240.webp",
+      "percentCoordinate": {
+        "x": 84.65066666666667,
+        "y": 41.65866666666667
+      }
+    },
+    {
+      "id": "1828127",
+      "title": "キラキラ62",
+      "description": "船入手後",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "182.85,220.62",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11933218/ec585cc310951f779690d7dc5479beae.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 182.85,
+        "lng": 220.62
+      },
+      "leafletCoordinate": {
+        "lat": 133.92,
+        "lng": 161.58
+      },
+      "imageCoordinate": {
+        "x": 1206.4640000000002,
+        "y": 406.92224000000004
+      },
+      "normalizedCoordinate": {
+        "x": 0.8617600000000001,
+        "y": 0.28576
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11933218.webp",
+      "percentCoordinate": {
+        "x": 86.176,
+        "y": 28.576
+      }
+    },
+    {
+      "id": "1828128",
+      "title": "キラキラ61",
+      "description": "船入手後",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "206.37,204.04",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11933195/7022fdb805cb2a094e447e544d64db07.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 206.37,
+        "lng": 204.04
+      },
+      "leafletCoordinate": {
+        "lat": 151.14,
+        "lng": 149.44
+      },
+      "imageCoordinate": {
+        "x": 1115.8186666666668,
+        "y": 276.14208000000013
+      },
+      "normalizedCoordinate": {
+        "x": 0.7970133333333334,
+        "y": 0.1939200000000001
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11933195.webp",
+      "percentCoordinate": {
+        "x": 79.70133333333334,
+        "y": 19.39200000000001
+      }
+    },
+    {
+      "id": "1828129",
+      "title": "キラキラ60",
+      "description": "船で小島に上陸する",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "225.14,237.45",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11933186/ca34b3c8ed7c624710e35ca9cf716bdd.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 225.14,
+        "lng": 237.45
+      },
+      "leafletCoordinate": {
+        "lat": 164.89,
+        "lng": 173.91
+      },
+      "imageCoordinate": {
+        "x": 1298.528,
+        "y": 171.71541333333343
+      },
+      "normalizedCoordinate": {
+        "x": 0.92752,
+        "y": 0.12058666666666673
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11933186.webp",
+      "percentCoordinate": {
+        "x": 92.752,
+        "y": 12.058666666666673
+      }
+    },
+    {
+      "id": "1828130",
+      "title": "キラキラ59",
+      "description": "船入手後",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "37.71,164.49",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11933117/5c0c73da27385adc42795aee2443f7e5.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 37.71,
+        "lng": 164.49
+      },
+      "leafletCoordinate": {
+        "lat": 27.61,
+        "lng": 120.47
+      },
+      "imageCoordinate": {
+        "x": 899.5093333333333,
+        "y": 1214.3112533333333
+      },
+      "normalizedCoordinate": {
+        "x": 0.6425066666666667,
+        "y": 0.8527466666666667
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11933117.webp",
+      "percentCoordinate": {
+        "x": 64.25066666666666,
+        "y": 85.27466666666666
+      }
+    },
+    {
+      "id": "1828131",
+      "title": "キラキラ58",
+      "description": "船入手後",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "42.48,140.9",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11933107/f1e2f0ddc163a7ade5db32c25a45e101.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 42.48,
+        "lng": 140.9
+      },
+      "leafletCoordinate": {
+        "lat": 31.11,
+        "lng": 103.19
+      },
+      "imageCoordinate": {
+        "x": 770.4853333333333,
+        "y": 1187.72992
+      },
+      "normalizedCoordinate": {
+        "x": 0.5503466666666667,
+        "y": 0.83408
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11933107.webp",
+      "percentCoordinate": {
+        "x": 55.034666666666666,
+        "y": 83.408
+      }
+    },
+    {
+      "id": "1828132",
+      "title": "キラキラ57",
+      "description": "船で上陸して入手",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "42.95,82.91",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11933084/0e9deb48cb111e6cc01e109600589be6.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 42.95,
+        "lng": 82.91
+      },
+      "leafletCoordinate": {
+        "lat": 31.45,
+        "lng": 60.72
+      },
+      "imageCoordinate": {
+        "x": 453.37600000000003,
+        "y": 1185.1477333333335
+      },
+      "normalizedCoordinate": {
+        "x": 0.32384,
+        "y": 0.8322666666666667
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11933084.webp",
+      "percentCoordinate": {
+        "x": 32.384,
+        "y": 83.22666666666667
+      }
+    },
+    {
+      "id": "1828133",
+      "title": "キラキラ56",
+      "description": "船入手後",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "44.79,54.4",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11933070/2b8afc8c4186a495ea85771cc354504e.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 44.79,
+        "lng": 54.4
+      },
+      "leafletCoordinate": {
+        "lat": 32.8,
+        "lng": 39.84
+      },
+      "imageCoordinate": {
+        "x": 297.47200000000004,
+        "y": 1174.8949333333333
+      },
+      "normalizedCoordinate": {
+        "x": 0.21248000000000003,
+        "y": 0.8250666666666666
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11933070.webp",
+      "percentCoordinate": {
+        "x": 21.248000000000005,
+        "y": 82.50666666666666
+      }
+    },
+    {
+      "id": "1828134",
+      "title": "キラキラ55",
+      "description": "船入手後",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "75.59,39.73",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11933055/513bb0ec6da854603e7d0ab8e62fe53c.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 75.59,
+        "lng": 39.73
+      },
+      "leafletCoordinate": {
+        "lat": 55.36,
+        "lng": 29.09
+      },
+      "imageCoordinate": {
+        "x": 217.20533333333333,
+        "y": 1003.5592533333332
+      },
+      "normalizedCoordinate": {
+        "x": 0.15514666666666665,
+        "y": 0.7047466666666666
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11933055.webp",
+      "percentCoordinate": {
+        "x": 15.514666666666665,
+        "y": 70.47466666666666
+      }
+    },
+    {
+      "id": "1828135",
+      "title": "キラキラ54",
+      "description": "月のかけら入手後",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "191.73,123.49",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11933002/dd47a88698deabacf91922485ae8270e.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 191.73,
+        "lng": 123.49
+      },
+      "leafletCoordinate": {
+        "lat": 140.42,
+        "lng": 90.44
+      },
+      "imageCoordinate": {
+        "x": 675.2853333333333,
+        "y": 357.55690666666675
+      },
+      "normalizedCoordinate": {
+        "x": 0.48234666666666665,
+        "y": 0.2510933333333334
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11933002.webp",
+      "percentCoordinate": {
+        "x": 48.23466666666666,
+        "y": 25.10933333333334
+      }
+    },
+    {
+      "id": "1828136",
+      "title": "キラキラ53",
+      "description": "月のかけら入手後",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "154.91,118.87",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11932993/e8f7fcffb265c3b02661a0fbed5b737e.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 154.91,
+        "lng": 118.87
+      },
+      "leafletCoordinate": {
+        "lat": 113.45,
+        "lng": 87.06
+      },
+      "imageCoordinate": {
+        "x": 650.048,
+        "y": 562.3850666666667
+      },
+      "normalizedCoordinate": {
+        "x": 0.46432,
+        "y": 0.39493333333333336
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11932993.webp",
+      "percentCoordinate": {
+        "x": 46.432,
+        "y": 39.49333333333334
+      }
+    },
+    {
+      "id": "1828137",
+      "title": "キラキラ52",
+      "description": "月のかけら入手後、船で上陸",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "167.45,99.6",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11932941/5f31dc57425b3ea495b07905f5f14a37.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 167.45,
+        "lng": 99.6
+      },
+      "leafletCoordinate": {
+        "lat": 122.64,
+        "lng": 72.94
+      },
+      "imageCoordinate": {
+        "x": 544.6186666666666,
+        "y": 492.59008
+      },
+      "normalizedCoordinate": {
+        "x": 0.3890133333333333,
+        "y": 0.34592
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11932941.webp",
+      "percentCoordinate": {
+        "x": 38.90133333333333,
+        "y": 34.592
+      }
+    },
+    {
+      "id": "1828138",
+      "title": "キラキラ51",
+      "description": "月のかけら入手後",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "172.53,93.81",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11932928/5eafff98312e5e29d77447e76df7702a.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 172.53,
+        "lng": 93.81
+      },
+      "leafletCoordinate": {
+        "lat": 126.36,
+        "lng": 68.7
+      },
+      "imageCoordinate": {
+        "x": 512.96,
+        "y": 464.33792000000005
+      },
+      "normalizedCoordinate": {
+        "x": 0.3664,
+        "y": 0.32608000000000004
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11932928.webp",
+      "percentCoordinate": {
+        "x": 36.64,
+        "y": 32.608000000000004
+      }
+    },
+    {
+      "id": "1828139",
+      "title": "キラキラ50",
+      "description": "船入手後",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "177.09,81.46",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11931865/531f4aed5715cb5db7757feaa19626e8.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 177.09,
+        "lng": 81.46
+      },
+      "leafletCoordinate": {
+        "lat": 129.7,
+        "lng": 59.66
+      },
+      "imageCoordinate": {
+        "x": 445.46133333333336,
+        "y": 438.97173333333336
+      },
+      "normalizedCoordinate": {
+        "x": 0.3181866666666667,
+        "y": 0.3082666666666667
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11931865.webp",
+      "percentCoordinate": {
+        "x": 31.81866666666667,
+        "y": 30.826666666666668
+      }
+    },
+    {
+      "id": "1828140",
+      "title": "キラキラ49",
+      "description": "船入手後",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "203.43,94.52",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11930923/2dafda124cb1e31b7988960c28d82ec7.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 203.43,
+        "lng": 94.52
+      },
+      "leafletCoordinate": {
+        "lat": 148.99,
+        "lng": 69.22
+      },
+      "imageCoordinate": {
+        "x": 516.8426666666667,
+        "y": 292.47061333333323
+      },
+      "normalizedCoordinate": {
+        "x": 0.36917333333333335,
+        "y": 0.2053866666666666
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11930923.webp",
+      "percentCoordinate": {
+        "x": 36.91733333333333,
+        "y": 20.53866666666666
+      }
+    },
+    {
+      "id": "1828141",
+      "title": "キラキラ48",
+      "description": "船入手後",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "189.9,82.87",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11930883/c6bd59322edb0dc27c21ef58792f4487.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 189.9,
+        "lng": 82.87
+      },
+      "leafletCoordinate": {
+        "lat": 139.08,
+        "lng": 60.69
+      },
+      "imageCoordinate": {
+        "x": 453.15199999999993,
+        "y": 367.7337599999999
+      },
+      "normalizedCoordinate": {
+        "x": 0.32367999999999997,
+        "y": 0.2582399999999999
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11930883.webp",
+      "percentCoordinate": {
+        "x": 32.367999999999995,
+        "y": 25.82399999999999
+      }
+    },
+    {
+      "id": "1828142",
+      "title": "キラキラ47",
+      "description": "船入手後",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "205.72,64.63",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11930855/434a46c40c976be724041baf40acaa67.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 205.72,
+        "lng": 64.63
+      },
+      "leafletCoordinate": {
+        "lat": 150.67,
+        "lng": 47.33
+      },
+      "imageCoordinate": {
+        "x": 353.3973333333333,
+        "y": 279.71157333333343
+      },
+      "normalizedCoordinate": {
+        "x": 0.25242666666666663,
+        "y": 0.19642666666666675
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11930855.webp",
+      "percentCoordinate": {
+        "x": 25.242666666666665,
+        "y": 19.642666666666674
+      }
+    },
+    {
+      "id": "1828143",
+      "title": "キラキラ46",
+      "description": "船入手後",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "194.84,57.63",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11930795/32ded0a336ce1ce523d33245070718a9.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 194.84,
+        "lng": 57.63
+      },
+      "leafletCoordinate": {
+        "lat": 142.7,
+        "lng": 42.2
+      },
+      "imageCoordinate": {
+        "x": 315.09333333333336,
+        "y": 340.2410666666668
+      },
+      "normalizedCoordinate": {
+        "x": 0.2250666666666667,
+        "y": 0.23893333333333344
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11930795.webp",
+      "percentCoordinate": {
+        "x": 22.506666666666668,
+        "y": 23.893333333333345
+      }
+    },
+    {
+      "id": "1828144",
+      "title": "キラキラ45",
+      "description": "船入手後",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "172.83,48.22",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11930772/4d2c6066c19fc52a7dbfecbbe4a0d2b1.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 172.83,
+        "lng": 48.22
+      },
+      "leafletCoordinate": {
+        "lat": 126.58,
+        "lng": 35.31
+      },
+      "imageCoordinate": {
+        "x": 263.648,
+        "y": 462.66709333333336
+      },
+      "normalizedCoordinate": {
+        "x": 0.18832000000000002,
+        "y": 0.3249066666666667
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11930772.webp",
+      "percentCoordinate": {
+        "x": 18.832,
+        "y": 32.49066666666667
+      }
+    },
+    {
+      "id": "1828145",
+      "title": "キラキラ44",
+      "description": "船入手後",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "162.13,53.56",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11930752/71a4734f9736e970ff596ce61d580623.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 162.13,
+        "lng": 53.56
+      },
+      "leafletCoordinate": {
+        "lat": 118.74,
+        "lng": 39.22
+      },
+      "imageCoordinate": {
+        "x": 292.8426666666667,
+        "y": 522.20928
+      },
+      "normalizedCoordinate": {
+        "x": 0.20917333333333332,
+        "y": 0.36672000000000005
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11930752.webp",
+      "percentCoordinate": {
+        "x": 20.917333333333332,
+        "y": 36.672000000000004
+      }
+    },
+    {
+      "id": "1828146",
+      "title": "キラキラ43",
+      "description": "船で上陸して入手",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "157.39,71.99",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11930729/0b5344da2110a46cfc9328c3f29c4455.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 157.39,
+        "lng": 71.99
+      },
+      "leafletCoordinate": {
+        "lat": 115.27,
+        "lng": 52.72
+      },
+      "imageCoordinate": {
+        "x": 393.6426666666667,
+        "y": 548.5627733333334
+      },
+      "normalizedCoordinate": {
+        "x": 0.28117333333333333,
+        "y": 0.3852266666666667
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11930729.webp",
+      "percentCoordinate": {
+        "x": 28.117333333333335,
+        "y": 38.52266666666667
+      }
+    },
+    {
+      "id": "1828147",
+      "title": "キラキラ42",
+      "description": "船入手後",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "146.09,51.1",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11929140/625b42c9046e613cc39f87d209dece76.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 146.09,
+        "lng": 51.1
+      },
+      "leafletCoordinate": {
+        "lat": 106.99,
+        "lng": 37.42
+      },
+      "imageCoordinate": {
+        "x": 279.4026666666667,
+        "y": 611.4466133333334
+      },
+      "normalizedCoordinate": {
+        "x": 0.19957333333333335,
+        "y": 0.4293866666666667
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11929140.webp",
+      "percentCoordinate": {
+        "x": 19.957333333333334,
+        "y": 42.93866666666667
+      }
+    },
+    {
+      "id": "1828148",
+      "title": "キラキラ41",
+      "description": "船入手後",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "186.7,47.97",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11929099/a1621d84481395616422b2858f456cc8.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 186.7,
+        "lng": 47.97
+      },
+      "leafletCoordinate": {
+        "lat": 136.74,
+        "lng": 35.13
+      },
+      "imageCoordinate": {
+        "x": 262.30400000000003,
+        "y": 385.50527999999997
+      },
+      "normalizedCoordinate": {
+        "x": 0.18736000000000003,
+        "y": 0.27071999999999996
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11929099.webp",
+      "percentCoordinate": {
+        "x": 18.736000000000004,
+        "y": 27.071999999999996
+      }
+    },
+    {
+      "id": "1828149",
+      "title": "キラキラ40",
+      "description": "船入手後",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "211.1,73.48",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11928965/a21a828df2367c877d7f658d5257d1a6.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 211.1,
+        "lng": 73.48
+      },
+      "leafletCoordinate": {
+        "lat": 154.61,
+        "lng": 53.81
+      },
+      "imageCoordinate": {
+        "x": 401.78133333333335,
+        "y": 249.78858666666665
+      },
+      "normalizedCoordinate": {
+        "x": 0.28698666666666667,
+        "y": 0.1754133333333333
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11928965.webp",
+      "percentCoordinate": {
+        "x": 28.698666666666668,
+        "y": 17.54133333333333
+      }
+    },
+    {
+      "id": "1828150",
+      "title": "キラキラ39",
+      "description": "船入手後",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "225.1,89.51",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11928922/67cd38c4a3dafb0c2c871b60483f329a.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 225.1,
+        "lng": 89.51
+      },
+      "leafletCoordinate": {
+        "lat": 164.86,
+        "lng": 65.55
+      },
+      "imageCoordinate": {
+        "x": 489.43999999999994,
+        "y": 171.9432533333332
+      },
+      "normalizedCoordinate": {
+        "x": 0.34959999999999997,
+        "y": 0.12074666666666656
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11928922.webp",
+      "percentCoordinate": {
+        "x": 34.959999999999994,
+        "y": 12.074666666666655
+      }
+    },
+    {
+      "id": "1828151",
+      "title": "キラキラ38",
+      "description": "船で上陸して入手",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "223.35,219.1",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11928766/1ccfad6b99d6e5acfee40ee103784504.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 223.35,
+        "lng": 219.1
+      },
+      "leafletCoordinate": {
+        "lat": 163.58,
+        "lng": 160.47
+      },
+      "imageCoordinate": {
+        "x": 1198.1760000000002,
+        "y": 181.66442666666666
+      },
+      "normalizedCoordinate": {
+        "x": 0.85584,
+        "y": 0.12757333333333332
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11928766.webp",
+      "percentCoordinate": {
+        "x": 85.584,
+        "y": 12.757333333333332
+      }
+    },
+    {
+      "id": "1828152",
+      "title": "キラキラ37",
+      "description": "船入手後",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "162.03,202.76",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11928187/b28fc42e0787a5f1c094360a3037fb27.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 162.03,
+        "lng": 202.76
+      },
+      "leafletCoordinate": {
+        "lat": 118.67,
+        "lng": 148.5
+      },
+      "imageCoordinate": {
+        "x": 1108.8,
+        "y": 522.7409066666665
+      },
+      "normalizedCoordinate": {
+        "x": 0.792,
+        "y": 0.36709333333333327
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11928187.webp",
+      "percentCoordinate": {
+        "x": 79.2,
+        "y": 36.709333333333326
+      }
+    },
+    {
+      "id": "1828153",
+      "title": "キラキラ36",
+      "description": "船入手後",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "179.48,189.83",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11928109/9ed665409764e06d9ad11add4e4c00f0.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 179.48,
+        "lng": 189.83
+      },
+      "leafletCoordinate": {
+        "lat": 131.45,
+        "lng": 139.03
+      },
+      "imageCoordinate": {
+        "x": 1038.0906666666667,
+        "y": 425.68106666666677
+      },
+      "normalizedCoordinate": {
+        "x": 0.7414933333333333,
+        "y": 0.2989333333333334
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11928109.webp",
+      "percentCoordinate": {
+        "x": 74.14933333333333,
+        "y": 29.893333333333338
+      }
+    },
+    {
+      "id": "1828154",
+      "title": "キラキラ35",
+      "description": "船で上陸して入手",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "184.48,154.89",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11928053/7ccdf954376389d100fb3280168bbd0a.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 184.48,
+        "lng": 154.89
+      },
+      "leafletCoordinate": {
+        "lat": 135.11,
+        "lng": 113.44
+      },
+      "imageCoordinate": {
+        "x": 847.0186666666666,
+        "y": 397.8845866666666
+      },
+      "normalizedCoordinate": {
+        "x": 0.6050133333333333,
+        "y": 0.2794133333333333
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11928053.webp",
+      "percentCoordinate": {
+        "x": 60.50133333333333,
+        "y": 27.94133333333333
+      }
+    },
+    {
+      "id": "1828155",
+      "title": "キラキラ34",
+      "description": "船入手後",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "46.7,210.83",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11927932/d098333950cab6dc4ce26b84966fd0b1.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 46.7,
+        "lng": 210.83
+      },
+      "leafletCoordinate": {
+        "lat": 34.2,
+        "lng": 154.41
+      },
+      "imageCoordinate": {
+        "x": 1152.928,
+        "y": 1164.2624
+      },
+      "normalizedCoordinate": {
+        "x": 0.82352,
+        "y": 0.8176
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11927932.webp",
+      "percentCoordinate": {
+        "x": 82.352,
+        "y": 81.76
+      }
+    },
+    {
+      "id": "1828156",
+      "title": "キラキラ33",
+      "description": "船入手後",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "62.36,61.79",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11927281/26f9eaa4bc2977c6c05d5540e8ee4628.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 62.36,
+        "lng": 61.79
+      },
+      "leafletCoordinate": {
+        "lat": 45.67,
+        "lng": 45.25
+      },
+      "imageCoordinate": {
+        "x": 337.8666666666667,
+        "y": 1077.1515733333333
+      },
+      "normalizedCoordinate": {
+        "x": 0.24133333333333334,
+        "y": 0.7564266666666667
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11927281.webp",
+      "percentCoordinate": {
+        "x": 24.133333333333333,
+        "y": 75.64266666666667
+      }
+    },
+    {
+      "id": "1828157",
+      "title": "キラキラ32",
+      "description": "船入手後",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "156.83,24.95",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11926364/78c068b06bec4c18b6561e9fdc6f7af3.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 156.83,
+        "lng": 24.95
+      },
+      "leafletCoordinate": {
+        "lat": 114.86,
+        "lng": 18.27
+      },
+      "imageCoordinate": {
+        "x": 136.416,
+        "y": 551.6765866666667
+      },
+      "normalizedCoordinate": {
+        "x": 0.09744,
+        "y": 0.3874133333333334
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11926364.webp",
+      "percentCoordinate": {
+        "x": 9.744,
+        "y": 38.74133333333334
+      }
+    },
+    {
+      "id": "1828158",
+      "title": "キラキラ31",
+      "description": "",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "198.43,20.71",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11926125/326726484bd6d344b538a58fa79b9cd0.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 198.43,
+        "lng": 20.71
+      },
+      "leafletCoordinate": {
+        "lat": 145.33,
+        "lng": 15.16
+      },
+      "imageCoordinate": {
+        "x": 113.19466666666666,
+        "y": 320.2670933333332
+      },
+      "normalizedCoordinate": {
+        "x": 0.08085333333333333,
+        "y": 0.2249066666666666
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11926125.webp",
+      "percentCoordinate": {
+        "x": 8.085333333333333,
+        "y": 22.49066666666666
+      }
+    },
+    {
+      "id": "1828159",
+      "title": "キラキラ30",
+      "description": "",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "187.67,36.07",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11926095/a1cc843edeceee910ec90b1fcaf34775.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 187.67,
+        "lng": 36.07
+      },
+      "leafletCoordinate": {
+        "lat": 137.45,
+        "lng": 26.41
+      },
+      "imageCoordinate": {
+        "x": 197.19466666666665,
+        "y": 380.1130666666667
+      },
+      "normalizedCoordinate": {
+        "x": 0.14085333333333333,
+        "y": 0.26693333333333336
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11926095.webp",
+      "percentCoordinate": {
+        "x": 14.085333333333333,
+        "y": 26.693333333333335
+      }
+    },
+    {
+      "id": "1828160",
+      "title": "キラキラ29",
+      "description": "",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "177.78,28.08",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11925890/5b99715864e4fc9bab2fa60b910985e1.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 177.78,
+        "lng": 28.08
+      },
+      "leafletCoordinate": {
+        "lat": 130.2,
+        "lng": 20.56
+      },
+      "imageCoordinate": {
+        "x": 153.51466666666664,
+        "y": 435.1744000000001
+      },
+      "normalizedCoordinate": {
+        "x": 0.10965333333333332,
+        "y": 0.3056000000000001
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11925890.webp",
+      "percentCoordinate": {
+        "x": 10.965333333333332,
+        "y": 30.56000000000001
+      }
+    },
+    {
+      "id": "1828161",
+      "title": "キラキラ28",
+      "description": "",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "167.07,31.97",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11925674/d063d7fbbe973b1d4049b6cf54a0d7de.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 167.07,
+        "lng": 31.97
+      },
+      "leafletCoordinate": {
+        "lat": 122.36,
+        "lng": 23.41
+      },
+      "imageCoordinate": {
+        "x": 174.79466666666667,
+        "y": 494.7165866666667
+      },
+      "normalizedCoordinate": {
+        "x": 0.12485333333333333,
+        "y": 0.34741333333333335
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11925674.webp",
+      "percentCoordinate": {
+        "x": 12.485333333333333,
+        "y": 34.74133333333334
+      }
+    },
+    {
+      "id": "1828162",
+      "title": "キラキラ27",
+      "description": "",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "132.09,35.62",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11925650/5ce83c8e2ddbbcaaf7400a96a5558342.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 132.09,
+        "lng": 35.62
+      },
+      "leafletCoordinate": {
+        "lat": 96.74,
+        "lng": 26.08
+      },
+      "imageCoordinate": {
+        "x": 194.73066666666665,
+        "y": 689.2919466666667
+      },
+      "normalizedCoordinate": {
+        "x": 0.13909333333333332,
+        "y": 0.48405333333333334
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11925650.webp",
+      "percentCoordinate": {
+        "x": 13.909333333333333,
+        "y": 48.40533333333333
+      }
+    },
+    {
+      "id": "1828163",
+      "title": "キラキラ26",
+      "description": "",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "131.15,47.73",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11925612/c8ee0fc598cff9aa417ccc4178adc2d6.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 131.15,
+        "lng": 47.73
+      },
+      "leafletCoordinate": {
+        "lat": 96.05,
+        "lng": 34.95
+      },
+      "imageCoordinate": {
+        "x": 260.96000000000004,
+        "y": 694.5322666666667
+      },
+      "normalizedCoordinate": {
+        "x": 0.1864,
+        "y": 0.48773333333333335
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11925612.webp",
+      "percentCoordinate": {
+        "x": 18.64,
+        "y": 48.77333333333333
+      }
+    },
+    {
+      "id": "1828164",
+      "title": "キラキラ25",
+      "description": "",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "127.05,67.44",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11925516/2896f89198c3f9b3680b6cb3165b03ad.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 127.05,
+        "lng": 67.44
+      },
+      "leafletCoordinate": {
+        "lat": 93.05,
+        "lng": 49.39
+      },
+      "imageCoordinate": {
+        "x": 368.77866666666665,
+        "y": 717.3162666666667
+      },
+      "normalizedCoordinate": {
+        "x": 0.26341333333333333,
+        "y": 0.5037333333333334
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11925516.webp",
+      "percentCoordinate": {
+        "x": 26.341333333333335,
+        "y": 50.373333333333335
+      }
+    },
+    {
+      "id": "1828165",
+      "title": "キラキラ24",
+      "description": "",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "114.85,137.14",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11925151/ed05ab23a643ec4ba73cee912b420df2.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 114.85,
+        "lng": 137.14
+      },
+      "leafletCoordinate": {
+        "lat": 84.11,
+        "lng": 100.44
+      },
+      "imageCoordinate": {
+        "x": 749.9519999999999,
+        "y": 785.2125866666667
+      },
+      "normalizedCoordinate": {
+        "x": 0.5356799999999999,
+        "y": 0.5514133333333333
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11925151.webp",
+      "percentCoordinate": {
+        "x": 53.56799999999999,
+        "y": 55.14133333333333
+      }
+    },
+    {
+      "id": "1828166",
+      "title": "キラキラ23",
+      "description": "",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "125.77,150.65",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11925142/23f0c51682cf082c629a73f92fa24cee.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 125.77,
+        "lng": 150.65
+      },
+      "leafletCoordinate": {
+        "lat": 92.11,
+        "lng": 110.33
+      },
+      "imageCoordinate": {
+        "x": 823.7973333333333,
+        "y": 724.4552533333333
+      },
+      "normalizedCoordinate": {
+        "x": 0.5884266666666667,
+        "y": 0.5087466666666667
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11925142.webp",
+      "percentCoordinate": {
+        "x": 58.842666666666666,
+        "y": 50.87466666666667
+      }
+    },
+    {
+      "id": "1828167",
+      "title": "キラキラ22",
+      "description": "",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "182.09,144.31",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11925112/d05af9baf57eed837cb1890059d0ee43.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 182.09,
+        "lng": 144.31
+      },
+      "leafletCoordinate": {
+        "lat": 133.36,
+        "lng": 105.69
+      },
+      "imageCoordinate": {
+        "x": 789.1519999999999,
+        "y": 411.1752533333332
+      },
+      "normalizedCoordinate": {
+        "x": 0.56368,
+        "y": 0.2887466666666666
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11925112.webp",
+      "percentCoordinate": {
+        "x": 56.367999999999995,
+        "y": 28.87466666666666
+      }
+    },
+    {
+      "id": "1828168",
+      "title": "キラキラ21",
+      "description": "",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "133.96,135.78",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11925088/410399175780daa292410d6e2152661e.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 133.96,
+        "lng": 135.78
+      },
+      "leafletCoordinate": {
+        "lat": 98.11,
+        "lng": 99.44
+      },
+      "imageCoordinate": {
+        "x": 742.4853333333333,
+        "y": 678.8872533333333
+      },
+      "normalizedCoordinate": {
+        "x": 0.5303466666666666,
+        "y": 0.47674666666666665
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11925088.webp",
+      "percentCoordinate": {
+        "x": 53.034666666666666,
+        "y": 47.67466666666667
+      }
+    },
+    {
+      "id": "1828169",
+      "title": "キラキラ20",
+      "description": "",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "126.03,124.02",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11925085/b2363e4c5c4c38a4affbf05daeaac452.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 126.03,
+        "lng": 124.02
+      },
+      "leafletCoordinate": {
+        "lat": 92.3,
+        "lng": 90.83
+      },
+      "imageCoordinate": {
+        "x": 678.1973333333333,
+        "y": 723.0122666666667
+      },
+      "normalizedCoordinate": {
+        "x": 0.48442666666666667,
+        "y": 0.5077333333333334
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11925085.webp",
+      "percentCoordinate": {
+        "x": 48.44266666666667,
+        "y": 50.77333333333334
+      }
+    },
+    {
+      "id": "1828170",
+      "title": "キラキラ19",
+      "description": "",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "123.04,104.39",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11925079/ba5bf7f9132b36386ddf87eb30162fa9.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 123.04,
+        "lng": 104.39
+      },
+      "leafletCoordinate": {
+        "lat": 90.11,
+        "lng": 76.45
+      },
+      "imageCoordinate": {
+        "x": 570.8266666666667,
+        "y": 739.6445866666666
+      },
+      "normalizedCoordinate": {
+        "x": 0.40773333333333334,
+        "y": 0.5194133333333333
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11925079.webp",
+      "percentCoordinate": {
+        "x": 40.77333333333333,
+        "y": 51.941333333333326
+      }
+    },
+    {
+      "id": "1828171",
+      "title": "キラキラ18",
+      "description": "",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "124.36,91.32",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11925066/ebbe89f178b4f0a706b7ba9f7460d496.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 124.36,
+        "lng": 91.32
+      },
+      "leafletCoordinate": {
+        "lat": 91.08,
+        "lng": 66.88
+      },
+      "imageCoordinate": {
+        "x": 499.37066666666664,
+        "y": 732.2777600000001
+      },
+      "normalizedCoordinate": {
+        "x": 0.3566933333333333,
+        "y": 0.51424
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11925066.webp",
+      "percentCoordinate": {
+        "x": 35.66933333333333,
+        "y": 51.42400000000001
+      }
+    },
+    {
+      "id": "1828172",
+      "title": "キラキラ17",
+      "description": "",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "150.3,94.68",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11924481/d1a7bf03cbfe9a55fc287a25e1328c9c.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 150.3,
+        "lng": 94.68
+      },
+      "leafletCoordinate": {
+        "lat": 110.08,
+        "lng": 69.34
+      },
+      "imageCoordinate": {
+        "x": 517.7386666666666,
+        "y": 587.9790933333333
+      },
+      "normalizedCoordinate": {
+        "x": 0.3698133333333333,
+        "y": 0.41290666666666664
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11924481.webp",
+      "percentCoordinate": {
+        "x": 36.98133333333333,
+        "y": 41.29066666666667
+      }
+    },
+    {
+      "id": "1828173",
+      "title": "キラキラ16",
+      "description": "",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "140.02,114.04",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11924380/57b0505a223db959afa7c6c627be6be7.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 140.02,
+        "lng": 114.04
+      },
+      "leafletCoordinate": {
+        "lat": 102.55,
+        "lng": 83.52
+      },
+      "imageCoordinate": {
+        "x": 623.616,
+        "y": 645.1669333333334
+      },
+      "normalizedCoordinate": {
+        "x": 0.44544,
+        "y": 0.45306666666666673
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11924380.webp",
+      "percentCoordinate": {
+        "x": 44.544,
+        "y": 45.30666666666667
+      }
+    },
+    {
+      "id": "1828174",
+      "title": "キラキラ15",
+      "description": "",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "147.4,119.17",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11924359/d90bb7de90944523680dff0e9114d621.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 147.4,
+        "lng": 119.17
+      },
+      "leafletCoordinate": {
+        "lat": 107.95,
+        "lng": 87.28
+      },
+      "imageCoordinate": {
+        "x": 651.6906666666666,
+        "y": 604.1557333333334
+      },
+      "normalizedCoordinate": {
+        "x": 0.4654933333333333,
+        "y": 0.4242666666666667
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11924359.webp",
+      "percentCoordinate": {
+        "x": 46.54933333333333,
+        "y": 42.42666666666667
+      }
+    },
+    {
+      "id": "1828175",
+      "title": "キラキラ14",
+      "description": "",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "168.56,135.44",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11924246/84336dfeaf6465d27b934b5fffddb05d.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 168.56,
+        "lng": 135.44
+      },
+      "leafletCoordinate": {
+        "lat": 123.45,
+        "lng": 99.19
+      },
+      "imageCoordinate": {
+        "x": 740.6186666666666,
+        "y": 486.4384
+      },
+      "normalizedCoordinate": {
+        "x": 0.5290133333333333,
+        "y": 0.3416
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11924246.webp",
+      "percentCoordinate": {
+        "x": 52.90133333333333,
+        "y": 34.160000000000004
+      }
+    },
+    {
+      "id": "1828176",
+      "title": "キラキラ13",
+      "description": "",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "185.58,137.5",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11924184/e64680588b708ad6dda6cf39d1c7269b.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 185.58,
+        "lng": 137.5
+      },
+      "leafletCoordinate": {
+        "lat": 135.92,
+        "lng": 100.7
+      },
+      "imageCoordinate": {
+        "x": 751.8933333333333,
+        "y": 391.7329066666668
+      },
+      "normalizedCoordinate": {
+        "x": 0.5370666666666667,
+        "y": 0.2750933333333334
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11924184.webp",
+      "percentCoordinate": {
+        "x": 53.70666666666667,
+        "y": 27.50933333333334
+      }
+    },
+    {
+      "id": "1828177",
+      "title": "キラキラ12",
+      "description": "",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "217.55,119.86",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11924030/7a5d52869e0753bc2222f0a34abf31ce.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 217.55,
+        "lng": 119.86
+      },
+      "leafletCoordinate": {
+        "lat": 159.33,
+        "lng": 87.78
+      },
+      "imageCoordinate": {
+        "x": 655.424,
+        "y": 213.9417599999999
+      },
+      "normalizedCoordinate": {
+        "x": 0.46816,
+        "y": 0.15023999999999993
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11924030.webp",
+      "percentCoordinate": {
+        "x": 46.816,
+        "y": 15.023999999999994
+      }
+    },
+    {
+      "id": "1828178",
+      "title": "キラキラ11",
+      "description": "",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "214.13,113.17",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11924009/12ef1d489fdd1482fccd7f1d2348b88a.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 214.13,
+        "lng": 113.17
+      },
+      "leafletCoordinate": {
+        "lat": 156.83,
+        "lng": 82.88
+      },
+      "imageCoordinate": {
+        "x": 618.8373333333333,
+        "y": 232.92842666666652
+      },
+      "normalizedCoordinate": {
+        "x": 0.4420266666666666,
+        "y": 0.16357333333333324
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11924009.webp",
+      "percentCoordinate": {
+        "x": 44.202666666666666,
+        "y": 16.357333333333322
+      }
+    },
+    {
+      "id": "1828179",
+      "title": "キラキラ10",
+      "description": "",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "203.77,126.38",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11923985/ea9e5e1ba01c6ecc2056b6b6a6648876.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 203.77,
+        "lng": 126.38
+      },
+      "leafletCoordinate": {
+        "lat": 149.24,
+        "lng": 92.56
+      },
+      "imageCoordinate": {
+        "x": 691.1146666666667,
+        "y": 290.57194666666663
+      },
+      "normalizedCoordinate": {
+        "x": 0.49365333333333333,
+        "y": 0.2040533333333333
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11923985.webp",
+      "percentCoordinate": {
+        "x": 49.36533333333333,
+        "y": 20.40533333333333
+      }
+    },
+    {
+      "id": "1828180",
+      "title": "キラキラ9",
+      "description": "",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "219.72,193.59",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11923837/354171ad363c4111f054967dd5e6e0b3.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 219.72,
+        "lng": 193.59
+      },
+      "leafletCoordinate": {
+        "lat": 160.92,
+        "lng": 141.78
+      },
+      "imageCoordinate": {
+        "x": 1058.624,
+        "y": 201.86624000000015
+      },
+      "normalizedCoordinate": {
+        "x": 0.75616,
+        "y": 0.1417600000000001
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11923837.webp",
+      "percentCoordinate": {
+        "x": 75.616,
+        "y": 14.17600000000001
+      }
+    },
+    {
+      "id": "1828181",
+      "title": "キラキラ8",
+      "description": "",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "205.6,179.47",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11923692/c5f50641791cbbfeb823edbb1afe5ab1.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 205.6,
+        "lng": 179.47
+      },
+      "leafletCoordinate": {
+        "lat": 150.58,
+        "lng": 131.44
+      },
+      "imageCoordinate": {
+        "x": 981.4186666666666,
+        "y": 280.3950933333332
+      },
+      "normalizedCoordinate": {
+        "x": 0.7010133333333333,
+        "y": 0.19690666666666656
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11923692.webp",
+      "percentCoordinate": {
+        "x": 70.10133333333333,
+        "y": 19.690666666666658
+      }
+    },
+    {
+      "id": "1828182",
+      "title": "キラキラ7",
+      "description": "",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "210.88,150.54",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11923658/901467046e74b2187546d0f1b2e8d8c9.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 210.88,
+        "lng": 150.54
+      },
+      "leafletCoordinate": {
+        "lat": 154.45,
+        "lng": 110.25
+      },
+      "imageCoordinate": {
+        "x": 823.1999999999999,
+        "y": 251.00373333333334
+      },
+      "normalizedCoordinate": {
+        "x": 0.588,
+        "y": 0.17626666666666668
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11923658.webp",
+      "percentCoordinate": {
+        "x": 58.8,
+        "y": 17.62666666666667
+      }
+    },
+    {
+      "id": "1828183",
+      "title": "キラキラ6",
+      "description": "",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "202.19,194.27",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11922930/03831120c1b1c10ab4511eaff2c727e0.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 202.19,
+        "lng": 194.27
+      },
+      "leafletCoordinate": {
+        "lat": 148.08,
+        "lng": 142.28
+      },
+      "imageCoordinate": {
+        "x": 1062.3573333333334,
+        "y": 299.38176
+      },
+      "normalizedCoordinate": {
+        "x": 0.7588266666666666,
+        "y": 0.21023999999999998
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11922930.webp",
+      "percentCoordinate": {
+        "x": 75.88266666666667,
+        "y": 21.023999999999997
+      }
+    },
+    {
+      "id": "1828184",
+      "title": "キラキラ5",
+      "description": "",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "192.71,163.38",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11922925/1f3b3e230e4b70ae9d32a2b75ffb92d1.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 192.71,
+        "lng": 163.38
+      },
+      "leafletCoordinate": {
+        "lat": 141.14,
+        "lng": 119.66
+      },
+      "imageCoordinate": {
+        "x": 893.4613333333333,
+        "y": 352.0887466666668
+      },
+      "normalizedCoordinate": {
+        "x": 0.6381866666666667,
+        "y": 0.24725333333333344
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11922925.webp",
+      "percentCoordinate": {
+        "x": 63.818666666666665,
+        "y": 24.725333333333342
+      }
+    },
+    {
+      "id": "1828185",
+      "title": "キラキラ4",
+      "description": "",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "181.07,182.7",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11922920/fda0875a6f30d045b8d880f253667ecb.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 181.07,
+        "lng": 182.7
+      },
+      "leafletCoordinate": {
+        "lat": 132.61,
+        "lng": 133.81
+      },
+      "imageCoordinate": {
+        "x": 999.1146666666667,
+        "y": 416.87125333333324
+      },
+      "normalizedCoordinate": {
+        "x": 0.7136533333333334,
+        "y": 0.2927466666666666
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11922920.webp",
+      "percentCoordinate": {
+        "x": 71.36533333333334,
+        "y": 29.27466666666666
+      }
+    },
+    {
+      "id": "1828186",
+      "title": "キラキラ3",
+      "description": "",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "174.46,188.08",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11922917/9f22a0cfc00afa7827f7327bf81029fb.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 174.46,
+        "lng": 188.08
+      },
+      "leafletCoordinate": {
+        "lat": 127.77,
+        "lng": 137.75
+      },
+      "imageCoordinate": {
+        "x": 1028.5333333333333,
+        "y": 453.6294400000001
+      },
+      "normalizedCoordinate": {
+        "x": 0.7346666666666667,
+        "y": 0.31856000000000007
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11922917.webp",
+      "percentCoordinate": {
+        "x": 73.46666666666667,
+        "y": 31.856000000000005
+      }
+    },
+    {
+      "id": "1828187",
+      "title": "キラキラ2",
+      "description": "",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "184.26,195.51",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11922914/f23d3146042b9dd8ec2418c6687c99bd.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 184.26,
+        "lng": 195.51
+      },
+      "leafletCoordinate": {
+        "lat": 134.95,
+        "lng": 143.19
+      },
+      "imageCoordinate": {
+        "x": 1069.152,
+        "y": 399.09973333333346
+      },
+      "normalizedCoordinate": {
+        "x": 0.76368,
+        "y": 0.2802666666666668
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11922914.webp",
+      "percentCoordinate": {
+        "x": 76.36800000000001,
+        "y": 28.026666666666678
+      }
+    },
+    {
+      "id": "1828188",
+      "title": "キラキラ1",
+      "description": "",
+      "subItem": {
+        "title": "",
+        "content": ""
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "180.51,201.44",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11922893/b3bcdb67c88e4f4913e7d943eeb1adb6.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq2/140906",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/358.json?updatedAt=1762439023",
+      "sourceCoordinate": {
+        "lat": 180.51,
+        "lng": 201.44
+      },
+      "leafletCoordinate": {
+        "lat": 132.2,
+        "lng": 147.53
+      },
+      "imageCoordinate": {
+        "x": 1101.5573333333334,
+        "y": 419.98506666666674
+      },
+      "normalizedCoordinate": {
+        "x": 0.7868266666666667,
+        "y": 0.2949333333333334
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11922893.webp",
+      "percentCoordinate": {
+        "x": 78.68266666666666,
+        "y": 29.49333333333334
+      }
+    }
+  ]
+}

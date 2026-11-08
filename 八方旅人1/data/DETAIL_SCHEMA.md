@@ -93,3 +93,14 @@ OT2.addAccess("highlands", {
 4. 祠堂：入口 → 通道（多为一本道带几个小岔）→ 祭坛（`shrine` poi），守护者 Boss 用 `boss`。
 5. 每张图至少 4 段路径、6 个要点；城镇和迷宫一般 8~25 段路径、10~30 个要点。
 6. 不要编造攻略里没有的宝箱；可以补充攻略站里确认存在、但本地区数据未列出的设施（如旅店、酒馆）。
+
+
+## 道路导航补充（2026-11-08）
+
+`paths[].route`可补充经攻略核实的`from`、`to`、`steps`（字符串数组）、`caution`、`sources`（label/url数组）及明确的`mode`。没有逐步来源的路段不自动生成实际走法。boat兼含独木舟、渡船、出海路线，不能仅凭kind推断船种。
+
+`junctions`为攻略导航参照：`{label:"A",at:[x,y],roads:[0,2],note:"...",labelAt:[x,y]}`，roads是当前paths的零基下标，labelAt可偏移标签并绘引线。字母路口不代表游戏实体路牌。
+
+`crossings`为上下层交叉：`{at:[x,y],labelAt:[x,y],over:1,under:7,note:"桥面／桥下不相通"}`。只在攻略确认分层时添加；两条路不会被列为直接相接。
+
+攻略确认的实体路牌沿用landmark并加`navigation:"signpost"`；既有label为“路标/路牌”的地标也按路牌保留。存档点用save。目录筛选不会隐藏存档点、路牌、出口和攻略岔路参照。道路编号绘在POI下方，避免截获存档点点击。

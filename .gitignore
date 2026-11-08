@@ -1,6 +1,11 @@
-# Only track the two Octopath Traveler folders and repository documentation.
+# Track independent game guides and their documentation.
 /*
 !/.gitignore
 !/README.md
 !/八方旅人1/
 !/八方旅人2/
+!/勇者斗恶龙1/
+!/勇者斗恶龙2/
+!/docs/
+**/__pycache__/
+**/*.pyc

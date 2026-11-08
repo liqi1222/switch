@@ -1,0 +1,3962 @@
+{
+  "meta": {
+    "version": "2025 HD-2D DQII",
+    "verifiedDate": "2026-11-08",
+    "coverageZh": "野外分组改由279个怪物详细页的明确出现场所构建；城镇周边聚合表已降级为未采用候选。",
+    "coverageSummary": {
+      "groups": 43,
+      "enemyAppearanceFacts": 250,
+      "individualMonsterRecords": 270,
+      "fetchFailures": 0,
+      "regionalMapImages": 4
+    }
+  },
+  "regions": [
+    {
+      "id": "dq2-field-verified-01",
+      "sectionJa": "ローレシアの城周辺",
+      "subsectionJa": "",
+      "scope": "individual-monster-exact-field-label",
+      "enemies": [
+        {
+          "nameJa": "スライム",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/481478",
+          "appearanceLabelJa": "ローレシアの城周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481348"
+          ]
+        },
+        {
+          "nameJa": "おおがらす",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528012",
+          "appearanceLabelJa": "ローレシアの城周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481348"
+          ]
+        },
+        {
+          "nameJa": "いっかくうさぎ",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528013",
+          "appearanceLabelJa": "ローレシアの城周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481348"
+          ]
+        },
+        {
+          "nameJa": "おおなめくじ",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/481476",
+          "appearanceLabelJa": "ローレシアの城周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481348"
+          ]
+        },
+        {
+          "nameJa": "アイアンアント",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/481477",
+          "appearanceLabelJa": "ローレシアの城周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481348"
+          ]
+        },
+        {
+          "nameJa": "ドラキー",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/481475",
+          "appearanceLabelJa": "ローレシアの城周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481348"
+          ]
+        },
+        {
+          "nameJa": "やまねずみ",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/481474",
+          "appearanceLabelJa": "ローレシアの城周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481348"
+          ]
+        },
+        {
+          "nameJa": "ゆうれい",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/481473",
+          "appearanceLabelJa": "ローレシアの城周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481348"
+          ]
+        }
+      ],
+      "sourceUrls": [
+        "https://gamewith.jp/dq1-2/481478",
+        "https://gamewith.jp/dq1-2/528012",
+        "https://gamewith.jp/dq1-2/528013",
+        "https://gamewith.jp/dq1-2/481476",
+        "https://gamewith.jp/dq1-2/481477",
+        "https://gamewith.jp/dq1-2/481475",
+        "https://gamewith.jp/dq1-2/481474",
+        "https://gamewith.jp/dq1-2/481473"
+      ],
+      "verifiedDate": "2026-11-08",
+      "phaseZh": "区域按怪物详细页的明确出现场所，不把城镇页宽泛周边表当作道路。",
+      "sourceLabelJa": "ローレシアの城周辺"
+    },
+    {
+      "id": "dq2-field-verified-02",
+      "sectionJa": "リリザの町周辺",
+      "subsectionJa": "",
+      "scope": "individual-monster-exact-field-label",
+      "enemies": [
+        {
+          "nameJa": "スライム",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/481478",
+          "appearanceLabelJa": "リリザの町周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481347"
+          ]
+        },
+        {
+          "nameJa": "おおがらす",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528012",
+          "appearanceLabelJa": "リリザの町周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481347"
+          ]
+        },
+        {
+          "nameJa": "いっかくうさぎ",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528013",
+          "appearanceLabelJa": "リリザの町周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481347"
+          ]
+        },
+        {
+          "nameJa": "おおなめくじ",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/481476",
+          "appearanceLabelJa": "リリザの町周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481347"
+          ]
+        },
+        {
+          "nameJa": "アイアンアント",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/481477",
+          "appearanceLabelJa": "リリザの町周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481347"
+          ]
+        },
+        {
+          "nameJa": "ゴースト",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528014",
+          "appearanceLabelJa": "リリザの町周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481347"
+          ]
+        }
+      ],
+      "sourceUrls": [
+        "https://gamewith.jp/dq1-2/481478",
+        "https://gamewith.jp/dq1-2/528012",
+        "https://gamewith.jp/dq1-2/528013",
+        "https://gamewith.jp/dq1-2/481476",
+        "https://gamewith.jp/dq1-2/481477",
+        "https://gamewith.jp/dq1-2/528014"
+      ],
+      "verifiedDate": "2026-11-08",
+      "phaseZh": "区域按怪物详细页的明确出现场所，不把城镇页宽泛周边表当作道路。",
+      "sourceLabelJa": "リリザの町周辺"
+    },
+    {
+      "id": "dq2-field-verified-03",
+      "sectionJa": "アレフガルド北部",
+      "subsectionJa": "",
+      "scope": "individual-monster-exact-field-label",
+      "enemies": [
+        {
+          "nameJa": "スライム",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/481478",
+          "appearanceLabelJa": "アレフガルド北部",
+          "mapSourceUrls": []
+        },
+        {
+          "nameJa": "ドラキー",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/481475",
+          "appearanceLabelJa": "アレフガルド北部",
+          "mapSourceUrls": []
+        },
+        {
+          "nameJa": "スライムベス",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528070",
+          "appearanceLabelJa": "アレフガルド北部",
+          "mapSourceUrls": []
+        },
+        {
+          "nameJa": "がいこつ",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528071",
+          "appearanceLabelJa": "アレフガルド北部",
+          "mapSourceUrls": []
+        },
+        {
+          "nameJa": "リカントマムル",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528072",
+          "appearanceLabelJa": "アレフガルド北部",
+          "mapSourceUrls": []
+        },
+        {
+          "nameJa": "スライムつむり",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528073",
+          "appearanceLabelJa": "アレフガルド北部",
+          "mapSourceUrls": []
+        }
+      ],
+      "sourceUrls": [
+        "https://gamewith.jp/dq1-2/481478",
+        "https://gamewith.jp/dq1-2/481475",
+        "https://gamewith.jp/dq1-2/528070",
+        "https://gamewith.jp/dq1-2/528071",
+        "https://gamewith.jp/dq1-2/528072",
+        "https://gamewith.jp/dq1-2/528073"
+      ],
+      "verifiedDate": "2026-11-08",
+      "phaseZh": "区域按怪物详细页的明确出现场所，不把城镇页宽泛周边表当作道路。",
+      "sourceLabelJa": "アレフガルド北部"
+    },
+    {
+      "id": "dq2-field-verified-04",
+      "sectionJa": "北のお告げ所周辺",
+      "subsectionJa": "",
+      "scope": "individual-monster-exact-field-label",
+      "enemies": [
+        {
+          "nameJa": "スライム",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/481478",
+          "appearanceLabelJa": "北のお告げ所周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/482180"
+          ]
+        },
+        {
+          "nameJa": "おおがらす",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528012",
+          "appearanceLabelJa": "北のお告げ所周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/482180"
+          ]
+        },
+        {
+          "nameJa": "いっかくうさぎ",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528013",
+          "appearanceLabelJa": "北のお告げ所周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/482180"
+          ]
+        },
+        {
+          "nameJa": "おおなめくじ",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/481476",
+          "appearanceLabelJa": "北のお告げ所周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/482180"
+          ]
+        },
+        {
+          "nameJa": "アイアンアント",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/481477",
+          "appearanceLabelJa": "北のお告げ所周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/482180"
+          ]
+        },
+        {
+          "nameJa": "ゴースト",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528014",
+          "appearanceLabelJa": "北のお告げ所周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/482180"
+          ]
+        },
+        {
+          "nameJa": "まほうつかい",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528076",
+          "appearanceLabelJa": "北のお告げ所周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/482180"
+          ]
+        },
+        {
+          "nameJa": "ドルイド",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528095",
+          "appearanceLabelJa": "北のお告げ所周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/482180"
+          ]
+        },
+        {
+          "nameJa": "げんじゅつし",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528079",
+          "appearanceLabelJa": "北のお告げ所周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/482180"
+          ]
+        },
+        {
+          "nameJa": "まじょ",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528102",
+          "appearanceLabelJa": "北のお告げ所周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/482180"
+          ]
+        }
+      ],
+      "sourceUrls": [
+        "https://gamewith.jp/dq1-2/481478",
+        "https://gamewith.jp/dq1-2/528012",
+        "https://gamewith.jp/dq1-2/528013",
+        "https://gamewith.jp/dq1-2/481476",
+        "https://gamewith.jp/dq1-2/481477",
+        "https://gamewith.jp/dq1-2/528014",
+        "https://gamewith.jp/dq1-2/528076",
+        "https://gamewith.jp/dq1-2/528095",
+        "https://gamewith.jp/dq1-2/528079",
+        "https://gamewith.jp/dq1-2/528102"
+      ],
+      "verifiedDate": "2026-11-08",
+      "phaseZh": "区域按怪物详细页的明确出现场所，不把城镇页宽泛周边表当作道路。",
+      "sourceLabelJa": "北のお告げ所周辺"
+    },
+    {
+      "id": "dq2-field-verified-05",
+      "sectionJa": "スライム島",
+      "subsectionJa": "",
+      "scope": "individual-monster-exact-field-label",
+      "enemies": [
+        {
+          "nameJa": "スライム",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/481478",
+          "appearanceLabelJa": "スライム島",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/527906"
+          ]
+        },
+        {
+          "nameJa": "バブルスライム",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/481471",
+          "appearanceLabelJa": "スライム島",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/527906"
+          ]
+        },
+        {
+          "nameJa": "ホイミスライム",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/481467",
+          "appearanceLabelJa": "スライム島",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/527906"
+          ]
+        },
+        {
+          "nameJa": "スライムベス",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528070",
+          "appearanceLabelJa": "スライム島",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/527906"
+          ]
+        },
+        {
+          "nameJa": "ベホマスライム",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528115",
+          "appearanceLabelJa": "スライム島",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/527906"
+          ]
+        },
+        {
+          "nameJa": "メタルスライム",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/481459",
+          "appearanceLabelJa": "▼スライム島",
+          "mapSourceUrls": [
+            "#loca3"
+          ]
+        },
+        {
+          "nameJa": "はぐれメタル",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/481437",
+          "appearanceLabelJa": "▼スライム島",
+          "mapSourceUrls": [
+            "#loca1"
+          ]
+        }
+      ],
+      "sourceUrls": [
+        "https://gamewith.jp/dq1-2/481478",
+        "https://gamewith.jp/dq1-2/481471",
+        "https://gamewith.jp/dq1-2/481467",
+        "https://gamewith.jp/dq1-2/528070",
+        "https://gamewith.jp/dq1-2/528115",
+        "https://gamewith.jp/dq1-2/481459",
+        "https://gamewith.jp/dq1-2/481437"
+      ],
+      "verifiedDate": "2026-11-08",
+      "phaseZh": "区域按怪物详细页的明确出现场所，不把城镇页宽泛周边表当作道路。",
+      "sourceLabelJa": "スライム島"
+    },
+    {
+      "id": "dq2-field-verified-06",
+      "sectionJa": "サマルトリアの城周辺",
+      "subsectionJa": "",
+      "scope": "individual-monster-exact-field-label",
+      "enemies": [
+        {
+          "nameJa": "いっかくうさぎ",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528013",
+          "appearanceLabelJa": "サマルトリアの城周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481346"
+          ]
+        },
+        {
+          "nameJa": "おおなめくじ",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/481476",
+          "appearanceLabelJa": "サマルトリアの城周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481346"
+          ]
+        },
+        {
+          "nameJa": "アイアンアント",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/481477",
+          "appearanceLabelJa": "サマルトリアの城周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481346"
+          ]
+        },
+        {
+          "nameJa": "ゴースト",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528014",
+          "appearanceLabelJa": "サマルトリアの城周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481346"
+          ]
+        }
+      ],
+      "sourceUrls": [
+        "https://gamewith.jp/dq1-2/528013",
+        "https://gamewith.jp/dq1-2/481476",
+        "https://gamewith.jp/dq1-2/481477",
+        "https://gamewith.jp/dq1-2/528014"
+      ],
+      "verifiedDate": "2026-11-08",
+      "phaseZh": "区域按怪物详细页的明确出现场所，不把城镇页宽泛周边表当作道路。",
+      "sourceLabelJa": "サマルトリアの城周辺"
+    },
+    {
+      "id": "dq2-field-verified-07",
+      "sectionJa": "勇者の泉の洞窟周辺",
+      "subsectionJa": "",
+      "scope": "individual-monster-exact-field-label",
+      "enemies": [
+        {
+          "nameJa": "ドラキー",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/481475",
+          "appearanceLabelJa": "勇者の泉の洞窟周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481360"
+          ]
+        },
+        {
+          "nameJa": "やまねずみ",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/481474",
+          "appearanceLabelJa": "勇者の泉の洞窟周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481360"
+          ]
+        },
+        {
+          "nameJa": "ゆうれい",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/481473",
+          "appearanceLabelJa": "勇者の泉の洞窟周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481360"
+          ]
+        },
+        {
+          "nameJa": "バブルスライム",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/481471",
+          "appearanceLabelJa": "勇者の泉の洞窟周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481360"
+          ]
+        },
+        {
+          "nameJa": "まじゅつし",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/481469",
+          "appearanceLabelJa": "勇者の泉の洞窟周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481360"
+          ]
+        },
+        {
+          "nameJa": "おおさそり",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528015",
+          "appearanceLabelJa": "勇者の泉の洞窟周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481360"
+          ]
+        }
+      ],
+      "sourceUrls": [
+        "https://gamewith.jp/dq1-2/481475",
+        "https://gamewith.jp/dq1-2/481474",
+        "https://gamewith.jp/dq1-2/481473",
+        "https://gamewith.jp/dq1-2/481471",
+        "https://gamewith.jp/dq1-2/481469",
+        "https://gamewith.jp/dq1-2/528015"
+      ],
+      "verifiedDate": "2026-11-08",
+      "phaseZh": "区域按怪物详细页的明确出现场所，不把城镇页宽泛周边表当作道路。",
+      "sourceLabelJa": "勇者の泉の洞窟周辺"
+    },
+    {
+      "id": "dq2-field-verified-08",
+      "sectionJa": "湖の洞窟周辺",
+      "subsectionJa": "",
+      "scope": "individual-monster-exact-field-label",
+      "enemies": [
+        {
+          "nameJa": "ホイミスライム",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/481467",
+          "appearanceLabelJa": "湖の洞窟周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481359"
+          ]
+        },
+        {
+          "nameJa": "キャタピラー",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528020",
+          "appearanceLabelJa": "湖の洞窟周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481359"
+          ]
+        },
+        {
+          "nameJa": "あやしいかげ",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528018",
+          "appearanceLabelJa": "湖の洞窟周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481359"
+          ]
+        },
+        {
+          "nameJa": "ぐんたいアリ",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/481472",
+          "appearanceLabelJa": "湖の洞窟周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481359"
+          ]
+        },
+        {
+          "nameJa": "さそりばち",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528019",
+          "appearanceLabelJa": "湖の洞窟周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481359"
+          ]
+        },
+        {
+          "nameJa": "メトロゴースト",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528021",
+          "appearanceLabelJa": "湖の洞窟周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481359"
+          ]
+        }
+      ],
+      "sourceUrls": [
+        "https://gamewith.jp/dq1-2/481467",
+        "https://gamewith.jp/dq1-2/528020",
+        "https://gamewith.jp/dq1-2/528018",
+        "https://gamewith.jp/dq1-2/481472",
+        "https://gamewith.jp/dq1-2/528019",
+        "https://gamewith.jp/dq1-2/528021"
+      ],
+      "verifiedDate": "2026-11-08",
+      "phaseZh": "区域按怪物详细页的明确出现场所，不把城镇页宽泛周边表当作道路。",
+      "sourceLabelJa": "湖の洞窟周辺"
+    },
+    {
+      "id": "dq2-field-verified-09",
+      "sectionJa": "ムーンペタ北部",
+      "subsectionJa": "",
+      "scope": "individual-monster-exact-field-label",
+      "enemies": [
+        {
+          "nameJa": "おおねずみ",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/481468",
+          "appearanceLabelJa": "ムーンペタ北部",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481345"
+          ]
+        },
+        {
+          "nameJa": "キングコブラ",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/481470",
+          "appearanceLabelJa": "ムーンペタ北部",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481345"
+          ]
+        },
+        {
+          "nameJa": "よろいムカデ",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/481465",
+          "appearanceLabelJa": "ムーンペタ北部",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481345"
+          ]
+        },
+        {
+          "nameJa": "タホドラキー",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/481464",
+          "appearanceLabelJa": "ムーンペタ北部",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481345"
+          ]
+        },
+        {
+          "nameJa": "まどうし",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528033",
+          "appearanceLabelJa": "ムーンペタ北部",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481345"
+          ]
+        },
+        {
+          "nameJa": "リビングデッド",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/481460",
+          "appearanceLabelJa": "ムーンペタ北部",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481345"
+          ]
+        }
+      ],
+      "sourceUrls": [
+        "https://gamewith.jp/dq1-2/481468",
+        "https://gamewith.jp/dq1-2/481470",
+        "https://gamewith.jp/dq1-2/481465",
+        "https://gamewith.jp/dq1-2/481464",
+        "https://gamewith.jp/dq1-2/528033",
+        "https://gamewith.jp/dq1-2/481460"
+      ],
+      "verifiedDate": "2026-11-08",
+      "phaseZh": "区域按怪物详细页的明确出现场所，不把城镇页宽泛周边表当作道路。",
+      "sourceLabelJa": "ムーンペタ北部"
+    },
+    {
+      "id": "dq2-field-verified-10",
+      "sectionJa": "ムーンペタ南部",
+      "subsectionJa": "",
+      "scope": "individual-monster-exact-field-label",
+      "enemies": [
+        {
+          "nameJa": "タホドラキー",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/481464",
+          "appearanceLabelJa": "ムーンペタ南部",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481345"
+          ]
+        },
+        {
+          "nameJa": "まどうし",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528033",
+          "appearanceLabelJa": "ムーンペタ南部",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481345"
+          ]
+        },
+        {
+          "nameJa": "リビングデッド",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/481460",
+          "appearanceLabelJa": "ムーンペタ南部",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481345"
+          ]
+        },
+        {
+          "nameJa": "おばけキノコ",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528034",
+          "appearanceLabelJa": "ムーンペタ南部",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481345"
+          ]
+        },
+        {
+          "nameJa": "リザードフライ",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/481462",
+          "appearanceLabelJa": "ムーンペタ南部",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481345"
+          ]
+        },
+        {
+          "nameJa": "マンドリル",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/481461",
+          "appearanceLabelJa": "ムーンペタ南部",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481345"
+          ]
+        }
+      ],
+      "sourceUrls": [
+        "https://gamewith.jp/dq1-2/481464",
+        "https://gamewith.jp/dq1-2/528033",
+        "https://gamewith.jp/dq1-2/481460",
+        "https://gamewith.jp/dq1-2/528034",
+        "https://gamewith.jp/dq1-2/481462",
+        "https://gamewith.jp/dq1-2/481461"
+      ],
+      "verifiedDate": "2026-11-08",
+      "phaseZh": "区域按怪物详细页的明确出现场所，不把城镇页宽泛周边表当作道路。",
+      "sourceLabelJa": "ムーンペタ南部"
+    },
+    {
+      "id": "dq2-field-verified-11",
+      "sectionJa": "ムーンブルク周辺",
+      "subsectionJa": "",
+      "scope": "individual-monster-exact-field-label",
+      "enemies": [
+        {
+          "nameJa": "おばけキノコ",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528034",
+          "appearanceLabelJa": "ムーンブルク周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481357"
+          ]
+        },
+        {
+          "nameJa": "リザードフライ",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/481462",
+          "appearanceLabelJa": "ムーンブルク周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481357"
+          ]
+        },
+        {
+          "nameJa": "スモーク",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/481463",
+          "appearanceLabelJa": "ムーンブルク周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481357"
+          ]
+        },
+        {
+          "nameJa": "マンドリル",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/481461",
+          "appearanceLabelJa": "ムーンブルク周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481357"
+          ]
+        },
+        {
+          "nameJa": "ラリホーアント",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/481466",
+          "appearanceLabelJa": "ムーンブルク周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481357"
+          ]
+        },
+        {
+          "nameJa": "ギズモ",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528039",
+          "appearanceLabelJa": "ムーンブルク周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481357"
+          ]
+        },
+        {
+          "nameJa": "しりょう",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528040",
+          "appearanceLabelJa": "ムーンブルク周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481357"
+          ]
+        }
+      ],
+      "sourceUrls": [
+        "https://gamewith.jp/dq1-2/528034",
+        "https://gamewith.jp/dq1-2/481462",
+        "https://gamewith.jp/dq1-2/481463",
+        "https://gamewith.jp/dq1-2/481461",
+        "https://gamewith.jp/dq1-2/481466",
+        "https://gamewith.jp/dq1-2/528039",
+        "https://gamewith.jp/dq1-2/528040"
+      ],
+      "verifiedDate": "2026-11-08",
+      "phaseZh": "区域按怪物详细页的明确出现场所，不把城镇页宽泛周边表当作道路。",
+      "sourceLabelJa": "ムーンブルク周辺"
+    },
+    {
+      "id": "dq2-field-verified-12",
+      "sectionJa": "風の塔周辺",
+      "subsectionJa": "",
+      "scope": "individual-monster-exact-field-label",
+      "enemies": [
+        {
+          "nameJa": "ラリホーアント",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/481466",
+          "appearanceLabelJa": "風の塔周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481356"
+          ]
+        },
+        {
+          "nameJa": "さまようよろい",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528035",
+          "appearanceLabelJa": "風の塔周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481356"
+          ]
+        },
+        {
+          "nameJa": "キラービー",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528036",
+          "appearanceLabelJa": "風の塔周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481356"
+          ]
+        },
+        {
+          "nameJa": "リカント",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528037",
+          "appearanceLabelJa": "風の塔周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481356"
+          ]
+        },
+        {
+          "nameJa": "ぐんたいガニ",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528038",
+          "appearanceLabelJa": "風の塔周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481356"
+          ]
+        }
+      ],
+      "sourceUrls": [
+        "https://gamewith.jp/dq1-2/481466",
+        "https://gamewith.jp/dq1-2/528035",
+        "https://gamewith.jp/dq1-2/528036",
+        "https://gamewith.jp/dq1-2/528037",
+        "https://gamewith.jp/dq1-2/528038"
+      ],
+      "verifiedDate": "2026-11-08",
+      "phaseZh": "区域按怪物详细页的明确出现场所，不把城镇页宽泛周边表当作道路。",
+      "sourceLabelJa": "風の塔周辺"
+    },
+    {
+      "id": "dq2-field-verified-13",
+      "sectionJa": "オアシス東部",
+      "subsectionJa": "",
+      "scope": "individual-monster-exact-field-label",
+      "enemies": [
+        {
+          "nameJa": "おばけねずみ",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/481457",
+          "appearanceLabelJa": "オアシス東部",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/527056"
+          ]
+        },
+        {
+          "nameJa": "わらいぶくろ",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528044",
+          "appearanceLabelJa": "オアシス東部",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/527056"
+          ]
+        },
+        {
+          "nameJa": "かぶとムカデ",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/481458",
+          "appearanceLabelJa": "オアシス東部",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/527056"
+          ]
+        },
+        {
+          "nameJa": "しにがみ",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/481453",
+          "appearanceLabelJa": "オアシス東部",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/527056"
+          ]
+        },
+        {
+          "nameJa": "キメラ",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528045",
+          "appearanceLabelJa": "オアシス東部",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/527056"
+          ]
+        },
+        {
+          "nameJa": "あばれザル",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528046",
+          "appearanceLabelJa": "オアシス東部",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/527056"
+          ]
+        }
+      ],
+      "sourceUrls": [
+        "https://gamewith.jp/dq1-2/481457",
+        "https://gamewith.jp/dq1-2/528044",
+        "https://gamewith.jp/dq1-2/481458",
+        "https://gamewith.jp/dq1-2/481453",
+        "https://gamewith.jp/dq1-2/528045",
+        "https://gamewith.jp/dq1-2/528046"
+      ],
+      "verifiedDate": "2026-11-08",
+      "phaseZh": "区域按怪物详细页的明确出现场所，不把城镇页宽泛周边表当作道路。",
+      "sourceLabelJa": "オアシス東部"
+    },
+    {
+      "id": "dq2-field-verified-14",
+      "sectionJa": "オアシス周辺",
+      "subsectionJa": "",
+      "scope": "individual-monster-exact-field-label",
+      "enemies": [
+        {
+          "nameJa": "わらいぶくろ",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528044",
+          "appearanceLabelJa": "オアシス周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/527056"
+          ]
+        },
+        {
+          "nameJa": "かぶとムカデ",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/481458",
+          "appearanceLabelJa": "オアシス周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/527056"
+          ]
+        },
+        {
+          "nameJa": "しにがみ",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/481453",
+          "appearanceLabelJa": "オアシス周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/527056"
+          ]
+        },
+        {
+          "nameJa": "キメラ",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528045",
+          "appearanceLabelJa": "オアシス周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/527056"
+          ]
+        },
+        {
+          "nameJa": "あばれザル",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528046",
+          "appearanceLabelJa": "オアシス周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/527056"
+          ]
+        },
+        {
+          "nameJa": "ミイラおとこ",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/481455",
+          "appearanceLabelJa": "オアシス周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/527056"
+          ]
+        },
+        {
+          "nameJa": "てつのさそり",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528047",
+          "appearanceLabelJa": "オアシス周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/527056"
+          ]
+        },
+        {
+          "nameJa": "じごくのハサミ",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528048",
+          "appearanceLabelJa": "オアシス周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/527056"
+          ]
+        }
+      ],
+      "sourceUrls": [
+        "https://gamewith.jp/dq1-2/528044",
+        "https://gamewith.jp/dq1-2/481458",
+        "https://gamewith.jp/dq1-2/481453",
+        "https://gamewith.jp/dq1-2/528045",
+        "https://gamewith.jp/dq1-2/528046",
+        "https://gamewith.jp/dq1-2/481455",
+        "https://gamewith.jp/dq1-2/528047",
+        "https://gamewith.jp/dq1-2/528048"
+      ],
+      "verifiedDate": "2026-11-08",
+      "phaseZh": "区域按怪物详细页的明确出现场所，不把城镇页宽泛周边表当作道路。",
+      "sourceLabelJa": "オアシス周辺"
+    },
+    {
+      "id": "dq2-field-verified-15",
+      "sectionJa": "ドラゴンの角・南周辺",
+      "subsectionJa": "",
+      "scope": "individual-monster-exact-field-label",
+      "enemies": [
+        {
+          "nameJa": "ミイラおとこ",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/481455",
+          "appearanceLabelJa": "ドラゴンの角・南周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481355"
+          ]
+        },
+        {
+          "nameJa": "てつのさそり",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528047",
+          "appearanceLabelJa": "ドラゴンの角・南周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481355"
+          ]
+        },
+        {
+          "nameJa": "じごくのハサミ",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528048",
+          "appearanceLabelJa": "ドラゴンの角・南周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481355"
+          ]
+        },
+        {
+          "nameJa": "マンイーター",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/481456",
+          "appearanceLabelJa": "ドラゴンの角・南周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481355"
+          ]
+        },
+        {
+          "nameJa": "しりょうのきし",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528049",
+          "appearanceLabelJa": "ドラゴンの角・南周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481355"
+          ]
+        },
+        {
+          "nameJa": "どろにんぎょう",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/481451",
+          "appearanceLabelJa": "ドラゴンの角・南周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481355"
+          ]
+        }
+      ],
+      "sourceUrls": [
+        "https://gamewith.jp/dq1-2/481455",
+        "https://gamewith.jp/dq1-2/528047",
+        "https://gamewith.jp/dq1-2/528048",
+        "https://gamewith.jp/dq1-2/481456",
+        "https://gamewith.jp/dq1-2/528049",
+        "https://gamewith.jp/dq1-2/481451"
+      ],
+      "verifiedDate": "2026-11-08",
+      "phaseZh": "区域按怪物详细页的明确出现场所，不把城镇页宽泛周边表当作道路。",
+      "sourceLabelJa": "ドラゴンの角・南周辺"
+    },
+    {
+      "id": "dq2-field-verified-16",
+      "sectionJa": "アレフガルド南西部",
+      "subsectionJa": "",
+      "scope": "individual-monster-exact-field-label",
+      "enemies": [
+        {
+          "nameJa": "しりょうのきし",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528049",
+          "appearanceLabelJa": "アレフガルド南西部",
+          "mapSourceUrls": []
+        },
+        {
+          "nameJa": "ひとくいが",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528052",
+          "appearanceLabelJa": "アレフガルド南西部",
+          "mapSourceUrls": []
+        },
+        {
+          "nameJa": "マミー",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/481424",
+          "appearanceLabelJa": "アレフガルド南西部",
+          "mapSourceUrls": []
+        },
+        {
+          "nameJa": "リカントマムル",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528072",
+          "appearanceLabelJa": "アレフガルド南西部",
+          "mapSourceUrls": []
+        },
+        {
+          "nameJa": "メイジキメラ",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528054",
+          "appearanceLabelJa": "アレフガルド南西部",
+          "mapSourceUrls": []
+        },
+        {
+          "nameJa": "ヒートギズモ",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528074",
+          "appearanceLabelJa": "アレフガルド南西部",
+          "mapSourceUrls": []
+        },
+        {
+          "nameJa": "よろいのきし",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528075",
+          "appearanceLabelJa": "アレフガルド南西部",
+          "mapSourceUrls": []
+        }
+      ],
+      "sourceUrls": [
+        "https://gamewith.jp/dq1-2/528049",
+        "https://gamewith.jp/dq1-2/528052",
+        "https://gamewith.jp/dq1-2/481424",
+        "https://gamewith.jp/dq1-2/528072",
+        "https://gamewith.jp/dq1-2/528054",
+        "https://gamewith.jp/dq1-2/528074",
+        "https://gamewith.jp/dq1-2/528075"
+      ],
+      "verifiedDate": "2026-11-08",
+      "phaseZh": "区域按怪物详细页的明确出现场所，不把城镇页宽泛周边表当作道路。",
+      "sourceLabelJa": "アレフガルド南西部"
+    },
+    {
+      "id": "dq2-field-verified-17",
+      "sectionJa": "ルプガナ周辺",
+      "subsectionJa": "",
+      "scope": "individual-monster-exact-field-label",
+      "enemies": [
+        {
+          "nameJa": "どろにんぎょう",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/481451",
+          "appearanceLabelJa": "ルプガナ周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481344"
+          ]
+        },
+        {
+          "nameJa": "バブーン",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/481450",
+          "appearanceLabelJa": "ルプガナ周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481344"
+          ]
+        },
+        {
+          "nameJa": "マタンゴ",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528050",
+          "appearanceLabelJa": "ルプガナ周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481344"
+          ]
+        },
+        {
+          "nameJa": "ひとくいが",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528052",
+          "appearanceLabelJa": "ルプガナ周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481344"
+          ]
+        },
+        {
+          "nameJa": "マッドオックス",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528051",
+          "appearanceLabelJa": "ルプガナ周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481344"
+          ]
+        },
+        {
+          "nameJa": "マミー",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/481424",
+          "appearanceLabelJa": "ルプガナ周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481344"
+          ]
+        }
+      ],
+      "sourceUrls": [
+        "https://gamewith.jp/dq1-2/481451",
+        "https://gamewith.jp/dq1-2/481450",
+        "https://gamewith.jp/dq1-2/528050",
+        "https://gamewith.jp/dq1-2/528052",
+        "https://gamewith.jp/dq1-2/528051",
+        "https://gamewith.jp/dq1-2/481424"
+      ],
+      "verifiedDate": "2026-11-08",
+      "phaseZh": "区域按怪物详细页的明确出现场所，不把城镇页宽泛周边表当作道路。",
+      "sourceLabelJa": "ルプガナ周辺"
+    },
+    {
+      "id": "dq2-field-verified-18",
+      "sectionJa": "海上・ルプガナ&アレフガルド周辺",
+      "subsectionJa": "",
+      "scope": "individual-monster-exact-field-label",
+      "enemies": [
+        {
+          "nameJa": "ホークマン",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/481447",
+          "appearanceLabelJa": "海上・ルプガナ&アレフガルド周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481344"
+          ]
+        },
+        {
+          "nameJa": "メイジキメラ",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528054",
+          "appearanceLabelJa": "海上・ルプガナ&アレフガルド周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481344"
+          ]
+        },
+        {
+          "nameJa": "マリンスライム",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528055",
+          "appearanceLabelJa": "海上・ルプガナ&アレフガルド周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481344"
+          ]
+        },
+        {
+          "nameJa": "しびれくらげ",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/481449",
+          "appearanceLabelJa": "海上・ルプガナ&アレフガルド周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481344"
+          ]
+        },
+        {
+          "nameJa": "うみうし",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/481448",
+          "appearanceLabelJa": "海上・ルプガナ&アレフガルド周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481344"
+          ]
+        }
+      ],
+      "sourceUrls": [
+        "https://gamewith.jp/dq1-2/481447",
+        "https://gamewith.jp/dq1-2/528054",
+        "https://gamewith.jp/dq1-2/528055",
+        "https://gamewith.jp/dq1-2/481449",
+        "https://gamewith.jp/dq1-2/481448"
+      ],
+      "verifiedDate": "2026-11-08",
+      "phaseZh": "区域按怪物详细页的明确出现场所，不把城镇页宽泛周边表当作道路。",
+      "sourceLabelJa": "海上・ルプガナ&アレフガルド周辺"
+    },
+    {
+      "id": "dq2-field-verified-19",
+      "sectionJa": "アレフガルド南東部",
+      "subsectionJa": "",
+      "scope": "individual-monster-exact-field-label",
+      "enemies": [
+        {
+          "nameJa": "リカントマムル",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528072",
+          "appearanceLabelJa": "アレフガルド南東部",
+          "mapSourceUrls": []
+        },
+        {
+          "nameJa": "メイジキメラ",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528054",
+          "appearanceLabelJa": "アレフガルド南東部",
+          "mapSourceUrls": []
+        },
+        {
+          "nameJa": "かげのきし",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528088",
+          "appearanceLabelJa": "アレフガルド南東部",
+          "mapSourceUrls": []
+        },
+        {
+          "nameJa": "ベビーサタン",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528089",
+          "appearanceLabelJa": "アレフガルド南東部",
+          "mapSourceUrls": []
+        },
+        {
+          "nameJa": "さつじんき",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528090",
+          "appearanceLabelJa": "アレフガルド南東部",
+          "mapSourceUrls": []
+        }
+      ],
+      "sourceUrls": [
+        "https://gamewith.jp/dq1-2/528072",
+        "https://gamewith.jp/dq1-2/528054",
+        "https://gamewith.jp/dq1-2/528088",
+        "https://gamewith.jp/dq1-2/528089",
+        "https://gamewith.jp/dq1-2/528090"
+      ],
+      "verifiedDate": "2026-11-08",
+      "phaseZh": "区域按怪物详细页的明确出现场所，不把城镇页宽泛周边表当作道路。",
+      "sourceLabelJa": "アレフガルド南東部"
+    },
+    {
+      "id": "dq2-field-verified-20",
+      "sectionJa": "炎のほこら周辺",
+      "subsectionJa": "",
+      "scope": "individual-monster-exact-field-label",
+      "enemies": [
+        {
+          "nameJa": "ヒートギズモ",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528074",
+          "appearanceLabelJa": "炎のほこら周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481338"
+          ]
+        },
+        {
+          "nameJa": "マドハンド",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/481431",
+          "appearanceLabelJa": "炎のほこら周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481338"
+          ]
+        },
+        {
+          "nameJa": "ドラゴンフライ",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/481440",
+          "appearanceLabelJa": "炎のほこら周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481338"
+          ]
+        },
+        {
+          "nameJa": "ゴーゴンヘッド",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/481442",
+          "appearanceLabelJa": "炎のほこら周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481338"
+          ]
+        },
+        {
+          "nameJa": "ガーゴイル",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/481446",
+          "appearanceLabelJa": "炎のほこら周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481338"
+          ]
+        }
+      ],
+      "sourceUrls": [
+        "https://gamewith.jp/dq1-2/528074",
+        "https://gamewith.jp/dq1-2/481431",
+        "https://gamewith.jp/dq1-2/481440",
+        "https://gamewith.jp/dq1-2/481442",
+        "https://gamewith.jp/dq1-2/481446"
+      ],
+      "verifiedDate": "2026-11-08",
+      "phaseZh": "区域按怪物详细页的明确出现场所，不把城镇页宽泛周边表当作道路。",
+      "sourceLabelJa": "炎のほこら周辺"
+    },
+    {
+      "id": "dq2-field-verified-21",
+      "sectionJa": "デルコンダル周辺",
+      "subsectionJa": "",
+      "scope": "individual-monster-exact-field-label",
+      "enemies": [
+        {
+          "nameJa": "メタルスライム",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/481459",
+          "appearanceLabelJa": "▼デルコンダル周辺",
+          "mapSourceUrls": [
+            "#loca2"
+          ]
+        },
+        {
+          "nameJa": "くさったしたい",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/481430",
+          "appearanceLabelJa": "デルコンダル周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481339"
+          ]
+        },
+        {
+          "nameJa": "ガスト",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/481429",
+          "appearanceLabelJa": "デルコンダル周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481339"
+          ]
+        },
+        {
+          "nameJa": "ビッグホーン",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528113",
+          "appearanceLabelJa": "デルコンダル周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481339"
+          ]
+        },
+        {
+          "nameJa": "キラーエイプ",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528114",
+          "appearanceLabelJa": "デルコンダル周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481339"
+          ]
+        },
+        {
+          "nameJa": "ベホマスライム",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528115",
+          "appearanceLabelJa": "デルコンダル周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481339"
+          ]
+        },
+        {
+          "nameJa": "パペットマン",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/481435",
+          "appearanceLabelJa": "デルコンダル周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481339"
+          ]
+        }
+      ],
+      "sourceUrls": [
+        "https://gamewith.jp/dq1-2/481459",
+        "https://gamewith.jp/dq1-2/481430",
+        "https://gamewith.jp/dq1-2/481429",
+        "https://gamewith.jp/dq1-2/528113",
+        "https://gamewith.jp/dq1-2/528114",
+        "https://gamewith.jp/dq1-2/528115",
+        "https://gamewith.jp/dq1-2/481435"
+      ],
+      "verifiedDate": "2026-11-08",
+      "phaseZh": "区域按怪物详细页的明确出现场所，不把城镇页宽泛周边表当作道路。",
+      "sourceLabelJa": "▼デルコンダル周辺"
+    },
+    {
+      "id": "dq2-field-verified-22",
+      "sectionJa": "ペルポイ周辺",
+      "subsectionJa": "",
+      "scope": "individual-monster-exact-field-label",
+      "enemies": [
+        {
+          "nameJa": "マドハンド",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/481431",
+          "appearanceLabelJa": "ペルポイ周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481336"
+          ]
+        },
+        {
+          "nameJa": "ようじゅつし",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/481428",
+          "appearanceLabelJa": "ペルポイ周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481336"
+          ]
+        },
+        {
+          "nameJa": "しびれあげは",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528097",
+          "appearanceLabelJa": "ペルポイ周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481336"
+          ]
+        },
+        {
+          "nameJa": "アンデッドマン",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/481439",
+          "appearanceLabelJa": "ペルポイ周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481336"
+          ]
+        },
+        {
+          "nameJa": "くさったしたい",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/481430",
+          "appearanceLabelJa": "ペルポイ周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481336"
+          ]
+        },
+        {
+          "nameJa": "サーベルウルフ",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/481445",
+          "appearanceLabelJa": "ペルポイ周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481336"
+          ]
+        },
+        {
+          "nameJa": "ガメゴン",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528101",
+          "appearanceLabelJa": "ペルポイ周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481336"
+          ]
+        }
+      ],
+      "sourceUrls": [
+        "https://gamewith.jp/dq1-2/481431",
+        "https://gamewith.jp/dq1-2/481428",
+        "https://gamewith.jp/dq1-2/528097",
+        "https://gamewith.jp/dq1-2/481439",
+        "https://gamewith.jp/dq1-2/481430",
+        "https://gamewith.jp/dq1-2/481445",
+        "https://gamewith.jp/dq1-2/528101"
+      ],
+      "verifiedDate": "2026-11-08",
+      "phaseZh": "区域按怪物详细页的明确出现场所，不把城镇页宽泛周边表当作道路。",
+      "sourceLabelJa": "ペルポイ周辺"
+    },
+    {
+      "id": "dq2-field-verified-23",
+      "sectionJa": "ローレシア南のほこら周辺/勇者の泉の洞窟東の島々",
+      "subsectionJa": "",
+      "scope": "individual-monster-exact-field-label",
+      "enemies": [
+        {
+          "nameJa": "げんじゅつし",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528079",
+          "appearanceLabelJa": "ローレシア南のほこら周辺/勇者の泉の洞窟東の島々",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481534"
+          ]
+        },
+        {
+          "nameJa": "ストーンマン",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528080",
+          "appearanceLabelJa": "ローレシア南のほこら周辺/勇者の泉の洞窟東の島々",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481534"
+          ]
+        },
+        {
+          "nameJa": "シャーマン",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528103",
+          "appearanceLabelJa": "ローレシア南のほこら周辺/勇者の泉の洞窟東の島々",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481534"
+          ]
+        },
+        {
+          "nameJa": "ゴートドン",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528104",
+          "appearanceLabelJa": "ローレシア南のほこら周辺/勇者の泉の洞窟東の島々",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481534"
+          ]
+        }
+      ],
+      "sourceUrls": [
+        "https://gamewith.jp/dq1-2/528079",
+        "https://gamewith.jp/dq1-2/528080",
+        "https://gamewith.jp/dq1-2/528103",
+        "https://gamewith.jp/dq1-2/528104"
+      ],
+      "verifiedDate": "2026-11-08",
+      "phaseZh": "区域按怪物详细页的明确出现场所，不把城镇页宽泛周边表当作道路。",
+      "sourceLabelJa": "ローレシア南のほこら周辺/勇者の泉の洞窟東の島々"
+    },
+    {
+      "id": "dq2-field-verified-24",
+      "sectionJa": "ザハン周辺",
+      "subsectionJa": "",
+      "scope": "individual-monster-exact-field-label",
+      "enemies": [
+        {
+          "nameJa": "しびれあげは",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528097",
+          "appearanceLabelJa": "ザハン周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481337"
+          ]
+        },
+        {
+          "nameJa": "マリンスライム",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528055",
+          "appearanceLabelJa": "ザハン周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481337"
+          ]
+        },
+        {
+          "nameJa": "うみうし",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/481448",
+          "appearanceLabelJa": "ザハン周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481337"
+          ]
+        },
+        {
+          "nameJa": "ガーゴイル",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/481446",
+          "appearanceLabelJa": "ザハン周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481337"
+          ]
+        }
+      ],
+      "sourceUrls": [
+        "https://gamewith.jp/dq1-2/528097",
+        "https://gamewith.jp/dq1-2/528055",
+        "https://gamewith.jp/dq1-2/481448",
+        "https://gamewith.jp/dq1-2/481446"
+      ],
+      "verifiedDate": "2026-11-08",
+      "phaseZh": "区域按怪物详细页的明确出现场所，不把城镇页宽泛周边表当作道路。",
+      "sourceLabelJa": "ザハン周辺"
+    },
+    {
+      "id": "dq2-field-verified-25",
+      "sectionJa": "ベラヌール周辺/ベラヌール北のほこら周辺",
+      "subsectionJa": "",
+      "scope": "individual-monster-exact-field-label",
+      "enemies": [
+        {
+          "nameJa": "アンデッドマン",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/481439",
+          "appearanceLabelJa": "ベラヌール周辺/ベラヌール北のほこら周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481532"
+          ]
+        },
+        {
+          "nameJa": "じんめんじゅ",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/481436",
+          "appearanceLabelJa": "ベラヌール周辺/ベラヌール北のほこら周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481532"
+          ]
+        },
+        {
+          "nameJa": "オーク",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/481443",
+          "appearanceLabelJa": "ベラヌール周辺/ベラヌール北のほこら周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481532"
+          ]
+        },
+        {
+          "nameJa": "バシリスク",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/481441",
+          "appearanceLabelJa": "ベラヌール周辺/ベラヌール北のほこら周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481532"
+          ]
+        },
+        {
+          "nameJa": "ハンターフライ",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528099",
+          "appearanceLabelJa": "ベラヌール周辺/ベラヌール北のほこら周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481532"
+          ]
+        },
+        {
+          "nameJa": "しのさそり",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528100",
+          "appearanceLabelJa": "ベラヌール周辺/ベラヌール北のほこら周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481532"
+          ]
+        }
+      ],
+      "sourceUrls": [
+        "https://gamewith.jp/dq1-2/481439",
+        "https://gamewith.jp/dq1-2/481436",
+        "https://gamewith.jp/dq1-2/481443",
+        "https://gamewith.jp/dq1-2/481441",
+        "https://gamewith.jp/dq1-2/528099",
+        "https://gamewith.jp/dq1-2/528100"
+      ],
+      "verifiedDate": "2026-11-08",
+      "phaseZh": "区域按怪物详细页的明确出现场所，不把城镇页宽泛周边表当作道路。",
+      "sourceLabelJa": "ベラヌール周辺/ベラヌール北のほこら周辺"
+    },
+    {
+      "id": "dq2-field-verified-26",
+      "sectionJa": "ロンダルキア南の島",
+      "subsectionJa": "",
+      "scope": "individual-monster-exact-field-label",
+      "enemies": [
+        {
+          "nameJa": "ガルーダ",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528098",
+          "appearanceLabelJa": "ロンダルキア南の島",
+          "mapSourceUrls": []
+        },
+        {
+          "nameJa": "ガメゴン",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528101",
+          "appearanceLabelJa": "ロンダルキア南の島",
+          "mapSourceUrls": []
+        },
+        {
+          "nameJa": "マリンスライム",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528055",
+          "appearanceLabelJa": "ロンダルキア南の島",
+          "mapSourceUrls": []
+        },
+        {
+          "nameJa": "うみうし",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/481448",
+          "appearanceLabelJa": "ロンダルキア南の島",
+          "mapSourceUrls": []
+        },
+        {
+          "nameJa": "ガーゴイル",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/481446",
+          "appearanceLabelJa": "ロンダルキア南の島",
+          "mapSourceUrls": []
+        }
+      ],
+      "sourceUrls": [
+        "https://gamewith.jp/dq1-2/528098",
+        "https://gamewith.jp/dq1-2/528101",
+        "https://gamewith.jp/dq1-2/528055",
+        "https://gamewith.jp/dq1-2/481448",
+        "https://gamewith.jp/dq1-2/481446"
+      ],
+      "verifiedDate": "2026-11-08",
+      "phaseZh": "区域按怪物详细页的明确出现场所，不把城镇页宽泛周边表当作道路。",
+      "sourceLabelJa": "ロンダルキア南の島"
+    },
+    {
+      "id": "dq2-field-verified-27",
+      "sectionJa": "テパ南西部",
+      "subsectionJa": "",
+      "scope": "individual-monster-exact-field-label",
+      "enemies": [
+        {
+          "nameJa": "だいまどう",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528117",
+          "appearanceLabelJa": "テパ南西部",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481341"
+          ]
+        },
+        {
+          "nameJa": "じごくのよろい",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528118",
+          "appearanceLabelJa": "テパ南西部",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481341"
+          ]
+        },
+        {
+          "nameJa": "ウドラー",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/481427",
+          "appearanceLabelJa": "テパ南西部",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481341"
+          ]
+        },
+        {
+          "nameJa": "ヒババンゴ",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/481434",
+          "appearanceLabelJa": "テパ南西部",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481341"
+          ]
+        },
+        {
+          "nameJa": "ゴールドオーク",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/481438",
+          "appearanceLabelJa": "テパ南西部",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481341"
+          ]
+        },
+        {
+          "nameJa": "どくどくゾンビ",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528029",
+          "appearanceLabelJa": "テパ南西部",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481341"
+          ]
+        },
+        {
+          "nameJa": "ヘルコンドル",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528030",
+          "appearanceLabelJa": "テパ南西部",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481341"
+          ]
+        }
+      ],
+      "sourceUrls": [
+        "https://gamewith.jp/dq1-2/528117",
+        "https://gamewith.jp/dq1-2/528118",
+        "https://gamewith.jp/dq1-2/481427",
+        "https://gamewith.jp/dq1-2/481434",
+        "https://gamewith.jp/dq1-2/481438",
+        "https://gamewith.jp/dq1-2/528029",
+        "https://gamewith.jp/dq1-2/528030"
+      ],
+      "verifiedDate": "2026-11-08",
+      "phaseZh": "区域按怪物详细页的明确出现场所，不把城镇页宽泛周边表当作道路。",
+      "sourceLabelJa": "テパ南西部"
+    },
+    {
+      "id": "dq2-field-verified-28",
+      "sectionJa": "テパ周辺",
+      "subsectionJa": "",
+      "scope": "individual-monster-exact-field-label",
+      "enemies": [
+        {
+          "nameJa": "ヒババンゴ",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/481434",
+          "appearanceLabelJa": "テパ周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481341"
+          ]
+        },
+        {
+          "nameJa": "ゴールドオーク",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/481438",
+          "appearanceLabelJa": "テパ周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481341"
+          ]
+        },
+        {
+          "nameJa": "どくどくゾンビ",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528029",
+          "appearanceLabelJa": "テパ周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481341"
+          ]
+        },
+        {
+          "nameJa": "おどるほうせき",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528091",
+          "appearanceLabelJa": "テパ周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481341"
+          ]
+        },
+        {
+          "nameJa": "くびかりぞく",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/481432",
+          "appearanceLabelJa": "テパ周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481341"
+          ]
+        },
+        {
+          "nameJa": "ミニデーモン",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528116",
+          "appearanceLabelJa": "テパ周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481341"
+          ]
+        },
+        {
+          "nameJa": "じごくのつかい",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/481402",
+          "appearanceLabelJa": "テパ周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481341"
+          ]
+        },
+        {
+          "nameJa": "シルエト",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528063",
+          "appearanceLabelJa": "テパ周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481341"
+          ]
+        }
+      ],
+      "sourceUrls": [
+        "https://gamewith.jp/dq1-2/481434",
+        "https://gamewith.jp/dq1-2/481438",
+        "https://gamewith.jp/dq1-2/528029",
+        "https://gamewith.jp/dq1-2/528091",
+        "https://gamewith.jp/dq1-2/481432",
+        "https://gamewith.jp/dq1-2/528116",
+        "https://gamewith.jp/dq1-2/481402",
+        "https://gamewith.jp/dq1-2/528063"
+      ],
+      "verifiedDate": "2026-11-08",
+      "phaseZh": "区域按怪物详细页的明确出现场所，不把城镇页宽泛周边表当作道路。",
+      "sourceLabelJa": "テパ周辺"
+    },
+    {
+      "id": "dq2-field-verified-29",
+      "sectionJa": "ロンダルキアへの洞窟周辺/ロンダルキア北",
+      "subsectionJa": "",
+      "scope": "individual-monster-exact-field-label",
+      "enemies": [
+        {
+          "nameJa": "サイクロプス",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/481410",
+          "appearanceLabelJa": "ロンダルキアへの洞窟周辺/ロンダルキア北",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481350"
+          ]
+        },
+        {
+          "nameJa": "オークキング",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/481412",
+          "appearanceLabelJa": "ロンダルキアへの洞窟周辺/ロンダルキア北",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481350"
+          ]
+        },
+        {
+          "nameJa": "デスストーカー",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528141",
+          "appearanceLabelJa": "ロンダルキアへの洞窟周辺/ロンダルキア北",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481350"
+          ]
+        },
+        {
+          "nameJa": "バーサーカー",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/481417",
+          "appearanceLabelJa": "ロンダルキアへの洞窟周辺/ロンダルキア北",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481350"
+          ]
+        },
+        {
+          "nameJa": "トロル",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528142",
+          "appearanceLabelJa": "ロンダルキアへの洞窟周辺/ロンダルキア北",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481350"
+          ]
+        }
+      ],
+      "sourceUrls": [
+        "https://gamewith.jp/dq1-2/481410",
+        "https://gamewith.jp/dq1-2/481412",
+        "https://gamewith.jp/dq1-2/528141",
+        "https://gamewith.jp/dq1-2/481417",
+        "https://gamewith.jp/dq1-2/528142"
+      ],
+      "verifiedDate": "2026-11-08",
+      "phaseZh": "区域按怪物详细页的明确出现场所，不把城镇页宽泛周边表当作道路。",
+      "sourceLabelJa": "ロンダルキアへの洞窟周辺/ロンダルキア北"
+    },
+    {
+      "id": "dq2-field-verified-30",
+      "sectionJa": "ロンダルキア東部",
+      "subsectionJa": "",
+      "scope": "individual-monster-exact-field-label",
+      "enemies": [
+        {
+          "nameJa": "ギガンテス",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/481408",
+          "appearanceLabelJa": "ロンダルキア東部",
+          "mapSourceUrls": []
+        },
+        {
+          "nameJa": "キラーマシン",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/481414",
+          "appearanceLabelJa": "ロンダルキア東部",
+          "mapSourceUrls": []
+        },
+        {
+          "nameJa": "ブリザード",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/481411",
+          "appearanceLabelJa": "ロンダルキア東部",
+          "mapSourceUrls": []
+        },
+        {
+          "nameJa": "ひょうがまじん",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528145",
+          "appearanceLabelJa": "ロンダルキア東部",
+          "mapSourceUrls": []
+        },
+        {
+          "nameJa": "フロストギズモ",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528146",
+          "appearanceLabelJa": "ロンダルキア東部",
+          "mapSourceUrls": []
+        }
+      ],
+      "sourceUrls": [
+        "https://gamewith.jp/dq1-2/481408",
+        "https://gamewith.jp/dq1-2/481414",
+        "https://gamewith.jp/dq1-2/481411",
+        "https://gamewith.jp/dq1-2/528145",
+        "https://gamewith.jp/dq1-2/528146"
+      ],
+      "verifiedDate": "2026-11-08",
+      "phaseZh": "区域按怪物详细页的明确出现场所，不把城镇页宽泛周边表当作道路。",
+      "sourceLabelJa": "ロンダルキア東部"
+    },
+    {
+      "id": "dq2-field-verified-31",
+      "sectionJa": "ロンダルキア西部",
+      "subsectionJa": "",
+      "scope": "individual-monster-exact-field-label",
+      "enemies": [
+        {
+          "nameJa": "ギガンテス",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/481408",
+          "appearanceLabelJa": "ロンダルキア西部",
+          "mapSourceUrls": []
+        },
+        {
+          "nameJa": "キラーマシン",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/481414",
+          "appearanceLabelJa": "ロンダルキア西部",
+          "mapSourceUrls": []
+        },
+        {
+          "nameJa": "ブリザード",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/481411",
+          "appearanceLabelJa": "ロンダルキア西部",
+          "mapSourceUrls": []
+        },
+        {
+          "nameJa": "アークデーモン",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/481407",
+          "appearanceLabelJa": "ロンダルキア西部",
+          "mapSourceUrls": []
+        },
+        {
+          "nameJa": "デビルロード",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/481409",
+          "appearanceLabelJa": "ロンダルキア西部",
+          "mapSourceUrls": []
+        },
+        {
+          "nameJa": "キースドラゴン",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528147",
+          "appearanceLabelJa": "ロンダルキア西部",
+          "mapSourceUrls": []
+        }
+      ],
+      "sourceUrls": [
+        "https://gamewith.jp/dq1-2/481408",
+        "https://gamewith.jp/dq1-2/481414",
+        "https://gamewith.jp/dq1-2/481411",
+        "https://gamewith.jp/dq1-2/481407",
+        "https://gamewith.jp/dq1-2/481409",
+        "https://gamewith.jp/dq1-2/528147"
+      ],
+      "verifiedDate": "2026-11-08",
+      "phaseZh": "区域按怪物详细页的明确出现场所，不把城镇页宽泛周边表当作道路。",
+      "sourceLabelJa": "ロンダルキア西部"
+    },
+    {
+      "id": "dq2-field-verified-32",
+      "sectionJa": "ローレシア南の島",
+      "subsectionJa": "",
+      "scope": "individual-monster-exact-field-label",
+      "enemies": [
+        {
+          "nameJa": "ダークトロル",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528105",
+          "appearanceLabelJa": "ローレシア南の島",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481348"
+          ]
+        },
+        {
+          "nameJa": "デーモンソード",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528110",
+          "appearanceLabelJa": "ローレシア南の島",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481348"
+          ]
+        },
+        {
+          "nameJa": "海のまもりガメ",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528112",
+          "appearanceLabelJa": "ローレシア南の島",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481348"
+          ]
+        },
+        {
+          "nameJa": "デーモンアミゴ",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528106",
+          "appearanceLabelJa": "ローレシア南の島",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481348"
+          ]
+        },
+        {
+          "nameJa": "はめつの使者",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528111",
+          "appearanceLabelJa": "ローレシア南の島",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481348"
+          ]
+        },
+        {
+          "nameJa": "キラーマシン2",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528032",
+          "appearanceLabelJa": "ローレシア南の島",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481348"
+          ]
+        }
+      ],
+      "sourceUrls": [
+        "https://gamewith.jp/dq1-2/528105",
+        "https://gamewith.jp/dq1-2/528110",
+        "https://gamewith.jp/dq1-2/528112",
+        "https://gamewith.jp/dq1-2/528106",
+        "https://gamewith.jp/dq1-2/528111",
+        "https://gamewith.jp/dq1-2/528032"
+      ],
+      "verifiedDate": "2026-11-08",
+      "phaseZh": "区域按怪物详细页的明确出现场所，不把城镇页宽泛周边表当作道路。",
+      "sourceLabelJa": "ローレシア南の島"
+    },
+    {
+      "id": "dq2-field-verified-33",
+      "sectionJa": "海上・ザハン周辺",
+      "subsectionJa": "",
+      "scope": "individual-monster-exact-field-label",
+      "enemies": [
+        {
+          "nameJa": "マリンスライム",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528055",
+          "appearanceLabelJa": "海上・ザハン周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481337"
+          ]
+        },
+        {
+          "nameJa": "しびれくらげ",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/481449",
+          "appearanceLabelJa": "海上・ザハン周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481337"
+          ]
+        },
+        {
+          "nameJa": "うみうし",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/481448",
+          "appearanceLabelJa": "海上・ザハン周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481337"
+          ]
+        },
+        {
+          "nameJa": "ガーゴイル",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/481446",
+          "appearanceLabelJa": "海上・ザハン周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481337"
+          ]
+        },
+        {
+          "nameJa": "マーマン",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528056",
+          "appearanceLabelJa": "海上・ザハン周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481337"
+          ]
+        },
+        {
+          "nameJa": "だいおうイカ",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528057",
+          "appearanceLabelJa": "海上・ザハン周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481337"
+          ]
+        }
+      ],
+      "sourceUrls": [
+        "https://gamewith.jp/dq1-2/528055",
+        "https://gamewith.jp/dq1-2/481449",
+        "https://gamewith.jp/dq1-2/481448",
+        "https://gamewith.jp/dq1-2/481446",
+        "https://gamewith.jp/dq1-2/528056",
+        "https://gamewith.jp/dq1-2/528057"
+      ],
+      "verifiedDate": "2026-11-08",
+      "phaseZh": "区域按怪物详细页的明确出现场所，不把城镇页宽泛周边表当作道路。",
+      "sourceLabelJa": "海上・ザハン周辺"
+    },
+    {
+      "id": "dq2-field-verified-34",
+      "sectionJa": "海上・ベラヌール&デルコンダル周辺",
+      "subsectionJa": "",
+      "scope": "individual-monster-exact-field-label",
+      "enemies": [
+        {
+          "nameJa": "マリンスライム",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528055",
+          "appearanceLabelJa": "海上・ベラヌール&デルコンダル周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481339"
+          ]
+        },
+        {
+          "nameJa": "ガーゴイル",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/481446",
+          "appearanceLabelJa": "海上・ベラヌール&デルコンダル周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481339"
+          ]
+        },
+        {
+          "nameJa": "マーマン",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528056",
+          "appearanceLabelJa": "海上・ベラヌール&デルコンダル周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481339"
+          ]
+        },
+        {
+          "nameJa": "だいおうイカ",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528057",
+          "appearanceLabelJa": "海上・ベラヌール&デルコンダル周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481339"
+          ]
+        },
+        {
+          "nameJa": "ウィングスネーク",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528058",
+          "appearanceLabelJa": "海上・ベラヌール&デルコンダル周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481339"
+          ]
+        },
+        {
+          "nameJa": "ブリザーロック",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528060",
+          "appearanceLabelJa": "海上・ベラヌール&デルコンダル周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481339"
+          ]
+        }
+      ],
+      "sourceUrls": [
+        "https://gamewith.jp/dq1-2/528055",
+        "https://gamewith.jp/dq1-2/481446",
+        "https://gamewith.jp/dq1-2/528056",
+        "https://gamewith.jp/dq1-2/528057",
+        "https://gamewith.jp/dq1-2/528058",
+        "https://gamewith.jp/dq1-2/528060"
+      ],
+      "verifiedDate": "2026-11-08",
+      "phaseZh": "区域按怪物详细页的明确出现场所，不把城镇页宽泛周边表当作道路。",
+      "sourceLabelJa": "海上・ベラヌール&デルコンダル周辺"
+    },
+    {
+      "id": "dq2-field-verified-35",
+      "sectionJa": "海底",
+      "subsectionJa": "",
+      "scope": "individual-monster-exact-field-label",
+      "enemies": [
+        {
+          "nameJa": "だいおうイカ",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528057",
+          "appearanceLabelJa": "海底",
+          "mapSourceUrls": [],
+          "additionalSources": [
+            "https://game8.jp/dq2/737072"
+          ]
+        },
+        {
+          "nameJa": "マーマンダイン",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528064",
+          "appearanceLabelJa": "海底",
+          "mapSourceUrls": [],
+          "additionalSources": [
+            "https://game8.jp/dq2/737072"
+          ]
+        },
+        {
+          "nameJa": "たこつぼこぞう",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528121",
+          "appearanceLabelJa": "海底",
+          "mapSourceUrls": [],
+          "additionalSources": [
+            "https://game8.jp/dq2/737072"
+          ]
+        },
+        {
+          "nameJa": "ウバナマコ",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528122",
+          "appearanceLabelJa": "海底",
+          "mapSourceUrls": [],
+          "additionalSources": [
+            "https://game8.jp/dq2/737072"
+          ]
+        },
+        {
+          "nameJa": "ディープドロル",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528123",
+          "appearanceLabelJa": "海底",
+          "mapSourceUrls": [],
+          "additionalSources": [
+            "https://game8.jp/dq2/737072"
+          ]
+        }
+      ],
+      "sourceUrls": [
+        "https://gamewith.jp/dq1-2/528057",
+        "https://gamewith.jp/dq1-2/528064",
+        "https://gamewith.jp/dq1-2/528121",
+        "https://gamewith.jp/dq1-2/528122",
+        "https://gamewith.jp/dq1-2/528123",
+        "https://game8.jp/dq2/737072"
+      ],
+      "verifiedDate": "2026-11-08",
+      "phaseZh": "区域按怪物详细页的明确出现场所，不把城镇页宽泛周边表当作道路。",
+      "sourceLabelJa": "海底",
+      "sourceAliasesJa": [
+        "その他海底・深海（海底）"
+      ]
+    },
+    {
+      "id": "dq2-field-verified-36",
+      "sectionJa": "海上・テパ周辺の川",
+      "subsectionJa": "",
+      "scope": "individual-monster-exact-field-label",
+      "enemies": [
+        {
+          "nameJa": "ガニラス",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528059",
+          "appearanceLabelJa": "海上・テパ周辺の川",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481341"
+          ]
+        },
+        {
+          "nameJa": "ふねくいイソメ",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528061",
+          "appearanceLabelJa": "海上・テパ周辺の川",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481341"
+          ]
+        },
+        {
+          "nameJa": "テンタクルス",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528062",
+          "appearanceLabelJa": "海上・テパ周辺の川",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481341"
+          ]
+        },
+        {
+          "nameJa": "ヘルコンドル",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528030",
+          "appearanceLabelJa": "海上・テパ周辺の川",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481341"
+          ]
+        },
+        {
+          "nameJa": "シルエト",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528063",
+          "appearanceLabelJa": "海上・テパ周辺の川",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481341"
+          ]
+        }
+      ],
+      "sourceUrls": [
+        "https://gamewith.jp/dq1-2/528059",
+        "https://gamewith.jp/dq1-2/528061",
+        "https://gamewith.jp/dq1-2/528062",
+        "https://gamewith.jp/dq1-2/528030",
+        "https://gamewith.jp/dq1-2/528063"
+      ],
+      "verifiedDate": "2026-11-08",
+      "phaseZh": "区域按怪物详细页的明确出现场所，不把城镇页宽泛周边表当作道路。",
+      "sourceLabelJa": "海上・テパ周辺の川"
+    },
+    {
+      "id": "dq2-field-verified-37",
+      "sectionJa": "海上・ローレシア南西の大海",
+      "subsectionJa": "",
+      "scope": "individual-monster-exact-field-label",
+      "enemies": [
+        {
+          "nameJa": "ふねくいイソメ",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528061",
+          "appearanceLabelJa": "海上・ローレシア南西の大海",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481348"
+          ]
+        },
+        {
+          "nameJa": "テンタクルス",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528062",
+          "appearanceLabelJa": "海上・ローレシア南西の大海",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481348"
+          ]
+        },
+        {
+          "nameJa": "シルエト",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528063",
+          "appearanceLabelJa": "海上・ローレシア南西の大海",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481348"
+          ]
+        },
+        {
+          "nameJa": "マーマンダイン",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528064",
+          "appearanceLabelJa": "海上・ローレシア南西の大海",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481348"
+          ]
+        },
+        {
+          "nameJa": "なみさそり",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528065",
+          "appearanceLabelJa": "海上・ローレシア南西の大海",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481348"
+          ]
+        }
+      ],
+      "sourceUrls": [
+        "https://gamewith.jp/dq1-2/528061",
+        "https://gamewith.jp/dq1-2/528062",
+        "https://gamewith.jp/dq1-2/528063",
+        "https://gamewith.jp/dq1-2/528064",
+        "https://gamewith.jp/dq1-2/528065"
+      ],
+      "verifiedDate": "2026-11-08",
+      "phaseZh": "区域按怪物详细页的明确出现场所，不把城镇页宽泛周边表当作道路。",
+      "sourceLabelJa": "海上・ローレシア南西の大海"
+    },
+    {
+      "id": "dq2-field-verified-38",
+      "sectionJa": "海底・ローレシア南西",
+      "subsectionJa": "",
+      "scope": "individual-monster-exact-field-label",
+      "enemies": [
+        {
+          "nameJa": "テンタクルス",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528062",
+          "appearanceLabelJa": "海底・ローレシア南西",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481348"
+          ],
+          "additionalSources": [
+            "https://game8.jp/dq2/737072"
+          ]
+        },
+        {
+          "nameJa": "ガメゴンロード",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528124",
+          "appearanceLabelJa": "海底・ローレシア南西",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481348"
+          ],
+          "additionalSources": [
+            "https://game8.jp/dq2/737072"
+          ]
+        },
+        {
+          "nameJa": "まかいサンゴ",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528125",
+          "appearanceLabelJa": "海底・ローレシア南西",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481348"
+          ],
+          "additionalSources": [
+            "https://game8.jp/dq2/737072"
+          ]
+        },
+        {
+          "nameJa": "プレシオドン",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528126",
+          "appearanceLabelJa": "海底・ローレシア南西",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481348"
+          ],
+          "additionalSources": [
+            "https://game8.jp/dq2/737072"
+          ]
+        },
+        {
+          "nameJa": "アクアハンター",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528127",
+          "appearanceLabelJa": "海底・ローレシア南西",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481348"
+          ],
+          "additionalSources": [
+            "https://game8.jp/dq2/737072"
+          ]
+        }
+      ],
+      "sourceUrls": [
+        "https://gamewith.jp/dq1-2/528062",
+        "https://gamewith.jp/dq1-2/528124",
+        "https://gamewith.jp/dq1-2/528125",
+        "https://gamewith.jp/dq1-2/528126",
+        "https://gamewith.jp/dq1-2/528127",
+        "https://game8.jp/dq2/737072"
+      ],
+      "verifiedDate": "2026-11-08",
+      "phaseZh": "区域按怪物详细页的明确出现场所，不把城镇页宽泛周边表当作道路。",
+      "sourceLabelJa": "海底・ローレシア南西",
+      "sourceAliasesJa": [
+        "ローレシア南西周辺（海底）"
+      ]
+    },
+    {
+      "id": "dq2-field-verified-39",
+      "sectionJa": "海上・ムーンブルク南の内湾",
+      "subsectionJa": "",
+      "scope": "individual-monster-exact-field-label",
+      "enemies": [
+        {
+          "nameJa": "キングマーマン",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528066",
+          "appearanceLabelJa": "海上・ムーンブルク南の内湾",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481357"
+          ]
+        },
+        {
+          "nameJa": "ごくらくちょう",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528067",
+          "appearanceLabelJa": "海上・ムーンブルク南の内湾",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481357"
+          ]
+        },
+        {
+          "nameJa": "グレートオーラス",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528068",
+          "appearanceLabelJa": "海上・ムーンブルク南の内湾",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481357"
+          ]
+        },
+        {
+          "nameJa": "クラーゴン",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528069",
+          "appearanceLabelJa": "海上・ムーンブルク南の内湾",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481357"
+          ]
+        }
+      ],
+      "sourceUrls": [
+        "https://gamewith.jp/dq1-2/528066",
+        "https://gamewith.jp/dq1-2/528067",
+        "https://gamewith.jp/dq1-2/528068",
+        "https://gamewith.jp/dq1-2/528069"
+      ],
+      "verifiedDate": "2026-11-08",
+      "phaseZh": "区域按怪物详细页的明确出现场所，不把城镇页宽泛周边表当作道路。",
+      "sourceLabelJa": "海上・ムーンブルク南の内湾"
+    },
+    {
+      "id": "dq2-field-verified-40",
+      "sectionJa": "海底・テパ東",
+      "subsectionJa": "",
+      "scope": "individual-monster-exact-field-label",
+      "enemies": [
+        {
+          "nameJa": "キングマーマン",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528066",
+          "appearanceLabelJa": "海底・テパ東",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481341"
+          ],
+          "additionalSources": [
+            "https://game8.jp/dq2/737072"
+          ]
+        },
+        {
+          "nameJa": "クラーゴン",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528069",
+          "appearanceLabelJa": "海底・テパ東",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481341"
+          ],
+          "additionalSources": [
+            "https://game8.jp/dq2/737072"
+          ]
+        },
+        {
+          "nameJa": "まかいサンゴ",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528125",
+          "appearanceLabelJa": "海底・テパ東",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481341"
+          ],
+          "additionalSources": [
+            "https://game8.jp/dq2/737072"
+          ]
+        },
+        {
+          "nameJa": "プレシオドン",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528126",
+          "appearanceLabelJa": "海底・テパ東",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481341"
+          ],
+          "additionalSources": [
+            "https://game8.jp/dq2/737072"
+          ]
+        },
+        {
+          "nameJa": "キルゲータ",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528128",
+          "appearanceLabelJa": "海底・テパ東",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481341"
+          ],
+          "additionalSources": [
+            "https://game8.jp/dq2/737072"
+          ]
+        },
+        {
+          "nameJa": "オクトセントリー",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528129",
+          "appearanceLabelJa": "海底・テパ東",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481341"
+          ],
+          "additionalSources": [
+            "https://game8.jp/dq2/737072"
+          ]
+        }
+      ],
+      "sourceUrls": [
+        "https://gamewith.jp/dq1-2/528066",
+        "https://gamewith.jp/dq1-2/528069",
+        "https://gamewith.jp/dq1-2/528125",
+        "https://gamewith.jp/dq1-2/528126",
+        "https://gamewith.jp/dq1-2/528128",
+        "https://gamewith.jp/dq1-2/528129",
+        "https://game8.jp/dq2/737072"
+      ],
+      "verifiedDate": "2026-11-08",
+      "phaseZh": "区域按怪物详细页的明确出现场所，不把城镇页宽泛周边表当作道路。",
+      "sourceLabelJa": "海底・テパ東",
+      "sourceAliasesJa": [
+        "テパ東周辺（海底）"
+      ]
+    },
+    {
+      "id": "dq2-field-verified-41",
+      "sectionJa": "深海",
+      "subsectionJa": "",
+      "scope": "individual-monster-exact-field-label",
+      "enemies": [
+        {
+          "nameJa": "キングマーマン",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528066",
+          "appearanceLabelJa": "深海",
+          "mapSourceUrls": [],
+          "additionalSources": [
+            "https://game8.jp/dq2/737072"
+          ]
+        },
+        {
+          "nameJa": "クラーゴン",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528069",
+          "appearanceLabelJa": "深海",
+          "mapSourceUrls": [],
+          "additionalSources": [
+            "https://game8.jp/dq2/737072"
+          ]
+        },
+        {
+          "nameJa": "まかいサンゴ",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528125",
+          "appearanceLabelJa": "深海",
+          "mapSourceUrls": [],
+          "additionalSources": [
+            "https://game8.jp/dq2/737072"
+          ]
+        },
+        {
+          "nameJa": "プレシオドン",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528126",
+          "appearanceLabelJa": "深海",
+          "mapSourceUrls": [],
+          "additionalSources": [
+            "https://game8.jp/dq2/737072"
+          ]
+        },
+        {
+          "nameJa": "キルゲータ",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528128",
+          "appearanceLabelJa": "深海",
+          "mapSourceUrls": [],
+          "additionalSources": [
+            "https://game8.jp/dq2/737072"
+          ]
+        },
+        {
+          "nameJa": "オクトセントリー",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528129",
+          "appearanceLabelJa": "深海",
+          "mapSourceUrls": [],
+          "additionalSources": [
+            "https://game8.jp/dq2/737072"
+          ]
+        }
+      ],
+      "sourceUrls": [
+        "https://gamewith.jp/dq1-2/528066",
+        "https://gamewith.jp/dq1-2/528069",
+        "https://gamewith.jp/dq1-2/528125",
+        "https://gamewith.jp/dq1-2/528126",
+        "https://gamewith.jp/dq1-2/528128",
+        "https://gamewith.jp/dq1-2/528129",
+        "https://game8.jp/dq2/737072"
+      ],
+      "verifiedDate": "2026-11-08",
+      "phaseZh": "区域按怪物详细页的明确出现场所，不把城镇页宽泛周边表当作道路。",
+      "sourceLabelJa": "深海",
+      "sourceAliasesJa": [
+        "深海"
+      ]
+    },
+    {
+      "id": "dq2-field-verified-42",
+      "sectionJa": "海底・ルプガナ&アレフガルド周辺",
+      "subsectionJa": "",
+      "scope": "individual-monster-exact-field-label",
+      "enemies": [
+        {
+          "nameJa": "キバギンチャク",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528130",
+          "appearanceLabelJa": "海底・ルプガナ&アレフガルド周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481344"
+          ],
+          "additionalSources": [
+            "https://game8.jp/dq2/737072"
+          ]
+        },
+        {
+          "nameJa": "コブラアナゴ",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528131",
+          "appearanceLabelJa": "海底・ルプガナ&アレフガルド周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481344"
+          ],
+          "additionalSources": [
+            "https://game8.jp/dq2/737072"
+          ]
+        },
+        {
+          "nameJa": "くびながりゅう",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528132",
+          "appearanceLabelJa": "海底・ルプガナ&アレフガルド周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481344"
+          ],
+          "additionalSources": [
+            "https://game8.jp/dq2/737072"
+          ]
+        },
+        {
+          "nameJa": "エビルタートル",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528133",
+          "appearanceLabelJa": "海底・ルプガナ&アレフガルド周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481344"
+          ],
+          "additionalSources": [
+            "https://game8.jp/dq2/737072"
+          ]
+        },
+        {
+          "nameJa": "トドマン",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528134",
+          "appearanceLabelJa": "海底・ルプガナ&アレフガルド周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481344"
+          ],
+          "additionalSources": [
+            "https://game8.jp/dq2/737072"
+          ]
+        },
+        {
+          "nameJa": "ヘルパイレーツ",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/528135",
+          "appearanceLabelJa": "海底・ルプガナ&アレフガルド周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481344"
+          ],
+          "additionalSources": [
+            "https://game8.jp/dq2/737072"
+          ]
+        }
+      ],
+      "sourceUrls": [
+        "https://gamewith.jp/dq1-2/528130",
+        "https://gamewith.jp/dq1-2/528131",
+        "https://gamewith.jp/dq1-2/528132",
+        "https://gamewith.jp/dq1-2/528133",
+        "https://gamewith.jp/dq1-2/528134",
+        "https://gamewith.jp/dq1-2/528135",
+        "https://game8.jp/dq2/737072"
+      ],
+      "verifiedDate": "2026-11-08",
+      "phaseZh": "区域按怪物详细页的明确出现场所，不把城镇页宽泛周边表当作道路。",
+      "sourceLabelJa": "海底・ルプガナ&アレフガルド周辺",
+      "sourceAliasesJa": [
+        "ルプガナ＆アレフガルド周辺（海底）"
+      ]
+    },
+    {
+      "id": "dq2-field-verified-43",
+      "sectionJa": "ラダトームの城周辺",
+      "subsectionJa": "",
+      "scope": "individual-monster-exact-field-label",
+      "enemies": [
+        {
+          "nameJa": "グレムリン",
+          "hpEstimateJa": null,
+          "exp": null,
+          "goldJa": null,
+          "dropsAndStealJa": [],
+          "sourceUrl": "https://gamewith.jp/dq1-2/481406",
+          "appearanceLabelJa": "ラダトームの城周辺",
+          "mapSourceUrls": [
+            "https://gamewith.jp/dq1-2/481343"
+          ]
+        }
+      ],
+      "sourceUrls": [
+        "https://gamewith.jp/dq1-2/481406"
+      ],
+      "verifiedDate": "2026-11-08",
+      "phaseZh": "区域按怪物详细页的明确出现场所，不把城镇页宽泛周边表当作道路。",
+      "sourceLabelJa": "ラダトームの城周辺"
+    }
+  ],
+  "regionMaps": [
+    {
+      "regionJa": "ルプガナ＆アレフガルド周辺",
+      "labelJa": "海底・ルプガナ＆アレフガルド周辺",
+      "url": "https://img.game8.jp/11960084/a9ddacaf4ce06814566a427aa678843a.webp/show",
+      "sourceUrl": "https://game8.jp/dq2/737072"
+    },
+    {
+      "regionJa": "テパ東周辺",
+      "labelJa": "海底・テパ東",
+      "url": "https://img.game8.jp/11960083/36266f62db2cfb8919af656ce13d0d97.webp/show",
+      "sourceUrl": "https://game8.jp/dq2/737072"
+    },
+    {
+      "regionJa": "ローレシア南西周辺",
+      "labelJa": "海底・ローレシア南西",
+      "url": "https://img.game8.jp/11960085/cc128181019102512eecfed702813fb6.webp/show",
+      "sourceUrl": "https://game8.jp/dq2/737072"
+    },
+    {
+      "regionJa": "その他海底・深海",
+      "labelJa": "海底",
+      "url": "https://img.game8.jp/11960081/defdebb503e2cdd807dea3009181f94e.webp/show",
+      "sourceUrl": "https://game8.jp/dq2/737072"
+    }
+  ],
+  "rejectedBroadTownAggregates": [
+    {
+      "sectionJa": "ローレシアの周辺モンスター",
+      "sourceUrl": "https://gamewith.jp/dq1-2/481348",
+      "reasonZh": "城镇页聚合范围混入南岛、地下首领等，不用作精确野外关系。"
+    },
+    {
+      "sectionJa": "リリザの周辺モンスター",
+      "sourceUrl": "https://gamewith.jp/dq1-2/481347",
+      "reasonZh": "城镇页聚合范围混入南岛、地下首领等，不用作精确野外关系。"
+    },
+    {
+      "sectionJa": "サマルトリアの周辺モンスター",
+      "sourceUrl": "https://gamewith.jp/dq1-2/481346",
+      "reasonZh": "城镇页聚合范围混入南岛、地下首领等，不用作精确野外关系。"
+    },
+    {
+      "sectionJa": "ムーンペタの周辺モンスター",
+      "sourceUrl": "https://gamewith.jp/dq1-2/481345",
+      "reasonZh": "城镇页聚合范围混入南岛、地下首领等，不用作精确野外关系。"
+    },
+    {
+      "sectionJa": "オアシスの周辺モンスター",
+      "sourceUrl": "https://gamewith.jp/dq1-2/527056",
+      "reasonZh": "城镇页聚合范围混入南岛、地下首领等，不用作精确野外关系。"
+    },
+    {
+      "sectionJa": "ルプガナの周辺モンスター",
+      "sourceUrl": "https://gamewith.jp/dq1-2/481344",
+      "reasonZh": "城镇页聚合范围混入南岛、地下首领等，不用作精确野外关系。"
+    },
+    {
+      "sectionJa": "ラダトームの周辺モンスター",
+      "sourceUrl": "https://gamewith.jp/dq1-2/481343",
+      "reasonZh": "城镇页聚合范围混入南岛、地下首领等，不用作精确野外关系。"
+    },
+    {
+      "sectionJa": "ザハンの周辺モンスター",
+      "sourceUrl": "https://gamewith.jp/dq1-2/481337",
+      "reasonZh": "城镇页聚合范围混入南岛、地下首领等，不用作精确野外关系。"
+    },
+    {
+      "sectionJa": "舟守のほこらの周辺モンスター",
+      "sourceUrl": "https://gamewith.jp/dq1-2/481531",
+      "reasonZh": "城镇页聚合范围混入南岛、地下首领等，不用作精确野外关系。"
+    },
+    {
+      "sectionJa": "ペルポイの周辺モンスター",
+      "sourceUrl": "https://gamewith.jp/dq1-2/481336",
+      "reasonZh": "城镇页聚合范围混入南岛、地下首领等，不用作精确野外关系。"
+    },
+    {
+      "sectionJa": "炎のほこらの周辺モンスター",
+      "sourceUrl": "https://gamewith.jp/dq1-2/481338",
+      "reasonZh": "城镇页聚合范围混入南岛、地下首领等，不用作精确野外关系。"
+    },
+    {
+      "sectionJa": "デルコンダルの周辺モンスター",
+      "sourceUrl": "https://gamewith.jp/dq1-2/481339",
+      "reasonZh": "城镇页聚合范围混入南岛、地下首领等，不用作精确野外关系。"
+    },
+    {
+      "sectionJa": "森の廃村の周辺モンスター",
+      "sourceUrl": "https://gamewith.jp/dq1-2/526737",
+      "reasonZh": "城镇页聚合范围混入南岛、地下首领等，不用作精确野外关系。"
+    },
+    {
+      "sectionJa": "テパの周辺モンスター",
+      "sourceUrl": "https://gamewith.jp/dq1-2/481341",
+      "reasonZh": "城镇页聚合范围混入南岛、地下首领等，不用作精确野外关系。"
+    },
+    {
+      "sectionJa": "ガライの周辺モンスター",
+      "sourceUrl": "https://gamewith.jp/dq1-2/527772",
+      "reasonZh": "城镇页聚合范围混入南岛、地下首领等，不用作精确野外关系。"
+    },
+    {
+      "sectionJa": "ベラヌールの周辺モンスター",
+      "sourceUrl": "https://gamewith.jp/dq1-2/481340",
+      "reasonZh": "城镇页聚合范围混入南岛、地下首领等，不用作精确野外关系。"
+    },
+    {
+      "sectionJa": "ローレシア南のほこらの周辺モンスター",
+      "sourceUrl": "https://gamewith.jp/dq1-2/481534",
+      "reasonZh": "城镇页聚合范围混入南岛、地下首领等，不用作精确野外关系。"
+    },
+    {
+      "sectionJa": "ルビスのほこらの周辺モンスター",
+      "sourceUrl": "https://gamewith.jp/dq1-2/528462",
+      "reasonZh": "城镇页聚合范围混入南岛、地下首领等，不用作精确野外关系。"
+    },
+    {
+      "sectionJa": "北のお告げ所の周辺モンスター",
+      "sourceUrl": "https://gamewith.jp/dq1-2/482180",
+      "reasonZh": "城镇页聚合范围混入南岛、地下首领等，不用作精确野外关系。"
+    }
+  ]
+}

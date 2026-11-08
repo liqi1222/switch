@@ -442,6 +442,38 @@ mark { background: #ffe58a; color: inherit; padding: 0 1px; border-radius: 2px; 
   .dp-info { max-height:72%; bottom:23px; font-size:12px; padding:6px 8px; }
 }
 
+/* 道路编号减少长文字遮挡；导航参照不随道路分类消失。 */
+.dp-road-badge { display:none; cursor:pointer; }
+.road-numbered .dp-road-badge { display:block; }
+.road-numbered .dp-plabel { display:none; }
+.dp-road-badge .road-disc { fill:#ffe4a4; stroke:#40371f; stroke-width:.35; }
+.dp-road-badge text { fill:#17283a; font-size:1.85px; font-weight:800; pointer-events:none; }
+.dp-road-badge.sel .road-disc { fill:#ed4164; stroke:#fff; }
+.dp-road-badge.sel text { fill:#fff; }
+.dp-road-badge:focus .road-disc,.dp-junction:focus circle { stroke:#fff; stroke-width:.65; }
+.dp-junction { cursor:pointer; }
+.dp-junction circle { fill:#244a66; stroke:#e8ca7b; stroke-width:.35; }
+.dp-junction text { fill:#fff5ce; font-size:1.8px; font-weight:bold; pointer-events:none; }
+.dp-crossing path { stroke:#c44045; stroke-width:.4; }
+.dp-crossing text { font-size:1.45px; font-weight:bold; fill:#8f1838; stroke:#fff3d4; stroke-width:.65; paint-order:stroke; }
+.atlas-route-ends { border-left:3px solid #b78835; padding-left:8px; line-height:1.8; }
+.atlas-route-steps { margin:7px 0; padding-left:23px; line-height:1.85; }
+.atlas-route-caution { padding:6px 8px; background:#fff1ce; color:#7c293b; border-radius:4px; }
+.atlas-route-refs { padding:5px 0; line-height:1.8; }
+.atlas-route-links { display:flex; flex-wrap:wrap; gap:5px; margin-top:6px; }
+.atlas-route-links > b { width:100%; }
+.atlas-road-link { border:1px solid #a98a55; background:#fff7df; color:#563816; border-radius:4px; padding:5px 7px; font:inherit; text-align:left; cursor:pointer; }
+.atlas-road-link:hover,.atlas-road-link:focus-visible { background:#ffe3a0; outline:1px solid #7c5c20; }
+@media(max-width:900px) { .dp-tools { flex-wrap:wrap; } .dp-head { align-items:flex-start; } }
+
+@media(max-width:900px) {
+  .dp-titles { flex:1 1 100%; white-space:normal; }
+  .dp-sub { display:none; }
+  .dp-tools { width:100%; justify-content:flex-end; }
+  .dp-info .dpi-title { flex-wrap:wrap; gap:3px; }
+  .dp-info .dpi-title span { flex-basis:100%; }
+}
+
 </style>
 </head>
 <body>
@@ -7402,66 +7434,747 @@ OT2.addDetail("woodlands", {
   },
   "north_swarkii_trail": {
     "theme": "forest",
-    "size": [100, 70],
+    "size": [
+      100,
+      70
+    ],
     "note": "南接希·沃尔基北口，在中段分为西（往西希·沃尔基森道）、东（往雪原地区）两路。流浪的学者在左侧道路、行商的猎人在右侧道路；四个宝箱（其中轻身坚果是红箱）分别在各条小岔尽头（位置为示意）。",
     "zones": [
-      { "kind": "forest", "poly": [[0, 40], [20, 42], [30, 50], [24, 70], [0, 70]] },
-      { "kind": "forest", "poly": [[30, 0], [56, 0], [52, 14], [36, 18]] },
-      { "kind": "snow", "poly": [[86, 0], [100, 0], [100, 40], [92, 34], [88, 16]] },
-      { "kind": "forest", "poly": [[70, 70], [72, 56], [80, 50], [86, 70]] }
+      {
+        "kind": "forest",
+        "poly": [
+          [
+            0,
+            40
+          ],
+          [
+            20,
+            42
+          ],
+          [
+            30,
+            50
+          ],
+          [
+            24,
+            70
+          ],
+          [
+            0,
+            70
+          ]
+        ]
+      },
+      {
+        "kind": "forest",
+        "poly": [
+          [
+            30,
+            0
+          ],
+          [
+            56,
+            0
+          ],
+          [
+            52,
+            14
+          ],
+          [
+            36,
+            18
+          ]
+        ]
+      },
+      {
+        "kind": "snow",
+        "poly": [
+          [
+            86,
+            0
+          ],
+          [
+            100,
+            0
+          ],
+          [
+            100,
+            40
+          ],
+          [
+            92,
+            34
+          ],
+          [
+            88,
+            16
+          ]
+        ]
+      },
+      {
+        "kind": "forest",
+        "poly": [
+          [
+            70,
+            70
+          ],
+          [
+            72,
+            56
+          ],
+          [
+            80,
+            50
+          ],
+          [
+            86,
+            70
+          ]
+        ]
+      }
     ],
     "paths": [
-      { "kind": "main", "pts": [[50, 68], [50, 54], [48, 42], [40, 34], [24, 30], [2, 30]] },
-      { "kind": "main", "pts": [[48, 42], [62, 36], [80, 28], [98, 24]] },
-      { "kind": "minor", "pts": [[50, 54], [58, 60], [62, 62]] },
-      { "kind": "minor", "pts": [[24, 30], [20, 18], [14, 10]] },
-      { "kind": "minor", "pts": [[62, 36], [66, 22], [70, 12]] },
-      { "kind": "minor", "pts": [[80, 28], [86, 40], [88, 50]] }
+      {
+        "kind": "main",
+        "pts": [
+          [
+            50,
+            68
+          ],
+          [
+            50,
+            54
+          ],
+          [
+            48,
+            42
+          ],
+          [
+            40,
+            34
+          ],
+          [
+            24,
+            30
+          ],
+          [
+            2,
+            30
+          ]
+        ]
+      },
+      {
+        "kind": "main",
+        "pts": [
+          [
+            48,
+            42
+          ],
+          [
+            62,
+            36
+          ],
+          [
+            80,
+            28
+          ],
+          [
+            98,
+            24
+          ]
+        ]
+      },
+      {
+        "kind": "minor",
+        "pts": [
+          [
+            50,
+            54
+          ],
+          [
+            58,
+            60
+          ],
+          [
+            62,
+            62
+          ]
+        ]
+      },
+      {
+        "kind": "minor",
+        "pts": [
+          [
+            24,
+            30
+          ],
+          [
+            20,
+            18
+          ],
+          [
+            14,
+            10
+          ]
+        ]
+      },
+      {
+        "kind": "minor",
+        "pts": [
+          [
+            62,
+            36
+          ],
+          [
+            66,
+            22
+          ],
+          [
+            70,
+            12
+          ]
+        ]
+      },
+      {
+        "kind": "minor",
+        "pts": [
+          [
+            80,
+            28
+          ],
+          [
+            86,
+            40
+          ],
+          [
+            88,
+            50
+          ]
+        ]
+      }
     ],
     "pois": [
-      { "kind": "exit", "at": [50, 68], "to": "swarkii", "label": "往希·沃尔基", "lp": "r", "dir": "南" },
-      { "kind": "exit", "at": [2, 30], "to": "west_swarkii_trail", "label": "往西希·沃尔基森道", "lp": "b", "dir": "西" },
-      { "kind": "exit", "at": [98, 24], "to": "frostlands/w_flamesgrace_wilds", "label": "往西弗雷姆葛雷斯雪道", "lp": "b", "dir": "东" },
-      { "kind": "chest", "at": [62, 62], "tr": [0], "lp": "l", "note": "治愈葡萄：靠近希·沃尔基入口、入口右侧的小空地（位置为示意）。" },
-      { "kind": "chest", "at": [88, 50], "tr": [1], "lp": "l", "note": "还魂橄榄：靠近往西弗雷姆葛雷斯雪道入口，第一棵积雪树西侧的死路（位置为示意）。" },
-      { "kind": "chest", "at": [70, 12], "tr": [2], "lp": "r", "note": "睡眠治疗药草：拱桥状坡道（西侧有栏杆）东侧（位置为示意）。" },
-      { "kind": "chest_red", "at": [14, 10], "tr": [3], "lp": "r", "note": "轻身坚果：靠近往西希·沃尔基森道入口的小凹处（位置为示意）。" },
-      { "kind": "npc", "at": [32, 32], "label": "流浪的学者", "npc": [0], "lp": "b", "note": "汉伊特第1章后出现在左侧道路，支线「成人的仪式」解法①。" },
-      { "kind": "npc", "at": [71, 32], "label": "行商的猎人", "npc": [1], "lp": "b", "note": "右侧道路，支线「成人的仪式」解法②。" },
-      { "kind": "npc", "at": [50, 48], "label": "克里斯", "npc": [2], "lp": "r", "note": "仅以汉伊特为初始主角时出现。" }
+      {
+        "kind": "exit",
+        "at": [
+          50,
+          68
+        ],
+        "to": "swarkii",
+        "label": "往希·沃尔基",
+        "lp": "r",
+        "dir": "南"
+      },
+      {
+        "kind": "exit",
+        "at": [
+          2,
+          30
+        ],
+        "to": "west_swarkii_trail",
+        "label": "往西希·沃尔基森道",
+        "lp": "b",
+        "dir": "西"
+      },
+      {
+        "kind": "exit",
+        "at": [
+          98,
+          24
+        ],
+        "to": "frostlands/w_flamesgrace_wilds",
+        "label": "往西弗雷姆葛雷斯雪道",
+        "lp": "b",
+        "dir": "东"
+      },
+      {
+        "kind": "chest",
+        "at": [
+          62,
+          62
+        ],
+        "tr": [
+          0
+        ],
+        "lp": "l",
+        "note": "治愈葡萄：靠近希·沃尔基入口、入口右侧的小空地（位置为示意）。"
+      },
+      {
+        "kind": "chest",
+        "at": [
+          88,
+          50
+        ],
+        "tr": [
+          1
+        ],
+        "lp": "l",
+        "note": "还魂橄榄：靠近往西弗雷姆葛雷斯雪道入口，第一棵积雪树西侧的死路（位置为示意）。"
+      },
+      {
+        "kind": "chest",
+        "at": [
+          70,
+          12
+        ],
+        "tr": [
+          2
+        ],
+        "lp": "r",
+        "note": "睡眠治疗药草：拱桥状坡道（西侧有栏杆）东侧（位置为示意）。"
+      },
+      {
+        "kind": "chest_red",
+        "at": [
+          14,
+          10
+        ],
+        "tr": [
+          3
+        ],
+        "lp": "r",
+        "note": "轻身坚果：靠近往西希·沃尔基森道入口的小凹处（位置为示意）。"
+      },
+      {
+        "kind": "npc",
+        "at": [
+          32,
+          32
+        ],
+        "label": "流浪的学者",
+        "npc": [
+          0
+        ],
+        "lp": "b",
+        "note": "汉伊特第1章后出现在左侧道路，支线「成人的仪式」解法①。"
+      },
+      {
+        "kind": "npc",
+        "at": [
+          71,
+          32
+        ],
+        "label": "行商的猎人",
+        "npc": [
+          1
+        ],
+        "lp": "b",
+        "note": "右侧道路，支线「成人的仪式」解法②。"
+      },
+      {
+        "kind": "npc",
+        "at": [
+          50,
+          48
+        ],
+        "label": "克里斯",
+        "npc": [
+          2
+        ],
+        "lp": "r",
+        "note": "仅以汉伊特为初始主角时出现。"
+      },
+      {
+        "kind": "save",
+        "at": [
+          48,
+          42
+        ],
+        "label": "存档点（东西分岔）",
+        "lp": "l",
+        "note": "从村口北上到东西分岔处；西往西希·沃尔基森道，东往雪原地区。相对位置示意。"
+      }
+    ],
+    "sources": [
+      {
+        "label": "ArrPeeGeeZ · 村口北上存档点",
+        "url": "https://www.arrpeegeez.com/2022/05/octopath-traveler-walkthrough-north-and_5.html"
+      }
     ]
   },
   "west_swarkii_trail": {
     "theme": "forest",
-    "size": [100, 70],
+    "size": [
+      100,
+      70
+    ],
     "note": "交通枢纽：东接北希·沃尔基森道，东北上坡往东维克塔霍洛森道，西南分出兽道与断崖地区（北柏达弗尔崖道）两条路。江湖艺人团长的营地在西北小路，碧眼之虎在营地附近。",
     "zones": [
-      { "kind": "forest", "poly": [[0, 0], [20, 0], [16, 14], [0, 18]] },
-      { "kind": "grass", "rect": [18, 18, 18, 14], "label": "艺人营地" },
-      { "kind": "cliff", "poly": [[30, 70], [40, 60], [48, 66], [50, 70]] },
-      { "kind": "forest", "poly": [[64, 70], [70, 60], [80, 66], [78, 70]] },
-      { "kind": "forest", "poly": [[86, 0], [100, 0], [100, 30], [92, 18]] }
+      {
+        "kind": "forest",
+        "poly": [
+          [
+            0,
+            0
+          ],
+          [
+            20,
+            0
+          ],
+          [
+            16,
+            14
+          ],
+          [
+            0,
+            18
+          ]
+        ]
+      },
+      {
+        "kind": "grass",
+        "rect": [
+          18,
+          18,
+          18,
+          14
+        ],
+        "label": "艺人营地"
+      },
+      {
+        "kind": "cliff",
+        "poly": [
+          [
+            30,
+            70
+          ],
+          [
+            40,
+            60
+          ],
+          [
+            48,
+            66
+          ],
+          [
+            50,
+            70
+          ]
+        ]
+      },
+      {
+        "kind": "forest",
+        "poly": [
+          [
+            64,
+            70
+          ],
+          [
+            70,
+            60
+          ],
+          [
+            80,
+            66
+          ],
+          [
+            78,
+            70
+          ]
+        ]
+      },
+      {
+        "kind": "forest",
+        "poly": [
+          [
+            86,
+            0
+          ],
+          [
+            100,
+            0
+          ],
+          [
+            100,
+            30
+          ],
+          [
+            92,
+            18
+          ]
+        ]
+      }
     ],
     "paths": [
-      { "kind": "main", "pts": [[98, 40], [78, 40], [60, 38], [46, 40]] },
-      { "kind": "main", "pts": [[46, 40], [34, 50], [24, 60], [20, 68]] },
-      { "kind": "minor", "pts": [[34, 50], [18, 54], [2, 56]], "label": "往兽道" },
-      { "kind": "main", "pts": [[60, 38], [70, 24], [80, 12], [86, 2]] },
-      { "kind": "minor", "pts": [[46, 40], [36, 30], [26, 24]], "label": "往艺人营地" },
-      { "kind": "minor", "pts": [[78, 40], [82, 52], [86, 60]] },
-      { "kind": "minor", "pts": [[60, 38], [56, 50], [52, 58]] },
-      { "kind": "minor", "pts": [[70, 24], [58, 14], [50, 8]] }
+      {
+        "kind": "main",
+        "pts": [
+          [
+            98,
+            40
+          ],
+          [
+            78,
+            40
+          ],
+          [
+            60,
+            38
+          ],
+          [
+            46,
+            40
+          ]
+        ]
+      },
+      {
+        "kind": "main",
+        "pts": [
+          [
+            46,
+            40
+          ],
+          [
+            34,
+            50
+          ],
+          [
+            24,
+            60
+          ],
+          [
+            20,
+            68
+          ]
+        ]
+      },
+      {
+        "kind": "minor",
+        "pts": [
+          [
+            34,
+            50
+          ],
+          [
+            18,
+            54
+          ],
+          [
+            2,
+            56
+          ]
+        ],
+        "label": "往兽道"
+      },
+      {
+        "kind": "main",
+        "pts": [
+          [
+            60,
+            38
+          ],
+          [
+            70,
+            24
+          ],
+          [
+            80,
+            12
+          ],
+          [
+            86,
+            2
+          ]
+        ]
+      },
+      {
+        "kind": "minor",
+        "pts": [
+          [
+            46,
+            40
+          ],
+          [
+            36,
+            30
+          ],
+          [
+            26,
+            24
+          ]
+        ],
+        "label": "往艺人营地"
+      },
+      {
+        "kind": "minor",
+        "pts": [
+          [
+            78,
+            40
+          ],
+          [
+            82,
+            52
+          ],
+          [
+            86,
+            60
+          ]
+        ]
+      },
+      {
+        "kind": "minor",
+        "pts": [
+          [
+            60,
+            38
+          ],
+          [
+            56,
+            50
+          ],
+          [
+            52,
+            58
+          ]
+        ]
+      },
+      {
+        "kind": "minor",
+        "pts": [
+          [
+            70,
+            24
+          ],
+          [
+            58,
+            14
+          ],
+          [
+            50,
+            8
+          ]
+        ]
+      }
     ],
     "pois": [
-      { "kind": "exit", "at": [98, 40], "to": "north_swarkii_trail", "label": "往北希·沃尔基森道", "lp": "t", "dir": "东" },
-      { "kind": "exit", "at": [86, 2], "to": "east_victors_hollow_trail", "label": "往东维克塔霍洛森道", "lp": "l", "dir": "东北" },
-      { "kind": "exit", "at": [2, 56], "to": "path_of_beasts", "label": "往兽道", "lp": "t", "dir": "西南" },
-      { "kind": "exit", "at": [20, 68], "to": "cliftlands/north_bolderfall_pass", "label": "往北柏达弗尔崖道", "lp": "r", "dir": "西南" },
-      { "kind": "camp", "at": [36, 30], "label": "江湖艺人团长", "npc": [0], "lp": "r", "note": "终盘条件达成后出现；真结局支线「团长与阿尔法丝，在那之后」「旅途的最后」起点。" },
-      { "kind": "boss", "at": [26, 24], "label": "碧眼之虎", "lp": "l", "note": "支线「团长与阿尔法丝，在那之后」的 Boss，位于团长附近（位置为示意）。" },
-      { "kind": "chest", "at": [86, 60], "tr": [0], "lp": "l" },
-      { "kind": "chest", "at": [52, 58], "tr": [1], "lp": "r" },
-      { "kind": "chest", "at": [50, 8], "tr": [2], "lp": "l" }
+      {
+        "kind": "exit",
+        "at": [
+          98,
+          40
+        ],
+        "to": "north_swarkii_trail",
+        "label": "往北希·沃尔基森道",
+        "lp": "t",
+        "dir": "东"
+      },
+      {
+        "kind": "exit",
+        "at": [
+          86,
+          2
+        ],
+        "to": "east_victors_hollow_trail",
+        "label": "往东维克塔霍洛森道",
+        "lp": "l",
+        "dir": "东北"
+      },
+      {
+        "kind": "exit",
+        "at": [
+          2,
+          56
+        ],
+        "to": "path_of_beasts",
+        "label": "往兽道",
+        "lp": "t",
+        "dir": "西南"
+      },
+      {
+        "kind": "exit",
+        "at": [
+          20,
+          68
+        ],
+        "to": "cliftlands/north_bolderfall_pass",
+        "label": "往北柏达弗尔崖道",
+        "lp": "r",
+        "dir": "西南"
+      },
+      {
+        "kind": "camp",
+        "at": [
+          36,
+          30
+        ],
+        "label": "江湖艺人团长",
+        "npc": [
+          0
+        ],
+        "lp": "r",
+        "note": "终盘条件达成后出现；真结局支线「团长与阿尔法丝，在那之后」「旅途的最后」起点。"
+      },
+      {
+        "kind": "boss",
+        "at": [
+          26,
+          24
+        ],
+        "label": "碧眼之虎",
+        "lp": "l",
+        "note": "支线「团长与阿尔法丝，在那之后」的 Boss，位于团长附近（位置为示意）。"
+      },
+      {
+        "kind": "chest",
+        "at": [
+          86,
+          60
+        ],
+        "tr": [
+          0
+        ],
+        "lp": "l"
+      },
+      {
+        "kind": "chest",
+        "at": [
+          52,
+          58
+        ],
+        "tr": [
+          1
+        ],
+        "lp": "r"
+      },
+      {
+        "kind": "chest",
+        "at": [
+          50,
+          8
+        ],
+        "tr": [
+          2
+        ],
+        "lp": "l"
+      },
+      {
+        "kind": "save",
+        "at": [
+          46,
+          40
+        ],
+        "label": "存档点",
+        "lp": "b",
+        "note": "去北柏达弗尔崖道与北侧路标路口之间的导航参照，位置为示意。"
+      },
+      {
+        "kind": "landmark",
+        "navigation": "signpost",
+        "at": [
+          60,
+          38
+        ],
+        "label": "路标（北侧路口）",
+        "lp": "t",
+        "note": "攻略确认的实体路牌：回到存档点后走向北侧路口，东返希·沃尔基方向，北往东维克塔霍洛森道。位置为示意。"
+      }
+    ],
+    "sources": [
+      {
+        "label": "ArrPeeGeeZ · 存档点与路标",
+        "url": "https://www.arrpeegeez.com/2022/05/octopath-traveler-walkthrough-north-and_5.html"
+      }
     ]
   }
 });
@@ -9551,32 +10264,544 @@ OT2.addDetail("coastlands", {
   },
   "north_rippletide_coast": {
     "theme": "field",
-    "size": [100, 70],
-    "note": "北口接东阿特拉斯达姆平原，海滨大道沿西侧内海向东南通往东利布尔泰德海道。存档点正南小斜坡下到沙滩，沙滩小路向东折返回主路；插旗斜坡处向右、绕到东北小山丘背后即是隐蔽的波隐岩窟入口。",
+    "size": [
+      100,
+      70
+    ],
+    "note": "主路连接东阿特拉斯达姆平原与东利布尔泰德海道。存档点正南的小斜坡下到沙滩取葡萄；下层沙滩折返处有还魂橄榄，沿同一沙滩向北绕到岩石背后可进入波隐岩窟。岔路 A 是攻略导航参照，非实体路牌。",
     "zones": [
-      { "kind": "water", "poly": [[0, 0], [30, 0], [32, 20], [38, 36], [30, 56], [40, 64], [60, 70], [0, 70]] },
-      { "kind": "sand", "poly": [[30, 56], [38, 48], [56, 50], [76, 54], [90, 58], [100, 60], [100, 70], [60, 70], [40, 64]], "label": "沙滩" },
-      { "kind": "grass", "rect": [44, 6, 18, 16], "label": "草地" },
-      { "kind": "rock", "poly": [[64, 18], [76, 14], [88, 18], [86, 28], [72, 30], [62, 26]], "label": "小山丘" },
-      { "kind": "cliff", "poly": [[78, 0], [100, 0], [100, 12], [92, 8], [84, 6]] }
+      {
+        "kind": "water",
+        "poly": [
+          [
+            0,
+            0
+          ],
+          [
+            30,
+            0
+          ],
+          [
+            32,
+            20
+          ],
+          [
+            38,
+            36
+          ],
+          [
+            30,
+            56
+          ],
+          [
+            40,
+            64
+          ],
+          [
+            60,
+            70
+          ],
+          [
+            0,
+            70
+          ]
+        ]
+      },
+      {
+        "kind": "sand",
+        "poly": [
+          [
+            30,
+            56
+          ],
+          [
+            38,
+            48
+          ],
+          [
+            56,
+            50
+          ],
+          [
+            76,
+            54
+          ],
+          [
+            90,
+            58
+          ],
+          [
+            100,
+            60
+          ],
+          [
+            100,
+            70
+          ],
+          [
+            60,
+            70
+          ],
+          [
+            40,
+            64
+          ]
+        ],
+        "label": "沙滩"
+      },
+      {
+        "kind": "grass",
+        "rect": [
+          44,
+          6,
+          18,
+          16
+        ],
+        "label": "草地"
+      },
+      {
+        "kind": "rock",
+        "poly": [
+          [
+            64,
+            18
+          ],
+          [
+            76,
+            14
+          ],
+          [
+            88,
+            18
+          ],
+          [
+            86,
+            28
+          ],
+          [
+            72,
+            30
+          ],
+          [
+            62,
+            26
+          ]
+        ],
+        "label": "小山丘"
+      },
+      {
+        "kind": "cliff",
+        "poly": [
+          [
+            78,
+            0
+          ],
+          [
+            100,
+            0
+          ],
+          [
+            100,
+            12
+          ],
+          [
+            92,
+            8
+          ],
+          [
+            84,
+            6
+          ]
+        ]
+      }
     ],
     "paths": [
-      { "kind": "main", "pts": [[40, 2], [40, 12], [44, 24], [52, 34], [62, 40], [74, 46], [86, 50], [97, 64]] },
-      { "kind": "stairs", "pts": [[52, 34], [48, 44], [46, 54]], "label": "存档点正南小斜坡" },
-      { "kind": "minor", "pts": [[46, 54], [60, 58], [76, 60], [88, 58], [86, 50]], "label": "沙滩小路（折返处）" },
-      { "kind": "minor", "pts": [[62, 40], [78, 34], [94, 30]], "label": "插旗斜坡后向右" },
-      { "kind": "hidden", "pts": [[94, 30], [97, 18], [88, 10], [86, 2]], "label": "绕到山丘北侧进岩壁" },
-      { "kind": "minor", "pts": [[40,12],[45,8]] }
+      {
+        "kind": "main",
+        "pts": [
+          [
+            40,
+            2
+          ],
+          [
+            40,
+            12
+          ],
+          [
+            44,
+            24
+          ],
+          [
+            52,
+            34
+          ],
+          [
+            62,
+            40
+          ],
+          [
+            74,
+            46
+          ],
+          [
+            86,
+            50
+          ],
+          [
+            97,
+            64
+          ]
+        ],
+        "label": "平原至东海道主路",
+        "route": {
+          "from": "东阿特拉斯达姆平原出口",
+          "to": "东利布尔泰德海道出口",
+          "steps": [
+            "从平原方向沿主路前进",
+            "经过存档点与上下层岔路",
+            "沿主路继续到东利布尔泰德海道"
+          ],
+          "sources": [
+            {
+              "label": "ArrPeeGeeZ · 利布尔泰德海道",
+              "url": "https://www.arrpeegeez.com/2022/05/octopath-traveler-walkthrough-east-and.html"
+            },
+            {
+              "label": "Gamer Guides · 海滩隐藏入口",
+              "url": "https://www.gamerguides.com/octopath-traveler/guide/walkthrough/chapter-1/onward-to-rippletide/"
+            },
+            {
+              "label": "Neoseeker · 岩石后入口",
+              "url": "https://www.neoseeker.com/octopath-traveler/walkthrough/WE_Tressa"
+            }
+          ]
+        }
+      },
+      {
+        "kind": "stairs",
+        "pts": [
+          [
+            52,
+            34
+          ],
+          [
+            48,
+            44
+          ],
+          [
+            46,
+            54
+          ]
+        ],
+        "label": "存档点下坡取葡萄",
+        "route": {
+          "from": "存档点",
+          "to": "南侧沙滩／治愈葡萄宝箱",
+          "steps": [
+            "在存档点正南找到小斜坡",
+            "沿坡下到沙滩",
+            "在坡下取治愈葡萄"
+          ],
+          "sources": [
+            {
+              "label": "ArrPeeGeeZ · 利布尔泰德海道",
+              "url": "https://www.arrpeegeez.com/2022/05/octopath-traveler-walkthrough-east-and.html"
+            },
+            {
+              "label": "Gamer Guides · 海滩隐藏入口",
+              "url": "https://www.gamerguides.com/octopath-traveler/guide/walkthrough/chapter-1/onward-to-rippletide/"
+            },
+            {
+              "label": "Neoseeker · 岩石后入口",
+              "url": "https://www.neoseeker.com/octopath-traveler/walkthrough/WE_Tressa"
+            }
+          ]
+        }
+      },
+      {
+        "kind": "minor",
+        "pts": [
+          [
+            46,
+            54
+          ],
+          [
+            60,
+            58
+          ],
+          [
+            76,
+            60
+          ],
+          [
+            88,
+            58
+          ],
+          [
+            86,
+            50
+          ]
+        ],
+        "label": "沙滩折返取橄榄",
+        "route": {
+          "from": "存档点下方沙滩",
+          "to": "下层沙滩岔路 A",
+          "steps": [
+            "沿下层沙滩小路走到折返处",
+            "取还魂橄榄",
+            "沿同一沙滩寻找通往岩壁背面的支路"
+          ],
+          "sources": [
+            {
+              "label": "ArrPeeGeeZ · 利布尔泰德海道",
+              "url": "https://www.arrpeegeez.com/2022/05/octopath-traveler-walkthrough-east-and.html"
+            },
+            {
+              "label": "Gamer Guides · 海滩隐藏入口",
+              "url": "https://www.gamerguides.com/octopath-traveler/guide/walkthrough/chapter-1/onward-to-rippletide/"
+            },
+            {
+              "label": "Neoseeker · 岩石后入口",
+              "url": "https://www.neoseeker.com/octopath-traveler/walkthrough/WE_Tressa"
+            }
+          ]
+        }
+      },
+      {
+        "kind": "minor",
+        "pts": [
+          [
+            86,
+            50
+          ],
+          [
+            94,
+            42
+          ],
+          [
+            94,
+            30
+          ]
+        ],
+        "label": "下层沙滩绕岩石",
+        "route": {
+          "from": "岔路 A",
+          "to": "岩石后方小路",
+          "steps": [
+            "从下层海滩向北绕到大岩石后侧",
+            "沿岩壁检查隐藏通道"
+          ],
+          "sources": [
+            {
+              "label": "ArrPeeGeeZ · 利布尔泰德海道",
+              "url": "https://www.arrpeegeez.com/2022/05/octopath-traveler-walkthrough-east-and.html"
+            },
+            {
+              "label": "Gamer Guides · 海滩隐藏入口",
+              "url": "https://www.gamerguides.com/octopath-traveler/guide/walkthrough/chapter-1/onward-to-rippletide/"
+            },
+            {
+              "label": "Neoseeker · 岩石后入口",
+              "url": "https://www.neoseeker.com/octopath-traveler/walkthrough/WE_Tressa"
+            }
+          ],
+          "caution": "岩窟入口在海滩岩石后方，不是大道旁显眼的洞口"
+        }
+      },
+      {
+        "kind": "hidden",
+        "pts": [
+          [
+            94,
+            30
+          ],
+          [
+            97,
+            18
+          ],
+          [
+            88,
+            10
+          ],
+          [
+            86,
+            2
+          ]
+        ],
+        "label": "岩壁背面隐藏入口",
+        "route": {
+          "from": "岩石后方小路",
+          "to": "波隐岩窟入口",
+          "steps": [
+            "沿岩石后方的隐蔽小路靠近岩壁",
+            "进入波隐岩窟"
+          ],
+          "sources": [
+            {
+              "label": "ArrPeeGeeZ · 利布尔泰德海道",
+              "url": "https://www.arrpeegeez.com/2022/05/octopath-traveler-walkthrough-east-and.html"
+            },
+            {
+              "label": "Gamer Guides · 海滩隐藏入口",
+              "url": "https://www.gamerguides.com/octopath-traveler/guide/walkthrough/chapter-1/onward-to-rippletide/"
+            },
+            {
+              "label": "Neoseeker · 岩石后入口",
+              "url": "https://www.neoseeker.com/octopath-traveler/walkthrough/WE_Tressa"
+            }
+          ],
+          "caution": "岩窟危险等级较高；本图为相对位置示意"
+        }
+      },
+      {
+        "kind": "minor",
+        "pts": [
+          [
+            40,
+            12
+          ],
+          [
+            45,
+            8
+          ]
+        ],
+        "label": "平原出口旁宝箱",
+        "route": {
+          "from": "东阿特拉斯达姆平原出口附近",
+          "to": "锋芒坚果宝箱",
+          "steps": [
+            "在离开海道进入平原前查看路旁宝箱",
+            "取箱后回到主路"
+          ],
+          "sources": [
+            {
+              "label": "ArrPeeGeeZ · 利布尔泰德海道",
+              "url": "https://www.arrpeegeez.com/2022/05/octopath-traveler-walkthrough-east-and.html"
+            },
+            {
+              "label": "Gamer Guides · 海滩隐藏入口",
+              "url": "https://www.gamerguides.com/octopath-traveler/guide/walkthrough/chapter-1/onward-to-rippletide/"
+            },
+            {
+              "label": "Neoseeker · 岩石后入口",
+              "url": "https://www.neoseeker.com/octopath-traveler/walkthrough/WE_Tressa"
+            }
+          ]
+        }
+      }
     ],
     "pois": [
-      { "kind": "exit", "at": [40, 2], "to": "flatlands/east_atlasdam_flats", "label": "往东阿特拉斯达姆平原", "lp": "l" },
-      { "kind": "exit", "at": [86, 2], "to": "undertow_cove", "label": "波隐岩窟入口（隐蔽）", "lp": "l", "dir": "东北" },
-      { "kind": "exit", "at": [97, 64], "to": "east_rippletide_coast", "label": "往东利布尔泰德海道", "lp": "l" },
-      { "kind": "chest_red", "at": [45, 8], "tr": [0], "lp": "r" },
-      { "kind": "save", "at": [52, 34], "label": "存档点", "lp": "l" },
-      { "kind": "chest", "at": [46, 54], "tr": [1], "lp": "b" },
-      { "kind": "chest", "at": [88, 58], "tr": [2], "lp": "t" },
-      { "kind": "landmark", "at": [64, 44], "label": "插旗的斜坡", "lp": "b" }
+      {
+        "kind": "exit",
+        "at": [
+          40,
+          2
+        ],
+        "to": "flatlands/east_atlasdam_flats",
+        "label": "往东阿特拉斯达姆平原",
+        "lp": "l"
+      },
+      {
+        "kind": "exit",
+        "at": [
+          86,
+          2
+        ],
+        "to": "undertow_cove",
+        "label": "波隐岩窟入口（隐蔽）",
+        "lp": "l",
+        "dir": "东北"
+      },
+      {
+        "kind": "exit",
+        "at": [
+          97,
+          64
+        ],
+        "to": "east_rippletide_coast",
+        "label": "往东利布尔泰德海道",
+        "lp": "l"
+      },
+      {
+        "kind": "chest_red",
+        "at": [
+          45,
+          8
+        ],
+        "tr": [
+          0
+        ],
+        "lp": "r"
+      },
+      {
+        "kind": "save",
+        "at": [
+          52,
+          34
+        ],
+        "label": "存档点",
+        "lp": "l"
+      },
+      {
+        "kind": "chest",
+        "at": [
+          46,
+          54
+        ],
+        "tr": [
+          1
+        ],
+        "lp": "b"
+      },
+      {
+        "kind": "chest",
+        "at": [
+          88,
+          58
+        ],
+        "tr": [
+          2
+        ],
+        "lp": "t"
+      },
+      {
+        "kind": "landmark",
+        "at": [
+          64,
+          44
+        ],
+        "label": "插旗的斜坡",
+        "lp": "b"
+      }
+    ],
+    "sources": [
+      {
+        "label": "ArrPeeGeeZ · 利布尔泰德海道",
+        "url": "https://www.arrpeegeez.com/2022/05/octopath-traveler-walkthrough-east-and.html"
+      },
+      {
+        "label": "Gamer Guides · 海滩隐藏入口",
+        "url": "https://www.gamerguides.com/octopath-traveler/guide/walkthrough/chapter-1/onward-to-rippletide/"
+      },
+      {
+        "label": "Neoseeker · 岩石后入口",
+        "url": "https://www.neoseeker.com/octopath-traveler/walkthrough/WE_Tressa"
+      }
+    ],
+    "junctions": [
+      {
+        "label": "A",
+        "at": [
+          86,
+          50
+        ],
+        "roads": [
+          0,
+          2,
+          3
+        ],
+        "note": "海滩小路与主路相接处；向北绕岩石走隐藏入口，另一侧通沙滩折返宝箱。"
+      }
     ]
   },
   "undertow_cove": {
@@ -9629,36 +10854,697 @@ OT2.addDetail("coastlands", {
   },
   "east_rippletide_coast": {
     "theme": "field",
-    "size": [100, 70],
+    "size": [
+      100,
+      70
+    ],
     "note": "西北角同时连着利布尔泰德镇口与北利布尔泰德海道，主路向东南经存档点过桥，再南下到北鹅卵石村山道。存档点南侧阶梯下到沙滩（桥左），桥右长石坡也通沙滩；主路靠近南口右拐时向左可绕到斜坡另一侧。",
     "zones": [
-      { "kind": "water", "poly": [[52, 0], [60, 0], [60, 28], [56, 42], [52, 50], [44, 54], [38, 52], [48, 44], [52, 30]] },
-      { "kind": "water", "poly": [[0, 58], [30, 54], [44, 54], [52, 50], [58, 58], [50, 70], [0, 70]] },
-      { "kind": "sand", "poly": [[0, 46], [30, 42], [44, 46], [48, 44], [38, 52], [30, 54], [0, 58]], "label": "沙滩" },
-      { "kind": "sand", "poly": [[58, 46], [66, 48], [68, 58], [58, 58], [54, 52]] },
-      { "kind": "cliff", "poly": [[72, 0], [100, 0], [100, 40], [90, 36], [84, 28], [76, 20], [70, 10]] },
-      { "kind": "rock", "poly": [[82, 48], [92, 46], [96, 54], [86, 56]], "label": "斜坡" }
+      {
+        "kind": "water",
+        "poly": [
+          [
+            52,
+            0
+          ],
+          [
+            60,
+            0
+          ],
+          [
+            60,
+            28
+          ],
+          [
+            56,
+            42
+          ],
+          [
+            52,
+            50
+          ],
+          [
+            44,
+            54
+          ],
+          [
+            38,
+            52
+          ],
+          [
+            48,
+            44
+          ],
+          [
+            52,
+            30
+          ]
+        ]
+      },
+      {
+        "kind": "water",
+        "poly": [
+          [
+            0,
+            58
+          ],
+          [
+            30,
+            54
+          ],
+          [
+            44,
+            54
+          ],
+          [
+            52,
+            50
+          ],
+          [
+            58,
+            58
+          ],
+          [
+            50,
+            70
+          ],
+          [
+            0,
+            70
+          ]
+        ]
+      },
+      {
+        "kind": "sand",
+        "poly": [
+          [
+            0,
+            46
+          ],
+          [
+            30,
+            42
+          ],
+          [
+            44,
+            46
+          ],
+          [
+            48,
+            44
+          ],
+          [
+            38,
+            52
+          ],
+          [
+            30,
+            54
+          ],
+          [
+            0,
+            58
+          ]
+        ],
+        "label": "沙滩"
+      },
+      {
+        "kind": "sand",
+        "poly": [
+          [
+            58,
+            46
+          ],
+          [
+            66,
+            48
+          ],
+          [
+            68,
+            58
+          ],
+          [
+            58,
+            58
+          ],
+          [
+            54,
+            52
+          ]
+        ]
+      },
+      {
+        "kind": "cliff",
+        "poly": [
+          [
+            72,
+            0
+          ],
+          [
+            100,
+            0
+          ],
+          [
+            100,
+            40
+          ],
+          [
+            90,
+            36
+          ],
+          [
+            84,
+            28
+          ],
+          [
+            76,
+            20
+          ],
+          [
+            70,
+            10
+          ]
+        ]
+      },
+      {
+        "kind": "rock",
+        "poly": [
+          [
+            82,
+            48
+          ],
+          [
+            92,
+            46
+          ],
+          [
+            96,
+            54
+          ],
+          [
+            86,
+            56
+          ]
+        ],
+        "label": "斜坡"
+      }
     ],
     "paths": [
-      { "kind": "minor", "pts": [[2, 26], [10, 22], [18, 18]], "label": "利布尔泰德镇口" },
-      { "kind": "main", "pts": [[14, 2], [18, 18]] },
-      { "kind": "main", "pts": [[18, 18], [30, 24], [42, 28], [50, 32]] },
-      { "kind": "bridge", "pts": [[50, 32], [62, 32]] },
-      { "kind": "main", "pts": [[62, 32], [74, 40], [80, 50], [72, 58], [64, 68]] },
-      { "kind": "stairs", "pts": [[42, 28], [42, 38], [44, 45]], "label": "存档点以南下阶梯" },
-      { "kind": "stairs", "pts": [[62, 32], [66, 42], [62, 52]], "label": "桥右侧长石坡" },
-      { "kind": "minor", "pts": [[80, 50], [88, 58], [90, 62]], "label": "右拐时向左" },
-      { "kind": "minor", "pts": [[30,24],[28,27]] }
+      {
+        "kind": "bridge",
+        "pts": [
+          [
+            2,
+            26
+          ],
+          [
+            10,
+            22
+          ],
+          [
+            18,
+            18
+          ]
+        ],
+        "label": "镇口桥至北侧汇合处",
+        "route": {
+          "from": "利布尔泰德镇口",
+          "to": "岔路 A",
+          "steps": [
+            "从镇口出城过镇口桥，沿连接路到岔路 A",
+            "北边通北利布尔泰德海道，东南侧去存档点"
+          ],
+          "sources": [
+            {
+              "label": "ArrPeeGeeZ · 利布尔泰德海道",
+              "url": "https://www.arrpeegeez.com/2022/05/octopath-traveler-walkthrough-east-and.html"
+            },
+            {
+              "label": "Neoseeker · 海道探索",
+              "url": "https://www.neoseeker.com/octopath-traveler/walkthrough/WE_Tressa"
+            },
+            {
+              "label": "SteamAH · 沙滩与存档点参照",
+              "url": "https://steamah.com/octopath-traveler-all-treasure-chest-locations/"
+            }
+          ]
+        }
+      },
+      {
+        "kind": "main",
+        "pts": [
+          [
+            14,
+            2
+          ],
+          [
+            18,
+            18
+          ]
+        ],
+        "label": "北海道至汇合处",
+        "route": {
+          "from": "北利布尔泰德海道出口",
+          "to": "岔路 A",
+          "steps": [
+            "从北侧出口沿主路南下",
+            "在岔路 A 与镇口道路汇合"
+          ],
+          "sources": [
+            {
+              "label": "ArrPeeGeeZ · 利布尔泰德海道",
+              "url": "https://www.arrpeegeez.com/2022/05/octopath-traveler-walkthrough-east-and.html"
+            },
+            {
+              "label": "Neoseeker · 海道探索",
+              "url": "https://www.neoseeker.com/octopath-traveler/walkthrough/WE_Tressa"
+            },
+            {
+              "label": "SteamAH · 沙滩与存档点参照",
+              "url": "https://steamah.com/octopath-traveler-all-treasure-chest-locations/"
+            }
+          ]
+        }
+      },
+      {
+        "kind": "main",
+        "pts": [
+          [
+            18,
+            18
+          ],
+          [
+            30,
+            24
+          ],
+          [
+            42,
+            28
+          ],
+          [
+            50,
+            32
+          ]
+        ],
+        "label": "汇合处至存档点桥头",
+        "route": {
+          "from": "岔路 A",
+          "to": "存档点／桥西头",
+          "steps": [
+            "从岔路向东南前进到存档点",
+            "过桥前先查看南侧下沙滩的阶梯"
+          ],
+          "sources": [
+            {
+              "label": "ArrPeeGeeZ · 利布尔泰德海道",
+              "url": "https://www.arrpeegeez.com/2022/05/octopath-traveler-walkthrough-east-and.html"
+            },
+            {
+              "label": "Neoseeker · 海道探索",
+              "url": "https://www.neoseeker.com/octopath-traveler/walkthrough/WE_Tressa"
+            },
+            {
+              "label": "SteamAH · 沙滩与存档点参照",
+              "url": "https://steamah.com/octopath-traveler-all-treasure-chest-locations/"
+            }
+          ]
+        }
+      },
+      {
+        "kind": "bridge",
+        "pts": [
+          [
+            50,
+            32
+          ],
+          [
+            62,
+            32
+          ]
+        ],
+        "label": "跨桥主路",
+        "route": {
+          "from": "存档点／桥西头",
+          "to": "桥东头岔路 C",
+          "steps": [
+            "沿桥面过桥",
+            "桥右侧还有下沙滩的长石坡，不必与南行主路混走"
+          ],
+          "sources": [
+            {
+              "label": "ArrPeeGeeZ · 利布尔泰德海道",
+              "url": "https://www.arrpeegeez.com/2022/05/octopath-traveler-walkthrough-east-and.html"
+            },
+            {
+              "label": "Neoseeker · 海道探索",
+              "url": "https://www.neoseeker.com/octopath-traveler/walkthrough/WE_Tressa"
+            },
+            {
+              "label": "SteamAH · 沙滩与存档点参照",
+              "url": "https://steamah.com/octopath-traveler-all-treasure-chest-locations/"
+            }
+          ]
+        }
+      },
+      {
+        "kind": "main",
+        "pts": [
+          [
+            62,
+            32
+          ],
+          [
+            74,
+            40
+          ],
+          [
+            80,
+            50
+          ],
+          [
+            72,
+            58
+          ],
+          [
+            64,
+            68
+          ]
+        ],
+        "label": "桥东至南侧山道出口",
+        "route": {
+          "from": "岔路 C",
+          "to": "北鹅卵石村山道出口",
+          "steps": [
+            "过桥后沿主路向南",
+            "接近出口的斜坡处另有风之精灵石小路",
+            "继续南行离开海道"
+          ],
+          "sources": [
+            {
+              "label": "ArrPeeGeeZ · 利布尔泰德海道",
+              "url": "https://www.arrpeegeez.com/2022/05/octopath-traveler-walkthrough-east-and.html"
+            },
+            {
+              "label": "Neoseeker · 海道探索",
+              "url": "https://www.neoseeker.com/octopath-traveler/walkthrough/WE_Tressa"
+            },
+            {
+              "label": "SteamAH · 沙滩与存档点参照",
+              "url": "https://steamah.com/octopath-traveler-all-treasure-chest-locations/"
+            }
+          ]
+        }
+      },
+      {
+        "kind": "stairs",
+        "pts": [
+          [
+            42,
+            28
+          ],
+          [
+            42,
+            38
+          ],
+          [
+            44,
+            45
+          ]
+        ],
+        "label": "桥左下阶梯取坚果",
+        "route": {
+          "from": "存档点",
+          "to": "桥左侧沙滩宝箱",
+          "steps": [
+            "从存档点以南的阶梯下行",
+            "到桥左侧沙滩取魔导坚果",
+            "从同一阶梯回到桥头"
+          ],
+          "sources": [
+            {
+              "label": "ArrPeeGeeZ · 利布尔泰德海道",
+              "url": "https://www.arrpeegeez.com/2022/05/octopath-traveler-walkthrough-east-and.html"
+            },
+            {
+              "label": "Neoseeker · 海道探索",
+              "url": "https://www.neoseeker.com/octopath-traveler/walkthrough/WE_Tressa"
+            },
+            {
+              "label": "SteamAH · 沙滩与存档点参照",
+              "url": "https://steamah.com/octopath-traveler-all-treasure-chest-locations/"
+            }
+          ]
+        }
+      },
+      {
+        "kind": "stairs",
+        "pts": [
+          [
+            62,
+            32
+          ],
+          [
+            66,
+            42
+          ],
+          [
+            62,
+            52
+          ]
+        ],
+        "label": "桥右长石坡取李子",
+        "route": {
+          "from": "岔路 C／桥东头",
+          "to": "桥右侧沙滩宝箱",
+          "steps": [
+            "从桥右侧沿长石坡下到另一片沙滩",
+            "取醒神李子",
+            "沿石坡返回桥头"
+          ],
+          "sources": [
+            {
+              "label": "ArrPeeGeeZ · 利布尔泰德海道",
+              "url": "https://www.arrpeegeez.com/2022/05/octopath-traveler-walkthrough-east-and.html"
+            },
+            {
+              "label": "Neoseeker · 海道探索",
+              "url": "https://www.neoseeker.com/octopath-traveler/walkthrough/WE_Tressa"
+            },
+            {
+              "label": "SteamAH · 沙滩与存档点参照",
+              "url": "https://steamah.com/octopath-traveler-all-treasure-chest-locations/"
+            }
+          ]
+        }
+      },
+      {
+        "kind": "minor",
+        "pts": [
+          [
+            80,
+            50
+          ],
+          [
+            88,
+            58
+          ],
+          [
+            90,
+            62
+          ]
+        ],
+        "label": "南口斜坡反向小路",
+        "route": {
+          "from": "南段主路斜坡",
+          "to": "风之精灵石宝箱",
+          "steps": [
+            "接近山道出口时，主路转弯处查看左侧小路",
+            "绕到斜坡另一侧取箱",
+            "返回主路再去出口"
+          ],
+          "sources": [
+            {
+              "label": "ArrPeeGeeZ · 利布尔泰德海道",
+              "url": "https://www.arrpeegeez.com/2022/05/octopath-traveler-walkthrough-east-and.html"
+            },
+            {
+              "label": "Neoseeker · 海道探索",
+              "url": "https://www.neoseeker.com/octopath-traveler/walkthrough/WE_Tressa"
+            },
+            {
+              "label": "SteamAH · 沙滩与存档点参照",
+              "url": "https://steamah.com/octopath-traveler-all-treasure-chest-locations/"
+            }
+          ]
+        }
+      },
+      {
+        "kind": "minor",
+        "pts": [
+          [
+            30,
+            24
+          ],
+          [
+            28,
+            27
+          ]
+        ],
+        "label": "镇口附近青年支路",
+        "route": {
+          "from": "镇口外主路",
+          "to": "旅行青年所在路边",
+          "steps": [
+            "从镇口外主路走到路边青年处",
+            "支线触发取决于开局角色与进度"
+          ],
+          "sources": [
+            {
+              "label": "ArrPeeGeeZ · 利布尔泰德海道",
+              "url": "https://www.arrpeegeez.com/2022/05/octopath-traveler-walkthrough-east-and.html"
+            },
+            {
+              "label": "Neoseeker · 海道探索",
+              "url": "https://www.neoseeker.com/octopath-traveler/walkthrough/WE_Tressa"
+            },
+            {
+              "label": "SteamAH · 沙滩与存档点参照",
+              "url": "https://steamah.com/octopath-traveler-all-treasure-chest-locations/"
+            }
+          ]
+        }
+      }
     ],
     "pois": [
-      { "kind": "exit", "at": [2, 26], "to": "rippletide", "label": "往利布尔泰德", "lp": "r", "dir": "西北" },
-      { "kind": "exit", "at": [14, 2], "to": "north_rippletide_coast", "label": "往北利布尔泰德海道", "lp": "r", "dir": "西北" },
-      { "kind": "exit", "at": [64, 68], "to": "highlands/north_cobbleston_gap", "label": "往北鹅卵石村山道", "lp": "r" },
-      { "kind": "save", "at": [42, 28], "label": "存档点", "lp": "t" },
-      { "kind": "chest_red", "at": [44, 45], "tr": [0], "lp": "l" },
-      { "kind": "chest", "at": [62, 52], "tr": [1], "lp": "r" },
-      { "kind": "chest", "at": [90, 62], "tr": [2], "lp": "l" },
-      { "kind": "npc", "at": [28, 27], "label": "旅行青年克里斯", "npc": [0], "lp": "b", "note": "仅以特蕾莎为开局主角时出现。" }
+      {
+        "kind": "exit",
+        "at": [
+          2,
+          26
+        ],
+        "to": "rippletide",
+        "label": "往利布尔泰德",
+        "lp": "r",
+        "dir": "西北"
+      },
+      {
+        "kind": "exit",
+        "at": [
+          14,
+          2
+        ],
+        "to": "north_rippletide_coast",
+        "label": "往北利布尔泰德海道",
+        "lp": "r",
+        "dir": "西北"
+      },
+      {
+        "kind": "exit",
+        "at": [
+          64,
+          68
+        ],
+        "to": "highlands/north_cobbleston_gap",
+        "label": "往北鹅卵石村山道",
+        "lp": "r"
+      },
+      {
+        "kind": "save",
+        "at": [
+          42,
+          28
+        ],
+        "label": "存档点",
+        "lp": "t"
+      },
+      {
+        "kind": "chest_red",
+        "at": [
+          44,
+          45
+        ],
+        "tr": [
+          0
+        ],
+        "lp": "l"
+      },
+      {
+        "kind": "chest",
+        "at": [
+          62,
+          52
+        ],
+        "tr": [
+          1
+        ],
+        "lp": "r"
+      },
+      {
+        "kind": "chest",
+        "at": [
+          90,
+          62
+        ],
+        "tr": [
+          2
+        ],
+        "lp": "l"
+      },
+      {
+        "kind": "npc",
+        "at": [
+          28,
+          27
+        ],
+        "label": "旅行青年克里斯",
+        "npc": [
+          0
+        ],
+        "lp": "b",
+        "note": "仅以特蕾莎为开局主角时出现。"
+      }
+    ],
+    "sources": [
+      {
+        "label": "ArrPeeGeeZ · 利布尔泰德海道",
+        "url": "https://www.arrpeegeez.com/2022/05/octopath-traveler-walkthrough-east-and.html"
+      },
+      {
+        "label": "Neoseeker · 海道探索",
+        "url": "https://www.neoseeker.com/octopath-traveler/walkthrough/WE_Tressa"
+      },
+      {
+        "label": "SteamAH · 沙滩与存档点参照",
+        "url": "https://steamah.com/octopath-traveler-all-treasure-chest-locations/"
+      }
+    ],
+    "junctions": [
+      {
+        "label": "A",
+        "at": [
+          18,
+          18
+        ],
+        "roads": [
+          0,
+          1,
+          2
+        ],
+        "note": "镇口与北海道道路汇合；沿东南主路去存档点和桥。"
+      },
+      {
+        "label": "C",
+        "at": [
+          62,
+          32
+        ],
+        "roads": [
+          3,
+          4,
+          6
+        ],
+        "note": "桥东侧分岔：主路向南去山道，长石坡下到桥右沙滩。"
+      }
     ]
   }
 });
@@ -26586,7 +28472,7 @@ OT2.encounters = {
   const facility = new Set(["inn","tavern","shop","weapon","armor","item","church","guild","peddler","ship","shrine","house","camp"]);
   const labels = {exit:"出入口",save:"存档点",inn:"旅店",tavern:"酒馆",shop:"商店",weapon:"武器店",armor:"防具店",item:"道具店",church:"教会",guild:"公会",npc:"NPC",boss:"Boss",chest:"宝箱",chest_red:"红宝箱",chest_purple:"紫宝箱",hidden:"隐藏物",stairs:"楼梯",gate:"门／机关",ship:"船只／渡口",peddler:"行商",danger:"危险区域",landmark:"地标",camp:"营地",shrine:"祠堂",house:"民宅"};
   const pathLabels = {main:"主路",minor:"岔路",hidden:"隐藏通道",stairs:"台阶／楼梯",bridge:"桥",ladder:"梯子／藤蔓",water:"水路",boat:"航线／渡船"};
-  const categories = [["all","全部"],["facility","设施"],["npc","NPC"],["treasure","宝箱"],["exit","出口"],["path","道路"],["enemy","怪物"]];
+  const categories = [["all","全部"],["facility","设施"],["npc","NPC"],["treasure","宝箱"],["exit","出口"],["anchor","参照"],["path","道路"],["enemy","怪物"]];
   function area(rid, lid) { return window.OT2?.encounters?.regions?.[rid]?.[lid] || null; }
   function timeOf(note, name = "") {
     const explicit = String(name).match(/[（(][^（）()]*?(白天|夜晚|日间|夜间|昼|夜)[）)]/);
@@ -26597,6 +28483,8 @@ OT2.encounters = {
     const day = /白天|日间|昼间|day only/i.test(t), night = /夜晚|夜间|晚上|night only/i.test(t);
     return day && !night ? "day" : night && !day ? "night" : "all";
   }
+  const isSignpost = p => p.navigation === "signpost" || (p.kind === "landmark" && /^路[标牌](?:[（(]|$)/.test(p.label || ""));
+  const isNavigationAnchor = p => ["save","exit"].includes(p.kind) || isSignpost(p);
   function entries(rid, loc, d) {
     const result = [], npcs = arr(loc.npcs), treasures = arr(loc.treasures), linked = new Set();
     arr(d.pois).forEach((p,i) => {
@@ -26608,7 +28496,7 @@ OT2.encounters = {
       const ownTime = /[/／]/.test(p.label || "") || (p.kind === "npc" && ns.length > 1 && time === "all") ? "all" : timeOf(/^(?:仅)?(?:白天|夜晚|日间|夜间)|仅(?:白天|夜晚)/.test(p.note || "") ? p.note : "", p.label);
       const category = p.kind === "exit" ? "exit" : p.kind.startsWith("chest") || p.kind === "hidden" ? "treasure" : p.kind === "npc" ? "npc" : facility.has(p.kind) ? "facility" : "landmark";
       const label = p.label || ts.map(t => t.item).join("、") || ns.map(n => n.name).join("、") || labels[p.kind] || "要点";
-      result.push({id:"poi-"+i,type:"poi",index:i,category,categories:ns.length ? [category,"npc"]:[category],label,kind:p.kind,at:p.at,time:ownTime !== "all" ? ownTime : p.kind === "npc" ? time : "all",npcTime:ownTime !== "all" ? ownTime : time,
+      result.push({id:"poi-"+i,type:"poi",index:i,category,categories:[...new Set([category,...(ns.length ? ["npc"] : []),...(isNavigationAnchor(p) ? ["anchor"] : [])])],label,kind:p.kind,at:p.at,time:ownTime !== "all" ? ownTime : p.kind === "npc" ? time : "all",npcTime:ownTime !== "all" ? ownTime : time,
         text:[label,p.note,p.to,...ns.flatMap(n => [n.name,n.item,n.method,n.note]),...ts.flatMap(t => [t.item,t.how])].filter(Boolean).join(" "),
         note:p.note || ns.map(n => n.note).filter(Boolean).join("；") || (ts[0] && ts[0].how) || labels[p.kind] || "", data:p});
     });
@@ -26617,8 +28505,13 @@ OT2.encounters = {
       result.push({id:"npc-"+i,type:"npc",index:i,category:"npc",categories:["npc"],label:n.name,kind:"npc",time:timeOf(n.note,n.name),unplaced:true,
         text:[n.name,n.item,n.method,n.note].filter(Boolean).join(" "),note:n.note || "具体位置尚未核实",data:n});
     });
-    arr(d.paths).forEach((p,i) => result.push({id:"path-"+i,type:"path",index:i,category:"path",categories:["path"],label:p.label || (pathLabels[p.kind] || "道路")+" "+(i+1),kind:p.kind,
-      pts:p.pts,time:"all",text:[p.label,pathLabels[p.kind],p.note].filter(Boolean).join(" "),note:pathLabels[p.kind] || "道路",data:p}));
+    arr(d.paths).forEach((p,i) => {
+      const route=p.route || {}, number=String(i+1).padStart(2,"0"), connections=roadConnections(d,i);
+      const note=route.from && route.to ? route.from+" → "+route.to : p.note || (connections.length ? "图上相接："+connections.map(n=>String(n+1).padStart(2,"0")).join("、") : "本段尚无逐步攻略");
+      result.push({id:"path-"+i,type:"path",index:i,number,category:"path",categories:["path"],label:p.label || (pathLabels[p.kind] || "道路"),kind:p.kind,
+        pts:p.pts,time:"all",text:[p.label,pathLabels[p.kind],p.note,route.from,route.to,...arr(route.steps),route.caution].filter(Boolean).join(" "),note,connections,data:p});
+    });
+    arr(d.junctions).forEach((j,i)=>result.push({id:"junction-"+i,type:"junction",index:i,category:"anchor",categories:["anchor"],kind:"junction",label:"岔路 "+j.label,at:j.at,time:"all",text:[j.label,j.note].join(" "),note:j.note,data:j}));
     arr(area(rid,loc.id)?.enemies).forEach((e,i) => result.push({id:"enemy-"+i,type:"enemy",index:i,category:"enemy",categories:["enemy"],label:e.name,kind:"enemy",time:e.time || "all",
       text:[e.name,e.en,arr(e.weakness).join(" "),e.condition,e.drop].filter(Boolean).join(" "),note:enemyCondition(e),data:e}));
     return result;
@@ -26665,9 +28558,52 @@ OT2.encounters = {
     return `<div class="atlas-encounters"><p class="muted">本区域已收录 ${a.enemies.length} 种怪物。${esc(a.note || "")} 核对日期：${esc(a.checked || "")}</p>`+
       arr(a.enemies).map(e=>enemyHtml(e,a)).join("")+`</div>`;
   }
+  function segmentDistance(point,a,b) {
+    const dx=b[0]-a[0],dy=b[1]-a[1],den=dx*dx+dy*dy;
+    const t=den ? Math.max(0,Math.min(1,((point[0]-a[0])*dx+(point[1]-a[1])*dy)/den)) : 0;
+    return Math.hypot(point[0]-a[0]-t*dx,point[1]-a[1]-t*dy);
+  }
+  function onRoad(at,p,tolerance=0.8) {return arr(p.pts).slice(1).some((b,i)=>segmentDistance(at,p.pts[i],b)<=tolerance);}
+  function roadConnections(d,index) {
+    const p=arr(d.paths)[index];if (!p?.pts?.length) return [];
+    const ends=p=>[p.pts[0],p.pts[p.pts.length-1]];
+    return arr(d.paths).flatMap((q,i)=>{
+      if(i===index || !q.pts?.length) return [];
+      if(arr(d.crossings).some(c=>(c.over===index && c.under===i)||(c.under===index && c.over===i))) return [];
+      return ends(p).some(at=>onRoad(at,q)) || ends(q).some(at=>onRoad(at,p)) ? [i] : [];
+    });
+  }
+  function roadBadgePoint(p,pois,used) {
+    const pts=arr(p.pts),lens=pts.slice(1).map((b,i)=>Math.hypot(b[0]-pts[i][0],b[1]-pts[i][1])),total=lens.reduce((a,b)=>a+b,0);
+    if (!pts.length) return [0,0];
+    const sample=f=>{let left=total*f;for(let i=0;i<lens.length;i++){if(left<=lens[i] || i===lens.length-1){const t=lens[i]?left/lens[i]:0;return [pts[i][0]+(pts[i+1][0]-pts[i][0])*t,pts[i][1]+(pts[i+1][1]-pts[i][1])*t];}left-=lens[i];}return pts[0];};
+    const occupied=[...arr(pois).filter(q=>q.at).map(q=>q.at),...arr(used)];
+    const score=at=>Math.min(20,...occupied.map(q=>Math.hypot(q[0]-at[0],q[1]-at[1])));
+    return [.5,.3,.7,.18,.82].map(sample).sort((a,b)=>score(b)-score(a))[0];
+  }
+  const roadLink=(d,i)=>`<button type="button" class="atlas-road-link" data-road-select="${i}">道路 ${String(i+1).padStart(2,"0")} · ${esc(d.paths[i].label || pathLabels[d.paths[i].kind] || "道路")}</button>`;
+  function roadHtml(e,d) {
+    const p=e.data || {},r=p.route || {};
+    let h=`<div class="dpi-title"><b>道路 ${esc(e.number)} · ${esc(e.label)}</b><span>${esc(pathLabels[e.kind] || "道路")} · ${e.kind==='boat' ? (r.mode || "水路／航线") : e.kind==='ladder' ? "梯子上下换层" : "按图中路段通行"}</span></div>`;
+    if(r.from && r.to)h+=`<p class="atlas-route-ends"><b>起点</b> ${esc(r.from)}<br><b>终点</b> ${esc(r.to)}</p>`;
+    if(arr(r.steps).length)h+=`<ol class="atlas-route-steps">${r.steps.map(s=>`<li>${esc(s)}</li>`).join("")}</ol>`;
+    else h+=`<p>${esc(p.note || "本段尚未补录逐步走法；请对照图上参照点与连接路段。")}</p>`;
+    if(r.caution)h+=`<p class="atlas-route-caution">注意：${esc(r.caution)}</p>`;
+    if(d){
+      const refs=[...arr(d.pois).filter(q=>q.kind==='save'||isSignpost(q)),...arr(d.junctions).map(j=>({...j,label:'岔路 '+j.label}))].filter(q=>q.at&&onRoad(q.at,p,3));
+      if(refs.length)h+=`<div class="atlas-route-refs"><b>沿线参照：</b>${refs.map(q=>esc(q.label||labels[q.kind])).join("、")}</div>`;
+      const links=roadConnections(d,e.index);
+      if(links.length)h+=`<div class="atlas-route-links"><b>图上相接路段</b>${links.map(i=>roadLink(d,i)).join("")}</div>`;
+      h+=`<p class="muted">相接关系按当前示意图列出；上下层交叉不视为路口。方向按上述起点至终点描述，可原路折返。</p>`;
+    }
+    return h+`<div class="atlas-sources">${sourcesHtml(r.sources)}</div>`;
+  }
+  function junctionHtml(j,d) {
+    return `<div class="dpi-title"><b>岔路 ${esc(j.label)}</b><span>攻略导航参照 · 非实体路牌</span></div><p>${esc(j.note || "")}</p><div class="atlas-route-links">${arr(j.roads).map(i=>roadLink(d,i)).join("")}</div>`;
+  }
   function listHtml(list) {
     if (!list.length) return `<p class="atlas-empty">没有匹配的道路或要点。可清空搜索或切换分类／时段。</p>`;
-    return list.map(e=>`<button type="button" class="atlas-entry" data-atlas-entry="${esc(e.id)}"><span class="atlas-entry-kind">${esc(e.type === "path" ? pathLabels[e.kind] || "道路" : e.type === "enemy" ? "区域遇敌" : labels[e.kind] || "要点")}</span><b>${esc(e.label)}</b><small>${esc(e.unplaced ? "未定位 · "+e.note : e.note)}</small></button>`).join("");
+    return list.map(e=>`<button type="button" class="atlas-entry" data-atlas-entry="${esc(e.id)}"><span class="atlas-entry-kind">${esc(e.type === "path" ? "道路 "+e.number+" · "+(pathLabels[e.kind] || "道路") : e.type === "enemy" ? "区域遇敌" : e.type === "junction" ? "路口参照" : isSignpost(e.data) ? "路标" : labels[e.kind] || "要点")}</span><b>${esc(e.label)}</b><small>${esc(e.unplaced ? "未定位 · "+e.note : e.note)}</small></button>`).join("");
   }
   function mount(options) {
     const {host,svg,rid,loc,d,onSelect,onZone,onReset} = options;
@@ -26686,11 +28622,11 @@ OT2.encounters = {
       count.textContent = `显示 ${shown.length} / ${all.length} 项 · 点击定位并查看详情`;
       results.innerHTML=listHtml(shown);
       host.querySelectorAll('[data-atlas-category]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.atlasCategory===state.category)));
-      svg.querySelectorAll('[data-atlas-poi]').forEach(g=>{g.style.display=ids.has(g.dataset.atlasPoi)?"":"none";});
+      svg.querySelectorAll('[data-atlas-poi]').forEach(g=>{g.style.display=ids.has(g.dataset.atlasPoi)||g.dataset.atlasAnchor==="true"?"":"none";});
       // 道路保留作方向参照，只过滤要点；怪物以区域资料呈现。
       const a=area(rid,loc.id), cov=host.querySelector('.atlas-coverage');
       cov.innerHTML=state.category==='enemy' ? (!a ? encounterHtml(rid,loc) : `<p>随机遇敌以区域表示。${esc(a.note || "")}</p>${sourcesHtml(a.sources)}`) :
-        `<p>未标坐标的 NPC 可查攻略；其具体位置尚未核实。道路与设施为攻略相对位置示意。</p>${sourcesHtml(d.sources)}`;
+        `<p>未标坐标的 NPC 可查攻略；其具体位置尚未核实。存档点、已确认路牌与出口始终保留。道路与设施为攻略相对位置示意。</p>${sourcesHtml(d.sources)}`;
       if (options.onFilter) options.onFilter();
     }
     host.querySelector('.atlas-find').addEventListener('input',e=>{state.query=e.target.value;update();});
@@ -26706,7 +28642,7 @@ OT2.encounters = {
     update();
     return {refresh:update};
   }
-  window.OTAtlas = {entries,filter,bounds,pointsOf,area,categories,labels,pathLabels,esc,enemyHtml,encounterHtml,listHtml,sourcesHtml,timeOf,mount};
+  window.OTAtlas = {entries,filter,bounds,pointsOf,area,categories,labels,pathLabels,esc,enemyHtml,encounterHtml,listHtml,sourcesHtml,timeOf,mount,roadHtml,roadConnections,roadBadgePoint,junctionHtml,isSignpost,isNavigationAnchor};
 })();
 
 </script>
@@ -26969,7 +28905,7 @@ OT2.encounters = {
   }
   function drawPoi(g, p, ctx) {
     const [x, y] = p.at;
-    const gp = el("g", { class: "dp-poi kind-" + p.kind, transform: `translate(${x},${y})`, tabindex: 0, role: "button", "aria-label": poiLabel(p, ctx) || KIND_LABEL[p.kind], "data-atlas-poi": "poi-" + ctx.d.pois.indexOf(p) }, g);
+    const gp = el("g", { class: "dp-poi kind-" + p.kind, transform: `translate(${x},${y})`, tabindex: 0, role: "button", "aria-label": poiLabel(p, ctx) || KIND_LABEL[p.kind], "data-atlas-anchor": String(window.OTAtlas.isNavigationAnchor(p)), "data-atlas-poi": "poi-" + ctx.d.pois.indexOf(p) }, g);
     const th = ctx.th;
     switch (p.kind) {
       case "exit": {
@@ -26997,7 +28933,7 @@ OT2.encounters = {
         el("path", { d: "M0,-1.3L0.7,0L0,1.3", fill: "none", stroke: "#e6f6ff", "stroke-width": 0.3 }, gp);
         break;
       default: {
-        const b = BADGE[p.kind] || BADGE.landmark;
+        const b = window.OTAtlas.isSignpost(p) ? ["牌", "#94662f"] : BADGE[p.kind] || BADGE.landmark;
         el("rect", { x: -1.85, y: -1.85, width: 3.7, height: 3.7, rx: 0.9, fill: b[1], stroke: "rgba(0,0,0,.55)", "stroke-width": 0.3 }, gp);
         const t = el("text", { y: 0.95, class: "dp-badge" }, gp);
         t.textContent = b[0];
@@ -27072,6 +29008,44 @@ OT2.encounters = {
   }
   function hideInfo() { info.hidden = true; }
 
+  function selectRoad(index) {
+    const entry=cur && cur.entries.find(e=>e.type==="path" && e.index===index);
+    if(entry) atlasSelect(entry);
+  }
+  function drawRoadGuides(g,ctx) {
+    const A=window.OTAtlas;if(!A)return;
+    const used=[];
+    arr(ctx.d.paths).forEach((p,i)=>{
+      const at=A.roadBadgePoint(p,[...arr(ctx.d.pois),...arr(ctx.d.junctions)],used);used.push(at);
+      const b=el("g",{class:"dp-road-badge",transform:`translate(${at[0]},${at[1]})`,tabindex:0,role:"button","aria-label":`道路 ${String(i+1).padStart(2,"0")} · ${p.label || PATH_LABEL[p.kind] || "道路"}`,"data-road-index":i},g);
+      el("circle",{r:3.2,fill:"transparent",stroke:"none",class:"road-hit"},b);
+      el("circle",{r:1.9,class:"road-disc"},b);
+      const t=el("text",{y:.7,"text-anchor":"middle"},b);t.textContent=String(i+1).padStart(2,"0");
+      b.addEventListener("click",e=>{e.stopPropagation();selectRoad(i);});
+      b.addEventListener("keydown",e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();e.stopPropagation();selectRoad(i);}});
+    });
+    arr(ctx.d.junctions).forEach((j,i)=>{
+      const b=el("g",{class:"dp-junction",transform:`translate(${j.at[0]},${j.at[1]})`,tabindex:0,role:"button","aria-label":"岔路 "+j.label,"data-atlas-anchor":"true","data-atlas-poi":"junction-"+i},g);
+      const offset=j.labelAt ? [j.labelAt[0]-j.at[0],j.labelAt[1]-j.at[1]] : [0,0];
+      if(offset[0]||offset[1]) el("path",{d:`M0,0L${offset[0]},${offset[1]}`,stroke:"#244a66","stroke-width":.45},b);
+      const bubble=el("g",{transform:`translate(${offset[0]},${offset[1]})`},b);
+      el("circle",{r:1.7},bubble);const t=el("text",{y:.65,"text-anchor":"middle"},bubble);t.textContent=j.label;
+      const activate=()=>atlasSelect(cur.entries.find(e=>e.id==="junction-"+i));
+      b.addEventListener("click",e=>{e.stopPropagation();activate();});
+      b.addEventListener("keydown",e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();activate();}});
+    });
+    arr(ctx.d.crossings).forEach(c=>{
+      const b=el("g",{class:"dp-crossing","pointer-events":"none"},g),at=c.labelAt||[c.at[0]+4,c.at[1]+5];
+      el("path",{d:`M${c.at[0]},${c.at[1]}L${at[0]},${at[1]-1}`,fill:"none"},b);
+      const t=el("text",{x:at[0],y:at[1],"text-anchor":"middle"},b);t.textContent=c.note;
+    });
+  }
+  function syncRoadLabels() {
+    if(!cur)return;
+    svg.classList.toggle("road-numbered",cur.roadMode==="number");
+    const b=pane.querySelector('[data-dp="roads"]');b.textContent=cur.roadMode==="number"?"道路：编号":"道路：文字";
+    b.setAttribute("aria-label",cur.roadMode==="number"?"切换为完整道路文字":"切换为道路编号");
+  }
   function buildDetailSvg(rid, loc, d) {
     const th = themeOf(d, loc);
     const size = sizeOf(d);
@@ -27090,6 +29064,7 @@ OT2.encounters = {
     const g = el("g", {}, svg);
     drawZones(el("g", { class: "dp-zones" }, g), d, th, false);
     drawPaths(el("g", { class: "dp-paths" }, g), d, th, false);
+    drawRoadGuides(el("g",{class:"dp-road-guides"},g),ctx);
     const pg = el("g", { class: "dp-pois" }, g);
     const order = { exit: 0, save: 1, boss: 9 };
     arr(d.pois).filter((p) => Array.isArray(p.at)).sort((a, b) => (order[a.kind] || 5) - (order[b.kind] || 5)).forEach((p) => drawPoi(pg, p, ctx));
@@ -27112,7 +29087,7 @@ OT2.encounters = {
     pane.hidden = true;
     pane.innerHTML = `<div class="dp-head"><div class="dp-titles"><b class="dp-title"></b><span class="dp-sub"></span></div>
       <div class="dp-tools"><button class="btn icon" data-dp="in" title="放大">＋</button><button class="btn icon" data-dp="out" title="缩小">－</button>
-      <button class="btn icon" data-dp="reset" title="复位">⟲</button><button class="btn" data-dp="expand" aria-pressed="false">展开</button><button class="btn" data-dp="legend">图例</button><button class="btn" data-dp="close" title="收起细节图（Esc）">收起 ✕</button></div></div>
+      <button class="btn icon" data-dp="reset" title="复位">⟲</button><button class="btn" data-dp="expand" aria-pressed="false">展开</button><button class="btn" data-dp="roads">道路：编号</button><button class="btn" data-dp="legend">图例</button><button class="btn" data-dp="close" title="收起细节图（Esc）">收起 ✕</button></div></div>
       <div class="dp-access" hidden></div>
       <div class="dp-body"><div class="dp-canvas"><svg class="dp-svg" xmlns="${NS}" preserveAspectRatio="xMidYMid meet" role="img" aria-label="地点道路和要点地图"></svg><div class="dp-info" hidden></div><div class="dp-legend" hidden></div>
       <div class="dp-foot">攻略示意图 · 道路及要点为相对位置 · 滚轮缩放／拖动平移</div></div><aside class="dp-browser" aria-label="小区域地图目录"></aside></div>`;
@@ -27131,10 +29106,13 @@ OT2.encounters = {
         if (a === "in") zoomDp(1 / 1.3);
         if (a === "out") zoomDp(1.3);
         if (a === "reset") resetAtlasView();
+        if (a === "roads") { cur.roadMode=cur.roadMode==="number"?"text":"number";syncRoadLabels(); }
         if (a === "legend") legendBox.hidden = !legendBox.hidden;
         if (a === "expand") { const expanded=pane.classList.toggle("expanded");b.setAttribute("aria-pressed",String(expanded));b.textContent=expanded ? "还原" : "展开"; }
         return;
       }
+      const road = e.target.closest("[data-road-select]");
+      if (road) { selectRoad(+road.dataset.roadSelect); return; }
       const go = e.target.closest("[data-dp-go]");
       if (go) { const [r, l] = go.dataset.dpGo.split("/"); api.openLocation(r, l); return; }
       if (e.target.closest(".dp-browser")) return;
@@ -27207,18 +29185,25 @@ OT2.encounters = {
     cur.ctx.pinned = null; hideInfo();
     cur.ctx.poiEls.forEach(({g})=>g.classList.remove("sel"));
     svg.querySelector(".dp-selection")?.remove();
+    svg.querySelectorAll(".dp-road-badge").forEach(g=>g.classList.remove("sel"));
   }
   function resetAtlasView() { if (cur) { resetAtlasSelection(); cur.vb=cur.home.slice(); applyVb(); } }
   function atlasSelect(entry) {
     resetAtlasSelection();
     const A=window.OTAtlas, ctx=cur.ctx;
+    if(!entry)return;
+    pane.querySelectorAll('[data-atlas-entry]').forEach(b=>b.classList.toggle('active',b.dataset.atlasEntry===entry.id));
     if (entry.type === "poi") {
       cur.vb=A.bounds(entry,ctx.size);applyVb();ctx.pinned=entry.data;showInfo(entry.data,ctx,true);return;
     }
     ctx.pinned=entry;
     if (entry.type === "path") {
       cur.vb=A.bounds(entry,ctx.size);applyVb();
-      info.innerHTML=`<div class="dpi-title"><b>${esc(entry.label)}</b><span>${esc(entry.note)}</span></div><p>${esc(entry.data.note || "高亮显示这段道路；沿线设施、宝箱与出口可点击查看。")}</p>`;
+      info.innerHTML=A.roadHtml(entry,ctx.d);
+      svg.querySelector(`[data-road-index="${entry.index}"]`)?.classList.add("sel");
+    } else if (entry.type === "junction") {
+      cur.vb=A.bounds(entry,ctx.size);applyVb();
+      info.innerHTML=A.junctionHtml(entry.data,ctx.d);
     } else if (entry.type === "enemy") {
       cur.vb=cur.home.slice();applyVb();
       info.innerHTML=A.enemyHtml(entry.data,A.area(cur.rid,ctx.loc.id));
@@ -27237,7 +29222,7 @@ OT2.encounters = {
   function buildLegend(ctx) {
     const kinds = [...new Set(arr(ctx.d.pois).map((p) => p.kind))];
     const pk = [...new Set(arr(ctx.d.paths).map((p) => (PATH_W[p.kind] ? p.kind : "minor")))];
-    legendBox.innerHTML = `<b>本图图例</b>` +
+    legendBox.innerHTML = `<b>本图图例</b><div>数字圆标：道路编号（可点选）</div><div>字母圆标：攻略岔路参照</div><div>「牌」图标：攻略确认的路标</div>` +
       pk.map((k) => `<div><i class="lg-path lg-${k}"></i>${PATH_LABEL[k]}</div>`).join("") +
       kinds.map((k) => `<div><i class="lg-poi">${k === "exit" ? "➜" : k.startsWith("chest") ? "▣" : k === "hidden" ? "✦" : k === "save" ? "◆" : k === "boss" ? "♛" : (BADGE[k] || BADGE.landmark)[0]}</i>${KIND_LABEL[k] || k}</div>`).join("");
   }
@@ -27252,8 +29237,10 @@ OT2.encounters = {
     const pad = 3;
     cur = { rid, lid, d, home: [-pad, -pad, w + pad * 2 + 8, h + pad * 2] };
     cur.vb = cur.home.slice();
+    cur.entries=window.OTAtlas ? window.OTAtlas.entries(rid,loc,d) : [];
+    cur.roadMode=loc.type==="field"?"number":"text";
     cur.ctx = buildDetailSvg(rid, loc, d);
-    applyVb();
+    applyVb();syncRoadLabels();
     titleEl.textContent = loc.name;
     const nPaths = arr(d.paths).length, nPoi = arr(d.pois).length;
     subEl.textContent = `${r.name} · 细节示意图 · ${nPaths} 段道路 · ${nPoi} 处要点`;

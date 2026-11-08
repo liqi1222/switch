@@ -1,0 +1,70 @@
+{
+  "game": "Dragon Quest 1 HD-2D (2025)",
+  "source": "Game8 public map tool",
+  "sourcePage": "https://game8.jp/dq1remake/732632",
+  "sourceApi": "https://game8.jp/api/tool_structural_mappings/357.json?updatedAt=1762157108",
+  "retrievedAt": "2026-11-08T09:59:41.843387+00:00",
+  "toolStructuralMappingId": 357,
+  "sourceUpdatedAt": 1762157108,
+  "worldImage": {
+    "file": "world-map.jpg",
+    "sourceUrl": "https://assets.game8.jp/uploads/ApDh8FewoSpqJugjgztTSKEeQzvfZL.jpg",
+    "width": 1400,
+    "height": 1424,
+    "sha256": "db2d9ce0f8e07a81d0d21f94d79227aed46eb2c6d0b4c3a4d52e27003f54b6ec"
+  },
+  "coordinateSystem": {
+    "sourceOrder": "lat,lng",
+    "sourceRange": [
+      0,
+      256
+    ],
+    "renderCRS": "Leaflet CRS.Simple",
+    "renderBounds": [
+      [
+        0,
+        0
+      ],
+      [
+        187.5,
+        187.5
+      ]
+    ],
+    "sourceToRender": "floor(value * (187.5 / 256) * 100) / 100",
+    "imageX": "renderLng / 187.5 * imageWidth",
+    "imageY": "(1 - renderLat / 187.5) * imageHeight",
+    "origin": "top left in normalized and image coordinates",
+    "axisDirections": {
+      "x": "right",
+      "y": "down"
+    },
+    "sourceEvidence": [
+      "https://assets.game8.jp/vite/assets/Index-JJ5WAx_r.js",
+      "https://assets.game8.jp/vite/assets/cursorPinCalculation-CuNOaY1B.js"
+    ],
+    "sourceEvidenceFacts": [
+      "Index module declares BoundLength=187.5, bounds=[[0,0],[187.5,187.5]], CRS.Simple; passes coordinates split by comma through helper before rendering.",
+      "cursor helper maps source value using floor(value*(boundLength/256)*100)/100."
+    ]
+  },
+  "counts": {
+    "rawRows": 548,
+    "locatedMarkers": 63,
+    "unlocatedRows": 485,
+    "locatedCategories": {
+      "ひみつの場所": 15,
+      "キラキラ": 48
+    },
+    "downloadedAssets": 65,
+    "unlocatedPopupAssets": 318
+  },
+  "limitations": [
+    "This tool exposes one world area only; no local town/dungeon map layers.",
+    "Unlocated rows have no usable coordinates and are preserved separately. Never plot them at guessed positions.",
+    "Marker url fields are blank in source; sourcePage is attribution and verification link.",
+    "Raw marker titles/descriptions/item names are Japanese source data. No translations were invented.",
+    "World map and popup screenshots remain copyright of their respective owners; retain attribution."
+  ],
+  "downloadErrors": [],
+  "unlocatedDownloadErrors": []
+}

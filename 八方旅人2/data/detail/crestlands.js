@@ -226,36 +226,502 @@ OT2.addDetail("crestlands", {
 OT2.addDetail("crestlands", {
   "eastern_flamechurch_pass": {
     "theme": "mountain",
-    "size": [100, 70],
+    "size": [
+      100,
+      70
+    ],
     "note": "纹之地的交通枢纽：从西北的弗拉姆教堂南下，到存档点所在的三岔路口——向北上冬之地、向西南下明之地、向东通往国境大瀑布。南下途中路线转东前右侧有条窄路。",
     "zones": [
-      { "kind": "cliff", "poly": [[0, 0], [40, 0], [36, 8], [20, 6], [0, 8]] },
-      { "kind": "cliff", "poly": [[56, 0], [100, 0], [100, 30], [86, 22], [70, 18], [60, 10]] },
-      { "kind": "cliff", "poly": [[60, 70], [66, 58], [84, 54], [100, 56], [100, 70]] },
-      { "kind": "grass", "rect": [36, 52, 18, 10] },
-      { "kind": "rock", "rect": [4, 50, 10, 8] }
+      {
+        "kind": "cliff",
+        "poly": [
+          [
+            0,
+            0
+          ],
+          [
+            40,
+            0
+          ],
+          [
+            36,
+            8
+          ],
+          [
+            20,
+            6
+          ],
+          [
+            0,
+            8
+          ]
+        ]
+      },
+      {
+        "kind": "cliff",
+        "poly": [
+          [
+            56,
+            0
+          ],
+          [
+            100,
+            0
+          ],
+          [
+            100,
+            30
+          ],
+          [
+            86,
+            22
+          ],
+          [
+            70,
+            18
+          ],
+          [
+            60,
+            10
+          ]
+        ]
+      },
+      {
+        "kind": "cliff",
+        "poly": [
+          [
+            60,
+            70
+          ],
+          [
+            66,
+            58
+          ],
+          [
+            84,
+            54
+          ],
+          [
+            100,
+            56
+          ],
+          [
+            100,
+            70
+          ]
+        ]
+      },
+      {
+        "kind": "grass",
+        "rect": [
+          36,
+          52,
+          18,
+          10
+        ]
+      },
+      {
+        "kind": "rock",
+        "rect": [
+          4,
+          50,
+          10,
+          8
+        ]
+      }
     ],
     "paths": [
-      { "kind": "main", "pts": [[2, 14], [14, 16], [22, 26], [26, 36], [30, 44]], "label": "从弗拉姆教堂南下" },
-      { "kind": "minor", "pts": [[24, 32], [16, 36], [12, 40]], "label": "转东前右侧窄路" },
-      { "kind": "main", "pts": [[30, 44], [50, 46], [70, 44], [86, 40], [98, 38]], "label": "往国境大瀑布" },
-      { "kind": "stairs", "pts": [[86, 40], [88, 30]], "label": "路边台阶" },
-      { "kind": "main", "pts": [[30, 44], [38, 32], [44, 20], [48, 2]], "label": "往北（冬之地）" },
-      { "kind": "minor", "pts": [[44, 20], [52, 22]], "label": "北路右侧小空地" },
-      { "kind": "main", "pts": [[30, 44], [24, 56], [14, 64], [4, 68]], "label": "往南（明之地）" },
-      { "kind": "hidden", "pts": [[22, 58], [12, 55]], "label": "南路右侧隐蔽空地" }
+      {
+        "kind": "main",
+        "pts": [
+          [
+            2,
+            14
+          ],
+          [
+            14,
+            16
+          ],
+          [
+            22,
+            26
+          ],
+          [
+            24,
+            32
+          ],
+          [
+            26,
+            36
+          ],
+          [
+            30,
+            44
+          ]
+        ],
+        "label": "教堂下坡至存档路口",
+        "route": {
+          "from": "弗拉姆教堂出口",
+          "to": "存档点路口",
+          "steps": [
+            "从教堂沿台阶南下",
+            "转东之前右手有皮甲窄路",
+            "继续到存档点所在分岔路口"
+          ],
+          "sources": [
+            {
+              "label": "ArrPeeGeeZ · 东弗拉姆教堂山道",
+              "url": "https://www.arrpeegeez.com/2023/02/octopath-traveler-ii-walkthrough-area_20.html"
+            }
+          ]
+        }
+      },
+      {
+        "kind": "minor",
+        "pts": [
+          [
+            24,
+            32
+          ],
+          [
+            16,
+            36
+          ],
+          [
+            12,
+            40
+          ]
+        ],
+        "label": "转东前的皮甲窄路",
+        "route": {
+          "from": "教堂南下主路",
+          "to": "皮甲宝箱",
+          "steps": [
+            "从教堂南下、路线转东前，查看右侧窄路",
+            "走到尽头取皮甲",
+            "原路返回主路"
+          ],
+          "sources": [
+            {
+              "label": "ArrPeeGeeZ · 东弗拉姆教堂山道",
+              "url": "https://www.arrpeegeez.com/2023/02/octopath-traveler-ii-walkthrough-area_20.html"
+            }
+          ]
+        }
+      },
+      {
+        "kind": "main",
+        "pts": [
+          [
+            30,
+            44
+          ],
+          [
+            50,
+            46
+          ],
+          [
+            70,
+            44
+          ],
+          [
+            86,
+            40
+          ],
+          [
+            98,
+            38
+          ]
+        ],
+        "label": "存档路口向东去瀑布",
+        "route": {
+          "from": "存档点路口",
+          "to": "国境大瀑布出口",
+          "steps": [
+            "以存档点为参照转向东",
+            "在出口前可分出上台阶取火之精灵石",
+            "沿主路继续到国境大瀑布"
+          ],
+          "sources": [
+            {
+              "label": "ArrPeeGeeZ · 东弗拉姆教堂山道",
+              "url": "https://www.arrpeegeez.com/2023/02/octopath-traveler-ii-walkthrough-area_20.html"
+            }
+          ]
+        }
+      },
+      {
+        "kind": "stairs",
+        "pts": [
+          [
+            86,
+            40
+          ],
+          [
+            88,
+            30
+          ]
+        ],
+        "label": "瀑布口前上台阶",
+        "route": {
+          "from": "瀑布出口前的主路",
+          "to": "火之精灵石宝箱",
+          "steps": [
+            "到国境大瀑布入口前",
+            "从路旁台阶向上走",
+            "取箱后回到东行主路"
+          ],
+          "sources": [
+            {
+              "label": "ArrPeeGeeZ · 东弗拉姆教堂山道",
+              "url": "https://www.arrpeegeez.com/2023/02/octopath-traveler-ii-walkthrough-area_20.html"
+            }
+          ]
+        }
+      },
+      {
+        "kind": "main",
+        "pts": [
+          [
+            30,
+            44
+          ],
+          [
+            38,
+            32
+          ],
+          [
+            44,
+            20
+          ],
+          [
+            48,
+            2
+          ]
+        ],
+        "label": "存档路口向北去雪道",
+        "route": {
+          "from": "存档点路口",
+          "to": "东科尔德凯普雪道出口",
+          "steps": [
+            "从存档点向北",
+            "右侧小空地可取安眠草",
+            "继续北行进入冬之地"
+          ],
+          "sources": [
+            {
+              "label": "ArrPeeGeeZ · 东弗拉姆教堂山道",
+              "url": "https://www.arrpeegeez.com/2023/02/octopath-traveler-ii-walkthrough-area_20.html"
+            }
+          ]
+        }
+      },
+      {
+        "kind": "minor",
+        "pts": [
+          [
+            44,
+            20
+          ],
+          [
+            52,
+            22
+          ]
+        ],
+        "label": "北路右侧安眠草支路",
+        "route": {
+          "from": "北行主路",
+          "to": "安眠草宝箱",
+          "steps": [
+            "沿北行道路查看右侧小空地",
+            "走入空地取箱",
+            "原路回到北行主路"
+          ],
+          "sources": [
+            {
+              "label": "ArrPeeGeeZ · 东弗拉姆教堂山道",
+              "url": "https://www.arrpeegeez.com/2023/02/octopath-traveler-ii-walkthrough-area_20.html"
+            }
+          ]
+        }
+      },
+      {
+        "kind": "main",
+        "pts": [
+          [
+            30,
+            44
+          ],
+          [
+            24,
+            56
+          ],
+          [
+            22,
+            58
+          ],
+          [
+            14,
+            64
+          ],
+          [
+            4,
+            68
+          ]
+        ],
+        "label": "存档路口向西南去明之地",
+        "route": {
+          "from": "存档点路口",
+          "to": "西轮敦街道出口",
+          "steps": [
+            "从存档点向西南走",
+            "临近南侧出口时查看右侧隐蔽空地",
+            "沿主路进入明之地"
+          ],
+          "sources": [
+            {
+              "label": "ArrPeeGeeZ · 东弗拉姆教堂山道",
+              "url": "https://www.arrpeegeez.com/2023/02/octopath-traveler-ii-walkthrough-area_20.html"
+            }
+          ]
+        }
+      },
+      {
+        "kind": "hidden",
+        "pts": [
+          [
+            22,
+            58
+          ],
+          [
+            12,
+            55
+          ]
+        ],
+        "label": "南路右侧隐蔽宝箱",
+        "route": {
+          "from": "通往西轮敦街道的主路",
+          "to": "活力石榴宝箱",
+          "steps": [
+            "在南行路上查看右侧不易看见的小空地",
+            "走入空地取活力石榴",
+            "原路回到主路"
+          ],
+          "sources": [
+            {
+              "label": "ArrPeeGeeZ · 东弗拉姆教堂山道",
+              "url": "https://www.arrpeegeez.com/2023/02/octopath-traveler-ii-walkthrough-area_20.html"
+            }
+          ]
+        }
+      }
     ],
     "pois": [
-      { "kind": "exit", "at": [2, 14], "to": "flamechurch", "label": "往弗拉姆教堂", "lp": "b", "dir": "西" },
-      { "kind": "exit", "at": [48, 2], "to": "winterlands/eastern_cape_cold_snows", "label": "往东科尔德凯普雪道", "lp": "r", "dir": "北" },
-      { "kind": "exit", "at": [4, 68], "to": "brightlands/western_cb_highroad", "label": "往西轮敦街道", "lp": "r", "dir": "西南" },
-      { "kind": "exit", "at": [98, 38], "to": "borderfall", "label": "往国境大瀑布", "lp": "t", "dir": "东" },
-      { "kind": "save", "at": [30, 44], "label": "存档点（三岔路口）", "lp": "l" },
-      { "kind": "chest", "at": [12, 40], "tr": [0], "lp": "b" },
-      { "kind": "chest", "at": [88, 29], "tr": [1], "lp": "l" },
-      { "kind": "chest", "at": [52, 22], "tr": [2], "lp": "r" },
-      { "kind": "chest", "at": [12, 55], "tr": [3], "lp": "t" }
-    ]
+      {
+        "kind": "exit",
+        "at": [
+          2,
+          14
+        ],
+        "to": "flamechurch",
+        "label": "往弗拉姆教堂",
+        "lp": "b",
+        "dir": "西"
+      },
+      {
+        "kind": "exit",
+        "at": [
+          48,
+          2
+        ],
+        "to": "winterlands/eastern_cape_cold_snows",
+        "label": "往东科尔德凯普雪道",
+        "lp": "r",
+        "dir": "北"
+      },
+      {
+        "kind": "exit",
+        "at": [
+          4,
+          68
+        ],
+        "to": "brightlands/western_cb_highroad",
+        "label": "往西轮敦街道",
+        "lp": "r",
+        "dir": "西南"
+      },
+      {
+        "kind": "exit",
+        "at": [
+          98,
+          38
+        ],
+        "to": "borderfall",
+        "label": "往国境大瀑布",
+        "lp": "t",
+        "dir": "东"
+      },
+      {
+        "kind": "save",
+        "at": [
+          30,
+          44
+        ],
+        "label": "存档点（三岔路口）",
+        "lp": "l"
+      },
+      {
+        "kind": "chest",
+        "at": [
+          12,
+          40
+        ],
+        "tr": [
+          0
+        ],
+        "lp": "b"
+      },
+      {
+        "kind": "chest",
+        "at": [
+          88,
+          29
+        ],
+        "tr": [
+          1
+        ],
+        "lp": "l"
+      },
+      {
+        "kind": "chest",
+        "at": [
+          52,
+          22
+        ],
+        "tr": [
+          2
+        ],
+        "lp": "r"
+      },
+      {
+        "kind": "chest",
+        "at": [
+          12,
+          55
+        ],
+        "tr": [
+          3
+        ],
+        "lp": "t"
+      }
+    ],
+    "sources": [
+      {
+        "label": "ArrPeeGeeZ · 东弗拉姆教堂山道",
+        "url": "https://www.arrpeegeez.com/2023/02/octopath-traveler-ii-walkthrough-area_20.html"
+      }
+    ],
+    "junctions": []
   },
   "borderfall": {
     "theme": "mountain",

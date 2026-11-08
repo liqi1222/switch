@@ -256,7 +256,7 @@
   }
   function drawPoi(g, p, ctx) {
     const [x, y] = p.at;
-    const gp = el("g", { class: "dp-poi kind-" + p.kind, transform: `translate(${x},${y})`, tabindex: 0, role: "button", "aria-label": poiLabel(p, ctx) || KIND_LABEL[p.kind], "data-atlas-poi": "poi-" + ctx.d.pois.indexOf(p) }, g);
+    const gp = el("g", { class: "dp-poi kind-" + p.kind, transform: `translate(${x},${y})`, tabindex: 0, role: "button", "aria-label": poiLabel(p, ctx) || KIND_LABEL[p.kind], "data-atlas-anchor": String(window.OTAtlas.isNavigationAnchor(p)), "data-atlas-poi": "poi-" + ctx.d.pois.indexOf(p) }, g);
     const th = ctx.th;
     switch (p.kind) {
       case "exit": {
@@ -284,7 +284,7 @@
         el("path", { d: "M0,-1.3L0.7,0L0,1.3", fill: "none", stroke: "#e6f6ff", "stroke-width": 0.3 }, gp);
         break;
       default: {
-        const b = BADGE[p.kind] || BADGE.landmark;
+        const b = window.OTAtlas.isSignpost(p) ? ["牌", "#94662f"] : BADGE[p.kind] || BADGE.landmark;
         el("rect", { x: -1.85, y: -1.85, width: 3.7, height: 3.7, rx: 0.9, fill: b[1], stroke: "rgba(0,0,0,.55)", "stroke-width": 0.3 }, gp);
         const t = el("text", { y: 0.95, class: "dp-badge" }, gp);
         t.textContent = b[0];
@@ -359,6 +359,44 @@
   }
   function hideInfo() { info.hidden = true; }
 
+  function selectRoad(index) {
+    const entry=cur && cur.entries.find(e=>e.type==="path" && e.index===index);
+    if(entry) atlasSelect(entry);
+  }
+  function drawRoadGuides(g,ctx) {
+    const A=window.OTAtlas;if(!A)return;
+    const used=[];
+    arr(ctx.d.paths).forEach((p,i)=>{
+      const at=A.roadBadgePoint(p,[...arr(ctx.d.pois),...arr(ctx.d.junctions)],used);used.push(at);
+      const b=el("g",{class:"dp-road-badge",transform:`translate(${at[0]},${at[1]})`,tabindex:0,role:"button","aria-label":`道路 ${String(i+1).padStart(2,"0")} · ${p.label || PATH_LABEL[p.kind] || "道路"}`,"data-road-index":i},g);
+      el("circle",{r:3.2,fill:"transparent",stroke:"none",class:"road-hit"},b);
+      el("circle",{r:1.9,class:"road-disc"},b);
+      const t=el("text",{y:.7,"text-anchor":"middle"},b);t.textContent=String(i+1).padStart(2,"0");
+      b.addEventListener("click",e=>{e.stopPropagation();selectRoad(i);});
+      b.addEventListener("keydown",e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();e.stopPropagation();selectRoad(i);}});
+    });
+    arr(ctx.d.junctions).forEach((j,i)=>{
+      const b=el("g",{class:"dp-junction",transform:`translate(${j.at[0]},${j.at[1]})`,tabindex:0,role:"button","aria-label":"岔路 "+j.label,"data-atlas-anchor":"true","data-atlas-poi":"junction-"+i},g);
+      const offset=j.labelAt ? [j.labelAt[0]-j.at[0],j.labelAt[1]-j.at[1]] : [0,0];
+      if(offset[0]||offset[1]) el("path",{d:`M0,0L${offset[0]},${offset[1]}`,stroke:"#244a66","stroke-width":.45},b);
+      const bubble=el("g",{transform:`translate(${offset[0]},${offset[1]})`},b);
+      el("circle",{r:1.7},bubble);const t=el("text",{y:.65,"text-anchor":"middle"},bubble);t.textContent=j.label;
+      const activate=()=>atlasSelect(cur.entries.find(e=>e.id==="junction-"+i));
+      b.addEventListener("click",e=>{e.stopPropagation();activate();});
+      b.addEventListener("keydown",e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();activate();}});
+    });
+    arr(ctx.d.crossings).forEach(c=>{
+      const b=el("g",{class:"dp-crossing","pointer-events":"none"},g),at=c.labelAt||[c.at[0]+4,c.at[1]+5];
+      el("path",{d:`M${c.at[0]},${c.at[1]}L${at[0]},${at[1]-1}`,fill:"none"},b);
+      const t=el("text",{x:at[0],y:at[1],"text-anchor":"middle"},b);t.textContent=c.note;
+    });
+  }
+  function syncRoadLabels() {
+    if(!cur)return;
+    svg.classList.toggle("road-numbered",cur.roadMode==="number");
+    const b=pane.querySelector('[data-dp="roads"]');b.textContent=cur.roadMode==="number"?"道路：编号":"道路：文字";
+    b.setAttribute("aria-label",cur.roadMode==="number"?"切换为完整道路文字":"切换为道路编号");
+  }
   function buildDetailSvg(rid, loc, d) {
     const th = themeOf(d, loc);
     const size = sizeOf(d);
@@ -377,6 +415,7 @@
     const g = el("g", {}, svg);
     drawZones(el("g", { class: "dp-zones" }, g), d, th, false);
     drawPaths(el("g", { class: "dp-paths" }, g), d, th, false);
+    drawRoadGuides(el("g",{class:"dp-road-guides"},g),ctx);
     const pg = el("g", { class: "dp-pois" }, g);
     const order = { exit: 0, save: 1, boss: 9 };
     arr(d.pois).filter((p) => Array.isArray(p.at)).sort((a, b) => (order[a.kind] || 5) - (order[b.kind] || 5)).forEach((p) => drawPoi(pg, p, ctx));
@@ -399,7 +438,7 @@
     pane.hidden = true;
     pane.innerHTML = `<div class="dp-head"><div class="dp-titles"><b class="dp-title"></b><span class="dp-sub"></span></div>
       <div class="dp-tools"><button class="btn icon" data-dp="in" title="放大">＋</button><button class="btn icon" data-dp="out" title="缩小">－</button>
-      <button class="btn icon" data-dp="reset" title="复位">⟲</button><button class="btn" data-dp="expand" aria-pressed="false">展开</button><button class="btn" data-dp="legend">图例</button><button class="btn" data-dp="close" title="收起细节图（Esc）">收起 ✕</button></div></div>
+      <button class="btn icon" data-dp="reset" title="复位">⟲</button><button class="btn" data-dp="expand" aria-pressed="false">展开</button><button class="btn" data-dp="roads">道路：编号</button><button class="btn" data-dp="legend">图例</button><button class="btn" data-dp="close" title="收起细节图（Esc）">收起 ✕</button></div></div>
       <div class="dp-access" hidden></div>
       <div class="dp-body"><div class="dp-canvas"><svg class="dp-svg" xmlns="${NS}" preserveAspectRatio="xMidYMid meet" role="img" aria-label="地点道路和要点地图"></svg><div class="dp-info" hidden></div><div class="dp-legend" hidden></div>
       <div class="dp-foot">攻略示意图 · 道路及要点为相对位置 · 滚轮缩放／拖动平移</div></div><aside class="dp-browser" aria-label="小区域地图目录"></aside></div>`;
@@ -418,10 +457,13 @@
         if (a === "in") zoomDp(1 / 1.3);
         if (a === "out") zoomDp(1.3);
         if (a === "reset") resetAtlasView();
+        if (a === "roads") { cur.roadMode=cur.roadMode==="number"?"text":"number";syncRoadLabels(); }
         if (a === "legend") legendBox.hidden = !legendBox.hidden;
         if (a === "expand") { const expanded=pane.classList.toggle("expanded");b.setAttribute("aria-pressed",String(expanded));b.textContent=expanded ? "还原" : "展开"; }
         return;
       }
+      const road = e.target.closest("[data-road-select]");
+      if (road) { selectRoad(+road.dataset.roadSelect); return; }
       const go = e.target.closest("[data-dp-go]");
       if (go) { const [r, l] = go.dataset.dpGo.split("/"); api.openLocation(r, l); return; }
       if (e.target.closest(".dp-browser")) return;
@@ -494,18 +536,25 @@
     cur.ctx.pinned = null; hideInfo();
     cur.ctx.poiEls.forEach(({g})=>g.classList.remove("sel"));
     svg.querySelector(".dp-selection")?.remove();
+    svg.querySelectorAll(".dp-road-badge").forEach(g=>g.classList.remove("sel"));
   }
   function resetAtlasView() { if (cur) { resetAtlasSelection(); cur.vb=cur.home.slice(); applyVb(); } }
   function atlasSelect(entry) {
     resetAtlasSelection();
     const A=window.OTAtlas, ctx=cur.ctx;
+    if(!entry)return;
+    pane.querySelectorAll('[data-atlas-entry]').forEach(b=>b.classList.toggle('active',b.dataset.atlasEntry===entry.id));
     if (entry.type === "poi") {
       cur.vb=A.bounds(entry,ctx.size);applyVb();ctx.pinned=entry.data;showInfo(entry.data,ctx,true);return;
     }
     ctx.pinned=entry;
     if (entry.type === "path") {
       cur.vb=A.bounds(entry,ctx.size);applyVb();
-      info.innerHTML=`<div class="dpi-title"><b>${esc(entry.label)}</b><span>${esc(entry.note)}</span></div><p>${esc(entry.data.note || "高亮显示这段道路；沿线设施、宝箱与出口可点击查看。")}</p>`;
+      info.innerHTML=A.roadHtml(entry,ctx.d);
+      svg.querySelector(`[data-road-index="${entry.index}"]`)?.classList.add("sel");
+    } else if (entry.type === "junction") {
+      cur.vb=A.bounds(entry,ctx.size);applyVb();
+      info.innerHTML=A.junctionHtml(entry.data,ctx.d);
     } else if (entry.type === "enemy") {
       cur.vb=cur.home.slice();applyVb();
       info.innerHTML=A.enemyHtml(entry.data,A.area(cur.rid,ctx.loc.id));
@@ -524,7 +573,7 @@
   function buildLegend(ctx) {
     const kinds = [...new Set(arr(ctx.d.pois).map((p) => p.kind))];
     const pk = [...new Set(arr(ctx.d.paths).map((p) => (PATH_W[p.kind] ? p.kind : "minor")))];
-    legendBox.innerHTML = `<b>本图图例</b>` +
+    legendBox.innerHTML = `<b>本图图例</b><div>数字圆标：道路编号（可点选）</div><div>字母圆标：攻略岔路参照</div><div>「牌」图标：攻略确认的路标</div>` +
       pk.map((k) => `<div><i class="lg-path lg-${k}"></i>${PATH_LABEL[k]}</div>`).join("") +
       kinds.map((k) => `<div><i class="lg-poi">${k === "exit" ? "➜" : k.startsWith("chest") ? "▣" : k === "hidden" ? "✦" : k === "save" ? "◆" : k === "boss" ? "♛" : (BADGE[k] || BADGE.landmark)[0]}</i>${KIND_LABEL[k] || k}</div>`).join("");
   }
@@ -539,8 +588,10 @@
     const pad = 3;
     cur = { rid, lid, d, home: [-pad, -pad, w + pad * 2 + 8, h + pad * 2] };
     cur.vb = cur.home.slice();
+    cur.entries=window.OTAtlas ? window.OTAtlas.entries(rid,loc,d) : [];
+    cur.roadMode=loc.type==="field"?"number":"text";
     cur.ctx = buildDetailSvg(rid, loc, d);
-    applyVb();
+    applyVb();syncRoadLabels();
     titleEl.textContent = loc.name;
     const nPaths = arr(d.paths).length, nPoi = arr(d.pois).length;
     subEl.textContent = `${r.name} · 细节示意图 · ${nPaths} 段道路 · ${nPoi} 处要点`;

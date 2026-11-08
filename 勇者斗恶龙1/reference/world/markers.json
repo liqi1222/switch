@@ -1,0 +1,2846 @@
+{
+  "metadata": {
+    "game": "Dragon Quest 1 HD-2D (2025)",
+    "source": "Game8 public map tool",
+    "sourcePage": "https://game8.jp/dq1remake/732632",
+    "sourceApi": "https://game8.jp/api/tool_structural_mappings/357.json?updatedAt=1762157108",
+    "retrievedAt": "2026-11-08T09:59:41.843387+00:00",
+    "toolStructuralMappingId": 357,
+    "sourceUpdatedAt": 1762157108,
+    "worldImage": {
+      "file": "world-map.jpg",
+      "sourceUrl": "https://assets.game8.jp/uploads/ApDh8FewoSpqJugjgztTSKEeQzvfZL.jpg",
+      "width": 1400,
+      "height": 1424,
+      "sha256": "db2d9ce0f8e07a81d0d21f94d79227aed46eb2c6d0b4c3a4d52e27003f54b6ec"
+    },
+    "coordinateSystem": {
+      "sourceOrder": "lat,lng",
+      "sourceRange": [
+        0,
+        256
+      ],
+      "renderCRS": "Leaflet CRS.Simple",
+      "renderBounds": [
+        [
+          0,
+          0
+        ],
+        [
+          187.5,
+          187.5
+        ]
+      ],
+      "sourceToRender": "floor(value * (187.5 / 256) * 100) / 100",
+      "imageX": "renderLng / 187.5 * imageWidth",
+      "imageY": "(1 - renderLat / 187.5) * imageHeight",
+      "origin": "top left in normalized and image coordinates",
+      "axisDirections": {
+        "x": "right",
+        "y": "down"
+      },
+      "sourceEvidence": [
+        "https://assets.game8.jp/vite/assets/Index-JJ5WAx_r.js",
+        "https://assets.game8.jp/vite/assets/cursorPinCalculation-CuNOaY1B.js"
+      ],
+      "sourceEvidenceFacts": [
+        "Index module declares BoundLength=187.5, bounds=[[0,0],[187.5,187.5]], CRS.Simple; passes coordinates split by comma through helper before rendering.",
+        "cursor helper maps source value using floor(value*(boundLength/256)*100)/100."
+      ]
+    },
+    "counts": {
+      "rawRows": 548,
+      "locatedMarkers": 63,
+      "unlocatedRows": 485,
+      "locatedCategories": {
+        "ひみつの場所": 15,
+        "キラキラ": 48
+      },
+      "downloadedAssets": 65,
+      "unlocatedPopupAssets": 318
+    },
+    "limitations": [
+      "This tool exposes one world area only; no local town/dungeon map layers.",
+      "Unlocated rows have no usable coordinates and are preserved separately. Never plot them at guessed positions.",
+      "Marker url fields are blank in source; sourcePage is attribution and verification link.",
+      "Raw marker titles/descriptions/item names are Japanese source data. No translations were invented.",
+      "World map and popup screenshots remain copyright of their respective owners; retain attribution."
+    ],
+    "downloadErrors": [],
+    "unlocatedDownloadErrors": []
+  },
+  "markers": [
+    {
+      "id": "1824496",
+      "title": "秘密の場所001",
+      "description": "ラダトームの北",
+      "subItem": {
+        "title": "入手アイテム",
+        "content": "やくそう×2、ちからのたね×1、122ゴールド"
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720799/9f7d3e059104a71fd290339b0b1f111d.png/show",
+      "coordinate": "183.29,100.35",
+      "classification": "ひみつの場所",
+      "popupImage": "https://img.game8.jp/11922906/7caf3e0b0230b4ec3578c2cdec795dbc.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq1remake/732632",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/357.json?updatedAt=1762157108",
+      "sourceCoordinate": {
+        "lat": 183.29,
+        "lng": 100.35
+      },
+      "leafletCoordinate": {
+        "lat": 134.24,
+        "lng": 73.49
+      },
+      "imageCoordinate": {
+        "x": 548.7253333333333,
+        "y": 404.4919466666666
+      },
+      "normalizedCoordinate": {
+        "x": 0.39194666666666667,
+        "y": 0.28405333333333327
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720799.png",
+      "popupImageLocal": "popups/11922906.webp",
+      "percentCoordinate": {
+        "x": 39.19466666666666,
+        "y": 28.405333333333328
+      }
+    },
+    {
+      "id": "1824497",
+      "title": "秘密の場所002",
+      "description": "ラダトームの東",
+      "subItem": {
+        "title": "入手アイテム",
+        "content": "においぶくろ×1、せいすい×2、とげのムチ×1、308ゴールド"
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720799/9f7d3e059104a71fd290339b0b1f111d.png/show",
+      "coordinate": "181.24,172.71",
+      "classification": "ひみつの場所",
+      "popupImage": "https://img.game8.jp/11923008/cf42cb8fb741247b86226589ce1758bb.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq1remake/732632",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/357.json?updatedAt=1762157108",
+      "sourceCoordinate": {
+        "lat": 181.24,
+        "lng": 172.71
+      },
+      "leafletCoordinate": {
+        "lat": 132.74,
+        "lng": 126.49
+      },
+      "imageCoordinate": {
+        "x": 944.4586666666667,
+        "y": 415.8839466666666
+      },
+      "normalizedCoordinate": {
+        "x": 0.6746133333333333,
+        "y": 0.2920533333333333
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720799.png",
+      "popupImageLocal": "popups/11923008.webp",
+      "percentCoordinate": {
+        "x": 67.46133333333333,
+        "y": 29.20533333333333
+      }
+    },
+    {
+      "id": "1824498",
+      "title": "秘密の場所003",
+      "description": "ガライ周辺の西",
+      "subItem": {
+        "title": "入手アイテム",
+        "content": "ちいさなメダル×1、どくけしそう×3、57ゴールド"
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720799/9f7d3e059104a71fd290339b0b1f111d.png/show",
+      "coordinate": "185.68,29.01",
+      "classification": "ひみつの場所",
+      "popupImage": "https://img.game8.jp/11924203/fc36041a6e40a6a74dfcfb6d02577a3f.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq1remake/732632",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/357.json?updatedAt=1762157108",
+      "sourceCoordinate": {
+        "lat": 185.68,
+        "lng": 29.01
+      },
+      "leafletCoordinate": {
+        "lat": 135.99,
+        "lng": 21.24
+      },
+      "imageCoordinate": {
+        "x": 158.59199999999998,
+        "y": 391.20127999999994
+      },
+      "normalizedCoordinate": {
+        "x": 0.11327999999999999,
+        "y": 0.27471999999999996
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720799.png",
+      "popupImageLocal": "popups/11924203.webp",
+      "percentCoordinate": {
+        "x": 11.328,
+        "y": 27.471999999999998
+      }
+    },
+    {
+      "id": "1825321",
+      "title": "秘密の場所004",
+      "description": "マイラ周辺中央",
+      "subItem": {
+        "title": "入手アイテム",
+        "content": "なし"
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720799/9f7d3e059104a71fd290339b0b1f111d.png/show",
+      "coordinate": "200.02,191.14",
+      "classification": "ひみつの場所",
+      "popupImage": "https://img.game8.jp/11923113/fb8a6f4e293c815045eaf5a8a233516c.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq1remake/732632",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/357.json?updatedAt=1762157108",
+      "sourceCoordinate": {
+        "lat": 200.02,
+        "lng": 191.14
+      },
+      "leafletCoordinate": {
+        "lat": 146.49,
+        "lng": 139.99
+      },
+      "imageCoordinate": {
+        "x": 1045.2586666666666,
+        "y": 311.45727999999986
+      },
+      "normalizedCoordinate": {
+        "x": 0.7466133333333334,
+        "y": 0.21871999999999991
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720799.png",
+      "popupImageLocal": "popups/11923113.webp",
+      "percentCoordinate": {
+        "x": 74.66133333333333,
+        "y": 21.871999999999993
+      }
+    },
+    {
+      "id": "1825322",
+      "title": "秘密の場所005",
+      "description": "リムルダール周辺の砂漠",
+      "subItem": {
+        "title": "入手アイテム",
+        "content": "どくがのこな×2、すばやさのたね×1、やいばのブーメラン×1、はでな服×1"
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720799/9f7d3e059104a71fd290339b0b1f111d.png/show",
+      "coordinate": "129.36,202.41",
+      "classification": "ひみつの場所",
+      "popupImage": "https://img.game8.jp/11923278/69effdb54b60c504ed9c1fcb7779496a.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq1remake/732632",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/357.json?updatedAt=1762157108",
+      "sourceCoordinate": {
+        "lat": 129.36,
+        "lng": 202.41
+      },
+      "leafletCoordinate": {
+        "lat": 94.74,
+        "lng": 148.24
+      },
+      "imageCoordinate": {
+        "x": 1106.8586666666667,
+        "y": 704.4812800000001
+      },
+      "normalizedCoordinate": {
+        "x": 0.7906133333333334,
+        "y": 0.49472000000000005
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720799.png",
+      "popupImageLocal": "popups/11923278.webp",
+      "percentCoordinate": {
+        "x": 79.06133333333334,
+        "y": 49.47200000000001
+      }
+    },
+    {
+      "id": "1825323",
+      "title": "秘密の場所006",
+      "description": "リムルダール周辺の南西",
+      "subItem": {
+        "title": "入手アイテム",
+        "content": "なし"
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720799/9f7d3e059104a71fd290339b0b1f111d.png/show",
+      "coordinate": "105.47,185.68",
+      "classification": "ひみつの場所",
+      "popupImage": "https://img.game8.jp/11923235/ec41a2c1065b6f3217268a0631ca185c.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq1remake/732632",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/357.json?updatedAt=1762157108",
+      "sourceCoordinate": {
+        "lat": 105.47,
+        "lng": 185.68
+      },
+      "leafletCoordinate": {
+        "lat": 77.24,
+        "lng": 135.99
+      },
+      "imageCoordinate": {
+        "x": 1015.392,
+        "y": 837.3879466666666
+      },
+      "normalizedCoordinate": {
+        "x": 0.72528,
+        "y": 0.5880533333333333
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720799.png",
+      "popupImageLocal": "popups/11923235.webp",
+      "percentCoordinate": {
+        "x": 72.528,
+        "y": 58.80533333333333
+      }
+    },
+    {
+      "id": "1825324",
+      "title": "秘密の場所007",
+      "description": "聖なるほこら周辺の東",
+      "subItem": {
+        "title": "入手アイテム",
+        "content": "はやてのベスト×1、まよけのすず"
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720799/9f7d3e059104a71fd290339b0b1f111d.png/show",
+      "coordinate": "57.34,215.38",
+      "classification": "ひみつの場所",
+      "popupImage": "https://img.game8.jp/11923418/d9cc1a52946543d7489a8a3e78dae976.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq1remake/732632",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/357.json?updatedAt=1762157108",
+      "sourceCoordinate": {
+        "lat": 57.34,
+        "lng": 215.38
+      },
+      "leafletCoordinate": {
+        "lat": 41.99,
+        "lng": 157.74
+      },
+      "imageCoordinate": {
+        "x": 1177.7920000000001,
+        "y": 1105.0999466666665
+      },
+      "normalizedCoordinate": {
+        "x": 0.84128,
+        "y": 0.7760533333333333
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720799.png",
+      "popupImageLocal": "popups/11923418.webp",
+      "percentCoordinate": {
+        "x": 84.128,
+        "y": 77.60533333333332
+      }
+    },
+    {
+      "id": "1825325",
+      "title": "秘密の場所008",
+      "description": "ドムドーラ周辺の南",
+      "subItem": {
+        "title": "入手アイテム",
+        "content": "ちいさなメダル×1、しのびの服×1、2455ゴールド"
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720799/9f7d3e059104a71fd290339b0b1f111d.png/show",
+      "coordinate": "62.46,49.83",
+      "classification": "ひみつの場所",
+      "popupImage": "https://img.game8.jp/11923591/464b3d4efbcdc97ab64f42c697524579.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq1remake/732632",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/357.json?updatedAt=1762157108",
+      "sourceCoordinate": {
+        "lat": 62.46,
+        "lng": 49.83
+      },
+      "leafletCoordinate": {
+        "lat": 45.74,
+        "lng": 36.49
+      },
+      "imageCoordinate": {
+        "x": 272.45866666666666,
+        "y": 1076.6199466666667
+      },
+      "normalizedCoordinate": {
+        "x": 0.19461333333333333,
+        "y": 0.7560533333333334
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720799.png",
+      "popupImageLocal": "popups/11923591.webp",
+      "percentCoordinate": {
+        "x": 19.461333333333332,
+        "y": 75.60533333333333
+      }
+    },
+    {
+      "id": "1825326",
+      "title": "秘密の場所009",
+      "description": "精霊のほこら周辺の毒沼を抜けた先",
+      "subItem": {
+        "title": "入手アイテム",
+        "content": "8803ゴールド、なぞのこな×1"
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720799/9f7d3e059104a71fd290339b0b1f111d.png/show",
+      "coordinate": "49.83,172.71",
+      "classification": "ひみつの場所",
+      "popupImage": "https://img.game8.jp/11927328/7de139c05b24ae05f7c3f8aeacb7302f.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq1remake/732632",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/357.json?updatedAt=1762157108",
+      "sourceCoordinate": {
+        "lat": 49.83,
+        "lng": 172.71
+      },
+      "leafletCoordinate": {
+        "lat": 36.49,
+        "lng": 126.49
+      },
+      "imageCoordinate": {
+        "x": 944.4586666666667,
+        "y": 1146.8706133333333
+      },
+      "normalizedCoordinate": {
+        "x": 0.6746133333333333,
+        "y": 0.8053866666666667
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720799.png",
+      "popupImageLocal": "popups/11927328.webp",
+      "percentCoordinate": {
+        "x": 67.46133333333333,
+        "y": 80.53866666666667
+      }
+    },
+    {
+      "id": "1825327",
+      "title": "秘密の場所010",
+      "description": "岩泣き島周辺中央。ドワーフに「岩泣き島周辺」に繋がる橋を修復してもらった後",
+      "subItem": {
+        "title": "入手アイテム",
+        "content": "ちからのゆびわ×1、ちいさなメダル×1、やいばのよろい×1、はやてのリング×1"
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720799/9f7d3e059104a71fd290339b0b1f111d.png/show",
+      "coordinate": "92.16,145.06",
+      "classification": "ひみつの場所",
+      "popupImage": "https://img.game8.jp/11928828/cbf408e91dca7622de3b02f7ae7a9a58.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq1remake/732632",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/357.json?updatedAt=1762157108",
+      "sourceCoordinate": {
+        "lat": 92.16,
+        "lng": 145.06
+      },
+      "leafletCoordinate": {
+        "lat": 67.5,
+        "lng": 106.24
+      },
+      "imageCoordinate": {
+        "x": 793.2586666666666,
+        "y": 911.36
+      },
+      "normalizedCoordinate": {
+        "x": 0.5666133333333333,
+        "y": 0.64
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720799.png",
+      "popupImageLocal": "popups/11928828.webp",
+      "percentCoordinate": {
+        "x": 56.66133333333333,
+        "y": 64.0
+      }
+    },
+    {
+      "id": "1825328",
+      "title": "秘密の場所011",
+      "description": "岩山の洞窟周辺北。雨のほこらで精霊ルビスを復活させた後に出現",
+      "subItem": {
+        "title": "入手アイテム",
+        "content": "ミラーシールド×1、やまびこのぼうし×1"
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720799/9f7d3e059104a71fd290339b0b1f111d.png/show",
+      "coordinate": "165.88,64.51",
+      "classification": "ひみつの場所",
+      "popupImage": "https://img.game8.jp/11929690/baba9bf625c9a637618f58a2f3dae941.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq1remake/732632",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/357.json?updatedAt=1762157108",
+      "sourceCoordinate": {
+        "lat": 165.88,
+        "lng": 64.51
+      },
+      "leafletCoordinate": {
+        "lat": 121.49,
+        "lng": 47.24
+      },
+      "imageCoordinate": {
+        "x": 352.7253333333333,
+        "y": 501.32394666666664
+      },
+      "normalizedCoordinate": {
+        "x": 0.25194666666666665,
+        "y": 0.35205333333333333
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720799.png",
+      "popupImageLocal": "popups/11929690.webp",
+      "percentCoordinate": {
+        "x": 25.194666666666667,
+        "y": 35.205333333333336
+      }
+    },
+    {
+      "id": "1825329",
+      "title": "秘密の場所012",
+      "description": "岩山の洞窟周辺東。雨のほこらで精霊ルビスを復活させた後に出現",
+      "subItem": {
+        "title": "入手アイテム",
+        "content": "ささや木の樹液×1、ちいさなメダル×1、7244ゴールド"
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720799/9f7d3e059104a71fd290339b0b1f111d.png/show",
+      "coordinate": "121.51,82.26",
+      "classification": "ひみつの場所",
+      "popupImage": "https://img.game8.jp/11929701/81765afd88428cd26bf957b55d781732.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq1remake/732632",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/357.json?updatedAt=1762157108",
+      "sourceCoordinate": {
+        "lat": 121.51,
+        "lng": 82.26
+      },
+      "leafletCoordinate": {
+        "lat": 88.99,
+        "lng": 60.24
+      },
+      "imageCoordinate": {
+        "x": 449.79200000000003,
+        "y": 748.1506133333334
+      },
+      "normalizedCoordinate": {
+        "x": 0.32128,
+        "y": 0.5253866666666667
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720799.png",
+      "popupImageLocal": "popups/11929701.webp",
+      "percentCoordinate": {
+        "x": 32.128,
+        "y": 52.538666666666664
+      }
+    },
+    {
+      "id": "1825330",
+      "title": "秘密の場所013",
+      "description": "リムルダール周辺の砂漠中央。雨のほこらで精霊ルビスを復活させた後に出現",
+      "subItem": {
+        "title": "入手アイテム",
+        "content": "はかいのつるぎ×1、ちからのたね×1"
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720799/9f7d3e059104a71fd290339b0b1f111d.png/show",
+      "coordinate": "126.97,207.18",
+      "classification": "ひみつの場所",
+      "popupImage": "https://img.game8.jp/11930018/a4ab4d43a3bc0d75d35c879b8df1f0eb.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq1remake/732632",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/357.json?updatedAt=1762157108",
+      "sourceCoordinate": {
+        "lat": 126.97,
+        "lng": 207.18
+      },
+      "leafletCoordinate": {
+        "lat": 92.99,
+        "lng": 151.74
+      },
+      "imageCoordinate": {
+        "x": 1132.992,
+        "y": 717.7719466666667
+      },
+      "normalizedCoordinate": {
+        "x": 0.80928,
+        "y": 0.5040533333333334
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720799.png",
+      "popupImageLocal": "popups/11930018.webp",
+      "percentCoordinate": {
+        "x": 80.928,
+        "y": 50.40533333333334
+      }
+    },
+    {
+      "id": "1825331",
+      "title": "秘密の場所014",
+      "description": "ドムドーラ東部の西。雨のほこらで精霊ルビスを復活させた後に出現",
+      "subItem": {
+        "title": "入手アイテム",
+        "content": "ちいさなメダル×1、大樹のマント×1、おなべのフタ×1"
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720799/9f7d3e059104a71fd290339b0b1f111d.png/show",
+      "coordinate": "72.02,82.76",
+      "classification": "ひみつの場所",
+      "popupImage": "https://img.game8.jp/11930016/5c665fb862db98d04675336f4d895916.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq1remake/732632",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/357.json?updatedAt=1762157108",
+      "sourceCoordinate": {
+        "lat": 72.02,
+        "lng": 82.76
+      },
+      "leafletCoordinate": {
+        "lat": 52.74,
+        "lng": 60.61
+      },
+      "imageCoordinate": {
+        "x": 452.55466666666666,
+        "y": 1023.4572800000001
+      },
+      "normalizedCoordinate": {
+        "x": 0.32325333333333334,
+        "y": 0.71872
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720799.png",
+      "popupImageLocal": "popups/11930016.webp",
+      "percentCoordinate": {
+        "x": 32.32533333333333,
+        "y": 71.872
+      }
+    },
+    {
+      "id": "1825332",
+      "title": "秘密の場所015",
+      "description": "ラダトームの西。雨のほこらで精霊ルビスを復活させた後に出現",
+      "subItem": {
+        "title": "入手アイテム",
+        "content": "命の石"
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720799/9f7d3e059104a71fd290339b0b1f111d.png/show",
+      "coordinate": "162.47,77.82",
+      "classification": "ひみつの場所",
+      "popupImage": "https://img.game8.jp/11934447/73e56127ef24db2e2c6890d34055b5c5.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq1remake/732632",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/357.json?updatedAt=1762157108",
+      "sourceCoordinate": {
+        "lat": 162.47,
+        "lng": 77.82
+      },
+      "leafletCoordinate": {
+        "lat": 118.99,
+        "lng": 56.99
+      },
+      "imageCoordinate": {
+        "x": 425.5253333333334,
+        "y": 520.3106133333334
+      },
+      "normalizedCoordinate": {
+        "x": 0.3039466666666667,
+        "y": 0.36538666666666675
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720799.png",
+      "popupImageLocal": "popups/11934447.webp",
+      "percentCoordinate": {
+        "x": 30.39466666666667,
+        "y": 36.53866666666667
+      }
+    },
+    {
+      "id": "1825338",
+      "title": "キラキラ001",
+      "description": "ラダトーム北西",
+      "subItem": {
+        "title": "入手アイテム",
+        "content": "布の服×1、こんぼう×1、18ゴールド"
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "166.05,89.25",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11922684/327cd5a85c0c32352f51473855c897b6.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq1remake/732632",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/357.json?updatedAt=1762157108",
+      "sourceCoordinate": {
+        "lat": 166.05,
+        "lng": 89.25
+      },
+      "leafletCoordinate": {
+        "lat": 121.61,
+        "lng": 65.36
+      },
+      "imageCoordinate": {
+        "x": 488.0213333333333,
+        "y": 500.4125866666667
+      },
+      "normalizedCoordinate": {
+        "x": 0.34858666666666666,
+        "y": 0.35141333333333336
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11922684.webp",
+      "percentCoordinate": {
+        "x": 34.858666666666664,
+        "y": 35.141333333333336
+      }
+    },
+    {
+      "id": "1825339",
+      "title": "キラキラ002",
+      "description": "ラダトーム西",
+      "subItem": {
+        "title": "入手アイテム",
+        "content": "やくそう×1、スタミナのたね×1"
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "152.05,88.74",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11922683/410933f76be838d0e046ea16ff4ef1f0.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq1remake/732632",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/357.json?updatedAt=1762157108",
+      "sourceCoordinate": {
+        "lat": 152.05,
+        "lng": 88.74
+      },
+      "leafletCoordinate": {
+        "lat": 111.36,
+        "lng": 64.99
+      },
+      "imageCoordinate": {
+        "x": 485.25866666666667,
+        "y": 578.25792
+      },
+      "normalizedCoordinate": {
+        "x": 0.34661333333333333,
+        "y": 0.40608
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11922683.webp",
+      "percentCoordinate": {
+        "x": 34.66133333333333,
+        "y": 40.608
+      }
+    },
+    {
+      "id": "1825340",
+      "title": "キラキラ003",
+      "description": "ラダトーム北西",
+      "subItem": {
+        "title": "入手アイテム",
+        "content": "キメラのつばさ×1、7ゴールド、たびびとの服"
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "189.34,89.67",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11924478/74c068db02cc6c5d97575b1def7e27bd.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq1remake/732632",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/357.json?updatedAt=1762157108",
+      "sourceCoordinate": {
+        "lat": 189.34,
+        "lng": 89.67
+      },
+      "leafletCoordinate": {
+        "lat": 138.67,
+        "lng": 65.67
+      },
+      "imageCoordinate": {
+        "x": 490.336,
+        "y": 370.8475733333334
+      },
+      "normalizedCoordinate": {
+        "x": 0.35024,
+        "y": 0.2604266666666667
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11924478.webp",
+      "percentCoordinate": {
+        "x": 35.024,
+        "y": 26.04266666666667
+      }
+    },
+    {
+      "id": "1825341",
+      "title": "キラキラ004",
+      "description": "ラダトーム北西",
+      "subItem": {
+        "title": "入手アイテム",
+        "content": "マヌーハそう×2"
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "187.47,74.23",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11924474/f4ec0a95f2364763c8315f7a96289c98.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq1remake/732632",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/357.json?updatedAt=1762157108",
+      "sourceCoordinate": {
+        "lat": 187.47,
+        "lng": 74.23
+      },
+      "leafletCoordinate": {
+        "lat": 137.3,
+        "lng": 54.36
+      },
+      "imageCoordinate": {
+        "x": 405.88800000000003,
+        "y": 381.25226666666657
+      },
+      "normalizedCoordinate": {
+        "x": 0.28992,
+        "y": 0.26773333333333327
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11924474.webp",
+      "percentCoordinate": {
+        "x": 28.992,
+        "y": 26.773333333333326
+      }
+    },
+    {
+      "id": "1825342",
+      "title": "キラキラ005",
+      "description": "ラダトーム北西",
+      "subItem": {
+        "title": "入手アイテム",
+        "content": "どくけしそう×2、すばやさのたね×1"
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "195.66,67.82",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11924475/c5389345294f2e2393e5b78fe7b9f0c0.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq1remake/732632",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/357.json?updatedAt=1762157108",
+      "sourceCoordinate": {
+        "lat": 195.66,
+        "lng": 67.82
+      },
+      "leafletCoordinate": {
+        "lat": 143.3,
+        "lng": 49.67
+      },
+      "imageCoordinate": {
+        "x": 370.8693333333334,
+        "y": 335.68426666666653
+      },
+      "normalizedCoordinate": {
+        "x": 0.2649066666666667,
+        "y": 0.23573333333333324
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11924475.webp",
+      "percentCoordinate": {
+        "x": 26.49066666666667,
+        "y": 23.573333333333323
+      }
+    },
+    {
+      "id": "1825343",
+      "title": "キラキラ006",
+      "description": "ラダトーム北",
+      "subItem": {
+        "title": "入手アイテム",
+        "content": "まもりのたね×1、やくそう×1"
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "211.79,103.08",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11924570/975e1f0e109d0603cf1f0bd63bae4eb0.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq1remake/732632",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/357.json?updatedAt=1762157108",
+      "sourceCoordinate": {
+        "lat": 211.79,
+        "lng": 103.08
+      },
+      "leafletCoordinate": {
+        "lat": 155.11,
+        "lng": 75.49
+      },
+      "imageCoordinate": {
+        "x": 563.6586666666667,
+        "y": 245.99125333333325
+      },
+      "normalizedCoordinate": {
+        "x": 0.4026133333333333,
+        "y": 0.1727466666666666
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11924570.webp",
+      "percentCoordinate": {
+        "x": 40.26133333333333,
+        "y": 17.27466666666666
+      }
+    },
+    {
+      "id": "1825344",
+      "title": "キラキラ007",
+      "description": "ラダトーム北",
+      "subItem": {
+        "title": "入手アイテム",
+        "content": "皮の服×1、皮の盾×1"
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "203.59,115.27",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11924569/68831cfdd152f4308e5903469434bf2a.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq1remake/732632",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/357.json?updatedAt=1762157108",
+      "sourceCoordinate": {
+        "lat": 203.59,
+        "lng": 115.27
+      },
+      "leafletCoordinate": {
+        "lat": 149.11,
+        "lng": 84.42
+      },
+      "imageCoordinate": {
+        "x": 630.336,
+        "y": 291.5592533333333
+      },
+      "normalizedCoordinate": {
+        "x": 0.45024000000000003,
+        "y": 0.20474666666666663
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11924569.webp",
+      "percentCoordinate": {
+        "x": 45.024,
+        "y": 20.474666666666664
+      }
+    },
+    {
+      "id": "1825345",
+      "title": "キラキラ008",
+      "description": "ラダトーム東部の砂漠上",
+      "subItem": {
+        "title": "入手アイテム",
+        "content": "やくそう×2"
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "167.75,131.07",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11924746/d61f779f1c1fab1700da818e080b20f0.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq1remake/732632",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/357.json?updatedAt=1762157108",
+      "sourceCoordinate": {
+        "lat": 167.75,
+        "lng": 131.07
+      },
+      "leafletCoordinate": {
+        "lat": 122.86,
+        "lng": 95.99
+      },
+      "imageCoordinate": {
+        "x": 716.7253333333333,
+        "y": 490.9192533333333
+      },
+      "normalizedCoordinate": {
+        "x": 0.5119466666666667,
+        "y": 0.34474666666666665
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11924746.webp",
+      "percentCoordinate": {
+        "x": 51.19466666666666,
+        "y": 34.474666666666664
+      }
+    },
+    {
+      "id": "1825346",
+      "title": "キラキラ009",
+      "description": "ラダトーム東部の南",
+      "subItem": {
+        "title": "入手アイテム",
+        "content": "33ゴールド、キメラのつばさ×2"
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "167.25,163.66",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11924782/822c3a1df12ca894ce28f80cb1b637ad.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq1remake/732632",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/357.json?updatedAt=1762157108",
+      "sourceCoordinate": {
+        "lat": 167.25,
+        "lng": 163.66
+      },
+      "leafletCoordinate": {
+        "lat": 122.49,
+        "lng": 119.86
+      },
+      "imageCoordinate": {
+        "x": 894.9546666666666,
+        "y": 493.72928
+      },
+      "normalizedCoordinate": {
+        "x": 0.6392533333333333,
+        "y": 0.34672000000000003
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11924782.webp",
+      "percentCoordinate": {
+        "x": 63.925333333333334,
+        "y": 34.672000000000004
+      }
+    },
+    {
+      "id": "1825347",
+      "title": "キラキラ010",
+      "description": "ラダトーム東部の中央",
+      "subItem": {
+        "title": "入手アイテム",
+        "content": "かしこさのたね×1、ラックのたね×1"
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "185.34,139.6",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11924849/e44e15d9d6cabea68693da3b6d5bb551.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq1remake/732632",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/357.json?updatedAt=1762157108",
+      "sourceCoordinate": {
+        "lat": 185.34,
+        "lng": 139.6
+      },
+      "leafletCoordinate": {
+        "lat": 135.74,
+        "lng": 102.24
+      },
+      "imageCoordinate": {
+        "x": 763.3919999999999,
+        "y": 393.09994666666654
+      },
+      "normalizedCoordinate": {
+        "x": 0.54528,
+        "y": 0.27605333333333326
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11924849.webp",
+      "percentCoordinate": {
+        "x": 54.528,
+        "y": 27.605333333333327
+      }
+    },
+    {
+      "id": "1825348",
+      "title": "キラキラ011",
+      "description": "マイラ南部の西",
+      "subItem": {
+        "title": "入手アイテム",
+        "content": "どうのつるぎ×1、たびびとの服×1、においぶくろ×1"
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "175.95,189.09",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11924953/1a1f9ab453d990fea105854f5943257f.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq1remake/732632",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/357.json?updatedAt=1762157108",
+      "sourceCoordinate": {
+        "lat": 175.95,
+        "lng": 189.09
+      },
+      "leafletCoordinate": {
+        "lat": 128.86,
+        "lng": 138.49
+      },
+      "imageCoordinate": {
+        "x": 1034.0586666666668,
+        "y": 445.35125333333326
+      },
+      "normalizedCoordinate": {
+        "x": 0.7386133333333333,
+        "y": 0.3127466666666666
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11924953.webp",
+      "percentCoordinate": {
+        "x": 73.86133333333333,
+        "y": 31.27466666666666
+      }
+    },
+    {
+      "id": "1825349",
+      "title": "キラキラ012",
+      "description": "マイラ南部の東",
+      "subItem": {
+        "title": "入手アイテム",
+        "content": "竜のうろこ×1、まほうのせいすい×1"
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "183.97,215.38",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11924951/7a3f5a9012ad795cd8cc81be57a49651.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq1remake/732632",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/357.json?updatedAt=1762157108",
+      "sourceCoordinate": {
+        "lat": 183.97,
+        "lng": 215.38
+      },
+      "leafletCoordinate": {
+        "lat": 134.74,
+        "lng": 157.74
+      },
+      "imageCoordinate": {
+        "x": 1177.7920000000001,
+        "y": 400.69461333333317
+      },
+      "normalizedCoordinate": {
+        "x": 0.84128,
+        "y": 0.28138666666666656
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11924951.webp",
+      "percentCoordinate": {
+        "x": 84.128,
+        "y": 28.138666666666655
+      }
+    },
+    {
+      "id": "1825350",
+      "title": "キラキラ013",
+      "description": "マイラ周辺中央",
+      "subItem": {
+        "title": "入手アイテム",
+        "content": "布の服×1、きのぼうし×1、まだらくもいと×1"
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "208.21,169.3",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11924952/085e98cc6b525cf23542ea69d7ef5974.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq1remake/732632",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/357.json?updatedAt=1762157108",
+      "sourceCoordinate": {
+        "lat": 208.21,
+        "lng": 169.3
+      },
+      "leafletCoordinate": {
+        "lat": 152.49,
+        "lng": 123.99
+      },
+      "imageCoordinate": {
+        "x": 925.7919999999999,
+        "y": 265.88928
+      },
+      "normalizedCoordinate": {
+        "x": 0.66128,
+        "y": 0.18672
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11924952.webp",
+      "percentCoordinate": {
+        "x": 66.128,
+        "y": 18.672
+      }
+    },
+    {
+      "id": "1825351",
+      "title": "キラキラ014",
+      "description": "マイラ周辺東",
+      "subItem": {
+        "title": "入手アイテム",
+        "content": "ふしぎなきのみ×1"
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "212.47,206.16",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11924954/82a26521b328ca4de27b73e3aaf2171c.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq1remake/732632",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/357.json?updatedAt=1762157108",
+      "sourceCoordinate": {
+        "lat": 212.47,
+        "lng": 206.16
+      },
+      "leafletCoordinate": {
+        "lat": 155.61,
+        "lng": 150.99
+      },
+      "imageCoordinate": {
+        "x": 1127.392,
+        "y": 242.19391999999985
+      },
+      "normalizedCoordinate": {
+        "x": 0.80528,
+        "y": 0.1700799999999999
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11924954.webp",
+      "percentCoordinate": {
+        "x": 80.528,
+        "y": 17.00799999999999
+      }
+    },
+    {
+      "id": "1825352",
+      "title": "キラキラ015",
+      "description": "マイラ周辺西",
+      "subItem": {
+        "title": "入手アイテム",
+        "content": "マヌーハそう×2"
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "189.78,159.56",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11925010/e669bff8a736ed1880263ce47151b32e.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq1remake/732632",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/357.json?updatedAt=1762157108",
+      "sourceCoordinate": {
+        "lat": 189.78,
+        "lng": 159.56
+      },
+      "leafletCoordinate": {
+        "lat": 138.99,
+        "lng": 116.86
+      },
+      "imageCoordinate": {
+        "x": 872.5546666666667,
+        "y": 368.41727999999995
+      },
+      "normalizedCoordinate": {
+        "x": 0.6232533333333333,
+        "y": 0.25871999999999995
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11925010.webp",
+      "percentCoordinate": {
+        "x": 62.32533333333333,
+        "y": 25.871999999999996
+      }
+    },
+    {
+      "id": "1825353",
+      "title": "キラキラ016",
+      "description": "マイラ周辺北西",
+      "subItem": {
+        "title": "入手アイテム",
+        "content": "皮のよろい×1、うろこの盾×1、227ゴールド"
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "210.6,140.79",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11924993/3406164028ac69380d6f737e0e3155dc.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq1remake/732632",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/357.json?updatedAt=1762157108",
+      "sourceCoordinate": {
+        "lat": 210.6,
+        "lng": 140.79
+      },
+      "leafletCoordinate": {
+        "lat": 154.24,
+        "lng": 103.11
+      },
+      "imageCoordinate": {
+        "x": 769.8879999999999,
+        "y": 252.59861333333322
+      },
+      "normalizedCoordinate": {
+        "x": 0.54992,
+        "y": 0.17738666666666658
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11924993.webp",
+      "percentCoordinate": {
+        "x": 54.992,
+        "y": 17.73866666666666
+      }
+    },
+    {
+      "id": "1825354",
+      "title": "キラキラ017",
+      "description": "ガライ周辺中央",
+      "subItem": {
+        "title": "入手アイテム",
+        "content": "12ゴールド、せいすい×2、まほうのせいすい×1"
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "191.65,48.63",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11925679/ffdcd3ac5e71b76cb9d0e6c59cf26ae3.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq1remake/732632",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/357.json?updatedAt=1762157108",
+      "sourceCoordinate": {
+        "lat": 191.65,
+        "lng": 48.63
+      },
+      "leafletCoordinate": {
+        "lat": 140.36,
+        "lng": 35.61
+      },
+      "imageCoordinate": {
+        "x": 265.88800000000003,
+        "y": 358.01258666666655
+      },
+      "normalizedCoordinate": {
+        "x": 0.18992,
+        "y": 0.25141333333333327
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11925679.webp",
+      "percentCoordinate": {
+        "x": 18.992,
+        "y": 25.14133333333333
+      }
+    },
+    {
+      "id": "1825355",
+      "title": "キラキラ018",
+      "description": "ガライ周辺南西",
+      "subItem": {
+        "title": "入手アイテム",
+        "content": "44ゴールド、ターバン×1、169ゴールド"
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "186.36,32.76",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11925673/6662bb8e385f319bd69c81953ca63dbc.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq1remake/732632",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/357.json?updatedAt=1762157108",
+      "sourceCoordinate": {
+        "lat": 186.36,
+        "lng": 32.76
+      },
+      "leafletCoordinate": {
+        "lat": 136.49,
+        "lng": 23.99
+      },
+      "imageCoordinate": {
+        "x": 179.12533333333332,
+        "y": 387.40394666666657
+      },
+      "normalizedCoordinate": {
+        "x": 0.12794666666666665,
+        "y": 0.27205333333333326
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11925673.webp",
+      "percentCoordinate": {
+        "x": 12.794666666666664,
+        "y": 27.205333333333325
+      }
+    },
+    {
+      "id": "1825356",
+      "title": "キラキラ019",
+      "description": "ガライ周辺北",
+      "subItem": {
+        "title": "入手アイテム",
+        "content": "やくそう×2、ちからのたね×1"
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "208.37,47.44",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11925672/71eacaea0271027ff49dea4700962a60.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq1remake/732632",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/357.json?updatedAt=1762157108",
+      "sourceCoordinate": {
+        "lat": 208.37,
+        "lng": 47.44
+      },
+      "leafletCoordinate": {
+        "lat": 152.61,
+        "lng": 34.74
+      },
+      "imageCoordinate": {
+        "x": 259.392,
+        "y": 264.97791999999987
+      },
+      "normalizedCoordinate": {
+        "x": 0.18528,
+        "y": 0.1860799999999999
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11925672.webp",
+      "percentCoordinate": {
+        "x": 18.528,
+        "y": 18.60799999999999
+      }
+    },
+    {
+      "id": "1825357",
+      "title": "キラキラ020",
+      "description": "ガライ周辺北",
+      "subItem": {
+        "title": "入手アイテム",
+        "content": "たけざお×1、布の服×1、皮のぼうし×1"
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "216.74,49.31",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11925671/ad1f810766c46cf5b7c829ab7b5adfc4.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq1remake/732632",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/357.json?updatedAt=1762157108",
+      "sourceCoordinate": {
+        "lat": 216.74,
+        "lng": 49.31
+      },
+      "leafletCoordinate": {
+        "lat": 158.74,
+        "lng": 36.11
+      },
+      "imageCoordinate": {
+        "x": 269.6213333333333,
+        "y": 218.42261333333335
+      },
+      "normalizedCoordinate": {
+        "x": 0.19258666666666666,
+        "y": 0.15338666666666667
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11925671.webp",
+      "percentCoordinate": {
+        "x": 19.258666666666667,
+        "y": 15.338666666666667
+      }
+    },
+    {
+      "id": "1825358",
+      "title": "キラキラ021",
+      "description": "岩山の洞窟周辺北",
+      "subItem": {
+        "title": "入手アイテム",
+        "content": "マヌーハそう×2、やくそう×1"
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "156.15,41.64",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11926104/b3c0437032545f6f0c19eda4fc5a9862.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq1remake/732632",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/357.json?updatedAt=1762157108",
+      "sourceCoordinate": {
+        "lat": 156.15,
+        "lng": 41.64
+      },
+      "leafletCoordinate": {
+        "lat": 114.36,
+        "lng": 30.49
+      },
+      "imageCoordinate": {
+        "x": 227.65866666666668,
+        "y": 555.47392
+      },
+      "normalizedCoordinate": {
+        "x": 0.16261333333333333,
+        "y": 0.39008
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11926104.webp",
+      "percentCoordinate": {
+        "x": 16.261333333333333,
+        "y": 39.007999999999996
+      }
+    },
+    {
+      "id": "1825359",
+      "title": "キラキラ022",
+      "description": "岩山の洞窟周辺中央",
+      "subItem": {
+        "title": "入手アイテム",
+        "content": "まもりのたね×1、ささやきのみつ×2、227ゴールド"
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "137.72,55.11",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11926122/b48e3687e52432dc53837adf9407d175.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq1remake/732632",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/357.json?updatedAt=1762157108",
+      "sourceCoordinate": {
+        "lat": 137.72,
+        "lng": 55.11
+      },
+      "leafletCoordinate": {
+        "lat": 100.86,
+        "lng": 40.36
+      },
+      "imageCoordinate": {
+        "x": 301.3546666666667,
+        "y": 658.00192
+      },
+      "normalizedCoordinate": {
+        "x": 0.21525333333333332,
+        "y": 0.46208000000000005
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11926122.webp",
+      "percentCoordinate": {
+        "x": 21.525333333333332,
+        "y": 46.208000000000006
+      }
+    },
+    {
+      "id": "1825360",
+      "title": "キラキラ023",
+      "description": "岩山の洞窟周辺南",
+      "subItem": {
+        "title": "入手アイテム",
+        "content": "やくそう×1、上やくそう×1"
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "108.36,62.96",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11926103/f9a06f5639edd1cc1b2ee33ce830bf3b.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq1remake/732632",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/357.json?updatedAt=1762157108",
+      "sourceCoordinate": {
+        "lat": 108.36,
+        "lng": 62.96
+      },
+      "leafletCoordinate": {
+        "lat": 79.36,
+        "lng": 46.11
+      },
+      "imageCoordinate": {
+        "x": 344.288,
+        "y": 821.2872533333334
+      },
+      "normalizedCoordinate": {
+        "x": 0.24592,
+        "y": 0.5767466666666667
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11926103.webp",
+      "percentCoordinate": {
+        "x": 24.592,
+        "y": 57.674666666666674
+      }
+    },
+    {
+      "id": "1825361",
+      "title": "キラキラ024",
+      "description": "リムルダール周辺北",
+      "subItem": {
+        "title": "入手アイテム",
+        "content": "スタミナのたね×1、やくそう×2"
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "143.86,185.84",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11926253/0871ae36a49e780ac41d1bcc3b5f09db.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq1remake/732632",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/357.json?updatedAt=1762157108",
+      "sourceCoordinate": {
+        "lat": 143.86,
+        "lng": 185.84
+      },
+      "leafletCoordinate": {
+        "lat": 105.36,
+        "lng": 136.11
+      },
+      "imageCoordinate": {
+        "x": 1016.2880000000001,
+        "y": 623.82592
+      },
+      "normalizedCoordinate": {
+        "x": 0.7259200000000001,
+        "y": 0.43808
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11926253.webp",
+      "percentCoordinate": {
+        "x": 72.59200000000001,
+        "y": 43.808
+      }
+    },
+    {
+      "id": "1825362",
+      "title": "キラキラ025",
+      "description": "リムルダール周辺北西",
+      "subItem": {
+        "title": "入手アイテム",
+        "content": "キメラのつばさ×1、においぶくろ×1、まほうのせいすい×1"
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "144.38,152.57",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11926252/c24824a18ef2f0435c935c78cf7ec3bf.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq1remake/732632",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/357.json?updatedAt=1762157108",
+      "sourceCoordinate": {
+        "lat": 144.38,
+        "lng": 152.57
+      },
+      "leafletCoordinate": {
+        "lat": 105.74,
+        "lng": 111.74
+      },
+      "imageCoordinate": {
+        "x": 834.3253333333332,
+        "y": 620.9399466666667
+      },
+      "normalizedCoordinate": {
+        "x": 0.5959466666666666,
+        "y": 0.4360533333333334
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11926252.webp",
+      "percentCoordinate": {
+        "x": 59.59466666666666,
+        "y": 43.60533333333334
+      }
+    },
+    {
+      "id": "1825363",
+      "title": "キラキラ026",
+      "description": "リムルダール周辺東",
+      "subItem": {
+        "title": "入手アイテム",
+        "content": "上やくそう×1、ラックのたね×1"
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "127.82,216.91",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11926251/e53e1367f8fa245daf3e9a53857d41fb.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq1remake/732632",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/357.json?updatedAt=1762157108",
+      "sourceCoordinate": {
+        "lat": 127.82,
+        "lng": 216.91
+      },
+      "leafletCoordinate": {
+        "lat": 93.61,
+        "lng": 158.86
+      },
+      "imageCoordinate": {
+        "x": 1186.1546666666668,
+        "y": 713.0632533333334
+      },
+      "normalizedCoordinate": {
+        "x": 0.8472533333333334,
+        "y": 0.5007466666666667
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11926251.webp",
+      "percentCoordinate": {
+        "x": 84.72533333333334,
+        "y": 50.074666666666666
+      }
+    },
+    {
+      "id": "1825364",
+      "title": "キラキラ027",
+      "description": "ドワーフの洞窟周辺中央",
+      "subItem": {
+        "title": "入手アイテム",
+        "content": "どくけしそう×2、やくそう×1、かしこさのたね×1"
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "85.33,207.53",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11926361/7cd5a8cf629156b1b6bcc5bdcb9d64ba.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq1remake/732632",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/357.json?updatedAt=1762157108",
+      "sourceCoordinate": {
+        "lat": 85.33,
+        "lng": 207.53
+      },
+      "leafletCoordinate": {
+        "lat": 62.49,
+        "lng": 151.99
+      },
+      "imageCoordinate": {
+        "x": 1134.8586666666667,
+        "y": 949.40928
+      },
+      "normalizedCoordinate": {
+        "x": 0.8106133333333334,
+        "y": 0.66672
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11926361.webp",
+      "percentCoordinate": {
+        "x": 81.06133333333334,
+        "y": 66.672
+      }
+    },
+    {
+      "id": "1825365",
+      "title": "キラキラ028",
+      "description": "ドワーフの洞窟周辺北西",
+      "subItem": {
+        "title": "入手アイテム",
+        "content": "ささやきのみつ×2、ふしぎなきのみ×1"
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "93.34,188.41",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11926362/bfc31f3dac9a96cd561bab3b30f09178.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq1remake/732632",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/357.json?updatedAt=1762157108",
+      "sourceCoordinate": {
+        "lat": 93.34,
+        "lng": 188.41
+      },
+      "leafletCoordinate": {
+        "lat": 68.36,
+        "lng": 137.99
+      },
+      "imageCoordinate": {
+        "x": 1030.3253333333334,
+        "y": 904.8285866666668
+      },
+      "normalizedCoordinate": {
+        "x": 0.7359466666666667,
+        "y": 0.6354133333333334
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11926362.webp",
+      "percentCoordinate": {
+        "x": 73.59466666666667,
+        "y": 63.54133333333334
+      }
+    },
+    {
+      "id": "1825366",
+      "title": "キラキラ029",
+      "description": "ドムドーラ周辺北西",
+      "subItem": {
+        "title": "入手アイテム",
+        "content": "マヌーハそう×2、上やくそう×1、ちからのたね×1"
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "96.25,38.73",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11926545/54ec9f605587f43c10b444553f543e52.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq1remake/732632",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/357.json?updatedAt=1762157108",
+      "sourceCoordinate": {
+        "lat": 96.25,
+        "lng": 38.73
+      },
+      "leafletCoordinate": {
+        "lat": 70.49,
+        "lng": 28.36
+      },
+      "imageCoordinate": {
+        "x": 211.75466666666665,
+        "y": 888.6519466666667
+      },
+      "normalizedCoordinate": {
+        "x": 0.15125333333333332,
+        "y": 0.6240533333333333
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11926545.webp",
+      "percentCoordinate": {
+        "x": 15.125333333333332,
+        "y": 62.40533333333333
+      }
+    },
+    {
+      "id": "1825367",
+      "title": "キラキラ030",
+      "description": "ドムドーラ周辺中央",
+      "subItem": {
+        "title": "入手アイテム",
+        "content": "キメラのつばさ×1、焼けこげた羽根×1、はやてのリング×1"
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "70.13,53.24",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11926544/cad7ec723e125cbe8d51c467d50da3a5.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq1remake/732632",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/357.json?updatedAt=1762157108",
+      "sourceCoordinate": {
+        "lat": 70.13,
+        "lng": 53.24
+      },
+      "leafletCoordinate": {
+        "lat": 51.36,
+        "lng": 38.99
+      },
+      "imageCoordinate": {
+        "x": 291.12533333333334,
+        "y": 1033.93792
+      },
+      "normalizedCoordinate": {
+        "x": 0.20794666666666667,
+        "y": 0.7260800000000001
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11926544.webp",
+      "percentCoordinate": {
+        "x": 20.794666666666668,
+        "y": 72.608
+      }
+    },
+    {
+      "id": "1825368",
+      "title": "キラキラ031",
+      "description": "ドムドーラ南部北西",
+      "subItem": {
+        "title": "入手アイテム",
+        "content": "173ゴールド、バイキルミン×1、氷のイヤリング×1"
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "52.22,51.7",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11930962/24add1731841383eee3a15aeb0fae991.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq1remake/732632",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/357.json?updatedAt=1762157108",
+      "sourceCoordinate": {
+        "lat": 52.22,
+        "lng": 51.7
+      },
+      "leafletCoordinate": {
+        "lat": 38.24,
+        "lng": 37.86
+      },
+      "imageCoordinate": {
+        "x": 282.688,
+        "y": 1133.5799466666665
+      },
+      "normalizedCoordinate": {
+        "x": 0.20192,
+        "y": 0.7960533333333333
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11930962.webp",
+      "percentCoordinate": {
+        "x": 20.192,
+        "y": 79.60533333333333
+      }
+    },
+    {
+      "id": "1825369",
+      "title": "キラキラ032",
+      "description": "ドムドーラ南部中央",
+      "subItem": {
+        "title": "入手アイテム",
+        "content": "てつのよろい×1、りせいのリング×1"
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "44.19,65.69",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11926837/44e20437edb6d5770ad97e3efdfa3c9a.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq1remake/732632",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/357.json?updatedAt=1762157108",
+      "sourceCoordinate": {
+        "lat": 44.19,
+        "lng": 65.69
+      },
+      "leafletCoordinate": {
+        "lat": 32.36,
+        "lng": 48.11
+      },
+      "imageCoordinate": {
+        "x": 359.22133333333335,
+        "y": 1178.2365866666667
+      },
+      "normalizedCoordinate": {
+        "x": 0.2565866666666667,
+        "y": 0.8274133333333333
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11926837.webp",
+      "percentCoordinate": {
+        "x": 25.65866666666667,
+        "y": 82.74133333333333
+      }
+    },
+    {
+      "id": "1825370",
+      "title": "キラキラ033",
+      "description": "メルキド周辺南西",
+      "subItem": {
+        "title": "入手アイテム",
+        "content": "どくけしそう×1、マヌーハそう×1、やくそう×2"
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "46.58,111.95",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11927329/7656b05a20be36b25c57ef0de9f9f068.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq1remake/732632",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/357.json?updatedAt=1762157108",
+      "sourceCoordinate": {
+        "lat": 46.58,
+        "lng": 111.95
+      },
+      "leafletCoordinate": {
+        "lat": 34.11,
+        "lng": 81.99
+      },
+      "imageCoordinate": {
+        "x": 612.1919999999999,
+        "y": 1164.9459200000001
+      },
+      "normalizedCoordinate": {
+        "x": 0.43727999999999995,
+        "y": 0.81808
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11927329.webp",
+      "percentCoordinate": {
+        "x": 43.727999999999994,
+        "y": 81.808
+      }
+    },
+    {
+      "id": "1825371",
+      "title": "キラキラ034",
+      "description": "メルキド周辺北西",
+      "subItem": {
+        "title": "入手アイテム",
+        "content": "上やくそう×1、まもりのたね×1"
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "71.84,120.83",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11927330/aea722307224ccc7b138c028d766aa14.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq1remake/732632",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/357.json?updatedAt=1762157108",
+      "sourceCoordinate": {
+        "lat": 71.84,
+        "lng": 120.83
+      },
+      "leafletCoordinate": {
+        "lat": 52.61,
+        "lng": 88.49
+      },
+      "imageCoordinate": {
+        "x": 660.7253333333333,
+        "y": 1024.4445866666667
+      },
+      "normalizedCoordinate": {
+        "x": 0.4719466666666666,
+        "y": 0.7194133333333333
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11927330.webp",
+      "percentCoordinate": {
+        "x": 47.19466666666666,
+        "y": 71.94133333333333
+      }
+    },
+    {
+      "id": "1825372",
+      "title": "キラキラ035",
+      "description": "精霊のほこら周辺の毒沼",
+      "subItem": {
+        "title": "入手アイテム",
+        "content": "あぶないエキス×1、ちからのたね×1、命の石×1"
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "36.52,164",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11928411/68efcdbe69e03e4c29381d10742f2545.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq1remake/732632",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/357.json?updatedAt=1762157108",
+      "sourceCoordinate": {
+        "lat": 36.52,
+        "lng": 164.0
+      },
+      "leafletCoordinate": {
+        "lat": 26.74,
+        "lng": 120.11
+      },
+      "imageCoordinate": {
+        "x": 896.8213333333333,
+        "y": 1220.9186133333335
+      },
+      "normalizedCoordinate": {
+        "x": 0.6405866666666666,
+        "y": 0.8573866666666667
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11928411.webp",
+      "percentCoordinate": {
+        "x": 64.05866666666667,
+        "y": 85.73866666666667
+      }
+    },
+    {
+      "id": "1825373",
+      "title": "キラキラ036",
+      "description": "精霊のほこら周辺北",
+      "subItem": {
+        "title": "入手アイテム",
+        "content": "いのりのゆびわ×1、炎のイヤリング×1"
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "68.94,169.8",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11930960/cbd888ef61bca46037dbc8967b20892a.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq1remake/732632",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/357.json?updatedAt=1762157108",
+      "sourceCoordinate": {
+        "lat": 68.94,
+        "lng": 169.8
+      },
+      "leafletCoordinate": {
+        "lat": 50.49,
+        "lng": 124.36
+      },
+      "imageCoordinate": {
+        "x": 928.5546666666667,
+        "y": 1040.54528
+      },
+      "normalizedCoordinate": {
+        "x": 0.6632533333333334,
+        "y": 0.73072
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11930960.webp",
+      "percentCoordinate": {
+        "x": 66.32533333333333,
+        "y": 73.072
+      }
+    },
+    {
+      "id": "1825374",
+      "title": "キラキラ037",
+      "description": "ドムドーラ東部の西",
+      "subItem": {
+        "title": "入手アイテム",
+        "content": "どくけしそう×3、マタタビ草×2、命の石×1"
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "72.18,81.57",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11928778/aa223178805354f73985dcfce805090d.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq1remake/732632",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/357.json?updatedAt=1762157108",
+      "sourceCoordinate": {
+        "lat": 72.18,
+        "lng": 81.57
+      },
+      "leafletCoordinate": {
+        "lat": 52.86,
+        "lng": 59.74
+      },
+      "imageCoordinate": {
+        "x": 446.0586666666667,
+        "y": 1022.54592
+      },
+      "normalizedCoordinate": {
+        "x": 0.31861333333333336,
+        "y": 0.71808
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11928778.webp",
+      "percentCoordinate": {
+        "x": 31.861333333333334,
+        "y": 71.808
+      }
+    },
+    {
+      "id": "1825375",
+      "title": "キラキラ038",
+      "description": "岩泣き島周辺の西",
+      "subItem": {
+        "title": "入手アイテム",
+        "content": "まほうのせいすい×1、キメラのつばさ×1"
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "87.72,137.37",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11928777/81d04ccf68dd2a69d157ff72c12867f0.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq1remake/732632",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/357.json?updatedAt=1762157108",
+      "sourceCoordinate": {
+        "lat": 87.72,
+        "lng": 137.37
+      },
+      "leafletCoordinate": {
+        "lat": 64.24,
+        "lng": 100.61
+      },
+      "imageCoordinate": {
+        "x": 751.2213333333333,
+        "y": 936.1186133333333
+      },
+      "normalizedCoordinate": {
+        "x": 0.5365866666666667,
+        "y": 0.6573866666666667
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11928777.webp",
+      "percentCoordinate": {
+        "x": 53.65866666666667,
+        "y": 65.73866666666667
+      }
+    },
+    {
+      "id": "1825376",
+      "title": "キラキラ039",
+      "description": "岩泣き島周辺の南東",
+      "subItem": {
+        "title": "入手アイテム",
+        "content": "ささや木の樹液×2、いやしの双葉×1、マタタビ草×1"
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "80.89,168.27",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11928775/e70b31784a0adb5e04da076f0e0b4d53.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq1remake/732632",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/357.json?updatedAt=1762157108",
+      "sourceCoordinate": {
+        "lat": 80.89,
+        "lng": 168.27
+      },
+      "leafletCoordinate": {
+        "lat": 59.24,
+        "lng": 123.24
+      },
+      "imageCoordinate": {
+        "x": 920.192,
+        "y": 974.0919466666668
+      },
+      "normalizedCoordinate": {
+        "x": 0.65728,
+        "y": 0.6840533333333334
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11928775.webp",
+      "percentCoordinate": {
+        "x": 65.728,
+        "y": 68.40533333333335
+      }
+    },
+    {
+      "id": "1825377",
+      "title": "キラキラ040",
+      "description": "ドムドーラ北部の東",
+      "subItem": {
+        "title": "入手アイテム",
+        "content": "せいなるナイフ×1、みかわしの服×1、まほうのせいすい×2"
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "93,103.76",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11929066/68ff4f7983aa4c607242e6d539308f7b.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq1remake/732632",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/357.json?updatedAt=1762157108",
+      "sourceCoordinate": {
+        "lat": 93.0,
+        "lng": 103.76
+      },
+      "leafletCoordinate": {
+        "lat": 68.11,
+        "lng": 75.99
+      },
+      "imageCoordinate": {
+        "x": 567.3919999999999,
+        "y": 906.7272533333334
+      },
+      "normalizedCoordinate": {
+        "x": 0.40528,
+        "y": 0.6367466666666667
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11929066.webp",
+      "percentCoordinate": {
+        "x": 40.528,
+        "y": 63.67466666666667
+      }
+    },
+    {
+      "id": "1825378",
+      "title": "キラキラ041",
+      "description": "聖なるほこら周辺の南の毒沼",
+      "subItem": {
+        "title": "入手アイテム",
+        "content": "焼けこげた羽根×1、ふこうのかぶと×1、てんばつの杖×1"
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "38.05,202.75",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11929274/b3fa37c61788ed956e514c55d76ab13a.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq1remake/732632",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/357.json?updatedAt=1762157108",
+      "sourceCoordinate": {
+        "lat": 38.05,
+        "lng": 202.75
+      },
+      "leafletCoordinate": {
+        "lat": 27.86,
+        "lng": 148.49
+      },
+      "imageCoordinate": {
+        "x": 1108.7253333333333,
+        "y": 1212.4125866666668
+      },
+      "normalizedCoordinate": {
+        "x": 0.7919466666666667,
+        "y": 0.8514133333333334
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11929274.webp",
+      "percentCoordinate": {
+        "x": 79.19466666666666,
+        "y": 85.14133333333334
+      }
+    },
+    {
+      "id": "1825379",
+      "title": "キラキラ042",
+      "description": "聖なるほこら周辺南西",
+      "subItem": {
+        "title": "入手アイテム",
+        "content": "命のきのみ×1、上やくそう×1"
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "46.58,194.04",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11929275/7bf4e7a6157799e48c02c347cc8a702a.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq1remake/732632",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/357.json?updatedAt=1762157108",
+      "sourceCoordinate": {
+        "lat": 46.58,
+        "lng": 194.04
+      },
+      "leafletCoordinate": {
+        "lat": 34.11,
+        "lng": 142.11
+      },
+      "imageCoordinate": {
+        "x": 1061.088,
+        "y": 1164.9459200000001
+      },
+      "normalizedCoordinate": {
+        "x": 0.75792,
+        "y": 0.81808
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11929275.webp",
+      "percentCoordinate": {
+        "x": 75.792,
+        "y": 81.808
+      }
+    },
+    {
+      "id": "1825380",
+      "title": "キラキラ043",
+      "description": "ラダトーム東部の毒沼",
+      "subItem": {
+        "title": "入手アイテム",
+        "content": "どくけしそう×1、せいすい×1、せいなるナイフ×1"
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "156.33,136.19",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11929543/284bcef4eff038585bc4dd4c6147bca8.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq1remake/732632",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/357.json?updatedAt=1762157108",
+      "sourceCoordinate": {
+        "lat": 156.33,
+        "lng": 136.19
+      },
+      "leafletCoordinate": {
+        "lat": 114.49,
+        "lng": 99.74
+      },
+      "imageCoordinate": {
+        "x": 744.7253333333333,
+        "y": 554.4866133333334
+      },
+      "normalizedCoordinate": {
+        "x": 0.5319466666666667,
+        "y": 0.38938666666666666
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11929543.webp",
+      "percentCoordinate": {
+        "x": 53.19466666666667,
+        "y": 38.93866666666666
+      }
+    },
+    {
+      "id": "1825381",
+      "title": "キラキラ044",
+      "description": "ラダトーム周辺の北西",
+      "subItem": {
+        "title": "入手アイテム",
+        "content": "どくけしそう×2"
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "214.86,70.13",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11930374/bf8ff7ca1b041c412e80b84b47149b8a.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq1remake/732632",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/357.json?updatedAt=1762157108",
+      "sourceCoordinate": {
+        "lat": 214.86,
+        "lng": 70.13
+      },
+      "leafletCoordinate": {
+        "lat": 157.36,
+        "lng": 51.36
+      },
+      "imageCoordinate": {
+        "x": 383.488,
+        "y": 228.90325333333323
+      },
+      "normalizedCoordinate": {
+        "x": 0.27392,
+        "y": 0.1607466666666666
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11930374.webp",
+      "percentCoordinate": {
+        "x": 27.392,
+        "y": 16.07466666666666
+      }
+    },
+    {
+      "id": "1825382",
+      "title": "キラキラ045",
+      "description": "マイラ南部の東の森",
+      "subItem": {
+        "title": "入手アイテム",
+        "content": "どくけしそう×1、ちからのたね×1"
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "165.88,219.98",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11930414/7483874217592c8dacbfd95c1d8fdf7c.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq1remake/732632",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/357.json?updatedAt=1762157108",
+      "sourceCoordinate": {
+        "lat": 165.88,
+        "lng": 219.98
+      },
+      "leafletCoordinate": {
+        "lat": 121.49,
+        "lng": 161.11
+      },
+      "imageCoordinate": {
+        "x": 1202.9546666666668,
+        "y": 501.32394666666664
+      },
+      "normalizedCoordinate": {
+        "x": 0.8592533333333334,
+        "y": 0.35205333333333333
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11930414.webp",
+      "percentCoordinate": {
+        "x": 85.92533333333334,
+        "y": 35.205333333333336
+      }
+    },
+    {
+      "id": "1825383",
+      "title": "キラキラ046",
+      "description": "メルキド周辺西",
+      "subItem": {
+        "title": "入手アイテム",
+        "content": "613ゴールド、ライトシールド×1、やいばのブーメラン×1"
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "63.14,159.22",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11930490/f966cf0f4236368f21a70ead972e4292.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq1remake/732632",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/357.json?updatedAt=1762157108",
+      "sourceCoordinate": {
+        "lat": 63.14,
+        "lng": 159.22
+      },
+      "leafletCoordinate": {
+        "lat": 46.24,
+        "lng": 116.61
+      },
+      "imageCoordinate": {
+        "x": 870.688,
+        "y": 1072.8226133333333
+      },
+      "normalizedCoordinate": {
+        "x": 0.62192,
+        "y": 0.7533866666666666
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11930490.webp",
+      "percentCoordinate": {
+        "x": 62.192,
+        "y": 75.33866666666667
+      }
+    },
+    {
+      "id": "1825384",
+      "title": "キラキラ047",
+      "description": "竜王の城周辺の毒沼",
+      "subItem": {
+        "title": "入手アイテム",
+        "content": "焼けこげた羽根×2、あぶないエキス×1"
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "123.56,107.86",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11930634/87128a26cf14d01e73837a73177fe71e.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq1remake/732632",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/357.json?updatedAt=1762157108",
+      "sourceCoordinate": {
+        "lat": 123.56,
+        "lng": 107.86
+      },
+      "leafletCoordinate": {
+        "lat": 90.49,
+        "lng": 78.99
+      },
+      "imageCoordinate": {
+        "x": 589.792,
+        "y": 736.7586133333333
+      },
+      "normalizedCoordinate": {
+        "x": 0.42128,
+        "y": 0.5173866666666667
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11930634.webp",
+      "percentCoordinate": {
+        "x": 42.128,
+        "y": 51.73866666666667
+      }
+    },
+    {
+      "id": "1825385",
+      "title": "キラキラ048",
+      "description": "リムダール周辺の北",
+      "subItem": {
+        "title": "入手アイテム",
+        "content": "皮の服×1、毛皮のフード×1"
+      },
+      "url": "",
+      "area": "全体マップ",
+      "pinIcon": "https://img.game8.jp/10720800/c70564574a8c107a73521b02490c0752.png/show",
+      "coordinate": "131.23,186.87",
+      "classification": "キラキラ",
+      "popupImage": "https://img.game8.jp/11931212/1d6928b606e3a7fb02b4ab85cdb56cca.webp/show",
+      "movieUrl": null,
+      "thumbnail": null,
+      "youtubeId": null,
+      "groupPinIcon": null,
+      "sourcePage": "https://game8.jp/dq1remake/732632",
+      "sourceApi": "https://game8.jp/api/tool_structural_mappings/357.json?updatedAt=1762157108",
+      "sourceCoordinate": {
+        "lat": 131.23,
+        "lng": 186.87
+      },
+      "leafletCoordinate": {
+        "lat": 96.11,
+        "lng": 136.86
+      },
+      "imageCoordinate": {
+        "x": 1021.8880000000001,
+        "y": 694.0765866666667
+      },
+      "normalizedCoordinate": {
+        "x": 0.7299200000000001,
+        "y": 0.48741333333333337
+      },
+      "coordinateBasis": "source-render-exact",
+      "pinIconLocal": "icons/10720800.png",
+      "popupImageLocal": "popups/11931212.webp",
+      "percentCoordinate": {
+        "x": 72.99200000000002,
+        "y": 48.74133333333334
+      }
+    }
+  ]
+}

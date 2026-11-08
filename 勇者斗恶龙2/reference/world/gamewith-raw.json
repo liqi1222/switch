@@ -1,0 +1,2561 @@
+{
+  "mapDatas": [
+    {
+      "id": "世界の地図",
+      "name": "世界の地図",
+      "maxZoom": 5,
+      "defaultStage": 1,
+      "pcDefaultStage": 2,
+      "initLocation": [
+        [
+          0,
+          0
+        ],
+        [
+          -180,
+          180
+        ]
+      ],
+      "defaultPosition": [
+        -90,
+        90
+      ],
+      "padding": 90,
+      "tileSize": [
+        180,
+        180
+      ],
+      "mode": "tile",
+      "maxNativeZoom": 4,
+      "tilePathTemplate": "https://img.gamewith.jp/walkthrough/tools/dq2remake/world/map_{z}_{y}_{x}.jpg"
+    }
+  ],
+  "typeDatas": [
+    {
+      "name": "rura",
+      "text": "ルーラ",
+      "iconUrl": "https://img.gamewith.jp/article_tools/dq3hd2d/gacha/map_button_rura.png",
+      "buttonUrl": "https://img.gamewith.jp/article_tools/dq3hd2d/gacha/map_button_rura.png",
+      "switch": "button",
+      "defaultChecked": true,
+      "enableModal": true
+    },
+    {
+      "name": "sparkling",
+      "text": "キラキラ",
+      "iconUrl": "https://img.gamewith.jp/article_tools/dq3hd2d/gacha/map_pin_sparking.png",
+      "buttonUrl": "https://img.gamewith.jp/article_tools/dq3hd2d/gacha/map_pin_sparking.png",
+      "switch": "button",
+      "defaultChecked": true,
+      "enableChecker": true,
+      "enableModal": true
+    },
+    {
+      "name": "sparkling_ocean",
+      "text": "キラキラ(海底)",
+      "iconUrl": "https://img.gamewith.jp/img/582ba3db0016e102c42779fe9a69dd05.png",
+      "buttonUrl": "https://img.gamewith.jp/img/582ba3db0016e102c42779fe9a69dd05.png",
+      "switch": "button",
+      "defaultChecked": true,
+      "enableChecker": true,
+      "enableModal": true
+    },
+    {
+      "name": "sparkling_deep",
+      "text": "キラキラ(深海)",
+      "iconUrl": "https://img.gamewith.jp/img/55697a68807eeaf87a1cce2088fdb4ae.png",
+      "buttonUrl": "https://img.gamewith.jp/img/55697a68807eeaf87a1cce2088fdb4ae.png",
+      "switch": "button",
+      "defaultChecked": true,
+      "enableChecker": true,
+      "enableModal": true
+    },
+    {
+      "name": "secret_monster",
+      "text": "ひみつの場所(はぐれモンスター)",
+      "iconUrl": "https://img.gamewith.jp/article_tools/dq3hd2d/gacha/map_pin_secret_monster.png?2",
+      "buttonUrl": "https://img.gamewith.jp/article_tools/dq3hd2d/gacha/map_pin_secret_monster.png?2",
+      "switch": "button",
+      "defaultChecked": true,
+      "enableChecker": true,
+      "enableModal": true
+    },
+    {
+      "name": "secret_medal",
+      "text": "ひみつの場所(メダル)",
+      "iconUrl": "https://img.gamewith.jp/article_tools/dq3hd2d/gacha/map_pin_secret_medal.png?4",
+      "buttonUrl": "https://img.gamewith.jp/article_tools/dq3hd2d/gacha/map_pin_secret_medal.png?4",
+      "switch": "button",
+      "defaultChecked": true,
+      "enableChecker": true,
+      "enableModal": true
+    },
+    {
+      "name": "secret",
+      "text": "ひみつの場所(その他)",
+      "iconUrl": "https://img.gamewith.jp/article_tools/dq3hd2d/gacha/map_pin_secret.png",
+      "buttonUrl": "https://img.gamewith.jp/article_tools/dq3hd2d/gacha/map_pin_secret.png",
+      "switch": "button",
+      "defaultChecked": true,
+      "enableChecker": true,
+      "enableModal": true
+    }
+  ],
+  "pinDatas": [
+    {
+      "mapId": "世界の地図",
+      "id": "1001",
+      "loc": [
+        -55.53759765625,
+        147
+      ],
+      "type": "rura",
+      "name": "ローレシア",
+      "label": "ローレシア",
+      "pinHTML": "ドラクエ2リメイクを始めた際に主人公がいる最初の町",
+      "pinImage": "https://img.gamewith.jp/img/53fa13250109a29dbf02524ca00da4fb.png,https://img.gamewith.jp/img/original_53fa13250109a29dbf02524ca00da4fb.png",
+      "overrideIcon": "https://img.gamewith.jp/article_tools/dq3hd2d/gacha/map_pin_rura_town.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "1002",
+      "loc": [
+        -50.91259765625,
+        119.84375
+      ],
+      "type": "rura",
+      "name": "リリザ",
+      "label": "リリザ",
+      "overrideIcon": "https://img.gamewith.jp/article_tools/dq3hd2d/gacha/map_pin_rura_town.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "1003",
+      "loc": [
+        -30.91259765625,
+        113.53125
+      ],
+      "type": "rura",
+      "name": "サマルトリア",
+      "label": "サマルトリア",
+      "overrideIcon": "https://img.gamewith.jp/article_tools/dq3hd2d/gacha/map_pin_rura_town.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "1004",
+      "loc": [
+        -22.8876953125,
+        151
+      ],
+      "type": "rura",
+      "name": "勇者の泉の洞窟",
+      "label": "勇者の泉の洞窟",
+      "overrideIcon": "https://img.gamewith.jp/article_tools/dq3hd2d/gacha/map_pin_rura_dungeon.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "1005",
+      "loc": [
+        -32.50634765625,
+        101.1875
+      ],
+      "type": "rura",
+      "name": "ローラの門・地下通路",
+      "label": "ローラの門・地下通路",
+      "overrideIcon": "https://img.gamewith.jp/article_tools/dq3hd2d/gacha/map_pin_rura_dungeon.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "1006",
+      "loc": [
+        -32.41259765625,
+        76.5
+      ],
+      "type": "rura",
+      "name": "夢見の湖/妖精の城",
+      "label": "夢見の湖/妖精の城",
+      "overrideIcon": "https://img.gamewith.jp/article_tools/dq3hd2d/gacha/map_pin_rura_dungeon.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "1007",
+      "loc": [
+        -24.81884765625,
+        69.65625
+      ],
+      "type": "rura",
+      "name": "湖の洞窟",
+      "label": "湖の洞窟",
+      "overrideIcon": "https://img.gamewith.jp/article_tools/dq3hd2d/gacha/map_pin_rura_dungeon.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "1008",
+      "loc": [
+        -70.8876953125,
+        88.6875
+      ],
+      "type": "rura",
+      "name": "ムーンペタ",
+      "label": "ムーンペタ",
+      "overrideIcon": "https://img.gamewith.jp/article_tools/dq3hd2d/gacha/map_pin_rura_town.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "1009",
+      "loc": [
+        -75.9501953125,
+        103.0625
+      ],
+      "type": "rura",
+      "name": "森の廃村",
+      "label": "森の廃村",
+      "overrideIcon": "https://img.gamewith.jp/article_tools/dq3hd2d/gacha/map_pin_rura_town.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "1010",
+      "loc": [
+        -88.025390625,
+        74.625
+      ],
+      "type": "rura",
+      "name": "ムーンブルク",
+      "label": "ムーンブルク",
+      "overrideIcon": "https://img.gamewith.jp/article_tools/dq3hd2d/gacha/map_pin_rura_dungeon.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "1011",
+      "loc": [
+        -96.7001953125,
+        97.4375
+      ],
+      "type": "rura",
+      "name": "風の塔",
+      "label": "風の塔",
+      "overrideIcon": "https://img.gamewith.jp/article_tools/dq3hd2d/gacha/map_pin_rura_dungeon.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "1012",
+      "loc": [
+        -86.7001953125,
+        104.4375
+      ],
+      "type": "rura",
+      "name": "ラーのほこら",
+      "label": "ラーのほこら",
+      "overrideIcon": "https://img.gamewith.jp/article_tools/dq3hd2d/gacha/map_pin_rura_shrine.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "1013",
+      "loc": [
+        -92.775390625,
+        59.25
+      ],
+      "type": "rura",
+      "name": "ムーンブルク西のほこら",
+      "label": "ムーンブルク西のほこら",
+      "overrideIcon": "https://img.gamewith.jp/article_tools/dq3hd2d/gacha/map_pin_rura_shrine.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "1014",
+      "loc": [
+        -88.41259765625,
+        29.3125
+      ],
+      "type": "rura",
+      "name": "オアシス",
+      "label": "オアシス",
+      "overrideIcon": "https://img.gamewith.jp/article_tools/dq3hd2d/gacha/map_pin_rura_town.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "1015",
+      "loc": [
+        -57.775390625,
+        18.875
+      ],
+      "type": "rura",
+      "name": "ドラゴンの角・北",
+      "label": "ドラゴンの角・北",
+      "overrideIcon": "https://img.gamewith.jp/article_tools/dq3hd2d/gacha/map_pin_rura_dungeon.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "1016",
+      "loc": [
+        -62.525390625,
+        17.75
+      ],
+      "type": "rura",
+      "name": "ドラゴンの角・南",
+      "label": "ドラゴンの角・南",
+      "overrideIcon": "https://img.gamewith.jp/article_tools/dq3hd2d/gacha/map_pin_rura_dungeon.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "1017",
+      "loc": [
+        -51.400390625,
+        28.75
+      ],
+      "type": "rura",
+      "name": "ルプガナ",
+      "label": "ルプガナ",
+      "overrideIcon": "https://img.gamewith.jp/article_tools/dq3hd2d/gacha/map_pin_rura_town.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "1018",
+      "loc": [
+        -48.400390625,
+        26.5
+      ],
+      "type": "rura",
+      "name": "ルプガナ北の山中",
+      "label": "ルプガナ北の山中",
+      "overrideIcon": "https://img.gamewith.jp/article_tools/dq3hd2d/gacha/map_pin_rura_dungeon.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "1019",
+      "loc": [
+        -44.775390625,
+        13.875
+      ],
+      "type": "rura",
+      "name": "ルプガナ北のほこら",
+      "label": "ルプガナ北のほこら",
+      "overrideIcon": "https://img.gamewith.jp/article_tools/dq3hd2d/gacha/map_pin_rura_shrine.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "1020",
+      "loc": [
+        -82.025390625,
+        18.25
+      ],
+      "type": "rura",
+      "name": "メダル王の島",
+      "label": "メダル王の島",
+      "overrideIcon": "https://img.gamewith.jp/article_tools/dq3hd2d/gacha/map_pin_rura_town.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "1022",
+      "loc": [
+        -45.8193359375,
+        46.453125
+      ],
+      "type": "rura",
+      "name": "ラダトーム",
+      "label": "ラダトーム",
+      "overrideIcon": "https://img.gamewith.jp/article_tools/dq3hd2d/gacha/map_pin_rura_town.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "1023",
+      "loc": [
+        -36.9755859375,
+        45.765625
+      ],
+      "type": "rura",
+      "name": "ロトの洞窟",
+      "label": "ロトの洞窟",
+      "overrideIcon": "https://img.gamewith.jp/article_tools/dq3hd2d/gacha/map_pin_rura_dungeon.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "1024",
+      "loc": [
+        -32.2568359375,
+        54.515625
+      ],
+      "type": "rura",
+      "name": "雨のほこら",
+      "label": "雨のほこら",
+      "overrideIcon": "https://img.gamewith.jp/article_tools/dq3hd2d/gacha/map_pin_rura_shrine.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "1025",
+      "loc": [
+        -34.7568359375,
+        28.921875
+      ],
+      "type": "rura",
+      "name": "ガライ",
+      "label": "ガライ",
+      "overrideIcon": "https://img.gamewith.jp/article_tools/dq3hd2d/gacha/map_pin_rura_town.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "1026",
+      "loc": [
+        -35.5380859375,
+        64.328125
+      ],
+      "type": "rura",
+      "name": "マイラ",
+      "label": "マイラ",
+      "overrideIcon": "https://img.gamewith.jp/article_tools/dq3hd2d/gacha/map_pin_rura_town.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "1027",
+      "loc": [
+        -50.0381358929687,
+        40.6087921861976
+      ],
+      "type": "rura",
+      "name": "岩山の洞窟",
+      "label": "岩山の洞窟",
+      "overrideIcon": "https://img.gamewith.jp/article_tools/dq3hd2d/gacha/map_pin_rura_dungeon.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "1028",
+      "loc": [
+        -45.3505859375,
+        61.171875
+      ],
+      "type": "rura",
+      "name": "沼地の洞窟",
+      "label": "沼地の洞窟",
+      "overrideIcon": "https://img.gamewith.jp/article_tools/dq3hd2d/gacha/map_pin_rura_dungeon.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "1029",
+      "loc": [
+        -58.2881358929687,
+        38.2025421861976
+      ],
+      "type": "rura",
+      "name": "ドムドーラ",
+      "label": "ドムドーラ",
+      "overrideIcon": "https://img.gamewith.jp/article_tools/dq3hd2d/gacha/map_pin_rura_dungeon.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "1030",
+      "loc": [
+        -66.5693858929687,
+        47.6400421861976
+      ],
+      "type": "rura",
+      "name": "メルキド",
+      "label": "メルキド",
+      "overrideIcon": "https://img.gamewith.jp/article_tools/dq3hd2d/gacha/map_pin_rura_town.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "1031",
+      "loc": [
+        -70.5693858929687,
+        48.4212921861976
+      ],
+      "type": "rura",
+      "name": "精霊のほこら",
+      "label": "精霊のほこら",
+      "overrideIcon": "https://img.gamewith.jp/article_tools/dq3hd2d/gacha/map_pin_rura_shrine.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "1032",
+      "loc": [
+        -54.5693858929687,
+        60.5462921861976
+      ],
+      "type": "rura",
+      "name": "リムルダール",
+      "label": "リムルダール",
+      "overrideIcon": "https://img.gamewith.jp/article_tools/dq3hd2d/gacha/map_pin_rura_town.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "1033",
+      "loc": [
+        -69.1630859375,
+        58.640625
+      ],
+      "type": "rura",
+      "name": "聖なるほこら",
+      "label": "聖なるほこら",
+      "overrideIcon": "https://img.gamewith.jp/article_tools/dq3hd2d/gacha/map_pin_rura_shrine.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "1034",
+      "loc": [
+        -49.7880859375,
+        47.828125
+      ],
+      "type": "rura",
+      "name": "竜王の城",
+      "label": "竜王の城",
+      "overrideIcon": "https://img.gamewith.jp/article_tools/dq3hd2d/gacha/map_pin_rura_dungeon.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "1035",
+      "loc": [
+        -81.5693359375,
+        50.796875
+      ],
+      "type": "rura",
+      "name": "大灯台",
+      "label": "大灯台",
+      "overrideIcon": "https://img.gamewith.jp/article_tools/dq3hd2d/gacha/map_pin_rura_dungeon.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "1036",
+      "loc": [
+        -139.2568359375,
+        33.046875
+      ],
+      "type": "rura",
+      "name": "ベラヌール",
+      "label": "ベラヌール",
+      "overrideIcon": "https://img.gamewith.jp/article_tools/dq3hd2d/gacha/map_pin_rura_town.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "1037",
+      "loc": [
+        -117.201171875,
+        26.28125
+      ],
+      "type": "rura",
+      "name": "ベラヌール北のほこら",
+      "label": "ベラヌール北のほこら",
+      "overrideIcon": "https://img.gamewith.jp/article_tools/dq3hd2d/gacha/map_pin_rura_shrine.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "1038",
+      "loc": [
+        -161.138671875,
+        37.59375
+      ],
+      "type": "rura",
+      "name": "人魚の岩場",
+      "label": "人魚の岩場",
+      "overrideIcon": "https://img.gamewith.jp/article_tools/dq3hd2d/gacha/map_pin_rura_dungeon.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "1039",
+      "loc": [
+        -150.8818359375,
+        105.109375
+      ],
+      "type": "rura",
+      "name": "ペルポイ",
+      "label": "ペルポイ",
+      "overrideIcon": "https://img.gamewith.jp/article_tools/dq3hd2d/gacha/map_pin_rura_town.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "1040",
+      "loc": [
+        -157.4443359375,
+        129.171875
+      ],
+      "type": "rura",
+      "name": "世界樹の森",
+      "label": "世界樹の森",
+      "overrideIcon": "https://img.gamewith.jp/article_tools/dq3hd2d/gacha/map_pin_rura_dungeon.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "1041",
+      "loc": [
+        -154.6943359375,
+        142.484375
+      ],
+      "type": "rura",
+      "name": "炎のほこら",
+      "label": "炎のほこら",
+      "overrideIcon": "https://img.gamewith.jp/article_tools/dq3hd2d/gacha/map_pin_rura_shrine.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "1042",
+      "loc": [
+        -165.1630859375,
+        163.234375
+      ],
+      "type": "rura",
+      "name": "ザハン",
+      "label": "ザハン",
+      "overrideIcon": "https://img.gamewith.jp/article_tools/dq3hd2d/gacha/map_pin_rura_town.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "1043",
+      "loc": [
+        -166.7880859375,
+        159.328125
+      ],
+      "type": "rura",
+      "name": "舟守のほこら",
+      "label": "舟守のほこら",
+      "overrideIcon": "https://img.gamewith.jp/article_tools/dq3hd2d/gacha/map_pin_rura_shrine.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "1044",
+      "loc": [
+        -30.5380859375,
+        156.234375
+      ],
+      "type": "rura",
+      "name": "北のお告げ所",
+      "label": "北のお告げ所"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "1045",
+      "loc": [
+        -84.5380859375,
+        153.671875
+      ],
+      "type": "rura",
+      "name": "ローレシア南のほこら",
+      "label": "ローレシア南のほこら",
+      "overrideIcon": "https://img.gamewith.jp/article_tools/dq3hd2d/gacha/map_pin_rura_shrine.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "1046",
+      "loc": [
+        -105.8505859375,
+        146.484375
+      ],
+      "type": "rura",
+      "name": "デルコンダル",
+      "label": "デルコンダル",
+      "overrideIcon": "https://img.gamewith.jp/article_tools/dq3hd2d/gacha/map_pin_rura_town.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "1047",
+      "loc": [
+        -101.388671875,
+        55.15625
+      ],
+      "type": "rura",
+      "name": "テパ",
+      "label": "テパ",
+      "overrideIcon": "https://img.gamewith.jp/article_tools/dq3hd2d/gacha/map_pin_rura_town.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "1048",
+      "loc": [
+        -105.701171875,
+        66.96875
+      ],
+      "type": "rura",
+      "name": "テパ東のほこら",
+      "label": "テパ東のほこら",
+      "overrideIcon": "https://img.gamewith.jp/article_tools/dq3hd2d/gacha/map_pin_rura_town.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "1049",
+      "loc": [
+        -109.076171875,
+        55.46875
+      ],
+      "type": "rura",
+      "name": "満月の塔",
+      "label": "満月の塔",
+      "overrideIcon": "https://img.gamewith.jp/article_tools/dq3hd2d/gacha/map_pin_rura_dungeon.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "1052",
+      "loc": [
+        -145.4443359375,
+        66.046875
+      ],
+      "type": "rura",
+      "name": "人魚の聖域",
+      "label": "人魚の聖域",
+      "pinHTML": "海底",
+      "overrideIcon": "https://img.gamewith.jp/article_tools/dq3hd2d/gacha/map_pin_rura_dungeon.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "1053",
+      "loc": [
+        -157.201171875,
+        25.84375
+      ],
+      "type": "rura",
+      "name": "アルメハ",
+      "label": "アルメハ",
+      "pinHTML": "海底",
+      "overrideIcon": "https://img.gamewith.jp/article_tools/dq3hd2d/gacha/map_pin_rura_town.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "1054",
+      "loc": [
+        -74.6005859375,
+        44.296875
+      ],
+      "type": "rura",
+      "name": "なぞの海底基地",
+      "label": "なぞの海底基地",
+      "pinHTML": "海底",
+      "overrideIcon": "https://img.gamewith.jp/article_tools/dq3hd2d/gacha/map_pin_rura_dungeon.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "1058",
+      "loc": [
+        -78.951171875,
+        171.78125
+      ],
+      "type": "rura",
+      "name": "ヌシのすみか・東海",
+      "label": "ヌシのすみか・東海",
+      "pinHTML": "海底",
+      "overrideIcon": "https://img.gamewith.jp/article_tools/dq3hd2d/gacha/map_pin_rura_dungeon.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "1059",
+      "loc": [
+        -162.52734375,
+        136.6875
+      ],
+      "type": "rura",
+      "name": "ヌシのすみか・南海",
+      "label": "ヌシのすみか・南海",
+      "pinHTML": "海底",
+      "overrideIcon": "https://img.gamewith.jp/article_tools/dq3hd2d/gacha/map_pin_rura_dungeon.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "1060",
+      "loc": [
+        -47.451171875,
+        82.40625
+      ],
+      "type": "rura",
+      "name": "ヌシのすみか・北海",
+      "label": "ヌシのすみか・北海",
+      "pinHTML": "海底",
+      "overrideIcon": "https://img.gamewith.jp/article_tools/dq3hd2d/gacha/map_pin_rura_dungeon.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "1062",
+      "loc": [
+        -98.2001953125,
+        79.75
+      ],
+      "type": "rura",
+      "name": "海底宝物庫・西海",
+      "label": "海底宝物庫・西海",
+      "pinHTML": "海底"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "1064",
+      "loc": [
+        -144.4443359375,
+        94.234375
+      ],
+      "type": "rura",
+      "name": "ロンダルキア南のほこら",
+      "label": "ロンダルキア南のほこら",
+      "overrideIcon": "https://img.gamewith.jp/article_tools/dq3hd2d/gacha/map_pin_rura_shrine.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "1065",
+      "loc": [
+        -140.513671875,
+        84.21875
+      ],
+      "type": "rura",
+      "name": "ロンダルキアへの洞窟",
+      "label": "ロンダルキアへの洞窟",
+      "overrideIcon": "https://img.gamewith.jp/article_tools/dq3hd2d/gacha/map_pin_rura_dungeon.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "1066",
+      "loc": [
+        -115.326171875,
+        97.96875
+      ],
+      "type": "rura",
+      "name": "ロンダルキアのほこら",
+      "label": "ロンダルキアのほこら",
+      "overrideIcon": "https://img.gamewith.jp/article_tools/dq3hd2d/gacha/map_pin_rura_shrine.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "1067",
+      "loc": [
+        -121.951171875,
+        77.34375
+      ],
+      "type": "rura",
+      "name": "雪原のほこら",
+      "label": "雪原のほこら",
+      "overrideIcon": "https://img.gamewith.jp/article_tools/dq3hd2d/gacha/map_pin_rura_shrine.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "1068",
+      "loc": [
+        -122.013671875,
+        71.03125
+      ],
+      "type": "rura",
+      "name": "ハーゴンの神殿",
+      "label": "ハーゴンの神殿",
+      "overrideIcon": "https://img.gamewith.jp/article_tools/dq3hd2d/gacha/map_pin_rura_dungeon.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "1070",
+      "loc": [
+        -70.025390625,
+        128
+      ],
+      "type": "rura",
+      "name": "海底宝物庫・北海",
+      "label": "海底宝物庫・北海",
+      "pinHTML": "海底"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "1071",
+      "loc": [
+        -131.6689453125,
+        109.65625
+      ],
+      "type": "rura",
+      "name": "海底宝物庫・南海",
+      "label": "海底宝物庫・南海",
+      "pinHTML": "海底"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "2001",
+      "loc": [
+        -43.91259765625,
+        141.59375
+      ],
+      "type": "secret",
+      "name": "ローレシア 北西 山脈の間の森の中",
+      "pinHTML": "<a href='https://gamewith.jp/dq1-2/481328' >せいなるナイフ</a>",
+      "pinImage": "https://img.gamewith.jp/img/3eed2cf1e6ee7351c468c2eee3f93a72.png,https://img.gamewith.jp/img/original_3eed2cf1e6ee7351c468c2eee3f93a72.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "2002",
+      "loc": [
+        -53.41259765625,
+        123.09375
+      ],
+      "type": "secret_medal",
+      "name": "リリザ 南東 森の中",
+      "pinHTML": "<a href='https://gamewith.jp/dq1-2/526698' >ちいさなメダル</a><br>132G",
+      "pinImage": "https://img.gamewith.jp/img/bb552a1a1fdab1c1e344b71c2c9c1d94.png,https://img.gamewith.jp/img/original_bb552a1a1fdab1c1e344b71c2c9c1d94.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "2003",
+      "loc": [
+        -38.13134765625,
+        108.59375
+      ],
+      "type": "secret_medal",
+      "name": "サマルトリア 南西 砂漠",
+      "pinHTML": "<a href='https://gamewith.jp/dq1-2/526698' >ちいさなメダル</a><br><a href='https://gamewith.jp/dq1-2/527637' >きのぼうし</a>",
+      "pinImage": "https://img.gamewith.jp/img/f6398f349765b516d8a88dce8fee04c1.png,https://img.gamewith.jp/img/original_f6398f349765b516d8a88dce8fee04c1.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "2004",
+      "loc": [
+        -30.0751953125,
+        129
+      ],
+      "type": "secret",
+      "name": "サマルトリア 東 山岳地帯",
+      "pinHTML": "<a href='https://gamewith.jp/dq1-2/481315' >布の服</a><br>5G<br><a href='https://gamewith.jp/dq1-2/481395' >どくけしそう</a><br><a href='https://gamewith.jp/dq1-2/527455' >まほうのせいすい</a>",
+      "pinImage": "https://img.gamewith.jp/img/c3eb3230f0a59c3b539a688cd442b7b1.png,https://img.gamewith.jp/img/original_c3eb3230f0a59c3b539a688cd442b7b1.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "2005",
+      "loc": [
+        -25.7001953125,
+        149.125
+      ],
+      "type": "secret",
+      "name": "勇者の泉の洞窟 南西",
+      "pinHTML": "<a href='https://gamewith.jp/dq1-2/481327' >くさりがま</a><br>224G",
+      "pinImage": "https://img.gamewith.jp/img/b5b804dcf8e28ee466a90865539ef80c.png,https://img.gamewith.jp/img/original_b5b804dcf8e28ee466a90865539ef80c.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "2006",
+      "loc": [
+        -40.13134765625,
+        83.03125
+      ],
+      "type": "secret_medal",
+      "name": "夢見の湖 南東 山脈の麓",
+      "pinHTML": "<a href='https://gamewith.jp/dq1-2/526698' >ちいさなメダル</a>",
+      "pinImage": "https://img.gamewith.jp/img/88fd024d26230a3b3ff83e991a7da139.png,https://img.gamewith.jp/img/original_88fd024d26230a3b3ff83e991a7da139.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "2007",
+      "loc": [
+        -18.88134765625,
+        74.1875
+      ],
+      "type": "secret",
+      "name": "湖の洞窟 北東 海の上",
+      "pinHTML": "アイテムはなく、冒険のヒントをくれるNPCが存在",
+      "pinImage": "https://img.gamewith.jp/img/4dd5975a6a4042d7623c8926b59bb5c9.png,https://img.gamewith.jp/img/original_4dd5975a6a4042d7623c8926b59bb5c9.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "2008",
+      "loc": [
+        -23.35009765625,
+        94.15625
+      ],
+      "type": "secret",
+      "name": "ローラの門 北東",
+      "pinHTML": "アイテムはなく、冒険のヒントをくれるNPCが存在",
+      "pinImage": "https://img.gamewith.jp/img/6e6bed0a49be713b3ff5402e876b96d0.png,https://img.gamewith.jp/img/original_6e6bed0a49be713b3ff5402e876b96d0.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "2009",
+      "loc": [
+        -53.1943359375,
+        93.734375
+      ],
+      "type": "secret",
+      "name": "ムーンペタの町 北東",
+      "pinHTML": "<a href='https://gamewith.jp/dq1-2/481391' >ふくびきけん</a>×2<br><a href='https://gamewith.jp/dq1-2/481381' >ふしぎなきのみ</a>",
+      "pinImage": "https://img.gamewith.jp/img/3e1ab80ddebd139e7deff0b851107435.png,https://img.gamewith.jp/img/original_3e1ab80ddebd139e7deff0b851107435.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "2010",
+      "loc": [
+        -77.6318359375,
+        111.359375
+      ],
+      "type": "secret",
+      "name": "ムーンペタの町 南東 山の奥",
+      "pinHTML": "<a href='https://gamewith.jp/dq1-2/527450' >まんげつそう</a>×3<br>544G<br><a href='https://gamewith.jp/dq1-2/527454' >上やくそう</a>",
+      "pinImage": "https://img.gamewith.jp/img/0b42597770e0e82dcbc35a87fa3d5895.png,https://img.gamewith.jp/img/original_0b42597770e0e82dcbc35a87fa3d5895.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "2011",
+      "loc": [
+        -70.5380859375,
+        104.421875
+      ],
+      "type": "secret",
+      "name": "ムーンペタの町 東",
+      "pinHTML": "307G<br><a href='https://gamewith.jp/dq1-2/527984' >マヌーハそう</a>×2<br><a href='https://gamewith.jp/dq1-2/481394' >せいすい</a>×3",
+      "pinImage": "https://img.gamewith.jp/img/e65ebd31a41f7b55402b4aafd5f0f6a8.png,https://img.gamewith.jp/img/original_e65ebd31a41f7b55402b4aafd5f0f6a8.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "2012",
+      "loc": [
+        -82.5068359375,
+        87.921875
+      ],
+      "type": "secret",
+      "name": "ムーンブルクの城 北東",
+      "pinHTML": "アイテムはなく、冒険のヒントをくれるNPCが存在",
+      "pinImage": "https://img.gamewith.jp/img/bbb694ee1786507081805023b8cc1e05.png,https://img.gamewith.jp/img/original_bbb694ee1786507081805023b8cc1e05.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "2013",
+      "loc": [
+        -88.7255859375,
+        65.578125
+      ],
+      "type": "secret",
+      "name": "ムーンブルクの城 西",
+      "pinHTML": "石のぼうし※盗賊の鍵<br>316G<br><a href='https://gamewith.jp/dq1-2/481324' >はがねのつるぎ</a>",
+      "pinImage": "https://img.gamewith.jp/img/5b013a3ec14c26e43313911810a71daa.png,https://img.gamewith.jp/img/original_5b013a3ec14c26e43313911810a71daa.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "2014",
+      "loc": [
+        -92.8818359375,
+        101.734375
+      ],
+      "type": "secret_medal",
+      "name": "ムーンブルクの城 東",
+      "pinHTML": "<a href='https://gamewith.jp/dq1-2/526698' >ちいさなメダル</a>",
+      "pinImage": "https://img.gamewith.jp/img/532e109eda7eb8202b448fd85b41620a.png,https://img.gamewith.jp/img/original_532e109eda7eb8202b448fd85b41620a.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "2015",
+      "loc": [
+        -85.326171875,
+        41.03125
+      ],
+      "type": "secret",
+      "name": "オアシスの東 砂漠 ",
+      "pinHTML": "<a href='https://gamewith.jp/dq1-2/527533' >黄金の盾</a><br><a href='https://gamewith.jp/dq1-2/481383' >まもりのたね</a><br>413G",
+      "pinImage": "https://img.gamewith.jp/img/a105daa5adaa34dfa81994c45e86af72.png,https://img.gamewith.jp/img/original_a105daa5adaa34dfa81994c45e86af72.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "2016",
+      "loc": [
+        -65.1318359375,
+        22.859375
+      ],
+      "type": "secret_medal",
+      "name": "ドラゴンの角・南 南東 海の上 ",
+      "pinHTML": "<a href='https://gamewith.jp/dq1-2/526698' >ちいさなメダル</a><br><a href='https://gamewith.jp/dq1-2/527472' >ピンクパール</a>",
+      "pinImage": "https://img.gamewith.jp/img/c1ab62811ef1db7fb773e7fe4400fac6.png,https://img.gamewith.jp/img/original_c1ab62811ef1db7fb773e7fe4400fac6.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "2017",
+      "loc": [
+        -48.8818359375,
+        14.234375
+      ],
+      "type": "secret",
+      "name": "ルプガナの町の北西 砂漠",
+      "pinHTML": "<a href='https://gamewith.jp/dq1-2/527457' >スタミナのたね</a><br><a href='https://gamewith.jp/dq1-2/481383' >まもりのたね</a><br>1388G",
+      "pinImage": "https://img.gamewith.jp/img/bc99bf89d99f6b431ad41a4afbfeb082.png,https://img.gamewith.jp/img/original_bc99bf89d99f6b431ad41a4afbfeb082.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "2018",
+      "loc": [
+        -40.5068359375,
+        31.859375
+      ],
+      "type": "secret",
+      "name": "ラダトームの城 北西 森の中",
+      "pinHTML": "アイテムはなく、冒険のヒントをくれるNPCが存在",
+      "pinImage": "https://img.gamewith.jp/img/0880914a7881dacb841796ae13e851de.png,https://img.gamewith.jp/img/original_0880914a7881dacb841796ae13e851de.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "2019",
+      "loc": [
+        -40.6943359375,
+        62.484375
+      ],
+      "type": "secret",
+      "name": "雨のほこら 南東 砂漠",
+      "pinHTML": "<a href='https://gamewith.jp/dq1-2/527519' >はでな服</a><br>339G<br><a href='https://gamewith.jp/dq1-2/527987' >まだらくもいと</a>",
+      "pinImage": "https://img.gamewith.jp/img/d16b78e983f6086159463c05f4996367.png,https://img.gamewith.jp/img/original_d16b78e983f6086159463c05f4996367.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "2020",
+      "loc": [
+        -23.8818359375,
+        49.765625
+      ],
+      "type": "secret_medal",
+      "name": "雨のほこら 北 森の中",
+      "pinHTML": "<a href='https://gamewith.jp/dq1-2/526698' >ちいさなメダル</a><br>219G",
+      "pinImage": "https://img.gamewith.jp/img/0a522337652e8732e163e45cb25621a9.png,https://img.gamewith.jp/img/original_0a522337652e8732e163e45cb25621a9.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "2021",
+      "loc": [
+        -28.5693359375,
+        157.359375
+      ],
+      "type": "secret",
+      "name": "勇者の泉の洞窟 南東 海の上 ",
+      "pinHTML": "<a href='https://gamewith.jp/dq1-2/527982' >けんじゃのせいすい</a>",
+      "pinImage": "https://img.gamewith.jp/img/f88c0b9cfc440f8a2698a15de9906ab8.png,https://img.gamewith.jp/img/original_f88c0b9cfc440f8a2698a15de9906ab8.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "2022",
+      "loc": [
+        -101.7255859375,
+        90.609375
+      ],
+      "type": "secret",
+      "name": "風の塔 南西 山の先",
+      "pinHTML": "メタスラの剣※魔法の鍵<br>ほしふるうでわ※最後の鍵",
+      "pinImage": "https://img.gamewith.jp/img/59ccf77e33a3b2a01c66f52273167d92.png,https://img.gamewith.jp/img/original_59ccf77e33a3b2a01c66f52273167d92.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "2023",
+      "loc": [
+        -154.6376953125,
+        33.8125
+      ],
+      "type": "secret",
+      "name": "ベラヌール 南の海上",
+      "pinHTML": "<a href='https://gamewith.jp/dq1-2/481384' >すばやさのたね</a><br>626G<br><a href='https://gamewith.jp/dq1-2/527609' >皮のドレス</a>",
+      "pinImage": "https://img.gamewith.jp/img/fad1ae3234e5aec176de87098aa6cd3c.png,https://img.gamewith.jp/img/original_fad1ae3234e5aec176de87098aa6cd3c.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "2024",
+      "loc": [
+        -152.1318359375,
+        125.828125
+      ],
+      "type": "secret",
+      "name": "世界樹の森 北北西の島",
+      "pinHTML": "バニースーツ※魔法の鍵",
+      "pinImage": "https://img.gamewith.jp/img/05f3bc96174faa0f7acddeab9564cb0c.png,https://img.gamewith.jp/img/original_05f3bc96174faa0f7acddeab9564cb0c.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "2025",
+      "loc": [
+        -130.5751953125,
+        46.5
+      ],
+      "type": "secret",
+      "name": "ベラヌールの北東の海沿い",
+      "pinHTML": "アイテムはなく、冒険のヒントをくれるNPCが存在",
+      "pinImage": "https://img.gamewith.jp/img/354249055a841d3567df2beb00be6c94.png,https://img.gamewith.jp/img/original_354249055a841d3567df2beb00be6c94.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "2026",
+      "loc": [
+        -143.6630859375,
+        100.453125
+      ],
+      "type": "secret_medal",
+      "name": "ペルポイの町 北西 山の先",
+      "pinHTML": "<a href='https://gamewith.jp/dq1-2/526698' >ちいさなメダル</a><br><a href='https://gamewith.jp/dq1-2/527457' >スタミナのたね</a>",
+      "pinImage": "https://img.gamewith.jp/img/433e56c0b82e9c87b654c0760ccdd0be.png,https://img.gamewith.jp/img/original_433e56c0b82e9c87b654c0760ccdd0be.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "2027",
+      "loc": [
+        -159.6943359375,
+        111.265625
+      ],
+      "type": "secret",
+      "name": "ペルポイの町 南東 海の上",
+      "pinHTML": "海賊王の首かざり※魔法の鍵",
+      "pinImage": "https://img.gamewith.jp/img/4b26a449e988d5546443db818fc69279.png,https://img.gamewith.jp/img/original_4b26a449e988d5546443db818fc69279.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "2028",
+      "loc": [
+        -105.88134765625,
+        47.15625
+      ],
+      "type": "secret_medal",
+      "name": "テパ 西 水辺",
+      "pinHTML": "<a href='https://gamewith.jp/dq1-2/526698' >ちいさなメダル</a><br><a href='https://gamewith.jp/dq1-2/527644' >たびびとの服</a>",
+      "pinImage": "https://img.gamewith.jp/img/deb3181ccc5ea2e0d2bde96f630ea536.png,https://img.gamewith.jp/img/original_deb3181ccc5ea2e0d2bde96f630ea536.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "2029",
+      "loc": [
+        -102.56884765625,
+        61.90625
+      ],
+      "type": "secret_medal",
+      "name": "テパ 東 森の中",
+      "pinHTML": "<a href='https://gamewith.jp/dq1-2/527302' >レミラーマの巻物</a><br><a href='https://gamewith.jp/dq1-2/481385' >ちからのたね</a><br><a href='https://gamewith.jp/dq1-2/527453' >かしこさのたね</a>",
+      "pinImage": "https://img.gamewith.jp/img/5ea127dcddf7d6097f71a2e133f269cf.png,https://img.gamewith.jp/img/original_5ea127dcddf7d6097f71a2e133f269cf.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "2030",
+      "loc": [
+        -113.5693359375,
+        151.890625
+      ],
+      "type": "secret_medal",
+      "name": "デルコンダル 東  森の中",
+      "pinHTML": "アイテムはなく、冒険のヒントをくれるNPCが存在",
+      "pinImage": "https://img.gamewith.jp/img/8ba9d4892eac394464d85d96d0e4b154.png,https://img.gamewith.jp/img/original_8ba9d4892eac394464d85d96d0e4b154.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "2031",
+      "loc": [
+        -67.5693359375,
+        154.046875
+      ],
+      "type": "secret_medal",
+      "name": "ローレシア 南の島 砂漠",
+      "pinHTML": "<a href='https://gamewith.jp/dq1-2/526698' >ちいさなメダル</a><br><a href='https://gamewith.jp/dq1-2/481391' >ふくびきけん</a>×6",
+      "pinImage": "https://img.gamewith.jp/img/cdc36b3ddad7b06a9dc733cb3e6399b4.png,https://img.gamewith.jp/img/original_cdc36b3ddad7b06a9dc733cb3e6399b4.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "2032",
+      "loc": [
+        -89.3505859375,
+        152.359375
+      ],
+      "type": "secret_medal",
+      "name": "ローレシア 南 海の上",
+      "pinHTML": "<a href='https://gamewith.jp/dq1-2/526698' >ちいさなメダル</a><br><a href='https://gamewith.jp/dq1-2/527449' >ラックのたね</a><br><a href='https://gamewith.jp/dq1-2/527473' >サンゴのかみかざり</a><br><a href='https://gamewith.jp/dq1-2/527455' >まほうのせいすい</a>",
+      "pinImage": "https://img.gamewith.jp/img/b725a7101e4bef3ccaa0e17b40b1815c.png,https://img.gamewith.jp/img/original_b725a7101e4bef3ccaa0e17b40b1815c.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "2033",
+      "loc": [
+        -111.888671875,
+        99.21875
+      ],
+      "type": "secret_medal",
+      "name": "ロンダルキアのほこら 北 ",
+      "pinHTML": "<a href='https://gamewith.jp/dq1-2/527658' >ふぶきのつるぎ</a><br><a href='https://gamewith.jp/dq1-2/526698' >ちいさなメダル</a><br><a href='https://gamewith.jp/dq1-2/481385' >ちからのたね</a>",
+      "pinImage": "https://img.gamewith.jp/img/25dd2ac034cf784165a48e491a9fc502.png,https://img.gamewith.jp/img/original_25dd2ac034cf784165a48e491a9fc502.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "2034",
+      "loc": [
+        -70.451171875,
+        77.46875
+      ],
+      "type": "secret_medal",
+      "name": "ムーンペタ 西の島",
+      "pinHTML": "ちいさなメダル※魔法の鍵<br>1400G※盗賊の鍵",
+      "pinImage": "https://img.gamewith.jp/img/d6e7e574ca4c4d21bdea2908d89f7f7a.png,https://img.gamewith.jp/img/original_d6e7e574ca4c4d21bdea2908d89f7f7a.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "2035",
+      "loc": [
+        -61.8818359375,
+        42.859375
+      ],
+      "type": "secret_medal",
+      "name": "ドムドーラ 南東 砂漠",
+      "pinHTML": "<a href='https://gamewith.jp/dq1-2/526698' >ちいさなメダル</a><br>1753G<br><a href='https://gamewith.jp/dq1-2/527985' >命の石</a><br><a href='https://gamewith.jp/dq1-2/527581' >命のゆびわ</a>",
+      "pinImage": "https://img.gamewith.jp/img/0b0585ea54e9441a0f07b11f5608c41e.png,https://img.gamewith.jp/img/original_0b0585ea54e9441a0f07b11f5608c41e.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "2036",
+      "loc": [
+        -127.04541015625,
+        65.9375
+      ],
+      "type": "secret",
+      "name": "ハーゴンの神殿 南西",
+      "pinHTML": "いぬぐるみ※魔法の鍵<br><a href='https://gamewith.jp/dq1-2/527657' >フリーズウィップ</a>",
+      "pinImage": "https://img.gamewith.jp/img/46cd35dfeca75fd66c749f0225d58b9c.png,https://img.gamewith.jp/img/original_46cd35dfeca75fd66c749f0225d58b9c.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "3001",
+      "loc": [
+        -52.50634765625,
+        142.71875
+      ],
+      "type": "sparkling",
+      "name": "ローレシア西 山の麓",
+      "pinHTML": "<a href='https://gamewith.jp/dq1-2/527449' >ラックのたね</a><br><a href='https://gamewith.jp/dq1-2/481396' >やくそう</a>",
+      "pinImage": "https://img.gamewith.jp/img/46bcb7b47ead619990dd1847f01680b3.png,https://img.gamewith.jp/img/original_46bcb7b47ead619990dd1847f01680b3.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "3002",
+      "loc": [
+        -48.60009765625,
+        138.8125
+      ],
+      "type": "sparkling",
+      "name": "ローレシア西 山脈の中",
+      "pinHTML": "<a href='https://gamewith.jp/dq1-2/481304' >皮の盾</a><br><a href='https://gamewith.jp/dq1-2/481330' >こんぼう</a>",
+      "pinImage": "https://img.gamewith.jp/img/64e3f68b1364e5be8b8d9e4e584b3e1f.png,https://img.gamewith.jp/img/original_64e3f68b1364e5be8b8d9e4e584b3e1f.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "3003",
+      "loc": [
+        -56.56884765625,
+        133.34375
+      ],
+      "type": "sparkling",
+      "name": "ローレシア西 リアス式海岸の先端",
+      "pinHTML": "<a href='https://gamewith.jp/dq1-2/527457' >スタミナのたね</a>",
+      "pinImage": "https://img.gamewith.jp/img/953cf2de020826dd0e190307f07ed563.png,https://img.gamewith.jp/img/original_953cf2de020826dd0e190307f07ed563.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "3004",
+      "loc": [
+        -52.88134765625,
+        134.71875
+      ],
+      "type": "sparkling",
+      "name": "ローレシア西 リアス式海岸の間",
+      "pinHTML": "<a href='https://gamewith.jp/dq1-2/527640' >きぬのエプロン</a><br><a href='https://gamewith.jp/dq1-2/527512' >ぎんのかみかざり</a>",
+      "pinImage": "https://img.gamewith.jp/img/8ed5c0887eb200eff5c5f5e26b9549de.png,https://img.gamewith.jp/img/original_8ed5c0887eb200eff5c5f5e26b9549de.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "3005",
+      "loc": [
+        -36.16259765625,
+        138
+      ],
+      "type": "sparkling",
+      "name": "ローレシア北西 湖の北",
+      "pinHTML": "<a href='https://gamewith.jp/dq1-2/481384' >すばやさのたね</a><br><a href='https://gamewith.jp/dq1-2/481385' >ちからのたね</a>",
+      "pinImage": "https://img.gamewith.jp/img/7f2e695e5d4e9468369fd956016731ec.png,https://img.gamewith.jp/img/original_7f2e695e5d4e9468369fd956016731ec.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "3006",
+      "loc": [
+        -51.72509765625,
+        129.34375
+      ],
+      "type": "sparkling",
+      "name": "ローレシア西の砂浜近くの森付近",
+      "pinHTML": "<a href='https://gamewith.jp/dq1-2/481396' >やくそう</a><br><a href='https://gamewith.jp/dq1-2/481395' >どくけしそう</a>",
+      "pinImage": "https://img.gamewith.jp/img/1e682149483dd9e13a1aeec6abea5c6d.png,https://img.gamewith.jp/img/original_1e682149483dd9e13a1aeec6abea5c6d.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "3007",
+      "loc": [
+        -42.81884765625,
+        116.21875
+      ],
+      "type": "sparkling",
+      "name": "リリザ北西",
+      "pinHTML": "<a href='https://gamewith.jp/dq1-2/481393' >キメラのつばさ</a>",
+      "pinImage": "https://img.gamewith.jp/img/7ae08b09ba1877f457fb17cd96111749.png,https://img.gamewith.jp/img/original_7ae08b09ba1877f457fb17cd96111749.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "3008",
+      "loc": [
+        -48.60009765625,
+        110.03125
+      ],
+      "type": "sparkling",
+      "name": "リリザ西海岸線",
+      "pinHTML": "<a href='https://gamewith.jp/dq1-2/527644' >たびびとの服</a><br><a href='https://gamewith.jp/dq1-2/527636' >レイピア</a><br><a href='https://gamewith.jp/dq1-2/481391' >ふくびきけん</a>×6",
+      "pinImage": "https://img.gamewith.jp/img/70b7d83fa2db472a8dc236e914c174e8.png,https://img.gamewith.jp/img/original_70b7d83fa2db472a8dc236e914c174e8.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "3009",
+      "loc": [
+        -29.97509765625,
+        105.59375
+      ],
+      "type": "sparkling",
+      "name": "サマルトリア城西",
+      "pinHTML": "<a href='https://gamewith.jp/dq1-2/481394' >せいすい</a>",
+      "pinImage": "https://img.gamewith.jp/img/0272bcbb7235e6775f497ab035047d54.png,https://img.gamewith.jp/img/original_0272bcbb7235e6775f497ab035047d54.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "3010",
+      "loc": [
+        -21.38134765625,
+        154.71875
+      ],
+      "type": "sparkling",
+      "name": "勇者の泉の洞窟 東",
+      "pinHTML": "<a href='https://gamewith.jp/dq1-2/481385' >ちからのたね</a><br><a href='https://gamewith.jp/dq1-2/481395' >どくけしそう</a>×2<br><a href='https://gamewith.jp/dq1-2/481384' >すばやさのたね</a>",
+      "pinImage": "https://img.gamewith.jp/img/9ec77730459af3afffca5a5cf6ad7d45.png,https://img.gamewith.jp/img/original_9ec77730459af3afffca5a5cf6ad7d45.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "3011",
+      "loc": [
+        -23.35009765625,
+        137.46875
+      ],
+      "type": "sparkling",
+      "name": "勇者の泉の洞窟 西山脈の間",
+      "pinHTML": "<a href='https://gamewith.jp/dq1-2/481395' >どくけしそう</a>×2<br><a href='https://gamewith.jp/dq1-2/481396' >やくそう</a>",
+      "pinImage": "https://img.gamewith.jp/img/da611a9c1a1f1987a1f36d951bcc7be5.png,https://img.gamewith.jp/img/original_da611a9c1a1f1987a1f36d951bcc7be5.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "3012",
+      "loc": [
+        -26.75634765625,
+        98.90625
+      ],
+      "type": "sparkling",
+      "name": "ローラの門 北山の麓の海の上",
+      "pinHTML": "<a href='https://gamewith.jp/dq1-2/481303' >はがねの盾</a><br><a href='https://gamewith.jp/dq1-2/527463' >やいばのよろい</a>",
+      "pinImage": "https://img.gamewith.jp/img/2faf20b2de8d94a400dbcd21826199b9.png,https://img.gamewith.jp/img/original_2faf20b2de8d94a400dbcd21826199b9.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "3013",
+      "loc": [
+        -34.85009765625,
+        89.4375
+      ],
+      "type": "sparkling",
+      "name": "ローラの門 西",
+      "pinHTML": "<a href='https://gamewith.jp/dq1-2/481325' >まどうしの杖</a>",
+      "pinImage": "https://img.gamewith.jp/img/48584ff83e11c8cedcb077b06b72ba2c.png,https://img.gamewith.jp/img/original_48584ff83e11c8cedcb077b06b72ba2c.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "3014",
+      "loc": [
+        -43.41259765625,
+        87.78125
+      ],
+      "type": "sparkling",
+      "name": "ローラの門 南西 海の上",
+      "pinHTML": "<a href='https://gamewith.jp/dq1-2/527588' >いしのかつら</a><br><a href='https://gamewith.jp/dq1-2/527457' >スタミナのたね</a><br><a href='https://gamewith.jp/dq1-2/481383' >まもりのたね</a>",
+      "pinImage": "https://img.gamewith.jp/img/4220fdf51f8925e83bfcc5ab00dad667.png,https://img.gamewith.jp/img/original_4220fdf51f8925e83bfcc5ab00dad667.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "3015",
+      "loc": [
+        -27.94384765625,
+        78.5
+      ],
+      "type": "sparkling",
+      "name": "夢見の湖 北",
+      "pinHTML": "<a href='https://gamewith.jp/dq1-2/527454' >上やくそう</a>",
+      "pinImage": "https://img.gamewith.jp/img/73c61235f50fab5d1e01b2543ecf65bd.png,https://img.gamewith.jp/img/original_73c61235f50fab5d1e01b2543ecf65bd.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "3016",
+      "loc": [
+        -24.88134765625,
+        84.90625
+      ],
+      "type": "sparkling",
+      "name": "夢見の湖 東北山脈の間",
+      "pinHTML": "<a href='https://gamewith.jp/dq1-2/481395' >どくけしそう</a><br><a href='https://gamewith.jp/dq1-2/527984' >マヌーハそう</a><br><a href='https://gamewith.jp/dq1-2/527627' >とげのムチ</a>",
+      "pinImage": "https://img.gamewith.jp/img/5641e5412cc3bdc58154a4628bf1c68c.png,https://img.gamewith.jp/img/original_5641e5412cc3bdc58154a4628bf1c68c.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "3017",
+      "loc": [
+        -34.81884765625,
+        126.625
+      ],
+      "type": "sparkling",
+      "name": "サマルトリア城東の水辺",
+      "pinHTML": "どうのつるぎ<br><a href='https://gamewith.jp/dq1-2/527451' >においぶくろ</a><br><a href='https://gamewith.jp/dq1-2/481396' >やくそう</a>",
+      "pinImage": "https://img.gamewith.jp/img/dd8ca906a79b0349f4d43922a3e64c8f.png,https://img.gamewith.jp/img/original_dd8ca906a79b0349f4d43922a3e64c8f.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "3018",
+      "loc": [
+        -70.7255859375,
+        83.421875
+      ],
+      "type": "sparkling",
+      "name": "ムーンペタの町 西 海の上",
+      "pinHTML": "<a href='https://gamewith.jp/dq1-2/527578' >くろずきん</a><br><a href='https://gamewith.jp/dq1-2/527616' >ブーメラン</a><br>122ゴールド",
+      "pinImage": "https://img.gamewith.jp/img/0ea7676a41f7ae8ca7fc95338b3ce16d.png,https://img.gamewith.jp/img/original_0ea7676a41f7ae8ca7fc95338b3ce16d.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "3019",
+      "loc": [
+        -61.3505859375,
+        94.359375
+      ],
+      "type": "sparkling",
+      "name": "ムーンペタの町 北東 山付近",
+      "pinHTML": "<a href='https://gamewith.jp/dq1-2/527650' >はねぼうし</a><br><a href='https://gamewith.jp/dq1-2/527299' >ブロウの巻物</a>",
+      "pinImage": "https://img.gamewith.jp/img/3d937b27088521ba37cf3260f9e44e00.png,https://img.gamewith.jp/img/original_3d937b27088521ba37cf3260f9e44e00.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "3020",
+      "loc": [
+        -49.4443359375,
+        97.515625
+      ],
+      "type": "sparkling",
+      "name": "ムーンペタの町 北東 森",
+      "pinHTML": "<a href='https://gamewith.jp/dq1-2/527644' >たびびとの服</a><br>ふくぶきけん×2",
+      "pinImage": "https://img.gamewith.jp/img/d6a6a7fc871795f68644bacd659cd1db.png,https://img.gamewith.jp/img/original_d6a6a7fc871795f68644bacd659cd1db.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "3021",
+      "loc": [
+        -50.5380859375,
+        102.109375
+      ],
+      "type": "sparkling",
+      "name": "ムーンペタの町 北東 山の先",
+      "pinHTML": "まどうしの杖<br><a href='https://gamewith.jp/dq1-2/527527' >きぬのローブ</a><br>323ゴールド",
+      "pinImage": "https://img.gamewith.jp/img/32afe89c98391826d6e8488bccc673be.png,https://img.gamewith.jp/img/original_32afe89c98391826d6e8488bccc673be.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "3022",
+      "loc": [
+        -91.5380859375,
+        106.046875
+      ],
+      "type": "sparkling",
+      "name": "風の塔 北東",
+      "pinHTML": "<a href='https://gamewith.jp/dq1-2/527984' >マヌーハそう</a>×2<br><a href='https://gamewith.jp/dq1-2/481396' >やくそう</a>×3<br><a href='https://gamewith.jp/dq1-2/527454' >上やくそう</a>",
+      "pinImage": "https://img.gamewith.jp/img/cfa4caa06603d323b4185debd5bf2981.png,https://img.gamewith.jp/img/original_cfa4caa06603d323b4185debd5bf2981.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "3023",
+      "loc": [
+        -99.5693359375,
+        97.640625
+      ],
+      "type": "sparkling",
+      "name": "風の塔 南",
+      "pinHTML": "くさりがま<br><a href='https://gamewith.jp/dq1-2/527610' >せいどうのよろい</a>",
+      "pinImage": "https://img.gamewith.jp/img/77c41bdfe9bc2ce0fd7986e2cc6f1bd5.png,https://img.gamewith.jp/img/original_77c41bdfe9bc2ce0fd7986e2cc6f1bd5.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "3024",
+      "loc": [
+        -73.6318359375,
+        99.859375
+      ],
+      "type": "sparkling",
+      "name": "森の廃村 北西",
+      "pinHTML": "<a href='https://gamewith.jp/dq1-2/481394' >せいすい</a><br><a href='https://gamewith.jp/dq1-2/527543' >どくがのナイフ</a><br>ふくぶきけん×3",
+      "pinImage": "https://img.gamewith.jp/img/9a8f0c3918cf2f76c368ed0408296c65.png,https://img.gamewith.jp/img/original_9a8f0c3918cf2f76c368ed0408296c65.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "3025",
+      "loc": [
+        -76.3193359375,
+        85.046875
+      ],
+      "type": "sparkling",
+      "name": "ムーンペタの町 南西 森の中",
+      "pinHTML": "<a href='https://gamewith.jp/dq1-2/527984' >マヌーハそう</a>×2<br><a href='https://gamewith.jp/dq1-2/481395' >どくけしそう</a>×2",
+      "pinImage": "https://img.gamewith.jp/img/2fd16d67d59a0527fd6e62d61eb3a886.png,https://img.gamewith.jp/img/original_2fd16d67d59a0527fd6e62d61eb3a886.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "3026",
+      "loc": [
+        -82.1943359375,
+        81.453125
+      ],
+      "type": "sparkling",
+      "name": "ムーンブルクの城 北東 森の中",
+      "pinHTML": "<a href='https://gamewith.jp/dq1-2/481314' >皮のよろい</a><br><a href='https://gamewith.jp/dq1-2/527637' >きのぼうし</a>",
+      "pinImage": "https://img.gamewith.jp/img/7eb0f7959a5cd4d01944a36026b073f8.png,https://img.gamewith.jp/img/original_7eb0f7959a5cd4d01944a36026b073f8.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "3027",
+      "loc": [
+        -72.6005859375,
+        66.734375
+      ],
+      "type": "sparkling",
+      "name": "ムーンブルクの城 北西 森の中",
+      "pinHTML": "<a href='https://gamewith.jp/dq1-2/527449' >ラックのたね</a><br><a href='https://gamewith.jp/dq1-2/527987' >まだらくもいと</a><br><a href='https://gamewith.jp/dq1-2/527457' >スタミナのたね</a>",
+      "pinImage": "https://img.gamewith.jp/img/7f53e0c59fe6e5072e0683cea7a8b7be.png,https://img.gamewith.jp/img/original_7f53e0c59fe6e5072e0683cea7a8b7be.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "3028",
+      "loc": [
+        -91.9443359375,
+        87.328125
+      ],
+      "type": "sparkling",
+      "name": "ムーンブルクの城 東 平原",
+      "pinHTML": "<a href='https://gamewith.jp/dq1-2/527638' >うろこの盾</a><br>てつのやり",
+      "pinImage": "https://img.gamewith.jp/img/72b5ca688b65335ccaa87708084b79d1.png,https://img.gamewith.jp/img/original_72b5ca688b65335ccaa87708084b79d1.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "3029",
+      "loc": [
+        -93.7568359375,
+        74.265625
+      ],
+      "type": "sparkling",
+      "name": "ムーンブルクの城 南 山の先",
+      "pinHTML": "<a href='https://gamewith.jp/dq1-2/481393' >キメラのつばさ</a><br><a href='https://gamewith.jp/dq1-2/527571' >ぶとうぎ</a>",
+      "pinImage": "https://img.gamewith.jp/img/2c7b8dd77eae24887d52c2a0c3a88011.png,https://img.gamewith.jp/img/original_2c7b8dd77eae24887d52c2a0c3a88011.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "3030",
+      "loc": [
+        -92.7568359375,
+        64.734375
+      ],
+      "type": "sparkling",
+      "name": "ムーンブルクの城 南西 森の中",
+      "pinHTML": "<a href='https://gamewith.jp/dq1-2/481396' >やくそう</a>×2<br><a href='https://gamewith.jp/dq1-2/481384' >すばやさのたね</a>",
+      "pinImage": "https://img.gamewith.jp/img/b51722d8b79582d1f46bfdb941615398.png,https://img.gamewith.jp/img/original_b51722d8b79582d1f46bfdb941615398.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "3031",
+      "loc": [
+        -85.7880859375,
+        96.484375
+      ],
+      "type": "sparkling",
+      "name": "ムーンブルクの城 東 橋の先",
+      "pinHTML": "<a href='https://gamewith.jp/dq1-2/481396' >やくそう</a>×2<br><a href='https://gamewith.jp/dq1-2/481383' >まもりのたね</a>",
+      "pinImage": "https://img.gamewith.jp/img/c3c37949627c804324f381820945d496.png,https://img.gamewith.jp/img/original_c3c37949627c804324f381820945d496.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "3032",
+      "loc": [
+        -91.5380859375,
+        48.484375
+      ],
+      "type": "sparkling",
+      "name": "オアシス 東 森の中 ",
+      "pinHTML": "<a href='https://gamewith.jp/dq1-2/527450' >まんげつそう</a><br><a href='https://gamewith.jp/dq1-2/481396' >やくそう</a>×2<br><a href='https://gamewith.jp/dq1-2/481393' >キメラのつばさ</a>",
+      "pinImage": "https://img.gamewith.jp/img/63056993f84bf79378af358d3a6fb361.png,https://img.gamewith.jp/img/original_63056993f84bf79378af358d3a6fb361.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "3033",
+      "loc": [
+        -88.076171875,
+        34.59375
+      ],
+      "type": "sparkling",
+      "name": "オアシス 東 砂漠 ",
+      "pinHTML": "<a href='https://gamewith.jp/dq1-2/527522' >ターバン</a><br>266ゴールド<br><a href='https://gamewith.jp/dq1-2/527640' >きぬのエプロン</a>",
+      "pinImage": "https://img.gamewith.jp/img/9102514e6bca5b3294ff5d48ce44d3db.png,https://img.gamewith.jp/img/original_9102514e6bca5b3294ff5d48ce44d3db.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "3034",
+      "loc": [
+        -87.951171875,
+        25.03125
+      ],
+      "type": "sparkling",
+      "name": "オアシス 西 砂漠",
+      "pinHTML": "<a href='https://gamewith.jp/dq1-2/527636' >レイピア</a><br><a href='https://gamewith.jp/dq1-2/481394' >せいすい</a>×2<br>ふくぶきけん×3",
+      "pinImage": "https://img.gamewith.jp/img/48c1871c86f20653f58574d529db459c.png,https://img.gamewith.jp/img/original_48c1871c86f20653f58574d529db459c.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "3035",
+      "loc": [
+        -61.601097730502,
+        22.1602581593251
+      ],
+      "type": "sparkling",
+      "name": "ドラゴンの角 東 森の中",
+      "pinHTML": "<a href='https://gamewith.jp/dq1-2/481385' >ちからのたね</a><br><a href='https://gamewith.jp/dq1-2/527451' >においぶくろ</a><br><a href='https://gamewith.jp/dq1-2/527616' >ブーメラン</a>",
+      "pinImage": "https://img.gamewith.jp/img/ae23621fa22d8fc708edec0a874e467c.png,https://img.gamewith.jp/img/original_ae23621fa22d8fc708edec0a874e467c.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "3036",
+      "loc": [
+        -76.6318359375,
+        25.203125
+      ],
+      "type": "sparkling",
+      "name": "オアシス 北 森の中",
+      "pinHTML": "<a href='https://gamewith.jp/dq1-2/527456' >ささやきのみつ</a>×2<br><a href='https://gamewith.jp/dq1-2/527449' >ラックのたね</a>",
+      "pinImage": "https://img.gamewith.jp/img/90f189b0806ab36f586806ebf0d43bac.png,https://img.gamewith.jp/img/original_90f189b0806ab36f586806ebf0d43bac.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "3037",
+      "loc": [
+        -53.5693359375,
+        19.890625
+      ],
+      "type": "sparkling",
+      "name": "ルプガナの町 西 森の中",
+      "pinHTML": "<a href='https://gamewith.jp/dq1-2/527450' >まんげつそう</a>×2<br><a href='https://gamewith.jp/dq1-2/527984' >マヌーハそう</a><br><a href='https://gamewith.jp/dq1-2/527453' >かしこさのたね</a>",
+      "pinImage": "https://img.gamewith.jp/img/6eb6adecbea8545ba7daf4d1dd18ec5c.png,https://img.gamewith.jp/img/original_6eb6adecbea8545ba7daf4d1dd18ec5c.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "3038",
+      "loc": [
+        -47.6943359375,
+        25.359375
+      ],
+      "type": "sparkling",
+      "name": "ルプガナの町 北西 砂漠",
+      "pinHTML": "<a href='https://gamewith.jp/dq1-2/527638' >うろこの盾</a><br><a href='https://gamewith.jp/dq1-2/527606' >レザーマント</a>",
+      "pinImage": "https://img.gamewith.jp/img/9b1d4431217ceb52c9663c1551d312cc.png,https://img.gamewith.jp/img/original_9b1d4431217ceb52c9663c1551d312cc.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "3039",
+      "loc": [
+        -39.2857590605024,
+        13.956661868281
+      ],
+      "type": "sparkling",
+      "name": "ルプガナの町 北西 森の中",
+      "pinHTML": "はがねのつるぎ<br><a href='https://gamewith.jp/dq1-2/527628' >こうらの盾</a>",
+      "pinImage": "https://img.gamewith.jp/img/00aa84b51ca6f90b227fe1579d3c7343.png,https://img.gamewith.jp/img/original_00aa84b51ca6f90b227fe1579d3c7343.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "3040",
+      "loc": [
+        -47.5380859375,
+        33.265625
+      ],
+      "type": "sparkling",
+      "name": "ルプガナの町 北東 海の上",
+      "pinHTML": "<a href='https://gamewith.jp/dq1-2/481394' >せいすい</a>×2<br>82ゴールド<br><a href='https://gamewith.jp/dq1-2/527518' >ゴールドメイル</a>",
+      "pinImage": "https://img.gamewith.jp/img/678c4be27b53b3b2f057953883b24144.png,https://img.gamewith.jp/img/original_678c4be27b53b3b2f057953883b24144.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "3041",
+      "loc": [
+        -41.7255859375,
+        40.109375
+      ],
+      "type": "sparkling",
+      "name": "ラダトームの城 北西 平原",
+      "pinHTML": "<a href='https://gamewith.jp/dq1-2/527450' >まんげつそう</a><br><a href='https://gamewith.jp/dq1-2/481395' >どくけしそう</a>×2",
+      "pinImage": "https://img.gamewith.jp/img/8668ce9a7948bd2487e4fecc262859c3.png,https://img.gamewith.jp/img/original_8668ce9a7948bd2487e4fecc262859c3.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "3042",
+      "loc": [
+        -33.7880859375,
+        44.984375
+      ],
+      "type": "sparkling",
+      "name": "ロトの洞窟 北 森の中",
+      "pinHTML": "<a href='https://gamewith.jp/dq1-2/481396' >やくそう</a>×2<br><a href='https://gamewith.jp/dq1-2/527984' >マヌーハそう</a><br><a href='https://gamewith.jp/dq1-2/481384' >すばやさのたね</a>",
+      "pinImage": "https://img.gamewith.jp/img/48d69a94eddda468dc1fac491ed0d546.png,https://img.gamewith.jp/img/original_48d69a94eddda468dc1fac491ed0d546.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "3043",
+      "loc": [
+        -44.9443359375,
+        57.390625
+      ],
+      "type": "sparkling",
+      "name": "ラダトームの城 東 毒の沼地",
+      "pinHTML": "<a href='https://gamewith.jp/dq1-2/527451' >においぶくろ</a><br><a href='https://gamewith.jp/dq1-2/527981' >どくがのこな</a><br><a href='https://gamewith.jp/dq1-2/527455' >まほうのせいすい</a>",
+      "pinImage": "https://img.gamewith.jp/img/c12bd568777fb66b71970539199156a2.png,https://img.gamewith.jp/img/original_c12bd568777fb66b71970539199156a2.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "3044",
+      "loc": [
+        -34.6943359375,
+        66.828125
+      ],
+      "type": "sparkling",
+      "name": "マイラ 北東 森の中",
+      "pinHTML": "<a href='https://gamewith.jp/dq1-2/527456' >ささやきのみつ</a>×2<br><a href='https://gamewith.jp/dq1-2/481383' >まもりのたね</a><br><a href='https://gamewith.jp/dq1-2/527457' >スタミナのたね</a>",
+      "pinImage": "https://img.gamewith.jp/img/ce6d765be744a1b96d27813f534efbc9.png,https://img.gamewith.jp/img/original_ce6d765be744a1b96d27813f534efbc9.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "3045",
+      "loc": [
+        -57.72509765625,
+        34.03125
+      ],
+      "type": "sparkling",
+      "name": "ラダトームの城 南東 砂漠",
+      "pinHTML": "<a href='https://gamewith.jp/dq1-2/481393' >キメラのつばさ</a><br><a href='https://gamewith.jp/dq1-2/527987' >まだらくもいと</a><br>37ゴールド",
+      "pinImage": "https://img.gamewith.jp/img/31bc9758e64ae0b8afd53fadf5a57925.png,https://img.gamewith.jp/img/original_31bc9758e64ae0b8afd53fadf5a57925.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "3046",
+      "loc": [
+        -65.41259765625,
+        37.59375
+      ],
+      "type": "sparkling",
+      "name": "ラダトームの城 南南東  森の中",
+      "pinHTML": "<a href='https://gamewith.jp/dq1-2/481395' >どくけしそう</a><br><a href='https://gamewith.jp/dq1-2/527454' >上やくそう</a><br><a href='https://gamewith.jp/dq1-2/527457' >スタミナのたね</a>",
+      "pinImage": "https://img.gamewith.jp/img/af2ae0e0a2417666016151a61c3176ae.png,https://img.gamewith.jp/img/original_af2ae0e0a2417666016151a61c3176ae.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "3047",
+      "loc": [
+        -68.97509765625,
+        50.15625
+      ],
+      "type": "sparkling",
+      "name": "精霊のほこら 東 海辺",
+      "pinHTML": "<a href='https://gamewith.jp/dq1-2/481396' >やくそう</a><br><a href='https://gamewith.jp/dq1-2/527450' >まんげつそう</a><br><a href='https://gamewith.jp/dq1-2/527449' >ラックのたね</a>",
+      "pinImage": "https://img.gamewith.jp/img/31683c777a083bc447b8f44af7e6522b.png,https://img.gamewith.jp/img/original_31683c777a083bc447b8f44af7e6522b.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "3048",
+      "loc": [
+        -54.31884765625,
+        57.59375
+      ],
+      "type": "sparkling",
+      "name": "リムルダール 西 森の中",
+      "pinHTML": "6ゴールド<br><a href='https://gamewith.jp/dq1-2/481395' >どくけしそう</a><br><a href='https://gamewith.jp/dq1-2/481391' >ふくびきけん</a>×3",
+      "pinImage": "https://img.gamewith.jp/img/4711f4ca8ea23e695845c46c71fec633.png,https://img.gamewith.jp/img/original_4711f4ca8ea23e695845c46c71fec633.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "3049",
+      "loc": [
+        -56.69384765625,
+        66.46875
+      ],
+      "type": "sparkling",
+      "name": "リムルダール 東 海の上",
+      "pinHTML": "<a href='https://gamewith.jp/dq1-2/527636' >レイピア</a><br>はねぼうし<br><a href='https://gamewith.jp/dq1-2/527575' >ライトシールド</a>",
+      "pinImage": "https://img.gamewith.jp/img/cc5a7b3f23ab37a945c131f735ff9d2b.png,https://img.gamewith.jp/img/original_cc5a7b3f23ab37a945c131f735ff9d2b.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "3050",
+      "loc": [
+        -106.1005859375,
+        111.578125
+      ],
+      "type": "sparkling",
+      "name": "風の塔 南東 山の先",
+      "pinHTML": "<a href='https://gamewith.jp/dq1-2/527984' >マヌーハそう</a><br><a href='https://gamewith.jp/dq1-2/527453' >かしこさのたね</a><br><a href='https://gamewith.jp/dq1-2/481383' >まもりのたね</a>",
+      "pinImage": "https://img.gamewith.jp/img/70771dfa441fa27fe91f130636a40e20.png,https://img.gamewith.jp/img/original_70771dfa441fa27fe91f130636a40e20.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "3051",
+      "loc": [
+        -101.9130859375,
+        100.078125
+      ],
+      "type": "sparkling",
+      "name": "風の塔 南南東 山の先",
+      "pinHTML": "<a href='https://gamewith.jp/dq1-2/527449' >ラックのたね</a>×2<br><a href='https://gamewith.jp/dq1-2/527633' >うさぎのしっぽ</a><br><a href='https://gamewith.jp/dq1-2/527501' >しあわせのぼうし</a>",
+      "pinImage": "https://img.gamewith.jp/img/9275a4365343b4b0d28ccefcabe7c105.png,https://img.gamewith.jp/img/original_9275a4365343b4b0d28ccefcabe7c105.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "3052",
+      "loc": [
+        -150.5126953125,
+        37.875
+      ],
+      "type": "sparkling",
+      "name": "ベラヌール 南の林",
+      "pinHTML": "<a href='https://gamewith.jp/dq1-2/527449' >ラックのたね</a><br><a href='https://gamewith.jp/dq1-2/527450' >まんげつそう</a><br><a href='https://gamewith.jp/dq1-2/481385' >ちからのたね</a>",
+      "pinImage": "https://img.gamewith.jp/img/ec70d8b7f6dff955b22e0bb5280c8166.png,https://img.gamewith.jp/img/original_ec70d8b7f6dff955b22e0bb5280c8166.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "3053",
+      "loc": [
+        -149.5693359375,
+        149.484375
+      ],
+      "type": "sparkling",
+      "name": "炎のほこら 北東 海の上",
+      "pinHTML": "<a href='https://gamewith.jp/dq1-2/527641' >おなべのフタ</a><br>皮のよろい<br><a href='https://gamewith.jp/dq1-2/527642' >たけざお</a>",
+      "pinImage": "https://img.gamewith.jp/img/0b3d030a60f6035ebe53e13ec96e2713.png,https://img.gamewith.jp/img/original_0b3d030a60f6035ebe53e13ec96e2713.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "3054",
+      "loc": [
+        -155.6630859375,
+        116.046875
+      ],
+      "type": "sparkling",
+      "name": "ペルポイの町 南西 森の中",
+      "pinHTML": "<a href='https://gamewith.jp/dq1-2/481395' >どくけしそう</a><br><a href='https://gamewith.jp/dq1-2/527456' >ささやきのみつ</a><br><a href='https://gamewith.jp/dq1-2/481385' >ちからのたね</a>",
+      "pinImage": "https://img.gamewith.jp/img/e472a5c5399a872af69086d596445f60.png,https://img.gamewith.jp/img/original_e472a5c5399a872af69086d596445f60.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "3055",
+      "loc": [
+        -151.9755859375,
+        99.390625
+      ],
+      "type": "sparkling",
+      "name": "ペルポイの町 南東 森の中",
+      "pinHTML": "<a href='https://gamewith.jp/dq1-2/481396' >やくそう</a>×3<br><a href='https://gamewith.jp/dq1-2/481384' >すばやさのたね</a>",
+      "pinImage": "https://img.gamewith.jp/img/48893e168b2bbb2cda04b8bbb30fa396.png,https://img.gamewith.jp/img/original_48893e168b2bbb2cda04b8bbb30fa396.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "3056",
+      "loc": [
+        -129.25634765625,
+        27.53125
+      ],
+      "type": "sparkling",
+      "name": "ベラヌール 北 湖の外周",
+      "pinHTML": "<a href='https://gamewith.jp/dq1-2/527612' >せいどうの盾</a><br><a href='https://gamewith.jp/dq1-2/527636' >レイピア</a><br><a href='https://gamewith.jp/dq1-2/527596' >まんげつのリング</a>",
+      "pinImage": "https://img.gamewith.jp/img/75fd3387043304d847af331ae82b88fd.png,https://img.gamewith.jp/img/original_75fd3387043304d847af331ae82b88fd.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "3057",
+      "loc": [
+        -137.3876953125,
+        42.375
+      ],
+      "type": "sparkling",
+      "name": "ベラヌール 東 海上",
+      "pinHTML": "<a href='https://gamewith.jp/dq1-2/481394' >せいすい</a>×2<br><a href='https://gamewith.jp/dq1-2/527455' >まほうのせいすい</a><br><a href='https://gamewith.jp/dq1-2/527986' >天使のすず</a>",
+      "pinImage": "https://img.gamewith.jp/img/f063e555e4f566e458632807de44c0ea.png,https://img.gamewith.jp/img/original_f063e555e4f566e458632807de44c0ea.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "3058",
+      "loc": [
+        -125.44384765625,
+        56.53125
+      ],
+      "type": "sparkling",
+      "name": "ベラヌール 東 対岸の山脈麓",
+      "pinHTML": "<a href='https://gamewith.jp/dq1-2/527538' >てつの盾</a><br>てつのやり",
+      "pinImage": "https://img.gamewith.jp/img/39e2ca598e0deed3d219558ffb1764dc.png,https://img.gamewith.jp/img/original_39e2ca598e0deed3d219558ffb1764dc.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "3059",
+      "loc": [
+        -120.3251953125,
+        41.125
+      ],
+      "type": "sparkling",
+      "name": "ベラヌール 北東の離小島",
+      "pinHTML": "<a href='https://gamewith.jp/dq1-2/481393' >キメラのつばさ</a><br><a href='https://gamewith.jp/dq1-2/527451' >においぶくろ</a><br><a href='https://gamewith.jp/dq1-2/481383' >まもりのたね</a>",
+      "pinImage": "https://img.gamewith.jp/img/26c2af71ec0ee83ca049a46c3b2b7cef.png,https://img.gamewith.jp/img/original_26c2af71ec0ee83ca049a46c3b2b7cef.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "3060",
+      "loc": [
+        -108.81884765625,
+        39.25
+      ],
+      "type": "sparkling",
+      "name": "ベラヌール北のほこら 東北 対岸の山地帯",
+      "pinHTML": "<a href='https://gamewith.jp/dq1-2/527454' >上やくそう</a>×2<br><a href='https://gamewith.jp/dq1-2/481384' >すばやさのたね</a>",
+      "pinImage": "https://img.gamewith.jp/img/4c18e02c3b8742ce41bb1281cba69317.png,https://img.gamewith.jp/img/original_4c18e02c3b8742ce41bb1281cba69317.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "3061",
+      "loc": [
+        -98.78759765625,
+        39.53125
+      ],
+      "type": "sparkling",
+      "name": "オアシス 南 川の間",
+      "pinHTML": "<a href='https://gamewith.jp/dq1-2/527449' >ラックのたね</a><br><a href='https://gamewith.jp/dq1-2/481395' >どくけしそう</a>×2<br><a href='https://gamewith.jp/dq1-2/527457' >スタミナのたね</a>",
+      "pinImage": "https://img.gamewith.jp/img/ccba2afadde5bc99ded9ad55fc5bcba3.png,https://img.gamewith.jp/img/original_ccba2afadde5bc99ded9ad55fc5bcba3.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "3062",
+      "loc": [
+        -98.28759765625,
+        30
+      ],
+      "type": "sparkling",
+      "name": "オアシス 南 山の先",
+      "pinHTML": "<a href='https://gamewith.jp/dq1-2/527611' >石のぼうし</a><br>うろこの盾<br>くさりがま",
+      "pinImage": "https://img.gamewith.jp/img/9178ce73f5dbda693deda8082b5bb3d6.png,https://img.gamewith.jp/img/original_9178ce73f5dbda693deda8082b5bb3d6.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "3063",
+      "loc": [
+        -98.66259765625,
+        48.46875
+      ],
+      "type": "sparkling",
+      "name": "テパの西にある山の先",
+      "pinHTML": "<a href='https://gamewith.jp/dq1-2/527455' >まほうのせいすい</a>×2<br><a href='https://gamewith.jp/dq1-2/527607' >だいまどうローブ</a>",
+      "pinImage": "https://img.gamewith.jp/img/23c6f645c15c2fabff0f30f9528e0194.png,https://img.gamewith.jp/img/original_23c6f645c15c2fabff0f30f9528e0194.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "3064",
+      "loc": [
+        -94.5108290741234,
+        12.9933088735391
+      ],
+      "type": "sparkling",
+      "name": "メダル王の島 南西 海の上",
+      "pinHTML": "106ゴールド<br><a href='https://gamewith.jp/dq1-2/527606' >レザーマント</a><br><a href='https://gamewith.jp/dq1-2/527594' >ルビーのうでわ</a>",
+      "pinImage": "https://img.gamewith.jp/img/516e84614a66fecedc8796a1ef5040f9.png,https://img.gamewith.jp/img/original_516e84614a66fecedc8796a1ef5040f9.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "3065",
+      "loc": [
+        -141.77734375,
+        21.6875
+      ],
+      "type": "sparkling",
+      "name": "ベラヌール 西 海の上",
+      "pinHTML": "136ゴールド<br><a href='https://gamewith.jp/dq1-2/527580' >くろしょうぞく</a><br>209ゴールド",
+      "pinImage": "https://img.gamewith.jp/img/6e3717597e931cbd63b2f0158e910481.png,https://img.gamewith.jp/img/original_6e3717597e931cbd63b2f0158e910481.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "3066",
+      "loc": [
+        -151.77734375,
+        58.4375
+      ],
+      "type": "sparkling",
+      "name": "ベラヌール 南東 離小島",
+      "pinHTML": "まどうしの杖<br><a href='https://gamewith.jp/dq1-2/527597' >まじょの服</a><br><a href='https://gamewith.jp/dq1-2/527306' >バシルーラの巻物</a>",
+      "pinImage": "https://img.gamewith.jp/img/099e2ec2dd5fc1e0d7a08952cd02a29f.png,https://img.gamewith.jp/img/original_099e2ec2dd5fc1e0d7a08952cd02a29f.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "3067",
+      "loc": [
+        -158.5546875,
+        81.875
+      ],
+      "type": "sparkling",
+      "name": "ペルポイ 南西 海の上",
+      "pinHTML": "<a href='https://gamewith.jp/dq1-2/527571' >ぶとうぎ</a><br>ちからのゆびわ",
+      "pinImage": "https://img.gamewith.jp/img/157af10b07bf38f075b2014918431138.png,https://img.gamewith.jp/img/original_157af10b07bf38f075b2014918431138.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "3068",
+      "loc": [
+        -114.3193359375,
+        142.140625
+      ],
+      "type": "sparkling",
+      "name": "デルコンダル 南西 森の中",
+      "pinHTML": "<a href='https://gamewith.jp/dq1-2/527453' >かしこさのたね</a><br><a href='https://gamewith.jp/dq1-2/527449' >ラックのたね</a>",
+      "pinImage": "https://img.gamewith.jp/img/bc241cd2f04ea99b2946d84afabaf94a.png,https://img.gamewith.jp/img/original_bc241cd2f04ea99b2946d84afabaf94a.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "3069",
+      "loc": [
+        -108.1318359375,
+        152.828125
+      ],
+      "type": "sparkling",
+      "name": "デルコンダル 南東 砂漠",
+      "pinHTML": "てつのやり<br><a href='https://gamewith.jp/dq1-2/527610' >せいどうのよろい</a>",
+      "pinImage": "https://img.gamewith.jp/img/60f4108c1efb0e7feb11cdaaf3d2d915.png,https://img.gamewith.jp/img/original_60f4108c1efb0e7feb11cdaaf3d2d915.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "3070",
+      "loc": [
+        -139.52734375,
+        115.6875
+      ],
+      "type": "sparkling",
+      "name": "ペルポイの町 北東 海の上 ",
+      "pinHTML": "<a href='https://gamewith.jp/dq1-2/527547' >きぞくの服</a><br>416ゴールド<br><a href='https://gamewith.jp/dq1-2/527154' >いなずまの巻物</a>",
+      "pinImage": "https://img.gamewith.jp/img/a13809409db3b0e80c3ef0c8cfb1a078.png,https://img.gamewith.jp/img/original_a13809409db3b0e80c3ef0c8cfb1a078.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "3071",
+      "loc": [
+        -64.201171875,
+        143.40625
+      ],
+      "type": "sparkling",
+      "name": "ローレシア 南西 海の上 ",
+      "pinHTML": "<a href='https://gamewith.jp/dq1-2/527591' >マジカルスカート</a><br><a href='https://gamewith.jp/dq1-2/527569' >ステテコパンツ</a>",
+      "pinImage": "https://img.gamewith.jp/img/0d11fa32170dcd6fb8fad5589341577f.png,https://img.gamewith.jp/img/original_0d11fa32170dcd6fb8fad5589341577f.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "3072",
+      "loc": [
+        -73.326171875,
+        141.34375
+      ],
+      "type": "sparkling",
+      "name": "ローレシア 南の島 森の中",
+      "pinHTML": "<a href='https://gamewith.jp/dq1-2/527456' >ささやきのみつ</a>×2<br><a href='https://gamewith.jp/dq1-2/481383' >まもりのたね</a><br><a href='https://gamewith.jp/dq1-2/527985' >命の石</a>",
+      "pinImage": "https://img.gamewith.jp/img/5d8536203b1bdae70b8edb4df0695004.png,https://img.gamewith.jp/img/original_5d8536203b1bdae70b8edb4df0695004.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "3073",
+      "loc": [
+        -65.451171875,
+        147.84375
+      ],
+      "type": "sparkling",
+      "name": "ローレシア 南の島 砂漠",
+      "pinHTML": "<a href='https://gamewith.jp/dq1-2/481393' >キメラのつばさ</a><br><a href='https://gamewith.jp/dq1-2/527986' >天使のすず</a><br>命のきのみ",
+      "pinImage": "https://img.gamewith.jp/img/82dcdf56257f58850736d0f00e5219d7.png,https://img.gamewith.jp/img/original_82dcdf56257f58850736d0f00e5219d7.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "3074",
+      "loc": [
+        -74.8193359375,
+        153.921875
+      ],
+      "type": "sparkling",
+      "name": "ローレシア 南の島 砂漠",
+      "pinHTML": "たびびとの服<br>254ゴールド<br><a href='https://gamewith.jp/dq1-2/481384' >すばやさのたね</a>",
+      "pinImage": "https://img.gamewith.jp/img/6e2aac7e431350b4398a1e477c8847bc.png,https://img.gamewith.jp/img/original_6e2aac7e431350b4398a1e477c8847bc.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "3075",
+      "loc": [
+        -171.41259765625,
+        84.46875
+      ],
+      "type": "sparkling_deep",
+      "name": "ペルポイ 南西の海底",
+      "pinHTML": "<a href='https://gamewith.jp/dq1-2/527938' >はめつの盾</a><br><a href='https://gamewith.jp/dq1-2/527937' >みなごろしの剣</a>",
+      "pinImage": "https://img.gamewith.jp/img/70e9c61ef734d82fd4481c5e127b74ce.png,https://img.gamewith.jp/img/original_70e9c61ef734d82fd4481c5e127b74ce.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "3076",
+      "loc": [
+        -127.1943359375,
+        124.453125
+      ],
+      "type": "sparkling_deep",
+      "name": "海底火山の洞窟の南の海中",
+      "pinHTML": "<a href='https://gamewith.jp/dq1-2/527972' >ガイアのつるぎ</a>",
+      "pinImage": "https://img.gamewith.jp/img/cafe57159179d6be16adc861d7e88b2b.png,https://img.gamewith.jp/img/original_cafe57159179d6be16adc861d7e88b2b.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "3077",
+      "loc": [
+        -26.388671875,
+        166.03125
+      ],
+      "type": "sparkling",
+      "name": "勇者の泉の洞窟 南東の海の上",
+      "pinHTML": "<a href='https://gamewith.jp/dq1-2/527455' >まほうのせいすい</a><br><a href='https://gamewith.jp/dq1-2/527527' >きぬのローブ</a><br><a href='https://gamewith.jp/dq1-2/527601' >インテリハット</a>",
+      "pinImage": "https://img.gamewith.jp/img/10bd04028602cf676391dcbecc23f38a.png,https://img.gamewith.jp/img/original_10bd04028602cf676391dcbecc23f38a.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "3078",
+      "loc": [
+        -19.576171875,
+        168.65625
+      ],
+      "type": "sparkling",
+      "name": "勇者の泉の洞窟  東の離島",
+      "pinHTML": "こんぼう<br><a href='https://gamewith.jp/dq1-2/527611' >石のぼうし</a><br><a href='https://gamewith.jp/dq1-2/527456' >ささやきのみつ</a>×2",
+      "pinImage": "https://img.gamewith.jp/img/be5b6b6eac6c25155ced28f473c76fc7.png,https://img.gamewith.jp/img/original_be5b6b6eac6c25155ced28f473c76fc7.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "3079",
+      "loc": [
+        -51.388671875,
+        156.28125
+      ],
+      "type": "sparkling",
+      "name": "ローレシア 南東 山の先",
+      "pinHTML": "<a href='https://gamewith.jp/dq1-2/481396' >やくそう</a><br><a href='https://gamewith.jp/dq1-2/527452' >特やくそう</a>",
+      "pinImage": "https://img.gamewith.jp/img/57dc47ec06143316e24052a908cea3cc.png,https://img.gamewith.jp/img/original_57dc47ec06143316e24052a908cea3cc.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "3080",
+      "loc": [
+        -33.3505859375,
+        144.296875
+      ],
+      "type": "sparkling",
+      "name": "勇者の泉の洞窟 南西 海の先",
+      "pinHTML": "<a href='https://gamewith.jp/dq1-2/481395' >どくけしそう</a><br><a href='https://gamewith.jp/dq1-2/527984' >マヌーハそう</a><br><a href='https://gamewith.jp/dq1-2/527938' >はめつの盾</a>",
+      "pinImage": "https://img.gamewith.jp/img/21bf07a63aadfed3ca892cb1eeaab975.png,https://img.gamewith.jp/img/original_21bf07a63aadfed3ca892cb1eeaab975.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "3081",
+      "loc": [
+        -28.6318359375,
+        85.578125
+      ],
+      "type": "sparkling",
+      "name": "妖精の城 北東 山の先",
+      "pinHTML": "<a href='https://gamewith.jp/dq1-2/527603' >デビルアーマー</a><br><a href='https://gamewith.jp/dq1-2/481391' >ふくびきけん</a>×9<br><a href='https://gamewith.jp/dq1-2/527526' >りりょくの杖</a>",
+      "pinImage": "https://img.gamewith.jp/img/ff197df60183a27e71039c9e20278457.png,https://img.gamewith.jp/img/original_ff197df60183a27e71039c9e20278457.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "3082",
+      "loc": [
+        -68.9429722214417,
+        16.9967654829905
+      ],
+      "type": "sparkling",
+      "name": "ドラゴンの角・南 南西 海の上 ",
+      "pinHTML": "布の服×2<br>ターバン <br>ブロンズナイフ　　",
+      "pinImage": "https://img.gamewith.jp/img/fb4e70f04f6bd7afba1135af04ca2865.png,https://img.gamewith.jp/img/original_fb4e70f04f6bd7afba1135af04ca2865.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "3083",
+      "loc": [
+        -20.1008932516851,
+        62.5469837746349
+      ],
+      "type": "sparkling",
+      "name": "湖の洞窟 北西 海の上 ",
+      "pinHTML": "<a href='https://gamewith.jp/dq1-2/527451' >においぶくろ</a>×2<br><a href='https://gamewith.jp/dq1-2/527981' >どくがのこな</a>×2<br>うさぎのしっぽ",
+      "pinImage": "https://img.gamewith.jp/img/ddf6e599518aa13eada5f094f72f38f9.png,https://img.gamewith.jp/img/original_ddf6e599518aa13eada5f094f72f38f9.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "3084",
+      "loc": [
+        -102.701171875,
+        79.59375
+      ],
+      "type": "sparkling",
+      "name": "ムーンブルク西のほこら 南東 海の上 ",
+      "pinHTML": "ホーリーランス <br>ホワイトシールド <br>まよけの聖印",
+      "pinImage": "https://img.gamewith.jp/img/ef093229009727d0ce5a998e75ab20d0.png,https://img.gamewith.jp/img/original_ef093229009727d0ce5a998e75ab20d0.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "3085",
+      "loc": [
+        -128.076171875,
+        91.78125
+      ],
+      "type": "sparkling",
+      "name": "ロンダルキアのほこら 南東 森の中",
+      "pinHTML": "<a href='https://gamewith.jp/dq1-2/481396' >やくそう</a><br><a href='https://gamewith.jp/dq1-2/527450' >まんげつそう</a><br><a href='https://gamewith.jp/dq1-2/481383' >まもりのたね</a>",
+      "pinImage": "https://img.gamewith.jp/img/de8eac83195a554746fd24b76f9af175.png,https://img.gamewith.jp/img/original_de8eac83195a554746fd24b76f9af175.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "3086",
+      "loc": [
+        -118.388671875,
+        89.84375
+      ],
+      "type": "sparkling",
+      "name": "ロンダルキアのほこら 南西 ",
+      "pinHTML": "はがねのよろい<br>はがねのつるぎ<br><a href='https://gamewith.jp/dq1-2/527454' >上やくそう</a>×2",
+      "pinImage": "https://img.gamewith.jp/img/60c04db8758b6f835f1b9f0b0ddb2e52.png,https://img.gamewith.jp/img/original_60c04db8758b6f835f1b9f0b0ddb2e52.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "3087",
+      "loc": [
+        -129.638671875,
+        69.65625
+      ],
+      "type": "sparkling",
+      "name": "ハーゴンの神殿 南西",
+      "pinHTML": "<a href='https://gamewith.jp/dq1-2/527984' >マヌーハそう</a>×2<br><a href='https://gamewith.jp/dq1-2/481381' >ふしぎなきのみ</a>",
+      "pinImage": "https://img.gamewith.jp/img/a08dc218ed211666e5abc0dc505b70d7.png,https://img.gamewith.jp/img/original_a08dc218ed211666e5abc0dc505b70d7.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "3088",
+      "loc": [
+        -123.451171875,
+        81.15625
+      ],
+      "type": "sparkling",
+      "name": "雪原のほこら 南東 ",
+      "pinHTML": "毛皮のフード<br><a href='https://gamewith.jp/dq1-2/527494' >まじないしの服</a><br><a href='https://gamewith.jp/dq1-2/527576' >ルーンスタッフ</a>",
+      "pinImage": "https://img.gamewith.jp/img/cace8f8295ce477e058f92e90e339576.png,https://img.gamewith.jp/img/original_cace8f8295ce477e058f92e90e339576.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "3089",
+      "loc": [
+        -164.951171875,
+        30.21875
+      ],
+      "type": "sparkling_ocean",
+      "name": "ベラヌール 南西 海底",
+      "pinHTML": "布の服 <br>ブロンズナイフ<br>竜のうろこ",
+      "pinImage": "https://img.gamewith.jp/img/8d1ba6871922d98f061e745d7f580dbb.png,https://img.gamewith.jp/img/original_8d1ba6871922d98f061e745d7f580dbb.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "3090",
+      "loc": [
+        -138.701171875,
+        57.90625
+      ],
+      "type": "sparkling_ocean",
+      "name": "ベラヌール 東 海底",
+      "pinHTML": "248G<br><a href='https://gamewith.jp/dq1-2/527664' >シルバートレイ</a><br><a href='https://gamewith.jp/dq1-2/527472' >ピンクパール</a>",
+      "pinImage": "https://img.gamewith.jp/img/3f4dfbdb1e38642759b901a64e4e6992.png,https://img.gamewith.jp/img/original_3f4dfbdb1e38642759b901a64e4e6992.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "3091",
+      "loc": [
+        -28.888671875,
+        14.53125
+      ],
+      "type": "sparkling_ocean",
+      "name": "ガライ 北西 海底",
+      "pinHTML": "<a href='https://gamewith.jp/dq1-2/527547' >きぞくの服</a><br>1267G",
+      "pinImage": "https://img.gamewith.jp/img/d52dc26f9e3ce4b7fd544d435ed564f2.png,https://img.gamewith.jp/img/original_d52dc26f9e3ce4b7fd544d435ed564f2.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "3092",
+      "loc": [
+        -82.638671875,
+        11.53125
+      ],
+      "type": "sparkling_ocean",
+      "name": "メダル王の島 西 海底",
+      "pinHTML": "<a href='https://gamewith.jp/dq1-2/481394' >せいすい</a>×3<br>せいなるナイフ<br><a href='https://gamewith.jp/dq1-2/527985' >命の石</a>",
+      "pinImage": "https://img.gamewith.jp/img/5b1bcbebd4aa48e28b1a2b430c6e2b7c.png,https://img.gamewith.jp/img/original_5b1bcbebd4aa48e28b1a2b430c6e2b7c.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "3094",
+      "loc": [
+        -55.7880859375,
+        110.796875
+      ],
+      "type": "sparkling_ocean",
+      "name": "リリザ 西 海底",
+      "pinHTML": "<a href='https://gamewith.jp/dq1-2/527473' >サンゴのかみかざり</a>",
+      "pinImage": "https://img.gamewith.jp/img/c9afa92e0ea319eda50e6af6549f401e.png,https://img.gamewith.jp/img/original_c9afa92e0ea319eda50e6af6549f401e.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "3095",
+      "loc": [
+        -93.513671875,
+        120.09375
+      ],
+      "type": "sparkling_ocean",
+      "name": "風の塔 東 海底 ",
+      "pinHTML": "<a href='https://gamewith.jp/dq1-2/527551' >はがねのかぶと</a><br>はがねのつるぎ",
+      "pinImage": "https://img.gamewith.jp/img/cfe2f99344b96d4c9cbcc043ebf35f47.png,https://img.gamewith.jp/img/original_cfe2f99344b96d4c9cbcc043ebf35f47.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "3096",
+      "loc": [
+        -84.15234375,
+        164.1875
+      ],
+      "type": "sparkling_ocean",
+      "name": "ローレシア 南東 海底",
+      "pinHTML": "<a href='https://gamewith.jp/dq1-2/527986' >天使のすず</a>×2<br><a href='https://gamewith.jp/dq1-2/527455' >まほうのせいすい</a><br><a href='https://gamewith.jp/dq1-2/527458' >バイキルミン</a>",
+      "pinImage": "https://img.gamewith.jp/img/b5d9395d76fe1080cc0e671aefddf0cd.png,https://img.gamewith.jp/img/original_b5d9395d76fe1080cc0e671aefddf0cd.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "3097",
+      "loc": [
+        -46.52734375,
+        165.3125
+      ],
+      "type": "sparkling_ocean",
+      "name": "ローレシア 東 海底 ",
+      "pinHTML": "<a href='https://gamewith.jp/dq1-2/527574' >風のぼうし</a><br><a href='https://gamewith.jp/dq1-2/527660' >風のブーメラン</a>",
+      "pinImage": "https://img.gamewith.jp/img/746b0f643696794ada5bb5da914a3ff4.png,https://img.gamewith.jp/img/original_746b0f643696794ada5bb5da914a3ff4.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "3098",
+      "loc": [
+        -54.888671875,
+        82.71875
+      ],
+      "type": "sparkling_deep",
+      "name": "妖精の城 南 深海",
+      "pinHTML": "<a href='https://gamewith.jp/dq1-2/527568' >こおりの盾</a><br>ようせいのうでわ",
+      "pinImage": "https://img.gamewith.jp/img/62f60a5b9ae3983f55d6933983e43324.png,https://img.gamewith.jp/img/original_62f60a5b9ae3983f55d6933983e43324.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "3099",
+      "loc": [
+        -70.7908927526105,
+        174.802818033334
+      ],
+      "type": "sparkling_deep",
+      "name": "ローレシア 南東 深海",
+      "pinHTML": "<a href='https://gamewith.jp/dq1-2/527552' >てっかめん</a><br>ごうけつのうでわ",
+      "pinImage": "https://img.gamewith.jp/img/384fc92b481dbf6d48f09bf73fc0c4a3.png,https://img.gamewith.jp/img/original_384fc92b481dbf6d48f09bf73fc0c4a3.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "3100",
+      "loc": [
+        -129.27734375,
+        158.5625
+      ],
+      "type": "sparkling_deep",
+      "name": "デルコンダル 南東 深海 ",
+      "pinHTML": "せいなるナイフ<br><a href='https://gamewith.jp/dq1-2/527496' >うみなりの杖</a><br><a href='https://gamewith.jp/dq1-2/527982' >けんじゃのせいすい</a>",
+      "pinImage": "https://img.gamewith.jp/img/a071a4af76ce06559341830ce0637524.png,https://img.gamewith.jp/img/original_a071a4af76ce06559341830ce0637524.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "3101",
+      "loc": [
+        -136.15234375,
+        1.4375
+      ],
+      "type": "sparkling_deep",
+      "name": "ベラヌール 北西 深海",
+      "pinHTML": "<a href='https://gamewith.jp/dq1-2/527455' >まほうのせいすい</a><br><a href='https://gamewith.jp/dq1-2/527985' >命の石</a>×2",
+      "pinImage": "https://img.gamewith.jp/img/85bd6761f75753f755abaa7931f35ee4.png,https://img.gamewith.jp/img/original_85bd6761f75753f755abaa7931f35ee4.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "3102",
+      "loc": [
+        -166.90234375,
+        10.8125
+      ],
+      "type": "sparkling_deep",
+      "name": "アルメハ 南西 深海",
+      "pinHTML": "<a href='https://gamewith.jp/dq1-2/527473' >サンゴのかみかざり</a><br><a href='https://gamewith.jp/dq1-2/527472' >ピンクパール</a><br><a href='https://gamewith.jp/dq1-2/481387' >いのりのゆびわ</a>",
+      "pinImage": "https://img.gamewith.jp/img/50ae54702faafaca0b627507226cdfbc.png,https://img.gamewith.jp/img/original_50ae54702faafaca0b627507226cdfbc.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "3103",
+      "loc": [
+        -4.28434007215881,
+        37.6509569797027
+      ],
+      "type": "sparkling_deep",
+      "name": "ガライ 北東 深海",
+      "pinHTML": "てつかぶと<br>はがねのつるぎ",
+      "pinImage": "https://img.gamewith.jp/img/d273df1ed528e1a1fc2a02326233575c.png,https://img.gamewith.jp/img/original_d273df1ed528e1a1fc2a02326233575c.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "3104",
+      "loc": [
+        -144.93211400886,
+        65.7689629311983
+      ],
+      "type": "sparkling_deep",
+      "name": "人魚の聖域 北西 深海",
+      "pinHTML": "<a href='https://gamewith.jp/dq1-2/527938' >はめつの盾</a><br><a href='https://gamewith.jp/dq1-2/527937' >みなごろしの剣</a>",
+      "pinImage": "https://img.gamewith.jp/img/69d210cfa956b1d73f385d8f428e0584.png,https://img.gamewith.jp/img/original_69d210cfa956b1d73f385d8f428e0584.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "3105",
+      "loc": [
+        -168.090442119776,
+        125.34834126894
+      ],
+      "type": "sparkling_deep",
+      "name": "世界樹の森 南西 深海",
+      "pinHTML": "てつのやり<br><a href='https://gamewith.jp/dq1-2/527588' >いしのかつら</a><br>破幻のネックレス",
+      "pinImage": "https://img.gamewith.jp/img/cbc9c6bfef60dd451baf74dc0df391c6.png,https://img.gamewith.jp/img/original_cbc9c6bfef60dd451baf74dc0df391c6.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "3106",
+      "loc": [
+        -72.65234375,
+        122.0625
+      ],
+      "type": "sparkling_deep",
+      "name": "リリザ 南 深海",
+      "pinHTML": "<a href='https://gamewith.jp/dq1-2/527522' >ターバン</a><br><a href='https://gamewith.jp/dq1-2/527582' >スライムピアス</a><br>7455G",
+      "pinImage": "https://img.gamewith.jp/img/ec52fc26304d415acbd70220c06b1235.png,https://img.gamewith.jp/img/original_ec52fc26304d415acbd70220c06b1235.png"
+    },
+    {
+      "mapId": "世界の地図",
+      "id": "3107",
+      "loc": [
+        -64.77734375,
+        103.0625
+      ],
+      "type": "sparkling",
+      "name": "森の廃村 北 森の中",
+      "pinHTML": "<a href='https://gamewith.jp/dq1-2/527454' >上やくそう</a><br><a href='https://gamewith.jp/dq1-2/481385' >ちからのたね</a>",
+      "pinImage": "https://img.gamewith.jp/img/f2773a5afb7de35202042cf0706fd045.png,https://img.gamewith.jp/img/original_f2773a5afb7de35202042cf0706fd045.png"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <title>勇者斗恶龙 II · HD-2D 互动地图攻略</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#world"><span class="crest" aria-hidden="true">✦</span><span><strong id="gameTitle">勇者斗恶龙 II</strong><small>HD-2D REMAKE · 中文互动攻略</small></span></a>
+    <div class="search-wrap"><label class="sr-only" for="search">搜索攻略</label><input id="search" type="search" role="combobox" aria-autocomplete="list" aria-haspopup="listbox" placeholder="地点、道具、NPC、怪物…  /" autocomplete="off" aria-controls="searchResults" aria-expanded="false"><div id="searchResults" role="listbox" hidden></div></div>
+    <a id="otherGame" class="switch-game" href="../勇者斗恶龙1/index.html">前往 I ↗</a>
+  </header>
+  <nav class="main-nav" aria-label="攻略栏目"><button data-view="world">世界地图</button><button data-view="chapters">主线流程</button><button data-view="guides">队伍与技巧</button><button data-view="coverage">资料与来源</button><span id="totalProgress"></span></nav>
+  <div id="storageNotice" class="storage-notice" role="status" hidden></div>
+  <main class="layout">
+    <aside class="directory"><div class="directory-head"><span>地点目录</span><span id="locationCount"></span></div><label class="sr-only" for="region">选择地区</label><select id="region"><option value="all">全部地区</option></select><div id="typeFilters" class="pills"></div><label class="sr-only" for="localSearch">筛选地点</label><input id="localSearch" type="search" placeholder="筛选当前目录"><div id="locationList"></div></aside>
+    <section class="workspace" id="workspace" aria-label="地图与攻略">
+      <div class="map-head"><div><div id="breadcrumb" class="eyebrow">勇者斗恶龙 II 的世界</div><h1 id="mapTitle">世界地图</h1></div><div class="map-controls"><button id="annotationToggle" aria-pressed="true" title="切换中文标注与日文原图">中文标注</button><button id="world" title="返回世界地图">↶ 世界</button><button id="zoomIn" aria-label="放大地图">＋</button><button id="zoomOut" aria-label="缩小地图">−</button><button id="resetZoom" title="重置地图视野">复位</button><button id="expand" title="展开地图">展开</button></div></div>
+      <div id="mapOptions" class="map-options"></div>
+      <div class="map-stage" id="mapStage"><svg id="map" xmlns="http://www.w3.org/2000/svg" role="group" aria-label="游戏地图" tabindex="0" viewBox="0 0 1000 1000"><rect width="1000" height="1000" fill="#102c39"/><g id="mapContent"></g></svg><div id="mapEmpty" hidden></div><div id="mapTip" hidden></div></div>
+      <div class="map-caption"><span>滚轮缩放 · 拖拽平移 · 双击复位</span><span id="mapSource"></span></div>
+      <details id="mapLegend" class="map-legend"><summary>本图中文对照</summary><div id="mapLegendContent"></div></details>
+      <section id="mapDirectory" class="map-directory"></section>
+    </section>
+    <aside class="reading-pane"><div id="panel" tabindex="-1"></div></aside>
+  </main>
+  <dialog id="imageDialog"><div class="dialog-head"><strong id="dialogTitle">拾取位置</strong><button id="closeDialog" aria-label="关闭位置图">✕</button></div><p id="dialogDescription"></p><div class="image-viewport"><div class="position-image"><img id="dialogImage" alt="来源攻略位置截图，可放大查看"><svg id="dialogAnnotations" class="position-annotations" xmlns="http://www.w3.org/2000/svg" aria-label="图片中文标注"></svg><div id="dialogCaption" class="position-caption"><strong id="dialogCaptionTitle"></strong><span id="dialogCaptionDescription"></span></div></div></div><button id="dialogAnnotationToggle" aria-pressed="true">中文标注</button><p id="dialogAnnotationNote" class="muted"></p><button id="actualSize">切换原图大小</button><div id="dialogSources"></div></dialog>
+  <div id="toast" role="status" hidden></div>
+  <script src="assets/model.js"></script>
+  <script src="data/guide.js"></script>
+  <script src="assets/annotations.js"></script>
+  <script src="data/annotations.js"></script>
+  <script src="assets/app.js"></script>
+</body>
+</html>

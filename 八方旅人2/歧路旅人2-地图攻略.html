@@ -441,6 +441,38 @@ mark { background: #ffe58a; color: inherit; padding: 0 1px; border-radius: 2px; 
   .dp-info { max-height:72%; bottom:23px; font-size:12px; padding:6px 8px; }
 }
 
+/* 道路编号减少长文字遮挡；导航参照不随道路分类消失。 */
+.dp-road-badge { display:none; cursor:pointer; }
+.road-numbered .dp-road-badge { display:block; }
+.road-numbered .dp-plabel { display:none; }
+.dp-road-badge .road-disc { fill:#ffe4a4; stroke:#40371f; stroke-width:.35; }
+.dp-road-badge text { fill:#17283a; font-size:1.85px; font-weight:800; pointer-events:none; }
+.dp-road-badge.sel .road-disc { fill:#ed4164; stroke:#fff; }
+.dp-road-badge.sel text { fill:#fff; }
+.dp-road-badge:focus .road-disc,.dp-junction:focus circle { stroke:#fff; stroke-width:.65; }
+.dp-junction { cursor:pointer; }
+.dp-junction circle { fill:#244a66; stroke:#e8ca7b; stroke-width:.35; }
+.dp-junction text { fill:#fff5ce; font-size:1.8px; font-weight:bold; pointer-events:none; }
+.dp-crossing path { stroke:#c44045; stroke-width:.4; }
+.dp-crossing text { font-size:1.45px; font-weight:bold; fill:#8f1838; stroke:#fff3d4; stroke-width:.65; paint-order:stroke; }
+.atlas-route-ends { border-left:3px solid #b78835; padding-left:8px; line-height:1.8; }
+.atlas-route-steps { margin:7px 0; padding-left:23px; line-height:1.85; }
+.atlas-route-caution { padding:6px 8px; background:#fff1ce; color:#7c293b; border-radius:4px; }
+.atlas-route-refs { padding:5px 0; line-height:1.8; }
+.atlas-route-links { display:flex; flex-wrap:wrap; gap:5px; margin-top:6px; }
+.atlas-route-links > b { width:100%; }
+.atlas-road-link { border:1px solid #a98a55; background:#fff7df; color:#563816; border-radius:4px; padding:5px 7px; font:inherit; text-align:left; cursor:pointer; }
+.atlas-road-link:hover,.atlas-road-link:focus-visible { background:#ffe3a0; outline:1px solid #7c5c20; }
+@media(max-width:900px) { .dp-tools { flex-wrap:wrap; } .dp-head { align-items:flex-start; } }
+
+@media(max-width:900px) {
+  .dp-titles { flex:1 1 100%; white-space:normal; }
+  .dp-sub { display:none; }
+  .dp-tools { width:100%; justify-content:flex-end; }
+  .dp-info .dpi-title { flex-wrap:wrap; gap:3px; }
+  .dp-info .dpi-title span { flex-basis:100%; }
+}
+
 </style>
 </head>
 <body>
@@ -8017,89 +8049,1325 @@ OT2.addDetail("winterlands", {
 OT2.addDetail("winterlands", {
   "southern_cape_cold_snows": {
     "theme": "snow",
-    "size": [100, 70],
-    "note": "东北口来自科尔德凯普，北段路边可遇奥斯瓦尔德；中央存档点向东分出往东科尔德凯普雪道的路，向南连续过两座桥到新德尔斯塔平原。东南是一片可乘独木舟的水域，北上与西进（穿过桥下）各有码头。",
+    "size": [
+      100,
+      70
+    ],
+    "note": "从科尔德凯普沿北段道路南下，北段岔路向东通往东科尔德凯普雪道；到中央存档点后继续南行过两座桥去新德尔斯塔平原。第一座桥南端可分去独木舟码头，北航取橄榄，西航穿桥下取长袍。",
     "zones": [
-      { "kind": "cliff", "poly": [[0, 0], [50, 0], [44, 8], [24, 14], [0, 18]] },
-      { "kind": "water", "poly": [[14, 45], [64, 44], [64, 53], [14, 52]] },
-      { "kind": "water", "poly": [[62, 34], [100, 32], [100, 70], [60, 70], [58, 56], [64, 53], [64, 44]] },
-      { "kind": "water", "poly": [[30, 52], [35, 52], [36, 70], [29, 70]] },
-      { "kind": "forest", "rect": [2, 56, 22, 12] },
-      { "kind": "deck", "rect": [59, 56, 5, 3] },
-      { "kind": "deck", "rect": [74, 40, 5, 3] },
-      { "kind": "deck", "rect": [23, 45, 6, 2] }
+      {
+        "kind": "cliff",
+        "poly": [
+          [
+            0,
+            0
+          ],
+          [
+            50,
+            0
+          ],
+          [
+            44,
+            8
+          ],
+          [
+            24,
+            14
+          ],
+          [
+            0,
+            18
+          ]
+        ]
+      },
+      {
+        "kind": "water",
+        "poly": [
+          [
+            14,
+            45
+          ],
+          [
+            64,
+            44
+          ],
+          [
+            64,
+            53
+          ],
+          [
+            14,
+            52
+          ]
+        ]
+      },
+      {
+        "kind": "water",
+        "poly": [
+          [
+            62,
+            34
+          ],
+          [
+            100,
+            32
+          ],
+          [
+            100,
+            70
+          ],
+          [
+            60,
+            70
+          ],
+          [
+            58,
+            56
+          ],
+          [
+            64,
+            53
+          ],
+          [
+            64,
+            44
+          ]
+        ]
+      },
+      {
+        "kind": "water",
+        "poly": [
+          [
+            30,
+            52
+          ],
+          [
+            35,
+            52
+          ],
+          [
+            36,
+            70
+          ],
+          [
+            29,
+            70
+          ]
+        ]
+      },
+      {
+        "kind": "forest",
+        "rect": [
+          2,
+          56,
+          22,
+          12
+        ]
+      },
+      {
+        "kind": "deck",
+        "rect": [
+          59,
+          56,
+          5,
+          3
+        ]
+      },
+      {
+        "kind": "deck",
+        "rect": [
+          74,
+          40,
+          5,
+          3
+        ]
+      },
+      {
+        "kind": "deck",
+        "rect": [
+          23,
+          45,
+          6,
+          2
+        ]
+      }
     ],
     "paths": [
-      { "kind": "main", "pts": [[94, 4], [82, 10], [70, 18], [58, 26], [52, 30]], "label": "北段（往科尔德凯普）" },
-      { "kind": "main", "pts": [[70, 18], [84, 22], [98, 26]], "label": "往东科尔德凯普雪道" },
-      { "kind": "minor", "pts": [[52, 30], [44, 30]], "label": "存档点稍西" },
-      { "kind": "main", "pts": [[52, 30], [48, 38], [46, 44]] },
-      { "kind": "bridge", "pts": [[46, 44], [46, 54]], "label": "北侧的桥" },
-      { "kind": "main", "pts": [[46, 54], [42, 56], [37, 58]] },
-      { "kind": "bridge", "pts": [[37, 58], [28, 61]], "label": "南侧的桥" },
-      { "kind": "main", "pts": [[28, 61], [22, 68]], "label": "往新德尔斯塔平原" },
-      { "kind": "minor", "pts": [[42, 56], [44, 64]], "label": "两座桥之间往南的小空地" },
-      { "kind": "minor", "pts": [[46, 54], [54, 57], [62, 58]], "label": "独木舟码头" },
-      { "kind": "boat", "pts": [[62, 58], [70, 50], [76, 41]], "label": "乘独木舟向北" },
-      { "kind": "boat", "pts": [[62, 58], [56, 49], [46, 49], [28, 48]], "label": "向西穿过桥下" }
+      {
+        "kind": "main",
+        "pts": [
+          [
+            94,
+            4
+          ],
+          [
+            82,
+            10
+          ],
+          [
+            70,
+            18
+          ],
+          [
+            58,
+            26
+          ],
+          [
+            52,
+            30
+          ]
+        ],
+        "label": "村口至中央存档点",
+        "route": {
+          "from": "科尔德凯普村口",
+          "to": "中央存档点",
+          "steps": [
+            "从村口沿北段主路离开",
+            "经过奥斯瓦尔德所在一带",
+            "到中央存档点确认方向"
+          ],
+          "sources": [
+            {
+              "label": "ArrPeeGeeZ · 南科尔德凯普雪道",
+              "url": "https://www.arrpeegeez.com/2023/02/octopath-traveler-ii-walkthrough-area_24.html"
+            },
+            {
+              "label": "NightlyGamingBinge · 雪道宝箱参照",
+              "url": "https://nightlygamingbinge.com/octopath-traveler-ii-winterlands-southern-cape-cold-snows/"
+            }
+          ]
+        }
+      },
+      {
+        "kind": "main",
+        "pts": [
+          [
+            70,
+            18
+          ],
+          [
+            84,
+            22
+          ],
+          [
+            98,
+            26
+          ]
+        ],
+        "label": "东科尔德凯普雪道支路",
+        "route": {
+          "from": "北段岔路 A",
+          "to": "东科尔德凯普雪道出口",
+          "steps": [
+            "在北段道路的分岔向东",
+            "沿支路进入东科尔德凯普雪道"
+          ],
+          "sources": [
+            {
+              "label": "ArrPeeGeeZ · 南科尔德凯普雪道",
+              "url": "https://www.arrpeegeez.com/2023/02/octopath-traveler-ii-walkthrough-area_24.html"
+            },
+            {
+              "label": "NightlyGamingBinge · 雪道宝箱参照",
+              "url": "https://nightlygamingbinge.com/octopath-traveler-ii-winterlands-southern-cape-cold-snows/"
+            }
+          ],
+          "caution": "不要把东行陆路出口与下方独木舟水路混淆"
+        }
+      },
+      {
+        "kind": "minor",
+        "pts": [
+          [
+            52,
+            30
+          ],
+          [
+            44,
+            30
+          ]
+        ],
+        "label": "存档点往西取荔枝",
+        "route": {
+          "from": "中央存档点",
+          "to": "底力回复荔枝宝箱",
+          "steps": [
+            "以存档点为起点向西走一小段",
+            "取箱后回到存档点"
+          ],
+          "sources": [
+            {
+              "label": "ArrPeeGeeZ · 南科尔德凯普雪道",
+              "url": "https://www.arrpeegeez.com/2023/02/octopath-traveler-ii-walkthrough-area_24.html"
+            },
+            {
+              "label": "NightlyGamingBinge · 雪道宝箱参照",
+              "url": "https://nightlygamingbinge.com/octopath-traveler-ii-winterlands-southern-cape-cold-snows/"
+            }
+          ]
+        }
+      },
+      {
+        "kind": "main",
+        "pts": [
+          [
+            52,
+            30
+          ],
+          [
+            48,
+            38
+          ],
+          [
+            46,
+            44
+          ]
+        ],
+        "label": "存档点至第一座桥",
+        "route": {
+          "from": "中央存档点",
+          "to": "第一座桥北端",
+          "steps": [
+            "从存档点沿南下主路走",
+            "到第一座桥前确认仍在陆路上"
+          ],
+          "sources": [
+            {
+              "label": "ArrPeeGeeZ · 南科尔德凯普雪道",
+              "url": "https://www.arrpeegeez.com/2023/02/octopath-traveler-ii-walkthrough-area_24.html"
+            },
+            {
+              "label": "NightlyGamingBinge · 雪道宝箱参照",
+              "url": "https://nightlygamingbinge.com/octopath-traveler-ii-winterlands-southern-cape-cold-snows/"
+            }
+          ]
+        }
+      },
+      {
+        "kind": "bridge",
+        "pts": [
+          [
+            46,
+            44
+          ],
+          [
+            46,
+            54
+          ]
+        ],
+        "label": "步行过第一座桥",
+        "route": {
+          "from": "第一座桥北端",
+          "to": "桥南端岔路 B",
+          "steps": [
+            "从桥面向南通过第一座桥",
+            "到桥南端分岔处"
+          ],
+          "sources": [
+            {
+              "label": "ArrPeeGeeZ · 南科尔德凯普雪道",
+              "url": "https://www.arrpeegeez.com/2023/02/octopath-traveler-ii-walkthrough-area_24.html"
+            },
+            {
+              "label": "NightlyGamingBinge · 雪道宝箱参照",
+              "url": "https://nightlygamingbinge.com/octopath-traveler-ii-winterlands-southern-cape-cold-snows/"
+            }
+          ],
+          "caution": "桥面与西行独木舟航线分层，交叉处不能换层"
+        }
+      },
+      {
+        "kind": "main",
+        "pts": [
+          [
+            46,
+            54
+          ],
+          [
+            42,
+            56
+          ],
+          [
+            37,
+            58
+          ]
+        ],
+        "label": "两桥之间的连接路",
+        "route": {
+          "from": "岔路 B",
+          "to": "第二座桥东端",
+          "steps": [
+            "沿两座桥之间的短路向西南走",
+            "途中另有向南取李子的分支"
+          ],
+          "sources": [
+            {
+              "label": "ArrPeeGeeZ · 南科尔德凯普雪道",
+              "url": "https://www.arrpeegeez.com/2023/02/octopath-traveler-ii-walkthrough-area_24.html"
+            },
+            {
+              "label": "NightlyGamingBinge · 雪道宝箱参照",
+              "url": "https://nightlygamingbinge.com/octopath-traveler-ii-winterlands-southern-cape-cold-snows/"
+            }
+          ]
+        }
+      },
+      {
+        "kind": "bridge",
+        "pts": [
+          [
+            37,
+            58
+          ],
+          [
+            28,
+            61
+          ]
+        ],
+        "label": "步行过第二座桥",
+        "route": {
+          "from": "第二座桥东端",
+          "to": "第二座桥西端",
+          "steps": [
+            "沿桥面通过第二座桥",
+            "向新德尔斯塔平原方向继续"
+          ],
+          "sources": [
+            {
+              "label": "ArrPeeGeeZ · 南科尔德凯普雪道",
+              "url": "https://www.arrpeegeez.com/2023/02/octopath-traveler-ii-walkthrough-area_24.html"
+            },
+            {
+              "label": "NightlyGamingBinge · 雪道宝箱参照",
+              "url": "https://nightlygamingbinge.com/octopath-traveler-ii-winterlands-southern-cape-cold-snows/"
+            }
+          ]
+        }
+      },
+      {
+        "kind": "main",
+        "pts": [
+          [
+            28,
+            61
+          ],
+          [
+            22,
+            68
+          ]
+        ],
+        "label": "第二座桥至平原出口",
+        "route": {
+          "from": "第二座桥西端",
+          "to": "新德尔斯塔平原出口",
+          "steps": [
+            "离开第二座桥后沿主路继续",
+            "从南侧出口进入新德尔斯塔平原"
+          ],
+          "sources": [
+            {
+              "label": "ArrPeeGeeZ · 南科尔德凯普雪道",
+              "url": "https://www.arrpeegeez.com/2023/02/octopath-traveler-ii-walkthrough-area_24.html"
+            },
+            {
+              "label": "NightlyGamingBinge · 雪道宝箱参照",
+              "url": "https://nightlygamingbinge.com/octopath-traveler-ii-winterlands-southern-cape-cold-snows/"
+            }
+          ]
+        }
+      },
+      {
+        "kind": "minor",
+        "pts": [
+          [
+            42,
+            56
+          ],
+          [
+            44,
+            64
+          ]
+        ],
+        "label": "两桥间向南取李子",
+        "route": {
+          "from": "两桥之间的短路",
+          "to": "醒神李子（大）宝箱",
+          "steps": [
+            "在两座桥之间转向南边小空地",
+            "取箱后返回两桥之间的路"
+          ],
+          "sources": [
+            {
+              "label": "ArrPeeGeeZ · 南科尔德凯普雪道",
+              "url": "https://www.arrpeegeez.com/2023/02/octopath-traveler-ii-walkthrough-area_24.html"
+            },
+            {
+              "label": "NightlyGamingBinge · 雪道宝箱参照",
+              "url": "https://nightlygamingbinge.com/octopath-traveler-ii-winterlands-southern-cape-cold-snows/"
+            }
+          ]
+        }
+      },
+      {
+        "kind": "minor",
+        "pts": [
+          [
+            46,
+            54
+          ],
+          [
+            54,
+            57
+          ],
+          [
+            62,
+            58
+          ]
+        ],
+        "label": "陆路至独木舟码头",
+        "route": {
+          "from": "岔路 B",
+          "to": "独木舟码头 C",
+          "steps": [
+            "从第一座桥南端分出的小路走向水边",
+            "到码头后才能切换为独木舟"
+          ],
+          "sources": [
+            {
+              "label": "ArrPeeGeeZ · 南科尔德凯普雪道",
+              "url": "https://www.arrpeegeez.com/2023/02/octopath-traveler-ii-walkthrough-area_24.html"
+            },
+            {
+              "label": "NightlyGamingBinge · 雪道宝箱参照",
+              "url": "https://nightlygamingbinge.com/octopath-traveler-ii-winterlands-southern-cape-cold-snows/"
+            }
+          ],
+          "caution": "若只去平原，不需要走这段码头支路"
+        }
+      },
+      {
+        "kind": "boat",
+        "pts": [
+          [
+            62,
+            58
+          ],
+          [
+            70,
+            50
+          ],
+          [
+            76,
+            41
+          ]
+        ],
+        "label": "码头北行取橄榄",
+        "route": {
+          "from": "独木舟码头 C",
+          "to": "北侧码头／还魂橄榄宝箱",
+          "steps": [
+            "从码头乘独木舟向北",
+            "在另一处码头上岸",
+            "取还魂橄榄（大）"
+          ],
+          "sources": [
+            {
+              "label": "ArrPeeGeeZ · 南科尔德凯普雪道",
+              "url": "https://www.arrpeegeez.com/2023/02/octopath-traveler-ii-walkthrough-area_24.html"
+            },
+            {
+              "label": "NightlyGamingBinge · 雪道宝箱参照",
+              "url": "https://nightlygamingbinge.com/octopath-traveler-ii-winterlands-southern-cape-cold-snows/"
+            }
+          ],
+          "mode": "乘独木舟"
+        }
+      },
+      {
+        "kind": "boat",
+        "pts": [
+          [
+            62,
+            58
+          ],
+          [
+            56,
+            49
+          ],
+          [
+            46,
+            49
+          ],
+          [
+            28,
+            48
+          ]
+        ],
+        "label": "码头西行穿桥取长袍",
+        "route": {
+          "from": "独木舟码头 C",
+          "to": "桥西侧第三个码头",
+          "steps": [
+            "从同一码头乘舟向西绕行",
+            "沿水面穿过桥下",
+            "在第三个码头上岸取朝圣者长袍"
+          ],
+          "sources": [
+            {
+              "label": "ArrPeeGeeZ · 南科尔德凯普雪道",
+              "url": "https://www.arrpeegeez.com/2023/02/octopath-traveler-ii-walkthrough-area_24.html"
+            },
+            {
+              "label": "NightlyGamingBinge · 雪道宝箱参照",
+              "url": "https://nightlygamingbinge.com/octopath-traveler-ii-winterlands-southern-cape-cold-snows/"
+            }
+          ],
+          "mode": "乘独木舟",
+          "caution": "桥下航线不与桥面相接，需要从码头上下船"
+        }
+      }
     ],
     "pois": [
-      { "kind": "exit", "at": [94, 4], "to": "cape_cold", "label": "往科尔德凯普", "lp": "l", "dir": "东北" },
-      { "kind": "exit", "at": [98, 26], "to": "eastern_cape_cold_snows", "label": "往东科尔德凯普雪道", "lp": "l", "dir": "东" },
-      { "kind": "exit", "at": [22, 68], "to": "brightlands/nd_flats", "label": "往新德尔斯塔平原", "lp": "r", "dir": "南" },
-      { "kind": "npc", "at": [74, 15], "label": "奥斯瓦尔德（非开局时）", "npc": [0], "lp": "r" },
-      { "kind": "npc", "at": [60, 25], "label": "阿尔（奥斯瓦尔德开局）", "npc": [1], "lp": "t", "note": "支线「旅人的行囊」；夜晚雪道上还有面色阴沉的男人。" },
-      { "kind": "save", "at": [52, 30], "label": "存档点", "lp": "r" },
-      { "kind": "chest", "at": [44, 30], "tr": [0], "label": "底力回复荔枝", "lp": "l" },
-      { "kind": "chest", "at": [44, 64], "tr": [1], "label": "醒神李子（大）", "lp": "r" },
-      { "kind": "landmark", "at": [62, 58], "label": "独木舟码头", "lp": "b" },
-      { "kind": "chest", "at": [76, 41], "tr": [2], "label": "还魂橄榄（大）", "lp": "r", "note": "乘独木舟向北，在另一处码头上岸。" },
-      { "kind": "chest", "at": [26, 48], "tr": [3], "label": "朝圣者长袍", "lp": "t", "note": "同一水域向西，绕到桥下的第三个码头。" }
+      {
+        "kind": "exit",
+        "at": [
+          94,
+          4
+        ],
+        "to": "cape_cold",
+        "label": "往科尔德凯普",
+        "lp": "l",
+        "dir": "东北"
+      },
+      {
+        "kind": "exit",
+        "at": [
+          98,
+          26
+        ],
+        "to": "eastern_cape_cold_snows",
+        "label": "往东科尔德凯普雪道",
+        "lp": "l",
+        "dir": "东"
+      },
+      {
+        "kind": "exit",
+        "at": [
+          22,
+          68
+        ],
+        "to": "brightlands/nd_flats",
+        "label": "往新德尔斯塔平原",
+        "lp": "r",
+        "dir": "南"
+      },
+      {
+        "kind": "npc",
+        "at": [
+          74,
+          15
+        ],
+        "label": "奥斯瓦尔德（非开局时）",
+        "npc": [
+          0
+        ],
+        "lp": "r"
+      },
+      {
+        "kind": "npc",
+        "at": [
+          60,
+          25
+        ],
+        "label": "阿尔（奥斯瓦尔德开局）",
+        "npc": [
+          1
+        ],
+        "lp": "t",
+        "note": "支线「旅人的行囊」；夜晚雪道上还有面色阴沉的男人。"
+      },
+      {
+        "kind": "save",
+        "at": [
+          52,
+          30
+        ],
+        "label": "存档点",
+        "lp": "r"
+      },
+      {
+        "kind": "chest",
+        "at": [
+          44,
+          30
+        ],
+        "tr": [
+          0
+        ],
+        "label": "底力回复荔枝",
+        "lp": "l"
+      },
+      {
+        "kind": "chest",
+        "at": [
+          44,
+          64
+        ],
+        "tr": [
+          1
+        ],
+        "label": "醒神李子（大）",
+        "lp": "r"
+      },
+      {
+        "kind": "landmark",
+        "at": [
+          62,
+          58
+        ],
+        "label": "独木舟码头",
+        "lp": "b"
+      },
+      {
+        "kind": "chest",
+        "at": [
+          76,
+          41
+        ],
+        "tr": [
+          2
+        ],
+        "label": "还魂橄榄（大）",
+        "lp": "r",
+        "note": "乘独木舟向北，在另一处码头上岸。"
+      },
+      {
+        "kind": "chest",
+        "at": [
+          26,
+          48
+        ],
+        "tr": [
+          3
+        ],
+        "label": "朝圣者长袍",
+        "lp": "t",
+        "note": "同一水域向西，绕到桥下的第三个码头。"
+      }
+    ],
+    "sources": [
+      {
+        "label": "ArrPeeGeeZ · 南科尔德凯普雪道",
+        "url": "https://www.arrpeegeez.com/2023/02/octopath-traveler-ii-walkthrough-area_24.html"
+      },
+      {
+        "label": "NightlyGamingBinge · 雪道宝箱参照",
+        "url": "https://nightlygamingbinge.com/octopath-traveler-ii-winterlands-southern-cape-cold-snows/"
+      }
+    ],
+    "junctions": [
+      {
+        "label": "A",
+        "at": [
+          70,
+          18
+        ],
+        "roads": [
+          0,
+          1
+        ],
+        "note": "村口与存档点之间的陆路分岔：东去相邻雪道，另一边仍通中央存档点。"
+      },
+      {
+        "label": "B",
+        "at": [
+          46,
+          54
+        ],
+        "roads": [
+          4,
+          5,
+          9
+        ],
+        "note": "第一座桥南端：沿陆路去第二座桥，或走支路到独木舟码头。"
+      },
+      {
+        "label": "C",
+        "at": [
+          62,
+          58
+        ],
+        "roads": [
+          9,
+          10,
+          11
+        ],
+        "note": "独木舟码头：北行取橄榄，西行绕桥下取长袍。",
+        "labelAt": [
+          65,
+          62
+        ]
+      }
+    ],
+    "crossings": [
+      {
+        "at": [
+          46,
+          49
+        ],
+        "labelAt": [
+          33,
+          39
+        ],
+        "over": 4,
+        "under": 11,
+        "note": "桥面／桥下不相通"
+      }
     ]
   },
   "eastern_cape_cold_snows": {
     "theme": "snow",
-    "size": [100, 70],
+    "size": [
+      100,
+      70
+    ],
     "note": "四通八达的中继雪道：西接南科尔德凯普雪道，西北上山到西温特布鲁姆雪道，过桥后东去无赖据点、南下纹之地。存档点居中，西北路标旁有行商；桥东有码头可乘船直达无赖据点，西南水域可划独木舟。尖锋匕首的具体位置攻略未写明，图中为示意。",
     "zones": [
-      { "kind": "water", "poly": [[62, 0], [100, 0], [100, 24], [82, 30], [71, 28], [70, 70], [62, 70], [63, 30]] },
-      { "kind": "water", "poly": [[16, 52], [56, 50], [63, 54], [63, 62], [18, 66]] },
-      { "kind": "cliff", "poly": [[0, 0], [4, 0], [12, 10], [22, 20], [12, 26], [0, 22]] },
-      { "kind": "wall", "rect": [36, 43, 9, 6] },
-      { "kind": "forest", "rect": [84, 44, 14, 16] },
-      { "kind": "deck", "rect": [74, 29, 5, 3] },
-      { "kind": "deck", "rect": [57, 51, 5, 3] }
+      {
+        "kind": "water",
+        "poly": [
+          [
+            62,
+            0
+          ],
+          [
+            100,
+            0
+          ],
+          [
+            100,
+            24
+          ],
+          [
+            82,
+            30
+          ],
+          [
+            71,
+            28
+          ],
+          [
+            70,
+            70
+          ],
+          [
+            62,
+            70
+          ],
+          [
+            63,
+            30
+          ]
+        ]
+      },
+      {
+        "kind": "water",
+        "poly": [
+          [
+            16,
+            52
+          ],
+          [
+            56,
+            50
+          ],
+          [
+            63,
+            54
+          ],
+          [
+            63,
+            62
+          ],
+          [
+            18,
+            66
+          ]
+        ]
+      },
+      {
+        "kind": "cliff",
+        "poly": [
+          [
+            0,
+            0
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            12,
+            10
+          ],
+          [
+            22,
+            20
+          ],
+          [
+            12,
+            26
+          ],
+          [
+            0,
+            22
+          ]
+        ]
+      },
+      {
+        "kind": "wall",
+        "rect": [
+          36,
+          43,
+          9,
+          6
+        ]
+      },
+      {
+        "kind": "forest",
+        "rect": [
+          84,
+          44,
+          14,
+          16
+        ]
+      },
+      {
+        "kind": "deck",
+        "rect": [
+          74,
+          29,
+          5,
+          3
+        ]
+      },
+      {
+        "kind": "deck",
+        "rect": [
+          57,
+          51,
+          5,
+          3
+        ]
+      }
     ],
     "paths": [
-      { "kind": "main", "pts": [[2, 44], [20, 42], [36, 40], [44, 39], [50, 38], [62, 36]], "label": "往南科尔德凯普雪道" },
-      { "kind": "bridge", "pts": [[62, 36], [71, 36]], "label": "桥" },
-      { "kind": "main", "pts": [[71, 36], [78, 36], [86, 36], [98, 36]], "label": "往无赖据点（门口有无赖挡路）" },
-      { "kind": "main", "pts": [[36, 40], [28, 26], [16, 14], [6, 4]], "label": "往西温特布鲁姆雪道" },
-      { "kind": "main", "pts": [[78, 36], [80, 52], [80, 68]], "label": "往东弗雷姆丘奇山道" },
-      { "kind": "minor", "pts": [[44, 39], [42, 33]], "label": "路标" },
-      { "kind": "minor", "pts": [[44, 39], [40, 45]], "label": "存档点西侧小围栏" },
-      { "kind": "minor", "pts": [[50, 38], [54, 30], [56, 22]], "label": "存档点东北小路" },
-      { "kind": "minor", "pts": [[28, 26], [38, 20]] },
-      { "kind": "minor", "pts": [[71, 36], [76, 29]], "label": "过桥向东的码头" },
-      { "kind": "boat", "pts": [[76, 29], [88, 20], [98, 16]], "label": "乘船直达无赖据点" },
-      { "kind": "minor", "pts": [[50, 38], [56, 46], [60, 52]], "label": "独木舟码头" },
-      { "kind": "boat", "pts": [[60, 53], [40, 58], [20, 58]], "label": "乘独木舟向西" }
+      {
+        "kind": "main",
+        "pts": [
+          [
+            2,
+            44
+          ],
+          [
+            20,
+            42
+          ],
+          [
+            36,
+            40
+          ],
+          [
+            44,
+            39
+          ],
+          [
+            50,
+            38
+          ],
+          [
+            62,
+            36
+          ]
+        ],
+        "label": "往南科尔德凯普雪道"
+      },
+      {
+        "kind": "bridge",
+        "pts": [
+          [
+            62,
+            36
+          ],
+          [
+            71,
+            36
+          ]
+        ],
+        "label": "桥"
+      },
+      {
+        "kind": "main",
+        "pts": [
+          [
+            71,
+            36
+          ],
+          [
+            78,
+            36
+          ],
+          [
+            86,
+            36
+          ],
+          [
+            98,
+            36
+          ]
+        ],
+        "label": "往无赖据点（门口有无赖挡路）"
+      },
+      {
+        "kind": "main",
+        "pts": [
+          [
+            36,
+            40
+          ],
+          [
+            28,
+            26
+          ],
+          [
+            16,
+            14
+          ],
+          [
+            6,
+            4
+          ]
+        ],
+        "label": "往西温特布鲁姆雪道"
+      },
+      {
+        "kind": "main",
+        "pts": [
+          [
+            78,
+            36
+          ],
+          [
+            80,
+            52
+          ],
+          [
+            80,
+            68
+          ]
+        ],
+        "label": "往东弗雷姆丘奇山道"
+      },
+      {
+        "kind": "minor",
+        "pts": [
+          [
+            44,
+            39
+          ],
+          [
+            42,
+            33
+          ]
+        ],
+        "label": "路标"
+      },
+      {
+        "kind": "minor",
+        "pts": [
+          [
+            44,
+            39
+          ],
+          [
+            40,
+            45
+          ]
+        ],
+        "label": "存档点西侧小围栏"
+      },
+      {
+        "kind": "minor",
+        "pts": [
+          [
+            50,
+            38
+          ],
+          [
+            54,
+            30
+          ],
+          [
+            56,
+            22
+          ]
+        ],
+        "label": "存档点东北小路"
+      },
+      {
+        "kind": "minor",
+        "pts": [
+          [
+            28,
+            26
+          ],
+          [
+            38,
+            20
+          ]
+        ]
+      },
+      {
+        "kind": "minor",
+        "pts": [
+          [
+            71,
+            36
+          ],
+          [
+            76,
+            29
+          ]
+        ],
+        "label": "过桥向东的码头"
+      },
+      {
+        "kind": "boat",
+        "pts": [
+          [
+            76,
+            29
+          ],
+          [
+            88,
+            20
+          ],
+          [
+            98,
+            16
+          ]
+        ],
+        "label": "乘船直达无赖据点"
+      },
+      {
+        "kind": "minor",
+        "pts": [
+          [
+            50,
+            38
+          ],
+          [
+            56,
+            46
+          ],
+          [
+            60,
+            52
+          ]
+        ],
+        "label": "独木舟码头"
+      },
+      {
+        "kind": "boat",
+        "pts": [
+          [
+            60,
+            53
+          ],
+          [
+            40,
+            58
+          ],
+          [
+            20,
+            58
+          ]
+        ],
+        "label": "乘独木舟向西"
+      }
     ],
     "pois": [
-      { "kind": "exit", "at": [2, 44], "to": "southern_cape_cold_snows", "label": "往南科尔德凯普雪道", "lp": "r", "dir": "西" },
-      { "kind": "exit", "at": [6, 4], "to": "western_winterbloom_snows", "label": "往西温特布鲁姆雪道", "lp": "r", "dir": "西北" },
-      { "kind": "exit", "at": [98, 36], "to": "ruffians_hideout", "label": "无赖据点", "lp": "l", "dir": "东" },
-      { "kind": "exit", "at": [80, 68], "to": "crestlands/eastern_flamechurch_pass", "label": "往东弗雷姆丘奇山道", "lp": "l", "dir": "南" },
-      { "kind": "ship", "at": [98, 16], "to": "ruffians_hideout", "label": "乘船直达无赖据点", "lp": "l", "dir": "东" },
-      { "kind": "danger", "at": [82, 36], "label": "门口的无赖", "lp": "b", "note": "从存档点往东会被他挡路，可挑战/偷袭；或改走码头乘船进入。" },
-      { "kind": "landmark", "at": [76, 29], "label": "码头", "lp": "b" },
-      { "kind": "save", "at": [50, 38], "label": "存档点", "lp": "b" },
-      { "kind": "peddler", "at": [42, 33], "label": "行商（路标旁）", "npc": [0], "lp": "t", "note": "支线「无赖的据点」委托人。" },
-      { "kind": "chest", "at": [40, 45], "tr": [2], "label": "600叶", "lp": "b" },
-      { "kind": "chest", "at": [56, 22], "tr": [1], "label": "冰之精灵石", "lp": "r" },
-      { "kind": "chest", "at": [38, 20], "tr": [3], "label": "尖锋匕首", "lp": "r", "note": "攻略只写「雪道内宝箱」，具体位置未确认，此处为示意。" },
-      { "kind": "landmark", "at": [60, 53], "label": "独木舟", "lp": "r" },
-      { "kind": "chest", "at": [20, 58], "tr": [0], "label": "毛皮帽子", "lp": "t" }
+      {
+        "kind": "exit",
+        "at": [
+          2,
+          44
+        ],
+        "to": "southern_cape_cold_snows",
+        "label": "往南科尔德凯普雪道",
+        "lp": "r",
+        "dir": "西"
+      },
+      {
+        "kind": "exit",
+        "at": [
+          6,
+          4
+        ],
+        "to": "western_winterbloom_snows",
+        "label": "往西温特布鲁姆雪道",
+        "lp": "r",
+        "dir": "西北"
+      },
+      {
+        "kind": "exit",
+        "at": [
+          98,
+          36
+        ],
+        "to": "ruffians_hideout",
+        "label": "无赖据点",
+        "lp": "l",
+        "dir": "东"
+      },
+      {
+        "kind": "exit",
+        "at": [
+          80,
+          68
+        ],
+        "to": "crestlands/eastern_flamechurch_pass",
+        "label": "往东弗雷姆丘奇山道",
+        "lp": "l",
+        "dir": "南"
+      },
+      {
+        "kind": "ship",
+        "at": [
+          98,
+          16
+        ],
+        "to": "ruffians_hideout",
+        "label": "乘船直达无赖据点",
+        "lp": "l",
+        "dir": "东"
+      },
+      {
+        "kind": "danger",
+        "at": [
+          82,
+          36
+        ],
+        "label": "门口的无赖",
+        "lp": "b",
+        "note": "从存档点往东会被他挡路，可挑战/偷袭；或改走码头乘船进入。"
+      },
+      {
+        "kind": "landmark",
+        "at": [
+          76,
+          29
+        ],
+        "label": "码头",
+        "lp": "b"
+      },
+      {
+        "kind": "save",
+        "at": [
+          50,
+          38
+        ],
+        "label": "存档点",
+        "lp": "b"
+      },
+      {
+        "kind": "peddler",
+        "at": [
+          42,
+          33
+        ],
+        "label": "行商（路标旁）",
+        "npc": [
+          0
+        ],
+        "lp": "t",
+        "note": "支线「无赖的据点」委托人。"
+      },
+      {
+        "kind": "chest",
+        "at": [
+          40,
+          45
+        ],
+        "tr": [
+          2
+        ],
+        "label": "600叶",
+        "lp": "b"
+      },
+      {
+        "kind": "chest",
+        "at": [
+          56,
+          22
+        ],
+        "tr": [
+          1
+        ],
+        "label": "冰之精灵石",
+        "lp": "r"
+      },
+      {
+        "kind": "chest",
+        "at": [
+          38,
+          20
+        ],
+        "tr": [
+          3
+        ],
+        "label": "尖锋匕首",
+        "lp": "r",
+        "note": "攻略只写「雪道内宝箱」，具体位置未确认，此处为示意。"
+      },
+      {
+        "kind": "landmark",
+        "at": [
+          60,
+          53
+        ],
+        "label": "独木舟",
+        "lp": "r"
+      },
+      {
+        "kind": "chest",
+        "at": [
+          20,
+          58
+        ],
+        "tr": [
+          0
+        ],
+        "label": "毛皮帽子",
+        "lp": "t"
+      },
+      {
+        "kind": "landmark",
+        "navigation": "signpost",
+        "at": [
+          44,
+          35
+        ],
+        "label": "路标（存档点西北）",
+        "lp": "l",
+        "note": "存档点西北的实体路牌，旁边是行商；去无赖据点应从存档点向东。相对位置示意。"
+      }
+    ],
+    "sources": [
+      {
+        "label": "ArrPeeGeeZ · 路牌旁行商",
+        "url": "https://www.arrpeegeez.com/2023/03/octopath-traveler-ii-walkthrough-side_14.html"
+      }
     ]
   },
   "ruffians_hideout": {
@@ -10548,39 +11816,612 @@ OT2.addDetail("harborlands", {
   },
   "western_canalbrine_coast": {
     "theme": "field",
-    "size": [100, 70],
+    "size": [
+      100,
+      70
+    ],
     "note": "沿北侧海岸东西走向：出城口有存档点，其左侧几步一箱；第一个岔路北行穿过小洞窟到码头，可划船去两座小岛；中段岔路楼梯上方再左下台阶一箱；西端分南北两岔，主路向西通往大桥。",
     "zones": [
-      { "kind": "water", "poly": [[0, 0], [100, 0], [100, 14], [76, 16], [66, 17], [40, 13], [24, 15], [0, 12]] },
-      { "kind": "grass", "circle": [52, 5, 3] },
-      { "kind": "grass", "circle": [88, 10, 3] },
-      { "kind": "rock", "rect": [64, 21, 10, 8], "label": "小洞窟" },
-      { "kind": "cliff", "poly": [[36, 24], [56, 22], [56, 30], [36, 30]] },
-      { "kind": "grass", "rect": [4, 48, 30, 18] }
+      {
+        "kind": "water",
+        "poly": [
+          [
+            0,
+            0
+          ],
+          [
+            100,
+            0
+          ],
+          [
+            100,
+            14
+          ],
+          [
+            76,
+            16
+          ],
+          [
+            66,
+            17
+          ],
+          [
+            40,
+            13
+          ],
+          [
+            24,
+            15
+          ],
+          [
+            0,
+            12
+          ]
+        ]
+      },
+      {
+        "kind": "grass",
+        "circle": [
+          52,
+          5,
+          3
+        ]
+      },
+      {
+        "kind": "grass",
+        "circle": [
+          88,
+          10,
+          3
+        ]
+      },
+      {
+        "kind": "rock",
+        "rect": [
+          64,
+          21,
+          10,
+          8
+        ],
+        "label": "小洞窟"
+      },
+      {
+        "kind": "cliff",
+        "poly": [
+          [
+            36,
+            24
+          ],
+          [
+            56,
+            22
+          ],
+          [
+            56,
+            30
+          ],
+          [
+            36,
+            30
+          ]
+        ]
+      },
+      {
+        "kind": "grass",
+        "rect": [
+          4,
+          48,
+          30,
+          18
+        ]
+      }
     ],
     "paths": [
-      { "kind": "main", "pts": [[98, 42], [86, 42], [72, 40], [50, 42], [30, 44], [16, 40], [2, 36]] },
-      { "kind": "minor", "pts": [[86, 42], [84, 50]], "label": "出城不远路左侧" },
-      { "kind": "minor", "pts": [[72, 40], [70, 28], [68, 18]], "label": "第一个岔路北行（穿过小洞窟）" },
-      { "kind": "boat", "pts": [[68, 18], [60, 10], [53, 6]], "label": "向北划到小岛" },
-      { "kind": "boat", "pts": [[60, 10], [76, 6], [87, 9]], "label": "再往东、往南的小岛" },
-      { "kind": "stairs", "pts": [[50, 42], [48, 32]], "label": "岔路楼梯" },
-      { "kind": "stairs", "pts": [[48, 32], [38, 35]], "label": "左侧下台阶" },
-      { "kind": "minor", "pts": [[16, 40], [16, 56], [12, 60]], "label": "西端岔路向南" },
-      { "kind": "minor", "pts": [[16, 40], [20, 30], [26, 26]], "label": "西端岔路向北" }
+      {
+        "kind": "main",
+        "pts": [
+          [
+            98,
+            42
+          ],
+          [
+            86,
+            42
+          ],
+          [
+            72,
+            40
+          ],
+          [
+            50,
+            42
+          ],
+          [
+            30,
+            44
+          ],
+          [
+            16,
+            40
+          ],
+          [
+            2,
+            36
+          ]
+        ],
+        "label": "城镇至大桥主路",
+        "route": {
+          "from": "卡纳尔布莱恩西口／存档点",
+          "to": "卡纳尔布莱恩大桥出口",
+          "steps": [
+            "从城镇口沿主路向西",
+            "先经过北上洞窟的岔路 A，再经过中段台阶",
+            "到西端岔路 C 后继续向西去大桥"
+          ],
+          "sources": [
+            {
+              "label": "ArrPeeGeeZ · 西卡纳尔布莱恩海道",
+              "url": "https://www.arrpeegeez.com/2023/02/octopath-traveler-ii-walkthrough-area_99.html"
+            },
+            {
+              "label": "Game8 · 海道地图",
+              "url": "https://game8.jp/octopathtraveler2/515151"
+            }
+          ]
+        }
+      },
+      {
+        "kind": "minor",
+        "pts": [
+          [
+            86,
+            42
+          ],
+          [
+            84,
+            50
+          ]
+        ],
+        "label": "出城口旁的宝箱支路",
+        "route": {
+          "from": "出城口附近主路",
+          "to": "治愈葡萄（大）宝箱",
+          "steps": [
+            "从城镇口出来，在存档点左侧不远查看路旁",
+            "取箱后返回主路"
+          ],
+          "sources": [
+            {
+              "label": "ArrPeeGeeZ · 西卡纳尔布莱恩海道",
+              "url": "https://www.arrpeegeez.com/2023/02/octopath-traveler-ii-walkthrough-area_99.html"
+            },
+            {
+              "label": "Game8 · 海道地图",
+              "url": "https://game8.jp/octopathtraveler2/515151"
+            }
+          ]
+        }
+      },
+      {
+        "kind": "minor",
+        "pts": [
+          [
+            72,
+            40
+          ],
+          [
+            70,
+            28
+          ],
+          [
+            68,
+            18
+          ]
+        ],
+        "label": "北行穿洞到码头",
+        "route": {
+          "from": "岔路 A",
+          "to": "海岸码头",
+          "steps": [
+            "在出城后的第一处岔路转向北",
+            "穿过小洞窟",
+            "从另一侧走到码头"
+          ],
+          "sources": [
+            {
+              "label": "ArrPeeGeeZ · 西卡纳尔布莱恩海道",
+              "url": "https://www.arrpeegeez.com/2023/02/octopath-traveler-ii-walkthrough-area_99.html"
+            },
+            {
+              "label": "Game8 · 海道地图",
+              "url": "https://game8.jp/octopathtraveler2/515151"
+            }
+          ],
+          "caution": "码头后续路线需要独木舟"
+        }
+      },
+      {
+        "kind": "boat",
+        "pts": [
+          [
+            68,
+            18
+          ],
+          [
+            60,
+            10
+          ],
+          [
+            53,
+            6
+          ]
+        ],
+        "label": "码头北行至第一座岛",
+        "route": {
+          "from": "海岸码头",
+          "to": "熟睡草小岛",
+          "steps": [
+            "从码头乘独木舟向北",
+            "在第一座小岛找到熟睡草宝箱"
+          ],
+          "sources": [
+            {
+              "label": "ArrPeeGeeZ · 西卡纳尔布莱恩海道",
+              "url": "https://www.arrpeegeez.com/2023/02/octopath-traveler-ii-walkthrough-area_99.html"
+            },
+            {
+              "label": "Game8 · 海道地图",
+              "url": "https://game8.jp/octopathtraveler2/515151"
+            }
+          ],
+          "mode": "乘独木舟"
+        }
+      },
+      {
+        "kind": "boat",
+        "pts": [
+          [
+            53,
+            6
+          ],
+          [
+            76,
+            6
+          ],
+          [
+            87,
+            9
+          ]
+        ],
+        "label": "第一座岛往东再往南",
+        "route": {
+          "from": "熟睡草小岛",
+          "to": "旅人之弓小岛",
+          "steps": [
+            "从第一座小岛继续向东划",
+            "随后向南绕至第二座小岛",
+            "取旅人之弓"
+          ],
+          "sources": [
+            {
+              "label": "ArrPeeGeeZ · 西卡纳尔布莱恩海道",
+              "url": "https://www.arrpeegeez.com/2023/02/octopath-traveler-ii-walkthrough-area_99.html"
+            },
+            {
+              "label": "Game8 · 海道地图",
+              "url": "https://game8.jp/octopathtraveler2/515151"
+            }
+          ],
+          "mode": "乘独木舟"
+        }
+      },
+      {
+        "kind": "stairs",
+        "pts": [
+          [
+            50,
+            42
+          ],
+          [
+            48,
+            32
+          ]
+        ],
+        "label": "主路上台阶",
+        "route": {
+          "from": "中段主路",
+          "to": "台阶上方岔路 B",
+          "steps": [
+            "返回主路",
+            "从中段的楼梯上行到另一处岔路"
+          ],
+          "sources": [
+            {
+              "label": "ArrPeeGeeZ · 西卡纳尔布莱恩海道",
+              "url": "https://www.arrpeegeez.com/2023/02/octopath-traveler-ii-walkthrough-area_99.html"
+            },
+            {
+              "label": "Game8 · 海道地图",
+              "url": "https://game8.jp/octopathtraveler2/515151"
+            }
+          ],
+          "caution": "这里是通往李子宝箱的台阶，不是北侧洞窟"
+        }
+      },
+      {
+        "kind": "stairs",
+        "pts": [
+          [
+            48,
+            32
+          ],
+          [
+            38,
+            35
+          ]
+        ],
+        "label": "台阶上方转左下行",
+        "route": {
+          "from": "岔路 B",
+          "to": "醒神李子（大）宝箱",
+          "steps": [
+            "在台阶上方岔路转向左",
+            "沿下行台阶到宝箱",
+            "取完原路回到主路"
+          ],
+          "sources": [
+            {
+              "label": "ArrPeeGeeZ · 西卡纳尔布莱恩海道",
+              "url": "https://www.arrpeegeez.com/2023/02/octopath-traveler-ii-walkthrough-area_99.html"
+            },
+            {
+              "label": "Game8 · 海道地图",
+              "url": "https://game8.jp/octopathtraveler2/515151"
+            }
+          ]
+        }
+      },
+      {
+        "kind": "minor",
+        "pts": [
+          [
+            16,
+            40
+          ],
+          [
+            16,
+            56
+          ],
+          [
+            12,
+            60
+          ]
+        ],
+        "label": "西端分岔向南",
+        "route": {
+          "from": "岔路 C",
+          "to": "1500叶宝箱",
+          "steps": [
+            "到达主路西端的最后一处分岔",
+            "转向南走到尽头",
+            "取箱后返回岔路 C"
+          ],
+          "sources": [
+            {
+              "label": "ArrPeeGeeZ · 西卡纳尔布莱恩海道",
+              "url": "https://www.arrpeegeez.com/2023/02/octopath-traveler-ii-walkthrough-area_99.html"
+            },
+            {
+              "label": "Game8 · 海道地图",
+              "url": "https://game8.jp/octopathtraveler2/515151"
+            }
+          ]
+        }
+      },
+      {
+        "kind": "minor",
+        "pts": [
+          [
+            16,
+            40
+          ],
+          [
+            20,
+            30
+          ],
+          [
+            26,
+            26
+          ]
+        ],
+        "label": "西端分岔向北",
+        "route": {
+          "from": "岔路 C",
+          "to": "黏着之花宝箱",
+          "steps": [
+            "在西端岔路向北",
+            "查看前往大桥方向右侧的宝箱",
+            "取完回到主路去大桥"
+          ],
+          "sources": [
+            {
+              "label": "ArrPeeGeeZ · 西卡纳尔布莱恩海道",
+              "url": "https://www.arrpeegeez.com/2023/02/octopath-traveler-ii-walkthrough-area_99.html"
+            },
+            {
+              "label": "Game8 · 海道地图",
+              "url": "https://game8.jp/octopathtraveler2/515151"
+            }
+          ]
+        }
+      }
     ],
     "pois": [
-      { "kind": "exit", "at": [98, 42], "to": "canalbrine", "label": "往卡纳尔布莱恩", "lp": "t" },
-      { "kind": "save", "at": [92, 42], "label": "存档点", "lp": "t", "note": "靠近卡纳尔布莱恩出口；治愈葡萄（大）箱在其左侧不远。" },
-      { "kind": "exit", "at": [2, 36], "to": "canalbrine_bridge", "label": "往大桥", "lp": "b" },
-      { "kind": "chest", "at": [84, 50], "tr": [0], "lp": "r" },
-      { "kind": "landmark", "at": [68, 18], "label": "码头", "lp": "r" },
-      { "kind": "chest", "at": [53, 6], "tr": [1], "lp": "l" },
-      { "kind": "chest", "at": [87, 9], "tr": [2], "lp": "l" },
-      { "kind": "chest", "at": [38, 35], "tr": [3], "lp": "l" },
-      { "kind": "chest", "at": [12, 60], "tr": [4], "lp": "r" },
-      { "kind": "chest", "at": [26, 26], "tr": [5], "lp": "r", "note": "西端岔路向北，往大桥方向的右侧。" },
-      { "kind": "npc", "at": [31, 46], "label": "阴沉的男人（支线·夜）", "note": "卡丝蒂开局完成第1章后的支线「旅人的行囊」。", "lp": "r" }
+      {
+        "kind": "exit",
+        "at": [
+          98,
+          42
+        ],
+        "to": "canalbrine",
+        "label": "往卡纳尔布莱恩",
+        "lp": "t"
+      },
+      {
+        "kind": "save",
+        "at": [
+          92,
+          42
+        ],
+        "label": "存档点",
+        "lp": "t",
+        "note": "靠近卡纳尔布莱恩出口；治愈葡萄（大）箱在其左侧不远。"
+      },
+      {
+        "kind": "exit",
+        "at": [
+          2,
+          36
+        ],
+        "to": "canalbrine_bridge",
+        "label": "往大桥",
+        "lp": "b"
+      },
+      {
+        "kind": "chest",
+        "at": [
+          84,
+          50
+        ],
+        "tr": [
+          0
+        ],
+        "lp": "r"
+      },
+      {
+        "kind": "landmark",
+        "at": [
+          68,
+          18
+        ],
+        "label": "码头",
+        "lp": "r"
+      },
+      {
+        "kind": "chest",
+        "at": [
+          53,
+          6
+        ],
+        "tr": [
+          1
+        ],
+        "lp": "l"
+      },
+      {
+        "kind": "chest",
+        "at": [
+          87,
+          9
+        ],
+        "tr": [
+          2
+        ],
+        "lp": "l"
+      },
+      {
+        "kind": "chest",
+        "at": [
+          38,
+          35
+        ],
+        "tr": [
+          3
+        ],
+        "lp": "l"
+      },
+      {
+        "kind": "chest",
+        "at": [
+          12,
+          60
+        ],
+        "tr": [
+          4
+        ],
+        "lp": "r"
+      },
+      {
+        "kind": "chest",
+        "at": [
+          26,
+          26
+        ],
+        "tr": [
+          5
+        ],
+        "lp": "r",
+        "note": "西端岔路向北，往大桥方向的右侧。"
+      },
+      {
+        "kind": "npc",
+        "at": [
+          31,
+          46
+        ],
+        "label": "阴沉的男人（支线·夜）",
+        "note": "卡丝蒂开局完成第1章后的支线「旅人的行囊」。",
+        "lp": "r"
+      }
+    ],
+    "sources": [
+      {
+        "label": "ArrPeeGeeZ · 西卡纳尔布莱恩海道",
+        "url": "https://www.arrpeegeez.com/2023/02/octopath-traveler-ii-walkthrough-area_99.html"
+      },
+      {
+        "label": "Game8 · 海道地图",
+        "url": "https://game8.jp/octopathtraveler2/515151"
+      }
+    ],
+    "junctions": [
+      {
+        "label": "A",
+        "at": [
+          72,
+          40
+        ],
+        "roads": [
+          0,
+          2
+        ],
+        "note": "由城镇向西遇到的第一处主要岔路：北行穿洞到码头，西行仍是主路。"
+      },
+      {
+        "label": "B",
+        "at": [
+          48,
+          32
+        ],
+        "roads": [
+          5,
+          6
+        ],
+        "note": "先从主路上台阶，再转左下另一段台阶取李子；不是向北去海岸码头。"
+      },
+      {
+        "label": "C",
+        "at": [
+          16,
+          40
+        ],
+        "roads": [
+          0,
+          7,
+          8
+        ],
+        "note": "西端分岔：南边1500叶、北边黏着之花；主路西行去大桥。"
+      }
     ]
   }
 });
@@ -10588,46 +12429,761 @@ OT2.addDetail("harborlands", {
 OT2.addDetail("harborlands", {
   "canalbrine_bridge": {
     "theme": "field",
-    "size": [100, 70],
+    "size": [
+      100,
+      70
+    ],
     "note": "东西向跨海大桥：东端接西卡纳尔布莱恩海道（右端有存档点），西端接北琉砂道并有南下道路往北康宁湾海道（南侧出口附近路旁有治愈葡萄串）。桥左侧梯子下到水面码头，可划独木舟：向右到平台、向南到小岛、穿过桥墩缺口北上到废灯塔与半截塔所在的小岛（篡夺者潜窟入口）。",
     "zones": [
-      { "kind": "water", "rect": [14, 0, 86, 70] },
-      { "kind": "sand", "rect": [0, 0, 14, 70] },
-      { "kind": "sand", "rect": [88, 30, 12, 18] },
-      { "kind": "sand", "poly": [[60, 4], [90, 2], [99, 6], [99, 18], [66, 20]] },
-      { "kind": "rock", "rect": [66, 3, 10, 9], "label": "废灯塔" },
-      { "kind": "rock", "rect": [86, 6, 11, 9], "label": "半截塔" },
-      { "kind": "sand", "circle": [58, 60, 4], "label": "南侧小岛" },
-      { "kind": "deck", "rect": [35, 50, 8, 5], "label": "平台" }
+      {
+        "kind": "water",
+        "rect": [
+          14,
+          0,
+          86,
+          70
+        ]
+      },
+      {
+        "kind": "sand",
+        "rect": [
+          0,
+          0,
+          14,
+          70
+        ]
+      },
+      {
+        "kind": "sand",
+        "rect": [
+          88,
+          30,
+          12,
+          18
+        ]
+      },
+      {
+        "kind": "sand",
+        "poly": [
+          [
+            60,
+            4
+          ],
+          [
+            90,
+            2
+          ],
+          [
+            99,
+            6
+          ],
+          [
+            99,
+            18
+          ],
+          [
+            66,
+            20
+          ]
+        ]
+      },
+      {
+        "kind": "rock",
+        "rect": [
+          66,
+          3,
+          10,
+          9
+        ],
+        "label": "废灯塔"
+      },
+      {
+        "kind": "rock",
+        "rect": [
+          86,
+          6,
+          11,
+          9
+        ],
+        "label": "半截塔"
+      },
+      {
+        "kind": "sand",
+        "circle": [
+          58,
+          60,
+          4
+        ],
+        "label": "南侧小岛"
+      },
+      {
+        "kind": "deck",
+        "rect": [
+          35,
+          50,
+          8,
+          5
+        ],
+        "label": "平台"
+      }
     ],
     "paths": [
-      { "kind": "main", "pts": [[98, 40], [86, 38]] },
-      { "kind": "bridge", "pts": [[86, 38], [50, 38], [16, 38]], "label": "卡纳尔布莱恩大桥" },
-      { "kind": "main", "pts": [[16, 38], [8, 36], [2, 34]] },
-      { "kind": "main", "pts": [[8, 36], [10, 52], [10, 68]], "label": "南下道路" },
-      { "kind": "ladder", "pts": [[20, 38], [20, 47]], "label": "桥左侧梯子" },
-      { "kind": "boat", "pts": [[20, 47], [30, 52], [38, 52]], "label": "向右划到平台" },
-      { "kind": "boat", "pts": [[30, 52], [48, 58], [56, 60]], "label": "划到南侧小岛" },
-      { "kind": "boat", "pts": [[20, 47], [30, 42], [36, 38], [44, 28], [56, 18], [64, 16]], "label": "穿过桥墩缺口北上" },
-      { "kind": "stairs", "pts": [[64, 16], [70, 9], [72, 4]], "label": "登上废灯塔" },
-      { "kind": "minor", "pts": [[64, 16], [80, 14], [96, 12]], "label": "往半截塔" }
+      {
+        "kind": "main",
+        "pts": [
+          [
+            98,
+            40
+          ],
+          [
+            86,
+            38
+          ]
+        ],
+        "label": "东端存档点至桥头",
+        "route": {
+          "from": "东口／存档点",
+          "to": "大桥东侧桥头",
+          "steps": [
+            "从西卡纳尔布莱恩海道进入",
+            "经过存档点与附近免疫之叶宝箱，向西上桥"
+          ],
+          "sources": [
+            {
+              "label": "Neoseeker · 港湾之地路线",
+              "url": "https://www.neoseeker.com/octopath-traveler-ii/walkthrough/WE_Castti"
+            },
+            {
+              "label": "Game8 · 大桥地图",
+              "url": "https://game8.jp/octopathtraveler2/515151"
+            },
+            {
+              "label": "AppMedia · 桥下北行至潜窟",
+              "url": "https://appmedia.jp/octopathtraveler2/76519139"
+            }
+          ]
+        }
+      },
+      {
+        "kind": "bridge",
+        "pts": [
+          [
+            86,
+            38
+          ],
+          [
+            50,
+            38
+          ],
+          [
+            16,
+            38
+          ]
+        ],
+        "label": "桥面东西通行",
+        "route": {
+          "from": "大桥东侧桥头",
+          "to": "大桥西端",
+          "steps": [
+            "沿桥面向西穿过大桥",
+            "寻找西侧通往桥底的梯子"
+          ],
+          "sources": [
+            {
+              "label": "Neoseeker · 港湾之地路线",
+              "url": "https://www.neoseeker.com/octopath-traveler-ii/walkthrough/WE_Castti"
+            },
+            {
+              "label": "Game8 · 大桥地图",
+              "url": "https://game8.jp/octopathtraveler2/515151"
+            },
+            {
+              "label": "AppMedia · 桥下北行至潜窟",
+              "url": "https://appmedia.jp/octopathtraveler2/76519139"
+            }
+          ],
+          "caution": "桥下航线与桥面分层；图上交叉处不能直接上下桥"
+        }
+      },
+      {
+        "kind": "main",
+        "pts": [
+          [
+            16,
+            38
+          ],
+          [
+            8,
+            36
+          ],
+          [
+            2,
+            34
+          ]
+        ],
+        "label": "西端陆路出口",
+        "route": {
+          "from": "大桥西端",
+          "to": "北琉砂道出口",
+          "steps": [
+            "到西端岔路 A",
+            "继续向西去北琉砂道，向南则是另一条道路"
+          ],
+          "sources": [
+            {
+              "label": "Neoseeker · 港湾之地路线",
+              "url": "https://www.neoseeker.com/octopath-traveler-ii/walkthrough/WE_Castti"
+            },
+            {
+              "label": "Game8 · 大桥地图",
+              "url": "https://game8.jp/octopathtraveler2/515151"
+            },
+            {
+              "label": "AppMedia · 桥下北行至潜窟",
+              "url": "https://appmedia.jp/octopathtraveler2/76519139"
+            }
+          ]
+        }
+      },
+      {
+        "kind": "main",
+        "pts": [
+          [
+            8,
+            36
+          ],
+          [
+            10,
+            52
+          ],
+          [
+            10,
+            68
+          ]
+        ],
+        "label": "西端南下陆路",
+        "route": {
+          "from": "岔路 A",
+          "to": "北康宁湾海道出口",
+          "steps": [
+            "从西端岔路向南走",
+            "沿路可取治愈葡萄串",
+            "继续南下离开本区"
+          ],
+          "sources": [
+            {
+              "label": "Neoseeker · 港湾之地路线",
+              "url": "https://www.neoseeker.com/octopath-traveler-ii/walkthrough/WE_Castti"
+            },
+            {
+              "label": "Game8 · 大桥地图",
+              "url": "https://game8.jp/octopathtraveler2/515151"
+            },
+            {
+              "label": "AppMedia · 桥下北行至潜窟",
+              "url": "https://appmedia.jp/octopathtraveler2/76519139"
+            }
+          ],
+          "caution": "这条陆路不需要乘船，不要误走桥底航线"
+        }
+      },
+      {
+        "kind": "ladder",
+        "pts": [
+          [
+            20,
+            38
+          ],
+          [
+            20,
+            47
+          ]
+        ],
+        "label": "下梯至桥底码头",
+        "route": {
+          "from": "桥面西侧梯子",
+          "to": "桥底码头 B",
+          "steps": [
+            "找到桥西侧梯子并下到桥底",
+            "梯子脚下附近可取冰之精灵石",
+            "在码头换乘独木舟"
+          ],
+          "sources": [
+            {
+              "label": "Neoseeker · 港湾之地路线",
+              "url": "https://www.neoseeker.com/octopath-traveler-ii/walkthrough/WE_Castti"
+            },
+            {
+              "label": "Game8 · 大桥地图",
+              "url": "https://game8.jp/octopathtraveler2/515151"
+            },
+            {
+              "label": "AppMedia · 桥下北行至潜窟",
+              "url": "https://appmedia.jp/octopathtraveler2/76519139"
+            }
+          ],
+          "caution": "从桥面到水面的换层点是梯子"
+        }
+      },
+      {
+        "kind": "boat",
+        "pts": [
+          [
+            20,
+            47
+          ],
+          [
+            30,
+            52
+          ],
+          [
+            38,
+            52
+          ]
+        ],
+        "label": "码头向东到平台",
+        "route": {
+          "from": "桥底码头 B",
+          "to": "桥下东侧平台",
+          "steps": [
+            "在码头乘独木舟",
+            "沿水面向右划",
+            "到平台处取骑枪"
+          ],
+          "sources": [
+            {
+              "label": "Neoseeker · 港湾之地路线",
+              "url": "https://www.neoseeker.com/octopath-traveler-ii/walkthrough/WE_Castti"
+            },
+            {
+              "label": "Game8 · 大桥地图",
+              "url": "https://game8.jp/octopathtraveler2/515151"
+            },
+            {
+              "label": "AppMedia · 桥下北行至潜窟",
+              "url": "https://appmedia.jp/octopathtraveler2/76519139"
+            }
+          ],
+          "mode": "乘独木舟"
+        }
+      },
+      {
+        "kind": "boat",
+        "pts": [
+          [
+            30,
+            52
+          ],
+          [
+            48,
+            58
+          ],
+          [
+            56,
+            60
+          ]
+        ],
+        "label": "水路转向南侧小岛",
+        "route": {
+          "from": "东行航线分叉",
+          "to": "南侧小岛",
+          "steps": [
+            "从桥底东行水路的分叉向南划",
+            "到南侧小岛取回春果酱"
+          ],
+          "sources": [
+            {
+              "label": "Neoseeker · 港湾之地路线",
+              "url": "https://www.neoseeker.com/octopath-traveler-ii/walkthrough/WE_Castti"
+            },
+            {
+              "label": "Game8 · 大桥地图",
+              "url": "https://game8.jp/octopathtraveler2/515151"
+            },
+            {
+              "label": "AppMedia · 桥下北行至潜窟",
+              "url": "https://appmedia.jp/octopathtraveler2/76519139"
+            }
+          ],
+          "mode": "乘独木舟"
+        }
+      },
+      {
+        "kind": "boat",
+        "pts": [
+          [
+            20,
+            47
+          ],
+          [
+            30,
+            42
+          ],
+          [
+            36,
+            38
+          ],
+          [
+            44,
+            28
+          ],
+          [
+            56,
+            18
+          ],
+          [
+            64,
+            16
+          ]
+        ],
+        "label": "桥下穿行至北岛",
+        "route": {
+          "from": "桥底码头 B",
+          "to": "北侧小岛上岸处 C",
+          "steps": [
+            "在码头乘独木舟向北",
+            "从桥墩缺口穿过桥下",
+            "继续北上，在废灯塔所在小岛靠岸"
+          ],
+          "sources": [
+            {
+              "label": "Neoseeker · 港湾之地路线",
+              "url": "https://www.neoseeker.com/octopath-traveler-ii/walkthrough/WE_Castti"
+            },
+            {
+              "label": "Game8 · 大桥地图",
+              "url": "https://game8.jp/octopathtraveler2/515151"
+            },
+            {
+              "label": "AppMedia · 桥下北行至潜窟",
+              "url": "https://appmedia.jp/octopathtraveler2/76519139"
+            }
+          ],
+          "mode": "乘独木舟",
+          "caution": "经过的是桥下水路；不能在桥墩缺口直接登上桥面"
+        }
+      },
+      {
+        "kind": "ladder",
+        "pts": [
+          [
+            64,
+            16
+          ],
+          [
+            70,
+            9
+          ],
+          [
+            72,
+            4
+          ]
+        ],
+        "label": "上梯取灯塔顶宝箱",
+        "route": {
+          "from": "北侧小岛上岸处 C",
+          "to": "废灯塔顶部",
+          "steps": [
+            "上岸后寻找废灯塔的梯子",
+            "爬到顶部取银制剑",
+            "取完回到岛上分岔处"
+          ],
+          "sources": [
+            {
+              "label": "Neoseeker · 港湾之地路线",
+              "url": "https://www.neoseeker.com/octopath-traveler-ii/walkthrough/WE_Castti"
+            },
+            {
+              "label": "Game8 · 大桥地图",
+              "url": "https://game8.jp/octopathtraveler2/515151"
+            },
+            {
+              "label": "AppMedia · 桥下北行至潜窟",
+              "url": "https://appmedia.jp/octopathtraveler2/76519139"
+            }
+          ]
+        }
+      },
+      {
+        "kind": "minor",
+        "pts": [
+          [
+            64,
+            16
+          ],
+          [
+            80,
+            14
+          ],
+          [
+            96,
+            12
+          ]
+        ],
+        "label": "半截塔与潜窟入口",
+        "route": {
+          "from": "北侧小岛上岸处 C",
+          "to": "篡夺者潜窟入口",
+          "steps": [
+            "从上岸处向东走到半截塔",
+            "进入塔内，沿入口下到篡夺者潜窟"
+          ],
+          "sources": [
+            {
+              "label": "Neoseeker · 港湾之地路线",
+              "url": "https://www.neoseeker.com/octopath-traveler-ii/walkthrough/WE_Castti"
+            },
+            {
+              "label": "Game8 · 大桥地图",
+              "url": "https://game8.jp/octopathtraveler2/515151"
+            },
+            {
+              "label": "AppMedia · 桥下北行至潜窟",
+              "url": "https://appmedia.jp/octopathtraveler2/76519139"
+            }
+          ],
+          "caution": "不要把取银制剑的灯塔顶当成潜窟入口"
+        }
+      }
     ],
     "pois": [
-      { "kind": "exit", "at": [98, 40], "to": "western_canalbrine_coast", "label": "往西卡纳尔布莱恩海道", "lp": "b" },
-      { "kind": "exit", "at": [2, 34], "to": "hinoeuma/northern_ryu_sands", "label": "往北琉砂道", "lp": "t" },
-      { "kind": "exit", "at": [10, 68], "to": "northern_conning_creek_coast", "label": "往北康宁湾海道", "lp": "r" },
-      { "kind": "exit", "at": [96, 12], "to": "lair_of_the_usurper", "label": "篡夺者潜窟（半截塔内）", "lp": "b" },
-      { "kind": "chest", "at": [84, 38], "tr": [3], "lp": "t", "note": "大桥右端。" },
-      { "kind": "chest", "at": [20, 47], "tr": [4], "lp": "l" },
-      { "kind": "chest", "at": [38, 52], "tr": [2], "lp": "b" },
-      { "kind": "chest", "at": [56, 60], "tr": [1], "lp": "r" },
-      { "kind": "chest", "at": [10, 61], "tr": [5], "lp": "r", "note": "南侧出口（往北康宁湾海道）附近的路旁，不需乘船。" },
-      { "kind": "save", "at": [91, 39], "label": "存档点", "lp": "b", "note": "桥右端；免疫之叶宝箱在其附近。" },
-      { "kind": "chest_red", "at": [72, 4], "tr": [0], "lp": "l", "note": "废灯塔顶部，前期强力剑。" },
-      { "kind": "landmark", "at": [36, 40], "label": "桥墩缺口", "lp": "b" },
-      { "kind": "npc", "at": [28, 36], "label": "造桥工", "npc": [1], "lp": "t" },
-      { "kind": "npc", "at": [44, 36], "label": "工头", "npc": [2], "lp": "t" },
-      { "kind": "npc", "at": [56, 36], "label": "新手造桥工", "npc": [0], "lp": "t" }
+      {
+        "kind": "exit",
+        "at": [
+          98,
+          40
+        ],
+        "to": "western_canalbrine_coast",
+        "label": "往西卡纳尔布莱恩海道",
+        "lp": "b"
+      },
+      {
+        "kind": "exit",
+        "at": [
+          2,
+          34
+        ],
+        "to": "hinoeuma/northern_ryu_sands",
+        "label": "往北琉砂道",
+        "lp": "t"
+      },
+      {
+        "kind": "exit",
+        "at": [
+          10,
+          68
+        ],
+        "to": "northern_conning_creek_coast",
+        "label": "往北康宁湾海道",
+        "lp": "r"
+      },
+      {
+        "kind": "exit",
+        "at": [
+          96,
+          12
+        ],
+        "to": "lair_of_the_usurper",
+        "label": "篡夺者潜窟（半截塔内）",
+        "lp": "b"
+      },
+      {
+        "kind": "chest",
+        "at": [
+          84,
+          38
+        ],
+        "tr": [
+          3
+        ],
+        "lp": "t",
+        "note": "大桥右端。"
+      },
+      {
+        "kind": "chest",
+        "at": [
+          20,
+          47
+        ],
+        "tr": [
+          4
+        ],
+        "lp": "l"
+      },
+      {
+        "kind": "chest",
+        "at": [
+          38,
+          52
+        ],
+        "tr": [
+          2
+        ],
+        "lp": "b"
+      },
+      {
+        "kind": "chest",
+        "at": [
+          56,
+          60
+        ],
+        "tr": [
+          1
+        ],
+        "lp": "r"
+      },
+      {
+        "kind": "chest",
+        "at": [
+          10,
+          61
+        ],
+        "tr": [
+          5
+        ],
+        "lp": "r",
+        "note": "南侧出口（往北康宁湾海道）附近的路旁，不需乘船。"
+      },
+      {
+        "kind": "save",
+        "at": [
+          91,
+          39
+        ],
+        "label": "存档点",
+        "lp": "b",
+        "note": "桥右端；免疫之叶宝箱在其附近。"
+      },
+      {
+        "kind": "chest_red",
+        "at": [
+          72,
+          4
+        ],
+        "tr": [
+          0
+        ],
+        "lp": "l",
+        "note": "废灯塔顶部，前期强力剑。"
+      },
+      {
+        "kind": "landmark",
+        "at": [
+          36,
+          40
+        ],
+        "label": "桥墩缺口",
+        "lp": "b"
+      },
+      {
+        "kind": "npc",
+        "at": [
+          28,
+          36
+        ],
+        "label": "造桥工",
+        "npc": [
+          1
+        ],
+        "lp": "t"
+      },
+      {
+        "kind": "npc",
+        "at": [
+          44,
+          36
+        ],
+        "label": "工头",
+        "npc": [
+          2
+        ],
+        "lp": "t"
+      },
+      {
+        "kind": "npc",
+        "at": [
+          56,
+          36
+        ],
+        "label": "新手造桥工",
+        "npc": [
+          0
+        ],
+        "lp": "t"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Neoseeker · 港湾之地路线",
+        "url": "https://www.neoseeker.com/octopath-traveler-ii/walkthrough/WE_Castti"
+      },
+      {
+        "label": "Game8 · 大桥地图",
+        "url": "https://game8.jp/octopathtraveler2/515151"
+      },
+      {
+        "label": "AppMedia · 桥下北行至潜窟",
+        "url": "https://appmedia.jp/octopathtraveler2/76519139"
+      }
+    ],
+    "junctions": [
+      {
+        "label": "A",
+        "at": [
+          8,
+          36
+        ],
+        "roads": [
+          2,
+          3
+        ],
+        "note": "桥西端陆路分岔：西去北琉砂道，南去北康宁湾海道。"
+      },
+      {
+        "label": "B",
+        "at": [
+          20,
+          47
+        ],
+        "roads": [
+          4,
+          5,
+          7
+        ],
+        "note": "梯子脚下的桥底码头：从这里换乘独木舟，分走东侧平台或北侧灯塔岛。",
+        "labelAt": [
+          25,
+          45
+        ]
+      },
+      {
+        "label": "C",
+        "at": [
+          64,
+          16
+        ],
+        "roads": [
+          7,
+          8,
+          9
+        ],
+        "note": "北岛上岸后的分岔：向上爬灯塔取剑，向东进入半截塔找潜窟入口。"
+      }
+    ],
+    "crossings": [
+      {
+        "at": [
+          36,
+          38
+        ],
+        "labelAt": [
+          42,
+          46
+        ],
+        "over": 1,
+        "under": 7,
+        "note": "桥面／桥下不相通"
+      }
     ]
   },
   "lair_of_the_usurper": {
@@ -10674,33 +13230,482 @@ OT2.addDetail("harborlands", {
   },
   "northern_conning_creek_coast": {
     "theme": "field",
-    "size": [100, 70],
+    "size": [
+      100,
+      70
+    ],
     "note": "北端接大桥南下道路，主路斜向西南通往西康宁湾海道。西北角有水池，西侧沙洲被等待中的女人挡住；中段向东伸出通往灵药公祭坛的长沙洲，途中北侧小岛与南侧小支路各有一箱。",
     "zones": [
-      { "kind": "water", "poly": [[50, 0], [100, 0], [100, 70], [60, 70], [54, 50], [46, 30]] },
-      { "kind": "water", "circle": [12, 12, 6], "label": "水池" },
-      { "kind": "sand", "rect": [2, 36, 22, 8], "label": "西侧沙洲" },
-      { "kind": "sand", "poly": [[44, 30], [98, 30], [98, 38], [44, 38]] },
-      { "kind": "sand", "circle": [66, 22, 4], "label": "小岛" },
-      { "kind": "sand", "circle": [78, 44, 3] }
+      {
+        "kind": "water",
+        "poly": [
+          [
+            50,
+            0
+          ],
+          [
+            100,
+            0
+          ],
+          [
+            100,
+            70
+          ],
+          [
+            60,
+            70
+          ],
+          [
+            54,
+            50
+          ],
+          [
+            46,
+            30
+          ]
+        ]
+      },
+      {
+        "kind": "water",
+        "circle": [
+          12,
+          12,
+          6
+        ],
+        "label": "水池"
+      },
+      {
+        "kind": "sand",
+        "rect": [
+          2,
+          36,
+          22,
+          8
+        ],
+        "label": "西侧沙洲"
+      },
+      {
+        "kind": "sand",
+        "poly": [
+          [
+            44,
+            30
+          ],
+          [
+            98,
+            30
+          ],
+          [
+            98,
+            38
+          ],
+          [
+            44,
+            38
+          ]
+        ]
+      },
+      {
+        "kind": "sand",
+        "circle": [
+          66,
+          22,
+          4
+        ],
+        "label": "小岛"
+      },
+      {
+        "kind": "sand",
+        "circle": [
+          78,
+          44,
+          3
+        ]
+      }
     ],
     "paths": [
-      { "kind": "main", "pts": [[40, 2], [40, 18], [36, 30], [30, 44], [20, 56], [4, 66]] },
-      { "kind": "minor", "pts": [[40, 18], [24, 14], [14, 12]], "label": "往西北角水池" },
-      { "kind": "minor", "pts": [[36, 30], [22, 40], [6, 40]], "label": "西侧沙洲" },
-      { "kind": "main", "pts": [[36, 30], [50, 34], [62, 34], [74, 34], [86, 34], [98, 34]], "label": "通往祭坛的沙洲" },
-      { "kind": "minor", "pts": [[62, 34], [66, 26], [66, 22]], "label": "东侧小岛" },
-      { "kind": "minor", "pts": [[74, 34], [78, 44]], "label": "小岛南面的小支路" }
+      {
+        "kind": "main",
+        "pts": [
+          [
+            40,
+            2
+          ],
+          [
+            40,
+            18
+          ],
+          [
+            36,
+            30
+          ],
+          [
+            30,
+            44
+          ],
+          [
+            20,
+            56
+          ],
+          [
+            4,
+            66
+          ]
+        ],
+        "label": "大桥至康宁湾方向主路",
+        "route": {
+          "from": "北口（来自大桥）",
+          "to": "西康宁湾海道出口",
+          "steps": [
+            "从大桥南下进入",
+            "沿主路走到岔路 A",
+            "不去祭坛时继续向西南走到西康宁湾海道"
+          ],
+          "sources": [
+            {
+              "label": "ArrPeeGeeZ · 北康宁湾海道",
+              "url": "https://www.arrpeegeez.com/2023/02/octopath-traveler-ii-walkthrough-area_31.html"
+            },
+            {
+              "label": "Game8 · 康宁湾周边地图",
+              "url": "https://game8.jp/octopathtraveler2/515156"
+            }
+          ]
+        }
+      },
+      {
+        "kind": "minor",
+        "pts": [
+          [
+            40,
+            18
+          ],
+          [
+            24,
+            14
+          ],
+          [
+            14,
+            12
+          ]
+        ],
+        "label": "北段往西北水池",
+        "route": {
+          "from": "北段主路",
+          "to": "西北角水池宝箱",
+          "steps": [
+            "从北段主路向西北绕",
+            "查看水池中的宝箱，取得活力石榴"
+          ],
+          "sources": [
+            {
+              "label": "ArrPeeGeeZ · 北康宁湾海道",
+              "url": "https://www.arrpeegeez.com/2023/02/octopath-traveler-ii-walkthrough-area_31.html"
+            },
+            {
+              "label": "Game8 · 康宁湾周边地图",
+              "url": "https://game8.jp/octopathtraveler2/515156"
+            }
+          ],
+          "caution": "攻略明确了水池位置，池边细部通行仍待截图校准"
+        }
+      },
+      {
+        "kind": "minor",
+        "pts": [
+          [
+            36,
+            30
+          ],
+          [
+            22,
+            40
+          ],
+          [
+            6,
+            40
+          ]
+        ],
+        "label": "西侧沙洲与挡路人",
+        "route": {
+          "from": "岔路 A",
+          "to": "等待中的女人后方宝箱",
+          "steps": [
+            "从主路向西走上细长沙洲",
+            "先处理挡路的等待中的女人",
+            "越过她后取三叉戟"
+          ],
+          "sources": [
+            {
+              "label": "ArrPeeGeeZ · 北康宁湾海道",
+              "url": "https://www.arrpeegeez.com/2023/02/octopath-traveler-ii-walkthrough-area_31.html"
+            },
+            {
+              "label": "Game8 · 康宁湾周边地图",
+              "url": "https://game8.jp/octopathtraveler2/515156"
+            }
+          ],
+          "caution": "需要清除挡路 NPC，不能只沿着主路直接走到宝箱"
+        }
+      },
+      {
+        "kind": "main",
+        "pts": [
+          [
+            36,
+            30
+          ],
+          [
+            50,
+            34
+          ],
+          [
+            62,
+            34
+          ],
+          [
+            74,
+            34
+          ],
+          [
+            86,
+            34
+          ],
+          [
+            98,
+            34
+          ]
+        ],
+        "label": "向东走长沙洲去祭坛",
+        "route": {
+          "from": "岔路 A",
+          "to": "灵药公祭坛入口",
+          "steps": [
+            "在主路中段转向东",
+            "沿长沙洲前进",
+            "经过两个宝箱分支后继续到祭坛"
+          ],
+          "sources": [
+            {
+              "label": "ArrPeeGeeZ · 北康宁湾海道",
+              "url": "https://www.arrpeegeez.com/2023/02/octopath-traveler-ii-walkthrough-area_31.html"
+            },
+            {
+              "label": "Game8 · 康宁湾周边地图",
+              "url": "https://game8.jp/octopathtraveler2/515156"
+            }
+          ],
+          "caution": "这是沙洲步行路线，不是桥下独木舟航线"
+        }
+      },
+      {
+        "kind": "minor",
+        "pts": [
+          [
+            62,
+            34
+          ],
+          [
+            66,
+            26
+          ],
+          [
+            66,
+            22
+          ]
+        ],
+        "label": "祭坛路北侧小岛",
+        "route": {
+          "from": "岔路 B",
+          "to": "风之精灵石（大）宝箱",
+          "steps": [
+            "沿祭坛沙洲到岔路 B",
+            "转往北侧伸出的小岛支路",
+            "取箱后返回同一条沙洲"
+          ],
+          "sources": [
+            {
+              "label": "ArrPeeGeeZ · 北康宁湾海道",
+              "url": "https://www.arrpeegeez.com/2023/02/octopath-traveler-ii-walkthrough-area_31.html"
+            },
+            {
+              "label": "Game8 · 康宁湾周边地图",
+              "url": "https://game8.jp/octopathtraveler2/515156"
+            }
+          ]
+        }
+      },
+      {
+        "kind": "minor",
+        "pts": [
+          [
+            74,
+            34
+          ],
+          [
+            78,
+            44
+          ]
+        ],
+        "label": "祭坛路南侧支路",
+        "route": {
+          "from": "岔路 C",
+          "to": "破盔之斧宝箱",
+          "steps": [
+            "继续沿祭坛沙洲向东",
+            "在小岛南面另一条分支向南走",
+            "取箱后返回沙洲"
+          ],
+          "sources": [
+            {
+              "label": "ArrPeeGeeZ · 北康宁湾海道",
+              "url": "https://www.arrpeegeez.com/2023/02/octopath-traveler-ii-walkthrough-area_31.html"
+            },
+            {
+              "label": "Game8 · 康宁湾周边地图",
+              "url": "https://game8.jp/octopathtraveler2/515156"
+            }
+          ]
+        }
+      }
     ],
     "pois": [
-      { "kind": "exit", "at": [40, 2], "to": "canalbrine_bridge", "label": "往卡纳尔布莱恩大桥", "lp": "r" },
-      { "kind": "exit", "at": [4, 66], "to": "western_conning_creek_coast", "label": "往西康宁湾海道", "lp": "r" },
-      { "kind": "exit", "at": [98, 34], "to": "altar_of_the_charitable", "label": "灵药公祭坛", "lp": "b" },
-      { "kind": "chest", "at": [12, 12], "tr": [0], "lp": "b" },
-      { "kind": "npc", "at": [16, 40], "label": "等待中的女人", "npc": [0], "lp": "t" },
-      { "kind": "chest", "at": [6, 40], "tr": [3], "lp": "b", "note": "需击倒挡路的等待中的女人。" },
-      { "kind": "chest", "at": [66, 22], "tr": [1], "lp": "r" },
-      { "kind": "chest", "at": [78, 44], "tr": [2], "lp": "r" }
+      {
+        "kind": "exit",
+        "at": [
+          40,
+          2
+        ],
+        "to": "canalbrine_bridge",
+        "label": "往卡纳尔布莱恩大桥",
+        "lp": "r"
+      },
+      {
+        "kind": "exit",
+        "at": [
+          4,
+          66
+        ],
+        "to": "western_conning_creek_coast",
+        "label": "往西康宁湾海道",
+        "lp": "r"
+      },
+      {
+        "kind": "exit",
+        "at": [
+          98,
+          34
+        ],
+        "to": "altar_of_the_charitable",
+        "label": "灵药公祭坛",
+        "lp": "b"
+      },
+      {
+        "kind": "chest",
+        "at": [
+          12,
+          12
+        ],
+        "tr": [
+          0
+        ],
+        "lp": "b"
+      },
+      {
+        "kind": "npc",
+        "at": [
+          16,
+          40
+        ],
+        "label": "等待中的女人",
+        "npc": [
+          0
+        ],
+        "lp": "t"
+      },
+      {
+        "kind": "chest",
+        "at": [
+          6,
+          40
+        ],
+        "tr": [
+          3
+        ],
+        "lp": "b",
+        "note": "需击倒挡路的等待中的女人。"
+      },
+      {
+        "kind": "chest",
+        "at": [
+          66,
+          22
+        ],
+        "tr": [
+          1
+        ],
+        "lp": "r"
+      },
+      {
+        "kind": "chest",
+        "at": [
+          78,
+          44
+        ],
+        "tr": [
+          2
+        ],
+        "lp": "r"
+      }
+    ],
+    "sources": [
+      {
+        "label": "ArrPeeGeeZ · 北康宁湾海道",
+        "url": "https://www.arrpeegeez.com/2023/02/octopath-traveler-ii-walkthrough-area_31.html"
+      },
+      {
+        "label": "Game8 · 康宁湾周边地图",
+        "url": "https://game8.jp/octopathtraveler2/515156"
+      }
+    ],
+    "junctions": [
+      {
+        "label": "A",
+        "at": [
+          36,
+          30
+        ],
+        "roads": [
+          0,
+          2,
+          3
+        ],
+        "note": "主路中段分岔：西侧沙洲有挡路女人，东侧长沙洲去祭坛；主路继续往西南。"
+      },
+      {
+        "label": "B",
+        "at": [
+          62,
+          34
+        ],
+        "roads": [
+          3,
+          4
+        ],
+        "note": "祭坛路第一处分支，向北取风之精灵石（大）。"
+      },
+      {
+        "label": "C",
+        "at": [
+          74,
+          34
+        ],
+        "roads": [
+          3,
+          5
+        ],
+        "note": "祭坛路另一处分支，向南取破盔之斧；直行向东仍去祭坛。"
+      }
     ]
   },
   "altar_of_the_charitable": {
@@ -12184,36 +15189,502 @@ OT2.addDetail("crestlands", {
 OT2.addDetail("crestlands", {
   "eastern_flamechurch_pass": {
     "theme": "mountain",
-    "size": [100, 70],
+    "size": [
+      100,
+      70
+    ],
     "note": "纹之地的交通枢纽：从西北的弗拉姆教堂南下，到存档点所在的三岔路口——向北上冬之地、向西南下明之地、向东通往国境大瀑布。南下途中路线转东前右侧有条窄路。",
     "zones": [
-      { "kind": "cliff", "poly": [[0, 0], [40, 0], [36, 8], [20, 6], [0, 8]] },
-      { "kind": "cliff", "poly": [[56, 0], [100, 0], [100, 30], [86, 22], [70, 18], [60, 10]] },
-      { "kind": "cliff", "poly": [[60, 70], [66, 58], [84, 54], [100, 56], [100, 70]] },
-      { "kind": "grass", "rect": [36, 52, 18, 10] },
-      { "kind": "rock", "rect": [4, 50, 10, 8] }
+      {
+        "kind": "cliff",
+        "poly": [
+          [
+            0,
+            0
+          ],
+          [
+            40,
+            0
+          ],
+          [
+            36,
+            8
+          ],
+          [
+            20,
+            6
+          ],
+          [
+            0,
+            8
+          ]
+        ]
+      },
+      {
+        "kind": "cliff",
+        "poly": [
+          [
+            56,
+            0
+          ],
+          [
+            100,
+            0
+          ],
+          [
+            100,
+            30
+          ],
+          [
+            86,
+            22
+          ],
+          [
+            70,
+            18
+          ],
+          [
+            60,
+            10
+          ]
+        ]
+      },
+      {
+        "kind": "cliff",
+        "poly": [
+          [
+            60,
+            70
+          ],
+          [
+            66,
+            58
+          ],
+          [
+            84,
+            54
+          ],
+          [
+            100,
+            56
+          ],
+          [
+            100,
+            70
+          ]
+        ]
+      },
+      {
+        "kind": "grass",
+        "rect": [
+          36,
+          52,
+          18,
+          10
+        ]
+      },
+      {
+        "kind": "rock",
+        "rect": [
+          4,
+          50,
+          10,
+          8
+        ]
+      }
     ],
     "paths": [
-      { "kind": "main", "pts": [[2, 14], [14, 16], [22, 26], [26, 36], [30, 44]], "label": "从弗拉姆教堂南下" },
-      { "kind": "minor", "pts": [[24, 32], [16, 36], [12, 40]], "label": "转东前右侧窄路" },
-      { "kind": "main", "pts": [[30, 44], [50, 46], [70, 44], [86, 40], [98, 38]], "label": "往国境大瀑布" },
-      { "kind": "stairs", "pts": [[86, 40], [88, 30]], "label": "路边台阶" },
-      { "kind": "main", "pts": [[30, 44], [38, 32], [44, 20], [48, 2]], "label": "往北（冬之地）" },
-      { "kind": "minor", "pts": [[44, 20], [52, 22]], "label": "北路右侧小空地" },
-      { "kind": "main", "pts": [[30, 44], [24, 56], [14, 64], [4, 68]], "label": "往南（明之地）" },
-      { "kind": "hidden", "pts": [[22, 58], [12, 55]], "label": "南路右侧隐蔽空地" }
+      {
+        "kind": "main",
+        "pts": [
+          [
+            2,
+            14
+          ],
+          [
+            14,
+            16
+          ],
+          [
+            22,
+            26
+          ],
+          [
+            24,
+            32
+          ],
+          [
+            26,
+            36
+          ],
+          [
+            30,
+            44
+          ]
+        ],
+        "label": "教堂下坡至存档路口",
+        "route": {
+          "from": "弗拉姆教堂出口",
+          "to": "存档点路口",
+          "steps": [
+            "从教堂沿台阶南下",
+            "转东之前右手有皮甲窄路",
+            "继续到存档点所在分岔路口"
+          ],
+          "sources": [
+            {
+              "label": "ArrPeeGeeZ · 东弗拉姆教堂山道",
+              "url": "https://www.arrpeegeez.com/2023/02/octopath-traveler-ii-walkthrough-area_20.html"
+            }
+          ]
+        }
+      },
+      {
+        "kind": "minor",
+        "pts": [
+          [
+            24,
+            32
+          ],
+          [
+            16,
+            36
+          ],
+          [
+            12,
+            40
+          ]
+        ],
+        "label": "转东前的皮甲窄路",
+        "route": {
+          "from": "教堂南下主路",
+          "to": "皮甲宝箱",
+          "steps": [
+            "从教堂南下、路线转东前，查看右侧窄路",
+            "走到尽头取皮甲",
+            "原路返回主路"
+          ],
+          "sources": [
+            {
+              "label": "ArrPeeGeeZ · 东弗拉姆教堂山道",
+              "url": "https://www.arrpeegeez.com/2023/02/octopath-traveler-ii-walkthrough-area_20.html"
+            }
+          ]
+        }
+      },
+      {
+        "kind": "main",
+        "pts": [
+          [
+            30,
+            44
+          ],
+          [
+            50,
+            46
+          ],
+          [
+            70,
+            44
+          ],
+          [
+            86,
+            40
+          ],
+          [
+            98,
+            38
+          ]
+        ],
+        "label": "存档路口向东去瀑布",
+        "route": {
+          "from": "存档点路口",
+          "to": "国境大瀑布出口",
+          "steps": [
+            "以存档点为参照转向东",
+            "在出口前可分出上台阶取火之精灵石",
+            "沿主路继续到国境大瀑布"
+          ],
+          "sources": [
+            {
+              "label": "ArrPeeGeeZ · 东弗拉姆教堂山道",
+              "url": "https://www.arrpeegeez.com/2023/02/octopath-traveler-ii-walkthrough-area_20.html"
+            }
+          ]
+        }
+      },
+      {
+        "kind": "stairs",
+        "pts": [
+          [
+            86,
+            40
+          ],
+          [
+            88,
+            30
+          ]
+        ],
+        "label": "瀑布口前上台阶",
+        "route": {
+          "from": "瀑布出口前的主路",
+          "to": "火之精灵石宝箱",
+          "steps": [
+            "到国境大瀑布入口前",
+            "从路旁台阶向上走",
+            "取箱后回到东行主路"
+          ],
+          "sources": [
+            {
+              "label": "ArrPeeGeeZ · 东弗拉姆教堂山道",
+              "url": "https://www.arrpeegeez.com/2023/02/octopath-traveler-ii-walkthrough-area_20.html"
+            }
+          ]
+        }
+      },
+      {
+        "kind": "main",
+        "pts": [
+          [
+            30,
+            44
+          ],
+          [
+            38,
+            32
+          ],
+          [
+            44,
+            20
+          ],
+          [
+            48,
+            2
+          ]
+        ],
+        "label": "存档路口向北去雪道",
+        "route": {
+          "from": "存档点路口",
+          "to": "东科尔德凯普雪道出口",
+          "steps": [
+            "从存档点向北",
+            "右侧小空地可取安眠草",
+            "继续北行进入冬之地"
+          ],
+          "sources": [
+            {
+              "label": "ArrPeeGeeZ · 东弗拉姆教堂山道",
+              "url": "https://www.arrpeegeez.com/2023/02/octopath-traveler-ii-walkthrough-area_20.html"
+            }
+          ]
+        }
+      },
+      {
+        "kind": "minor",
+        "pts": [
+          [
+            44,
+            20
+          ],
+          [
+            52,
+            22
+          ]
+        ],
+        "label": "北路右侧安眠草支路",
+        "route": {
+          "from": "北行主路",
+          "to": "安眠草宝箱",
+          "steps": [
+            "沿北行道路查看右侧小空地",
+            "走入空地取箱",
+            "原路回到北行主路"
+          ],
+          "sources": [
+            {
+              "label": "ArrPeeGeeZ · 东弗拉姆教堂山道",
+              "url": "https://www.arrpeegeez.com/2023/02/octopath-traveler-ii-walkthrough-area_20.html"
+            }
+          ]
+        }
+      },
+      {
+        "kind": "main",
+        "pts": [
+          [
+            30,
+            44
+          ],
+          [
+            24,
+            56
+          ],
+          [
+            22,
+            58
+          ],
+          [
+            14,
+            64
+          ],
+          [
+            4,
+            68
+          ]
+        ],
+        "label": "存档路口向西南去明之地",
+        "route": {
+          "from": "存档点路口",
+          "to": "西轮敦街道出口",
+          "steps": [
+            "从存档点向西南走",
+            "临近南侧出口时查看右侧隐蔽空地",
+            "沿主路进入明之地"
+          ],
+          "sources": [
+            {
+              "label": "ArrPeeGeeZ · 东弗拉姆教堂山道",
+              "url": "https://www.arrpeegeez.com/2023/02/octopath-traveler-ii-walkthrough-area_20.html"
+            }
+          ]
+        }
+      },
+      {
+        "kind": "hidden",
+        "pts": [
+          [
+            22,
+            58
+          ],
+          [
+            12,
+            55
+          ]
+        ],
+        "label": "南路右侧隐蔽宝箱",
+        "route": {
+          "from": "通往西轮敦街道的主路",
+          "to": "活力石榴宝箱",
+          "steps": [
+            "在南行路上查看右侧不易看见的小空地",
+            "走入空地取活力石榴",
+            "原路回到主路"
+          ],
+          "sources": [
+            {
+              "label": "ArrPeeGeeZ · 东弗拉姆教堂山道",
+              "url": "https://www.arrpeegeez.com/2023/02/octopath-traveler-ii-walkthrough-area_20.html"
+            }
+          ]
+        }
+      }
     ],
     "pois": [
-      { "kind": "exit", "at": [2, 14], "to": "flamechurch", "label": "往弗拉姆教堂", "lp": "b", "dir": "西" },
-      { "kind": "exit", "at": [48, 2], "to": "winterlands/eastern_cape_cold_snows", "label": "往东科尔德凯普雪道", "lp": "r", "dir": "北" },
-      { "kind": "exit", "at": [4, 68], "to": "brightlands/western_cb_highroad", "label": "往西轮敦街道", "lp": "r", "dir": "西南" },
-      { "kind": "exit", "at": [98, 38], "to": "borderfall", "label": "往国境大瀑布", "lp": "t", "dir": "东" },
-      { "kind": "save", "at": [30, 44], "label": "存档点（三岔路口）", "lp": "l" },
-      { "kind": "chest", "at": [12, 40], "tr": [0], "lp": "b" },
-      { "kind": "chest", "at": [88, 29], "tr": [1], "lp": "l" },
-      { "kind": "chest", "at": [52, 22], "tr": [2], "lp": "r" },
-      { "kind": "chest", "at": [12, 55], "tr": [3], "lp": "t" }
-    ]
+      {
+        "kind": "exit",
+        "at": [
+          2,
+          14
+        ],
+        "to": "flamechurch",
+        "label": "往弗拉姆教堂",
+        "lp": "b",
+        "dir": "西"
+      },
+      {
+        "kind": "exit",
+        "at": [
+          48,
+          2
+        ],
+        "to": "winterlands/eastern_cape_cold_snows",
+        "label": "往东科尔德凯普雪道",
+        "lp": "r",
+        "dir": "北"
+      },
+      {
+        "kind": "exit",
+        "at": [
+          4,
+          68
+        ],
+        "to": "brightlands/western_cb_highroad",
+        "label": "往西轮敦街道",
+        "lp": "r",
+        "dir": "西南"
+      },
+      {
+        "kind": "exit",
+        "at": [
+          98,
+          38
+        ],
+        "to": "borderfall",
+        "label": "往国境大瀑布",
+        "lp": "t",
+        "dir": "东"
+      },
+      {
+        "kind": "save",
+        "at": [
+          30,
+          44
+        ],
+        "label": "存档点（三岔路口）",
+        "lp": "l"
+      },
+      {
+        "kind": "chest",
+        "at": [
+          12,
+          40
+        ],
+        "tr": [
+          0
+        ],
+        "lp": "b"
+      },
+      {
+        "kind": "chest",
+        "at": [
+          88,
+          29
+        ],
+        "tr": [
+          1
+        ],
+        "lp": "l"
+      },
+      {
+        "kind": "chest",
+        "at": [
+          52,
+          22
+        ],
+        "tr": [
+          2
+        ],
+        "lp": "r"
+      },
+      {
+        "kind": "chest",
+        "at": [
+          12,
+          55
+        ],
+        "tr": [
+          3
+        ],
+        "lp": "t"
+      }
+    ],
+    "sources": [
+      {
+        "label": "ArrPeeGeeZ · 东弗拉姆教堂山道",
+        "url": "https://www.arrpeegeez.com/2023/02/octopath-traveler-ii-walkthrough-area_20.html"
+      }
+    ],
+    "junctions": []
   },
   "borderfall": {
     "theme": "mountain",
@@ -25612,7 +29083,7 @@ OT2.encounters = {
   const facility = new Set(["inn","tavern","shop","weapon","armor","item","church","guild","peddler","ship","shrine","house","camp"]);
   const labels = {exit:"出入口",save:"存档点",inn:"旅店",tavern:"酒馆",shop:"商店",weapon:"武器店",armor:"防具店",item:"道具店",church:"教会",guild:"公会",npc:"NPC",boss:"Boss",chest:"宝箱",chest_red:"红宝箱",chest_purple:"紫宝箱",hidden:"隐藏物",stairs:"楼梯",gate:"门／机关",ship:"船只／渡口",peddler:"行商",danger:"危险区域",landmark:"地标",camp:"营地",shrine:"祠堂",house:"民宅"};
   const pathLabels = {main:"主路",minor:"岔路",hidden:"隐藏通道",stairs:"台阶／楼梯",bridge:"桥",ladder:"梯子／藤蔓",water:"水路",boat:"航线／渡船"};
-  const categories = [["all","全部"],["facility","设施"],["npc","NPC"],["treasure","宝箱"],["exit","出口"],["path","道路"],["enemy","怪物"]];
+  const categories = [["all","全部"],["facility","设施"],["npc","NPC"],["treasure","宝箱"],["exit","出口"],["anchor","参照"],["path","道路"],["enemy","怪物"]];
   function area(rid, lid) { return window.OT2?.encounters?.regions?.[rid]?.[lid] || null; }
   function timeOf(note, name = "") {
     const explicit = String(name).match(/[（(][^（）()]*?(白天|夜晚|日间|夜间|昼|夜)[）)]/);
@@ -25623,6 +29094,8 @@ OT2.encounters = {
     const day = /白天|日间|昼间|day only/i.test(t), night = /夜晚|夜间|晚上|night only/i.test(t);
     return day && !night ? "day" : night && !day ? "night" : "all";
   }
+  const isSignpost = p => p.navigation === "signpost" || (p.kind === "landmark" && /^路[标牌](?:[（(]|$)/.test(p.label || ""));
+  const isNavigationAnchor = p => ["save","exit"].includes(p.kind) || isSignpost(p);
   function entries(rid, loc, d) {
     const result = [], npcs = arr(loc.npcs), treasures = arr(loc.treasures), linked = new Set();
     arr(d.pois).forEach((p,i) => {
@@ -25634,7 +29107,7 @@ OT2.encounters = {
       const ownTime = /[/／]/.test(p.label || "") || (p.kind === "npc" && ns.length > 1 && time === "all") ? "all" : timeOf(/^(?:仅)?(?:白天|夜晚|日间|夜间)|仅(?:白天|夜晚)/.test(p.note || "") ? p.note : "", p.label);
       const category = p.kind === "exit" ? "exit" : p.kind.startsWith("chest") || p.kind === "hidden" ? "treasure" : p.kind === "npc" ? "npc" : facility.has(p.kind) ? "facility" : "landmark";
       const label = p.label || ts.map(t => t.item).join("、") || ns.map(n => n.name).join("、") || labels[p.kind] || "要点";
-      result.push({id:"poi-"+i,type:"poi",index:i,category,categories:ns.length ? [category,"npc"]:[category],label,kind:p.kind,at:p.at,time:ownTime !== "all" ? ownTime : p.kind === "npc" ? time : "all",npcTime:ownTime !== "all" ? ownTime : time,
+      result.push({id:"poi-"+i,type:"poi",index:i,category,categories:[...new Set([category,...(ns.length ? ["npc"] : []),...(isNavigationAnchor(p) ? ["anchor"] : [])])],label,kind:p.kind,at:p.at,time:ownTime !== "all" ? ownTime : p.kind === "npc" ? time : "all",npcTime:ownTime !== "all" ? ownTime : time,
         text:[label,p.note,p.to,...ns.flatMap(n => [n.name,n.item,n.method,n.note]),...ts.flatMap(t => [t.item,t.how])].filter(Boolean).join(" "),
         note:p.note || ns.map(n => n.note).filter(Boolean).join("；") || (ts[0] && ts[0].how) || labels[p.kind] || "", data:p});
     });
@@ -25643,8 +29116,13 @@ OT2.encounters = {
       result.push({id:"npc-"+i,type:"npc",index:i,category:"npc",categories:["npc"],label:n.name,kind:"npc",time:timeOf(n.note,n.name),unplaced:true,
         text:[n.name,n.item,n.method,n.note].filter(Boolean).join(" "),note:n.note || "具体位置尚未核实",data:n});
     });
-    arr(d.paths).forEach((p,i) => result.push({id:"path-"+i,type:"path",index:i,category:"path",categories:["path"],label:p.label || (pathLabels[p.kind] || "道路")+" "+(i+1),kind:p.kind,
-      pts:p.pts,time:"all",text:[p.label,pathLabels[p.kind],p.note].filter(Boolean).join(" "),note:pathLabels[p.kind] || "道路",data:p}));
+    arr(d.paths).forEach((p,i) => {
+      const route=p.route || {}, number=String(i+1).padStart(2,"0"), connections=roadConnections(d,i);
+      const note=route.from && route.to ? route.from+" → "+route.to : p.note || (connections.length ? "图上相接："+connections.map(n=>String(n+1).padStart(2,"0")).join("、") : "本段尚无逐步攻略");
+      result.push({id:"path-"+i,type:"path",index:i,number,category:"path",categories:["path"],label:p.label || (pathLabels[p.kind] || "道路"),kind:p.kind,
+        pts:p.pts,time:"all",text:[p.label,pathLabels[p.kind],p.note,route.from,route.to,...arr(route.steps),route.caution].filter(Boolean).join(" "),note,connections,data:p});
+    });
+    arr(d.junctions).forEach((j,i)=>result.push({id:"junction-"+i,type:"junction",index:i,category:"anchor",categories:["anchor"],kind:"junction",label:"岔路 "+j.label,at:j.at,time:"all",text:[j.label,j.note].join(" "),note:j.note,data:j}));
     arr(area(rid,loc.id)?.enemies).forEach((e,i) => result.push({id:"enemy-"+i,type:"enemy",index:i,category:"enemy",categories:["enemy"],label:e.name,kind:"enemy",time:e.time || "all",
       text:[e.name,e.en,arr(e.weakness).join(" "),e.condition,e.drop].filter(Boolean).join(" "),note:enemyCondition(e),data:e}));
     return result;
@@ -25691,9 +29169,52 @@ OT2.encounters = {
     return `<div class="atlas-encounters"><p class="muted">本区域已收录 ${a.enemies.length} 种怪物。${esc(a.note || "")} 核对日期：${esc(a.checked || "")}</p>`+
       arr(a.enemies).map(e=>enemyHtml(e,a)).join("")+`</div>`;
   }
+  function segmentDistance(point,a,b) {
+    const dx=b[0]-a[0],dy=b[1]-a[1],den=dx*dx+dy*dy;
+    const t=den ? Math.max(0,Math.min(1,((point[0]-a[0])*dx+(point[1]-a[1])*dy)/den)) : 0;
+    return Math.hypot(point[0]-a[0]-t*dx,point[1]-a[1]-t*dy);
+  }
+  function onRoad(at,p,tolerance=0.8) {return arr(p.pts).slice(1).some((b,i)=>segmentDistance(at,p.pts[i],b)<=tolerance);}
+  function roadConnections(d,index) {
+    const p=arr(d.paths)[index];if (!p?.pts?.length) return [];
+    const ends=p=>[p.pts[0],p.pts[p.pts.length-1]];
+    return arr(d.paths).flatMap((q,i)=>{
+      if(i===index || !q.pts?.length) return [];
+      if(arr(d.crossings).some(c=>(c.over===index && c.under===i)||(c.under===index && c.over===i))) return [];
+      return ends(p).some(at=>onRoad(at,q)) || ends(q).some(at=>onRoad(at,p)) ? [i] : [];
+    });
+  }
+  function roadBadgePoint(p,pois,used) {
+    const pts=arr(p.pts),lens=pts.slice(1).map((b,i)=>Math.hypot(b[0]-pts[i][0],b[1]-pts[i][1])),total=lens.reduce((a,b)=>a+b,0);
+    if (!pts.length) return [0,0];
+    const sample=f=>{let left=total*f;for(let i=0;i<lens.length;i++){if(left<=lens[i] || i===lens.length-1){const t=lens[i]?left/lens[i]:0;return [pts[i][0]+(pts[i+1][0]-pts[i][0])*t,pts[i][1]+(pts[i+1][1]-pts[i][1])*t];}left-=lens[i];}return pts[0];};
+    const occupied=[...arr(pois).filter(q=>q.at).map(q=>q.at),...arr(used)];
+    const score=at=>Math.min(20,...occupied.map(q=>Math.hypot(q[0]-at[0],q[1]-at[1])));
+    return [.5,.3,.7,.18,.82].map(sample).sort((a,b)=>score(b)-score(a))[0];
+  }
+  const roadLink=(d,i)=>`<button type="button" class="atlas-road-link" data-road-select="${i}">道路 ${String(i+1).padStart(2,"0")} · ${esc(d.paths[i].label || pathLabels[d.paths[i].kind] || "道路")}</button>`;
+  function roadHtml(e,d) {
+    const p=e.data || {},r=p.route || {};
+    let h=`<div class="dpi-title"><b>道路 ${esc(e.number)} · ${esc(e.label)}</b><span>${esc(pathLabels[e.kind] || "道路")} · ${e.kind==='boat' ? (r.mode || "水路／航线") : e.kind==='ladder' ? "梯子上下换层" : "按图中路段通行"}</span></div>`;
+    if(r.from && r.to)h+=`<p class="atlas-route-ends"><b>起点</b> ${esc(r.from)}<br><b>终点</b> ${esc(r.to)}</p>`;
+    if(arr(r.steps).length)h+=`<ol class="atlas-route-steps">${r.steps.map(s=>`<li>${esc(s)}</li>`).join("")}</ol>`;
+    else h+=`<p>${esc(p.note || "本段尚未补录逐步走法；请对照图上参照点与连接路段。")}</p>`;
+    if(r.caution)h+=`<p class="atlas-route-caution">注意：${esc(r.caution)}</p>`;
+    if(d){
+      const refs=[...arr(d.pois).filter(q=>q.kind==='save'||isSignpost(q)),...arr(d.junctions).map(j=>({...j,label:'岔路 '+j.label}))].filter(q=>q.at&&onRoad(q.at,p,3));
+      if(refs.length)h+=`<div class="atlas-route-refs"><b>沿线参照：</b>${refs.map(q=>esc(q.label||labels[q.kind])).join("、")}</div>`;
+      const links=roadConnections(d,e.index);
+      if(links.length)h+=`<div class="atlas-route-links"><b>图上相接路段</b>${links.map(i=>roadLink(d,i)).join("")}</div>`;
+      h+=`<p class="muted">相接关系按当前示意图列出；上下层交叉不视为路口。方向按上述起点至终点描述，可原路折返。</p>`;
+    }
+    return h+`<div class="atlas-sources">${sourcesHtml(r.sources)}</div>`;
+  }
+  function junctionHtml(j,d) {
+    return `<div class="dpi-title"><b>岔路 ${esc(j.label)}</b><span>攻略导航参照 · 非实体路牌</span></div><p>${esc(j.note || "")}</p><div class="atlas-route-links">${arr(j.roads).map(i=>roadLink(d,i)).join("")}</div>`;
+  }
   function listHtml(list) {
     if (!list.length) return `<p class="atlas-empty">没有匹配的道路或要点。可清空搜索或切换分类／时段。</p>`;
-    return list.map(e=>`<button type="button" class="atlas-entry" data-atlas-entry="${esc(e.id)}"><span class="atlas-entry-kind">${esc(e.type === "path" ? pathLabels[e.kind] || "道路" : e.type === "enemy" ? "区域遇敌" : labels[e.kind] || "要点")}</span><b>${esc(e.label)}</b><small>${esc(e.unplaced ? "未定位 · "+e.note : e.note)}</small></button>`).join("");
+    return list.map(e=>`<button type="button" class="atlas-entry" data-atlas-entry="${esc(e.id)}"><span class="atlas-entry-kind">${esc(e.type === "path" ? "道路 "+e.number+" · "+(pathLabels[e.kind] || "道路") : e.type === "enemy" ? "区域遇敌" : e.type === "junction" ? "路口参照" : isSignpost(e.data) ? "路标" : labels[e.kind] || "要点")}</span><b>${esc(e.label)}</b><small>${esc(e.unplaced ? "未定位 · "+e.note : e.note)}</small></button>`).join("");
   }
   function mount(options) {
     const {host,svg,rid,loc,d,onSelect,onZone,onReset} = options;
@@ -25712,11 +29233,11 @@ OT2.encounters = {
       count.textContent = `显示 ${shown.length} / ${all.length} 项 · 点击定位并查看详情`;
       results.innerHTML=listHtml(shown);
       host.querySelectorAll('[data-atlas-category]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.atlasCategory===state.category)));
-      svg.querySelectorAll('[data-atlas-poi]').forEach(g=>{g.style.display=ids.has(g.dataset.atlasPoi)?"":"none";});
+      svg.querySelectorAll('[data-atlas-poi]').forEach(g=>{g.style.display=ids.has(g.dataset.atlasPoi)||g.dataset.atlasAnchor==="true"?"":"none";});
       // 道路保留作方向参照，只过滤要点；怪物以区域资料呈现。
       const a=area(rid,loc.id), cov=host.querySelector('.atlas-coverage');
       cov.innerHTML=state.category==='enemy' ? (!a ? encounterHtml(rid,loc) : `<p>随机遇敌以区域表示。${esc(a.note || "")}</p>${sourcesHtml(a.sources)}`) :
-        `<p>未标坐标的 NPC 可查攻略；其具体位置尚未核实。道路与设施为攻略相对位置示意。</p>${sourcesHtml(d.sources)}`;
+        `<p>未标坐标的 NPC 可查攻略；其具体位置尚未核实。存档点、已确认路牌与出口始终保留。道路与设施为攻略相对位置示意。</p>${sourcesHtml(d.sources)}`;
       if (options.onFilter) options.onFilter();
     }
     host.querySelector('.atlas-find').addEventListener('input',e=>{state.query=e.target.value;update();});
@@ -25732,7 +29253,7 @@ OT2.encounters = {
     update();
     return {refresh:update};
   }
-  window.OTAtlas = {entries,filter,bounds,pointsOf,area,categories,labels,pathLabels,esc,enemyHtml,encounterHtml,listHtml,sourcesHtml,timeOf,mount};
+  window.OTAtlas = {entries,filter,bounds,pointsOf,area,categories,labels,pathLabels,esc,enemyHtml,encounterHtml,listHtml,sourcesHtml,timeOf,mount,roadHtml,roadConnections,roadBadgePoint,junctionHtml,isSignpost,isNavigationAnchor};
 })();
 
 </script>
@@ -25995,7 +29516,7 @@ OT2.encounters = {
   }
   function drawPoi(g, p, ctx) {
     const [x, y] = p.at;
-    const gp = el("g", { class: "dp-poi kind-" + p.kind, transform: `translate(${x},${y})`, tabindex: 0, role: "button", "aria-label": poiLabel(p, ctx) || KIND_LABEL[p.kind], "data-atlas-poi": "poi-" + ctx.d.pois.indexOf(p) }, g);
+    const gp = el("g", { class: "dp-poi kind-" + p.kind, transform: `translate(${x},${y})`, tabindex: 0, role: "button", "aria-label": poiLabel(p, ctx) || KIND_LABEL[p.kind], "data-atlas-anchor": String(window.OTAtlas.isNavigationAnchor(p)), "data-atlas-poi": "poi-" + ctx.d.pois.indexOf(p) }, g);
     const th = ctx.th;
     switch (p.kind) {
       case "exit": {
@@ -26023,7 +29544,7 @@ OT2.encounters = {
         el("path", { d: "M0,-1.3L0.7,0L0,1.3", fill: "none", stroke: "#e6f6ff", "stroke-width": 0.3 }, gp);
         break;
       default: {
-        const b = BADGE[p.kind] || BADGE.landmark;
+        const b = window.OTAtlas.isSignpost(p) ? ["牌", "#94662f"] : BADGE[p.kind] || BADGE.landmark;
         el("rect", { x: -1.85, y: -1.85, width: 3.7, height: 3.7, rx: 0.9, fill: b[1], stroke: "rgba(0,0,0,.55)", "stroke-width": 0.3 }, gp);
         const t = el("text", { y: 0.95, class: "dp-badge" }, gp);
         t.textContent = b[0];
@@ -26098,6 +29619,44 @@ OT2.encounters = {
   }
   function hideInfo() { info.hidden = true; }
 
+  function selectRoad(index) {
+    const entry=cur && cur.entries.find(e=>e.type==="path" && e.index===index);
+    if(entry) atlasSelect(entry);
+  }
+  function drawRoadGuides(g,ctx) {
+    const A=window.OTAtlas;if(!A)return;
+    const used=[];
+    arr(ctx.d.paths).forEach((p,i)=>{
+      const at=A.roadBadgePoint(p,[...arr(ctx.d.pois),...arr(ctx.d.junctions)],used);used.push(at);
+      const b=el("g",{class:"dp-road-badge",transform:`translate(${at[0]},${at[1]})`,tabindex:0,role:"button","aria-label":`道路 ${String(i+1).padStart(2,"0")} · ${p.label || PATH_LABEL[p.kind] || "道路"}`,"data-road-index":i},g);
+      el("circle",{r:3.2,fill:"transparent",stroke:"none",class:"road-hit"},b);
+      el("circle",{r:1.9,class:"road-disc"},b);
+      const t=el("text",{y:.7,"text-anchor":"middle"},b);t.textContent=String(i+1).padStart(2,"0");
+      b.addEventListener("click",e=>{e.stopPropagation();selectRoad(i);});
+      b.addEventListener("keydown",e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();e.stopPropagation();selectRoad(i);}});
+    });
+    arr(ctx.d.junctions).forEach((j,i)=>{
+      const b=el("g",{class:"dp-junction",transform:`translate(${j.at[0]},${j.at[1]})`,tabindex:0,role:"button","aria-label":"岔路 "+j.label,"data-atlas-anchor":"true","data-atlas-poi":"junction-"+i},g);
+      const offset=j.labelAt ? [j.labelAt[0]-j.at[0],j.labelAt[1]-j.at[1]] : [0,0];
+      if(offset[0]||offset[1]) el("path",{d:`M0,0L${offset[0]},${offset[1]}`,stroke:"#244a66","stroke-width":.45},b);
+      const bubble=el("g",{transform:`translate(${offset[0]},${offset[1]})`},b);
+      el("circle",{r:1.7},bubble);const t=el("text",{y:.65,"text-anchor":"middle"},bubble);t.textContent=j.label;
+      const activate=()=>atlasSelect(cur.entries.find(e=>e.id==="junction-"+i));
+      b.addEventListener("click",e=>{e.stopPropagation();activate();});
+      b.addEventListener("keydown",e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();activate();}});
+    });
+    arr(ctx.d.crossings).forEach(c=>{
+      const b=el("g",{class:"dp-crossing","pointer-events":"none"},g),at=c.labelAt||[c.at[0]+4,c.at[1]+5];
+      el("path",{d:`M${c.at[0]},${c.at[1]}L${at[0]},${at[1]-1}`,fill:"none"},b);
+      const t=el("text",{x:at[0],y:at[1],"text-anchor":"middle"},b);t.textContent=c.note;
+    });
+  }
+  function syncRoadLabels() {
+    if(!cur)return;
+    svg.classList.toggle("road-numbered",cur.roadMode==="number");
+    const b=pane.querySelector('[data-dp="roads"]');b.textContent=cur.roadMode==="number"?"道路：编号":"道路：文字";
+    b.setAttribute("aria-label",cur.roadMode==="number"?"切换为完整道路文字":"切换为道路编号");
+  }
   function buildDetailSvg(rid, loc, d) {
     const th = themeOf(d, loc);
     const size = sizeOf(d);
@@ -26116,6 +29675,7 @@ OT2.encounters = {
     const g = el("g", {}, svg);
     drawZones(el("g", { class: "dp-zones" }, g), d, th, false);
     drawPaths(el("g", { class: "dp-paths" }, g), d, th, false);
+    drawRoadGuides(el("g",{class:"dp-road-guides"},g),ctx);
     const pg = el("g", { class: "dp-pois" }, g);
     const order = { exit: 0, save: 1, boss: 9 };
     arr(d.pois).filter((p) => Array.isArray(p.at)).sort((a, b) => (order[a.kind] || 5) - (order[b.kind] || 5)).forEach((p) => drawPoi(pg, p, ctx));
@@ -26138,7 +29698,7 @@ OT2.encounters = {
     pane.hidden = true;
     pane.innerHTML = `<div class="dp-head"><div class="dp-titles"><b class="dp-title"></b><span class="dp-sub"></span></div>
       <div class="dp-tools"><button class="btn icon" data-dp="in" title="放大">＋</button><button class="btn icon" data-dp="out" title="缩小">－</button>
-      <button class="btn icon" data-dp="reset" title="复位">⟲</button><button class="btn" data-dp="expand" aria-pressed="false">展开</button><button class="btn" data-dp="legend">图例</button><button class="btn" data-dp="close" title="收起细节图（Esc）">收起 ✕</button></div></div>
+      <button class="btn icon" data-dp="reset" title="复位">⟲</button><button class="btn" data-dp="expand" aria-pressed="false">展开</button><button class="btn" data-dp="roads">道路：编号</button><button class="btn" data-dp="legend">图例</button><button class="btn" data-dp="close" title="收起细节图（Esc）">收起 ✕</button></div></div>
       <div class="dp-access" hidden></div>
       <div class="dp-body"><div class="dp-canvas"><svg class="dp-svg" xmlns="${NS}" preserveAspectRatio="xMidYMid meet" role="img" aria-label="地点道路和要点地图"></svg><div class="dp-info" hidden></div><div class="dp-legend" hidden></div>
       <div class="dp-foot">攻略示意图 · 道路及要点为相对位置 · 滚轮缩放／拖动平移</div></div><aside class="dp-browser" aria-label="小区域地图目录"></aside></div>`;
@@ -26157,10 +29717,13 @@ OT2.encounters = {
         if (a === "in") zoomDp(1 / 1.3);
         if (a === "out") zoomDp(1.3);
         if (a === "reset") resetAtlasView();
+        if (a === "roads") { cur.roadMode=cur.roadMode==="number"?"text":"number";syncRoadLabels(); }
         if (a === "legend") legendBox.hidden = !legendBox.hidden;
         if (a === "expand") { const expanded=pane.classList.toggle("expanded");b.setAttribute("aria-pressed",String(expanded));b.textContent=expanded ? "还原" : "展开"; }
         return;
       }
+      const road = e.target.closest("[data-road-select]");
+      if (road) { selectRoad(+road.dataset.roadSelect); return; }
       const go = e.target.closest("[data-dp-go]");
       if (go) { const [r, l] = go.dataset.dpGo.split("/"); api.openLocation(r, l); return; }
       if (e.target.closest(".dp-browser")) return;
@@ -26233,18 +29796,25 @@ OT2.encounters = {
     cur.ctx.pinned = null; hideInfo();
     cur.ctx.poiEls.forEach(({g})=>g.classList.remove("sel"));
     svg.querySelector(".dp-selection")?.remove();
+    svg.querySelectorAll(".dp-road-badge").forEach(g=>g.classList.remove("sel"));
   }
   function resetAtlasView() { if (cur) { resetAtlasSelection(); cur.vb=cur.home.slice(); applyVb(); } }
   function atlasSelect(entry) {
     resetAtlasSelection();
     const A=window.OTAtlas, ctx=cur.ctx;
+    if(!entry)return;
+    pane.querySelectorAll('[data-atlas-entry]').forEach(b=>b.classList.toggle('active',b.dataset.atlasEntry===entry.id));
     if (entry.type === "poi") {
       cur.vb=A.bounds(entry,ctx.size);applyVb();ctx.pinned=entry.data;showInfo(entry.data,ctx,true);return;
     }
     ctx.pinned=entry;
     if (entry.type === "path") {
       cur.vb=A.bounds(entry,ctx.size);applyVb();
-      info.innerHTML=`<div class="dpi-title"><b>${esc(entry.label)}</b><span>${esc(entry.note)}</span></div><p>${esc(entry.data.note || "高亮显示这段道路；沿线设施、宝箱与出口可点击查看。")}</p>`;
+      info.innerHTML=A.roadHtml(entry,ctx.d);
+      svg.querySelector(`[data-road-index="${entry.index}"]`)?.classList.add("sel");
+    } else if (entry.type === "junction") {
+      cur.vb=A.bounds(entry,ctx.size);applyVb();
+      info.innerHTML=A.junctionHtml(entry.data,ctx.d);
     } else if (entry.type === "enemy") {
       cur.vb=cur.home.slice();applyVb();
       info.innerHTML=A.enemyHtml(entry.data,A.area(cur.rid,ctx.loc.id));
@@ -26263,7 +29833,7 @@ OT2.encounters = {
   function buildLegend(ctx) {
     const kinds = [...new Set(arr(ctx.d.pois).map((p) => p.kind))];
     const pk = [...new Set(arr(ctx.d.paths).map((p) => (PATH_W[p.kind] ? p.kind : "minor")))];
-    legendBox.innerHTML = `<b>本图图例</b>` +
+    legendBox.innerHTML = `<b>本图图例</b><div>数字圆标：道路编号（可点选）</div><div>字母圆标：攻略岔路参照</div><div>「牌」图标：攻略确认的路标</div>` +
       pk.map((k) => `<div><i class="lg-path lg-${k}"></i>${PATH_LABEL[k]}</div>`).join("") +
       kinds.map((k) => `<div><i class="lg-poi">${k === "exit" ? "➜" : k.startsWith("chest") ? "▣" : k === "hidden" ? "✦" : k === "save" ? "◆" : k === "boss" ? "♛" : (BADGE[k] || BADGE.landmark)[0]}</i>${KIND_LABEL[k] || k}</div>`).join("");
   }
@@ -26278,8 +29848,10 @@ OT2.encounters = {
     const pad = 3;
     cur = { rid, lid, d, home: [-pad, -pad, w + pad * 2 + 8, h + pad * 2] };
     cur.vb = cur.home.slice();
+    cur.entries=window.OTAtlas ? window.OTAtlas.entries(rid,loc,d) : [];
+    cur.roadMode=loc.type==="field"?"number":"text";
     cur.ctx = buildDetailSvg(rid, loc, d);
-    applyVb();
+    applyVb();syncRoadLabels();
     titleEl.textContent = loc.name;
     const nPaths = arr(d.paths).length, nPoi = arr(d.pois).length;
     subEl.textContent = `${r.name} · 细节示意图 · ${nPaths} 段道路 · ${nPoi} 处要点`;

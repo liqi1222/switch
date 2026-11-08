@@ -59,3 +59,35 @@
   .dp-foot { font-size:9px; bottom:3px; }
   .dp-info { max-height:72%; bottom:23px; font-size:12px; padding:6px 8px; }
 }
+
+/* 道路编号减少长文字遮挡；导航参照不随道路分类消失。 */
+.dp-road-badge { display:none; cursor:pointer; }
+.road-numbered .dp-road-badge { display:block; }
+.road-numbered .dp-plabel { display:none; }
+.dp-road-badge .road-disc { fill:#ffe4a4; stroke:#40371f; stroke-width:.35; }
+.dp-road-badge text { fill:#17283a; font-size:1.85px; font-weight:800; pointer-events:none; }
+.dp-road-badge.sel .road-disc { fill:#ed4164; stroke:#fff; }
+.dp-road-badge.sel text { fill:#fff; }
+.dp-road-badge:focus .road-disc,.dp-junction:focus circle { stroke:#fff; stroke-width:.65; }
+.dp-junction { cursor:pointer; }
+.dp-junction circle { fill:#244a66; stroke:#e8ca7b; stroke-width:.35; }
+.dp-junction text { fill:#fff5ce; font-size:1.8px; font-weight:bold; pointer-events:none; }
+.dp-crossing path { stroke:#c44045; stroke-width:.4; }
+.dp-crossing text { font-size:1.45px; font-weight:bold; fill:#8f1838; stroke:#fff3d4; stroke-width:.65; paint-order:stroke; }
+.atlas-route-ends { border-left:3px solid #b78835; padding-left:8px; line-height:1.8; }
+.atlas-route-steps { margin:7px 0; padding-left:23px; line-height:1.85; }
+.atlas-route-caution { padding:6px 8px; background:#fff1ce; color:#7c293b; border-radius:4px; }
+.atlas-route-refs { padding:5px 0; line-height:1.8; }
+.atlas-route-links { display:flex; flex-wrap:wrap; gap:5px; margin-top:6px; }
+.atlas-route-links > b { width:100%; }
+.atlas-road-link { border:1px solid #a98a55; background:#fff7df; color:#563816; border-radius:4px; padding:5px 7px; font:inherit; text-align:left; cursor:pointer; }
+.atlas-road-link:hover,.atlas-road-link:focus-visible { background:#ffe3a0; outline:1px solid #7c5c20; }
+@media(max-width:900px) { .dp-tools { flex-wrap:wrap; } .dp-head { align-items:flex-start; } }
+
+@media(max-width:900px) {
+  .dp-titles { flex:1 1 100%; white-space:normal; }
+  .dp-sub { display:none; }
+  .dp-tools { width:100%; justify-content:flex-end; }
+  .dp-info .dpi-title { flex-wrap:wrap; gap:3px; }
+  .dp-info .dpi-title span { flex-basis:100%; }
+}

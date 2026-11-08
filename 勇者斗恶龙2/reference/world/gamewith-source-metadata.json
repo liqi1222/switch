@@ -1,0 +1,64 @@
+{
+  "game": "Dragon Quest 2 HD-2D (2025)",
+  "source": "GameWith public interactive world map",
+  "sourcePage": "https://gamewith.jp/dq1-2/481244",
+  "retrievedAt": "2026-11-08T10:03:49.573296+00:00",
+  "worldImage": {
+    "file": "gamewith-world-map.jpg",
+    "width": 1600,
+    "height": 1600,
+    "composition": "Source zoom-3 tiles, exactly 8 by 8; 200 px each; row y, column x. Original tiles retained.",
+    "tileTemplate": "https://img.gamewith.jp/walkthrough/tools/dq2remake/world/map_{z}_{y}_{x}.jpg",
+    "zoom": 3,
+    "tilePixelSize": [
+      200,
+      200
+    ]
+  },
+  "coordinateSystem": {
+    "sourceOrder": "lat,lng",
+    "CRS": "Leaflet CRS.Simple",
+    "sourceBounds": [
+      [
+        0,
+        0
+      ],
+      [
+        -180,
+        180
+      ]
+    ],
+    "xFraction": "lng / 180",
+    "yFraction": "-lat / 180",
+    "origin": "top left",
+    "scriptEvidence": "https://gamewith-tool.s3.ap-northeast-1.amazonaws.com/assets/js/article_maptool-4.0.0.min.js?3",
+    "facts": [
+      "Source page mapDatas declares initLocation [[0,0],[-180,180]], tileSize [180,180], tile mode.",
+      "Map script creates CRS.Simple map and Leaflet tile layer. Image tile actual resolution 200px is displayed in 180x180 coordinate units at z0.",
+      "Normalized coordinates correspond to this GameWith background only, not the Game8 world image."
+    ]
+  },
+  "counts": {
+    "markers": 204,
+    "categories": {
+      "rura": 62,
+      "secret": 21,
+      "secret_medal": 15,
+      "sparkling": 87,
+      "sparkling_deep": 11,
+      "sparkling_ocean": 8
+    },
+    "downloadedPinAssets": 153
+  },
+  "limitations": [
+    "Some DQ1 source articleUrl values mistakenly use /wutheringwaves/; preserved verbatim. Use sourcePage or verify destination with location catalog.",
+    "Source pinImage often lists two image URLs separated by comma.",
+    "Raw HTML descriptions and original Japanese names retained.",
+    "Do not directly overlay GameWith coordinates onto the Game8 image; independent map crop and layout."
+  ],
+  "supplementaryChart": {
+    "file": "game8-labeled-chart.webp",
+    "sourceUrl": "https://img.game8.jp/11964721/9bbc22243dc43d10eb0b9d75146631f4.webp/show"
+  },
+  "assetErrors": []
+}

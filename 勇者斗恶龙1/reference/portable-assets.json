@@ -1,0 +1,1877 @@
+{
+  "reference/assets/007a406078fb9e27403d.webp": {
+    "file": "reference/portable/091a0c7bcec744a079ac8ffa-768q60.webp",
+    "sourceSha256": "091a0c7bcec744a079ac8ffaab59a2b3ca2922e1f8806eed71b78d8c752d7a34",
+    "copySha256": "36073879bf3ba927ad72e31ec0145809bbbe2db359bac39c7b335b924766c910"
+  },
+  "reference/assets/00999b7aad90f2005d83.webp": {
+    "file": "reference/portable/7d954f57f3f338a87510eb6d-768q60.webp",
+    "sourceSha256": "7d954f57f3f338a87510eb6d3c8413990187d6da7404d1a8a4265815fd221a43",
+    "copySha256": "63ca55aa5b75e21a06bca699839a7a7c092d935bddf17aca9433f8d19fa47c63"
+  },
+  "reference/assets/019b7cdf69ff426cb1fe.webp": {
+    "file": "reference/portable/208da9bc3bc48d725f580585-768q60.webp",
+    "sourceSha256": "208da9bc3bc48d725f5805859300a44fce9fdd841894324d7f638ffb472809ed",
+    "copySha256": "c8fd000c2cfa58745a40c22e6180a784b0a0b0d50c1c22b0467874abb0177885"
+  },
+  "reference/assets/02bb22757dd85ef0057a.webp": {
+    "file": "reference/portable/5e366fd1dfad04f3551b2ee8-768q60.webp",
+    "sourceSha256": "5e366fd1dfad04f3551b2ee8ba7206a5a2274c42d647dd3d4ab21b6d636ca84e",
+    "copySha256": "0afecc69215662c9b87b3045e2fc2d4cbc08e4334abd74cb484ffec56434dd11"
+  },
+  "reference/assets/03e31b945523ad8ade8f.webp": {
+    "file": "reference/portable/39a84513b073ec9c76f07b54-768q60.webp",
+    "sourceSha256": "39a84513b073ec9c76f07b54071277ade4cfd26b159379dcddc097da3cbf106b",
+    "copySha256": "95dc11e95e296ad9ea77c3a4e258051ded588e5c094796221905bd51bad5546d"
+  },
+  "reference/assets/0417449bfd7a2e89bc0f.webp": {
+    "file": "reference/portable/6ec434a34434a043e8a0cd05-768q60.webp",
+    "sourceSha256": "6ec434a34434a043e8a0cd05fcb4ed66c2e27c89cad567abd440276c64fc213c",
+    "copySha256": "66ad66b7b0aafa9ad374b049e004e356d0143b8fe8549a0a019359dc85480955"
+  },
+  "reference/assets/0521f7a9494141fa26ab.webp": {
+    "file": "reference/portable/a87205fd581e538d098b02ba-768q60.webp",
+    "sourceSha256": "a87205fd581e538d098b02ba5d96e6ed44f14c75d3c7c6e7362b6931c56a5886",
+    "copySha256": "e38c82a6fecf5f699ef19f3c89ac7d3e6a62ac81e4b6aa70a5d31449f0a2c81a"
+  },
+  "reference/assets/055e160a42796ffb9eee.webp": {
+    "file": "reference/portable/268759eb3249c7880f42a0c0-768q60.webp",
+    "sourceSha256": "268759eb3249c7880f42a0c023cd833785b1b6abcee1312c0317de601c923c87",
+    "copySha256": "ef82efa414d4bff11311f0934ce937f4b584f2d2c01d9e70ce4d784920164c91"
+  },
+  "reference/assets/05fa4de59c74acee92ac.webp": {
+    "file": "reference/portable/45a9d13cf639ec783c6c202a-768q60.webp",
+    "sourceSha256": "45a9d13cf639ec783c6c202a3ceb0d1c2ef81eccb47690c2dc508bde00093e67",
+    "copySha256": "71f10a99c7c4e78410aefd2a2601a0e76bd0ccd81eba2cf72793cf47a79edc65"
+  },
+  "reference/assets/05fbf2b9270486fac813.webp": {
+    "file": "reference/portable/5ff0afa3120febda0d855c00-768q60.webp",
+    "sourceSha256": "5ff0afa3120febda0d855c00521d5ebe156966c0cbe2fdfbffc2b069f1fbb529",
+    "copySha256": "46cacf1fb98f29a39fe9a41d6fd7deed6c70eee24cc63e6c7c164f2a6830fb49"
+  },
+  "reference/assets/065775f56f7ad379381f.webp": {
+    "file": "reference/portable/1afbdfb936fce18a500e2ad0-768q60.webp",
+    "sourceSha256": "1afbdfb936fce18a500e2ad0b92503569b52925cf2a75dfea41dfd08f6bc37ed",
+    "copySha256": "357849dea7b53cf06cee3031329e36cf0790483018659f45c23480dbedf5dd2d"
+  },
+  "reference/assets/06645c290d00b14fec76.webp": {
+    "file": "reference/portable/3cb4fc06fc353f2e4d1b3ffe-768q60.webp",
+    "sourceSha256": "3cb4fc06fc353f2e4d1b3ffea80b347221eeb93808e5c3507b23b9d1b6d51c89",
+    "copySha256": "b91c4abd3827d92eb64a2a4ffe867162e278e71b00e924cc8b368c9b75b54955"
+  },
+  "reference/assets/07059a91a40b559a3d54.webp": {
+    "file": "reference/portable/6427bb7c29205859267209cb-768q60.webp",
+    "sourceSha256": "6427bb7c29205859267209cb2d936b5a8665cdc1f03c3b97894ace7e9cff265f",
+    "copySha256": "505bcea602a12be41d493b1775f51aa77ea20edbf4e76165787ceee8dcd91b55"
+  },
+  "reference/assets/077c58a8750e49aedbf4.webp": {
+    "file": "reference/portable/5d6f45522973a81696e20a6f-768q60.webp",
+    "sourceSha256": "5d6f45522973a81696e20a6f79dbdf6771c73500691913b0b974a151009a9718",
+    "copySha256": "6d052e5dc85f6b94e9047739fef2670bdbe2a855625d9ed88705d7fcde489e5d"
+  },
+  "reference/assets/08c6cac257fb2ba0ceb1.webp": {
+    "file": "reference/portable/cede8411f6f9373645f563cc-768q60.webp",
+    "sourceSha256": "cede8411f6f9373645f563cc553af69d3f48f5cb6a3810ba59c9c43c956b20c3",
+    "copySha256": "753c71809210951509cc90c7e68719ca706eac3ece2f0ae296f5df0450323576"
+  },
+  "reference/assets/0b26d8edd972bf0cd814.webp": {
+    "file": "reference/portable/cb34f7463037cb2fafb297ad-768q60.webp",
+    "sourceSha256": "cb34f7463037cb2fafb297ada104422e27987cb738cb71c91f155b4fb2879d46",
+    "copySha256": "9e145555616eac66151c1fe1ef643ea91dce59fff0682722bdbec5778d95da39"
+  },
+  "reference/assets/0b511686094295b8a3e7.webp": {
+    "file": "reference/portable/6ee0eed696a933d40b946bea-768q60.webp",
+    "sourceSha256": "6ee0eed696a933d40b946beaa03cb853b756bbb91c2562c6a630695191e59290",
+    "copySha256": "5ac01cc5fa6f762e2afc75a1a9f7b13cffc9d8415a914104cd591e4fb1bbb57a"
+  },
+  "reference/assets/0ba55f98e2ae82aab4e8.webp": {
+    "file": "reference/portable/d975d8969d1e2e2096d716b5-768q60.webp",
+    "sourceSha256": "d975d8969d1e2e2096d716b5bf42d57cb6666d81987e00302641c7f0116d699e",
+    "copySha256": "b5053f76f4f8a9fbc3f36ae7c95e1f5d6e419ded09a156c4a84a7ca785163c5d"
+  },
+  "reference/assets/0e4babdb197bff45350a.webp": {
+    "file": "reference/portable/e6fde5374c7a550c38dace7d-768q60.webp",
+    "sourceSha256": "e6fde5374c7a550c38dace7dac6bd93f48903517467bded7d4bcfa6f67077df2",
+    "copySha256": "10537dfebb6f077273ffc59986de154f3c3a2494ddb5f776e70fdea446f6a0cd"
+  },
+  "reference/assets/0fd75546c69e87f519fe.webp": {
+    "file": "reference/portable/6ebc380ecaed2c9505a409c0-768q60.webp",
+    "sourceSha256": "6ebc380ecaed2c9505a409c0aef9a1bc164deacae13c61874c7197a79b6e51ca",
+    "copySha256": "fab707167687eee410f07fb285872836f24001d74212a847c41af3ff2bcc9240"
+  },
+  "reference/assets/0fda288ff792fecbbe33.webp": {
+    "file": "reference/portable/489e65bfa9b5469cd4132e35-768q60.webp",
+    "sourceSha256": "489e65bfa9b5469cd4132e357df70c47c9f2d9ad21fbedd047e292d6e2fe5aed",
+    "copySha256": "1b2cadd3dcd326936b60abd815098ba5bd25612e80121b054a551722c4c5f7e4"
+  },
+  "reference/assets/103146035143b17fb88f.webp": {
+    "file": "reference/portable/3ce0871fcac8843f53e329bd-768q60.webp",
+    "sourceSha256": "3ce0871fcac8843f53e329bdf0599d752c58d9a186037d930aae672a84d9d2cd",
+    "copySha256": "b4e9df21223e7e1e440628ca86de904b3070c71a0b623c4260d4fae171d90360"
+  },
+  "reference/assets/105ff29c5dba88f9e239.webp": {
+    "file": "reference/portable/38d579fd4ff3892d42a57d04-768q60.webp",
+    "sourceSha256": "38d579fd4ff3892d42a57d04d39afac58d3e8157a620eb9f0eba3b1a6d66927d",
+    "copySha256": "9be1d32d7f5b02e52b56f93f702069a898f11f802e2b75516b1b5b7005010c10"
+  },
+  "reference/assets/11689c0a9a2809bf9813.webp": {
+    "file": "reference/portable/8558497cff50ad38ea13ed64-768q60.webp",
+    "sourceSha256": "8558497cff50ad38ea13ed64f6483af3a12b780dff124159ba690b12f0452ab5",
+    "copySha256": "11c1a107f8c0d5eac3d4f00aefd811f400d0266d543c848f1aa0f4ed285f3a16"
+  },
+  "reference/assets/117b53512044113ffd51.webp": {
+    "file": "reference/portable/0e59bc5669f67b704615c825-768q60.webp",
+    "sourceSha256": "0e59bc5669f67b704615c825d2b594f7ee2debbf0894e7a19c4044a49622ea34",
+    "copySha256": "5b78cb7db6b99c7149fc3d4a7c19e1a98e658311281c63f88fd0d4fa9210d706"
+  },
+  "reference/assets/11a98cfb3bd70343b855.webp": {
+    "file": "reference/portable/92f7f480bf2b65eff126cfeb-768q60.webp",
+    "sourceSha256": "92f7f480bf2b65eff126cfeb914433ff57a3e55349347ccd91494ddcec3ad1a9",
+    "copySha256": "8d38ecd92acad55833c9046b81a831c9b43915ab726f84725ef8f1ad223bb2e7"
+  },
+  "reference/assets/128e3fa4aca3fa91434c.webp": {
+    "file": "reference/portable/9b6bf2c81692e61a04330819-768q60.webp",
+    "sourceSha256": "9b6bf2c81692e61a043308193126cf84e42ab87e32e8aabd637a801d366a8dbc",
+    "copySha256": "1ef89cb0498a3638db6a5338f174cb5de38c7fca5f7985727955e882a8716d06"
+  },
+  "reference/assets/133eb070ca3b1e751770.webp": {
+    "file": "reference/portable/8a68c6f6743aa0451248b557-768q60.webp",
+    "sourceSha256": "8a68c6f6743aa0451248b557b0c7cdb0ff415b28fb210ee56d655a988d0f5ac1",
+    "copySha256": "8e131e00ecde79231a7a7b8f15b121f97781e88a24273c7b0d52609fbdab9bab"
+  },
+  "reference/assets/13bcf3c86a351a8efff1.webp": {
+    "file": "reference/portable/c916951d350b0f40478bdfcc-768q60.webp",
+    "sourceSha256": "c916951d350b0f40478bdfcca33610ef4c39c39520499236cbdf89e7dc5e731b",
+    "copySha256": "62f4c6eea127694e162dbab35fb3626b418d1b89c5f42b1a2c92e26dbb701261"
+  },
+  "reference/assets/180a6a5b65b8e5850384.webp": {
+    "file": "reference/portable/8bc7169b2ac16d1289e8ef0b-768q60.webp",
+    "sourceSha256": "8bc7169b2ac16d1289e8ef0bb44d7cfb58eb7001db388ec1b0c51f86900c2494",
+    "copySha256": "0487d8915ed5098ed570d154ba4b2a61fba696b415bc82f70f2757b9e8487d49"
+  },
+  "reference/assets/190472929c09b304d843.webp": {
+    "file": "reference/portable/a72f797cf9d7ac58bd1a47d2-768q60.webp",
+    "sourceSha256": "a72f797cf9d7ac58bd1a47d28317f0aa6900477629f0f0d141005da491d1c078",
+    "copySha256": "4241f0a084fb631d8b079eb54b8392cc89d346d8117d2f0ddf3bfe8eccf9632d"
+  },
+  "reference/assets/1948c446f8a2df93fb03.webp": {
+    "file": "reference/portable/5942506c494a4e527069ca89-768q60.webp",
+    "sourceSha256": "5942506c494a4e527069ca89941b0a1e35cba78bad386f0180d4feb2e95bf2be",
+    "copySha256": "f5e3bd55caf1c955ee02c5fd9acd4b8716ab1e02a51e0513df4aabb0bbc8e5f6"
+  },
+  "reference/assets/1a346ecdf3545906e885.webp": {
+    "file": "reference/portable/71f27dd0b889a22376cf5213-768q60.webp",
+    "sourceSha256": "71f27dd0b889a22376cf5213d9b6652ffb0b3f5076333bbbbdd70beb10e6fd52",
+    "copySha256": "5a9fd6e9002282278bcbfa079a4a2968c0e44507bfb13a027f3503be6c807730"
+  },
+  "reference/assets/1ae570e16b59671fb5ea.webp": {
+    "file": "reference/portable/94412bb10513ce4138bd5a99-768q60.webp",
+    "sourceSha256": "94412bb10513ce4138bd5a99e6d972c321fdc8d3b315019c30a2136c8bd5e7b9",
+    "copySha256": "01da8aba535b9b45c692422660b63326e511ecdd06f24fcbfedde1d0d4a2f8d4"
+  },
+  "reference/assets/1bd8889eed1b215671f2.webp": {
+    "file": "reference/portable/223c0330624b61cfe09135bb-768q60.webp",
+    "sourceSha256": "223c0330624b61cfe09135bb1c98c481930997484f342ae20ab225cca26d9f0c",
+    "copySha256": "93bb8cd47bf0441bcba60e04d0ff3fa54edf6035e73733fbba82ea07c30b4a95"
+  },
+  "reference/assets/1ca1649493e58f728c28.webp": {
+    "file": "reference/portable/9e351f50350ba1c777dd5f1b-768q60.webp",
+    "sourceSha256": "9e351f50350ba1c777dd5f1b8048a600fbd525d996fc2d75578e07d6ff29e59b",
+    "copySha256": "c6cf9d221b02b2638355ceeca0e008fa1019def343c41d4797eaf6c4de44e74d"
+  },
+  "reference/assets/1d281f99c75e081fa955.webp": {
+    "file": "reference/portable/5449b3ad77c070f5f3c9ea41-768q60.webp",
+    "sourceSha256": "5449b3ad77c070f5f3c9ea41cf0b7a83b46206e798d9b0228272e11ffa512801",
+    "copySha256": "a769c558d6323a9f4bdc121d41da2a73aa12651d80bba1759a84e542008260e9"
+  },
+  "reference/assets/1d36c9f90d625d6fd1c6.webp": {
+    "file": "reference/portable/bbd20d247f831f9505e7b19a-768q60.webp",
+    "sourceSha256": "bbd20d247f831f9505e7b19aefad75e287892f15b790485a68736ca6b8a6ffe1",
+    "copySha256": "d4d9095204b4491cc48fc2f47872fd7bea56bce70e961ab9fc7b20b2990f08d0"
+  },
+  "reference/assets/1e22915aa259d7c94116.webp": {
+    "file": "reference/portable/295ea62ffde73bdd0c9d3b76-768q60.webp",
+    "sourceSha256": "295ea62ffde73bdd0c9d3b766db4c790c316dbcb6c969a62e71c01a4ab75040b",
+    "copySha256": "4c930094c281e4f069ecb1661899fa80926d0b845c843ee839b257143d57ff62"
+  },
+  "reference/assets/1e396e2d50e138c8e142.webp": {
+    "file": "reference/portable/d3552c3f9ad9cef40666a60d-768q60.webp",
+    "sourceSha256": "d3552c3f9ad9cef40666a60d6635f3889b72faab7222d74341b3a6b303959a17",
+    "copySha256": "4cd55353c3d3fd003490982dd8c6c1552aa74daea44b4862a036122699306d3e"
+  },
+  "reference/assets/1f854fa82a5524b5a184.webp": {
+    "file": "reference/portable/42b24e30ab87e09b4d4736e0-768q60.webp",
+    "sourceSha256": "42b24e30ab87e09b4d4736e0a9a2ea5810f7e86fbe57e8241c0e598cbb9c5257",
+    "copySha256": "8310c6d19bc456511f1708d2c59b457157b79a5e767a5a77d262de68d00663f4"
+  },
+  "reference/assets/203debb1892e6245ba70.webp": {
+    "file": "reference/portable/76a87c2e801621081fb668d6-768q60.webp",
+    "sourceSha256": "76a87c2e801621081fb668d609b729384a352bc6ff518f7c8a5fcd011f8935e9",
+    "copySha256": "1a8a3259b1cc9cdaa18e2c7547cee5c9308db6f40987f64b1e02e55a039bc0d4"
+  },
+  "reference/assets/2122b3e21a2031684474.webp": {
+    "file": "reference/portable/275bd96381d8da62998796a9-768q60.webp",
+    "sourceSha256": "275bd96381d8da62998796a91fd99706bbeeaf4da3c975ae1208718f9f87afa6",
+    "copySha256": "9288c3bbc6e86762d0bcef1a0f1e45b39d7e8d596e100b624e293550537d5251"
+  },
+  "reference/assets/21ade01d9c4e8cf492b9.webp": {
+    "file": "reference/portable/401c7a53b718a1f099fbb485-768q60.webp",
+    "sourceSha256": "401c7a53b718a1f099fbb4855fc525621629985e370e4d475e3759a93b735a4a",
+    "copySha256": "6352f7ceac870c39fa53babac29ae8272d5a86bb46f00bc6b002d8771d24ea09"
+  },
+  "reference/assets/22e3ea26830010cd47b3.webp": {
+    "file": "reference/portable/007ea195207ff41dd6b9611c-768q60.webp",
+    "sourceSha256": "007ea195207ff41dd6b9611c7d58b588f9e5b5fe1f023e92bb58236e48039fb9",
+    "copySha256": "9a4e4601a48b661b4ce693ba22cceef96c152d7c3c94b196dbdf68946ab82bb0"
+  },
+  "reference/assets/2312980e1c987a764a80.webp": {
+    "file": "reference/portable/3ed07d52647b4ee9dc30ee67-768q60.webp",
+    "sourceSha256": "3ed07d52647b4ee9dc30ee672bbdb48b271482ff269a4fb33d0f1524b9a6c7fb",
+    "copySha256": "020a1ec45ad140c9ab032f169d3f0aa01caf2709fc29484af317e32ba2725088"
+  },
+  "reference/assets/233b704bfdaca66002d3.webp": {
+    "file": "reference/portable/fef130cf4d0cf788f0092238-768q60.webp",
+    "sourceSha256": "fef130cf4d0cf788f009223880a02008dd49b35a00b5227929528ddca067318b",
+    "copySha256": "fc9d6db37fe37fde7f3249350bc78f5b4fba23d2d20ac91cab02590ae6e5151d"
+  },
+  "reference/assets/235e835f823bbe80c5bd.webp": {
+    "file": "reference/portable/2c41bc20bbf4f8eced84554d-768q60.webp",
+    "sourceSha256": "2c41bc20bbf4f8eced84554d58bd6154199addc500e982d1a934afd19113ebb6",
+    "copySha256": "7bde2417e7c81ce1bc8002a5e20e68936f28763b2809759898e9051a92559835"
+  },
+  "reference/assets/24083631a86ab05b52d9.webp": {
+    "file": "reference/portable/a4bbd012ceb9f438ff1468b7-768q60.webp",
+    "sourceSha256": "a4bbd012ceb9f438ff1468b7e7064bd897456f7cf7af9bb36353fcad24f5d385",
+    "copySha256": "edef4bae1e8de3cc282b47fb1a6962e32a3b9a265b038e7c9caa9564eb06f28b"
+  },
+  "reference/assets/24642189cecf97a45802.webp": {
+    "file": "reference/portable/4dcbcf7329203bb0dc6c34ef-768q60.webp",
+    "sourceSha256": "4dcbcf7329203bb0dc6c34ef238b7db3437d0688f5dca65591d70ac3a25cd863",
+    "copySha256": "ac7eabadff294197f977173233124cd03c805329f735c89f83bee3664301a128"
+  },
+  "reference/assets/25f8f5d6b7ae99acb821.webp": {
+    "file": "reference/portable/87b24d4dab0efdf1624188d3-768q60.webp",
+    "sourceSha256": "87b24d4dab0efdf1624188d3815da8d98dd22ef775f456cc0c79dab668f3785f",
+    "copySha256": "1c9f8f7aea9d1b61391fe09ff815f3f0e7dcc41cfa8f63e7e2202e5e06cf7c44"
+  },
+  "reference/assets/2679997cfa2b4893cf75.webp": {
+    "file": "reference/portable/2245808692f9a8a64b295f1b-768q60.webp",
+    "sourceSha256": "2245808692f9a8a64b295f1b9e044dac68c0adecde2b67fbea35ae59abc1eec8",
+    "copySha256": "d543210e299ee7c5a28db544cfc5c17883936b274ac5ab92131777b5f8221d7a"
+  },
+  "reference/assets/26b0446cab3fbb627022.webp": {
+    "file": "reference/portable/985b108d9619ce1cb73d5af4-768q60.webp",
+    "sourceSha256": "985b108d9619ce1cb73d5af4c5f99f763a932ee1231f166b9abc5bff193d287f",
+    "copySha256": "5c59788e04860fa95f5cae4397eefafc8d3ccc502684f0ffba512c2afd75db83"
+  },
+  "reference/assets/2885c536c012944a9ef6.webp": {
+    "file": "reference/portable/0d30118c0cdcdc2b4e025fa8-768q60.webp",
+    "sourceSha256": "0d30118c0cdcdc2b4e025fa82898b7df5998767819f12136ba706b220be8e952",
+    "copySha256": "7399f357f7bc1da58702d96290e40e284edfcaf1cb4024edf6a0d1200eff541f"
+  },
+  "reference/assets/28a93ab546bbc26db97e.webp": {
+    "file": "reference/portable/d54af4ec92b6d5ea23809dde-768q60.webp",
+    "sourceSha256": "d54af4ec92b6d5ea23809ddedf7194cf348276ffa45fe50cd3d373b7a999d6e8",
+    "copySha256": "42b2906ceaa982b1ff21c358453a0449c9a66a036717a4e007965844944f632e"
+  },
+  "reference/assets/28baaaafea5e6c18fa54.webp": {
+    "file": "reference/portable/115ddf2866ad4cff83d491d1-768q60.webp",
+    "sourceSha256": "115ddf2866ad4cff83d491d17cd3d87c6bee3e86b42c131a9cacb81aa8077961",
+    "copySha256": "dbc60458777e797285e111f59992bdc46467c2ba0b2ec65636e85fe5f5ce80b6"
+  },
+  "reference/assets/298afa87f2d3c21a8f4f.webp": {
+    "file": "reference/portable/78bf18b8fbe4b9865ba4903b-768q60.webp",
+    "sourceSha256": "78bf18b8fbe4b9865ba4903beb5ac3ceb9f371e83459c0155648172a39fb95f5",
+    "copySha256": "08f20de68d273f47d136353914b801e387da09e48838fbd7c5a0ef202c425b6e"
+  },
+  "reference/assets/2a164ff55a40199b2420.webp": {
+    "file": "reference/portable/16ce3781d7ac8f775fef0be2-768q60.webp",
+    "sourceSha256": "16ce3781d7ac8f775fef0be241f80179f7f6470e320d78265cc0f9841db5b471",
+    "copySha256": "10585793724a69c5cda7c009479e43e2731656958fe1dcb6c4973ad77c7e9816"
+  },
+  "reference/assets/2a36589058645fb01e8b.webp": {
+    "file": "reference/portable/300ac18197d24910862c5bc6-768q60.webp",
+    "sourceSha256": "300ac18197d24910862c5bc668bcf074b2bfb339c76a4b794b2cd7dbb79fa6d7",
+    "copySha256": "0324232dde0d6aadc4416cd0fccca75f7065be71596c236922313876e31a340b"
+  },
+  "reference/assets/2b39eb2fb3e34424c285.webp": {
+    "file": "reference/portable/328030d6c46dbef838f612d9-768q60.webp",
+    "sourceSha256": "328030d6c46dbef838f612d9c1b7801f6c8e09c95f069255bb0d2443f659e2b4",
+    "copySha256": "1ff75ef4016963872f1b73a6e9689eb85ff137aabfd115bdef0d02500dc9a607"
+  },
+  "reference/assets/2b445c43c21a30902de9.webp": {
+    "file": "reference/portable/668eb311481bdf63087441c9-768q60.webp",
+    "sourceSha256": "668eb311481bdf63087441c908bfc72eb3d229f0671586d46a4926d23a6d8106",
+    "copySha256": "96907b8a971e9a442009dc31d43d18ee875635aaff3b7d853ace6fa4e575a627"
+  },
+  "reference/assets/2c82f63afb9d78efce3a.webp": {
+    "file": "reference/portable/fc85cba0aa7f755a16da8605-768q60.webp",
+    "sourceSha256": "fc85cba0aa7f755a16da8605e297ffc0e65852f12571bf5496c089506f1a6bcc",
+    "copySha256": "c49bf4651a5a44d6a00fe79a06c2b84b56b22cd7907cae5539dbc3eebe61c2a7"
+  },
+  "reference/assets/2cc82104278bd92f6453.webp": {
+    "file": "reference/portable/006d2d2323b728bbf73921d4-768q60.webp",
+    "sourceSha256": "006d2d2323b728bbf73921d40be1bdd58e009a2189b19f2390d8a2b124e05170",
+    "copySha256": "a2fad1cab69da38c6429a498b005576a1c41e6f58af0dfd0730b39804c706651"
+  },
+  "reference/assets/2ce9340f6b57ffdf83e1.webp": {
+    "file": "reference/portable/7ba5c0651f61103424cdd4be-768q60.webp",
+    "sourceSha256": "7ba5c0651f61103424cdd4becf66cba84d20bf5104ff376165a58c6a7c656de2",
+    "copySha256": "b28271a98ac378524434f61c961961e2eea4ac6967a1fb579cd4f10b7e733dfe"
+  },
+  "reference/assets/2d1412117023711901d1.webp": {
+    "file": "reference/portable/c98c951f5b9830059f1ca60c-768q60.webp",
+    "sourceSha256": "c98c951f5b9830059f1ca60c67357963655a2be72113410313ac310b7060c2d4",
+    "copySha256": "4e2e141110f99623f4978fdc2b0dfd14ad23c318ecc050a9ca90f13d51d1d86d"
+  },
+  "reference/assets/2d58096e89284b5fe34c.webp": {
+    "file": "reference/portable/069f45652e89f8218b9fa784-768q60.webp",
+    "sourceSha256": "069f45652e89f8218b9fa784c444e777532ec77ab61c0e3355bccb533338ef06",
+    "copySha256": "60a9a8947f9ee5101db3e8411ef0bee45ca8b47e8150112cae48fd388586ff5e"
+  },
+  "reference/assets/304bc5e6a6104b7190c4.webp": {
+    "file": "reference/portable/5525aa6fd46d64d04467de82-768q60.webp",
+    "sourceSha256": "5525aa6fd46d64d04467de82b9de9082e698f20ee397e97ef5c023ad50bc8ca0",
+    "copySha256": "57be3f02b7ba673684e7dfcd7556f6ca72dbc9d39f8b7384bb5731c3adec01f9"
+  },
+  "reference/assets/309bd9e4952a02c818eb.webp": {
+    "file": "reference/portable/b35f70d49d57b74e7723dc39-768q60.webp",
+    "sourceSha256": "b35f70d49d57b74e7723dc39c5b10b83ce078be26acd6ddf7372f012f6697f0c",
+    "copySha256": "8e1ef618a337fa8eb61c3001a4f68448fb42e0fb51b7557c051876cf5fa9255e"
+  },
+  "reference/assets/332505653906de358e4b.webp": {
+    "file": "reference/portable/eb968440797f0773851a3d29-768q60.webp",
+    "sourceSha256": "eb968440797f0773851a3d2934731e327d2d6c308d8afa4a9c5be7183ce25b0d",
+    "copySha256": "9a42e033a69aa37fd3b34553266277935ca6c3544b3277943372704b669bf7ba"
+  },
+  "reference/assets/333ef246aff254fc410d.webp": {
+    "file": "reference/portable/928fa4363f0d7f39fce81fc0-768q60.webp",
+    "sourceSha256": "928fa4363f0d7f39fce81fc07c99239f12862a33442b3cbb4ef170dfcee7a02e",
+    "copySha256": "51435a66d6ad61dc7a9dcf9c30e6df7e79f967db5928e5370577ecd32e62076f"
+  },
+  "reference/assets/345645e78a37214990a6.webp": {
+    "file": "reference/portable/b5eb359334ff0665fe59dcb8-768q60.webp",
+    "sourceSha256": "b5eb359334ff0665fe59dcb8a8c67d3566fc4aec603f8374ba1cbf6f4a3c3776",
+    "copySha256": "fcc003284b055f5473f78836933c5d310029d94af27cf56e0e11634098c43334"
+  },
+  "reference/assets/374474cd818824e9a368.webp": {
+    "file": "reference/portable/e90c7dddf015eee343366fe4-768q60.webp",
+    "sourceSha256": "e90c7dddf015eee343366fe4ff58cc62c5eb8b497551bc372fb5e4b5d53661df",
+    "copySha256": "492590e34457ba1adcfb33f8b84bc4e285423575d496d33e2818a217d2b84802"
+  },
+  "reference/assets/389ec3497cbc76c8fba7.webp": {
+    "file": "reference/portable/2be74130bed2601700b9006e-768q60.webp",
+    "sourceSha256": "2be74130bed2601700b9006ee6f0c15ad3a4948241df5ba3fdd786936c486d23",
+    "copySha256": "d21e38e1681a668207b239681a365833e0c6f26653104e02e37eddf97f77661e"
+  },
+  "reference/assets/395dc44df6435710d0c7.webp": {
+    "file": "reference/portable/f9f36248506c10525c21e364-768q60.webp",
+    "sourceSha256": "f9f36248506c10525c21e364034e95b23ec730a42f1bb43b879fbfc716f25fd3",
+    "copySha256": "d43197d1869514f43b5cf8b70ccd3d097d2e1bde68fc0a7dac2485efd3e80000"
+  },
+  "reference/assets/3a448367c90eeff17ada.webp": {
+    "file": "reference/portable/1a426df8405d94aea0040196-768q60.webp",
+    "sourceSha256": "1a426df8405d94aea00401962b1afa6ea4a9dde3d327aed09f48efe573dc4efb",
+    "copySha256": "0b72958357768ddb56b67bc1e36a212e61ea2450bf7dea2b7dc97da2af11d67a"
+  },
+  "reference/assets/3a68ec1d3fad6fa2cedc.webp": {
+    "file": "reference/portable/dcbce3fe4124dc2373afa35a-768q60.webp",
+    "sourceSha256": "dcbce3fe4124dc2373afa35a8d265ad1a42dad5be16432630932a8a5ec0210e2",
+    "copySha256": "42173fb143227de179d97d59340a9efea2076f8b49d61affc6ad526627a3cad0"
+  },
+  "reference/assets/3c5a4721243f2dd2afed.webp": {
+    "file": "reference/portable/ac4f961e10325d78b60fea98-768q60.webp",
+    "sourceSha256": "ac4f961e10325d78b60fea9887e6a8a14dc9caa06356853ea877fd4e593cefe4",
+    "copySha256": "1e8df97ad79c0e65171f8960d20f354ee1028cff8bdc52f30c11e7f42a5d270e"
+  },
+  "reference/assets/3cc1637b415dd82482f7.webp": {
+    "file": "reference/portable/8545dbc46e3ef0510660aa39-768q60.webp",
+    "sourceSha256": "8545dbc46e3ef0510660aa390e442e7054b9c8c52a45466a3e76793b5ae9c50d",
+    "copySha256": "c9a086d6ac680110349bc265d23a56ab547c3f307fe1e0592c955b363f6410aa"
+  },
+  "reference/assets/3d28d7e5c5c74a82d867.webp": {
+    "file": "reference/portable/451e62f11f16f96679839903-768q60.webp",
+    "sourceSha256": "451e62f11f16f96679839903fe44d4d2b92818577b3aaa192cad99cfc71684e4",
+    "copySha256": "e87d177bc1a1652c4cd66d661c439f071a118e86236b078022c6bc9d11e02938"
+  },
+  "reference/assets/3df421a1025f74153724.webp": {
+    "file": "reference/portable/f3d26b6e1470262bf85e447f-768q60.webp",
+    "sourceSha256": "f3d26b6e1470262bf85e447f834369b74ac0537180aeae352f643178a52b65f8",
+    "copySha256": "db18088e84538c88b7dcaa6be7be6925ddd778a127c908305265c0638fec6d3a"
+  },
+  "reference/assets/3f4e02a51541f43ae5c8.webp": {
+    "file": "reference/portable/d7a65a5317cf8bbe0fe6e429-768q60.webp",
+    "sourceSha256": "d7a65a5317cf8bbe0fe6e429078d5eb81bd5af82236531558c96d59366ff01db",
+    "copySha256": "9cedf9e08149749c4fddf6b75d7d6cc470cbe0ff54b4c169fddf48d5569b6c9c"
+  },
+  "reference/assets/3f82b9e6ac9c5885858a.webp": {
+    "file": "reference/portable/3a2060c01a7dbd5846f73b8c-768q60.webp",
+    "sourceSha256": "3a2060c01a7dbd5846f73b8cca0168b635238e46496f3e8a61ec5eb686bdb5e1",
+    "copySha256": "b7bef640f16eb2a785a4fc0f2771c3c8561396e715a9c68e8ea1e39bededffd6"
+  },
+  "reference/assets/41168b17b539c99bfe2e.webp": {
+    "file": "reference/portable/af3ecee8862934d505d457ef-768q60.webp",
+    "sourceSha256": "af3ecee8862934d505d457efd4cf0c5e8ef815ad646e1b1df3506d656d8f91b8",
+    "copySha256": "9a35c06bba21f9c3b6683ebab8b23f5252df1f2384ae9c4224dffd4c08df195a"
+  },
+  "reference/assets/419388fb899f4f728730.webp": {
+    "file": "reference/portable/bdca628eeae8803a2dac6bf8-768q60.webp",
+    "sourceSha256": "bdca628eeae8803a2dac6bf853f81e78a20fd88a749014720bf299160dce69fa",
+    "copySha256": "473f7396ac7c4b5cc698487c55f7d8cb6d56130118514601c059b5881c8dc954"
+  },
+  "reference/assets/423c2bdbf196b2238826.webp": {
+    "file": "reference/portable/e2de879686deb869e854bf25-768q60.webp",
+    "sourceSha256": "e2de879686deb869e854bf256913eafc13ea1b0413935a9908166bef98503e1f",
+    "copySha256": "9f27541439d7f8b313ab977260b557cad77528d9a663c29e230a2edc7fc998f9"
+  },
+  "reference/assets/42a4a3d91ade1c40f679.webp": {
+    "file": "reference/portable/d23066ec1f2de8191bac4139-768q60.webp",
+    "sourceSha256": "d23066ec1f2de8191bac41397b5e623e59439aed0a965597533bfdfc22dac84e",
+    "copySha256": "76fa54aa750b491654737159c7c32379a6b2afadd022f59b0f821703657979e9"
+  },
+  "reference/assets/43334f26515c8cf1e64f.webp": {
+    "file": "reference/portable/b62dd8d102f5215a068f9b33-768q60.webp",
+    "sourceSha256": "b62dd8d102f5215a068f9b33d3b062c5e853220f8a7196684bfadb34a6d1e1d4",
+    "copySha256": "541d748d98618da6d48d1e8d28c71bd52b1e70726d211d4a12dd534f6b9900b8"
+  },
+  "reference/assets/43e1091d0518ad15714f.webp": {
+    "file": "reference/portable/9bb4c38597e550d24f9d89d0-768q60.webp",
+    "sourceSha256": "9bb4c38597e550d24f9d89d047f12eb562a278687a1c5947b00a78ad705adc7d",
+    "copySha256": "ea60e3744c64557ed4c23a9d156faecd6e6549be6680509e992ec380e3fe26aa"
+  },
+  "reference/assets/43ea2954deea122b72c5.webp": {
+    "file": "reference/portable/f43bdf572f75b2d323e809a8-768q60.webp",
+    "sourceSha256": "f43bdf572f75b2d323e809a8d67a10799774fdc7f9d76cc179eb50fd6911a3b2",
+    "copySha256": "e17ef841207b2a10d40051a0c729a5a6c3cd06c33f4772c53f3ffc250dfa1382"
+  },
+  "reference/assets/46581c0aaae44c9e44f6.webp": {
+    "file": "reference/portable/926d634b618e52aa5e286237-768q60.webp",
+    "sourceSha256": "926d634b618e52aa5e28623717d746c72934edf8d0547730b8b41338d22e0722",
+    "copySha256": "c60a6024a27771293472cbf6361a125cf40d5537f36d69c61736f390e2361231"
+  },
+  "reference/assets/46b62b8945dadcac8d8a.webp": {
+    "file": "reference/portable/fbaf3dff3b7706f70fb57712-768q60.webp",
+    "sourceSha256": "fbaf3dff3b7706f70fb5771281918cf501bc815e16d658085ea44ac41823c4b8",
+    "copySha256": "0746c88e66aebce9c43329548dceab7dfa785247f944bc17d61d2ca6ce23e42d"
+  },
+  "reference/assets/4720712706e67bee3437.webp": {
+    "file": "reference/portable/22d97d5062eaf02150a6a50e-768q60.webp",
+    "sourceSha256": "22d97d5062eaf02150a6a50ef05000fbc80d460239ee0dacaa147d6f7b996355",
+    "copySha256": "58d44431edf2b0261977b1ac1b9aefa804819cc4590c7cd3059cc374ff4cf553"
+  },
+  "reference/assets/487a1c61fe919965e247.webp": {
+    "file": "reference/portable/180a209f5d69ce928104735c-768q60.webp",
+    "sourceSha256": "180a209f5d69ce928104735c239f6e501f796303fbd6ff8fbd16c6e1d6844feb",
+    "copySha256": "b82d3dd48262db0ceeb99ffdd42db3b2822c04e654bfb30d6e5eddfa558b662a"
+  },
+  "reference/assets/48eb36c89ca7fac0bbbe.webp": {
+    "file": "reference/portable/20289e5a80a100e6ff282344-768q60.webp",
+    "sourceSha256": "20289e5a80a100e6ff28234482a5e2203ccfece47b8f606fc0dbd32f00374823",
+    "copySha256": "74116f836aa173dde6384389a686f8a984dbc12179301ffb585c77c166c57aa7"
+  },
+  "reference/assets/497a0af48e9939bfd3d4.webp": {
+    "file": "reference/portable/764decb98675a6ad08444907-768q60.webp",
+    "sourceSha256": "764decb98675a6ad08444907061eb24ad289fbed184cf99f46864ee72e3db4f9",
+    "copySha256": "eaacc53ae0bc2ae3c7f8511491a5c327836a4f733eddbe5c1113037faf6f4f7b"
+  },
+  "reference/assets/4a0b0f3ca1b897e96464.webp": {
+    "file": "reference/portable/6583c7a44d2fc6005c870784-768q60.webp",
+    "sourceSha256": "6583c7a44d2fc6005c870784d03075ddfca4e6aafdbccbd976b32b1d7cec0f37",
+    "copySha256": "de2a4397227164faea1f3517ac8b95499721b85e7a5b4ceae619bb0663262ca2"
+  },
+  "reference/assets/4a3fc7268e49582f7409.webp": {
+    "file": "reference/portable/8487d48276d8f23a31e60afc-768q60.webp",
+    "sourceSha256": "8487d48276d8f23a31e60afc5b70bd3db603529c4acfe758f4b7ecd3e2b89f80",
+    "copySha256": "56bfa9d532ed19140235ab5832fae6ed2e11804f4d8fbce787c9e428706b0185"
+  },
+  "reference/assets/4d1a6638056d4b7b0ba6.webp": {
+    "file": "reference/portable/3eeaf0ff28d6337807a5ea5f-768q60.webp",
+    "sourceSha256": "3eeaf0ff28d6337807a5ea5f910838b708812bef3bcf6a8792bb1b9256ad277b",
+    "copySha256": "333d74f9626f707677d492c24380dd58ce2c244f7e261ad76f31b4b7b7b5e315"
+  },
+  "reference/assets/4d6df5f33d2adbd99e94.webp": {
+    "file": "reference/portable/1e7c3fcebc86e6b2a4ad93ee-768q60.webp",
+    "sourceSha256": "1e7c3fcebc86e6b2a4ad93ee1eff2467fa0938854573a3de438af79fa7c22c1f",
+    "copySha256": "45d57a8f9d108f153821176fe5862d0a06f0b58c0a0c8414da00c0c7685b2061"
+  },
+  "reference/assets/4ec3e1ac41ed388c1f21.webp": {
+    "file": "reference/portable/e8af90a73f58edb537470cdd-768q60.webp",
+    "sourceSha256": "e8af90a73f58edb537470cdde7b789a88a83bf9166acf24ed061117734b6de1a",
+    "copySha256": "dc007b41654013ac2a9127f6abc468f4660026db0f301505a50b72bb36b8a414"
+  },
+  "reference/assets/4ed564929c1e0bbf80d6.webp": {
+    "file": "reference/portable/3b97d1bb59ff9fc26c35748d-768q60.webp",
+    "sourceSha256": "3b97d1bb59ff9fc26c35748dfe9c7f8d06e7bdd2fc5693a4be72146fe29c1981",
+    "copySha256": "7193ea41d7c4ef24ccc3d9263eff68bff026760876bebce2cfad5f0593a3dbe8"
+  },
+  "reference/assets/4f6e887ad0a87cbbceb4.webp": {
+    "file": "reference/portable/9d9c2c4af34dc7a63d15b6ce-768q60.webp",
+    "sourceSha256": "9d9c2c4af34dc7a63d15b6ceb984f3dfcf46558f771835212f40d014925015e9",
+    "copySha256": "ad08cbe9ac79cb49afa1d3ab7dd8bb4979f4a198068724d492918ad218ee30e0"
+  },
+  "reference/assets/503fe6dca5495b31731e.webp": {
+    "file": "reference/portable/284a100f7021f2f3f6ecfef3-768q60.webp",
+    "sourceSha256": "284a100f7021f2f3f6ecfef3518e637cf40dedbd6d5e0e18f009a939b720c873",
+    "copySha256": "43fc377dea3526e68b45c0dc7d7150e8b8cb711f9779eea8406040f2f5c9575b"
+  },
+  "reference/assets/50cc7127c32dc5d2b3ba.webp": {
+    "file": "reference/portable/c99e0e7c492fe1c057feddee-768q60.webp",
+    "sourceSha256": "c99e0e7c492fe1c057feddee4abe1ea1125c5e568ad036a46316a93194947b06",
+    "copySha256": "b0424bb055180c62cbc53a99e13e601299a18c4eca97f9dac5070641ed163212"
+  },
+  "reference/assets/50dd4512ab7d73da72c1.webp": {
+    "file": "reference/portable/c44d6a1d40ed84737e7495aa-768q60.webp",
+    "sourceSha256": "c44d6a1d40ed84737e7495aa1437a6a1791711f1917fe86808447b15e687e40c",
+    "copySha256": "91785fc6557dcf6ec71fd2125902b564dfb6aef186cdefb06cd97af786b46eb8"
+  },
+  "reference/assets/519818753ac522fc4edb.webp": {
+    "file": "reference/portable/67754e0eb70a93c453ea1aeb-768q60.webp",
+    "sourceSha256": "67754e0eb70a93c453ea1aeb41f44e99b60300c10ed6b50b2e7e1b52cdf848f1",
+    "copySha256": "65c6509af94821cff932f37abf1a71973590e2a463aa96e482517cfc3db902f5"
+  },
+  "reference/assets/51e39d8a55c7e7893919.webp": {
+    "file": "reference/portable/949b37e2ce56b24def348f7f-768q60.webp",
+    "sourceSha256": "949b37e2ce56b24def348f7f9681d46ed6ad29d69cead10eb835eb950557c22d",
+    "copySha256": "813b1ac33678feffb674fe893aee51943df84d9211339e3fc1d5725ad7496d32"
+  },
+  "reference/assets/52443148081c4ea140b2.webp": {
+    "file": "reference/portable/565660fab92a7e384ec646f6-768q60.webp",
+    "sourceSha256": "565660fab92a7e384ec646f6e34a86213bf98bd60a4c4f94649a397e781966b0",
+    "copySha256": "6b16272ddd95f83c988ef012752b8c85ed422d375be2200ef93454e515ffda63"
+  },
+  "reference/assets/527fede11c124a44aae7.webp": {
+    "file": "reference/portable/0bb40c5a36f70ebea6cccb7e-768q60.webp",
+    "sourceSha256": "0bb40c5a36f70ebea6cccb7e62e62f18b098174e25a3a1db90bfa7ef64011f35",
+    "copySha256": "76e0ca3367010031fe0a1a1e30d676f5d4e0f8a777f6c9ca4190d5976fc38669"
+  },
+  "reference/assets/52a9c218fb8b3bf1cfe3.webp": {
+    "file": "reference/portable/bbd2afc08d448f5616f893dd-768q60.webp",
+    "sourceSha256": "bbd2afc08d448f5616f893dd789d41e227db012a768f3ef74755629e6ce89480",
+    "copySha256": "1b8e8b0ae4018eec460e15ed72b206ccd23d890e4e2c1fbf3b2739bd65ffd927"
+  },
+  "reference/assets/52aadd0cb0e5429a0575.webp": {
+    "file": "reference/portable/394e012c9377b1d6391d0f47-768q60.webp",
+    "sourceSha256": "394e012c9377b1d6391d0f472f1a12fbafa124f3b1b3fba66fe380e8ca0378eb",
+    "copySha256": "edbe0209baabe6095721a2802d0ecf05ed39745a23914a1337ada56474dbae92"
+  },
+  "reference/assets/52b3eee2b4a3373fadaa.webp": {
+    "file": "reference/portable/6f805c8c998f5c137b0b445c-768q60.webp",
+    "sourceSha256": "6f805c8c998f5c137b0b445c52d1d1a7574f9c1e139b70b607308cee38b31101",
+    "copySha256": "fecd60fba617168c6e18cd2b5ac1cc1b4027b6614c307b7522c76f3be8a3b8f7"
+  },
+  "reference/assets/5426b3f693f86a83675d.webp": {
+    "file": "reference/portable/cfc16cb604a7c621df93101e-768q60.webp",
+    "sourceSha256": "cfc16cb604a7c621df93101e8fee44794fde42cf4944956dea33970f59d11224",
+    "copySha256": "5cafa2c37142939c6cba85617fbc008c056c53fa8ceb457014fe5dadea3dfe15"
+  },
+  "reference/assets/542b877b6b82a528b521.webp": {
+    "file": "reference/portable/8f5169b733626e54fee52bd1-768q60.webp",
+    "sourceSha256": "8f5169b733626e54fee52bd10345301c74309576290a08835e653e281ddc7468",
+    "copySha256": "17b0a3340b02f58bb1810276cab222b1ded522483540f21315afab747635b339"
+  },
+  "reference/assets/54e00bf771b6fdcf58be.webp": {
+    "file": "reference/portable/02cd1ef0f8a2ee744e0ca0e3-768q60.webp",
+    "sourceSha256": "02cd1ef0f8a2ee744e0ca0e381c98ac4d077e0f9273358ddeb03db387a9077d1",
+    "copySha256": "9bfb6cbd7a4e7562bd9dd3a1796c48570b6fe9d32e10bdcdbda5be6574e40a3a"
+  },
+  "reference/assets/551a424241d7ae88e7df.webp": {
+    "file": "reference/portable/e13fa511a80e7459cfae881f-768q60.webp",
+    "sourceSha256": "e13fa511a80e7459cfae881feeff1bfd53003e83dfb566c3592fd34cd766d622",
+    "copySha256": "e4eabca9d4de7f71d0a8f29c97fde73d7a77466cdb1ad6b44665dd9c7975b5d5"
+  },
+  "reference/assets/55d770518ca44b876b91.webp": {
+    "file": "reference/portable/d1d818548f5791086dc8c160-768q60.webp",
+    "sourceSha256": "d1d818548f5791086dc8c1602bc1c043baee13d0c9c3a870cac0b1442713da28",
+    "copySha256": "11cb8a70d3eed26939a92ff0f7c49ad0ad607fefe2cd25f1a11348b5e2d7734e"
+  },
+  "reference/assets/5727559ae7866d20a656.webp": {
+    "file": "reference/portable/ed73df01bf475c26be9270cf-768q60.webp",
+    "sourceSha256": "ed73df01bf475c26be9270cf987eeec9dbe37d096dc317565a9170391b57752d",
+    "copySha256": "64a254954eddcfd3b7eecc74b1a91cd4d004a8aa52b5932b8c9e0868032b8b83"
+  },
+  "reference/assets/575a8416cc7abee44d4e.webp": {
+    "file": "reference/portable/a8f2c177366b7a4a4b17a255-768q60.webp",
+    "sourceSha256": "a8f2c177366b7a4a4b17a25528fecb01d5c5f986d630ef6558d83727c8bf70de",
+    "copySha256": "7e1d73ede9f522dcaf4555d68872e9f0c3fa2982f65b3145b902730c1429ead9"
+  },
+  "reference/assets/57bc12af2ad605bdcbb6.webp": {
+    "file": "reference/portable/daaa1e3de7cb47a2dab38642-768q60.webp",
+    "sourceSha256": "daaa1e3de7cb47a2dab3864266300a9f8235f3cd0d4b971078d26381a6123ea1",
+    "copySha256": "6cc45192bcfee35ea7eefdffe645f842e5576fc3beab1284a9113fb10ba1301c"
+  },
+  "reference/assets/58e17f386da7e2c93099.webp": {
+    "file": "reference/portable/34a0b6b84c00148a4904d637-768q60.webp",
+    "sourceSha256": "34a0b6b84c00148a4904d63768362af7d37088e321472019abb525d1f5945d11",
+    "copySha256": "aa3d7eb493c7eed9d978bd54926dd433b146c9805571333da149e5e2c8ecc8ad"
+  },
+  "reference/assets/591459f9e3ff9e175502.webp": {
+    "file": "reference/portable/bb0625a6c4e654c3dcb1b686-768q60.webp",
+    "sourceSha256": "bb0625a6c4e654c3dcb1b686bff6c08ea516767375292a487ffc85e67311b64c",
+    "copySha256": "252b001771b848f940edbcb22cdb9535f5945292edf23e40b1905191c5f346bd"
+  },
+  "reference/assets/591b8246afee6fc60799.webp": {
+    "file": "reference/portable/425ddc290f1a66d653854dfa-768q60.webp",
+    "sourceSha256": "425ddc290f1a66d653854dfadd7ca537530819e9fb6b643a2c5d51b1072ad26d",
+    "copySha256": "c33ec089d6876904dafbddffe2b8be11282611beb0494f54ae773002e59c931f"
+  },
+  "reference/assets/597d788b73664db1efe9.webp": {
+    "file": "reference/portable/a3ac3be17c9c7a14f7f001d9-768q60.webp",
+    "sourceSha256": "a3ac3be17c9c7a14f7f001d9d7ace8723d095e17ac170281b01fac15197af423",
+    "copySha256": "d4fb30a46204337d4a0d77c6f47d6df8140b7e91db506ec4c0f4018a3aabc987"
+  },
+  "reference/assets/5a38c2e648f9b85966f9.webp": {
+    "file": "reference/portable/9b318974ac017cb468ba72bd-768q60.webp",
+    "sourceSha256": "9b318974ac017cb468ba72bded9c81732565470eced0cbc24d1d09b742b984df",
+    "copySha256": "c07a036c8eabbab528ead34dfc0945239dd000ec16bfad4e36e09de6465ad47f"
+  },
+  "reference/assets/5bc80e6f20a1a0ba3ac6.webp": {
+    "file": "reference/portable/f9ffeb2dd24c84104d201fb6-768q60.webp",
+    "sourceSha256": "f9ffeb2dd24c84104d201fb6fa16df80fbcd1dbfbb3daeec31403000d6b64ce6",
+    "copySha256": "46b3cabb11f35cfb231dc5ec99469729fcd820dd422fc3522c9987da8a34206d"
+  },
+  "reference/assets/5c514179b9accfde0274.webp": {
+    "file": "reference/portable/96a90bed7ab80395231c7a44-768q60.webp",
+    "sourceSha256": "96a90bed7ab80395231c7a44757700629d399f8384ad9286a1ebaa7421d789c8",
+    "copySha256": "88dcdb24acc0df4203c087241302e2c65f3063bda1bcec618226814b4259b822"
+  },
+  "reference/assets/5c80971fe6b7fadf8605.webp": {
+    "file": "reference/portable/6111d972d0f2d9de8c72298c-768q60.webp",
+    "sourceSha256": "6111d972d0f2d9de8c72298c06d666858207772ef0660722f442083ebf2b1845",
+    "copySha256": "04678b073e83375ce5cd885694ed76f22061a492d6a9d51b419a7c2d9973565d"
+  },
+  "reference/assets/5f66dc2c3d3e78976c1b.webp": {
+    "file": "reference/portable/0166214c541e4c484339ea35-768q60.webp",
+    "sourceSha256": "0166214c541e4c484339ea35cdd6ff580b3ee24c937cd8e71cf885638d1c84b9",
+    "copySha256": "bd5f8b5c8d4e1b8fa782865af8b8a72619ca42fb0020a076616364a1898f9bd9"
+  },
+  "reference/assets/606b2492b1dcbafad230.webp": {
+    "file": "reference/portable/af96387f6dc7c5b29d3fe31f-768q60.webp",
+    "sourceSha256": "af96387f6dc7c5b29d3fe31fb1d1bb333ccd9059181046845315b88ffa3920c6",
+    "copySha256": "d1af93f9a2aa22a415c1cb72a4b131472173f44081fedceab390a0f8bdb996a6"
+  },
+  "reference/assets/632953ad5a83136dd834.webp": {
+    "file": "reference/portable/3ec3935c0b7c4746ed68cf9f-768q60.webp",
+    "sourceSha256": "3ec3935c0b7c4746ed68cf9f73ba2989ab66da16e0420e4fa0d95ec73bffad2a",
+    "copySha256": "7adcab38d41f67596b56f3a87f87417b09913cb999e8712e6f5677407702a2e1"
+  },
+  "reference/assets/639bedef66e62bdbcfa3.webp": {
+    "file": "reference/portable/917408d061d4b4a3fe23e1ec-768q60.webp",
+    "sourceSha256": "917408d061d4b4a3fe23e1ecb062ae3cf285de1e3fc5eecdd53e7bf79a7480bf",
+    "copySha256": "5e8e14a57bee09a7d1b3a756ed5d60033f4152c94330b8ca826dc5eb71f406c0"
+  },
+  "reference/assets/652bf1ad0fd7fdfcccd2.webp": {
+    "file": "reference/portable/6312960096dd090b24b204ee-768q60.webp",
+    "sourceSha256": "6312960096dd090b24b204ee45ace5f5dcaeac29bd4ae1a88fe1aa034025e0f2",
+    "copySha256": "3bb233e741a23bf12ffc6061b0ff761fb0b31a7d362fc9b3c4e6bb2284f54404"
+  },
+  "reference/assets/6633d71eb062734018ec.webp": {
+    "file": "reference/portable/c31bf4ce0beb93c7c2e1b8fd-768q60.webp",
+    "sourceSha256": "c31bf4ce0beb93c7c2e1b8fd89ad56324f57dbe63e719193acc67c2cd71220ed",
+    "copySha256": "81c4eb6ec1310a87c69d6c59eb15cc11d9a9d5adb113601eba9946524164e5c4"
+  },
+  "reference/assets/66e5fd1b66d2b61bc9ff.webp": {
+    "file": "reference/portable/4301cc56579f698b80848585-768q60.webp",
+    "sourceSha256": "4301cc56579f698b80848585588ff7caef0215ae30b0846bfcd1147f85c3addd",
+    "copySha256": "37ad2b7bab3acf6ea86a04c19fa8ae489024c93952ab69889e05a42924bd6dd0"
+  },
+  "reference/assets/677cbc425d456c58621a.webp": {
+    "file": "reference/portable/10b34990c6f199798dbff280-768q60.webp",
+    "sourceSha256": "10b34990c6f199798dbff280853c49325b680f86ceefac1aaaded5abbf1fad55",
+    "copySha256": "384da3f3817fa33df6f5e21642ed23440995b20156528b6bec6f9fe84a7a246e"
+  },
+  "reference/assets/68ad7e36d670a034d183.webp": {
+    "file": "reference/portable/292f5a37b9560028fc3b1d6e-768q60.webp",
+    "sourceSha256": "292f5a37b9560028fc3b1d6ed87dfa7b11e4e3b71950853c06658e8b9f5b3b71",
+    "copySha256": "db703460580746bf48c556f3b1d1caaeb69dfe9b58ca784a7d9a3d6bd89bb791"
+  },
+  "reference/assets/69087bb3ce98d95690a5.webp": {
+    "file": "reference/portable/0435c2efa5862b30e47526ba-768q60.webp",
+    "sourceSha256": "0435c2efa5862b30e47526baab3cae62c4619c93ffffa19ea8cc7a55a0363265",
+    "copySha256": "198775f6445736b3ff0d188b8caa06d4c1ec32b185b0ce3bbe29d1af304c5a52"
+  },
+  "reference/assets/6b7f095548e9009511b9.webp": {
+    "file": "reference/portable/4f82b7b073909cbaaec5d701-768q60.webp",
+    "sourceSha256": "4f82b7b073909cbaaec5d701c7990af3757214b17f12f4dedc14956830eb518e",
+    "copySha256": "f5b996468f6b7006dd38b8a5e6ed76c2ad92c532120d8eadcdf6698e9a565cf7"
+  },
+  "reference/assets/6b95771e8b1958dec2b9.webp": {
+    "file": "reference/portable/89572d9fa83a62325aa77a5f-768q60.webp",
+    "sourceSha256": "89572d9fa83a62325aa77a5f9bb5c4e147fd9f36886baf19459282b6fdab2118",
+    "copySha256": "c350f84442edf606fa7a04f7473a155a742cc05d8910dd5bff318ac57299fc9b"
+  },
+  "reference/assets/6be16240b38f6be13088.webp": {
+    "file": "reference/portable/ecd2f4378c969e99e1cb506f-768q60.webp",
+    "sourceSha256": "ecd2f4378c969e99e1cb506fa70a7b592021d603074e3d5e34979c924007be62",
+    "copySha256": "af45481a9149340f35dadbe74d5f0f0ae27830aa8d5970b6b76f759ec5dcdb66"
+  },
+  "reference/assets/6c5a9875d6a1b6cb5681.webp": {
+    "file": "reference/portable/b8cbdddb57013f8adb3cf2d5-768q60.webp",
+    "sourceSha256": "b8cbdddb57013f8adb3cf2d58a8499c5fc85b76b8bfc162e539c59e3179fb9e1",
+    "copySha256": "ad0f1e84df9b402fb3e26c4f3f5b0c1d2ce60fa0d39d77d5eeeb98f6f32e17c1"
+  },
+  "reference/assets/6d5098f536a7bc10dacc.webp": {
+    "file": "reference/portable/e38bae8095ef842c98d19244-768q60.webp",
+    "sourceSha256": "e38bae8095ef842c98d19244704d6e694a0e9ab4e00ff223a771cf9b2ab06925",
+    "copySha256": "2fbe1b3a5a7c926048781ae84cc6c392d2b49dddfe97a5d2d6bf2a2355badba2"
+  },
+  "reference/assets/6e3c03c70fcc2b962ff8.webp": {
+    "file": "reference/portable/e32a0f6b85afb6ab9dc8884b-768q60.webp",
+    "sourceSha256": "e32a0f6b85afb6ab9dc8884b63374d743610d4204339123449e8f957940837b3",
+    "copySha256": "b488726ae82d86c7ca6ef52a95bb17fab6c975c55cde23c6bd6ccdeac3219261"
+  },
+  "reference/assets/6e4a15e34cc2103c3c93.webp": {
+    "file": "reference/portable/e5765460badce51d74ec622a-768q60.webp",
+    "sourceSha256": "e5765460badce51d74ec622a990e8334bc120345300020449052391ed9b62647",
+    "copySha256": "a313296810b360ce929348ae11ad339b9b6964f4db9f567f07dbb143d0567c9c"
+  },
+  "reference/assets/6e77ccd1eceb544d067c.webp": {
+    "file": "reference/portable/261e5d3ad55f49f882943ef0-768q60.webp",
+    "sourceSha256": "261e5d3ad55f49f882943ef0839e338a9b8c007a7a1bd4b8123d2cb82cb76fa8",
+    "copySha256": "685083e7fee405205422466d17721b5d554660aec78538ad12ec8992d5e73596"
+  },
+  "reference/assets/6eeca2c32b9712447ad6.webp": {
+    "file": "reference/portable/f5c3ede2c794cac03f27f9f5-768q60.webp",
+    "sourceSha256": "f5c3ede2c794cac03f27f9f5e4849d559042a7b954cf98df7e14d3eb192f5a56",
+    "copySha256": "4ef4710587fb249c29da675f3b1d2385da0387154e7198ed8451d012ce5b215e"
+  },
+  "reference/assets/6fa4daf0ccf6e75263fe.webp": {
+    "file": "reference/portable/0bbb0bdd73438e2a1d2a5706-768q60.webp",
+    "sourceSha256": "0bbb0bdd73438e2a1d2a57062042a72004a253b5d4df744830ace2c2864749c3",
+    "copySha256": "32310058fd3f242f29087057d32d8e1a20c56dc289961285f54567a4c809bcbb"
+  },
+  "reference/assets/70aa4b28b3d07d86fbea.webp": {
+    "file": "reference/portable/9d764cd84bb69939c2cee427-768q60.webp",
+    "sourceSha256": "9d764cd84bb69939c2cee42701942802ec81ecb020fc7b7266ec39f665d85f86",
+    "copySha256": "00a6191d22da4c313f584cf009e537581406f3627ebde1004c8036a424ea5633"
+  },
+  "reference/assets/70f7e800529540ccbc55.webp": {
+    "file": "reference/portable/4d8d883883abf6b6295e28a8-768q60.webp",
+    "sourceSha256": "4d8d883883abf6b6295e28a859562a79caa58327788fb9529922c236d5b80532",
+    "copySha256": "b7a289cf2f54f84cf71e7af7926941ca2a9dcd2910289a64dfcee8a48bcfb940"
+  },
+  "reference/assets/71645188400b5f97005b.webp": {
+    "file": "reference/portable/e7e24954b45a0543753eadf8-768q60.webp",
+    "sourceSha256": "e7e24954b45a0543753eadf87e3d4499497ee7ac2f7256f54dc7a9427f232329",
+    "copySha256": "6be93c5f9b6773e7bda1bbbbf8ccd7317262a3d9d72960bad4d71b3e3b0e0254"
+  },
+  "reference/assets/719e625ace91c96cd104.webp": {
+    "file": "reference/portable/1f8d406505b65777ebed5b41-768q60.webp",
+    "sourceSha256": "1f8d406505b65777ebed5b41a0357165982aabb66bea0fe6a20f807aab5d9b0b",
+    "copySha256": "e539b4c732e74f1d8a24c2f9b2c90efb162d523b2b075bc6301ec315dc4f4430"
+  },
+  "reference/assets/724955827c057a815b93.webp": {
+    "file": "reference/portable/c30e73b5b81e7f01e7581005-768q60.webp",
+    "sourceSha256": "c30e73b5b81e7f01e7581005560acdc750c0180810663da8d888e3807950598f",
+    "copySha256": "8bd321c8aa5b5f651253253cc1f6db3ff32d8e5735fac898fd5aacc302be57fe"
+  },
+  "reference/assets/736c18bf14e05585ed43.webp": {
+    "file": "reference/portable/e5e60a2fc66448eccd03e982-768q60.webp",
+    "sourceSha256": "e5e60a2fc66448eccd03e982bd7e974d9b1e920fa92ece48e79b0bd18b5fe483",
+    "copySha256": "9076c1f518263648f263ed976409eedadf1de33ceec2011e59f87e325255ba40"
+  },
+  "reference/assets/748979ccee5af3f3047a.webp": {
+    "file": "reference/portable/c6052706a55e7074300296de-768q60.webp",
+    "sourceSha256": "c6052706a55e7074300296de784849fb0e3587b55786432ebb10a842469b2a61",
+    "copySha256": "5a28fd825ae7b73fa6abe668a5f6d0585e7577b377b6c2898f975351068800e9"
+  },
+  "reference/assets/74fd7f35695f707fcdcd.webp": {
+    "file": "reference/portable/bd705134782c4caba00ec842-768q60.webp",
+    "sourceSha256": "bd705134782c4caba00ec8427b6079430c2be6a02cab60ef198bfec9961ec43f",
+    "copySha256": "d9b364249972d46aa0f6c06b6c455b72e91f7e7b0b91f46a1c8834e975dc60a8"
+  },
+  "reference/assets/753394a1583212a76553.webp": {
+    "file": "reference/portable/20734a9ad64a887aaf3c3e10-768q60.webp",
+    "sourceSha256": "20734a9ad64a887aaf3c3e10de01acc4394fbeaac5a78b04e23985eb0b7e95b8",
+    "copySha256": "839f7abbe22ed6c453afd83354cb27bce0ce433cbcd360cf8adcc4802e73076c"
+  },
+  "reference/assets/77cbd85f1d59353de990.webp": {
+    "file": "reference/portable/99b5baa4f5cdf7c8d0004dc1-768q60.webp",
+    "sourceSha256": "99b5baa4f5cdf7c8d0004dc173885abcb9bb3f290b6c699b94a7e8a3ee7992a9",
+    "copySha256": "3335b98268bfa34e5dd63de3d1b6934bd5a5e71ea49eff69a12821b1dd805071"
+  },
+  "reference/assets/79fcc323c3732a179261.webp": {
+    "file": "reference/portable/f34f4e1c5f2118c76d1549ee-768q60.webp",
+    "sourceSha256": "f34f4e1c5f2118c76d1549ee444c2d5c345839c192ea2d84540e693c1a648c1d",
+    "copySha256": "da2925c19cb1fdeccd7ac2d01530635c9880921e02e80d9c4d3bc84fc66e6929"
+  },
+  "reference/assets/7a8037a88346a90350ad.webp": {
+    "file": "reference/portable/4bcee22630c11cf56037f4f0-768q60.webp",
+    "sourceSha256": "4bcee22630c11cf56037f4f07ab7f39a39580c7af8164978b80163b006c9e9d0",
+    "copySha256": "0e01140545a8b74dae08487508655ad9173ccc8763baf9903cc526eb2a181ec8"
+  },
+  "reference/assets/7b6afcd31883698e96ab.webp": {
+    "file": "reference/portable/268ca85e16fff6cca6eabcc4-768q60.webp",
+    "sourceSha256": "268ca85e16fff6cca6eabcc489ff4213c0b76eefadbd2687ed774d48ba42ce64",
+    "copySha256": "d00d4b4b6b00793411d3e89b9a2391c3ca196205dffe47fa5e6f016344eba5f5"
+  },
+  "reference/assets/7c97dd85a37e9c37ac01.webp": {
+    "file": "reference/portable/5b2a9fac3ece98863f069cb0-768q60.webp",
+    "sourceSha256": "5b2a9fac3ece98863f069cb009ffda779fb4c41465820522d8e08e66378e82e8",
+    "copySha256": "0b52c3a2aca74ac8ffb1e85def25591a2f47ba7306dd9bed235385f04dbbdd44"
+  },
+  "reference/assets/7de288a2a74f359d0843.webp": {
+    "file": "reference/portable/993a14eb4b7b1bfe7096eb50-768q60.webp",
+    "sourceSha256": "993a14eb4b7b1bfe7096eb50eba311c25248ad507dd8f8b974fb5351974cfb7a",
+    "copySha256": "708747921e95ce3d75048ddac71f694e4cedf4c9c490e3d96faca01058d6c1af"
+  },
+  "reference/assets/7de2fcdf299138f60933.webp": {
+    "file": "reference/portable/6f76708e09f82f5089d32662-768q60.webp",
+    "sourceSha256": "6f76708e09f82f5089d3266238227df88eb0cbca4c0ca62bf187e9864af82b3a",
+    "copySha256": "3d65b0307fb753aa78a8664143069f20b91506b7a54765e07f054b3850a126f1"
+  },
+  "reference/assets/7e655b240a4bbe9fb4d8.webp": {
+    "file": "reference/portable/418c3af3980ec852e76f6c60-768q60.webp",
+    "sourceSha256": "418c3af3980ec852e76f6c6075dffa58b22e2fb12d99b6a34a42da6e665304f7",
+    "copySha256": "1d65fe7ba73ae55128806bf75c23203084f88cbaf0fa3ee30075ee688dc50f12"
+  },
+  "reference/assets/7f7fda6a901dbcc673f0.webp": {
+    "file": "reference/portable/62b6eaf3935f4a9bd91893be-768q60.webp",
+    "sourceSha256": "62b6eaf3935f4a9bd91893beb20fcdc3f90c93af52aacb241ffbdf5b13df68be",
+    "copySha256": "457017fee00735bf99104198fae78895f6706a8bb1e8f9b84d1e40b3b94cf9ea"
+  },
+  "reference/assets/811023519693b634c509.webp": {
+    "file": "reference/portable/a3930af35c3bc6d9e06b699c-768q60.webp",
+    "sourceSha256": "a3930af35c3bc6d9e06b699c907d2b6e7284b67b5e4d0bab3cbaaac345f3f6d6",
+    "copySha256": "b44d58d05fd74ebf4ec2a50516f8616311f809158282fbd11b8e3a2e0c85e5ec"
+  },
+  "reference/assets/818fe4b06f8086bd7d54.webp": {
+    "file": "reference/portable/090844b7799a54303cf57026-768q60.webp",
+    "sourceSha256": "090844b7799a54303cf57026370e7699e18aa4d1e546e44754673bdac4f6bc1e",
+    "copySha256": "b7bfac831b27ab06ba4fc3003b1675f90d19fa56df9caf35d5a0d208711fd747"
+  },
+  "reference/assets/81ab30154b425c8d050b.webp": {
+    "file": "reference/portable/cc2a8d1d1af937fddddae917-768q60.webp",
+    "sourceSha256": "cc2a8d1d1af937fddddae91768accece227e17bf263316587233b78ad294d07a",
+    "copySha256": "53ea244b819b3f4ea39c5deaafd978bb415f879d14701064f7d627ea81c79a3c"
+  },
+  "reference/assets/82fe057827a1f59673b9.webp": {
+    "file": "reference/portable/3b1c5005218e4daca3d04c90-768q60.webp",
+    "sourceSha256": "3b1c5005218e4daca3d04c90c4d7e9aa62bf2021f10ace661134b012a9388642",
+    "copySha256": "caacb2953b6ef3af2f5d9ef41361dc32c310a29365d93e5d9e81c92265b33ded"
+  },
+  "reference/assets/851eccdfdcd001087ff0.webp": {
+    "file": "reference/portable/23276cfeb4c24973fe6f0bb2-768q60.webp",
+    "sourceSha256": "23276cfeb4c24973fe6f0bb2d5f21c1dd65cb69dddfc43a9960aa89476955a30",
+    "copySha256": "a51cf20d2101a0176b0d4d7467a91b00f332f8f9f36cb0d9c6af4e4667a2077a"
+  },
+  "reference/assets/854dc6e1bfa45e7a96b4.webp": {
+    "file": "reference/portable/ef93844cdfabad63fb7be2cd-768q60.webp",
+    "sourceSha256": "ef93844cdfabad63fb7be2cdfc7730c1241e7dc25904386f409ed9b9fac5e4f9",
+    "copySha256": "6e5aae8f2595d389987ff683a92196ea1c8eb9e8a5085ea652b18a60c3cce84a"
+  },
+  "reference/assets/85c4d93ab6b68584b07c.webp": {
+    "file": "reference/portable/5b818aac4eb5822e87e5a05a-768q60.webp",
+    "sourceSha256": "5b818aac4eb5822e87e5a05a6f49795f82c1c7c7d2a6c5a72cf9920e2f3c799d",
+    "copySha256": "7d482d95e654b224ab9e732888361746de8080ff62de1486e554c4543927ce48"
+  },
+  "reference/assets/86b5ef7bfbb59ad4f4f3.webp": {
+    "file": "reference/portable/ef8de6ebfb0cded6519bb62e-768q60.webp",
+    "sourceSha256": "ef8de6ebfb0cded6519bb62e2be3f1187b3b088d80cb800d47b8e70d6430f38c",
+    "copySha256": "dba5719813e336f016ee738c72885ea8326615167177dfdeeee46bf024f30a60"
+  },
+  "reference/assets/86f40a543095d041f88c.webp": {
+    "file": "reference/portable/e72b4d5c961e9e4b05e3d9c2-768q60.webp",
+    "sourceSha256": "e72b4d5c961e9e4b05e3d9c227cec3170c98928cadf5ba291d6039726010812f",
+    "copySha256": "965eadd1dd01d75a6c3e72a56e9ed0a7d7cf253793c733c2a361ec313bd1f945"
+  },
+  "reference/assets/870e4d8df7bf1b0d31fc.webp": {
+    "file": "reference/portable/50e8d2260cd380b6c1812829-768q60.webp",
+    "sourceSha256": "50e8d2260cd380b6c1812829199800ef7343b3296ca4242dc1065480adf6265d",
+    "copySha256": "ed3bf22efd7db6a6f54b6d3a29385383fa88dd02ef52eff306e2fcd7a3ff0551"
+  },
+  "reference/assets/87fefc2e0ad514132d85.webp": {
+    "file": "reference/portable/423dc4c2281f15a1e107ed68-768q60.webp",
+    "sourceSha256": "423dc4c2281f15a1e107ed68897a64b0533009f2d1ab41c84399ad646eb96b25",
+    "copySha256": "2f1f2d24d7478b0b57e97ce6f632c0f8f021c063932a6500775c08777263a45f"
+  },
+  "reference/assets/89165cb0cc9fa32d37c1.webp": {
+    "file": "reference/portable/9cf669b10e2c53dbcd656c22-768q60.webp",
+    "sourceSha256": "9cf669b10e2c53dbcd656c22bee241dd458314b23aeb6b639a307caf1318aeeb",
+    "copySha256": "de5f3f2f74126e254e720636cf5f09a563c92a38551de297676d637cd2194832"
+  },
+  "reference/assets/8a02b28a8fd54981522c.webp": {
+    "file": "reference/portable/1350e90d8392370c6f536397-768q60.webp",
+    "sourceSha256": "1350e90d8392370c6f536397718262cd10b1bf499b503a26ab6e91717f065792",
+    "copySha256": "8a3a117b9c2b29ea137b904f06207b7c5d7934e7124fc4fa8086362d05613bf2"
+  },
+  "reference/assets/8c8b50f257640ea57118.webp": {
+    "file": "reference/portable/570e3a7aabfad1d5928d09df-768q60.webp",
+    "sourceSha256": "570e3a7aabfad1d5928d09df3c15d29824b0d618a85752be8fedcd9655c7d08f",
+    "copySha256": "a9ba5bf59e8c36c412938110b5c8317137da4ca0e2f93a9b3ce63e1785ce6764"
+  },
+  "reference/assets/8d816038aea530513cee.webp": {
+    "file": "reference/portable/d7b5301da8bee2c457f59ffa-768q60.webp",
+    "sourceSha256": "d7b5301da8bee2c457f59ffa248ac5d3a18777f02866a5584759d82434b73d75",
+    "copySha256": "5e3627c7dc375b3f5c47c437f6a3a57dccec40f888fe5e08a2a053b2e44c9a6a"
+  },
+  "reference/assets/8da3920c291ff2fa2f03.webp": {
+    "file": "reference/portable/64590b0b1463d592c0c58c16-768q60.webp",
+    "sourceSha256": "64590b0b1463d592c0c58c168896486f6b1762e9a50fae32abb8b506368d647c",
+    "copySha256": "ee9fe285105e39e77935042bebc280723618b233124955c8fa315ac70dabf459"
+  },
+  "reference/assets/8df9acca0b26b84a4405.webp": {
+    "file": "reference/portable/c39a656310a396feb4ba50c7-768q60.webp",
+    "sourceSha256": "c39a656310a396feb4ba50c70f0f4d1d4d5cba95ebf9bc4a856e744f526deae4",
+    "copySha256": "8db0981e78b9814b0e084e8a899138aa81764fc9e5127ca025f5ef0fb985069f"
+  },
+  "reference/assets/8e129e8de33de0ed6497.webp": {
+    "file": "reference/portable/64c45ee4d39f4d3a9d185f18-768q60.webp",
+    "sourceSha256": "64c45ee4d39f4d3a9d185f18ae91b3d7a08cf01d4596fd8a4376ffda6ad0fdf6",
+    "copySha256": "4b2d78dafbbe3411616a0e8281a1a4101250f64883ffd93a5f8bbf606f768119"
+  },
+  "reference/assets/90dbaf2ab075ca60ce25.webp": {
+    "file": "reference/portable/a1cfe7d8d3274044696a8e34-768q60.webp",
+    "sourceSha256": "a1cfe7d8d3274044696a8e340373b8d863c458fdfe08258dae2abc438a6ea880",
+    "copySha256": "da5eff86d56be13ef1e65a7dbbb03ec485efe5d3a2d7b7872301d724a3d24816"
+  },
+  "reference/assets/929968ba15304425e7c4.webp": {
+    "file": "reference/portable/ab47763ee45d2b8f21403ce6-768q60.webp",
+    "sourceSha256": "ab47763ee45d2b8f21403ce68969ccd619a83b7ce604022bcac1caa6f88bb0ff",
+    "copySha256": "659da32607c9d15a74b8eb70d997a9bff3999c79f01785c7aab153234ca20d16"
+  },
+  "reference/assets/937e65a26d33c24e34cb.webp": {
+    "file": "reference/portable/e26e2053284b397539c95fbb-768q60.webp",
+    "sourceSha256": "e26e2053284b397539c95fbbdc240ca6bccecd35197d94c98dc331b395b44f40",
+    "copySha256": "cd9ab3a75cdef0c66afef259147cf1bf24ea200f9b26342c0e21c66f550529ad"
+  },
+  "reference/assets/93829d7ca44a591b1e9b.webp": {
+    "file": "reference/portable/82a632591299541e2ed6334b-768q60.webp",
+    "sourceSha256": "82a632591299541e2ed6334ba4c98c95165d067ccb22be2d4f7eff0f4bcb29de",
+    "copySha256": "73f84ac943a82e369d1f6d9df0e478716dda1fcf36f7024e887095e75b7fb3ea"
+  },
+  "reference/assets/943ccef771c5e9578788.webp": {
+    "file": "reference/portable/f794f2e555865d0cfb8a37d8-768q60.webp",
+    "sourceSha256": "f794f2e555865d0cfb8a37d8d9943bfcbc51e7a4fafefaad1389a0b1e163f59e",
+    "copySha256": "7991a339fbb99a1fd34f686e21e6ac4c8f0ade4801eba61d6a74f810e955e61c"
+  },
+  "reference/assets/946418bdf6250acb98c4.webp": {
+    "file": "reference/portable/e8b30c37fe097dc1516ae116-768q60.webp",
+    "sourceSha256": "e8b30c37fe097dc1516ae1160940ec5734e6b7a56f6181d89390f05cf9cee2cc",
+    "copySha256": "baa23c7ae5227b3ea5bb30e302e79537f233cc1e6ff1740810c54466343e2507"
+  },
+  "reference/assets/94ded37cc124a2550086.webp": {
+    "file": "reference/portable/6a8b15f6391db61797c911a1-768q60.webp",
+    "sourceSha256": "6a8b15f6391db61797c911a130b1f0152f8c6d6d3473a5997dea5e0a9eddb98a",
+    "copySha256": "3b6690be54a577fa66d2eb2be6954c19474f0214056544c0b5d317b187bad71e"
+  },
+  "reference/assets/99112c264d8f9faedc25.webp": {
+    "file": "reference/portable/2e84fc008f74ba1e26a869cb-768q60.webp",
+    "sourceSha256": "2e84fc008f74ba1e26a869cb1df2541ca97178f261ebc60909c978f9f0b04dcc",
+    "copySha256": "645b46e767444289e5cdb8ade7394355d360bd7a73a1a29b026268de34a837e8"
+  },
+  "reference/assets/993d19ae915f71b11cb1.webp": {
+    "file": "reference/portable/ae87ff17604af4e853a5e445-768q60.webp",
+    "sourceSha256": "ae87ff17604af4e853a5e4453e96719466e84deccc4b58ce6098f86a05744836",
+    "copySha256": "a8a1135efcc30c8d040c5c408a45824ae5d5d13388a02b5be33958acb3c23b20"
+  },
+  "reference/assets/9a32f6c1870ba1260b1d.webp": {
+    "file": "reference/portable/00ae02ad72a5831379a3c915-768q60.webp",
+    "sourceSha256": "00ae02ad72a5831379a3c915410b02ebb9caabbaa9fbb5a412782ab57fccfb19",
+    "copySha256": "636ed52d271b17e6b58ea2eeab064df32d994bde69641d97f1a49c1e4dc5456b"
+  },
+  "reference/assets/9a6827b09c82277eab3f.webp": {
+    "file": "reference/portable/8d7f2fbdaa876b0da5bfa873-768q60.webp",
+    "sourceSha256": "8d7f2fbdaa876b0da5bfa873265a8b818d631409a9a94adc1324a74e1e4ad8c7",
+    "copySha256": "473c0b9c44833be8645e732e38861805bd228132563c30aae75cf4bc0aeeb025"
+  },
+  "reference/assets/9a7cb23b926c0a171af4.webp": {
+    "file": "reference/portable/017f41d00b724edd8eca6713-768q60.webp",
+    "sourceSha256": "017f41d00b724edd8eca6713510832caa30da45383fb4908d59c07114663e9cf",
+    "copySha256": "5b3d61c872a528554d28fcad08cca2af35b086d93fd54f04ae17150702fe0c1a"
+  },
+  "reference/assets/9adc4ce993943d6df061.webp": {
+    "file": "reference/portable/a28cfa7d4da2703e1fb03926-768q60.webp",
+    "sourceSha256": "a28cfa7d4da2703e1fb03926d32754f62fc548365d50fdeb48d3d8ff533a7038",
+    "copySha256": "7ebeb7db37daeb47b7a037f443df13d5eaebfb1004c9254375195d790a1b4188"
+  },
+  "reference/assets/9c4bb1fdbc86343530d9.webp": {
+    "file": "reference/portable/08ddb4b83acf4624896a320b-768q60.webp",
+    "sourceSha256": "08ddb4b83acf4624896a320ba16f5f615d453734688f1a59cea1e0a95445a0e3",
+    "copySha256": "4b7820395b8b30cf5bf0921509c42dcc9da3a1a137334826bd9877f06c3705d2"
+  },
+  "reference/assets/9cccc03bea37dd217593.webp": {
+    "file": "reference/portable/1beb5f4ae8487db725638d2e-768q60.webp",
+    "sourceSha256": "1beb5f4ae8487db725638d2e78f1cf5733bea12a210beadd447a638c5b6aba29",
+    "copySha256": "bfeda50dfe4668490b3187acd6fa155fdef6ac9524ec9d1a3fd4d5b43fa7b77d"
+  },
+  "reference/assets/9e083971f54e385724a1.webp": {
+    "file": "reference/portable/7f0c3ecb9f15505a045f148a-768q60.webp",
+    "sourceSha256": "7f0c3ecb9f15505a045f148a97aa61b33629bed44682220c2a51523a6b70f24d",
+    "copySha256": "9e4103d7868ad93543e46f42e3cb9f2d1e273afac0c3d70833c343e1d4848993"
+  },
+  "reference/assets/9e7d4a00e121f38f8b93.webp": {
+    "file": "reference/portable/60ae44147870922cc5b649de-768q60.webp",
+    "sourceSha256": "60ae44147870922cc5b649ded8fa7b5b9e7d419872623482d24cd945ad086eea",
+    "copySha256": "7ed44f30c36202c96f1dc7440cf24563389e9cc238823ece825ed5c520362ae5"
+  },
+  "reference/assets/9ea4307a407929c364b7.webp": {
+    "file": "reference/portable/5b467c19f83f9a7ad25290e5-768q60.webp",
+    "sourceSha256": "5b467c19f83f9a7ad25290e5989ac558eb129696b74e55d04049b3a098f3863c",
+    "copySha256": "9919777fce4f23901aaafb911a367a7a779ee3536bbe6b83f56418de8bcc98e9"
+  },
+  "reference/assets/9ee6bd9fe7e5e5829b39.webp": {
+    "file": "reference/portable/d14865329b499b0cc16e00d0-768q60.webp",
+    "sourceSha256": "d14865329b499b0cc16e00d0250d24d0602565658c224ae1ffa00de22b58d582",
+    "copySha256": "f7dd2e08ce58cc93d30bca9fc495a4d092f807ba6cdec47d818af1f86d6b8ced"
+  },
+  "reference/assets/9f3fa6bb2e4cf6ca52a3.webp": {
+    "file": "reference/portable/952578bd074d20a5a91f4db9-768q60.webp",
+    "sourceSha256": "952578bd074d20a5a91f4db97baefa67f296d2b02a019decf57782a1ebbdc376",
+    "copySha256": "a3ff5b54959df394fa42a6ce1816fef96fe5d0604f8e4050e35aa9355dd7f980"
+  },
+  "reference/assets/a0f1b53c45e5dd7d4857.webp": {
+    "file": "reference/portable/3a2b4d7b0c944d5acd4b136d-768q60.webp",
+    "sourceSha256": "3a2b4d7b0c944d5acd4b136dc19882cab3b5f1106efcc2ebb28163f31f2abd73",
+    "copySha256": "e70e624a897bcec453149ba7685b0240c105bca989fe6e51eb97066fbc350e55"
+  },
+  "reference/assets/a1890aa5b6064107c270.webp": {
+    "file": "reference/portable/88ca6d424e9aa588864715f7-768q60.webp",
+    "sourceSha256": "88ca6d424e9aa588864715f77dbef125f08a319c6b1ff746207a56f65dc19417",
+    "copySha256": "9626d15f714133d6e5f11452cdbe15256a00178b04bd138ee955fbf9ba0dce0c"
+  },
+  "reference/assets/a26609386d3bd1591d74.webp": {
+    "file": "reference/portable/84acb8084f53dc8ac8dcd2f0-768q60.webp",
+    "sourceSha256": "84acb8084f53dc8ac8dcd2f0b5f6bb56284e326bdd592270cff95fd3d534bbb7",
+    "copySha256": "f9c53f3ca1f4d4e28b4feaf7ad87c0e5b87766b3f491009b763b9e8fa383455d"
+  },
+  "reference/assets/a2cf1784a257b8d90dac.webp": {
+    "file": "reference/portable/c711282f6fe6ea575c09479a-768q60.webp",
+    "sourceSha256": "c711282f6fe6ea575c09479a694947330f4ec8200bf527dc4ca636dd7f36d75b",
+    "copySha256": "3e533eca8190fe071ff7c58ebfd86292c4310fc67383c8f704d3683f872e8dfc"
+  },
+  "reference/assets/a30d40f1d904a5a74055.webp": {
+    "file": "reference/portable/a99072845da2c8d18fcf4628-768q60.webp",
+    "sourceSha256": "a99072845da2c8d18fcf4628ad61c2532f373ab7151815769bde8f576b1f92d0",
+    "copySha256": "ed59ca7ccb350e336c4835ffb2d237d39b8b96d147317d959ea5db3f08ed5dda"
+  },
+  "reference/assets/a531e58d67c0d5bbb787.webp": {
+    "file": "reference/portable/af38c045c65b180266e905f3-768q60.webp",
+    "sourceSha256": "af38c045c65b180266e905f3a1930cbc1b96c914578e378372bae620407efb6a",
+    "copySha256": "e2f0385aca52707a8367ca87384e3da4a859fd67099fda408a949720382fce0a"
+  },
+  "reference/assets/a7109a33fdeffa83c793.webp": {
+    "file": "reference/portable/4a6d80d8d59e15d97d654f88-768q60.webp",
+    "sourceSha256": "4a6d80d8d59e15d97d654f88180286352e43b3ab9b7c9eef18688e3e993adf89",
+    "copySha256": "a1cb213336c106d8ff48ad77b7dd672e6a23177f6849a55293f9db5c1632f790"
+  },
+  "reference/assets/a8c1b7a0515170647f85.webp": {
+    "file": "reference/portable/4563951f6deb5f8b239d6b10-768q60.webp",
+    "sourceSha256": "4563951f6deb5f8b239d6b10507066c2b451bee45d5140f31fe0f19d1260ca04",
+    "copySha256": "8ac6ca6f22a6fc6f534f37dad15aa59cce7b5ac5de3fc0bc67a38cf46033f270"
+  },
+  "reference/assets/a8f077d74f8860a6ef0d.webp": {
+    "file": "reference/portable/844a52f2147ed1cc84d7a95f-768q60.webp",
+    "sourceSha256": "844a52f2147ed1cc84d7a95f7d0d6d5f5a4ff49c820e8c8041f01d01e9a78d56",
+    "copySha256": "cc05d280cb374603bef0a33e475157f12e332c1b40745b6b14ebe9e562596309"
+  },
+  "reference/assets/a9b0f8f18bce9378c51f.webp": {
+    "file": "reference/portable/059cfca333cd393f3cea472f-768q60.webp",
+    "sourceSha256": "059cfca333cd393f3cea472fccb9daf8905f2679a9470f9e66e943f73bc30595",
+    "copySha256": "b8c3fae809251864d9dad5b1669841c0f0f7e8c33d5d7fa54acd2fa850815cca"
+  },
+  "reference/assets/a9fc05e2e982a4e22907.webp": {
+    "file": "reference/portable/be92edd848b6820af993db12-768q60.webp",
+    "sourceSha256": "be92edd848b6820af993db12fcd517e401b6f8c92df63e8eb120dd0b11359dd5",
+    "copySha256": "f383a948ff85e7ba8759646cbdae692642f80734df4efbca720eab1a52adb589"
+  },
+  "reference/assets/aa8c3a8092d61fc83997.webp": {
+    "file": "reference/portable/fe38751acb4994a22b31fb42-768q60.webp",
+    "sourceSha256": "fe38751acb4994a22b31fb42e434b41a236d51ed4edcfdcaad6055db8443657d",
+    "copySha256": "f9e51a8c097f18bc87516a8f278409a254c54563f3edf4705c7dab337f04e795"
+  },
+  "reference/assets/aa9161d83d592250d9a6.webp": {
+    "file": "reference/portable/15070b550db22496adb6d9a4-768q60.webp",
+    "sourceSha256": "15070b550db22496adb6d9a48761c034b1fafab49b43a25ff787a9373584cd59",
+    "copySha256": "5a8e595c79d210c8da3ae9f8038cc90cc630c37884d5e5ca4de29452205de80d"
+  },
+  "reference/assets/ab2175eb4198e566a7a1.webp": {
+    "file": "reference/portable/91bddd7dcd7cca7cf147f807-768q60.webp",
+    "sourceSha256": "91bddd7dcd7cca7cf147f807f1800150c3fe1a43e6ba23d31c4a799878d210d9",
+    "copySha256": "ba800685bb34de61f555b87b90e57c4c3d6eff8f9151d2af7d2e734fd4f0560b"
+  },
+  "reference/assets/acd8361c933437ab279a.webp": {
+    "file": "reference/portable/c52696b8a1a27fb6d0ede59d-768q60.webp",
+    "sourceSha256": "c52696b8a1a27fb6d0ede59d1aa57e5799416f35589059292ee06057b5c3663f",
+    "copySha256": "290fce2ddbdfadcac294dad533ba0601936240ef170755f56c06b32ffb95f140"
+  },
+  "reference/assets/ad32bc0e3e66f13d8cbe.webp": {
+    "file": "reference/portable/594181b870f7c116b94ab425-768q60.webp",
+    "sourceSha256": "594181b870f7c116b94ab4253dda55bc1ace4491665dcff158c5f5154b96e769",
+    "copySha256": "cd8e50b7ebf4eb56d1a139bed9098e23bef2f2680a33c4b78282ebf32242207c"
+  },
+  "reference/assets/ada064e4d0342c4861cc.webp": {
+    "file": "reference/portable/3453423478c075bf7b6a7c3c-768q60.webp",
+    "sourceSha256": "3453423478c075bf7b6a7c3c724204c4584feb120c75aa619e1db77d13d6452d",
+    "copySha256": "60580901787343e51b4b4ad754aec831295676e85ad0ac1fb4b21b2cbb37ed32"
+  },
+  "reference/assets/ae18ba65c7f34d3bd7f6.webp": {
+    "file": "reference/portable/30a57980313da05146f817a1-768q60.webp",
+    "sourceSha256": "30a57980313da05146f817a19486b90ce92db6a9268ef7cd68a52dba76d32c95",
+    "copySha256": "9d492f028a1198528b60200b413988036149ea633502d8da3ff5a5c867fb7a9a"
+  },
+  "reference/assets/b043291964be124840d6.webp": {
+    "file": "reference/portable/4f8defb50728db5d7e6738c0-768q60.webp",
+    "sourceSha256": "4f8defb50728db5d7e6738c0c698e7325d1480dec16c91f761748eed08898d00",
+    "copySha256": "93ef5011953a44799229e6f95935645e4ddcd53bd5a3b7fdd792a386a892fa20"
+  },
+  "reference/assets/b2ce3012e8df3ad3e1fd.webp": {
+    "file": "reference/portable/ff479b4444e01eeca0d7b49d-768q60.webp",
+    "sourceSha256": "ff479b4444e01eeca0d7b49daccddefc9c5944fccdf9f04233072e82f624f800",
+    "copySha256": "6573ca81dbd393b3752f6a44244f8f174f76122f3c0f8805489a01143cdf1f8c"
+  },
+  "reference/assets/b2d6d7fd0a84d580da57.webp": {
+    "file": "reference/portable/7916f7342fe78bd5bc63bc5c-768q60.webp",
+    "sourceSha256": "7916f7342fe78bd5bc63bc5c7c66e6d959e40c6c46d0af5c0f47587205fd4c5c",
+    "copySha256": "d952c6a6d00a44e5d9e713a65bb44a690c554004642b473166c95e8a881f1f4a"
+  },
+  "reference/assets/b3a9657d3fa46daa2485.webp": {
+    "file": "reference/portable/deddb621f5f5ec06dc396f33-768q60.webp",
+    "sourceSha256": "deddb621f5f5ec06dc396f3385d03aa06ee0bdaf17cdf0b01f86656b038649b9",
+    "copySha256": "29b274b00d1e1ad426872651234dfaf2e10fdc8bcc8595a646eb46d11b9929c5"
+  },
+  "reference/assets/b4d6a4abf7daabd6d00c.webp": {
+    "file": "reference/portable/affcc82ee79b9a834f04b5e3-768q60.webp",
+    "sourceSha256": "affcc82ee79b9a834f04b5e3866f4549f6c19c4333a58c6ed8f223fdd182f380",
+    "copySha256": "463e79699c945f5b0ba962fcecb3ab8917cf594d53e748f88d01c9f3fc01a01d"
+  },
+  "reference/assets/b5904b689bb764af1cc4.webp": {
+    "file": "reference/portable/3fc476cfe4f2105838909eae-768q60.webp",
+    "sourceSha256": "3fc476cfe4f2105838909eaebdb57d1b9937112694795d798fd38d9fe1465999",
+    "copySha256": "73c7940224043af2f9e2beaab2328cc57710048d17024a819a2d8aa2c75c783f"
+  },
+  "reference/assets/b65b3599b0883549262c.webp": {
+    "file": "reference/portable/656b3f8251c43b2f34854f89-768q60.webp",
+    "sourceSha256": "656b3f8251c43b2f34854f89981b64911eb78af4f993f285aef5047183702aed",
+    "copySha256": "5d9568885fad1917011894a26693f967eb01c973f34172098a299f259c272730"
+  },
+  "reference/assets/b691b74b2756ab895e34.webp": {
+    "file": "reference/portable/0adbe272cb2cc8d61f8f8565-768q60.webp",
+    "sourceSha256": "0adbe272cb2cc8d61f8f8565bd701ce915d909612687254719b423b5935443d5",
+    "copySha256": "71a8b44b0c31c3705b4bb12dab9d0e5122b0bde683d4cc25f6b213a5cbadc82e"
+  },
+  "reference/assets/b7cbc3c02f35a8b68917.webp": {
+    "file": "reference/portable/55895273f6f4e55eb1e8616a-768q60.webp",
+    "sourceSha256": "55895273f6f4e55eb1e8616a67e73c5e0376f332864d6e3ba0240c438d7553fa",
+    "copySha256": "979fe875ac76a0f876b69648260354399c7a044a5f8a402a76e647a867bab869"
+  },
+  "reference/assets/b7e51c671988a8012780.webp": {
+    "file": "reference/portable/c2be3c6d8a2450c17cbb01be-768q60.webp",
+    "sourceSha256": "c2be3c6d8a2450c17cbb01be6637c627a8f38cf076d41f7634385c4b93def8ba",
+    "copySha256": "9237ad05571b506ca9c9ba63c7c6e7fa7908dc28377bfabe7e66c1a9e2013940"
+  },
+  "reference/assets/b89b61f38fe58b91f38a.webp": {
+    "file": "reference/portable/c1ddbc84ecc5f4532f7e5d7b-768q60.webp",
+    "sourceSha256": "c1ddbc84ecc5f4532f7e5d7b40e11a456eee65b14b3538ff88144bd3a77d11fa",
+    "copySha256": "5644aac7224cd996602e33f62158e9cde7f9e6701d098dd3dc0857e484029b7d"
+  },
+  "reference/assets/b98f6c8a898534deb02f.webp": {
+    "file": "reference/portable/ebb644032bdaf364522389f6-768q60.webp",
+    "sourceSha256": "ebb644032bdaf364522389f63ccd071ff8d77ab08f738486f0b9157c2a74a54f",
+    "copySha256": "112a1860d0e73b3e68217393fe95edb51373a1d2973984b3b7da3b7bf6b17d79"
+  },
+  "reference/assets/b9d9f2703e96bda83dde.webp": {
+    "file": "reference/portable/7bddefd46c90a38ce94fc909-768q60.webp",
+    "sourceSha256": "7bddefd46c90a38ce94fc909d960ab6c2613e4681e9d468e937df3cac01049d8",
+    "copySha256": "56f97d00c94b8abbc23ff2afa2b6af502f97e22926659e4e2197ac7456a669d2"
+  },
+  "reference/assets/bb259f25cf233490020c.webp": {
+    "file": "reference/portable/70e223e693a6503b835c99c2-768q60.webp",
+    "sourceSha256": "70e223e693a6503b835c99c251be71d543319d7ceb4565e61036c0d51e9addbe",
+    "copySha256": "b0a5fc5172a83d9b12901714958b3e42743fca312cd2bb18f8bb727f3af05f55"
+  },
+  "reference/assets/bb6dc560b9036b3e7e26.webp": {
+    "file": "reference/portable/ffbfe2ac783218334cd58620-768q60.webp",
+    "sourceSha256": "ffbfe2ac783218334cd58620924645724fe6ead98ac01410f4a217202c3d1fd1",
+    "copySha256": "61883b81b6d639b2079f2966a9b08f87c913a6142fb3899179f85eb355de5db0"
+  },
+  "reference/assets/bb825aeababa7a9f6f8a.webp": {
+    "file": "reference/portable/9207693f3fbcb96af6bcdc05-768q60.webp",
+    "sourceSha256": "9207693f3fbcb96af6bcdc05b2be784a97d2a5c7c3ac69ab54c6ff62d8e91dca",
+    "copySha256": "ddbe7c5d701f2c6a8a48dbf7d71ff26687eaa66079eec83114506256dbc03d57"
+  },
+  "reference/assets/bc801ea168059c9e2113.webp": {
+    "file": "reference/portable/0a0b84a9ccb82ffc2b94d7d6-768q60.webp",
+    "sourceSha256": "0a0b84a9ccb82ffc2b94d7d6ef35a1cda9d06b143f78153ccba4645849d07fd3",
+    "copySha256": "44b9433fce193bcbdc6ad003721eef52e5d8bf74734484235989a5aca84ee0ac"
+  },
+  "reference/assets/bcbd007b97c5bb64324a.webp": {
+    "file": "reference/portable/a6312c0c38c58c6ef72e9a46-768q60.webp",
+    "sourceSha256": "a6312c0c38c58c6ef72e9a462e62b229e49d619ab9758c53dc4ca44e541a9d1a",
+    "copySha256": "876a1755190e644f52a52af10cf3a60b837346ee73aa5d35ea9a2ccd13e9e2e7"
+  },
+  "reference/assets/bd1b31d3c36665479801.webp": {
+    "file": "reference/portable/3ee70e1566e1ea3f91907542-768q60.webp",
+    "sourceSha256": "3ee70e1566e1ea3f9190754216f62e654ea235758a73a0c9437d73622f3e865b",
+    "copySha256": "5cb5efba33797c7d72229da38e2d9144d4a9709c57e7a8a5e18fe1e9f5fe6647"
+  },
+  "reference/assets/befbf156241987483144.webp": {
+    "file": "reference/portable/5f4991b4bed3b3d98b3aa706-768q60.webp",
+    "sourceSha256": "5f4991b4bed3b3d98b3aa706c61fecb538091fb76b99cd4a0c9a05a816bbd45d",
+    "copySha256": "b7c298bc9f68315bdf14f09e898e712739d2816e02026686b474acfa88af3f46"
+  },
+  "reference/assets/c04e091a34bdf3d41d67.webp": {
+    "file": "reference/portable/e62f912c998ca2032d540500-768q60.webp",
+    "sourceSha256": "e62f912c998ca2032d540500f7705e70cbbb50cf8a764df0984c69070c2f08d2",
+    "copySha256": "f6b86ff95dca65fc0e76dfc7be0ad43a911ccb40712f2e2943c5316fcf17a6d0"
+  },
+  "reference/assets/c46b147eb60487281e6e.webp": {
+    "file": "reference/portable/3e54a3900e6b4ffdfd2a3cd7-768q60.webp",
+    "sourceSha256": "3e54a3900e6b4ffdfd2a3cd7f5b74ccbab620dc8e8e6a1acfe3dc980f242ada8",
+    "copySha256": "7192427c9feb2d57cad9372eae293f474169f1babf9bb11fa7a205d028533d38"
+  },
+  "reference/assets/c4e1bee8da9d96ee07da.webp": {
+    "file": "reference/portable/79415fe8cd9b093f539b6ec5-768q60.webp",
+    "sourceSha256": "79415fe8cd9b093f539b6ec569a17edb88e4c39da02b3f0a12fb678e3c7a200f",
+    "copySha256": "4b2bb5b3a40cd81d52234412d2bf55a3c9d430e47491ddd7c720a0dc6938be18"
+  },
+  "reference/assets/c61d2354ba8177626db9.webp": {
+    "file": "reference/portable/95291365e5cbb2962e2eeb09-768q60.webp",
+    "sourceSha256": "95291365e5cbb2962e2eeb09eec1eab34e1a65a951665fe1fda2e79c439cdc91",
+    "copySha256": "406afdc0fdba545df46057d2cc2a0f693c04defe1aaa5495b8f6ee4706afece6"
+  },
+  "reference/assets/c650b85aa12a8882c133.webp": {
+    "file": "reference/portable/65e97e0cb321d4b4ae18bd33-768q60.webp",
+    "sourceSha256": "65e97e0cb321d4b4ae18bd334671e18c7b3807bd077b50e00778be0477fa2e59",
+    "copySha256": "8f6ee8c7febcf1a091ac93b80b20e054c2e70d4bab095de5428c554c8cff48ff"
+  },
+  "reference/assets/c6f977b2c8a929978b87.webp": {
+    "file": "reference/portable/2a91dbbe9a9f5c9c083d6692-768q60.webp",
+    "sourceSha256": "2a91dbbe9a9f5c9c083d6692276b6fd73c0b8b9856f2768cc5185c9b6a61726d",
+    "copySha256": "02925a012eb644e803f65fd5bfa1ec4eab32b30698242e5c543fc82163438ac0"
+  },
+  "reference/assets/c749b0d337a53f8c2b32.webp": {
+    "file": "reference/portable/666de4146be31b8560639518-768q60.webp",
+    "sourceSha256": "666de4146be31b85606395183dea1eeadc0e4658c783e686c54de6fdf8e30967",
+    "copySha256": "e53fa0f989b6aeae55c9a9d613adb39aa16e5142a78f330b63b58d63efdcb6a1"
+  },
+  "reference/assets/c8283fcce68ed0a12723.webp": {
+    "file": "reference/portable/883bf1d0c02a4d47e1251ee1-768q60.webp",
+    "sourceSha256": "883bf1d0c02a4d47e1251ee18a4905c627773c9a003d30b8d87cae5f1da088b4",
+    "copySha256": "68ee2f0ce7ac173b24923f9eabc4a89e0e98c5e93b9aebe630f3ece5aaadf73b"
+  },
+  "reference/assets/c877c03a8ff4c4756dd6.webp": {
+    "file": "reference/portable/988f2ab12492b70576619804-768q60.webp",
+    "sourceSha256": "988f2ab12492b70576619804e3972ae29124895b5b26896908598469c91af290",
+    "copySha256": "6f2021087bb320150c743bcacc9c60dec280e03247236cb64bdda5eb29b89f08"
+  },
+  "reference/assets/c8b81f7d5585a2b8857c.webp": {
+    "file": "reference/portable/42c1f7cf89203cf427732505-768q60.webp",
+    "sourceSha256": "42c1f7cf89203cf427732505138225dbe927e8567452c22ffd84bb68b6c167c8",
+    "copySha256": "63770932557d914d1ea6d844f1ce8a936285fbaf6cfd90f63ba21120c7dd857e"
+  },
+  "reference/assets/c8e145b44e68df6e8b47.webp": {
+    "file": "reference/portable/9e9d04789c8f413107a74ff9-768q60.webp",
+    "sourceSha256": "9e9d04789c8f413107a74ff9ca7bb46a56463f7b4b921aba1dfe66ed1c4dc152",
+    "copySha256": "d394df2a3f07710f263bc95e335f1f25fb42c7413ab1e512a9cc482da107923f"
+  },
+  "reference/assets/cb2b5165b48b196b7915.webp": {
+    "file": "reference/portable/21b2cd6e579b74ff103a0e43-768q60.webp",
+    "sourceSha256": "21b2cd6e579b74ff103a0e432ec5bd428122593f3455c4c177da8fcb1a210359",
+    "copySha256": "25961021ad8db5902293f34c2d3a8ac8223d7d753f0107af319ab0e1981ccefc"
+  },
+  "reference/assets/cb7daf4e9a593efa03c4.webp": {
+    "file": "reference/portable/f5c7cdc7c2dedde74ef844e3-768q60.webp",
+    "sourceSha256": "f5c7cdc7c2dedde74ef844e365d0da59ca20b7e1c85dc7b5f15ad9aeb7e02da8",
+    "copySha256": "d39d2d2f6b3b92a40a0212dcfef6d5fec4a0784321f5d1228b69ad52aec7ccf1"
+  },
+  "reference/assets/cb962fe9d865a2271d20.webp": {
+    "file": "reference/portable/880f66cae359900809746125-768q60.webp",
+    "sourceSha256": "880f66cae35990080974612530f49658c14e0254f2992aeb97a12a602651906d",
+    "copySha256": "da83234556bf273858826964bb81aa0c6606d663d48e236c661dffef0b23bd75"
+  },
+  "reference/assets/cc052b5cfcbb4b12c9fb.webp": {
+    "file": "reference/portable/15ad259da0b79959fc39abcb-768q60.webp",
+    "sourceSha256": "15ad259da0b79959fc39abcbf74322fa50cecb53ecc2c0bc72a78ca937b0fc66",
+    "copySha256": "d16c8ab8645306e3f75cc96339c44e1a5659ae67bcd171524fb16a30aae654d6"
+  },
+  "reference/assets/cd054c744c6d713f403d.webp": {
+    "file": "reference/portable/724b37bdca3d4db2098b92be-768q60.webp",
+    "sourceSha256": "724b37bdca3d4db2098b92be10d3863fa45f6162fd2f635a3370568bad72a832",
+    "copySha256": "f5f2762b67681069d86506f7e2c57f92f976e52d957f191cec70bf21ce757440"
+  },
+  "reference/assets/ce2c9c1af481d65e1a6f.webp": {
+    "file": "reference/portable/8023a0efa163ded811817e27-768q60.webp",
+    "sourceSha256": "8023a0efa163ded811817e2721faca965872a7f6313c09b327c2f5f812df8c37",
+    "copySha256": "98a45d06926e1415e65b3758a8cc9c3482e92550501803c6edcf2114c998d4f5"
+  },
+  "reference/assets/d0003a604477eda4cadb.webp": {
+    "file": "reference/portable/f350adbcf08b664094d972fc-768q60.webp",
+    "sourceSha256": "f350adbcf08b664094d972fc5625013ecad4dfdb0480f44b5653e2b03afa6936",
+    "copySha256": "db3aa50d0869e3f1d39ea08e1dd86b7bf70da1704f7d505c4c37d21e7c0c101c"
+  },
+  "reference/assets/d0c2f9bfb7d317029e6a.webp": {
+    "file": "reference/portable/b90e375d6a94668c3fa04173-768q60.webp",
+    "sourceSha256": "b90e375d6a94668c3fa0417377d9305e0c3b9b8df5f9fd5042d3639f1cb1e13f",
+    "copySha256": "0d7b4b75509bfc86b4dbf361fd8662d8fa3cf64cffd1890c77b22be49a9d76b2"
+  },
+  "reference/assets/d1828ccad50f59a28f99.webp": {
+    "file": "reference/portable/8380f050b049dd56cd2a7bb2-768q60.webp",
+    "sourceSha256": "8380f050b049dd56cd2a7bb2771a03bfb94a9751ee1b189f957f5b98d1ce992c",
+    "copySha256": "a20dc2c53468ccbc73593e54045577af035d5ecfcaf67bfd7116638b3c2a2cf2"
+  },
+  "reference/assets/d1c735ea1abc01ae2dbe.webp": {
+    "file": "reference/portable/f629fbd5ddf19c4b26e7ce8a-768q60.webp",
+    "sourceSha256": "f629fbd5ddf19c4b26e7ce8ab3bbad315aa5a5316d49e9c4a8d17801aa54cdbf",
+    "copySha256": "992c5abcfb81aaa25a1de79dbaeeedc09a4c090f7ac04a30946706ef4bfc19eb"
+  },
+  "reference/assets/d31d5730d2a70614315f.webp": {
+    "file": "reference/portable/253431f0d8aac22c2f6878fb-768q60.webp",
+    "sourceSha256": "253431f0d8aac22c2f6878fbc352533224e293636027cc245ac4ec66f4f72e4f",
+    "copySha256": "949257e5b2b996af6ee60852123c0f2efa3465c736cb864f58091bde8f42ca66"
+  },
+  "reference/assets/d5e29cfa1984a6484457.webp": {
+    "file": "reference/portable/9f3965147f13e428ae01332e-768q60.webp",
+    "sourceSha256": "9f3965147f13e428ae01332eaad4f1fadc265ba41c11f260dcd392f25abfa8db",
+    "copySha256": "1300573469c9b93d3d62b8c2177e42b45eb865cc3eb440296869a279849164be"
+  },
+  "reference/assets/d5e32cb86d31e5353c88.webp": {
+    "file": "reference/portable/9c555b1a96688278abfff315-768q60.webp",
+    "sourceSha256": "9c555b1a96688278abfff31585ee866c71d399df6db9be923dfc4c9c639fbbaf",
+    "copySha256": "7afe7748dbd5420b03e5f48ff1fc1b348320e47048d3be7abedc36b0265991b7"
+  },
+  "reference/assets/d7760edfbc26a7aa8b54.webp": {
+    "file": "reference/portable/6b8a3a16c8b96256b5faea2e-768q60.webp",
+    "sourceSha256": "6b8a3a16c8b96256b5faea2eb62ef86197d5e1bd9552b41466e4606ce704eb0c",
+    "copySha256": "69738c9e006a15cf10254e31972fe21e950ee07f8783c9412206afadeff999ba"
+  },
+  "reference/assets/d975a89ae4ea39cee2d2.webp": {
+    "file": "reference/portable/a4b3d32f6b69269d30ec89f7-768q60.webp",
+    "sourceSha256": "a4b3d32f6b69269d30ec89f7c0a1a712f2e40209621c140f97c4e9efc99919c1",
+    "copySha256": "c2f8d871120c04d832282b4ff53fa184bb4d8a15f9adfcd9d9f816e441bf2d64"
+  },
+  "reference/assets/d9e49bbf7a2f0b108767.webp": {
+    "file": "reference/portable/aae148b75f864caf2614cab7-768q60.webp",
+    "sourceSha256": "aae148b75f864caf2614cab77dd63e04befdce8a7c7b497dcae651e2a38425f7",
+    "copySha256": "3e09e1558fed496a21f10b2a5dfaa16930f9af9cb47bea9c95444386d1f192d3"
+  },
+  "reference/assets/d9edf8b6f862bda6f096.webp": {
+    "file": "reference/portable/ebf9aae91b4d161f27010edb-768q60.webp",
+    "sourceSha256": "ebf9aae91b4d161f27010edb781f1306896df8fa9e69e3c6a83018d1e27d5de0",
+    "copySha256": "1e22c32f2ff49815bf1f2673d4bd27f97a43c4c5c04a506b530abb86e3226051"
+  },
+  "reference/assets/dc536c388f377a7ef901.webp": {
+    "file": "reference/portable/5fb3219b82f0d48350ce62bb-768q60.webp",
+    "sourceSha256": "5fb3219b82f0d48350ce62bba9a7aaa5f8ccdc58253dd123d257106d67c3bae8",
+    "copySha256": "d2704bb3997e20d3c588a6e782465b915338400d7db87761e99c26f7950ed53a"
+  },
+  "reference/assets/dc86edf29053481c3d68.webp": {
+    "file": "reference/portable/42259b8b3cc614e46100373f-768q60.webp",
+    "sourceSha256": "42259b8b3cc614e46100373fa7eb910cff885a91fc921dc2a49c3cfd7d57b452",
+    "copySha256": "f5b71ec79d53c14d990a8b56c1c61cdf439c5a599597db3ea7ea9e029a4f453f"
+  },
+  "reference/assets/ddf7a871639c70ca0fe2.webp": {
+    "file": "reference/portable/7ea797b64fd00be736d511e9-768q60.webp",
+    "sourceSha256": "7ea797b64fd00be736d511e9b5581d241df913855c860e27ce6905e061219881",
+    "copySha256": "475cf89ac8095ec2b7af61e5df47e30165b6bb2d361c7b9d8b95b1d111998044"
+  },
+  "reference/assets/de1bb0539a639140c624.webp": {
+    "file": "reference/portable/f4951af45cbeddddb0499406-768q60.webp",
+    "sourceSha256": "f4951af45cbeddddb04994063df0a00f8952e69e412deb3931111de7d8b2a65c",
+    "copySha256": "9bf4c7f1bdbc9e2f895acda81c58b7c3510abb744ee964cfe98ce1da3640afee"
+  },
+  "reference/assets/de40325570d9872f18f9.webp": {
+    "file": "reference/portable/4360ae11c934e872d11f039a-768q60.webp",
+    "sourceSha256": "4360ae11c934e872d11f039abc09c05678db904bfea6282f1ff843e7b76af630",
+    "copySha256": "09ed0f6633eed721f7523f70f53778f96e9f9d49e49dd608623220cab622ec50"
+  },
+  "reference/assets/de42a3629e7333cda62a.webp": {
+    "file": "reference/portable/60ac2dbce33efb6dab48f83d-768q60.webp",
+    "sourceSha256": "60ac2dbce33efb6dab48f83dece3c5be54ec55fdac22c8811d19f80dc225ebd8",
+    "copySha256": "c3f8fabde2dad9ea7fa4243a45dd22eabdab8daf062c8b082a199cd4067eb099"
+  },
+  "reference/assets/de5219116825c81f215f.webp": {
+    "file": "reference/portable/4c1c83a78b5a31992aa35ca4-768q60.webp",
+    "sourceSha256": "4c1c83a78b5a31992aa35ca458f2768918343d2295b351993bf4f1dbfd3c1a42",
+    "copySha256": "f3e4f05e687736e43fb953395ffc0e895825ada1744689db7a49637b8f88ae66"
+  },
+  "reference/assets/de617577f3018cad694c.webp": {
+    "file": "reference/portable/729d932042a6d74339c6b211-768q60.webp",
+    "sourceSha256": "729d932042a6d74339c6b21179ed3a9b81290d466c826be378805bbf68535673",
+    "copySha256": "1691e786ef989df7af60f75fda34768e893b295ea980d4d9b1d43b861c83a3b3"
+  },
+  "reference/assets/df14aea58ee7068ef920.webp": {
+    "file": "reference/portable/67d2a38fdc56265c95215842-768q60.webp",
+    "sourceSha256": "67d2a38fdc56265c952158422150a6000b947e9ea70e829f942e816eb8cf4a8c",
+    "copySha256": "d8f0fcdba73ebeb1c40dae9b7efa65a673ecf829a682c9cf07bc97cc0d985659"
+  },
+  "reference/assets/e11b2eba72cec69d98e9.webp": {
+    "file": "reference/portable/aa5dc3ba63e32961d94ff658-768q60.webp",
+    "sourceSha256": "aa5dc3ba63e32961d94ff65823bbd9524ff92d09f06837f405cb73d9f108ba0a",
+    "copySha256": "d167a573f1daeaa1c522e7732c3c50ee9dd0b39a9e30fcea8ac24182e55f3e69"
+  },
+  "reference/assets/e39d9494a433067656fa.webp": {
+    "file": "reference/portable/b0143020013b40864e90b589-768q60.webp",
+    "sourceSha256": "b0143020013b40864e90b589c520d96238dd5490f6995fa1ea3f1865519ce8a1",
+    "copySha256": "e4491aaba478c173a1db7457478e52e25ad89ca37876c0049b5d9dc35e813d42"
+  },
+  "reference/assets/e4c01eb67ea03f105a6b.webp": {
+    "file": "reference/portable/6b766a8c55005f9e831c1d06-768q60.webp",
+    "sourceSha256": "6b766a8c55005f9e831c1d064ee02fad3c22902d3782c4db10245e40f0ccbe7f",
+    "copySha256": "6e861352045948cc62cfd2307cd646485b96f6ba20dbfc5d085451b944f7bc3d"
+  },
+  "reference/assets/e57f9f43c7d52cb462f3.webp": {
+    "file": "reference/portable/1248693ee61e616edcf0c331-768q60.webp",
+    "sourceSha256": "1248693ee61e616edcf0c3313e288e5fa7ac8db2d7cd3b2652e87fa595e24a43",
+    "copySha256": "a9739da9dee935b585b45a8b876618376090115993f976c21446985d5ed29b94"
+  },
+  "reference/assets/e5b8c196ff2937689de3.webp": {
+    "file": "reference/portable/a9a539637d86eebd25cc14b8-768q60.webp",
+    "sourceSha256": "a9a539637d86eebd25cc14b834c6a8b246755a081874de976ae794bfb7b31d1e",
+    "copySha256": "1ba5f21f7b43d7b350f65c34938cca967ab7e38ede9c5ea63ac47ac8b720322f"
+  },
+  "reference/assets/e5c9f299e3ca29a5d46f.webp": {
+    "file": "reference/portable/ca47a8444d010ee75ef7567b-768q60.webp",
+    "sourceSha256": "ca47a8444d010ee75ef7567bdbcc02a3bedcae79f680d3a1cd80c3ef71734b5a",
+    "copySha256": "80c64a96a57d46c471f7ac020d8f78deadc1fa9f372c8c39956893f88c851eee"
+  },
+  "reference/assets/e6d3857829e4abdf619a.webp": {
+    "file": "reference/portable/ceb43caef52cc9a7dd4f5c09-768q60.webp",
+    "sourceSha256": "ceb43caef52cc9a7dd4f5c09a2d44999dcc3a2ce3062bc8044896fa25d58db5b",
+    "copySha256": "df7211852ea3643272bd2a9af4b3e0c1b31d0a6eeb6a6e5fffb23316bfd3c865"
+  },
+  "reference/assets/eaba8a1c149275f41b89.webp": {
+    "file": "reference/portable/b0197ec3e44fb2a33e10a6ca-768q60.webp",
+    "sourceSha256": "b0197ec3e44fb2a33e10a6cadc14630d82c59dcabbbdd5f5310cfbe62370e1a2",
+    "copySha256": "69f59b4d8fa8f79ead688e5cee20c5e09565d8bf18ac52f1d0738b65ce050ec9"
+  },
+  "reference/assets/eaec9e111b7bdedf3330.webp": {
+    "file": "reference/portable/51350af0997b10361428fb89-768q60.webp",
+    "sourceSha256": "51350af0997b10361428fb893a8db3fa4bdf632e3780ad744b188cb77bffefee",
+    "copySha256": "103a58591df0b16bdb020664cb7cfecaf957f170fd15c57d8e264458c3e9bb14"
+  },
+  "reference/assets/eb2aafc55a83187f861f.webp": {
+    "file": "reference/portable/db15cc415f8f2dd35501e1c7-768q60.webp",
+    "sourceSha256": "db15cc415f8f2dd35501e1c78b0aae1286a0e96f4a0ce6e546d333120d597b3a",
+    "copySha256": "693d3880b80dbfed822195650b94032d6f8fb76482369ef470318e2a0e60d786"
+  },
+  "reference/assets/ebfcdd6834e4a540346f.webp": {
+    "file": "reference/portable/e5f02fc7d887b3f335cbaa30-768q60.webp",
+    "sourceSha256": "e5f02fc7d887b3f335cbaa30c8fcef89f479ab2e9b05de6a2627197f437263f8",
+    "copySha256": "8d7864f7b9caf3f152d7589abd9d7d05fab8966d7df0f626f44c997e335b0d3a"
+  },
+  "reference/assets/ec90fecd62139b482e79.webp": {
+    "file": "reference/portable/1413d908c44755fb23af467e-768q60.webp",
+    "sourceSha256": "1413d908c44755fb23af467e9508a5bb5a3fbfb1a1028a106771d26f6e521fa9",
+    "copySha256": "c0799b96d1862f43e87fe6ca57f7617d89c31a90facbe271674030db1fb36c5a"
+  },
+  "reference/assets/edb70b0c853cc63cbd6f.webp": {
+    "file": "reference/portable/88b12b8f4bc87a1aa12950b2-768q60.webp",
+    "sourceSha256": "88b12b8f4bc87a1aa12950b25a613c9899bc6c8665eceb4ba0a2581cc8828312",
+    "copySha256": "6a58fbc4d3ebb2ae1e833a9ccef08c25278ab03b132480205a176bb354078ffa"
+  },
+  "reference/assets/edf72a6f75cac694b4d2.webp": {
+    "file": "reference/portable/dadcd7e5a97810b19ad32d83-768q60.webp",
+    "sourceSha256": "dadcd7e5a97810b19ad32d83205a392f09d5b2d1e29702256ad398f1fd099182",
+    "copySha256": "a5e210e2de8f88f238030d2dcc1339c500d1f19f6cf1736df11dc4b19e4162a4"
+  },
+  "reference/assets/ee4b5b819c161671eeea.webp": {
+    "file": "reference/portable/9547e18f74b2742f8392d6f3-768q60.webp",
+    "sourceSha256": "9547e18f74b2742f8392d6f38fab556af4c8e5a45f8a527ccebdddaa54b803bc",
+    "copySha256": "7dae2a58be092c40ab8fa092bc54587f8bce93cdacf624a94a34ca0396111fc4"
+  },
+  "reference/assets/f14b09c73fa2e8d2c70f.webp": {
+    "file": "reference/portable/7c353c73a248fef83dd38c43-768q60.webp",
+    "sourceSha256": "7c353c73a248fef83dd38c43993a72d1cb180c7ca70985725059d259261e88fa",
+    "copySha256": "13810f02ce708af061e2945d91f6f5b13a368e07077b13bb0414f88e5ca4bd2e"
+  },
+  "reference/assets/f1b0273aeaebc50f0e53.webp": {
+    "file": "reference/portable/a5c63f359b4ad674ba7610f6-768q60.webp",
+    "sourceSha256": "a5c63f359b4ad674ba7610f6efdae18677c4a7665b33b7734119c4c6604f671a",
+    "copySha256": "231602e89b014e2aeb8fc6a5c92f17e78aa5b82a3bb211b831d32be097f72955"
+  },
+  "reference/assets/f1ba534163f4f34a1e65.webp": {
+    "file": "reference/portable/2e2cfa96cefc5bb3cd8a4b93-768q60.webp",
+    "sourceSha256": "2e2cfa96cefc5bb3cd8a4b93fd51fcf5fde77d77304c31b9c2e7f0fef017b8d2",
+    "copySha256": "595bc905e54ad81bfb99fc233161b54602417dac3c7129cf75ce347f4f40d80b"
+  },
+  "reference/assets/f1eb3160eab9f00b9f79.webp": {
+    "file": "reference/portable/4e4ebf3f677164ba61c6874f-768q60.webp",
+    "sourceSha256": "4e4ebf3f677164ba61c6874fbaaca503894357ef65ea7f5b9b751821fffa8489",
+    "copySha256": "5dca021627e4b1e47c1864d9087eb6b3bb85da324a46bc48a9208ce516c6acce"
+  },
+  "reference/assets/f30e9a6304544aaa6f7d.webp": {
+    "file": "reference/portable/e3495e69b8e17a61dee96f2b-768q60.webp",
+    "sourceSha256": "e3495e69b8e17a61dee96f2be60332d00783072cee5a46b2f5e520594424f9b4",
+    "copySha256": "f1c7e3d187731f8cc6540b8c79b48a4dd3ee209fd149eec0be271ff23eccfc21"
+  },
+  "reference/assets/f38fd5fcdc34c4881afd.webp": {
+    "file": "reference/portable/3847c5b283953ed47698609c-768q60.webp",
+    "sourceSha256": "3847c5b283953ed47698609c9868b086696492627871ca19ac8192c9bc3c0707",
+    "copySha256": "a5482bb04e1d9782c3c83ab86f46051bec23f77920815ce617ad3c1d8903d00d"
+  },
+  "reference/assets/f60e1c1228e1c845ce30.webp": {
+    "file": "reference/portable/0aec82fc80816e6fc184d4d0-768q60.webp",
+    "sourceSha256": "0aec82fc80816e6fc184d4d08f789c953423d4c04629c8566a3ff5280ac48ca6",
+    "copySha256": "3dbc0424b4566d49ee446741ded1680bdf9a504b845481d51b82e3c8ddf46ec2"
+  },
+  "reference/assets/f703bc44d5ba51afce46.webp": {
+    "file": "reference/portable/9dd49d405f3b618ad6f3a081-768q60.webp",
+    "sourceSha256": "9dd49d405f3b618ad6f3a081446872e73e62db403efa131c21322f98df5577bb",
+    "copySha256": "c2963bb14f7c7b0258d2dd2313222a0f930e512e1631e6fac2c8ad5098e02a70"
+  },
+  "reference/assets/f81043b1f4ad279699b9.webp": {
+    "file": "reference/portable/20fb1b4d9b14aad6fc775a0b-768q60.webp",
+    "sourceSha256": "20fb1b4d9b14aad6fc775a0b023f9a147cfff683de116a1ae614956650fdc874",
+    "copySha256": "34d8d389438baa606106e7c18cea542708d15a1877a5ca0b7b3b3a5429128e46"
+  },
+  "reference/assets/f922890bc956bea90598.webp": {
+    "file": "reference/portable/de25a2561ad6afad8f648db4-768q60.webp",
+    "sourceSha256": "de25a2561ad6afad8f648db45ff37d10ccc9cf4c9e8305ac18c67925077c611e",
+    "copySha256": "4cde8321239749f79cfde5c997a6143cf1d2ef1e8814c4bc1f89a92f7d6f49b9"
+  },
+  "reference/assets/f94f72776629697558cc.webp": {
+    "file": "reference/portable/ec846dbad6818a75bbfdda00-768q60.webp",
+    "sourceSha256": "ec846dbad6818a75bbfdda00cc7c162b7d76e979b4a5a0ff788180d33891aee9",
+    "copySha256": "acb833301549e5c898759f7ddb6420e3de1de9ae6737296ed0e624968565a1f2"
+  },
+  "reference/assets/f951a77fbe7a6a401003.webp": {
+    "file": "reference/portable/23ee25e0d51691e5b0327b37-768q60.webp",
+    "sourceSha256": "23ee25e0d51691e5b0327b375cd586a96ac46b48a4c0d2484fa777c56c737df0",
+    "copySha256": "2edbe896bcc876af859fa211c2effe66f346ef6967decda5530f53bd4582d110"
+  },
+  "reference/assets/fa7c4d2bf1ad14e51d53.webp": {
+    "file": "reference/portable/3438115370a4860865558d2b-768q60.webp",
+    "sourceSha256": "3438115370a4860865558d2b0f17e59b2f4147ee584a8c67d1b511d9fb8900fb",
+    "copySha256": "7376a534a618f4734c9e4e7be5e594c20433cbfc8066a38e4a4542e85179791d"
+  },
+  "reference/assets/fae3a23b544787adff34.webp": {
+    "file": "reference/portable/f1e86f8033c420fc90566bf8-768q60.webp",
+    "sourceSha256": "f1e86f8033c420fc90566bf891a9a42f27d0c13710c4b293ea72e3598ba1fd13",
+    "copySha256": "4e03728f15e4e81b7145c7e317e96cd224cef4d0a3dcb95af9d94ca0f2815722"
+  },
+  "reference/assets/fd563d0fb4048c998c67.webp": {
+    "file": "reference/portable/af204cafc36ba05308b4b72e-768q60.webp",
+    "sourceSha256": "af204cafc36ba05308b4b72e25cbe11a5898c05d7c471b2285dd3c3f2ae52a75",
+    "copySha256": "5dfa7d6793a6158addd88e3b54a819cc94cb156ffecfe0f6c8ec8c048b81a82c"
+  },
+  "reference/assets/fd6943ecaaf7ad265f07.webp": {
+    "file": "reference/portable/61d32e774885d3fe7fd50bc1-768q60.webp",
+    "sourceSha256": "61d32e774885d3fe7fd50bc1d13d335e20a70974e7e198bc8a02a1c93e7a22c8",
+    "copySha256": "d62302e9cafcdb81921e16db4715abcc2eae5ba7a19c66c6ebdcc631519c1c1e"
+  },
+  "reference/assets/fd7745f5df8f6d9de223.webp": {
+    "file": "reference/portable/25e087ea5d4ee1b4f477799c-768q60.webp",
+    "sourceSha256": "25e087ea5d4ee1b4f477799c3d1850d35529e22c5d2aff9677e25490790d0130",
+    "copySha256": "0d4c6c3bd02eb56de2438534d9b275a226bdfdb216a33b63399542c94a3d7be9"
+  },
+  "reference/assets/fec9f73afa4dbb205a11.webp": {
+    "file": "reference/portable/09b38faaadb72764a3d9c59f-768q60.webp",
+    "sourceSha256": "09b38faaadb72764a3d9c59f55c446e9c85be4d70a4d70130fbaa230b4d5961e",
+    "copySha256": "46e2604e45c6539d843b777f7b2c97041b3a4c62a50b0eaaf16513a69693064e"
+  },
+  "reference/world/gamewith-popups/005ee74698417463.jpg": {
+    "file": "reference/portable/cf771d9c0aa869aba2fed8db-768q60.webp",
+    "sourceSha256": "cf771d9c0aa869aba2fed8db77391db281b300180be9365c23f920cb913f1623",
+    "copySha256": "79e3102ec601b5c385946f9a28d99986816c7cb16e83cd81d51a6dc2554cc862"
+  },
+  "reference/world/gamewith-popups/04e80bfe49202582.png": {
+    "file": "reference/portable/d21c7dbe019a1377b923b6e2-768q60.webp",
+    "sourceSha256": "d21c7dbe019a1377b923b6e2e0ed2d12bf1ca435cfce9ee80893a51320da3314",
+    "copySha256": "41ba93a86e51cd4311bc5746b2d60fd276b9170b9b2eaa18a7ce93c498aee9fa"
+  },
+  "reference/world/gamewith-popups/1435d4c1ff5b4ee6.png": {
+    "file": "reference/portable/6b8016f8b576b89f6d429612-768q60.webp",
+    "sourceSha256": "6b8016f8b576b89f6d42961214f5365351989533d20a4e8c1a1b128d7f19e0d7",
+    "copySha256": "93646ef4e7003b9ab98898b4844aa81745cb78c8927d4e4578114a9116aa5486"
+  },
+  "reference/world/gamewith-popups/1c98317a33cea22e.jpg": {
+    "file": "reference/portable/8d1f853ed2f0f1bb9162ab3a-768q60.webp",
+    "sourceSha256": "8d1f853ed2f0f1bb9162ab3a8af4822a550f83d2307d482dc12abd56be2e7236",
+    "copySha256": "1d927abe4c40e5bf71ccb62f813104b8a7215e2413ad273a9de9f0345540c847"
+  },
+  "reference/world/gamewith-popups/1da33ca0a6bca3db.png": {
+    "file": "reference/portable/c567b3b8b244e7f2a743f00f-768q60.webp",
+    "sourceSha256": "c567b3b8b244e7f2a743f00f66f16e9da8d5ba50fc6bec01b8d25052efa31ac8",
+    "copySha256": "2a9cedb9c012579255bdd8f2250e14090d06541822e7667bdfddd48a4e3e7752"
+  },
+  "reference/world/gamewith-popups/1eb096a067aa249c.png": {
+    "file": "reference/portable/b0d5e99551fa72c2f330c46a-768q60.webp",
+    "sourceSha256": "b0d5e99551fa72c2f330c46a31659c5c013dbce8891a20d37c76a1e860f70fb7",
+    "copySha256": "9335b001ebc067b3896a29750ab817d841676bda8e09ac8e31baefc4adad0d5c"
+  },
+  "reference/world/gamewith-popups/1fb52e9518fa54b7.jpg": {
+    "file": "reference/portable/c234c80d9098922c3980703d-768q60.webp",
+    "sourceSha256": "c234c80d9098922c3980703d65989b809e68f1d17e9423537e910cde329a758a",
+    "copySha256": "bd1ea848a1c50a2477df4aadd13ca508b563e677b9c3a5e80fea518e7cacda4a"
+  },
+  "reference/world/gamewith-popups/210c3c4578a35ead.png": {
+    "file": "reference/portable/b5493c8f5d8b9329c79ade16-768q60.webp",
+    "sourceSha256": "b5493c8f5d8b9329c79ade168d9ba22f62fe98d83e1998da1f8b201ddaa477a5",
+    "copySha256": "34aac9cc3733e1c7f48e399b620c3a23a5d8a4a5bde623d9b5796a08d9f5f405"
+  },
+  "reference/world/gamewith-popups/24176343a617382a.png": {
+    "file": "reference/portable/271981f2211954c2415b09c6-768q60.webp",
+    "sourceSha256": "271981f2211954c2415b09c638b5fd5ee979d292225502d8f3eb98a335ea5d1f",
+    "copySha256": "56ed69840999bda4efe627de80f1446bef0bfd4ebc4b99982ff4e842c5563be3"
+  },
+  "reference/world/gamewith-popups/30bcad456edebf6b.png": {
+    "file": "reference/portable/9c453120eda4cff1b1e37b6f-768q60.webp",
+    "sourceSha256": "9c453120eda4cff1b1e37b6f31780aafbd191f1d3d168aee1ec26bda2b29ffd4",
+    "copySha256": "b96f7ff4404559ef79416b84d00121b23ba7d43929c3a4786affbcfcd56bb28a"
+  },
+  "reference/world/gamewith-popups/32b8cedeafb8eb7a.png": {
+    "file": "reference/portable/3ec25ec88a61e76259aefc0e-768q60.webp",
+    "sourceSha256": "3ec25ec88a61e76259aefc0e21905f622bea86e2d6a7a62f1baffc0d96802bc0",
+    "copySha256": "47535d0aeea4a9c0cda1b461db956e4c18ac5191c5ec0c39f2b33274258df943"
+  },
+  "reference/world/gamewith-popups/32fef2189575e8bc.png": {
+    "file": "reference/portable/65e16f227860445e7bd2bad1-768q60.webp",
+    "sourceSha256": "65e16f227860445e7bd2bad1c95238c07a3ac03afa24ad64380901823392639e",
+    "copySha256": "a870faf87023a066f6370f2aa58b713d88ef177f41eca52812db78fedc1eddfa"
+  },
+  "reference/world/gamewith-popups/3623be8f140cb0e0.png": {
+    "file": "reference/portable/a165249c9d047ccd24914527-768q60.webp",
+    "sourceSha256": "a165249c9d047ccd249145271284a13b31dc8922dac42eb4e7e2b4902ccc4a84",
+    "copySha256": "d7ab06bbd63d27cbb1d79a7448cf461347308c1cd895b8526c20a9854547d2b9"
+  },
+  "reference/world/gamewith-popups/3641ca03e5c7930a.png": {
+    "file": "reference/portable/16e8cd63d53326da846cd737-768q60.webp",
+    "sourceSha256": "16e8cd63d53326da846cd7374e9ce9cd1e13b1ec61f1ab450be1e7335c7ab5a8",
+    "copySha256": "f5cabf0e0ae97962cce886555eda5996f6ed7bded90cd4fa5e30c0a7a7683a16"
+  },
+  "reference/world/gamewith-popups/3995eb609ac4f3e9.jpg": {
+    "file": "reference/portable/11568420e9e11719e204ffcd-768q60.webp",
+    "sourceSha256": "11568420e9e11719e204ffcd078b6549b51963d01ea3056456c9585bd45f456b",
+    "copySha256": "4c3e1718d1f3fc87e7c38f7d842f1cb910e31ee525d16ed5dcf48e1f06d261b3"
+  },
+  "reference/world/gamewith-popups/3c0f2d6374ece6cc.png": {
+    "file": "reference/portable/3828a1cc9d61f15604161815-768q60.webp",
+    "sourceSha256": "3828a1cc9d61f1560416181594e413484ceb6a95660601f5f02689263091da09",
+    "copySha256": "3f58a5b4377fa93d7437a1893d9804ac13ea0904c649920f5dc9e6a05776c2b7"
+  },
+  "reference/world/gamewith-popups/3c3491ed261cc257.jpg": {
+    "file": "reference/portable/7349625ef256e027faceb228-768q60.webp",
+    "sourceSha256": "7349625ef256e027faceb228ce160c737b03547de2d74196aee74de364c8767a",
+    "copySha256": "0346bcfd38daeb355864ac4ad3b50d340c7412d4e3183d0d648a207b61ba0f1d"
+  },
+  "reference/world/gamewith-popups/40e388278b54cfb7.jpg": {
+    "file": "reference/portable/003cfe09b9d213a2a2a4b509-768q60.webp",
+    "sourceSha256": "003cfe09b9d213a2a2a4b5091d86b1279a26bdc33d806bbfa77e6ccca3e31e9b",
+    "copySha256": "f71736c61a22eab5446db89b2fa7b7c1fbc31b0a2195bdfc5c52615a7aa0462a"
+  },
+  "reference/world/gamewith-popups/44535fd03046e4cb.png": {
+    "file": "reference/portable/d5bf71e64753c2df6d55054f-768q60.webp",
+    "sourceSha256": "d5bf71e64753c2df6d55054f8edd8d0bece1148dcdfc22fc650b8f9d30420ecf",
+    "copySha256": "0b2af0c068071ff639b2e30d18fc40ad293eeda542a74fe35f7041c27b5cb8dc"
+  },
+  "reference/world/gamewith-popups/474e02bb518d7519.jpg": {
+    "file": "reference/portable/24723f3a27601033b955a061-768q60.webp",
+    "sourceSha256": "24723f3a27601033b955a06149d1ab53c825637254357af9afd878b3503e54d0",
+    "copySha256": "71950c59d23e22693e16403fc61526af7bab6515a5c962b06e5db4df18fd57d0"
+  },
+  "reference/world/gamewith-popups/4b9373c0e775ad32.png": {
+    "file": "reference/portable/cdda544a3e188118cbf15ebe-768q60.webp",
+    "sourceSha256": "cdda544a3e188118cbf15ebeb6902c626b3b175eb7aa0f1fa57ff5aa296ef321",
+    "copySha256": "d8c8e21c4a7bed476aab4290baa5c34104884008132ba383a2db923339e318eb"
+  },
+  "reference/world/gamewith-popups/4d586cd68a0afb4f.png": {
+    "file": "reference/portable/62331f5b1439df7e5f4efd0b-768q60.webp",
+    "sourceSha256": "62331f5b1439df7e5f4efd0b2535e4d906c46dd323dcd89542018df71ccbea49",
+    "copySha256": "537d6575b671c4f798e2a6739e006835056c15c89724d507da0ad3990436a09e"
+  },
+  "reference/world/gamewith-popups/4df561842ee3c702.png": {
+    "file": "reference/portable/b547a1689f45038afe18d5bb-768q60.webp",
+    "sourceSha256": "b547a1689f45038afe18d5bbe2a0e670c379f27768e6824a91239993143d32dd",
+    "copySha256": "b261aaf04c518e7eee67f48ba68f9e3bd2bb997b7583ee6f02f97295b6ad007e"
+  },
+  "reference/world/gamewith-popups/515109e978c4eb39.jpg": {
+    "file": "reference/portable/200ae89c9b6a4edb6ecf4587-768q60.webp",
+    "sourceSha256": "200ae89c9b6a4edb6ecf4587f1abe6061b915058b5fe965b99a2dd99b9017c5f",
+    "copySha256": "b90b541b2f6370b9f53318f5758d05e83d207f2d08f4844dc2cd6c951de1c232"
+  },
+  "reference/world/gamewith-popups/5510b3a4949ed82d.png": {
+    "file": "reference/portable/187ea97a84a40ce3aebda8ef-768q60.webp",
+    "sourceSha256": "187ea97a84a40ce3aebda8ef03c6c2500a15f4d65cfcce314f5a9673fc6ec2b2",
+    "copySha256": "79d7b4f886418ea4f56eab8f04744b2cfc6edab41b62145c6c4765a546173f3d"
+  },
+  "reference/world/gamewith-popups/55b6b0f301826bdc.png": {
+    "file": "reference/portable/aa11b22e6b7b46589b814f35-768q60.webp",
+    "sourceSha256": "aa11b22e6b7b46589b814f35b01b8b602db41719da078cf205a6012b979f63a7",
+    "copySha256": "0df26c45b116c87e10cc18d83071d184c36d3193acae59d3f58166653f7cccb1"
+  },
+  "reference/world/gamewith-popups/5a86c2adb500b7a2.png": {
+    "file": "reference/portable/b6b05baa324eb7a5d877b019-768q60.webp",
+    "sourceSha256": "b6b05baa324eb7a5d877b019f3c43661cdcbc5928ed31429c21916a7815a5247",
+    "copySha256": "14437ec388885c492cb13b787fec4fa7f6f49902f8b1965661dea3ca1c5e8881"
+  },
+  "reference/world/gamewith-popups/5e12d27af44b9715.png": {
+    "file": "reference/portable/193320c55995991d8b5e081e-768q60.webp",
+    "sourceSha256": "193320c55995991d8b5e081eb22a1d893afc03984a8d310bb6a19d4a741d2699",
+    "copySha256": "7367df2f68693aee2ec3fab802b457da38d7636fff2063b85f7d9c2664fb313f"
+  },
+  "reference/world/gamewith-popups/663d04418df0c97c.jpg": {
+    "file": "reference/portable/f7335751e3c3f228c971a7f6-768q60.webp",
+    "sourceSha256": "f7335751e3c3f228c971a7f6ca9b3898afab4e5c59b7c636192ed106510d709f",
+    "copySha256": "979ab5de32809c5eb9fd57f8e95872f9177f85c8efb1fbc08fbed17c897b041c"
+  },
+  "reference/world/gamewith-popups/699e71b592345cdd.png": {
+    "file": "reference/portable/e568eb4d43c3f7977d2bbd2d-768q60.webp",
+    "sourceSha256": "e568eb4d43c3f7977d2bbd2dbf788f3ab65d0c7440aac9e13daddd28544fd3e3",
+    "copySha256": "9996f721bfd39f31186d537f56d8707b35dea81064c4271bf6e3f244ebe6ee81"
+  },
+  "reference/world/gamewith-popups/6c713c3ea0bc2f66.jpg": {
+    "file": "reference/portable/428a4306e6dcfad78cb62802-768q60.webp",
+    "sourceSha256": "428a4306e6dcfad78cb62802d0fc191180f5763e45772c021b98e4b4c7af3bcd",
+    "copySha256": "7f176356c133d9aca45ddc1ad96b4b910198d820b8bb693f1efd9f74807f7ef9"
+  },
+  "reference/world/gamewith-popups/6cd4e89ff9e138d7.jpg": {
+    "file": "reference/portable/f80d40c731b2e30f7d8e16bb-768q60.webp",
+    "sourceSha256": "f80d40c731b2e30f7d8e16bb765d643c792d1687dce8fe04ba34427dc063d2a8",
+    "copySha256": "4ae2350a8d6eb9d592370702b38ddbda9ccb46839948a29f88a2305e92d50601"
+  },
+  "reference/world/gamewith-popups/6ed66c2c020714c8.jpg": {
+    "file": "reference/portable/c9b48b19de21d1beed2da55e-768q60.webp",
+    "sourceSha256": "c9b48b19de21d1beed2da55e605ccae879d8627c2614804f31bf3ca625696976",
+    "copySha256": "e61e60dcf456ad4ee15d0b0da2fe220191537a368694a965cf82d816b116ca91"
+  },
+  "reference/world/gamewith-popups/6f60a6c4f92381fd.jpg": {
+    "file": "reference/portable/3e89fa00e63ce53cbca429fb-768q60.webp",
+    "sourceSha256": "3e89fa00e63ce53cbca429fbede682e202242f29aa82571fb14a7c5972a155ce",
+    "copySha256": "8119f8cbc691ed7559b86278e9df197263e0ac35ce7cbd44ec2da03acbd49b90"
+  },
+  "reference/world/gamewith-popups/6fc2aac68389ca24.png": {
+    "file": "reference/portable/c3882844803ec3505fb613bb-768q60.webp",
+    "sourceSha256": "c3882844803ec3505fb613bb00e069a19577c8fed51267248950e1233ff4be08",
+    "copySha256": "ed7bff84c135b40366d874294d7fc6982f561e006f01f8abc63db468c12c7d92"
+  },
+  "reference/world/gamewith-popups/7f74b76e28c741aa.jpg": {
+    "file": "reference/portable/29d95b8e758d834b2d4bd506-768q60.webp",
+    "sourceSha256": "29d95b8e758d834b2d4bd5066eb6e99d07bc255fa02905caccaceab1f97f315c",
+    "copySha256": "0d00d35e27dd58ab77e6e7e2fe5768e36f6bd2ae335de723238fbcddce9b4f13"
+  },
+  "reference/world/gamewith-popups/802c9f9f39dc6db3.png": {
+    "file": "reference/portable/84ac4b5e75a68a6570f834c4-768q60.webp",
+    "sourceSha256": "84ac4b5e75a68a6570f834c4d58d7d6c49a14e0f25c0fea9640474a7e7302acc",
+    "copySha256": "06ab5094e017925d41358b5c9ba6fd750aab0e5ec6a0368bc68d838c4338cd71"
+  },
+  "reference/world/gamewith-popups/96edd2da57d0075e.jpg": {
+    "file": "reference/portable/cb6e0431a6e1e0214db2180f-768q60.webp",
+    "sourceSha256": "cb6e0431a6e1e0214db2180fa7479602be2d499003b19e2c149d5c73150c2de8",
+    "copySha256": "72a305467e3ef5563af2f77984d6a13f318c5ea356aae1b01636bd1ac637c874"
+  },
+  "reference/world/gamewith-popups/97dbd115f7c01d8e.jpg": {
+    "file": "reference/portable/714324a9ee6a0f63af703429-768q60.webp",
+    "sourceSha256": "714324a9ee6a0f63af703429e262386137f556e783ff059bba11d19330bb2165",
+    "copySha256": "f1c1145a104225af4a896f579c492d1ef55633ea37317d1c6420de764df7b700"
+  },
+  "reference/world/gamewith-popups/9e8ded972e2d7329.jpg": {
+    "file": "reference/portable/58b4c80bca4c5a5d102480b8-768q60.webp",
+    "sourceSha256": "58b4c80bca4c5a5d102480b859b2347d565bdca20d1f8b18f87975a25de7ce77",
+    "copySha256": "ceb37a3ea5302508b47018fe1d408a52795035ab9f5cb52da150a3661e999447"
+  },
+  "reference/world/gamewith-popups/a2d725d757c0508e.png": {
+    "file": "reference/portable/401f87cba359bff00778c10c-768q60.webp",
+    "sourceSha256": "401f87cba359bff00778c10c802b75d30fb05354524861f6adc88c429681f44f",
+    "copySha256": "94067fd32ee6fbc52520584a52a1919b36e512a9e160541a30d9b17dbe1ac17a"
+  },
+  "reference/world/gamewith-popups/aaa1acf0f7e89d46.jpg": {
+    "file": "reference/portable/78b38240e60ea029474a5f09-768q60.webp",
+    "sourceSha256": "78b38240e60ea029474a5f09b547fecced3959048dbf51f70ded3ef0e794bc17",
+    "copySha256": "f4616ad04861cbdfa35b6127ecaeb2c5e29685ac875bdb7dec45b45adfabe733"
+  },
+  "reference/world/gamewith-popups/ad344cbdf4b343d5.png": {
+    "file": "reference/portable/492e94384f28aea71ed106d9-768q60.webp",
+    "sourceSha256": "492e94384f28aea71ed106d973bbb63990f6138b9972996a0d69a5a17b8100c2",
+    "copySha256": "6114fabc4198693d8090424a7e5e302105d47750cb213828ab26aa1db9a55759"
+  },
+  "reference/world/gamewith-popups/b3fdf9933fa13c0d.png": {
+    "file": "reference/portable/e96f812831c7edbb7ce676b9-768q60.webp",
+    "sourceSha256": "e96f812831c7edbb7ce676b97dfdb37649e38b7e6d16a18c9431184b4f23c8f9",
+    "copySha256": "436eb7f712f649b562d1cb088338ccf458158e5dc6491a177c8917ef48a17495"
+  },
+  "reference/world/gamewith-popups/b480afc8b2d61832.jpg": {
+    "file": "reference/portable/62d01dedc34da69b5c0e83ce-768q60.webp",
+    "sourceSha256": "62d01dedc34da69b5c0e83cebab26a5033e3bcfef96960a667567e4295a0dabf",
+    "copySha256": "1dc16e727ddfb97f5787d8a22f838ff59eda9f699ab400eaee9017e6e8cfef77"
+  },
+  "reference/world/gamewith-popups/c71eef9b37c33fec.jpg": {
+    "file": "reference/portable/8647d85cb7bdf5614e60f001-768q60.webp",
+    "sourceSha256": "8647d85cb7bdf5614e60f0017c961dc00ac5e06d696bc6fa446f364aaaf516a0",
+    "copySha256": "3cee7e9cfe56c98c0bde27b7c995fc2c5cc4504933f88400657b00ca4b65717a"
+  },
+  "reference/world/gamewith-popups/c80f1f43ec270675.jpg": {
+    "file": "reference/portable/242146d8b7ac934494a671a7-768q60.webp",
+    "sourceSha256": "242146d8b7ac934494a671a748c8047d1f801445d55464e2c51c0299e433aa39",
+    "copySha256": "93441893252768edc1ad9a41d9b562b479de3a22481265a34439de29fa17e573"
+  },
+  "reference/world/gamewith-popups/ca3dd3be902d5092.png": {
+    "file": "reference/portable/c69cb4f63753e724ae00eb0e-768q60.webp",
+    "sourceSha256": "c69cb4f63753e724ae00eb0e99ff079da3be52e7e00688b792a73bd27b73bf05",
+    "copySha256": "147d4a77aebe7df474b8c07c629f057307522fcc2c16b785857723e863923dcc"
+  },
+  "reference/world/gamewith-popups/caa71441f0a58098.png": {
+    "file": "reference/portable/38a9b4badd9cdb404d0a7f7c-768q60.webp",
+    "sourceSha256": "38a9b4badd9cdb404d0a7f7cc3f39b88b6376b2eee2f4cd2c2d7685b2291cec9",
+    "copySha256": "9982e9f371cc093a3d7bd97bc1be0aca5fcf88499b99a7589616751145cc7722"
+  },
+  "reference/world/gamewith-popups/cfe59060e35cd967.jpg": {
+    "file": "reference/portable/5c3894066826de697a0ae1bb-768q60.webp",
+    "sourceSha256": "5c3894066826de697a0ae1bbf125f757dfd87eb8c8586e49ddfd9c8e4a5a57ae",
+    "copySha256": "f19837b43c3ff8aed2a25c7c8093a626d95f377fc8c4e122376ee7779e020ee5"
+  },
+  "reference/world/gamewith-popups/d2cd776bf253c86c.png": {
+    "file": "reference/portable/96c1cecabf45e1ef482adb5c-768q60.webp",
+    "sourceSha256": "96c1cecabf45e1ef482adb5c50f4c4f199e37f57d8a346752968f121db4d744d",
+    "copySha256": "e986b9e617f77daa33468cb844cb53c1555e45f54af7c20a69418104074af583"
+  },
+  "reference/world/gamewith-popups/dc84370f14cbf910.jpg": {
+    "file": "reference/portable/9835779af450a4564b6381c7-768q60.webp",
+    "sourceSha256": "9835779af450a4564b6381c76718107b598c89f0c30d1010a331bcb6d56b576a",
+    "copySha256": "f6ae02dd176336937aa9d78df2f66cfd24104c10dc710fb4574a74a77d4c4407"
+  },
+  "reference/world/gamewith-popups/dd54b0fe3769f79d.png": {
+    "file": "reference/portable/7cf9a7f5189591cc17e19343-768q60.webp",
+    "sourceSha256": "7cf9a7f5189591cc17e19343e5ea92dd4e4f4f591c15ff58bafd35db87ef23ca",
+    "copySha256": "2532d3d54af409d919b4255a0dae37193c367e2dff8126adc5dada941b2239da"
+  },
+  "reference/world/gamewith-popups/e1dfb1c29be1e25e.jpg": {
+    "file": "reference/portable/a96f76a3605eea30b3500e34-768q60.webp",
+    "sourceSha256": "a96f76a3605eea30b3500e34f7ac977a198c2ca63ee0a8367c6fba7345a4e4e6",
+    "copySha256": "b9dba3a59894b4597b7af239518d1b3813a14e5355f4b8f4472ae3c7e4b2d58b"
+  },
+  "reference/world/gamewith-popups/e37b117c08dc2705.jpg": {
+    "file": "reference/portable/bb36af9203ded3cccc151868-768q60.webp",
+    "sourceSha256": "bb36af9203ded3cccc15186890deb2898f670b7d505e7dd3b3d515bc5ac3535c",
+    "copySha256": "d3f1a5e4cb222a63125f27aa4dc74e3119f85f5ffbf8ef2d88e7924edb081e3a"
+  },
+  "reference/world/gamewith-popups/e76a26fbe5717db2.jpg": {
+    "file": "reference/portable/831d55cd7024b9f0fec0addc-768q60.webp",
+    "sourceSha256": "831d55cd7024b9f0fec0addc82985e2491c3f57aee88ea46a8f7124bcc513089",
+    "copySha256": "1052b7ab180a86ab94c952d3584a6195f3bda01e8289e1008417af1925244273"
+  },
+  "reference/world/gamewith-popups/e89f16bd84235ef4.jpg": {
+    "file": "reference/portable/8155400f1b692c1521dbeadb-768q60.webp",
+    "sourceSha256": "8155400f1b692c1521dbeadb37101b4ef312cde6d848be625a908e272e140958",
+    "copySha256": "b914416418b52d1126d5ea0f297dc70643046255e20a2887e0a84f371ac30d03"
+  },
+  "reference/world/gamewith-popups/ecdf3b91b8ef2406.jpg": {
+    "file": "reference/portable/85c72b842d6e578e774caa35-768q60.webp",
+    "sourceSha256": "85c72b842d6e578e774caa35aa0d7cb95692ab9a9b21c2786d0f90b57f4e15c4",
+    "copySha256": "c43cd8296293ecc7c6f7144e28018264d3cefef42053577bf7f05f87d30b5878"
+  },
+  "reference/world/gamewith-popups/ed87116ffb216fc1.png": {
+    "file": "reference/portable/f02445ac6abf4002b4322121-768q60.webp",
+    "sourceSha256": "f02445ac6abf4002b4322121196a02b17fa439412b6e083001869985d41f0d22",
+    "copySha256": "bf46fc02c7ded1e801f6a01d2513096f14fa27a8920a9065bfbdc3be94b362ae"
+  },
+  "reference/world/gamewith-popups/f3ccbc751f4d0cd5.png": {
+    "file": "reference/portable/1c73e615436a8d8983037961-768q60.webp",
+    "sourceSha256": "1c73e615436a8d8983037961588ba0bfd09f373956c01a8585ae068be91f4ae5",
+    "copySha256": "0dce1fd43c9f9249055275486f5dd252be89c68d33a70d6cd173183c520bc415"
+  },
+  "reference/world/gamewith-popups/f4a2109628a240c5.jpg": {
+    "file": "reference/portable/2ba0d8bee8ae234bd06f00a2-768q60.webp",
+    "sourceSha256": "2ba0d8bee8ae234bd06f00a28cf0f78994353dfff54138feccaf498c320b3746",
+    "copySha256": "34baf6dfdf7f16b05e285011f6eb2cf0e6fd4ef5efec04b73337c9206cb8df9e"
+  },
+  "reference/world/gamewith-popups/fdb276064dd7656d.jpg": {
+    "file": "reference/portable/9c18561b3abc7b87baa5edf6-768q60.webp",
+    "sourceSha256": "9c18561b3abc7b87baa5edf60d0a62fd2d77c9fd3625b2104651cff27340ec70",
+    "copySha256": "d7c0c628a780ac9c55a52e10518deb04d77cc7668905087cecfede40ceb85365"
+  },
+  "reference/world/gamewith-popups/fde6d167a78bdd20.jpg": {
+    "file": "reference/portable/ac813f6bd38f11751204a146-768q60.webp",
+    "sourceSha256": "ac813f6bd38f11751204a146575d07ece79689af16db389ab193ceb33868ece2",
+    "copySha256": "33cfb7c656f8909320c2c873bb94711c6160fb371c816decb9f7614f27cbb3f5"
+  }
+}
