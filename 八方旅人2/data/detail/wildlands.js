@@ -322,38 +322,753 @@ OT2.addDetail("wildlands", {
   },
   "west_crackridge_wilds": {
     "theme": "mountain",
-    "size": [100, 70],
-    "note": "从东侧克拉克里奇西出口进入，主路向西南通往南克拉克里奇荒道；中段向北的路通往西格拉维尔荒道（世界地图上位于东北）。主路中段沿台阶攀上西北悬崖即是商人公会。6个宝箱位置资料只写「宝箱」，为示意。",
+    "size": [
+      100,
+      70
+    ],
+    "note": "东侧镇口与存档点相邻，主路向西南接南克拉克里奇荒道，中段北行接西格拉维尔荒道；西北台阶上是商人公会。公会南侧下梯取8500叶、公会左侧取雷之精灵石；存档点北侧另有梯子，梯旁隐藏路取头巾，下梯取骨铠。镇口楼梯旁还有李子篮隐藏路和橄榄小隧道。位置按攻略相对关系示意，未作实机像素校准。",
     "zones": [
-      { "kind": "cliff", "poly": [[0, 16], [20, 18], [30, 26], [40, 36], [30, 40], [10, 34], [0, 30]], "label": "北侧悬崖" },
-      { "kind": "building", "rect": [4, 2, 22, 8], "label": "商人公会" },
-      { "kind": "cliff", "poly": [[84, 0], [100, 0], [100, 30], [92, 20]] },
-      { "kind": "rock", "poly": [[60, 58], [80, 64], [84, 70], [56, 70]] }
+      {
+        "kind": "cliff",
+        "poly": [
+          [
+            0,
+            16
+          ],
+          [
+            20,
+            18
+          ],
+          [
+            30,
+            26
+          ],
+          [
+            40,
+            36
+          ],
+          [
+            30,
+            40
+          ],
+          [
+            10,
+            34
+          ],
+          [
+            0,
+            30
+          ]
+        ],
+        "label": "北侧悬崖"
+      },
+      {
+        "kind": "building",
+        "rect": [
+          4,
+          2,
+          22,
+          8
+        ],
+        "label": "商人公会"
+      },
+      {
+        "kind": "cliff",
+        "poly": [
+          [
+            84,
+            0
+          ],
+          [
+            100,
+            0
+          ],
+          [
+            100,
+            30
+          ],
+          [
+            92,
+            20
+          ]
+        ]
+      },
+      {
+        "kind": "rock",
+        "poly": [
+          [
+            60,
+            58
+          ],
+          [
+            80,
+            64
+          ],
+          [
+            84,
+            70
+          ],
+          [
+            56,
+            70
+          ]
+        ]
+      }
     ],
     "paths": [
-      { "kind": "main", "pts": [[98, 40], [84, 40], [68, 42], [52, 44], [36, 48], [20, 56], [2, 64]], "label": "主路" },
-      { "kind": "main", "pts": [[68, 42], [70, 28], [74, 14], [72, 2]], "label": "北上往西格拉维尔荒道" },
-      { "kind": "stairs", "pts": [[52, 44], [44, 34], [34, 26], [24, 18], [16, 12]], "label": "攀上北侧悬崖" },
-      { "kind": "minor", "pts": [[16, 12], [8, 14]] },
-      { "kind": "minor", "pts": [[84, 40], [88, 52], [90, 58]] },
-      { "kind": "minor", "pts": [[36, 48], [40, 58], [46, 62]] },
-      { "kind": "minor", "pts": [[70, 28], [82, 24], [88, 22]] },
-      { "kind": "minor", "pts": [[34, 26], [30, 34], [22, 38]] },
-      { "kind": "minor", "pts": [[20, 56], [14, 46], [10, 42]] },
-      { "kind": "minor", "pts": [[74, 14], [60, 10], [52, 8]] }
+      {
+        "kind": "main",
+        "pts": [
+          [
+            98,
+            40
+          ],
+          [
+            90,
+            40
+          ],
+          [
+            84,
+            40
+          ],
+          [
+            78,
+            36
+          ],
+          [
+            68,
+            36
+          ],
+          [
+            56,
+            42
+          ],
+          [
+            42,
+            48
+          ],
+          [
+            20,
+            56
+          ],
+          [
+            2,
+            64
+          ]
+        ],
+        "label": "镇口楼梯至西南主路",
+        "route": {
+          "from": "克拉克里奇镇口／存档点",
+          "to": "南克拉克里奇荒道出口",
+          "steps": [
+            "从镇口附近存档点辨认上下楼梯",
+            "沿主路向西南；中段可分往北侧荒道或西北公会"
+          ],
+          "sources": [
+            {
+              "label": "ArrPeeGeeZ · 六处宝箱与梯子",
+              "url": "https://www.arrpeegeez.com/2023/03/octopath-traveler-ii-walkthrough-area_3.html"
+            },
+            {
+              "label": "Neoseeker · 隐藏入口及下梯交叉核对",
+              "url": "https://www.neoseeker.com/octopath-traveler-ii/walkthrough/Western_Crackridge_Wilds"
+            }
+          ]
+        }
+      },
+      {
+        "kind": "main",
+        "pts": [
+          [
+            68,
+            36
+          ],
+          [
+            70,
+            28
+          ],
+          [
+            74,
+            14
+          ],
+          [
+            72,
+            2
+          ]
+        ],
+        "label": "主路北行去格拉维尔",
+        "route": {
+          "from": "主路岔路 A",
+          "to": "西格拉维尔荒道出口",
+          "steps": [
+            "在主路中段转向北侧道路",
+            "继续到西格拉维尔荒道；梯子宝箱路线在途中分出"
+          ],
+          "sources": [
+            {
+              "label": "ArrPeeGeeZ · 六处宝箱与梯子",
+              "url": "https://www.arrpeegeez.com/2023/03/octopath-traveler-ii-walkthrough-area_3.html"
+            },
+            {
+              "label": "Neoseeker · 隐藏入口及下梯交叉核对",
+              "url": "https://www.neoseeker.com/octopath-traveler-ii/walkthrough/Western_Crackridge_Wilds"
+            }
+          ]
+        }
+      },
+      {
+        "kind": "stairs",
+        "pts": [
+          [
+            42,
+            48
+          ],
+          [
+            36,
+            34
+          ],
+          [
+            24,
+            18
+          ],
+          [
+            16,
+            12
+          ]
+        ],
+        "label": "上台阶去商人公会",
+        "route": {
+          "from": "主路岔路 A 西侧",
+          "to": "西北商人公会 B",
+          "steps": [
+            "离开主路，沿台阶上到西北悬崖",
+            "在营地与会长交谈领取商人职业证"
+          ],
+          "sources": [
+            {
+              "label": "ArrPeeGeeZ · 六处宝箱与梯子",
+              "url": "https://www.arrpeegeez.com/2023/03/octopath-traveler-ii-walkthrough-area_3.html"
+            },
+            {
+              "label": "Neoseeker · 隐藏入口及下梯交叉核对",
+              "url": "https://www.neoseeker.com/octopath-traveler-ii/walkthrough/Western_Crackridge_Wilds"
+            }
+          ]
+        }
+      },
+      {
+        "kind": "minor",
+        "pts": [
+          [
+            16,
+            12
+          ],
+          [
+            8,
+            14
+          ]
+        ],
+        "label": "公会帐篷旁昼夜商人",
+        "route": {
+          "from": "商人公会 B",
+          "to": "帐篷左侧商人",
+          "steps": [
+            "在会长旁寻找左侧帐篷",
+            "白天和夜晚由不同商人站在这里出售商品"
+          ],
+          "sources": [
+            {
+              "label": "ArrPeeGeeZ · 六处宝箱与梯子",
+              "url": "https://www.arrpeegeez.com/2023/03/octopath-traveler-ii-walkthrough-area_3.html"
+            },
+            {
+              "label": "Neoseeker · 隐藏入口及下梯交叉核对",
+              "url": "https://www.neoseeker.com/octopath-traveler-ii/walkthrough/Western_Crackridge_Wilds"
+            }
+          ],
+          "caution": "商人昼夜替换；不能据此把公会本身筛掉"
+        }
+      },
+      {
+        "kind": "hidden",
+        "pts": [
+          [
+            84,
+            40
+          ],
+          [
+            86,
+            48
+          ],
+          [
+            92,
+            52
+          ]
+        ],
+        "label": "镇口第一段楼梯旁隐藏路",
+        "route": {
+          "from": "镇口楼梯上段",
+          "to": "醒神李子篮",
+          "steps": [
+            "沿通往镇口的楼梯下第一段",
+            "检查左侧隐藏通道，进去取箱"
+          ],
+          "sources": [
+            {
+              "label": "ArrPeeGeeZ · 六处宝箱与梯子",
+              "url": "https://www.arrpeegeez.com/2023/03/octopath-traveler-ii-walkthrough-area_3.html"
+            },
+            {
+              "label": "Neoseeker · 隐藏入口及下梯交叉核对",
+              "url": "https://www.neoseeker.com/octopath-traveler-ii/walkthrough/Western_Crackridge_Wilds"
+            }
+          ],
+          "caution": "这里不是楼梯最下方的小隧道"
+        }
+      },
+      {
+        "kind": "hidden",
+        "pts": [
+          [
+            90,
+            40
+          ],
+          [
+            94,
+            46
+          ],
+          [
+            94,
+            60
+          ]
+        ],
+        "label": "镇口楼梯底部的小隧道",
+        "route": {
+          "from": "镇口楼梯底部",
+          "to": "还魂橄榄",
+          "steps": [
+            "到通往克拉克里奇楼梯的底部",
+            "检查左侧小隧道，穿过后取箱"
+          ],
+          "sources": [
+            {
+              "label": "ArrPeeGeeZ · 六处宝箱与梯子",
+              "url": "https://www.arrpeegeez.com/2023/03/octopath-traveler-ii-walkthrough-area_3.html"
+            },
+            {
+              "label": "Neoseeker · 隐藏入口及下梯交叉核对",
+              "url": "https://www.neoseeker.com/octopath-traveler-ii/walkthrough/Western_Crackridge_Wilds"
+            }
+          ],
+          "caution": "与楼梯上段的李子篮隐藏路分开寻找"
+        }
+      },
+      {
+        "kind": "minor",
+        "pts": [
+          [
+            70,
+            28
+          ],
+          [
+            82,
+            28
+          ]
+        ],
+        "label": "北行道路至梯口",
+        "route": {
+          "from": "北行道路",
+          "to": "北侧梯口 C",
+          "steps": [
+            "从存档点附近向北寻找梯子",
+            "在梯口选择右侧岩壁隐藏路或向下的梯子"
+          ],
+          "sources": [
+            {
+              "label": "ArrPeeGeeZ · 六处宝箱与梯子",
+              "url": "https://www.arrpeegeez.com/2023/03/octopath-traveler-ii-walkthrough-area_3.html"
+            },
+            {
+              "label": "Neoseeker · 隐藏入口及下梯交叉核对",
+              "url": "https://www.neoseeker.com/octopath-traveler-ii/walkthrough/Western_Crackridge_Wilds"
+            }
+          ],
+          "caution": "梯右隐藏路取头巾；下梯是另一件骨铠"
+        }
+      },
+      {
+        "kind": "ladder",
+        "pts": [
+          [
+            82,
+            28
+          ],
+          [
+            82,
+            40
+          ],
+          [
+            76,
+            54
+          ]
+        ],
+        "label": "北侧梯子下到骨铠",
+        "route": {
+          "from": "北侧梯口 C",
+          "to": "梯底骨铠宝箱",
+          "steps": [
+            "回到存档点北侧梯子",
+            "沿梯子下到底部取骨铠"
+          ],
+          "sources": [
+            {
+              "label": "ArrPeeGeeZ · 六处宝箱与梯子",
+              "url": "https://www.arrpeegeez.com/2023/03/octopath-traveler-ii-walkthrough-area_3.html"
+            },
+            {
+              "label": "Neoseeker · 隐藏入口及下梯交叉核对",
+              "url": "https://www.neoseeker.com/octopath-traveler-ii/walkthrough/Western_Crackridge_Wilds"
+            }
+          ],
+          "caution": "与上层道路在图上交叉处不能直接换层"
+        }
+      },
+      {
+        "kind": "ladder",
+        "pts": [
+          [
+            16,
+            12
+          ],
+          [
+            16,
+            26
+          ],
+          [
+            10,
+            36
+          ],
+          [
+            10,
+            44
+          ]
+        ],
+        "label": "公会南侧平台下梯",
+        "route": {
+          "from": "商人公会 B",
+          "to": "8500叶宝箱",
+          "steps": [
+            "检查公会营地南面的崖边木平台",
+            "沿平台梯子下行到宝箱"
+          ],
+          "sources": [
+            {
+              "label": "ArrPeeGeeZ · 六处宝箱与梯子",
+              "url": "https://www.arrpeegeez.com/2023/03/octopath-traveler-ii-walkthrough-area_3.html"
+            },
+            {
+              "label": "Neoseeker · 隐藏入口及下梯交叉核对",
+              "url": "https://www.neoseeker.com/octopath-traveler-ii/walkthrough/Western_Crackridge_Wilds"
+            }
+          ],
+          "caution": "这是公会南侧梯子，与存档点北侧梯子不同"
+        }
+      },
+      {
+        "kind": "minor",
+        "pts": [
+          [
+            16,
+            12
+          ],
+          [
+            8,
+            10
+          ],
+          [
+            4,
+            8
+          ]
+        ],
+        "label": "公会营地向左取精灵石",
+        "route": {
+          "from": "商人公会 B",
+          "to": "雷之精灵石M宝箱",
+          "steps": [
+            "到商人公会营地",
+            "检查营地左边的宝箱，取箱后返回会长处"
+          ],
+          "sources": [
+            {
+              "label": "ArrPeeGeeZ · 六处宝箱与梯子",
+              "url": "https://www.arrpeegeez.com/2023/03/octopath-traveler-ii-walkthrough-area_3.html"
+            },
+            {
+              "label": "Neoseeker · 隐藏入口及下梯交叉核对",
+              "url": "https://www.neoseeker.com/octopath-traveler-ii/walkthrough/Western_Crackridge_Wilds"
+            }
+          ]
+        }
+      },
+      {
+        "kind": "hidden",
+        "pts": [
+          [
+            82,
+            28
+          ],
+          [
+            86,
+            26
+          ],
+          [
+            90,
+            24
+          ]
+        ],
+        "label": "梯口右侧岩壁隐藏路",
+        "route": {
+          "from": "北侧梯口 C",
+          "to": "头巾宝箱",
+          "steps": [
+            "在梯口检查右侧岩壁中的隐蔽开口",
+            "沿隐藏通道到头巾宝箱，取完回到梯口"
+          ],
+          "caution": "头巾在上层隐藏通道；骨铠需要另从梯口下梯。",
+          "sources": [
+            {
+              "label": "ArrPeeGeeZ · 六处宝箱与梯子",
+              "url": "https://www.arrpeegeez.com/2023/03/octopath-traveler-ii-walkthrough-area_3.html"
+            },
+            {
+              "label": "Neoseeker · 隐藏入口及下梯交叉核对",
+              "url": "https://www.neoseeker.com/octopath-traveler-ii/walkthrough/Western_Crackridge_Wilds"
+            }
+          ]
+        }
+      }
     ],
     "pois": [
-      { "kind": "exit", "at": [98, 40], "to": "crackridge", "label": "往克拉克里奇（西出口）", "lp": "l" },
-      { "kind": "exit", "at": [72, 2], "to": "west_gravell_wilds", "label": "往西格拉维尔荒道", "lp": "r", "dir": "东北" },
-      { "kind": "exit", "at": [2, 64], "to": "south_crackridge_wilds", "label": "往南克拉克里奇荒道", "lp": "r" },
-      { "kind": "guild", "at": [16, 12], "label": "商人公会（会长）", "npc": [0], "lp": "r" },
-      { "kind": "peddler", "at": [8, 14], "label": "昼/夜商人", "npc": [1, 2], "lp": "b" },
-      { "kind": "chest", "at": [90, 58], "tr": [0], "lp": "l" },
-      { "kind": "chest", "at": [46, 62], "tr": [1], "lp": "r" },
-      { "kind": "chest", "at": [88, 22], "tr": [2], "lp": "l" },
-      { "kind": "chest", "at": [22, 38], "tr": [3], "lp": "l" },
-      { "kind": "chest", "at": [10, 42], "tr": [4], "lp": "b" },
-      { "kind": "chest", "at": [52, 8], "tr": [5], "lp": "l" }
+      {
+        "kind": "exit",
+        "at": [
+          98,
+          40
+        ],
+        "to": "crackridge",
+        "label": "东口（往克拉克里奇）",
+        "lp": "l"
+      },
+      {
+        "kind": "exit",
+        "at": [
+          72,
+          2
+        ],
+        "to": "west_gravell_wilds",
+        "label": "往西格拉维尔荒道",
+        "lp": "r",
+        "dir": "东北"
+      },
+      {
+        "kind": "exit",
+        "at": [
+          2,
+          64
+        ],
+        "to": "south_crackridge_wilds",
+        "label": "往南克拉克里奇荒道",
+        "lp": "r"
+      },
+      {
+        "kind": "guild",
+        "at": [
+          16,
+          12
+        ],
+        "label": "商人公会（会长）",
+        "npc": [
+          0
+        ],
+        "lp": "r"
+      },
+      {
+        "kind": "peddler",
+        "at": [
+          8,
+          14
+        ],
+        "label": "昼/夜商人",
+        "npc": [
+          1,
+          2
+        ],
+        "lp": "b"
+      },
+      {
+        "kind": "chest",
+        "at": [
+          92,
+          52
+        ],
+        "tr": [
+          0
+        ],
+        "lp": "l",
+        "note": "检查左侧隐藏通道，进去取箱；图上为攻略相对位置。"
+      },
+      {
+        "kind": "chest",
+        "at": [
+          94,
+          60
+        ],
+        "tr": [
+          1
+        ],
+        "lp": "r",
+        "note": "检查左侧小隧道，穿过后取箱；图上为攻略相对位置。"
+      },
+      {
+        "kind": "chest",
+        "at": [
+          90,
+          24
+        ],
+        "tr": [
+          2
+        ],
+        "lp": "l",
+        "note": "从北侧梯口右侧岩壁隐藏入口取头巾；图上为攻略相对位置。"
+      },
+      {
+        "kind": "chest",
+        "at": [
+          76,
+          54
+        ],
+        "tr": [
+          3
+        ],
+        "lp": "l",
+        "note": "沿梯子下到底部取骨铠；图上为攻略相对位置。"
+      },
+      {
+        "kind": "chest",
+        "at": [
+          10,
+          44
+        ],
+        "tr": [
+          4
+        ],
+        "lp": "b",
+        "note": "沿平台梯子下行到宝箱；图上为攻略相对位置。"
+      },
+      {
+        "kind": "chest",
+        "at": [
+          4,
+          8
+        ],
+        "tr": [
+          5
+        ],
+        "lp": "l",
+        "note": "检查营地左边的宝箱，取箱后返回会长处；图上为攻略相对位置。"
+      },
+      {
+        "kind": "save",
+        "at": [
+          90,
+          38
+        ],
+        "label": "镇口附近存档点",
+        "lp": "t"
+      },
+      {
+        "kind": "stairs",
+        "at": [
+          82,
+          28
+        ],
+        "label": "存档点北侧梯口",
+        "lp": "t"
+      }
+    ],
+    "junctions": [
+      {
+        "label": "A",
+        "at": [
+          68,
+          36
+        ],
+        "roads": [
+          0,
+          1
+        ],
+        "note": "北行去西格拉维尔荒道，西南继续沿主路；公会在主路更西侧另分台阶。"
+      },
+      {
+        "label": "B",
+        "at": [
+          16,
+          12
+        ],
+        "labelAt": [
+          22,
+          10
+        ],
+        "roads": [
+          2,
+          3,
+          8,
+          9
+        ],
+        "note": "商人公会营地：南侧平台下梯取8500叶，左侧取雷之精灵石，帐篷旁为昼夜商人。"
+      },
+      {
+        "label": "C",
+        "at": [
+          82,
+          28
+        ],
+        "labelAt": [
+          78,
+          22
+        ],
+        "roads": [
+          6,
+          7,
+          10
+        ],
+        "note": "存档点北侧梯口：右侧隐藏入口取头巾，下梯到骨铠。"
+      }
+    ],
+    "crossings": [
+      {
+        "at": [
+          82,
+          38.67
+        ],
+        "labelAt": [
+          58,
+          60
+        ],
+        "over": 0,
+        "under": 7,
+        "note": "上层主路／下梯不在交叉处换层"
+      }
+    ],
+    "sources": [
+      {
+        "label": "ArrPeeGeeZ · 六处宝箱与梯子",
+        "url": "https://www.arrpeegeez.com/2023/03/octopath-traveler-ii-walkthrough-area_3.html"
+      },
+      {
+        "label": "Neoseeker · 隐藏入口及下梯交叉核对",
+        "url": "https://www.neoseeker.com/octopath-traveler-ii/walkthrough/Western_Crackridge_Wilds"
+      }
     ]
   }
 });

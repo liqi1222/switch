@@ -225,25 +225,63 @@ OT2.addRegion({
       "name": "西克拉克里奇荒道",
       "en": "Western Crackridge Wilds",
       "type": "field",
-      "pos": [24.6, 41.9],
+      "pos": [
+        24.6,
+        41.9
+      ],
       "level": "20/28/34",
       "desc": "克拉克里奇西侧荒道，北通西格拉维尔荒道，南接南克拉克里奇荒道；西北悬崖上是商人公会。",
       "story": [],
       "boss": [],
       "treasures": [
-        { "item": "醒神李子篮（Inspiriting Plum Basket）", "how": "宝箱" },
-        { "item": "还魂橄榄（Olive of Life）", "how": "宝箱" },
-        { "item": "头巾（Headgear）", "how": "宝箱" },
-        { "item": "骨铠（Bone Mail）", "how": "宝箱" },
-        { "item": "8500叶", "how": "宝箱" },
-        { "item": "雷之精灵石M（Thunder Soulstone (M)）", "how": "宝箱" }
+        {
+          "item": "醒神李子篮（Inspiriting Plum Basket）",
+          "how": "沿通往克拉克里奇的楼梯下第一段，检查左侧隐藏通道；不是楼梯最底部的小隧道。"
+        },
+        {
+          "item": "还魂橄榄（Olive of Life）",
+          "how": "通往克拉克里奇的楼梯最下方，检查左侧小隧道，穿过后开箱。"
+        },
+        {
+          "item": "头巾（Headgear）",
+          "how": "镇口附近存档点北侧有梯子；不下梯，先走梯子右侧岩壁中的隐藏通道。"
+        },
+        {
+          "item": "骨铠（Bone Mail）",
+          "how": "沿镇口附近存档点北侧的梯子一直下到最底部；与梯旁头巾宝箱分开。"
+        },
+        {
+          "item": "8500叶",
+          "how": "商人公会营地南侧的崖边平台，沿梯子下行到宝箱。"
+        },
+        {
+          "item": "雷之精灵石M（Thunder Soulstone (M)）",
+          "how": "商人公会营地左侧的宝箱。"
+        }
       ],
       "npcs": [
-        { "name": "商人公会会长", "item": "商人职业证", "method": "—", "note": "交谈即得第1张；支付10万叶得第2张、30万叶得第3张" },
-        { "name": "幸运宠儿（Fortune's Favorite）", "item": "特殊商品", "method": "购买", "note": "白天在会长旁，只能购买不能偷" },
-        { "name": "商业魔术师（Conjurer of Commerce）", "item": "特殊商品", "method": "购买", "note": "夜晚替换出现" }
+        {
+          "name": "商人公会会长",
+          "item": "商人职业证",
+          "method": "—",
+          "note": "交谈即得第1张；支付10万叶得第2张、30万叶得第3张"
+        },
+        {
+          "name": "幸运宠儿（Fortune's Favorite）",
+          "item": "特殊商品",
+          "method": "购买",
+          "note": "白天在会长旁，只能购买不能偷"
+        },
+        {
+          "name": "商业魔术师（Conjurer of Commerce）",
+          "item": "特殊商品",
+          "method": "购买",
+          "note": "夜晚替换出现"
+        }
       ],
-      "shops": ["商人公会旁的昼/夜商人"],
+      "shops": [
+        "商人公会旁的昼/夜商人"
+      ],
       "tips": "从克拉克里奇西出口进入，爬上北侧悬崖即达商人公会。"
     },
     {

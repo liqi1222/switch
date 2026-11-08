@@ -1,0 +1,296 @@
+{
+  "checked": "2026-11-08",
+  "method": "Production SVG functions in isolated Node VM; not browser interaction or pixel calibration",
+  "rows": [
+    {
+      "game": "八方旅人1",
+      "region": "cliftlands",
+      "name": "断崖地区",
+      "maps": 18,
+      "pois": 241,
+      "roads": 226,
+      "exitsExpanded": 8,
+      "roadsClarified": 101,
+      "compact": 0,
+      "unlabelled": 0,
+      "representative": {
+        "lid": "bolderfall",
+        "name": "柏达弗尔",
+        "pois": 30
+      }
+    },
+    {
+      "game": "八方旅人1",
+      "region": "coastlands",
+      "name": "海岸地区",
+      "maps": 21,
+      "pois": 277,
+      "roads": 292,
+      "exitsExpanded": 14,
+      "roadsClarified": 131,
+      "compact": 0,
+      "unlabelled": 0,
+      "representative": {
+        "lid": "grandport_markets",
+        "name": "格兰波特摊贩街",
+        "pois": 27
+      }
+    },
+    {
+      "game": "八方旅人1",
+      "region": "flatlands",
+      "name": "平原地区",
+      "maps": 17,
+      "pois": 210,
+      "roads": 176,
+      "exitsExpanded": 8,
+      "roadsClarified": 70,
+      "compact": 0,
+      "unlabelled": 0,
+      "representative": {
+        "lid": "ebony_grotto",
+        "name": "漆黑洞窟",
+        "pois": 20
+      }
+    },
+    {
+      "game": "八方旅人1",
+      "region": "frostlands",
+      "name": "雪原地区",
+      "maps": 19,
+      "pois": 211,
+      "roads": 158,
+      "exitsExpanded": 15,
+      "roadsClarified": 39,
+      "compact": 0,
+      "unlabelled": 0,
+      "representative": {
+        "lid": "stillsnow",
+        "name": "史迪尔斯诺",
+        "pois": 23
+      }
+    },
+    {
+      "game": "八方旅人1",
+      "region": "highlands",
+      "name": "高原地区",
+      "maps": 21,
+      "pois": 255,
+      "roads": 225,
+      "exitsExpanded": 18,
+      "roadsClarified": 95,
+      "compact": 0,
+      "unlabelled": 0,
+      "representative": {
+        "lid": "stonegard",
+        "name": "斯托冈德",
+        "pois": 25
+      }
+    },
+    {
+      "game": "八方旅人1",
+      "region": "riverlands",
+      "name": "河川地区",
+      "maps": 19,
+      "pois": 241,
+      "roads": 197,
+      "exitsExpanded": 13,
+      "roadsClarified": 72,
+      "compact": 0,
+      "unlabelled": 0,
+      "representative": {
+        "lid": "saintsbridge",
+        "name": "圣特布里吉",
+        "pois": 25
+      }
+    },
+    {
+      "game": "八方旅人1",
+      "region": "sunlands",
+      "name": "沙漠地区",
+      "maps": 20,
+      "pois": 252,
+      "roads": 210,
+      "exitsExpanded": 14,
+      "roadsClarified": 53,
+      "compact": 0,
+      "unlabelled": 0,
+      "representative": {
+        "lid": "wellspring",
+        "name": "威尔斯宾克",
+        "pois": 24
+      }
+    },
+    {
+      "game": "八方旅人1",
+      "region": "woodlands",
+      "name": "森林地区",
+      "maps": 18,
+      "pois": 225,
+      "roads": 153,
+      "exitsExpanded": 12,
+      "roadsClarified": 81,
+      "compact": 0,
+      "unlabelled": 0,
+      "representative": {
+        "lid": "victors_hollow_arena",
+        "name": "维克塔霍洛斗技场",
+        "pois": 23
+      }
+    },
+    {
+      "game": "八方旅人2",
+      "region": "brightlands",
+      "name": "明之地",
+      "maps": 22,
+      "pois": 252,
+      "roads": 231,
+      "exitsExpanded": 15,
+      "roadsClarified": 61,
+      "compact": 0,
+      "unlabelled": 0,
+      "representative": {
+        "lid": "new_delsta",
+        "name": "新德尔斯塔",
+        "pois": 33
+      }
+    },
+    {
+      "game": "八方旅人2",
+      "region": "crestlands",
+      "name": "纹之地",
+      "maps": 23,
+      "pois": 284,
+      "roads": 265,
+      "exitsExpanded": 18,
+      "roadsClarified": 57,
+      "compact": 0,
+      "unlabelled": 0,
+      "representative": {
+        "lid": "flamechurch",
+        "name": "弗拉姆教堂",
+        "pois": 20
+      }
+    },
+    {
+      "game": "八方旅人2",
+      "region": "harborlands",
+      "name": "港湾之地",
+      "maps": 17,
+      "pois": 225,
+      "roads": 199,
+      "exitsExpanded": 12,
+      "roadsClarified": 60,
+      "compact": 0,
+      "unlabelled": 0,
+      "representative": {
+        "lid": "canalbrine",
+        "name": "卡纳尔布莱恩",
+        "pois": 25
+      }
+    },
+    {
+      "game": "八方旅人2",
+      "region": "hinoeuma",
+      "name": "日之野",
+      "maps": 20,
+      "pois": 249,
+      "roads": 207,
+      "exitsExpanded": 6,
+      "roadsClarified": 71,
+      "compact": 0,
+      "unlabelled": 0,
+      "representative": {
+        "lid": "castle_ku",
+        "name": "库城（含库城入口）",
+        "pois": 21
+      }
+    },
+    {
+      "game": "八方旅人2",
+      "region": "leaflands",
+      "name": "叶之地",
+      "maps": 22,
+      "pois": 258,
+      "roads": 198,
+      "exitsExpanded": 9,
+      "roadsClarified": 73,
+      "compact": 0,
+      "unlabelled": 0,
+      "representative": {
+        "lid": "wellgrove",
+        "name": "韦尔格罗夫",
+        "pois": 28
+      }
+    },
+    {
+      "game": "八方旅人2",
+      "region": "sundering_sea",
+      "name": "分隔之海",
+      "maps": 14,
+      "pois": 156,
+      "roads": 137,
+      "exitsExpanded": 20,
+      "roadsClarified": 15,
+      "compact": 0,
+      "unlabelled": 0,
+      "representative": {
+        "lid": "on_the_water",
+        "name": "海上",
+        "pois": 30
+      }
+    },
+    {
+      "game": "八方旅人2",
+      "region": "totohaha",
+      "name": "托托哈哈岛",
+      "maps": 18,
+      "pois": 231,
+      "roads": 191,
+      "exitsExpanded": 4,
+      "roadsClarified": 41,
+      "compact": 0,
+      "unlabelled": 0,
+      "representative": {
+        "lid": "tropuhopu",
+        "name": "特洛甫霍普",
+        "pois": 33
+      }
+    },
+    {
+      "game": "八方旅人2",
+      "region": "wildlands",
+      "name": "荒野之地",
+      "maps": 19,
+      "pois": 225,
+      "roads": 175,
+      "exitsExpanded": 13,
+      "roadsClarified": 70,
+      "compact": 0,
+      "unlabelled": 0,
+      "representative": {
+        "lid": "crackridge",
+        "name": "克拉克里奇",
+        "pois": 30
+      }
+    },
+    {
+      "game": "八方旅人2",
+      "region": "winterlands",
+      "name": "冬之地",
+      "maps": 21,
+      "pois": 255,
+      "roads": 231,
+      "exitsExpanded": 17,
+      "roadsClarified": 28,
+      "compact": 0,
+      "unlabelled": 0,
+      "representative": {
+        "lid": "winterbloom",
+        "name": "温特布鲁姆",
+        "pois": 20
+      }
+    }
+  ],
+  "issues": []
+}

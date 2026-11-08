@@ -61,6 +61,8 @@
 }
 
 /* 道路编号减少长文字遮挡；导航参照不随道路分类消失。 */
+.dp-label { text-anchor:start; }
+.dp-label-leader { fill:none; stroke-width:.3; opacity:.65; pointer-events:none; }
 .dp-road-badge { display:none; cursor:pointer; }
 .road-numbered .dp-road-badge { display:block; }
 .road-numbered .dp-plabel { display:none; }

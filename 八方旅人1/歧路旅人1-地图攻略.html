@@ -443,6 +443,8 @@ mark { background: #ffe58a; color: inherit; padding: 0 1px; border-radius: 2px; 
 }
 
 /* 道路编号减少长文字遮挡；导航参照不随道路分类消失。 */
+.dp-label { text-anchor:start; }
+.dp-label-leader { fill:none; stroke-width:.3; opacity:.65; pointer-events:none; }
 .dp-road-badge { display:none; cursor:pointer; }
 .road-numbered .dp-road-badge { display:block; }
 .road-numbered .dp-plabel { display:none; }
@@ -28485,6 +28487,97 @@ OT2.encounters = {
   }
   const isSignpost = p => p.navigation === "signpost" || (p.kind === "landmark" && /^路[标牌](?:[（(]|$)/.test(p.label || ""));
   const isNavigationAnchor = p => ["save","exit"].includes(p.kind) || isSignpost(p);
+  function poiName(rid, loc, p) {
+    if (p.kind === "exit" && p.to) {
+      const parts=String(p.to).split('/'), r=window.OT2?.regions?.[parts.length===2 ? parts[0] : rid];
+      const target=arr(r?.locations).find(l=>l.id===parts[parts.length-1]);
+      if(target) {
+        if(p.label?.includes(target.name))return p.label;
+        const dest=/^通往/.test(target.name)?target.name:'往 '+target.name;
+        const prefix=(p.label||'').replace(/[（(][^）)]*(?:往|通往)[^）)]*[）)]/g,'');
+        return prefix && !/^(往|通往)/.test(prefix) ? prefix+' · '+dest : dest;
+      }
+    }
+    return p.label || arr(p.tr).map(i=>loc?.treasures?.[i]?.item).filter(Boolean).join('、') ||
+      arr(p.npc).map(i=>loc?.npcs?.[i]?.name).filter(Boolean).join('、') || labels[p.kind] || "要点";
+  }
+  function roadName(d, index, rid, loc) {
+    const p=d.paths[index];
+    if(p.label && !/^(主路|小路|岔路|支路|通道|水路|主干道)$/.test(p.label)) return p.label;
+    const ends=[p.pts?.[0],p.pts?.[p.pts.length-1]].filter(Boolean);
+    const refs=ends.map(at=>arr(d.pois).filter(q=>q.at).map(q=>({q,dist:Math.hypot(q.at[0]-at[0],q.at[1]-at[1])}))
+      .filter(q=>q.dist<=3).sort((a,b)=>a.dist-b.dist)[0]?.q).filter(Boolean);
+    const names=[...new Set(refs.map(q=>poiName(rid,loc,q)))];
+    return (p.label || pathLabels[p.kind] || "道路")+" · "+(names.length ? names.join(' ↔ ') : "图示路段 "+String(index+1).padStart(2,'0'));
+  }
+
+  // Conservative font metrics keep the pure layout usable offline and while the pane is hidden.
+  const textUnits = text => Array.from(text).reduce((n,c)=>n+(/[^\x00-\xff]/.test(c)?1:.65),0);
+  function mapLabelText(text) {
+    let out='',body='',depth=0;
+    for(const c of text) {
+      if(c==='（'||c==='('){if(depth)body+=c;depth++;continue;}
+      if((c==='）'||c===')')&&depth){
+        depth--;
+        if(depth){body+=c;continue;}
+        if(/往|通往/.test(body))out+=' · '+body;
+        else if(/大致|示意|待核实/.test(body))out+='（示意）';
+        else {
+          const conditions=body.match(/(?:仅)?(?:白天|夜晚|日间|夜间|昼|夜)|第\d+章|通关后|需开锁|需打昏|需钥匙/g);
+          if(conditions)out+='（'+[...new Set(conditions)].join('／')+'）';
+          else if(/^(大|中|小|L|M|S)$/.test(body))out+='（'+body+'）';
+        }
+        body='';continue;
+      }
+      if(depth)body+=c;else out+=c;
+    }
+    // Keep sizes such as 果实L, but move a trailing English translation to the full detail.
+    const translated=(out || text).match(/^(.+[\u3400-\u9fff）])\s+[A-Za-z][A-Za-z0-9 '’.,/+()\-]*(（[LMS]）)?$/);
+    if(translated)return translated[1]+(translated[2]&&!/[（(](大|中|小|L|M|S)[）)]/.test(translated[1])?translated[2]:'');
+    return out || text;
+  }
+  function labelLines(text) {
+    const chars=Array.from(text), lines=[]; let line='',units=0;
+    for(const c of chars) {
+      const width=textUnits(c);
+      if(units+width>9 && line) {lines.push(line);line='';units=0;}
+      line+=c;units+=width;
+    }
+    if(line)lines.push(line);
+    if(lines.length>2) return [lines[0],Array.from(lines[1]).slice(0,-1).join('')+'…'];
+    return lines;
+  }
+  function layoutLabels(items, size, obstacles=[]) {
+    const [w,h]=size, occupied=obstacles.slice(), result=[];
+    const intersects=(a,b)=>a[0]<b[0]+b[2]+.25 && a[0]+a[2]+.25>b[0] && a[1]<b[1]+b[3]+.25 && a[1]+a[3]+.25>b[1];
+    const ordered=items.map((p,i)=>({...p,order:i})).sort((a,b)=>(a.priority??2)-(b.priority??2)||a.order-b.order);
+    for(const p of ordered) {
+      const fullText=String(p.text || ''), lines=labelLines(mapLabelText(fullText));
+      if(!lines.length)continue;
+      const variants=p.id.startsWith('zone-') ? [lines] : [lines,["点"+(p.order+1)]];
+      let best=null;
+      for(let variant=0;variant<variants.length;variant++) {
+        const ls=variants[variant], bw=Math.min(w,Math.max(...ls.map(textUnits))*1.95+1), bh=ls.length*2.45+.7;
+        const preferred=p.side||'r', sides=[preferred,...['r','l','t','b'].filter(s=>s!==preferred)];
+        for(const gap of [3.6,7,11,16,23,32,44]) for(const [si,side] of sides.entries()) for(const shift of [0,-4,4,-8,8,-16,16]) {
+          const [x,y]=p.at;
+          let bx=side==='r'?x+gap:side==='l'?x-gap-bw:x-bw/2+shift;
+          let by=side==='t'?y-gap-bh:side==='b'?y+gap:y-bh/2+shift;
+          bx=Math.max(.2,Math.min(w-bw-.2,bx));by=Math.max(.2,Math.min(h-bh-.2,by));
+          const box=[bx,by,bw,bh];
+          if(occupied.some(b=>intersects(box,b)))continue;
+          const score=Math.hypot(bx+bw/2-x,by+bh/2-y)+si*.65+Math.abs(shift)*.1;
+          if(!best || score<best.score)best={id:p.id,fullText,lines:ls,box,score,compact:variant===1,order:p.order};
+        }
+        if(best)break;
+      }
+      // Extremely crowded maps keep the icon and full directory entry, without overlaying unreadable text.
+      if(!best)best={id:p.id,fullText,lines:[],box:[p.at[0],p.at[1],0,0],compact:true,order:p.order};
+      else occupied.push(best.box);
+      result.push(best);
+    }
+    return result.sort((a,b)=>a.order-b.order);
+  }
   function entries(rid, loc, d) {
     const result = [], npcs = arr(loc.npcs), treasures = arr(loc.treasures), linked = new Set();
     arr(d.pois).forEach((p,i) => {
@@ -28495,9 +28588,9 @@ OT2.encounters = {
       const time = times.length && times.every(t => t === times[0]) ? times[0] : "all";
       const ownTime = /[/／]/.test(p.label || "") || (p.kind === "npc" && ns.length > 1 && time === "all") ? "all" : timeOf(/^(?:仅)?(?:白天|夜晚|日间|夜间)|仅(?:白天|夜晚)/.test(p.note || "") ? p.note : "", p.label);
       const category = p.kind === "exit" ? "exit" : p.kind.startsWith("chest") || p.kind === "hidden" ? "treasure" : p.kind === "npc" ? "npc" : facility.has(p.kind) ? "facility" : "landmark";
-      const label = p.label || ts.map(t => t.item).join("、") || ns.map(n => n.name).join("、") || labels[p.kind] || "要点";
+      const label = poiName(rid,loc,p);
       result.push({id:"poi-"+i,type:"poi",index:i,category,categories:[...new Set([category,...(ns.length ? ["npc"] : []),...(isNavigationAnchor(p) ? ["anchor"] : [])])],label,kind:p.kind,at:p.at,time:ownTime !== "all" ? ownTime : p.kind === "npc" ? time : "all",npcTime:ownTime !== "all" ? ownTime : time,
-        text:[label,p.note,p.to,...ns.flatMap(n => [n.name,n.item,n.method,n.note]),...ts.flatMap(t => [t.item,t.how])].filter(Boolean).join(" "),
+        text:["图点 "+(i+1),label,p.note,p.to,...ns.flatMap(n => [n.name,n.item,n.method,n.note]),...ts.flatMap(t => [t.item,t.how])].filter(Boolean).join(" "),
         note:p.note || ns.map(n => n.note).filter(Boolean).join("；") || (ts[0] && ts[0].how) || labels[p.kind] || "", data:p});
     });
     npcs.forEach((n,i) => {
@@ -28506,10 +28599,10 @@ OT2.encounters = {
         text:[n.name,n.item,n.method,n.note].filter(Boolean).join(" "),note:n.note || "具体位置尚未核实",data:n});
     });
     arr(d.paths).forEach((p,i) => {
-      const route=p.route || {}, number=String(i+1).padStart(2,"0"), connections=roadConnections(d,i);
+      const route=p.route || {}, number=String(i+1).padStart(2,"0"), connections=roadConnections(d,i), label=roadName(d,i,rid,loc);
       const note=route.from && route.to ? route.from+" → "+route.to : p.note || (connections.length ? "图上相接："+connections.map(n=>String(n+1).padStart(2,"0")).join("、") : "本段尚无逐步攻略");
-      result.push({id:"path-"+i,type:"path",index:i,number,category:"path",categories:["path"],label:p.label || (pathLabels[p.kind] || "道路"),kind:p.kind,
-        pts:p.pts,time:"all",text:[p.label,pathLabels[p.kind],p.note,route.from,route.to,...arr(route.steps),route.caution].filter(Boolean).join(" "),note,connections,data:p});
+      result.push({id:"path-"+i,type:"path",index:i,number,rid,location:loc,category:"path",categories:["path"],label,kind:p.kind,
+        pts:p.pts,time:"all",text:["道路 "+number,label,pathLabels[p.kind],p.note,route.from,route.to,...arr(route.steps),route.caution].filter(Boolean).join(" "),note,connections,data:p});
     });
     arr(d.junctions).forEach((j,i)=>result.push({id:"junction-"+i,type:"junction",index:i,category:"anchor",categories:["anchor"],kind:"junction",label:"岔路 "+j.label,at:j.at,time:"all",text:[j.label,j.note].join(" "),note:j.note,data:j}));
     arr(area(rid,loc.id)?.enemies).forEach((e,i) => result.push({id:"enemy-"+i,type:"enemy",index:i,category:"enemy",categories:["enemy"],label:e.name,kind:"enemy",time:e.time || "all",
@@ -28581,7 +28674,7 @@ OT2.encounters = {
     const score=at=>Math.min(20,...occupied.map(q=>Math.hypot(q[0]-at[0],q[1]-at[1])));
     return [.5,.3,.7,.18,.82].map(sample).sort((a,b)=>score(b)-score(a))[0];
   }
-  const roadLink=(d,i)=>`<button type="button" class="atlas-road-link" data-road-select="${i}">道路 ${String(i+1).padStart(2,"0")} · ${esc(d.paths[i].label || pathLabels[d.paths[i].kind] || "道路")}</button>`;
+  const roadLink=(d,i,rid,loc)=>`<button type="button" class="atlas-road-link" data-road-select="${i}">道路 ${String(i+1).padStart(2,"0")} · ${esc(roadName(d,i,rid,loc))}</button>`;
   function roadHtml(e,d) {
     const p=e.data || {},r=p.route || {};
     let h=`<div class="dpi-title"><b>道路 ${esc(e.number)} · ${esc(e.label)}</b><span>${esc(pathLabels[e.kind] || "道路")} · ${e.kind==='boat' ? (r.mode || "水路／航线") : e.kind==='ladder' ? "梯子上下换层" : "按图中路段通行"}</span></div>`;
@@ -28593,17 +28686,17 @@ OT2.encounters = {
       const refs=[...arr(d.pois).filter(q=>q.kind==='save'||isSignpost(q)),...arr(d.junctions).map(j=>({...j,label:'岔路 '+j.label}))].filter(q=>q.at&&onRoad(q.at,p,3));
       if(refs.length)h+=`<div class="atlas-route-refs"><b>沿线参照：</b>${refs.map(q=>esc(q.label||labels[q.kind])).join("、")}</div>`;
       const links=roadConnections(d,e.index);
-      if(links.length)h+=`<div class="atlas-route-links"><b>图上相接路段</b>${links.map(i=>roadLink(d,i)).join("")}</div>`;
+      if(links.length)h+=`<div class="atlas-route-links"><b>图上相接路段</b>${links.map(i=>roadLink(d,i,e.rid,e.location)).join("")}</div>`;
       h+=`<p class="muted">相接关系按当前示意图列出；上下层交叉不视为路口。方向按上述起点至终点描述，可原路折返。</p>`;
     }
     return h+`<div class="atlas-sources">${sourcesHtml(r.sources)}</div>`;
   }
-  function junctionHtml(j,d) {
-    return `<div class="dpi-title"><b>岔路 ${esc(j.label)}</b><span>攻略导航参照 · 非实体路牌</span></div><p>${esc(j.note || "")}</p><div class="atlas-route-links">${arr(j.roads).map(i=>roadLink(d,i)).join("")}</div>`;
+  function junctionHtml(j,d,rid,loc) {
+    return `<div class="dpi-title"><b>岔路 ${esc(j.label)}</b><span>攻略导航参照 · 非实体路牌</span></div><p>${esc(j.note || "")}</p><div class="atlas-route-links">${arr(j.roads).map(i=>roadLink(d,i,rid,loc)).join("")}</div>`;
   }
   function listHtml(list) {
     if (!list.length) return `<p class="atlas-empty">没有匹配的道路或要点。可清空搜索或切换分类／时段。</p>`;
-    return list.map(e=>`<button type="button" class="atlas-entry" data-atlas-entry="${esc(e.id)}"><span class="atlas-entry-kind">${esc(e.type === "path" ? "道路 "+e.number+" · "+(pathLabels[e.kind] || "道路") : e.type === "enemy" ? "区域遇敌" : e.type === "junction" ? "路口参照" : isSignpost(e.data) ? "路标" : labels[e.kind] || "要点")}</span><b>${esc(e.label)}</b><small>${esc(e.unplaced ? "未定位 · "+e.note : e.note)}</small></button>`).join("");
+    return list.map(e=>`<button type="button" class="atlas-entry" data-atlas-entry="${esc(e.id)}"><span class="atlas-entry-kind">${e.type==='poi'?'图点 '+(e.index+1)+' · ':''}${esc(e.type === "path" ? "道路 "+e.number+" · "+(pathLabels[e.kind] || "道路") : e.type === "enemy" ? "区域遇敌" : e.type === "junction" ? "路口参照" : isSignpost(e.data) ? "路标" : labels[e.kind] || "要点")}</span><b>${esc(e.label)}</b><small>${esc(e.unplaced ? "未定位 · "+e.note : e.note)}</small></button>`).join("");
   }
   function mount(options) {
     const {host,svg,rid,loc,d,onSelect,onZone,onReset} = options;
@@ -28642,7 +28735,7 @@ OT2.encounters = {
     update();
     return {refresh:update};
   }
-  window.OTAtlas = {entries,filter,bounds,pointsOf,area,categories,labels,pathLabels,esc,enemyHtml,encounterHtml,listHtml,sourcesHtml,timeOf,mount,roadHtml,roadConnections,roadBadgePoint,junctionHtml,isSignpost,isNavigationAnchor};
+  window.OTAtlas = {entries,filter,bounds,pointsOf,area,categories,labels,pathLabels,esc,enemyHtml,encounterHtml,listHtml,sourcesHtml,timeOf,mount,roadHtml,roadConnections,roadBadgePoint,junctionHtml,isSignpost,isNavigationAnchor,poiName,roadName,layoutLabels};
 })();
 
 </script>
@@ -28813,7 +28906,7 @@ OT2.encounters = {
   const shortItem = (s) => String(s || "").replace(/^隐藏物[:：]\s*/, "").replace(/[（(].*?[)）]/g, "").split(/[、，,]/)[0].trim().slice(0, 12);
 
   // ---------------- 绘制 ----------------
-  function drawZones(g, d, th, mini) {
+  function drawZones(g, d, th, mini, deferLabels) {
     arr(d.zones).forEach((z) => {
       const st = ZONES[z.kind] || ZONES.room;
       const attrs = { class: "dz dz-" + (z.kind || "room"), fill: st.fill, stroke: mini ? "none" : st.stroke, "stroke-width": 0.35 };
@@ -28828,7 +28921,7 @@ OT2.encounters = {
       }
       if (!shape || mini) return;
       if (z.kind === "building" || z.kind === "house") shape.setAttribute("filter", "url(#dpShadow)");
-      if (z.label) {
+      if (z.label && !deferLabels) {
         const onB = z.kind === "building" || z.kind === "house";
         const corner = !onB && Array.isArray(z.rect) && !z.labelAt;
         const top = onB && Array.isArray(z.rect) && !z.labelAt;
@@ -28939,13 +29032,7 @@ OT2.encounters = {
         t.textContent = b[0];
       }
     }
-    const label = poiLabel(p, ctx);
-    if (label) {
-      const lp = p.lp || (p.kind === "exit" ? exitLabelSide(p, ctx.size) : "r");
-      const off = { r: [3, 0.75, "start"], l: [-3, 0.75, "end"], t: [0, -2.9, "middle"], b: [0, 4.3, "middle"] }[lp] || [3, 0.75, "start"];
-      const t = el("text", { x: off[0], y: off[1], "text-anchor": off[2], class: "dp-label" + (p.kind === "exit" ? " exit" : ""), fill: p.kind === "exit" ? (th.dark ? "#bff0c9" : "#1f5c32") : th.ink, stroke: th.halo }, gp);
-      t.textContent = label;
-    }
+    const title=el("title",{},gp);title.textContent=poiLabel(p,ctx);
     gp.addEventListener("mouseenter", () => showInfo(p, ctx, false));
     gp.addEventListener("keydown", (e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); gp.dispatchEvent(new MouseEvent("click", { bubbles: true })); } });
     gp.addEventListener("mouseleave", () => { if (!ctx.pinned) hideInfo(); });
@@ -28966,11 +29053,35 @@ OT2.encounters = {
     return "r";
   }
   function poiLabel(p, ctx) {
-    if (p.label) return p.label;
-    if (p.kind === "exit") { const t = parseTo(ctx.rid, p.to); return t ? "往 " + t.loc.name : "出口"; }
-    const trs = arr(p.tr).map((i) => ctx.loc.treasures[i]).filter(Boolean);
-    if (trs.length) return shortItem(trs[0].item) + (trs.length > 1 ? " 等" : "");
-    return "";
+    return window.OTAtlas.poiName(ctx.rid,ctx.loc,p);
+  }
+  function drawMapLabels(g,ctx) {
+    const A=window.OTAtlas, items=[], targets=new Map();
+    const obstacles=arr(ctx.d.pois).filter(p=>p.at).map(p=>[p.at[0]-2.6,p.at[1]-2.6,5.2,5.2]).concat(ctx.labelObstacles);
+    ctx.poiEls.forEach(({p,g:parent})=>{
+      const id="poi-"+ctx.d.pois.indexOf(p);
+      items.push({id,at:p.at,text:poiLabel(p,ctx),side:p.lp || (p.kind==='exit'?exitLabelSide(p,ctx.size):'r'),
+        priority:A.isNavigationAnchor(p)?0:p.kind==='boss'?1:p.kind==='npc'?3:p.kind.startsWith('chest')||p.kind==='hidden'?4:2});
+      targets.set(id,{parent,at:p.at,p});
+    });
+    arr(ctx.d.zones).filter(z=>z.label).forEach((z,i)=>{
+      // A facility icon already names its building; keep the directory's building selector.
+      const at=zoneCenter(z);
+      if(ctx.d.pois.some(p=>p.label?.split(/[（(]/)[0]===z.label && p.at && (z.rect ? p.at[0]>=z.rect[0]-3 && p.at[0]<=z.rect[0]+z.rect[2]+3 && p.at[1]>=z.rect[1]-3 && p.at[1]<=z.rect[1]+z.rect[3]+3 : Math.hypot(p.at[0]-at[0],p.at[1]-at[1])<5)))return;
+      const id="zone-"+i;items.push({id,at,text:z.label,side:'t',priority:5});targets.set(id,{parent:g,at:[0,0],origin:at});
+    });
+    // Stable data order makes compact labels match the directory's 图点 numbers.
+    items.sort((a,b)=>a.id.startsWith('poi-')&&b.id.startsWith('poi-')?Number(a.id.slice(4))-Number(b.id.slice(4)):a.id.startsWith('poi-')?-1:b.id.startsWith('poi-')?1:0);
+    ctx.labelLayout=A.layoutLabels(items,ctx.size,obstacles);
+    ctx.labelLayout.forEach(l=>{
+      const target=targets.get(l.id), {parent,at,p}=target;
+      if(!l.lines.length)return;
+      const [x,y,w,h]=l.box, origin=p?p.at:target.origin;
+      const end=[Math.max(x,Math.min(x+w,origin[0])),Math.max(y,Math.min(y+h,origin[1]))];
+      if(Math.hypot(end[0]-origin[0],end[1]-origin[1])>5)el('path',{d:`M${origin[0]-at[0]},${origin[1]-at[1]}L${end[0]-at[0]},${end[1]-at[1]}`,class:'dp-label-leader',stroke:ctx.th.ink},parent);
+      const text=el('text',{x:x+.5-at[0],y:y+2.05-at[1],class:'dp-label'+(p?.kind==='exit'?' exit':''),fill:p?.kind==='exit'?(ctx.th.dark?'#bff0c9':'#1f5c32'):ctx.th.ink,stroke:ctx.th.halo,'data-map-label':l.id},parent);
+      l.lines.forEach((line,i)=>{const span=el('tspan',{x:x+.5-at[0],dy:i?2.45:0},text);span.textContent=line;});
+    });
   }
   function refreshChestStates(ctx) {
     ctx.poiEls.forEach(({ p, g }) => {
@@ -28980,7 +29091,7 @@ OT2.encounters = {
   }
 
   function infoHtml(p, ctx) {
-    let h = `<div class="dpi-title"><b>${esc(poiLabel(p, ctx) || KIND_LABEL[p.kind] || "")}</b><span>${esc(KIND_LABEL[p.kind] || p.kind)}</span></div>`;
+    let h = `<div class="dpi-title"><b>${esc(poiLabel(p, ctx) || KIND_LABEL[p.kind] || "")}</b><span>图点 ${ctx.d.pois.indexOf(p)+1} · ${esc(KIND_LABEL[p.kind] || p.kind)}</span></div>`;
     if (p.kind === "exit") {
       const t = parseTo(ctx.rid, p.to);
       if (t) h += `<div>通往 <a data-dp-go="${esc(t.rid)}/${esc(t.lid)}">${esc(t.loc.name)}</a>${t.rid !== ctx.rid ? `（${esc(t.region.name)}）` : ""} · 点击图标前往</div>`;
@@ -29017,7 +29128,8 @@ OT2.encounters = {
     const used=[];
     arr(ctx.d.paths).forEach((p,i)=>{
       const at=A.roadBadgePoint(p,[...arr(ctx.d.pois),...arr(ctx.d.junctions)],used);used.push(at);
-      const b=el("g",{class:"dp-road-badge",transform:`translate(${at[0]},${at[1]})`,tabindex:0,role:"button","aria-label":`道路 ${String(i+1).padStart(2,"0")} · ${p.label || PATH_LABEL[p.kind] || "道路"}`,"data-road-index":i},g);
+      ctx.labelObstacles.push([at[0]-2.2,at[1]-2.2,4.4,4.4]);
+      const b=el("g",{class:"dp-road-badge",transform:`translate(${at[0]},${at[1]})`,tabindex:0,role:"button","aria-label":`道路 ${String(i+1).padStart(2,"0")} · ${A.roadName(ctx.d,i,ctx.rid,ctx.loc)}`,"data-road-index":i},g);
       el("circle",{r:3.2,fill:"transparent",stroke:"none",class:"road-hit"},b);
       el("circle",{r:1.9,class:"road-disc"},b);
       const t=el("text",{y:.7,"text-anchor":"middle"},b);t.textContent=String(i+1).padStart(2,"0");
@@ -29027,6 +29139,7 @@ OT2.encounters = {
     arr(ctx.d.junctions).forEach((j,i)=>{
       const b=el("g",{class:"dp-junction",transform:`translate(${j.at[0]},${j.at[1]})`,tabindex:0,role:"button","aria-label":"岔路 "+j.label,"data-atlas-anchor":"true","data-atlas-poi":"junction-"+i},g);
       const offset=j.labelAt ? [j.labelAt[0]-j.at[0],j.labelAt[1]-j.at[1]] : [0,0];
+      ctx.labelObstacles.push([j.at[0]+offset[0]-2,j.at[1]+offset[1]-2,4,4]);
       if(offset[0]||offset[1]) el("path",{d:`M0,0L${offset[0]},${offset[1]}`,stroke:"#244a66","stroke-width":.45},b);
       const bubble=el("g",{transform:`translate(${offset[0]},${offset[1]})`},b);
       el("circle",{r:1.7},bubble);const t=el("text",{y:.65,"text-anchor":"middle"},bubble);t.textContent=j.label;
@@ -29036,6 +29149,7 @@ OT2.encounters = {
     });
     arr(ctx.d.crossings).forEach(c=>{
       const b=el("g",{class:"dp-crossing","pointer-events":"none"},g),at=c.labelAt||[c.at[0]+4,c.at[1]+5];
+      ctx.labelObstacles.push([at[0]-c.note.length*.75,at[1]-1.5,c.note.length*1.5,2]);
       el("path",{d:`M${c.at[0]},${c.at[1]}L${at[0]},${at[1]-1}`,fill:"none"},b);
       const t=el("text",{x:at[0],y:at[1],"text-anchor":"middle"},b);t.textContent=c.note;
     });
@@ -29060,14 +29174,15 @@ OT2.encounters = {
     el("rect", { x: -400, y: -400, width: w + 800, height: h + 800, fill: th.dark ? "#14110e" : "#5b4a33", opacity: 0.0 }, svg);
     el("rect", { x: 0, y: 0, width: w, height: h, rx: 2.5, fill: th.bg, stroke: th.dark ? "#000" : "#6b5434", "stroke-width": 0.5 }, svg);
     el("rect", { x: 0, y: 0, width: w, height: h, rx: 2.5, fill: "url(#dpGrain)" }, svg);
-    const ctx = { rid, loc, d, th, size, poiEls: [], pinned: null };
+    const ctx = { rid, loc, d, th, size, poiEls: [], labelObstacles:[], pinned: null };
     const g = el("g", {}, svg);
-    drawZones(el("g", { class: "dp-zones" }, g), d, th, false);
+    drawZones(el("g", { class: "dp-zones" }, g), d, th, false, true);
     drawPaths(el("g", { class: "dp-paths" }, g), d, th, false);
     drawRoadGuides(el("g",{class:"dp-road-guides"},g),ctx);
     const pg = el("g", { class: "dp-pois" }, g);
     const order = { exit: 0, save: 1, boss: 9 };
     arr(d.pois).filter((p) => Array.isArray(p.at)).sort((a, b) => (order[a.kind] || 5) - (order[b.kind] || 5)).forEach((p) => drawPoi(pg, p, ctx));
+    drawMapLabels(el('g',{class:'dp-zone-labels','pointer-events':'none'},g),ctx);
     // 指北针
     const cg = el("g", { transform: `translate(${w + 5},5)`, class: "dp-compass" }, svg);
     el("circle", { r: 2.9, fill: "rgba(10,25,45,.6)", stroke: "#c9a24a", "stroke-width": 0.3 }, cg);
@@ -29203,7 +29318,7 @@ OT2.encounters = {
       svg.querySelector(`[data-road-index="${entry.index}"]`)?.classList.add("sel");
     } else if (entry.type === "junction") {
       cur.vb=A.bounds(entry,ctx.size);applyVb();
-      info.innerHTML=A.junctionHtml(entry.data,ctx.d);
+      info.innerHTML=A.junctionHtml(entry.data,ctx.d,ctx.rid,ctx.loc);
     } else if (entry.type === "enemy") {
       cur.vb=cur.home.slice();applyVb();
       info.innerHTML=A.enemyHtml(entry.data,A.area(cur.rid,ctx.loc.id));
@@ -29222,7 +29337,7 @@ OT2.encounters = {
   function buildLegend(ctx) {
     const kinds = [...new Set(arr(ctx.d.pois).map((p) => p.kind))];
     const pk = [...new Set(arr(ctx.d.paths).map((p) => (PATH_W[p.kind] ? p.kind : "minor")))];
-    legendBox.innerHTML = `<b>本图图例</b><div>数字圆标：道路编号（可点选）</div><div>字母圆标：攻略岔路参照</div><div>「牌」图标：攻略确认的路标</div>` +
+    legendBox.innerHTML = `<b>本图图例</b><div>数字圆标：道路编号（可点选）</div><div>字母圆标：攻略岔路参照</div><div>点N：对应目录的图点N，点选查看完整说明</div><div>「牌」图标：攻略确认的路标</div>` +
       pk.map((k) => `<div><i class="lg-path lg-${k}"></i>${PATH_LABEL[k]}</div>`).join("") +
       kinds.map((k) => `<div><i class="lg-poi">${k === "exit" ? "➜" : k.startsWith("chest") ? "▣" : k === "hidden" ? "✦" : k === "save" ? "◆" : k === "boss" ? "♛" : (BADGE[k] || BADGE.landmark)[0]}</i>${KIND_LABEL[k] || k}</div>`).join("");
   }
@@ -29238,7 +29353,7 @@ OT2.encounters = {
     cur = { rid, lid, d, home: [-pad, -pad, w + pad * 2 + 8, h + pad * 2] };
     cur.vb = cur.home.slice();
     cur.entries=window.OTAtlas ? window.OTAtlas.entries(rid,loc,d) : [];
-    cur.roadMode=loc.type==="field"?"number":"text";
+    cur.roadMode="number";
     cur.ctx = buildDetailSvg(rid, loc, d);
     applyVb();syncRoadLabels();
     titleEl.textContent = loc.name;
